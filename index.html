@@ -31,8 +31,6 @@ button:hover{background:#e8ece9}
 .band b{font-size:1.05rem}
 .band span{font-size:.9rem}
 .note{color:var(--muted);font-size:.9rem;margin:14px 0 0;max-width:62ch}
-.resource{background:#fff8e5;border-left:3px solid #b98222;padding:8px 10px;font-size:.82rem;margin:8px 0}
-.specimen-note{font-size:.78rem;color:var(--muted);margin:4px 0 8px}
 .count{font-weight:600;margin:0 0 12px}
 .card{background:var(--card);border:1px solid var(--line);border-left:8px solid var(--c);border-radius:6px;padding:14px 16px;margin-bottom:12px}
 .card h2{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:1.15rem;margin:0 0 4px}
@@ -42,10 +40,11 @@ button:hover{background:#e8ece9}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
 .tag{font-size:.8rem;padding:2px 9px;border-radius:99px;border:1px solid var(--line);background:#f7f9f8}
 .tag i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;background:var(--c)}
-.shot{display:block;max-width:100%;height:auto;border:1px solid var(--line);border-radius:4px;background:#fff}
+.shot{cursor:zoom-in;display:block;max-width:100%;height:auto;border:1px solid var(--line);border-radius:4px;background:#fff}
 details{margin-top:10px}
 summary{cursor:pointer;font-weight:600;font-size:.92rem;color:var(--focus);padding:4px 0}
 details .shot{margin-top:6px}
+.note2{font-size:.88rem;background:#fff6e0;border:1px solid #e3cf9c;border-radius:6px;padding:6px 10px;margin:0 0 10px}
 .err,.empty{background:#fff;border:1px solid var(--line);border-radius:6px;padding:16px}
 footer{margin-top:36px;font-size:.8rem;color:var(--muted);max-width:70ch}
 </style>
@@ -187,15 +186,25 @@ function card(x) {
   return `<article class="card" style="--c:${c}">
     <h2>Question ${esc(x.question)} <small>${x.marks} ${x.marks === 1 ? 'mark' : 'marks'}</small></h2>
     <div class="paper">${esc(p.series)} ${p.year}, ${esc(p.unit)} (${esc(p.code)}), printed page ${x.page}</div>
-    ${p.resourcesNote ? `<p class="resource">${esc(p.resourcesNote)}${(p.resources || []).map(r => `<br><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.label)}</a>`).join('')}</p>` : ''}
     <p>${esc(x.summary)}</p>
-    ${x.needsPhysicalSpecimen ? '<p class="specimen-note">Needs the physical specimen to complete fully.</p>' : ''}
+    ${x.note ? `<p class="note2">${esc(x.note)}</p>` : ''}
     <div class="tags">${tags}</div>
     <img class="shot" loading="lazy" src="${esc(x.image)}" alt="Screenshot of question ${esc(x.question)} from the ${p.year} ${esc(p.series)} paper. ${esc(x.summary)}">
-    ${(x.figures || []).map(f => `<details><summary>${f.includes('datasheet') ? 'Mineral data sheet' : 'Figures for this question'}</summary><img class="shot" loading="lazy" src="${esc(f)}" alt="${f.includes('datasheet') ? 'Mineral data sheet' : 'Figures for question ' + esc(x.question) + ' from the ' + p.year + ' ' + esc(p.series) + ' paper'}"></details>`).join('')}
+    ${(x.figures || []).map(f => `<details><summary>${figLabel(f)}</summary><img class="shot" loading="lazy" src="${esc(f)}" alt="${f.includes('datasheet') ? 'Mineral data sheet' : 'Figures for question ' + esc(x.question) + ' from the ' + p.year + ' ' + esc(p.series) + ' paper'}"></details>`).join('')}
     ${x.markscheme ? `<details><summary>Show mark scheme</summary><img class="shot" loading="lazy" src="${esc(x.markscheme)}" alt="Mark scheme for question ${esc(x.question)} from the ${p.year} ${esc(p.series)} paper"></details>` : ''}
   </article>`;
 }
+
+function figLabel(f) {
+  if (f.includes('datasheet')) return 'Mineral data sheet';
+  if (f.includes('map1')) return 'Map 1 (Resource Sheet)';
+  if (f.includes('photos')) return 'Photographs 1 and 2 (Resource Sheet)';
+  return 'Figures for this question';
+}
+document.addEventListener('click', e => {
+  const i = e.target.closest('img.shot');
+  if (i) window.open(i.src, '_blank', 'noopener');
+});
 </script>
 </body>
 </html>

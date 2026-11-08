@@ -93,26 +93,15 @@
       "duration": "1 hour"
     },
     {
-      "id": "2023-summer-as-geology-component-1",
-      "year": 2023,
+      "id": "2022-summer-c1",
+      "year": 2022,
       "series": "Summer",
-      "date": "2023-05-15",
+      "date": "2022-05-16",
       "code": "B480U10-1",
       "unit": "AS Component 1: Geological Enquiries",
       "spec": "current",
       "totalMarks": 60,
-      "duration": "1 hour 30 minutes",
-      "resourcesNote": "The separate Photographs of Specimens Sheet (1P) was not supplied. Cards that need a physical sample are marked below.",
-      "resources": [
-        {
-          "label": "Summer 2023 Component 1 Resource Sheet",
-          "url": "https://pastpapers.download.wjec.co.uk/S23/s23-B480U10-1A.pdf"
-        },
-        {
-          "label": "Mineral Data Sheet (GL1/GL2)",
-          "url": "https://resource.download.wjec.co.uk/vtc/2008-09/geology/geology_website/wjec/wjec_examination_guidance_materials/mineral_data_sheet_gl1_gl2.pdf"
-        }
-      ]
+      "duration": "1 hour 30 minutes"
     }
   ],
   "questions": [
@@ -2077,398 +2066,356 @@
       "markscheme": "img/2019-summer-gl1/ms-q4biv.jpg"
     },
     {
-      "id": "2023-summer-as-geology-component-1-q1ai",
-      "paper": "2023-summer-as-geology-component-1",
+      "id": "2022-summer-c1-q1ai",
+      "paper": "2022-summer-c1",
       "question": "1(a)(i)",
-      "marks": 3,
+      "marks": 1,
       "page": 2,
       "topics": [
-        "2.1"
+        "2.2"
       ],
       "skills": [
-        "practical"
+        "map"
       ],
-      "summary": "Draw the texture of Specimen C to scale.",
-      "image": "img/2023-summer-as-geology-component-1/q1ai.jpg",
+      "summary": "State one piece of evidence from Map 1 that Rock Unit A is a pluton.",
+      "image": "img/2022-summer-c1/q1ai.jpg",
       "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+        "img/2022-summer-c1/map1.jpg"
       ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q1ai.jpg",
-      "needsPhysicalSpecimen": true
+      "markscheme": "img/2022-summer-c1/ms-q1ai.jpg"
     },
     {
-      "id": "2023-summer-as-geology-component-1-q1aii",
-      "paper": "2023-summer-as-geology-component-1",
+      "id": "2022-summer-c1-q1aii",
+      "paper": "2022-summer-c1",
       "question": "1(a)(ii)",
       "marks": 1,
       "page": 2,
       "topics": [
-        "2.1",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Suggest one other piece of evidence to investigate in the field that could support Rock Unit A being a pluton.",
+      "image": "img/2022-summer-c1/q1aii.jpg",
+      "figures": [
+        "img/2022-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-c1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2022-summer-c1-q1b",
+      "paper": "2022-summer-c1",
+      "question": "1(b)",
+      "marks": 4,
+      "page": 2,
+      "topics": [
         "1.1"
       ],
       "skills": [
         "practical"
       ],
-      "summary": "Identify Specimen C, an example of Rock Unit C.",
-      "image": "img/2023-summer-as-geology-component-1/q1aii.jpg",
+      "summary": "Complete a table explaining how to distinguish quartz from feldspar and feldspar from mica using tests and observations.",
+      "image": "img/2022-summer-c1/q1b.jpg",
       "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+        "img/2016-summer-gl1/datasheet.jpg"
       ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q1aii.jpg",
-      "needsPhysicalSpecimen": true
+      "markscheme": "img/2022-summer-c1/ms-q1b.jpg"
     },
     {
-      "id": "2023-summer-as-geology-component-1-q1b",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "1(b)",
-      "marks": 3,
-      "page": 2,
+      "id": "2022-summer-c1-q1ci",
+      "paper": "2022-summer-c1",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 3,
       "topics": [
-        "2.1"
+        "2.2"
       ],
-      "skills": [],
-      "summary": "Describe the depositional environment of Specimen C.",
-      "image": "img/2023-summer-as-geology-component-1/q1b.jpg",
+      "skills": [
+        "map"
+      ],
+      "summary": "State two pieces of evidence from Map 1 that Rock Unit B is a dyke.",
+      "image": "img/2022-summer-c1/q1ci.jpg",
       "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+        "img/2022-summer-c1/map1.jpg"
       ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q1b.jpg",
-      "needsPhysicalSpecimen": true
+      "markscheme": "img/2022-summer-c1/ms-q1ci.jpg"
     },
     {
-      "id": "2023-summer-as-geology-component-1-q2a",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "2(a)",
-      "marks": 3,
+      "id": "2022-summer-c1-q1cii",
+      "paper": "2022-summer-c1",
+      "question": "1(c)(ii)",
+      "marks": 1,
       "page": 3,
       "topics": [
         "1.1",
         "2.2"
       ],
-      "skills": [
-        "practical"
-      ],
-      "summary": "Identify Specimen B and give two pieces of evidence.",
-      "image": "img/2023-summer-as-geology-component-1/q2a.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q2a.jpg",
-      "needsPhysicalSpecimen": true
+      "skills": [],
+      "summary": "Name one mineral that supports Rock Unit B being a mafic rock.",
+      "image": "img/2022-summer-c1/q1cii.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-c1/ms-q1cii.jpg"
     },
     {
-      "id": "2023-summer-as-geology-component-1-q2b",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "2(b)",
-      "marks": 4,
+      "id": "2022-summer-c1-q1ciii",
+      "paper": "2022-summer-c1",
+      "question": "1(c)(iii)",
+      "marks": 2,
       "page": 3,
       "topics": [
         "2.2",
-        "2.3"
+        "4.2"
       ],
-      "skills": [
-        "map"
-      ],
-      "summary": "Evaluate whether Rock Units A and B formed in the same intrusive event, using the specimen, photograph and map.",
-      "image": "img/2023-summer-as-geology-component-1/q2b.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
-        "img/2023-summer-as-geology-component-1/fig-photograph1.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q2b.jpg",
-      "needsPhysicalSpecimen": true
+      "skills": [],
+      "summary": "Explain why Rock Unit B may have originated from partial melting of peridotite.",
+      "image": "img/2022-summer-c1/q1ciii.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-c1/ms-q1ciii.jpg"
     },
     {
-      "id": "2023-summer-as-geology-component-1-q3ai",
-      "paper": "2023-summer-as-geology-component-1",
+      "id": "2022-summer-c1-q1di",
+      "paper": "2022-summer-c1",
+      "question": "1(d)(i)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the interquartile range of crystal sizes in Rock Unit A from a table of data.",
+      "image": "img/2022-summer-c1/q1di.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-c1/ms-q1di.jpg"
+    },
+    {
+      "id": "2022-summer-c1-q1dii",
+      "paper": "2022-summer-c1",
+      "question": "1(d)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Use the crystal size data to explain evidence that Rock Unit A cooled in two stages.",
+      "image": "img/2022-summer-c1/q1dii.jpg",
+      "figures": [
+        "img/2022-summer-c1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2022-summer-c1/ms-q1dii.jpg"
+    },
+    {
+      "id": "2022-summer-c1-q1diii",
+      "paper": "2022-summer-c1",
+      "question": "1(d)(iii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Evaluate how effective the interquartile range and standard deviation are at describing the crystal size distribution.",
+      "image": "img/2022-summer-c1/q1diii.jpg",
+      "figures": [
+        "img/2022-summer-c1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2022-summer-c1/ms-q1diii.jpg"
+    },
+    {
+      "id": "2022-summer-c1-q2a",
+      "paper": "2022-summer-c1",
+      "question": "2(a)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Draw the texture of Specimen D on a circle at the scale provided.",
+      "image": "img/2022-summer-c1/q2a.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-c1/ms-q2a.jpg",
+      "note": "This question uses Specimen D, a physical rock sample that is not included here."
+    },
+    {
+      "id": "2022-summer-c1-q2b",
+      "paper": "2022-summer-c1",
+      "question": "2(b)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name the rock forming Specimen D and give two pieces of evidence.",
+      "image": "img/2022-summer-c1/q2b.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-c1/ms-q2b.jpg",
+      "note": "This question uses Specimen D, a physical rock sample that is not included here."
+    },
+    {
+      "id": "2022-summer-c1-q3ai",
+      "paper": "2022-summer-c1",
       "question": "3(a)(i)",
       "marks": 3,
-      "page": 4,
+      "page": 6,
       "topics": [
         "3.1"
       ],
       "skills": [
-        "practical"
+        "practical",
+        "maths"
       ],
-      "summary": "Draw the internal view of Specimen L to scale.",
-      "image": "img/2023-summer-as-geology-component-1/q3ai.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3ai.jpg",
-      "needsPhysicalSpecimen": true
+      "summary": "Draw the cephalon of Specimen E to the scale provided.",
+      "image": "img/2022-summer-c1/q3ai.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-c1/ms-q3ai.jpg",
+      "note": "This question uses Specimen E, a plaster cast of a trilobite that is not included here."
     },
     {
-      "id": "2023-summer-as-geology-component-1-q3aii",
-      "paper": "2023-summer-as-geology-component-1",
+      "id": "2022-summer-c1-q3aii",
+      "paper": "2022-summer-c1",
       "question": "3(a)(ii)",
       "marks": 1,
-      "page": 4,
+      "page": 6,
       "topics": [
         "3.1"
       ],
       "skills": [
         "practical"
       ],
-      "summary": "Label a muscle scar on Figure 3a.",
-      "image": "img/2023-summer-as-geology-component-1/q3aii.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
-        "img/2023-summer-as-geology-component-1/fig-q3a.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3aii.jpg",
-      "needsPhysicalSpecimen": true
+      "summary": "Label the glabella on the drawing of the fossil.",
+      "image": "img/2022-summer-c1/q3aii.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-c1/ms-q3aii.jpg",
+      "note": "This question uses Specimen E, a plaster cast of a trilobite that is not included here."
     },
     {
-      "id": "2023-summer-as-geology-component-1-q3aiii",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "3(a)(iii)",
-      "marks": 1,
-      "page": 4,
-      "topics": [
-        "3.1"
-      ],
-      "skills": [
-        "practical"
-      ],
-      "summary": "Label the pallial sinus on Figure 3a.",
-      "image": "img/2023-summer-as-geology-component-1/q3aiii.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
-        "img/2023-summer-as-geology-component-1/fig-q3a.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3aiii.jpg",
-      "needsPhysicalSpecimen": true
-    },
-    {
-      "id": "2023-summer-as-geology-component-1-q3bi",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "3(b)(i)",
-      "marks": 2,
-      "page": 5,
-      "topics": [
-        "3.1"
-      ],
-      "skills": [
-        "maths"
-      ],
-      "summary": "Draw a histogram of the bivalve fossil lengths.",
-      "image": "img/2023-summer-as-geology-component-1/q3bi.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
-        "img/2023-summer-as-geology-component-1/fig-q3-table.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3bi.jpg",
-      "needsPhysicalSpecimen": false
-    },
-    {
-      "id": "2023-summer-as-geology-component-1-q3bii",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "3(b)(ii)",
-      "marks": 1,
-      "page": 5,
-      "topics": [
-        "3.1"
-      ],
-      "skills": [
-        "maths"
-      ],
-      "summary": "State the modal group for the bivalve fossil lengths.",
-      "image": "img/2023-summer-as-geology-component-1/q3bii.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
-        "img/2023-summer-as-geology-component-1/fig-q3-table.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3bii.jpg",
-      "needsPhysicalSpecimen": false
-    },
-    {
-      "id": "2023-summer-as-geology-component-1-q3biii",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "3(b)(iii)",
+      "id": "2022-summer-c1-q3b",
+      "paper": "2022-summer-c1",
+      "question": "3(b)",
       "marks": 4,
-      "page": 5,
+      "page": 6,
       "topics": [
         "3.1"
       ],
       "skills": [
-        "maths"
+        "practical"
       ],
-      "summary": "Evaluate the reliability of the conclusion that the fossils form a life assemblage.",
-      "image": "img/2023-summer-as-geology-component-1/q3biii.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
-        "img/2023-summer-as-geology-component-1/fig-q3-table.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3biii.jpg",
-      "needsPhysicalSpecimen": false
+      "summary": "Choose which of three structures was most likely formed by the activity of the fossil, and justify the choice.",
+      "image": "img/2022-summer-c1/q3b.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-c1/ms-q3b.jpg",
+      "note": "This question uses Specimen E, a plaster cast of a trilobite that is not included here."
     },
     {
-      "id": "2023-summer-as-geology-component-1-q4a",
-      "paper": "2023-summer-as-geology-component-1",
+      "id": "2022-summer-c1-q4a",
+      "paper": "2022-summer-c1",
       "question": "4(a)",
-      "marks": 3,
-      "page": 6,
-      "topics": [
-        "1.1"
-      ],
-      "skills": [
-        "practical"
-      ],
-      "summary": "Describe the diagnostic tests for Specimen N and their results.",
-      "image": "img/2023-summer-as-geology-component-1/q4a.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q4a.jpg",
-      "needsPhysicalSpecimen": true
-    },
-    {
-      "id": "2023-summer-as-geology-component-1-q4b",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "4(b)",
       "marks": 1,
-      "page": 6,
-      "topics": [
-        "1.1"
-      ],
-      "skills": [
-        "practical"
-      ],
-      "summary": "Identify Specimen N.",
-      "image": "img/2023-summer-as-geology-component-1/q4b.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q4b.jpg",
-      "needsPhysicalSpecimen": true
-    },
-    {
-      "id": "2023-summer-as-geology-component-1-q5a",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "5(a)",
-      "marks": 3,
       "page": 8,
       "topics": [
-        "2.2"
-      ],
-      "skills": [
-        "maths"
-      ],
-      "summary": "Describe how mean crystal size changes along transect P–Q.",
-      "image": "img/2023-summer-as-geology-component-1/q5a.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
-        "img/2023-summer-as-geology-component-1/fig-q5.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q5a.jpg",
-      "needsPhysicalSpecimen": false
-    },
-    {
-      "id": "2023-summer-as-geology-component-1-q5b",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "5(b)",
-      "marks": 3,
-      "page": 8,
-      "topics": [
-        "2.2"
-      ],
-      "skills": [
-        "practical"
-      ],
-      "summary": "Explain how the crystal-size data may have been collected, referring to sampling methods.",
-      "image": "img/2023-summer-as-geology-component-1/q5b.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
-        "img/2023-summer-as-geology-component-1/fig-q5.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q5b.jpg",
-      "needsPhysicalSpecimen": false
-    },
-    {
-      "id": "2023-summer-as-geology-component-1-q5c",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "5(c)",
-      "marks": 6,
-      "page": 9,
-      "topics": [
-        "2.2"
-      ],
-      "skills": [
-        "maths",
-        "map"
-      ],
-      "summary": "Explain crystal-size changes along transect P–Q using Figure 5 and Map 1.",
-      "image": "img/2023-summer-as-geology-component-1/q5c.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
-        "img/2023-summer-as-geology-component-1/fig-q5.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q5c.jpg",
-      "needsPhysicalSpecimen": false
-    },
-    {
-      "id": "2023-summer-as-geology-component-1-q6a",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "6(a)",
-      "marks": 4,
-      "page": 10,
-      "topics": [
-        "2.3"
-      ],
-      "skills": [
-        "map"
-      ],
-      "summary": "Compare Faults F1 and F2 using the table.",
-      "image": "img/2023-summer-as-geology-component-1/q6a.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q6a.jpg",
-      "needsPhysicalSpecimen": false
-    },
-    {
-      "id": "2023-summer-as-geology-component-1-q6b",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "6(b)",
-      "marks": 2,
-      "page": 10,
-      "topics": [
-        "2.3"
-      ],
-      "skills": [
-        "maths",
-        "map"
-      ],
-      "summary": "Calculate the displacement of Fault F2.",
-      "image": "img/2023-summer-as-geology-component-1/q6b.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
-      ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q6b.jpg",
-      "needsPhysicalSpecimen": false
-    },
-    {
-      "id": "2023-summer-as-geology-component-1-q7",
-      "paper": "2023-summer-as-geology-component-1",
-      "question": "7",
-      "marks": 12,
-      "page": 11,
-      "topics": [
-        "2.2",
         "2.3",
         "3.2"
       ],
       "skills": [
         "map"
       ],
-      "summary": "Complete the geological cross-section using the topographic profile and Map 1; show rock units, structures and cross-cutting relationships.",
-      "image": "img/2023-summer-as-geology-component-1/q7.jpg",
-      "figures": [
-        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+      "summary": "Label an unconformity on a geological map of an area.",
+      "image": "img/2022-summer-c1/q4a.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-c1/ms-q4a.jpg"
+    },
+    {
+      "id": "2022-summer-c1-q4b",
+      "paper": "2022-summer-c1",
+      "question": "4(b)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "2.2"
       ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q7.jpg",
-      "needsPhysicalSpecimen": false
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name the rock in a hand specimen photograph and photomicrograph, and give two pieces of evidence.",
+      "image": "img/2022-summer-c1/q4b.jpg",
+      "figures": [
+        "img/2022-summer-c1/photos.jpg",
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2022-summer-c1/ms-q4b.jpg"
+    },
+    {
+      "id": "2022-summer-c1-q4c",
+      "paper": "2022-summer-c1",
+      "question": "4(c)",
+      "marks": 6,
+      "page": 9,
+      "topics": [
+        "2.2",
+        "3.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Evaluate a student’s statement that a clast cannot have come from any rocks on the map, using age relationships, rock types and type of metamorphism.",
+      "image": "img/2022-summer-c1/q4c.jpg",
+      "figures": [
+        "img/2022-summer-c1/photos.jpg",
+        "img/2022-summer-c1/fig-q4map.jpg"
+      ],
+      "markscheme": "img/2022-summer-c1/ms-q4c.jpg"
+    },
+    {
+      "id": "2022-summer-c1-q5",
+      "paper": "2022-summer-c1",
+      "question": "5",
+      "marks": 5,
+      "page": 10,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a table comparing three faults on the map (dip direction, relative movement, dip angle and fault type).",
+      "image": "img/2022-summer-c1/q5.jpg",
+      "figures": [
+        "img/2022-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-c1/ms-q5.jpg"
+    },
+    {
+      "id": "2022-summer-c1-q6",
+      "paper": "2022-summer-c1",
+      "question": "6",
+      "marks": 13,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "3.2",
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a geological cross-section along a line on the map, including rock units, fold axes, metamorphic aureoles and cross-cutting relationships.",
+      "image": "img/2022-summer-c1/q6.jpg",
+      "figures": [
+        "img/2022-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-c1/ms-q6.jpg"
     }
   ]
 }
