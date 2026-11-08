@@ -102,6 +102,17 @@
       "spec": "current",
       "totalMarks": 60,
       "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2023-summer-c1",
+      "year": 2023,
+      "series": "Summer",
+      "date": "2023-05-15",
+      "code": "B480U10-1",
+      "unit": "AS Component 1: Geological Enquiries",
+      "spec": "current",
+      "totalMarks": 60,
+      "duration": "1 hour 30 minutes"
     }
   ],
   "questions": [
@@ -2416,6 +2427,366 @@
         "img/2022-summer-c1/map1.jpg"
       ],
       "markscheme": "img/2022-summer-c1/ms-q6.jpg"
+    },
+    {
+      "id": "2023-summer-c1-q1ai",
+      "paper": "2023-summer-c1",
+      "question": "1(a)(i)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Draw the texture of Specimen C on a circle at the scale provided.",
+      "image": "img/2023-summer-c1/q1ai.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c1/ms-q1ai.jpg",
+      "note": "This question uses Specimen C, a physical sample that is not included here."
+    },
+    {
+      "id": "2023-summer-c1-q1aii",
+      "paper": "2023-summer-c1",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State the name of Specimen C.",
+      "image": "img/2023-summer-c1/q1aii.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c1/ms-q1aii.jpg",
+      "note": "This question uses Specimen C, a physical sample that is not included here."
+    },
+    {
+      "id": "2023-summer-c1-q1b",
+      "paper": "2023-summer-c1",
+      "question": "1(b)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Describe the environment of deposition of Specimen C.",
+      "image": "img/2023-summer-c1/q1b.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c1/ms-q1b.jpg",
+      "note": "This question uses Specimen C, a physical sample that is not included here."
+    },
+    {
+      "id": "2023-summer-c1-q2a",
+      "paper": "2023-summer-c1",
+      "question": "2(a)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name Specimen B and give two pieces of evidence for the answer.",
+      "image": "img/2023-summer-c1/q2a.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c1/ms-q2a.jpg",
+      "note": "This question uses Specimen B, a physical sample that is not included here."
+    },
+    {
+      "id": "2023-summer-c1-q2b",
+      "paper": "2023-summer-c1",
+      "question": "2(b)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Evaluate a student’s conclusion that Rock Units A and B came from the same intrusive event, using Specimen B, Photograph 1 and Map 1.",
+      "image": "img/2023-summer-c1/q2b.jpg",
+      "figures": [
+        "img/2023-summer-c1/photo1.jpg",
+        "img/2023-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-c1/ms-q2b.jpg",
+      "note": "This question uses Specimen B, a physical sample that is not included here."
+    },
+    {
+      "id": "2023-summer-c1-q3ai",
+      "paper": "2023-summer-c1",
+      "question": "3(a)(i)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Draw the internal view of Specimen L, a modern bivalve shell, to the scale provided.",
+      "image": "img/2023-summer-c1/q3ai.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c1/ms-q3ai.jpg",
+      "note": "This question uses Specimen L, a physical sample that is not included here."
+    },
+    {
+      "id": "2023-summer-c1-q3aii",
+      "paper": "2023-summer-c1",
+      "question": "3(a)(ii)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Label a muscle scar on the drawing of the bivalve.",
+      "image": "img/2023-summer-c1/q3aii.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c1/ms-q3aii.jpg",
+      "note": "This question uses Specimen L, a physical sample that is not included here."
+    },
+    {
+      "id": "2023-summer-c1-q3aiii",
+      "paper": "2023-summer-c1",
+      "question": "3(a)(iii)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Label the pallial sinus on the drawing of the bivalve.",
+      "image": "img/2023-summer-c1/q3aiii.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c1/ms-q3aiii.jpg",
+      "note": "This question uses Specimen L, a physical sample that is not included here."
+    },
+    {
+      "id": "2023-summer-c1-q3bi",
+      "paper": "2023-summer-c1",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Draw a histogram of fossil bivalve lengths from a tally table.",
+      "image": "img/2023-summer-c1/q3bi.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c1/ms-q3bi.jpg"
+    },
+    {
+      "id": "2023-summer-c1-q3bii",
+      "paper": "2023-summer-c1",
+      "question": "3(b)(ii)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "State the modal group of the bivalve length data.",
+      "image": "img/2023-summer-c1/q3bii.jpg",
+      "figures": [
+        "img/2023-summer-c1/fig-q3t.jpg"
+      ],
+      "markscheme": "img/2023-summer-c1/ms-q3bii.jpg"
+    },
+    {
+      "id": "2023-summer-c1-q3biii",
+      "paper": "2023-summer-c1",
+      "question": "3(b)(iii)",
+      "marks": 4,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Evaluate the reliability of a student’s conclusion that the bivalve fossils form a life assemblage, given the data.",
+      "image": "img/2023-summer-c1/q3biii.jpg",
+      "figures": [
+        "img/2023-summer-c1/fig-q3t.jpg"
+      ],
+      "markscheme": "img/2023-summer-c1/ms-q3biii.jpg"
+    },
+    {
+      "id": "2023-summer-c1-q4a",
+      "paper": "2023-summer-c1",
+      "question": "4(a)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Complete a table describing the hardness test result and one other diagnostic test for Specimen N.",
+      "image": "img/2023-summer-c1/q4a.jpg",
+      "figures": [
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2023-summer-c1/ms-q4a.jpg",
+      "note": "This question uses Specimen N, a physical sample that is not included here."
+    },
+    {
+      "id": "2023-summer-c1-q4b",
+      "paper": "2023-summer-c1",
+      "question": "4(b)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State the name of Specimen N.",
+      "image": "img/2023-summer-c1/q4b.jpg",
+      "figures": [
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2023-summer-c1/ms-q4b.jpg",
+      "note": "This question uses Specimen N, a physical sample that is not included here."
+    },
+    {
+      "id": "2023-summer-c1-q5a",
+      "paper": "2023-summer-c1",
+      "question": "5(a)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Describe the change in mean crystal size along a transect shown on a graph.",
+      "image": "img/2023-summer-c1/q5a.jpg",
+      "figures": [
+        "img/2023-summer-c1/fig-q5.jpg"
+      ],
+      "markscheme": "img/2023-summer-c1/ms-q5a.jpg"
+    },
+    {
+      "id": "2023-summer-c1-q5b",
+      "paper": "2023-summer-c1",
+      "question": "5(b)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "With reference to sampling methods, explain how the crystal size data may have been collected.",
+      "image": "img/2023-summer-c1/q5b.jpg",
+      "figures": [
+        "img/2023-summer-c1/fig-q5.jpg"
+      ],
+      "markscheme": "img/2023-summer-c1/ms-q5b.jpg"
+    },
+    {
+      "id": "2023-summer-c1-q5c",
+      "paper": "2023-summer-c1",
+      "question": "5(c)",
+      "marks": 6,
+      "page": 9,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Explain the change in mean crystal size along the transect, using the graph and Map 1.",
+      "image": "img/2023-summer-c1/q5c.jpg",
+      "figures": [
+        "img/2023-summer-c1/fig-q5.jpg",
+        "img/2023-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-c1/ms-q5c.jpg"
+    },
+    {
+      "id": "2023-summer-c1-q6a",
+      "paper": "2023-summer-c1",
+      "question": "6(a)",
+      "marks": 4,
+      "page": 10,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a table comparing two faults on Map 1 (dip direction, relative movement, dip angle and fault type).",
+      "image": "img/2023-summer-c1/q6a.jpg",
+      "figures": [
+        "img/2023-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-c1/ms-q6a.jpg"
+    },
+    {
+      "id": "2023-summer-c1-q6b",
+      "paper": "2023-summer-c1",
+      "question": "6(b)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map",
+        "maths"
+      ],
+      "summary": "Calculate the displacement of a fault in kilometres from Map 1, showing the working.",
+      "image": "img/2023-summer-c1/q6b.jpg",
+      "figures": [
+        "img/2023-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-c1/ms-q6b.jpg"
+    },
+    {
+      "id": "2023-summer-c1-q7",
+      "paper": "2023-summer-c1",
+      "question": "7",
+      "marks": 12,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "3.2",
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a geological cross-section along a line on Map 1, including rock units, fold axes, faults and a metamorphic aureole.",
+      "image": "img/2023-summer-c1/q7.jpg",
+      "figures": [
+        "img/2023-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-c1/ms-q7.jpg"
     }
   ]
 }
