@@ -113,6 +113,17 @@
       "spec": "current",
       "totalMarks": 60,
       "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2024-summer-c1",
+      "year": 2024,
+      "series": "Summer",
+      "date": "2024-05-13",
+      "code": "B480U10-1",
+      "unit": "AS Component 1: Geological Enquiries",
+      "spec": "current",
+      "totalMarks": 60,
+      "duration": "1 hour 30 minutes"
     }
   ],
   "questions": [
@@ -2787,6 +2798,441 @@
         "img/2023-summer-c1/map1.jpg"
       ],
       "markscheme": "img/2023-summer-c1/ms-q7.jpg"
+    },
+    {
+      "id": "2024-summer-c1-q1a",
+      "paper": "2024-summer-c1",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Tick the two statements that best describe the origin of the texture of Rock Unit A in a photograph.",
+      "image": "img/2024-summer-c1/q1a.jpg",
+      "figures": [
+        "img/2024-summer-c1/photo1.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q1a.jpg"
+    },
+    {
+      "id": "2024-summer-c1-q1bi",
+      "paper": "2024-summer-c1",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name Mineral P in the photograph, using the mineral data sheet.",
+      "image": "img/2024-summer-c1/q1bi.jpg",
+      "figures": [
+        "img/2024-summer-c1/photo1.jpg",
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2024-summer-c1-q1bii",
+      "paper": "2024-summer-c1",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Say whether a student’s conclusion about Mineral Q is true or false and explain with one physical property.",
+      "image": "img/2024-summer-c1/q1bii.jpg",
+      "figures": [
+        "img/2024-summer-c1/photo1.jpg",
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2024-summer-c1-q1c",
+      "paper": "2024-summer-c1",
+      "question": "1(c)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe one similarity and one difference in the crystalline textures of Rock Unit A and Specimen H.",
+      "image": "img/2024-summer-c1/q1c.jpg",
+      "figures": [
+        "img/2024-summer-c1/photo1.jpg",
+        "img/2024-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q1c.jpg",
+      "note": "This question uses Specimen H. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2024-summer-c1-q1di",
+      "paper": "2024-summer-c1",
+      "question": "1(d)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State the name of Specimen H.",
+      "image": "img/2024-summer-c1/q1di.jpg",
+      "figures": [
+        "img/2024-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q1di.jpg",
+      "note": "This question uses Specimen H. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2024-summer-c1-q1dii",
+      "paper": "2024-summer-c1",
+      "question": "1(d)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "2.2",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Describe the conditions of formation of Specimen H.",
+      "image": "img/2024-summer-c1/q1dii.jpg",
+      "figures": [
+        "img/2024-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q1dii.jpg",
+      "note": "This question uses Specimen H. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2024-summer-c1-q2a",
+      "paper": "2024-summer-c1",
+      "question": "2(a)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Draw the texture of Specimen E on a circle at the scale provided.",
+      "image": "img/2024-summer-c1/q2a.jpg",
+      "figures": [
+        "img/2024-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q2a.jpg",
+      "note": "This question uses Specimen E. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2024-summer-c1-q2bi",
+      "paper": "2024-summer-c1",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Add Specimen E as Bed 5 on a graphic log, using its grain size and a given thickness.",
+      "image": "img/2024-summer-c1/q2bi.jpg",
+      "figures": [
+        "img/2024-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q2bi.jpg",
+      "note": "This question uses Specimen E. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2024-summer-c1-q2bii",
+      "paper": "2024-summer-c1",
+      "question": "2(b)(ii)",
+      "marks": 6,
+      "page": 6,
+      "topics": [
+        "2.1",
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Evaluate a student’s conclusion that all beds in the graphic log formed in the same environment at similar energy levels.",
+      "image": "img/2024-summer-c1/q2bii.jpg",
+      "figures": [
+        "img/2024-summer-c1/fig-q2b.jpg",
+        "img/2024-summer-c1/photos23.jpg",
+        "img/2024-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q2bii.jpg",
+      "note": "This question uses Specimen E. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2024-summer-c1-q3ai",
+      "paper": "2024-summer-c1",
+      "question": "3(a)(i)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Complete a table describing the relative density test and one other diagnostic test for Specimen L.",
+      "image": "img/2024-summer-c1/q3ai.jpg",
+      "figures": [
+        "img/2024-summer-c1/specimens.jpg",
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q3ai.jpg",
+      "note": "This question uses Specimen L. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2024-summer-c1-q3aii",
+      "paper": "2024-summer-c1",
+      "question": "3(a)(ii)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State the name of Specimen L.",
+      "image": "img/2024-summer-c1/q3aii.jpg",
+      "figures": [
+        "img/2024-summer-c1/specimens.jpg",
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q3aii.jpg",
+      "note": "This question uses Specimen L. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2024-summer-c1-q3b",
+      "paper": "2024-summer-c1",
+      "question": "3(b)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Calculate the density of a mineral from measuring cylinder and balance readings in a figure.",
+      "image": "img/2024-summer-c1/q3b.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-c1/ms-q3b.jpg"
+    },
+    {
+      "id": "2024-summer-c1-q3c",
+      "paper": "2024-summer-c1",
+      "question": "3(c)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Explain two possible reasons for the wide variation in relative density data from seven students.",
+      "image": "img/2024-summer-c1/q3c.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-c1/ms-q3c.jpg"
+    },
+    {
+      "id": "2024-summer-c1-q4a",
+      "paper": "2024-summer-c1",
+      "question": "4(a)",
+      "marks": 5,
+      "page": 10,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Draw Specimen C to scale, label the foramen and draw its plane of symmetry.",
+      "image": "img/2024-summer-c1/q4a.jpg",
+      "figures": [
+        "img/2024-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q4a.jpg",
+      "note": "This question uses Specimen C. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2024-summer-c1-q4b",
+      "paper": "2024-summer-c1",
+      "question": "4(b)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify the fossil group to which Specimen C belongs.",
+      "image": "img/2024-summer-c1/q4b.jpg",
+      "figures": [
+        "img/2024-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q4b.jpg",
+      "note": "This question uses Specimen C. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2024-summer-c1-q5ai",
+      "paper": "2024-summer-c1",
+      "question": "5(a)(i)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the angle of dip of bedding shown in a photograph.",
+      "image": "img/2024-summer-c1/q5ai.jpg",
+      "figures": [
+        "img/2024-summer-c1/photo4.jpg",
+        "img/2024-summer-c1/fig-q5map.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q5ai.jpg"
+    },
+    {
+      "id": "2024-summer-c1-q5aii",
+      "paper": "2024-summer-c1",
+      "question": "5(a)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Plot the angle and direction of dip shown in the photograph onto Map 2 using the Map 1 symbol.",
+      "image": "img/2024-summer-c1/q5aii.jpg",
+      "figures": [
+        "img/2024-summer-c1/photo4.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q5aii.jpg"
+    },
+    {
+      "id": "2024-summer-c1-q5aiii",
+      "paper": "2024-summer-c1",
+      "question": "5(a)(iii)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Explain how the difference in dip at two locations, with other map evidence, shows the rocks were folded at different times.",
+      "image": "img/2024-summer-c1/q5aiii.jpg",
+      "figures": [
+        "img/2024-summer-c1/fig-q5map.jpg",
+        "img/2024-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q5aiii.jpg"
+    },
+    {
+      "id": "2024-summer-c1-q5bi",
+      "paper": "2024-summer-c1",
+      "question": "5(b)(i)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the mean dip angle from a table of student measurements.",
+      "image": "img/2024-summer-c1/q5bi.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-c1/ms-q5bi.jpg"
+    },
+    {
+      "id": "2024-summer-c1-q5bii",
+      "paper": "2024-summer-c1",
+      "question": "5(b)(ii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Account for the variation in the dip data from the class.",
+      "image": "img/2024-summer-c1/q5bii.jpg",
+      "figures": [
+        "img/2024-summer-c1/fig-q5t.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q5bii.jpg"
+    },
+    {
+      "id": "2024-summer-c1-q6",
+      "paper": "2024-summer-c1",
+      "question": "6",
+      "marks": 4,
+      "page": 14,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a table comparing two faults on Map 1 (dip direction, relative movement, dip angle and fault type).",
+      "image": "img/2024-summer-c1/q6.jpg",
+      "figures": [
+        "img/2024-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q6.jpg"
+    },
+    {
+      "id": "2024-summer-c1-q7",
+      "paper": "2024-summer-c1",
+      "question": "7",
+      "marks": 13,
+      "page": 15,
+      "topics": [
+        "2.3",
+        "3.2",
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a geological cross-section along a line on Map 1, including rock units, fold axes, faults with movement arrows and a metamorphic aureole.",
+      "image": "img/2024-summer-c1/q7.jpg",
+      "figures": [
+        "img/2024-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-c1/ms-q7.jpg"
     }
   ]
 }

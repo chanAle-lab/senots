@@ -198,6 +198,10 @@ function card(x) {
 function figLabel(f) {
   if (f.includes('datasheet')) return 'Mineral data sheet';
   if (f.includes('map1')) return 'Map 1 (Resource Sheet)';
+  if (f.includes('specimens')) return 'Photographs of the specimens';
+  if (f.includes('photos23')) return 'Photographs 2 and 3 (Resource Sheet)';
+  if (f.includes('photo4')) return 'Photograph 4 (Resource Sheet)';
+  if (f.includes('photo1')) return 'Photograph 1 (Resource Sheet)';
   if (f.includes('photos')) return 'Photographs 1 and 2 (Resource Sheet)';
   return 'Figures for this question';
 }
