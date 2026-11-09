@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AS Geology past papers by topic</title>
+<title>Geology past papers by topic</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
@@ -30,6 +30,7 @@ button:hover{background:#e8ece9}
 .band:hover{filter:brightness(1.08)}
 .band b{font-size:1.05rem}
 .band span{font-size:.9rem}
+.grp{font-size:1rem;margin:22px 0 8px;color:var(--muted)}
 .note{color:var(--muted);font-size:.9rem;margin:14px 0 0;max-width:62ch}
 .count{font-weight:600;margin:0 0 12px}
 .card{background:var(--card);border:1px solid var(--line);border-left:8px solid var(--c);border-radius:6px;padding:14px 16px;margin-bottom:12px}
@@ -51,11 +52,12 @@ footer{margin-top:36px;font-size:.8rem;color:var(--muted);max-width:70ch}
 </head>
 <body>
 <div class="wrap">
-<h1>AS Geology past papers, sorted by topic</h1>
-<p class="sub">WJEC Eduqas AS Geology questions grouped by the topics in the specification. Pick a topic, or search for a keyword.</p>
+<h1>Geology past papers, sorted by topic</h1>
+<p class="sub">WJEC Eduqas AS and A level Geology questions grouped by the topics in the specifications. Choose a level and a topic, or search for a keyword.</p>
 
 <form id="f" role="search">
   <label class="wide">Search<input id="q" type="search" placeholder="e.g. fold, P waves, fossils"></label>
+  <label>Level<select id="level"></select></label>
   <label>Topic<select id="topic"></select></label>
   <label>Year<select id="year"></select></label>
   <label>Skill<select id="skill"></select></label>
@@ -74,14 +76,18 @@ footer{margin-top:36px;font-size:.8rem;color:var(--muted);max-width:70ch}
 <script>
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const COL = {
+const BASE = {
   '1.1':['#7a5c47','#fff'], '2.1':['#d2ae63','#1e2a2f'], '2.2':['#a4524a','#fff'], '2.3':['#5e7a6b','#fff'],
-  '3.1':['#a3b46a','#1e2a2f'], '3.2':['#4f7391','#fff'], '4.1':['#3f4e63','#fff'], '4.2':['#6b4f7a','#fff']
+  '3.1':['#a3b46a','#1e2a2f'], '3.2':['#4f7391','#fff'], '4.1':['#3f4e63','#fff'], '4.2':['#6b4f7a','#fff'],
+  'G1':['#2f6f73','#fff'], 'G2':['#7b6a2e','#fff'], 'G3':['#5d7f3a','#fff'], 'G4':['#8b5a2b','#fff'],
+  'T1':['#a14b4b','#fff'], 'T2':['#4a6f8f','#fff'], 'T3':['#6b4f7a','#fff'], 'T4':['#7a5c47','#fff'], 'T5':['#2e4a5a','#fff']
 };
-let D, T = {}, S = {}, state = {topic:'',skill:'',year:'',min:0,q:'',pick:''};
+const colorOf = id => BASE[id] || BASE[String(id).split('.')[0]] || ['#777', '#fff'];
+let D, T = {}, S = {}, state = {level:'',topic:'',skill:'',year:'',min:0,q:'',pick:''};
 
 fetch('questions.json').then(r => { if (!r.ok) throw 0; return r.json(); }).then(d => {
   D = d;
+  d.papers.forEach(p => { p.level = p.level || 'AS'; });
   D.P = Object.fromEntries(d.papers.map(p => [p.id, p]));
   d.topics.forEach(t => T[t.id] = t);
   d.skills.forEach(s => S[s.id] = s);
@@ -95,15 +101,23 @@ function opts(sel, first, items) {
   $(sel).innerHTML = '<option value="">' + first + '</option>' + items.map(([v, l]) => `<option value="${esc(v)}">${esc(l)}</option>`).join('');
 }
 
+function topicOptions() {
+  const gs = {};
+  D.topics.forEach(t => { const g = t.group || 'Topics'; (gs[g] = gs[g] || []).push(t); });
+  return '<option value="">All topics</option>' + Object.entries(gs).map(([g, ts]) =>
+    `<optgroup label="${esc(g)}">` + ts.map(t => `<option value="${esc(t.id)}">${esc(t.id)} ${esc(t.name)}</option>`).join('') + '</optgroup>').join('');
+}
+
 function init() {
-  opts('#topic', 'All topics', D.topics.map(t => [t.id, t.id + ' ' + t.name]));
+  opts('#level', 'All levels', (D.levels || []).map(l => [l.id, l.name]));
+  $('#topic').innerHTML = topicOptions();
   opts('#skill', 'All skills', D.skills.map(s => [s.id, s.name]));
   const years = [...new Set(D.papers.map(p => p.year))].sort((a, b) => b - a);
   opts('#year', 'All years', years.map(y => [y, y]));
   opts('#min', 'Any marks', [[2, '2+ marks'], [3, '3+ marks'], [4, '4+ marks']]);
   $('#f').addEventListener('input', onInput);
   $('#f').addEventListener('submit', e => e.preventDefault());
-  $('#reset').onclick = () => { state = {topic:'',skill:'',year:'',min:0,q:'',pick:''}; syncControls(); toHash(); render(); };
+  $('#reset').onclick = () => { state = {level:'',topic:'',skill:'',year:'',min:0,q:'',pick:''}; syncControls(); toHash(); render(); };
   $('#random').onclick = () => {
     const keep = state.pick; state.pick = '';
     const pool = filtered(); state.pick = keep;
@@ -117,6 +131,7 @@ function init() {
 
 function onInput() {
   state.q = $('#q').value.trim();
+  state.level = $('#level').value;
   state.topic = $('#topic').value;
   state.skill = $('#skill').value;
   state.year = $('#year').value;
@@ -126,18 +141,18 @@ function onInput() {
 }
 
 function syncControls() {
-  $('#q').value = state.q; $('#topic').value = state.topic; $('#skill').value = state.skill;
+  $('#q').value = state.q; $('#level').value = state.level; $('#topic').value = state.topic; $('#skill').value = state.skill;
   $('#year').value = state.year; $('#min').value = state.min || '';
 }
 
 function fromHash() {
   const p = new URLSearchParams(location.hash.slice(1));
-  state = {topic:p.get('topic')||'', skill:p.get('skill')||'', year:p.get('year')||'', min:+p.get('min')||0, q:p.get('q')||'', pick:p.get('pick')||''};
+  state = {level:p.get('level')||'', topic:p.get('topic')||'', skill:p.get('skill')||'', year:p.get('year')||'', min:+p.get('min')||0, q:p.get('q')||'', pick:p.get('pick')||''};
 }
 
 function toHash() {
   const p = new URLSearchParams();
-  ['topic','skill','year','min','q','pick'].forEach(k => { if (state[k]) p.set(k, state[k]); });
+  ['level','topic','skill','year','min','q','pick'].forEach(k => { if (state[k]) p.set(k, state[k]); });
   history.replaceState(null, '', location.pathname + location.search + (p.toString() ? '#' + p : ''));
 }
 
@@ -145,6 +160,7 @@ function filtered() {
   const q = state.q.toLowerCase();
   return D.questions.filter(x =>
     (!state.pick || x.id === state.pick) &&
+    (!state.level || D.P[x.paper].level === state.level) &&
     (!state.topic || x.topics.includes(state.topic)) &&
     (!state.skill || x.skills.includes(state.skill)) &&
     (!state.year || D.P[x.paper].year == state.year) &&
@@ -159,15 +175,23 @@ function render() {
 }
 
 function home() {
-  const bands = D.topics.map(t => {
-    const qs = D.questions.filter(x => x.topics.includes(t.id));
-    const marks = qs.reduce((n, x) => n + x.marks, 0);
-    const [c, fg] = COL[t.id] || ['#777', '#fff'];
-    return `<a class="band" href="#topic=${t.id}" style="--c:${c};--fg:${fg};min-height:${52 + marks * 3}px">
-      <b>${esc(t.id)} ${esc(t.name)}</b><span>${qs.length} ${qs.length === 1 ? 'question' : 'questions'}, ${marks} marks</span></a>`;
-  }).join('');
-  return `<div class="col" role="list" aria-label="Specification topics">${bands}</div>
-    <p class="note">Each layer is a topic from the specification, and thicker layers have more marks of past paper questions. Select one to see its questions. A question that tests two topics appears in both.</p>`;
+  const inLevel = x => !state.level || D.P[x.paper].level === state.level;
+  const groups = {};
+  D.topics.forEach(t => { const g = t.group || 'Topics'; (groups[g] = groups[g] || []).push(t); });
+  let html = '';
+  for (const [g, ts] of Object.entries(groups)) {
+    const bands = ts.map(t => {
+      const qs = D.questions.filter(x => x.topics.includes(t.id) && inLevel(x));
+      if (!qs.length) return '';
+      const marks = qs.reduce((n, x) => n + x.marks, 0);
+      const [c, fg] = colorOf(t.id);
+      return `<a class="band" href="#topic=${esc(t.id)}${state.level ? '&level=' + esc(state.level) : ''}" style="--c:${c};--fg:${fg};min-height:${52 + Math.min(marks, 80) * 3}px">
+        <b>${esc(t.id)} ${esc(t.name)}</b><span>${qs.length} ${qs.length === 1 ? 'question' : 'questions'}, ${marks} marks</span></a>`;
+    }).join('');
+    if (bands) html += `<h2 class="grp">${esc(g)}</h2><div class="col" role="list">${bands}</div>`;
+  }
+  if (!html) return '<div class="empty"><p>No questions have been added for this level yet.</p></div>';
+  return html + '<p class="note">Each layer is a topic from the specification, and thicker layers have more marks of past paper questions. Select one to see its questions. A question that tests two topics appears in both.</p>';
 }
 
 function results() {
@@ -180,8 +204,8 @@ function results() {
 
 function card(x) {
   const p = D.P[x.paper];
-  const [c] = COL[x.topics[0]] || ['#777'];
-  const tags = x.topics.map(t => `<a class="tag" style="--c:${(COL[t]||['#777'])[0]};text-decoration:none;color:inherit" href="#topic=${t}"><i></i>${esc(t)} ${esc(T[t].name)}</a>`).join('')
+  const [c] = colorOf(x.topics[0]);
+  const tags = x.topics.map(t => `<a class="tag" style="--c:${colorOf(t)[0]};text-decoration:none;color:inherit" href="#topic=${t}"><i></i>${esc(t)} ${esc(T[t].name)}</a>`).join('')
     + x.skills.map(s => `<span class="tag" style="--c:#9aa6a1"><i></i>${esc(S[s].name)}</span>`).join('');
   return `<article class="card" style="--c:${c}">
     <h2>Question ${esc(x.question)} <small>${x.marks} ${x.marks === 1 ? 'mark' : 'marks'}</small></h2>

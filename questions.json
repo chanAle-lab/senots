@@ -2,35 +2,163 @@
   "topics": [
     {
       "id": "1.1",
-      "name": "Elements, minerals and rocks"
+      "name": "Elements, minerals and rocks",
+      "group": "Fundamentals (AS and A level)"
     },
     {
       "id": "2.1",
-      "name": "Sedimentary rocks and surface processes"
+      "name": "Sedimentary rocks and surface processes",
+      "group": "Fundamentals (AS and A level)"
     },
     {
       "id": "2.2",
-      "name": "Igneous and metamorphic rocks"
+      "name": "Igneous and metamorphic rocks",
+      "group": "Fundamentals (AS and A level)"
     },
     {
       "id": "2.3",
-      "name": "Deformation, folds, faults and geological maps"
+      "name": "Deformation, folds, faults and geological maps",
+      "group": "Fundamentals (AS and A level)"
     },
     {
       "id": "3.1",
-      "name": "Present-day processes and fossils"
+      "name": "Present-day processes and fossils",
+      "group": "Fundamentals (AS and A level)"
     },
     {
       "id": "3.2",
-      "name": "Relative and absolute time"
+      "name": "Relative and absolute time",
+      "group": "Fundamentals (AS and A level)"
     },
     {
       "id": "4.1",
-      "name": "Earth structure"
+      "name": "Earth structure",
+      "group": "Fundamentals (AS and A level)"
     },
     {
       "id": "4.2",
-      "name": "Global tectonics"
+      "name": "Global tectonics",
+      "group": "Fundamentals (AS and A level)"
+    },
+    {
+      "id": "G1.1",
+      "name": "Magma generation and evolution",
+      "group": "Interpreting the Geological Record (A level)"
+    },
+    {
+      "id": "G1.2",
+      "name": "Metamorphic rocks: mineralogy and texture",
+      "group": "Interpreting the Geological Record (A level)"
+    },
+    {
+      "id": "G1.3",
+      "name": "Sedimentary processes and modelling",
+      "group": "Interpreting the Geological Record (A level)"
+    },
+    {
+      "id": "G2",
+      "name": "Rock deformation and geological structures",
+      "group": "Interpreting the Geological Record (A level)"
+    },
+    {
+      "id": "G3.1",
+      "name": "Fossils and the diversity of life",
+      "group": "Interpreting the Geological Record (A level)"
+    },
+    {
+      "id": "G3.2",
+      "name": "Factors in climate change",
+      "group": "Interpreting the Geological Record (A level)"
+    },
+    {
+      "id": "G3.3",
+      "name": "Evidence for climate change",
+      "group": "Interpreting the Geological Record (A level)"
+    },
+    {
+      "id": "G4.1",
+      "name": "Concentration of natural resources",
+      "group": "Interpreting the Geological Record (A level)"
+    },
+    {
+      "id": "G4.2",
+      "name": "Oil and gas migration and reservoirs",
+      "group": "Interpreting the Geological Record (A level)"
+    },
+    {
+      "id": "G4.3",
+      "name": "Prospecting techniques",
+      "group": "Interpreting the Geological Record (A level)"
+    },
+    {
+      "id": "T1.1",
+      "name": "Geohazards: worldwide impact",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T1.2",
+      "name": "Geohazards: prediction and management",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T1.3",
+      "name": "Engineering and the environment",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T2.1",
+      "name": "Map outcrop patterns and structures",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T2.2",
+      "name": "Applications of geological maps",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T3.1",
+      "name": "Quaternary: global climate factors",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T3.2",
+      "name": "Quaternary deposits and landforms",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T3.3",
+      "name": "Quaternary fossils, climate and dating",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T4.1",
+      "name": "Britain: stratigraphy and terranes",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T4.2",
+      "name": "Britain: evidence for northward drift",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T4.3",
+      "name": "Britain: drift and sedimentary facies",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T5.1",
+      "name": "Lithosphere: heat loss and cooling",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T5.2",
+      "name": "Oceanic lithosphere: formation and subduction",
+      "group": "Geological Themes (A level)"
+    },
+    {
+      "id": "T5.3",
+      "name": "Formation of continental crust",
+      "group": "Geological Themes (A level)"
     }
   ],
   "skills": [
@@ -57,7 +185,8 @@
       "unit": "GL1 Foundation Unit",
       "spec": "legacy",
       "totalMarks": 60,
-      "duration": "1 hour"
+      "duration": "1 hour",
+      "level": "AS"
     },
     {
       "id": "2017-summer-gl1",
@@ -68,7 +197,8 @@
       "unit": "GL1 Foundation Unit",
       "spec": "legacy",
       "totalMarks": 60,
-      "duration": "1 hour"
+      "duration": "1 hour",
+      "level": "AS"
     },
     {
       "id": "2018-summer-gl1",
@@ -79,7 +209,8 @@
       "unit": "GL1 Foundation Unit",
       "spec": "legacy",
       "totalMarks": 60,
-      "duration": "1 hour"
+      "duration": "1 hour",
+      "level": "AS"
     },
     {
       "id": "2019-summer-gl1",
@@ -90,7 +221,8 @@
       "unit": "GL1 Foundation Unit",
       "spec": "legacy",
       "totalMarks": 60,
-      "duration": "1 hour"
+      "duration": "1 hour",
+      "level": "AS"
     },
     {
       "id": "2022-summer-c1",
@@ -101,7 +233,8 @@
       "unit": "AS Component 1: Geological Enquiries",
       "spec": "current",
       "totalMarks": 60,
-      "duration": "1 hour 30 minutes"
+      "duration": "1 hour 30 minutes",
+      "level": "AS"
     },
     {
       "id": "2023-summer-c1",
@@ -112,7 +245,8 @@
       "unit": "AS Component 1: Geological Enquiries",
       "spec": "current",
       "totalMarks": 60,
-      "duration": "1 hour 30 minutes"
+      "duration": "1 hour 30 minutes",
+      "level": "AS"
     },
     {
       "id": "2024-summer-c1",
@@ -123,7 +257,8 @@
       "unit": "AS Component 1: Geological Enquiries",
       "spec": "current",
       "totalMarks": 60,
-      "duration": "1 hour 30 minutes"
+      "duration": "1 hour 30 minutes",
+      "level": "AS"
     },
     {
       "id": "2025-summer-c1",
@@ -134,7 +269,8 @@
       "unit": "AS Component 1: Geological Enquiries",
       "spec": "current",
       "totalMarks": 60,
-      "duration": "1 hour 30 minutes"
+      "duration": "1 hour 30 minutes",
+      "level": "AS"
     }
   ],
   "questions": [
@@ -3676,6 +3812,16 @@
         "img/2025-summer-c1/map1.jpg"
       ],
       "markscheme": "img/2025-summer-c1/ms-q6.jpg"
+    }
+  ],
+  "levels": [
+    {
+      "id": "AS",
+      "name": "AS level"
+    },
+    {
+      "id": "A",
+      "name": "A level"
     }
   ]
 }
