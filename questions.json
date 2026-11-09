@@ -124,6 +124,17 @@
       "spec": "current",
       "totalMarks": 60,
       "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2025-summer-c1",
+      "year": 2025,
+      "series": "Summer",
+      "date": "2025-05-12",
+      "code": "B480U10-1",
+      "unit": "AS Component 1: Geological Enquiries",
+      "spec": "current",
+      "totalMarks": 60,
+      "duration": "1 hour 30 minutes"
     }
   ],
   "questions": [
@@ -3233,6 +3244,438 @@
         "img/2024-summer-c1/map1.jpg"
       ],
       "markscheme": "img/2024-summer-c1/ms-q7.jpg"
+    },
+    {
+      "id": "2025-summer-c1-q1a",
+      "paper": "2025-summer-c1",
+      "question": "1(a)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Draw the texture of Specimen A on a circle at the scale provided.",
+      "image": "img/2025-summer-c1/q1a.jpg",
+      "figures": [
+        "img/2025-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q1a.jpg",
+      "note": "This question uses Specimen A. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-c1-q1bi",
+      "paper": "2025-summer-c1",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the texture of Rock Unit B in a photomicrograph.",
+      "image": "img/2025-summer-c1/q1bi.jpg",
+      "figures": [
+        "img/2025-summer-c1/photo1.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2025-summer-c1-q1bii",
+      "paper": "2025-summer-c1",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State the name of mineral T in the photomicrograph, using the mineral data sheet.",
+      "image": "img/2025-summer-c1/q1bii.jpg",
+      "figures": [
+        "img/2025-summer-c1/photo1.jpg",
+        "img/2025-summer-c1/datasheet.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2025-summer-c1-q1biii",
+      "paper": "2025-summer-c1",
+      "question": "1(b)(iii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "State the name of the rock forming Rock Unit B.",
+      "image": "img/2025-summer-c1/q1biii.jpg",
+      "figures": [
+        "img/2025-summer-c1/photo1.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q1biii.jpg"
+    },
+    {
+      "id": "2025-summer-c1-q1c",
+      "paper": "2025-summer-c1",
+      "question": "1(c)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Evaluate a student’s conclusion that Rock Unit B is a more mature sedimentary rock than Rock Unit A, using their textures.",
+      "image": "img/2025-summer-c1/q1c.jpg",
+      "figures": [
+        "img/2025-summer-c1/specimens.jpg",
+        "img/2025-summer-c1/photo1.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q1c.jpg",
+      "note": "This question uses Specimen A. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-c1-q2a",
+      "paper": "2025-summer-c1",
+      "question": "2(a)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Complete a table describing two diagnostic tests or observations, and their results, for Specimen H.",
+      "image": "img/2025-summer-c1/q2a.jpg",
+      "figures": [
+        "img/2025-summer-c1/specimens.jpg",
+        "img/2025-summer-c1/datasheet.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q2a.jpg",
+      "note": "This question uses Specimen H. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-c1-q2b",
+      "paper": "2025-summer-c1",
+      "question": "2(b)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State the name of Specimen H.",
+      "image": "img/2025-summer-c1/q2b.jpg",
+      "figures": [
+        "img/2025-summer-c1/specimens.jpg",
+        "img/2025-summer-c1/datasheet.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q2b.jpg",
+      "note": "This question uses Specimen H. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-c1-q3ai",
+      "paper": "2025-summer-c1",
+      "question": "3(a)(i)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Draw a representative area of Specimen F, a plaster cast of a fossil, to the scale provided.",
+      "image": "img/2025-summer-c1/q3ai.jpg",
+      "figures": [
+        "img/2025-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q3ai.jpg",
+      "note": "This question uses Specimen F. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-c1-q3aii",
+      "paper": "2025-summer-c1",
+      "question": "3(a)(ii)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Label the name of one hard part of Specimen F.",
+      "image": "img/2025-summer-c1/q3aii.jpg",
+      "figures": [
+        "img/2025-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q3aii.jpg",
+      "note": "This question uses Specimen F. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-c1-q3aiii",
+      "paper": "2025-summer-c1",
+      "question": "3(a)(iii)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Name the fossil group to which Specimen F belongs.",
+      "image": "img/2025-summer-c1/q3aiii.jpg",
+      "figures": [
+        "img/2025-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q3aiii.jpg",
+      "note": "This question uses Specimen F. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-c1-q3bi",
+      "paper": "2025-summer-c1",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State the name of feature Z shown on a fossil in a photograph.",
+      "image": "img/2025-summer-c1/q3bi.jpg",
+      "figures": [
+        "img/2025-summer-c1/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q3bi.jpg"
+    },
+    {
+      "id": "2025-summer-c1-q3bii",
+      "paper": "2025-summer-c1",
+      "question": "3(b)(ii)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Use an identification flowchart to name the fossil in the photograph.",
+      "image": "img/2025-summer-c1/q3bii.jpg",
+      "figures": [
+        "img/2025-summer-c1/fig-q3c.jpg",
+        "img/2025-summer-c1/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q3bii.jpg"
+    },
+    {
+      "id": "2025-summer-c1-q3biii",
+      "paper": "2025-summer-c1",
+      "question": "3(b)(iii)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "State the name of the rock forming Rock Unit C shown in the photograph.",
+      "image": "img/2025-summer-c1/q3biii.jpg",
+      "figures": [
+        "img/2025-summer-c1/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q3biii.jpg"
+    },
+    {
+      "id": "2025-summer-c1-q3c",
+      "paper": "2025-summer-c1",
+      "question": "3(c)",
+      "marks": 6,
+      "page": 7,
+      "topics": [
+        "3.1",
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Evaluate whether variation in fossil abundance is due to the fossil record being biased towards marine organisms, using evidence from four rock units.",
+      "image": "img/2025-summer-c1/q3c.jpg",
+      "figures": [
+        "img/2025-summer-c1/specimens.jpg",
+        "img/2025-summer-c1/photo1.jpg",
+        "img/2025-summer-c1/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q3c.jpg",
+      "note": "This question uses Specimens A and F. Photographs are under “Photographs of the specimens”, but the physical samples are not included."
+    },
+    {
+      "id": "2025-summer-c1-q4ai",
+      "paper": "2025-summer-c1",
+      "question": "4(a)(i)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name Specimen D from the specimen alone and give two reasons.",
+      "image": "img/2025-summer-c1/q4ai.jpg",
+      "figures": [
+        "img/2025-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q4ai.jpg",
+      "note": "This question uses Specimen D. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-c1-q4aii",
+      "paper": "2025-summer-c1",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a table giving one piece of evidence from Map 1 and one from Specimen D that Rock Unit D forms a pluton.",
+      "image": "img/2025-summer-c1/q4aii.jpg",
+      "figures": [
+        "img/2025-summer-c1/map1.jpg",
+        "img/2025-summer-c1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q4aii.jpg",
+      "note": "This question uses Specimen D. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-c1-q4bi",
+      "paper": "2025-summer-c1",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Calculate the density of a rock specimen from measuring cylinder and balance readings, showing working and the unit.",
+      "image": "img/2025-summer-c1/q4bi.jpg",
+      "figures": [],
+      "markscheme": "img/2025-summer-c1/ms-q4bi.jpg"
+    },
+    {
+      "id": "2025-summer-c1-q4bii",
+      "paper": "2025-summer-c1",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Suggest two steps the student should have taken to minimise errors when measuring density with the equipment shown.",
+      "image": "img/2025-summer-c1/q4bii.jpg",
+      "figures": [],
+      "markscheme": "img/2025-summer-c1/ms-q4bii.jpg"
+    },
+    {
+      "id": "2025-summer-c1-q5a",
+      "paper": "2025-summer-c1",
+      "question": "5(a)",
+      "marks": 5,
+      "page": 12,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a table comparing three faults on Map 1 (dip direction, relative movement, dip angle and fault type).",
+      "image": "img/2025-summer-c1/q5a.jpg",
+      "figures": [
+        "img/2025-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q5a.jpg"
+    },
+    {
+      "id": "2025-summer-c1-q5bi",
+      "paper": "2025-summer-c1",
+      "question": "5(b)(i)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map",
+        "maths"
+      ],
+      "summary": "Using Map 1, state the throw of a fault.",
+      "image": "img/2025-summer-c1/q5bi.jpg",
+      "figures": [
+        "img/2025-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q5bi.jpg"
+    },
+    {
+      "id": "2025-summer-c1-q5bii",
+      "paper": "2025-summer-c1",
+      "question": "5(b)(ii)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Select the correct statement about the age of a fault relative to an unconformity and another fault (tick-box).",
+      "image": "img/2025-summer-c1/q5bii.jpg",
+      "figures": [
+        "img/2025-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q5bii.jpg"
+    },
+    {
+      "id": "2025-summer-c1-q6",
+      "paper": "2025-summer-c1",
+      "question": "6",
+      "marks": 13,
+      "page": 13,
+      "topics": [
+        "2.3",
+        "3.2",
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a geological cross-section along a line on Map 1, including rock units, fold axes, faults with movement arrows and a metamorphic aureole.",
+      "image": "img/2025-summer-c1/q6.jpg",
+      "figures": [
+        "img/2025-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-c1/ms-q6.jpg"
     }
   ]
 }
