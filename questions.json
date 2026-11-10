@@ -271,6 +271,18 @@
       "totalMarks": 60,
       "duration": "1 hour 30 minutes",
       "level": "AS"
+    },
+    {
+      "id": "2020-autumn-a1",
+      "year": 2020,
+      "series": "Autumn",
+      "date": "2020-10-06",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
     }
   ],
   "questions": [
@@ -3812,6 +3824,664 @@
         "img/2025-summer-c1/map1.jpg"
       ],
       "markscheme": "img/2025-summer-c1/ms-q6.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q1ai",
+      "paper": "2020-autumn-a1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Describe two differences between the skulls of two dinosaurs.",
+      "image": "img/2020-autumn-a1/q1ai.jpg",
+      "figures": [
+        "img/2020-autumn-a1/fig-q1ab.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q1aii",
+      "paper": "2020-autumn-a1",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Suggest, with reasons, why the skulls of the two dinosaurs differ.",
+      "image": "img/2020-autumn-a1/q1aii.jpg",
+      "figures": [
+        "img/2020-autumn-a1/fig-q1ab.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q1b",
+      "paper": "2020-autumn-a1",
+      "question": "1(b)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Describe one method by which the area of a dinosaur footprint could be determined.",
+      "image": "img/2020-autumn-a1/q1b.jpg",
+      "figures": [
+        "img/2020-autumn-a1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q1b.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q1ci",
+      "paper": "2020-autumn-a1",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State one possible error when using a ruler to measure the depth of the footprint.",
+      "image": "img/2020-autumn-a1/q1ci.jpg",
+      "figures": [
+        "img/2020-autumn-a1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q1cii",
+      "paper": "2020-autumn-a1",
+      "question": "1(c)(ii)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Suggest how the measurement error could be reduced.",
+      "image": "img/2020-autumn-a1/q1cii.jpg",
+      "figures": [
+        "img/2020-autumn-a1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q1di",
+      "paper": "2020-autumn-a1",
+      "question": "1(d)(i)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the mass of the dinosaur from the footprint volume using the equation given.",
+      "image": "img/2020-autumn-a1/q1di.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q1di.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q1dii",
+      "paper": "2020-autumn-a1",
+      "question": "1(d)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Suggest two reasons why the calculated mass may not represent the dinosaur’s actual mass.",
+      "image": "img/2020-autumn-a1/q1dii.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q1dii.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q1ei",
+      "paper": "2020-autumn-a1",
+      "question": "1(e)(i)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "G3.1"
+      ],
+      "skills": [],
+      "summary": "Describe three pieces of evidence that indicate an asteroid impact at the Cretaceous-Palaeogene boundary.",
+      "image": "img/2020-autumn-a1/q1ei.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q1ei.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q1eii",
+      "paper": "2020-autumn-a1",
+      "question": "1(e)(ii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "G3.1"
+      ],
+      "skills": [],
+      "summary": "Explain how an asteroid impact could have caused the global extinction of the dinosaurs.",
+      "image": "img/2020-autumn-a1/q1eii.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q1eii.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q2a",
+      "paper": "2020-autumn-a1",
+      "question": "2(a)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "G4.1"
+      ],
+      "skills": [],
+      "summary": "Complete a table by describing how china clay forms and naming a resource formed in precipitated deposits.",
+      "image": "img/2020-autumn-a1/q2a.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q2a.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q2bi",
+      "paper": "2020-autumn-a1",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Draw and label the fold axial plane trace on a cross-section through a gold deposit.",
+      "image": "img/2020-autumn-a1/q2bi.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q2bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q2bii",
+      "paper": "2020-autumn-a1",
+      "question": "2(b)(ii)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Identify the type of fold shown in the cross-section (tick-box).",
+      "image": "img/2020-autumn-a1/q2bii.jpg",
+      "figures": [
+        "img/2020-autumn-a1/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q2bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q2ci",
+      "paper": "2020-autumn-a1",
+      "question": "2(c)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "G2"
+      ],
+      "skills": [
+        "map",
+        "maths"
+      ],
+      "summary": "Plot two bedding plane readings from a table onto a polar stereonet.",
+      "image": "img/2020-autumn-a1/q2ci.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q2ci.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q2cii",
+      "paper": "2020-autumn-a1",
+      "question": "2(c)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "G2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Evaluate a student’s statement that the stereonet data indicate a plunging, open synform.",
+      "image": "img/2020-autumn-a1/q2cii.jpg",
+      "figures": [
+        "img/2020-autumn-a1/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q2cii.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q3ai",
+      "paper": "2020-autumn-a1",
+      "question": "3(a)(i)",
+      "marks": 4,
+      "page": 8,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Complete a table describing two diagnostic tests for Specimen J and recording the results.",
+      "image": "img/2020-autumn-a1/q3ai.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q3ai.jpg",
+      "note": "This question uses Specimen J, a physical sample that is not included here."
+    },
+    {
+      "id": "2020-autumn-a1-q3aii",
+      "paper": "2020-autumn-a1",
+      "question": "3(a)(ii)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name the mineral forming Specimen J, using the table and the mineral data sheet.",
+      "image": "img/2020-autumn-a1/q3aii.jpg",
+      "figures": [
+        "img/2025-summer-c1/datasheet.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q3aii.jpg",
+      "note": "This question uses Specimen J, a physical sample that is not included here."
+    },
+    {
+      "id": "2020-autumn-a1-q3bi",
+      "paper": "2020-autumn-a1",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify mineral T in a figure, using the mineral data sheet.",
+      "image": "img/2020-autumn-a1/q3bi.jpg",
+      "figures": [
+        "img/2025-summer-c1/datasheet.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q3bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q3bii",
+      "paper": "2020-autumn-a1",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "Tick the silicate structures represented by Specimen J and by mineral T.",
+      "image": "img/2020-autumn-a1/q3bii.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q3bii.jpg",
+      "note": "This question uses Specimen J, a physical sample that is not included here."
+    },
+    {
+      "id": "2020-autumn-a1-q4a",
+      "paper": "2020-autumn-a1",
+      "question": "4(a)",
+      "marks": 4,
+      "page": 10,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Suggest, from the texture of Specimen C, the probable transport conditions of Rock Unit C.",
+      "image": "img/2020-autumn-a1/q4a.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q4a.jpg",
+      "note": "This question uses Specimen C, a physical sample that is not included here."
+    },
+    {
+      "id": "2020-autumn-a1-q4b",
+      "paper": "2020-autumn-a1",
+      "question": "4(b)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the type of boundary at the base of Rock Unit C from Map 1 and give a reason.",
+      "image": "img/2020-autumn-a1/q4b.jpg",
+      "figures": [
+        "img/2020-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q4b.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q4c",
+      "paper": "2020-autumn-a1",
+      "question": "4(c)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Explain two further pieces of field evidence that would confirm the type of boundary.",
+      "image": "img/2020-autumn-a1/q4c.jpg",
+      "figures": [
+        "img/2020-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q4c.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q5",
+      "paper": "2020-autumn-a1",
+      "question": "5",
+      "marks": 9,
+      "page": 12,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State and justify the field observations and techniques you would use to determine the environmental conditions when Rock Unit D was deposited.",
+      "image": "img/2020-autumn-a1/q5.jpg",
+      "figures": [
+        "img/2020-autumn-a1/photo1.jpg",
+        "img/2020-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q5.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q6a",
+      "paper": "2020-autumn-a1",
+      "question": "6(a)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Draw a fossil from Specimen G in the box provided and add a scale.",
+      "image": "img/2020-autumn-a1/q6a.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q6a.jpg",
+      "note": "This question uses Specimen G, a physical sample that is not included here."
+    },
+    {
+      "id": "2020-autumn-a1-q6b",
+      "paper": "2020-autumn-a1",
+      "question": "6(b)",
+      "marks": 1,
+      "page": 14,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Label two morphological features on the fossil drawing.",
+      "image": "img/2020-autumn-a1/q6b.jpg",
+      "figures": [
+        "img/2020-autumn-a1/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q6b.jpg",
+      "note": "This question uses Specimen G, a physical sample that is not included here."
+    },
+    {
+      "id": "2020-autumn-a1-q6c",
+      "paper": "2020-autumn-a1",
+      "question": "6(c)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State whether the fossils in Specimen G are older, younger or the same age as a second fossil, and give a reason.",
+      "image": "img/2020-autumn-a1/q6c.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q6c.jpg",
+      "note": "This question uses Specimen G, a physical sample that is not included here."
+    },
+    {
+      "id": "2020-autumn-a1-q7ai",
+      "paper": "2020-autumn-a1",
+      "question": "7(a)(i)",
+      "marks": 1,
+      "page": 16,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the name of the structure represented by vertical parallel grooves on a fault plane.",
+      "image": "img/2020-autumn-a1/q7ai.jpg",
+      "figures": [
+        "img/2020-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q7ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q7aii",
+      "paper": "2020-autumn-a1",
+      "question": "7(a)(ii)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Name and explain one further piece of field evidence that would confirm the presence of fault F1.",
+      "image": "img/2020-autumn-a1/q7aii.jpg",
+      "figures": [
+        "img/2020-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q7aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q7aiii",
+      "paper": "2020-autumn-a1",
+      "question": "7(a)(iii)",
+      "marks": 3,
+      "page": 16,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the type of fault formed by F1 using the map and the student’s description, and explain the evidence.",
+      "image": "img/2020-autumn-a1/q7aiii.jpg",
+      "figures": [
+        "img/2020-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q7aiii.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q7b",
+      "paper": "2020-autumn-a1",
+      "question": "7(b)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "G2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the orientation of the principal stress direction for two faults on Map 1.",
+      "image": "img/2020-autumn-a1/q7b.jpg",
+      "figures": [
+        "img/2020-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q7b.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q8a",
+      "paper": "2020-autumn-a1",
+      "question": "8(a)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name the rock forming Specimen B and give two reasons from the specimen alone.",
+      "image": "img/2020-autumn-a1/q8a.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q8a.jpg",
+      "note": "This question uses Specimen B, a physical sample that is not included here."
+    },
+    {
+      "id": "2020-autumn-a1-q8b",
+      "paper": "2020-autumn-a1",
+      "question": "8(b)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the type of igneous body represented by Rock Unit B on Map 1 and give two reasons.",
+      "image": "img/2020-autumn-a1/q8b.jpg",
+      "figures": [
+        "img/2020-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q8b.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q8c",
+      "paper": "2020-autumn-a1",
+      "question": "8(c)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name the rock forming Specimen H and give two reasons from the specimen alone.",
+      "image": "img/2020-autumn-a1/q8c.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q8c.jpg",
+      "note": "This question uses Specimen H, a physical sample that is not included here."
+    },
+    {
+      "id": "2020-autumn-a1-q8d",
+      "paper": "2020-autumn-a1",
+      "question": "8(d)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the relative ages of Rock Units B and H using evidence from Map 1.",
+      "image": "img/2020-autumn-a1/q8d.jpg",
+      "figures": [
+        "img/2020-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q8d.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q8e",
+      "paper": "2020-autumn-a1",
+      "question": "8(e)",
+      "marks": 6,
+      "page": 18,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain why the potential volcanic hazards from the magma of Rock Unit B differ from those of Rock Unit H.",
+      "image": "img/2020-autumn-a1/q8e.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a1/ms-q8e.jpg",
+      "note": "This question refers to Specimens B and H, which are physical samples that are not included here."
+    },
+    {
+      "id": "2020-autumn-a1-q9",
+      "paper": "2020-autumn-a1",
+      "question": "9",
+      "marks": 14,
+      "page": 20,
+      "topics": [
+        "2.3",
+        "3.2",
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Construct a geological cross-section along a line on Map 1 from the thicknesses and dips given, showing fold axes, faults with arrows and cross-cutting relationships above ground.",
+      "image": "img/2020-autumn-a1/q9.jpg",
+      "figures": [
+        "img/2020-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q9.jpg"
+    },
+    {
+      "id": "2020-autumn-a1-q10",
+      "paper": "2020-autumn-a1",
+      "question": "10",
+      "marks": 5,
+      "page": 21,
+      "topics": [
+        "T2.1",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a map to show the expected surface outcrop in a blank area.",
+      "image": "img/2020-autumn-a1/q10.jpg",
+      "figures": [
+        "img/2020-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a1/ms-q10.jpg"
     }
   ],
   "levels": [
