@@ -283,6 +283,18 @@
       "spec": "current",
       "totalMarks": 105,
       "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2021-autumn-a1",
+      "year": 2021,
+      "series": "Autumn",
+      "date": "2021-10-05",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
     }
   ],
   "questions": [
@@ -4482,6 +4494,571 @@
         "img/2020-autumn-a1/map1.jpg"
       ],
       "markscheme": "img/2020-autumn-a1/ms-q10.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q1a",
+      "paper": "2021-autumn-a1",
+      "question": "1(a)",
+      "marks": 4,
+      "page": 2,
+      "topics": [
+        "G4.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a table naming the source rock, reservoir rock, cap rock and type of trap for an oil field from a cross-section.",
+      "image": "img/2021-autumn-a1/q1a.jpg",
+      "figures": [
+        "img/2021-autumn-a1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q1a.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q1b",
+      "paper": "2021-autumn-a1",
+      "question": "1(b)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "G4.3",
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain why microfossils are used for correlation when prospecting for hydrocarbon fields.",
+      "image": "img/2021-autumn-a1/q1b.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a1/ms-q1b.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q1ci",
+      "paper": "2021-autumn-a1",
+      "question": "1(c)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "G4.2"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Complete a table of values (h1, h2, cross-sectional area) for a sand-filled cylinder used to model hydraulic conductivity.",
+      "image": "img/2021-autumn-a1/q1ci.jpg",
+      "figures": [
+        "img/2021-autumn-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q1cii",
+      "paper": "2021-autumn-a1",
+      "question": "1(c)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "G4.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the hydraulic conductivity of the sand from the experiment using the equation given.",
+      "image": "img/2021-autumn-a1/q1cii.jpg",
+      "figures": [
+        "img/2021-autumn-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q1ciii",
+      "paper": "2021-autumn-a1",
+      "question": "1(c)(iii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "G4.2"
+      ],
+      "skills": [],
+      "summary": "Explain why the hydraulic conductivity of the Middle Carboniferous sandstones is likely to differ from the value in the simulation.",
+      "image": "img/2021-autumn-a1/q1ciii.jpg",
+      "figures": [
+        "img/2021-autumn-a1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q2ai",
+      "paper": "2021-autumn-a1",
+      "question": "2(a)(i)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "G3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Describe the temperature changes over the last 20,000 years shown in a graph.",
+      "image": "img/2021-autumn-a1/q2ai.jpg",
+      "figures": [
+        "img/2021-autumn-a1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q2ai.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q2aii",
+      "paper": "2021-autumn-a1",
+      "question": "2(a)(ii)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "G3.2",
+        "G3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Evaluate a statement that increased CO2 levels always lead to increased global temperatures, using the graph.",
+      "image": "img/2021-autumn-a1/q2aii.jpg",
+      "figures": [
+        "img/2021-autumn-a1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q2aii.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q2bi",
+      "paper": "2021-autumn-a1",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "G3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Mark a possible start of the Anthropocene on the temperature curve and give a reason.",
+      "image": "img/2021-autumn-a1/q2bi.jpg",
+      "figures": [
+        "img/2021-autumn-a1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q2bi.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q2bii",
+      "paper": "2021-autumn-a1",
+      "question": "2(b)(ii)",
+      "marks": 6,
+      "page": 7,
+      "topics": [
+        "G3.2"
+      ],
+      "skills": [],
+      "summary": "Evaluate how effective three proposed markers are for defining the start of the Anthropocene.",
+      "image": "img/2021-autumn-a1/q2bii.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a1/ms-q2bii.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q3ai",
+      "paper": "2021-autumn-a1",
+      "question": "3(a)(i)",
+      "marks": 4,
+      "page": 10,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Draw a scaled diagram of Specimen D, a plaster cast of a fossil.",
+      "image": "img/2021-autumn-a1/q3ai.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a1/ms-q3ai.jpg",
+      "note": "This question uses Specimen D, a physical sample that is not included here."
+    },
+    {
+      "id": "2021-autumn-a1-q3aii",
+      "paper": "2021-autumn-a1",
+      "question": "3(a)(ii)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Label the cephalon on the diagram of the fossil.",
+      "image": "img/2021-autumn-a1/q3aii.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a1/ms-q3aii.jpg",
+      "note": "This question uses Specimen D, a physical sample that is not included here."
+    },
+    {
+      "id": "2021-autumn-a1-q3b",
+      "paper": "2021-autumn-a1",
+      "question": "3(b)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Suggest, giving reasons, the most likely mode of life of the fossil.",
+      "image": "img/2021-autumn-a1/q3b.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a1/ms-q3b.jpg",
+      "note": "This question uses Specimen D, a physical sample that is not included here."
+    },
+    {
+      "id": "2021-autumn-a1-q3c",
+      "paper": "2021-autumn-a1",
+      "question": "3(c)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify the fossil represented by Specimen D using the key provided.",
+      "image": "img/2021-autumn-a1/q3c.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a1/ms-q3c.jpg",
+      "note": "This question uses Specimen D, a physical sample that is not included here."
+    },
+    {
+      "id": "2021-autumn-a1-q4a",
+      "paper": "2021-autumn-a1",
+      "question": "4(a)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the texture and composition of Specimen B.",
+      "image": "img/2021-autumn-a1/q4a.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a1/ms-q4a.jpg",
+      "note": "This question uses Specimen B, a physical sample that is not included here."
+    },
+    {
+      "id": "2021-autumn-a1-q4b",
+      "paper": "2021-autumn-a1",
+      "question": "4(b)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Identify the structure shown in Photograph 1.",
+      "image": "img/2021-autumn-a1/q4b.jpg",
+      "figures": [
+        "img/2021-autumn-a1/photo1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q4b.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q4c",
+      "paper": "2021-autumn-a1",
+      "question": "4(c)",
+      "marks": 4,
+      "page": 12,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the type of igneous body represented by Rock Unit B and explain one piece of evidence from each of Specimen B, Photograph 1 and Map 1.",
+      "image": "img/2021-autumn-a1/q4c.jpg",
+      "figures": [
+        "img/2021-autumn-a1/photo1.jpg",
+        "img/2021-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q4c.jpg",
+      "note": "This question uses Specimen B, a physical sample that is not included here."
+    },
+    {
+      "id": "2021-autumn-a1-q5a",
+      "paper": "2021-autumn-a1",
+      "question": "5(a)",
+      "marks": 4,
+      "page": 13,
+      "topics": [
+        "2.1",
+        "2.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Draw a scaled, annotated sketch to show the key geological features in Photograph 2.",
+      "image": "img/2021-autumn-a1/q5a.jpg",
+      "figures": [
+        "img/2021-autumn-a1/photo2.jpg",
+        "img/2021-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q5a.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q5b",
+      "paper": "2021-autumn-a1",
+      "question": "5(b)",
+      "marks": 6,
+      "page": 13,
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Describe the rock cycle processes that resulted in the formation of Specimen C and Specimen M.",
+      "image": "img/2021-autumn-a1/q5b.jpg",
+      "figures": [
+        "img/2021-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q5b.jpg",
+      "note": "This question uses Specimens C and M, which are physical samples that are not included here."
+    },
+    {
+      "id": "2021-autumn-a1-q6a",
+      "paper": "2021-autumn-a1",
+      "question": "6(a)",
+      "marks": 1,
+      "page": 14,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify mineral Y in a photomicrograph, using the mineral data sheet.",
+      "image": "img/2021-autumn-a1/q6a.jpg",
+      "figures": [
+        "img/2021-autumn-a1/photo3.jpg",
+        "img/2025-summer-c1/datasheet.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q6a.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q6b",
+      "paper": "2021-autumn-a1",
+      "question": "6(b)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State, giving two reasons, the name of the rock forming Rock Unit H shown in a photomicrograph.",
+      "image": "img/2021-autumn-a1/q6b.jpg",
+      "figures": [
+        "img/2021-autumn-a1/photo3.jpg",
+        "img/2025-summer-c1/datasheet.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q6b.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q6c",
+      "paper": "2021-autumn-a1",
+      "question": "6(c)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Explain the evidence that Rock Unit J formed in a shallow, tropical, marine environment, from a photomicrograph.",
+      "image": "img/2021-autumn-a1/q6c.jpg",
+      "figures": [
+        "img/2021-autumn-a1/photo4.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q6c.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q6d",
+      "paper": "2021-autumn-a1",
+      "question": "6(d)",
+      "marks": 9,
+      "page": 15,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "practical",
+        "map"
+      ],
+      "summary": "State and give reasons for the field observations you would make to determine the age relationships of three rock units within a box on Map 1.",
+      "image": "img/2021-autumn-a1/q6d.jpg",
+      "figures": [
+        "img/2021-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q6d.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q7a",
+      "paper": "2021-autumn-a1",
+      "question": "7(a)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map",
+        "maths"
+      ],
+      "summary": "Measure the outcrop width of Rock Unit K at two localities on Map 1.",
+      "image": "img/2021-autumn-a1/q7a.jpg",
+      "figures": [
+        "img/2021-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q7a.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q7b",
+      "paper": "2021-autumn-a1",
+      "question": "7(b)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Explain why the outcrop widths of Rock Unit K differ at the two localities.",
+      "image": "img/2021-autumn-a1/q7b.jpg",
+      "figures": [
+        "img/2021-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q7b.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q7c",
+      "paper": "2021-autumn-a1",
+      "question": "7(c)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Draw the axial plane traces of two folds south of Fault F1 on Map 2, using the correct symbols.",
+      "image": "img/2021-autumn-a1/q7c.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a1/ms-q7c.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q7d",
+      "paper": "2021-autumn-a1",
+      "question": "7(d)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Describe the folding in two rock units north of Fault F1.",
+      "image": "img/2021-autumn-a1/q7d.jpg",
+      "figures": [
+        "img/2021-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q7d.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q7e",
+      "paper": "2021-autumn-a1",
+      "question": "7(e)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the evidence from Map 1 that Fault F1 is inclined and shows dip-slip movement.",
+      "image": "img/2021-autumn-a1/q7e.jpg",
+      "figures": [
+        "img/2021-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q7e.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q7f",
+      "paper": "2021-autumn-a1",
+      "question": "7(f)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a table describing Fault F2 (dip angle, fault type and evidence).",
+      "image": "img/2021-autumn-a1/q7f.jpg",
+      "figures": [
+        "img/2021-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q7f.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q8",
+      "paper": "2021-autumn-a1",
+      "question": "8",
+      "marks": 14,
+      "page": 20,
+      "topics": [
+        "2.3",
+        "3.2",
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a geological cross-section along a line on Map 1 using the borehole data, with fold axes and cross-cutting relationships.",
+      "image": "img/2021-autumn-a1/q8.jpg",
+      "figures": [
+        "img/2021-autumn-a1/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q8.jpg"
+    },
+    {
+      "id": "2021-autumn-a1-q9",
+      "paper": "2021-autumn-a1",
+      "question": "9",
+      "marks": 5,
+      "page": 21,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a table evaluating statements about age relationships, using Map 1, Photograph 1 and Specimen B.",
+      "image": "img/2021-autumn-a1/q9.jpg",
+      "figures": [
+        "img/2021-autumn-a1/map1.jpg",
+        "img/2021-autumn-a1/photo1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a1/ms-q9.jpg",
+      "note": "This question uses Specimen B, a physical sample that is not included here."
     }
   ],
   "levels": [
