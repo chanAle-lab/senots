@@ -295,6 +295,18 @@
       "spec": "current",
       "totalMarks": 105,
       "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2022-summer-a1",
+      "year": 2022,
+      "series": "Summer",
+      "date": "2022-06-06",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
     }
   ],
   "questions": [
@@ -5059,6 +5071,661 @@
       ],
       "markscheme": "img/2021-autumn-a1/ms-q9.jpg",
       "note": "This question uses Specimen B, a physical sample that is not included here."
+    },
+    {
+      "id": "2022-summer-a1-q1ai",
+      "paper": "2022-summer-a1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Describe the size and shape of a gabbro intrusion shown on a cross-section.",
+      "image": "img/2022-summer-a1/q1ai.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q1aii",
+      "paper": "2022-summer-a1",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "G4.1"
+      ],
+      "skills": [],
+      "summary": "Suggest why the ore body is found at the base of the gabbro intrusion.",
+      "image": "img/2022-summer-a1/q1aii.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q1a.jpg",
+        "img/2022-summer-a1/fig-q1t.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q1b",
+      "paper": "2022-summer-a1",
+      "question": "1(b)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "G4.3"
+      ],
+      "skills": [],
+      "summary": "State one geophysical prospecting technique to investigate the size of the ore body and explain why it is useful.",
+      "image": "img/2022-summer-a1/q1b.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q1a.jpg",
+        "img/2022-summer-a1/fig-q1t.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q1b.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q1ci",
+      "paper": "2022-summer-a1",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "G4.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State which sampling method was used to collect the geochemical data (tick-box).",
+      "image": "img/2022-summer-a1/q1ci.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q1cii",
+      "paper": "2022-summer-a1",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "G4.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Complete a map of soil copper concentrations by drawing the 50 ppm and 100 ppm isolines.",
+      "image": "img/2022-summer-a1/q1cii.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q1ciii",
+      "paper": "2022-summer-a1",
+      "question": "1(c)(iii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "G4.1",
+        "G4.3"
+      ],
+      "skills": [],
+      "summary": "Account for the distribution of copper concentrations in the soil in the survey area.",
+      "image": "img/2022-summer-a1/q1ciii.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q1a.jpg",
+        "img/2022-summer-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q1civ",
+      "paper": "2022-summer-a1",
+      "question": "1(c)(iv)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "G4.3"
+      ],
+      "skills": [],
+      "summary": "Evaluate the effectiveness of geochemical surveys in locating ore bodies.",
+      "image": "img/2022-summer-a1/q1civ.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a1/ms-q1civ.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q2ai",
+      "paper": "2022-summer-a1",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify the sedimentary structures shown in two photographs.",
+      "image": "img/2022-summer-a1/q2ai.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q2ai.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q2aii",
+      "paper": "2022-summer-a1",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Draw arrows to show the current directions when each sedimentary structure formed.",
+      "image": "img/2022-summer-a1/q2aii.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a1/ms-q2aii.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q2aiii",
+      "paper": "2022-summer-a1",
+      "question": "2(a)(iii)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Draw a graphic log of the sedimentary sequence described in a table of beds.",
+      "image": "img/2022-summer-a1/q2aiii.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a1/ms-q2aiii.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q2b",
+      "paper": "2022-summer-a1",
+      "question": "2(b)",
+      "marks": 6,
+      "page": 7,
+      "topics": [
+        "2.1",
+        "G1.3"
+      ],
+      "skills": [],
+      "summary": "Describe the depositional processes that formed the sedimentary rocks and explain how the sedimentary structures formed.",
+      "image": "img/2022-summer-a1/q2b.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q2.jpg",
+        "img/2022-summer-a1/fig-q2t.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q2b.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q3ai",
+      "paper": "2022-summer-a1",
+      "question": "3(a)(i)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe how you would determine the streak of Specimen T.",
+      "image": "img/2022-summer-a1/q3ai.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a1/ms-q3ai.jpg",
+      "note": "This question uses Specimen T, a physical sample that is not included here."
+    },
+    {
+      "id": "2022-summer-a1-q3aii",
+      "paper": "2022-summer-a1",
+      "question": "3(a)(ii)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State the streak of Specimen T.",
+      "image": "img/2022-summer-a1/q3aii.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a1/ms-q3aii.jpg",
+      "note": "This question uses Specimen T, a physical sample that is not included here."
+    },
+    {
+      "id": "2022-summer-a1-q3bi",
+      "paper": "2022-summer-a1",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the density of a mineral sample from its mass and volume.",
+      "image": "img/2022-summer-a1/q3bi.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a1/ms-q3bi.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q3bii",
+      "paper": "2022-summer-a1",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the total percentage uncertainty from the resolutions of the balance and measuring cylinder.",
+      "image": "img/2022-summer-a1/q3bii.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a1/ms-q3bii.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q3c",
+      "paper": "2022-summer-a1",
+      "question": "3(c)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name Specimen T using a mineral identification key and the equipment provided.",
+      "image": "img/2022-summer-a1/q3c.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a1/ms-q3c.jpg",
+      "note": "This question uses Specimen T, a physical sample that is not included here."
+    },
+    {
+      "id": "2022-summer-a1-q4a",
+      "paper": "2022-summer-a1",
+      "question": "4(a)",
+      "marks": 4,
+      "page": 12,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical",
+        "maths"
+      ],
+      "summary": "Draw the texture of Specimen E on a circle and add a scale.",
+      "image": "img/2022-summer-a1/q4a.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a1/ms-q4a.jpg",
+      "note": "This question uses Specimen E, a physical sample that is not included here."
+    },
+    {
+      "id": "2022-summer-a1-q4b",
+      "paper": "2022-summer-a1",
+      "question": "4(b)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State, giving two reasons, the name of Specimen E.",
+      "image": "img/2022-summer-a1/q4b.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a1/ms-q4b.jpg",
+      "note": "This question uses Specimen E, a physical sample that is not included here."
+    },
+    {
+      "id": "2022-summer-a1-q5a",
+      "paper": "2022-summer-a1",
+      "question": "5(a)",
+      "marks": 6,
+      "page": 13,
+      "topics": [
+        "2.1",
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Complete a table of the characteristics of Photograph 1 and Specimen X (texture, crystal size, composition and rock name).",
+      "image": "img/2022-summer-a1/q5a.jpg",
+      "figures": [
+        "img/2022-summer-a1/photo1.jpg",
+        "img/2025-summer-c1/datasheet.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q5a.jpg",
+      "note": "This question uses Specimen X, a physical sample that is not included here."
+    },
+    {
+      "id": "2022-summer-a1-q5b",
+      "paper": "2022-summer-a1",
+      "question": "5(b)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a table showing the angle and direction of dip at two localities on Map 1.",
+      "image": "img/2022-summer-a1/q5b.jpg",
+      "figures": [
+        "img/2022-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q5b.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q5c",
+      "paper": "2022-summer-a1",
+      "question": "5(c)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Suggest why the dip of Rock Unit F differs at the two localities.",
+      "image": "img/2022-summer-a1/q5c.jpg",
+      "figures": [
+        "img/2022-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q5c.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q6ai",
+      "paper": "2022-summer-a1",
+      "question": "6(a)(i)",
+      "marks": 1,
+      "page": 15,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State the independent variable in a model of a metamorphic aureole around a pluton.",
+      "image": "img/2022-summer-a1/q6ai.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q6.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q6ai.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q6aii",
+      "paper": "2022-summer-a1",
+      "question": "6(a)(ii)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State two variables that need to be controlled in the investigation.",
+      "image": "img/2022-summer-a1/q6aii.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q6.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q6aii.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q6b",
+      "paper": "2022-summer-a1",
+      "question": "6(b)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State two steps taken to maximise the transfer of thermal energy from the hot water to the sand.",
+      "image": "img/2022-summer-a1/q6b.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q6.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q6b.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q7",
+      "paper": "2022-summer-a1",
+      "question": "7",
+      "marks": 9,
+      "page": 16,
+      "topics": [
+        "2.3",
+        "3.1"
+      ],
+      "skills": [
+        "practical",
+        "map"
+      ],
+      "summary": "Plan a field investigation to determine the past geological processes at a locality, stating the observations, the reasons and the techniques.",
+      "image": "img/2022-summer-a1/q7.jpg",
+      "figures": [
+        "img/2022-summer-a1/photo2.jpg",
+        "img/2022-summer-a1/photo3.jpg",
+        "img/2022-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q7.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q8a",
+      "paper": "2022-summer-a1",
+      "question": "8(a)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Describe the outcrop pattern of Rock Unit B on Map 1.",
+      "image": "img/2022-summer-a1/q8a.jpg",
+      "figures": [
+        "img/2022-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q8a.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q8b",
+      "paper": "2022-summer-a1",
+      "question": "8(b)",
+      "marks": 1,
+      "page": 18,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State the name of the rock forming Rock Unit B, from a photomicrograph.",
+      "image": "img/2022-summer-a1/q8b.jpg",
+      "figures": [
+        "img/2022-summer-a1/photo4.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q8b.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q8c",
+      "paper": "2022-summer-a1",
+      "question": "8(c)",
+      "marks": 3,
+      "page": 18,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Evaluate a statement that Rock Unit B is the product of a lava flow, using the photomicrograph and Map 1.",
+      "image": "img/2022-summer-a1/q8c.jpg",
+      "figures": [
+        "img/2022-summer-a1/photo4.jpg",
+        "img/2022-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q8c.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q9a",
+      "paper": "2022-summer-a1",
+      "question": "9(a)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Mark and label the position of two fold axial plane traces on Map 2.",
+      "image": "img/2022-summer-a1/q9a.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a1/ms-q9a.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q9b",
+      "paper": "2022-summer-a1",
+      "question": "9(b)",
+      "marks": 4,
+      "page": 19,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the type of fault represented by Fault F2 and explain the evidence from Map 1.",
+      "image": "img/2022-summer-a1/q9b.jpg",
+      "figures": [
+        "img/2022-summer-a1/map1.jpg",
+        "img/2022-summer-a1/fig-map2.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q9b.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q10a",
+      "paper": "2022-summer-a1",
+      "question": "10(a)",
+      "marks": 14,
+      "page": 20,
+      "topics": [
+        "2.3",
+        "3.2",
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a geological cross-section along a line on Map 1, with fold axes and cross-cutting relationships above ground.",
+      "image": "img/2022-summer-a1/q10a.jpg",
+      "figures": [
+        "img/2022-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q10a.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q10b",
+      "paper": "2022-summer-a1",
+      "question": "10(b)",
+      "marks": 4,
+      "page": 21,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Evaluate a student’s conclusion about the type of folds north-east of Fault F1, with reference to Map 1.",
+      "image": "img/2022-summer-a1/q10b.jpg",
+      "figures": [
+        "img/2022-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q10b.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q11a",
+      "paper": "2022-summer-a1",
+      "question": "11(a)",
+      "marks": 2,
+      "page": 23,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Suggest the most suitable statistical test for comparing clast lithology at two localities (tick-box) and give a reason.",
+      "image": "img/2022-summer-a1/q11a.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q11.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q11a.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q11b",
+      "paper": "2022-summer-a1",
+      "question": "11(b)",
+      "marks": 2,
+      "page": 23,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Compare the degree of sorting at the two localities from box and whisker plots and explain the evidence.",
+      "image": "img/2022-summer-a1/q11b.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q11.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q11b.jpg"
+    },
+    {
+      "id": "2022-summer-a1-q11c",
+      "paper": "2022-summer-a1",
+      "question": "11(c)",
+      "marks": 4,
+      "page": 23,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Suggest why clast size and clast lithology differ between the two localities, using Map 1, the table and the plots.",
+      "image": "img/2022-summer-a1/q11c.jpg",
+      "figures": [
+        "img/2022-summer-a1/fig-q11.jpg",
+        "img/2022-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a1/ms-q11c.jpg"
     }
   ],
   "levels": [
