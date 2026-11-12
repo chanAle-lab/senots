@@ -307,6 +307,18 @@
       "spec": "current",
       "totalMarks": 105,
       "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2024-summer-a1",
+      "year": 2024,
+      "series": "Summer",
+      "date": "2024-06-04",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
     }
   ],
   "questions": [
@@ -5726,6 +5738,620 @@
         "img/2022-summer-a1/map1.jpg"
       ],
       "markscheme": "img/2022-summer-a1/ms-q11c.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q1ai",
+      "paper": "2024-summer-a1",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify a mineral with two 90° cleavages shown in a thin-section sketch of a mafic rock using data sheet properties.",
+      "image": "img/2024-summer-a1/q1ai.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q1a.jpg",
+        "img/2024-summer-a1/datasheet.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q1aii",
+      "paper": "2024-summer-a1",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name the coarse-grained mafic igneous rock displayed in the thin-section drawing.",
+      "image": "img/2024-summer-a1/q1aii.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q1aiii",
+      "paper": "2024-summer-a1",
+      "question": "1(a)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "Match mineral S and plagioclase feldspar to their corresponding silicate polymerisation structures in a table.",
+      "image": "img/2024-summer-a1/q1aiii.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a1/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q1bi",
+      "paper": "2024-summer-a1",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "G1.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Identify the olivine end-member that solidifies at the highest temperature from a binary phase diagram.",
+      "image": "img/2024-summer-a1/q1bi.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q1bii",
+      "paper": "2024-summer-a1",
+      "question": "1(b)(ii)",
+      "marks": 5,
+      "page": 4,
+      "topics": [
+        "G1.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Determine initial, intermediate, and final crystallisation temperatures and melt-crystal compositions for a cooling melt on an olivine phase diagram.",
+      "image": "img/2024-summer-a1/q1bii.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q1ci",
+      "paper": "2024-summer-a1",
+      "question": "1(c)(i)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "G1.1",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain the variation in chemical composition between the core and rim of a zoned olivine phenocryst in an igneous thin section.",
+      "image": "img/2024-summer-a1/q1ci.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q1b.jpg",
+        "img/2024-summer-a1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q1cii",
+      "paper": "2024-summer-a1",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "G1.1",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Account for the absence of compositional zoning in groundmass olivine crystals compared with the phenocryst.",
+      "image": "img/2024-summer-a1/q1cii.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q2ai",
+      "paper": "2024-summer-a1",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "4.1",
+        "4.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Label the crust–mantle boundary on a cross-sectional diagram illustrating symmetrical ocean ridge spreading.",
+      "image": "img/2024-summer-a1/q2ai.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a1/ms-q2ai.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q2aii",
+      "paper": "2024-summer-a1",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "2.3",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Identify the fault classification present in extruded basaltic lavas and justify using structural evidence.",
+      "image": "img/2024-summer-a1/q2aii.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q2aii.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q2aiii",
+      "paper": "2024-summer-a1",
+      "question": "2(a)(iii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "G1.1",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Explain the petrological mechanism generating basaltic magma beneath a constructive plate boundary.",
+      "image": "img/2024-summer-a1/q2aiii.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q2aiii.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q2b",
+      "paper": "2024-summer-a1",
+      "question": "2(b)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "4.2",
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Contrast seafloor rock outcrops and fault styles between symmetrical and asymmetrical ocean spreading models.",
+      "image": "img/2024-summer-a1/q2b.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q2a.jpg",
+        "img/2024-summer-a1/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q2b.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q2c",
+      "paper": "2024-summer-a1",
+      "question": "2(c)",
+      "marks": 6,
+      "page": 8,
+      "topics": [
+        "4.2",
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Discuss how marine magnetic anomalies and scientific ocean drilling data are applied to calculate rates of seafloor spreading.",
+      "image": "img/2024-summer-a1/q2c.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q2a.jpg",
+        "img/2024-summer-a1/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q2c.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q3ai",
+      "paper": "2024-summer-a1",
+      "question": "3(a)(i)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "summary": "Record diagnostic observations and propose a confirmatory physical test for an unknown white mineral specimen.",
+      "image": "img/2024-summer-a1/q3ai.jpg",
+      "figures": [
+        "img/2024-summer-a1/specimens.jpg",
+        "img/2024-summer-a1/datasheet.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q3ai.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q3aii",
+      "paper": "2024-summer-a1",
+      "question": "3(a)(ii)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "summary": "Deduce the mineral identity of Specimen E from test results and reference data.",
+      "image": "img/2024-summer-a1/q3aii.jpg",
+      "figures": [
+        "img/2024-summer-a1/specimens.jpg",
+        "img/2024-summer-a1/datasheet.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q3aii.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q3b",
+      "paper": "2024-summer-a1",
+      "question": "3(b)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Describe the palaeoenvironmental and climatic regime necessary for depositing extensive bedded halite evaporites.",
+      "image": "img/2024-summer-a1/q3b.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a1/ms-q3b.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q4a",
+      "paper": "2024-summer-a1",
+      "question": "4(a)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "summary": "Characterise the textural attributes of an igneous hand specimen collected from a mapped rock unit.",
+      "image": "img/2024-summer-a1/q4a.jpg",
+      "figures": [
+        "img/2024-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q4a.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q4b",
+      "paper": "2024-summer-a1",
+      "question": "4(b)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "practical",
+        "map"
+      ],
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "summary": "Identify the intrusive body classification using textural evidence from Specimen C and contact geometry from Map 1.",
+      "image": "img/2024-summer-a1/q4b.jpg",
+      "figures": [
+        "img/2024-summer-a1/specimens.jpg",
+        "img/2024-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q4b.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q4c",
+      "paper": "2024-summer-a1",
+      "question": "4(c)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "2.1",
+        "G4.1"
+      ],
+      "skills": [],
+      "summary": "Critique whether chemical weathering of an exposed granitic pluton can yield economic deposits of kaolinite.",
+      "image": "img/2024-summer-a1/q4c.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a1/ms-q4c.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q5a",
+      "paper": "2024-summer-a1",
+      "question": "5(a)",
+      "marks": 4,
+      "page": 12,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "summary": "Produce a scaled morphological drawing showing the internal anatomical features of fossil shell Specimen K.",
+      "image": "img/2024-summer-a1/q5a.jpg",
+      "figures": [
+        "img/2024-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q5a.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q5b",
+      "paper": "2024-summer-a1",
+      "question": "5(b)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "summary": "Classify the invertebrate fossil group of Specimen K based on valve plane of symmetry.",
+      "image": "img/2024-summer-a1/q5b.jpg",
+      "figures": [
+        "img/2024-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q5b.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q5c",
+      "paper": "2024-summer-a1",
+      "question": "5(c)",
+      "marks": 6,
+      "page": 13,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "summary": "Deduce and justify the benthic modes of life for fossil Specimen K and modern shell L from morphological adaptations.",
+      "image": "img/2024-summer-a1/q5c.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q5.jpg",
+        "img/2024-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q5c.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q6",
+      "paper": "2024-summer-a1",
+      "question": "6",
+      "marks": 9,
+      "page": 15,
+      "topics": [
+        "2.1",
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Design a comprehensive field sampling strategy to evaluate the sedimentary depositional setting and vertebrate trackmakers of a bedding exposure.",
+      "image": "img/2024-summer-a1/q6.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q6a.jpg",
+        "img/2024-summer-a1/fig-q6b.jpg",
+        "img/2024-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q6.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q7a",
+      "paper": "2024-summer-a1",
+      "question": "7(a)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "G4.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "summary": "Classify the coalification rank of Specimen G using visible physical criteria.",
+      "image": "img/2024-summer-a1/q7a.jpg",
+      "figures": [
+        "img/2024-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q7a.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q7b",
+      "paper": "2024-summer-a1",
+      "question": "7(b)",
+      "marks": 4,
+      "page": 17,
+      "topics": [
+        "G4.2",
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Assess hypotheses regarding the depositional environment, oxygen levels, and burial depth of coal Specimen G.",
+      "image": "img/2024-summer-a1/q7b.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a1/ms-q7b.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q8a",
+      "paper": "2024-summer-a1",
+      "question": "8(a)",
+      "marks": 4,
+      "page": 18,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Plot axial plane traces for three folds and indicate an angular unconformity on an outline geological map.",
+      "image": "img/2024-summer-a1/q8a.jpg",
+      "figures": [
+        "img/2024-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q8a.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q8b",
+      "paper": "2024-summer-a1",
+      "question": "8(b)",
+      "marks": 3,
+      "page": 18,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Determine the dip inclination and kinematics of two intersecting faults shown on Map 1.",
+      "image": "img/2024-summer-a1/q8b.jpg",
+      "figures": [
+        "img/2024-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q8b.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q9",
+      "paper": "2024-summer-a1",
+      "question": "9",
+      "marks": 14,
+      "page": 19,
+      "topics": [
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "map",
+        "maths",
+        "practical"
+      ],
+      "summary": "Construct a scaled geological cross-section along profile line X–Y illustrating folding, fault reactivation, and angular unconformity.",
+      "image": "img/2024-summer-a1/q9.jpg",
+      "figures": [
+        "img/2024-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q9.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q10a",
+      "paper": "2024-summer-a1",
+      "question": "10(a)",
+      "marks": 3,
+      "page": 20,
+      "topics": [
+        "2.2",
+        "G1.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify a foliated metamorphic xenolith with porphyroblasts and justify the diagnosis.",
+      "image": "img/2024-summer-a1/q10a.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q10.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q10a.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q10bi",
+      "paper": "2024-summer-a1",
+      "question": "10(b)(i)",
+      "marks": 2,
+      "page": 20,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the upper chronological age limit for an isotopic Potassium–Argon date with percentage uncertainty.",
+      "image": "img/2024-summer-a1/q10bi.jpg",
+      "figures": [
+        "img/2024-summer-a1/fig-q10.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q10bi.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q10bii",
+      "paper": "2024-summer-a1",
+      "question": "10(b)(ii)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "State fundamental radiometric assumptions and potential source of error in Potassium–Argon dating.",
+      "image": "img/2024-summer-a1/q10bii.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a1/ms-q10bii.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q10ci",
+      "paper": "2024-summer-a1",
+      "question": "10(c)(i)",
+      "marks": 1,
+      "page": 21,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Select the plausible geological period of deposition for Rock Unit A from relative cross-cutting and radiometric constraints.",
+      "image": "img/2024-summer-a1/q10ci.jpg",
+      "figures": [
+        "img/2024-summer-a1/map1.jpg",
+        "img/2024-summer-a1/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q10ci.jpg"
+    },
+    {
+      "id": "2024-summer-a1-q10cii",
+      "paper": "2024-summer-a1",
+      "question": "10(c)(ii)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "3.2",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Justify the inferred geological age of Rock Unit A using intrusive cross-cutting relationships and fossil/xenolith age limits.",
+      "image": "img/2024-summer-a1/q10cii.jpg",
+      "figures": [
+        "img/2024-summer-a1/map1.jpg",
+        "img/2024-summer-a1/fig-q6b.jpg",
+        "img/2024-summer-a1/fig-q10.jpg"
+      ],
+      "markscheme": "img/2024-summer-a1/ms-q10cii.jpg"
     }
   ],
   "levels": [
