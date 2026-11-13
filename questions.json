@@ -331,6 +331,18 @@
       "spec": "current",
       "totalMarks": 105,
       "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2019-summer-a1",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-04",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
     }
   ],
   "questions": [
@@ -7053,6 +7065,608 @@
         "img/2025-summer-a1/map1.jpg"
       ],
       "markscheme": "img/2025-summer-a1/ms-q11e.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q1a",
+      "paper": "2019-summer-a1",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify the anatomical cephalic and caudal structures labelled on the trilobite specimen drawing.",
+      "image": "img/2019-summer-a1/q1a.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q1a.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q1bi",
+      "paper": "2019-summer-a1",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Identify the geological time period corresponding to the numerical age range shown on the evolutionary divergence plot.",
+      "image": "img/2019-summer-a1/q1bi.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q1bii",
+      "paper": "2019-summer-a1",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "State the geological era during which trilobites existed in the fossil record.",
+      "image": "img/2019-summer-a1/q1bii.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q1ci",
+      "paper": "2019-summer-a1",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "3.1",
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Determine which plotted data point corresponds to the specimen illustrated in the morphological diagram by counting thoracic segments.",
+      "image": "img/2019-summer-a1/q1ci.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q1a.jpg",
+        "img/2019-summer-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q1cii",
+      "paper": "2019-summer-a1",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Compare the morphological changes in thoracic segment numbers over time between the two trilobite lineages by identifying one similarity and one difference.",
+      "image": "img/2019-summer-a1/q1cii.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q1ciii",
+      "paper": "2019-summer-a1",
+      "question": "1(c)(iii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Critically evaluate whether the stratigraphic distribution of thoracic segments provides evidence for phyletic gradualism or punctuated equilibrium.",
+      "image": "img/2019-summer-a1/q1ciii.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q1di",
+      "paper": "2019-summer-a1",
+      "question": "1(d)(i)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Deduce the probable benthic palaeoecology of Trinucleus and support the deduction using observable morphological adaptations.",
+      "image": "img/2019-summer-a1/q1di.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q1di.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q1dii",
+      "paper": "2019-summer-a1",
+      "question": "1(d)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Explain the scientific limitations and taphonomic challenges involved in reconstructing the palaeoecology of extinct organisms.",
+      "image": "img/2019-summer-a1/q1dii.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q1a.jpg",
+        "img/2019-summer-a1/fig-q1b.jpg",
+        "img/2019-summer-a1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q1dii.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q2a",
+      "paper": "2019-summer-a1",
+      "question": "2(a)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "2.1",
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Interpret the cyclic changes in palaeoenvironmental conditions and relative water depth recorded across the sedimentary succession from P to Q.",
+      "image": "img/2019-summer-a1/q2a.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q2a.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q2bi",
+      "paper": "2019-summer-a1",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "2.1",
+        "T3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the physical macroscopic characteristics and macroscopic appearance of high-rank anthracite coal in hand specimen.",
+      "image": "img/2019-summer-a1/q2bi.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q2bi.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q2bii",
+      "paper": "2019-summer-a1",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "2.1",
+        "T3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the percentage carbon content of the seam sample and establish its coalification rank using the compositional ternary graph.",
+      "image": "img/2019-summer-a1/q2bii.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q2bii.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q2c",
+      "paper": "2019-summer-a1",
+      "question": "2(c)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "T3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the total volume of remaining coal contained within the unworked support pillars using the plan dimensions and seam thickness.",
+      "image": "img/2019-summer-a1/q2c.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q2a.jpg",
+        "img/2019-summer-a1/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q2c.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q2d",
+      "paper": "2019-summer-a1",
+      "question": "2(d)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "T3.1",
+        "G4.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Assess the technical advantages and practical shortcomings of conducting a systematic exploratory drilling programme across an abandoned pillar-and-stall mining area.",
+      "image": "img/2019-summer-a1/q2d.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q2d.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q3a",
+      "paper": "2019-summer-a1",
+      "question": "3(a)",
+      "marks": 4,
+      "page": 8,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Produce an accurately scaled textural diagram displaying the porphyritic igneous fabric of the granitic pluton.",
+      "image": "img/2019-summer-a1/q3a.jpg",
+      "figures": [
+        "img/2019-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q3a.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q3b",
+      "paper": "2019-summer-a1",
+      "question": "3(b)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe a diagnostic mineral testing procedure to verify that the phenocrysts are feldspar and specify the expected positive test result.",
+      "image": "img/2019-summer-a1/q3b.jpg",
+      "figures": [
+        "img/2019-summer-a1/datasheet.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q3b.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q3c",
+      "paper": "2019-summer-a1",
+      "question": "3(c)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Plot the outer limit of the contact metamorphic aureole surrounding the pluton on the local geological map using the designated cartographic line symbol.",
+      "image": "img/2019-summer-a1/q3c.jpg",
+      "figures": [
+        "img/2019-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q3c.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q3d",
+      "paper": "2019-summer-a1",
+      "question": "3(d)",
+      "marks": 4,
+      "page": 9,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "State and explain two geological and physical controls that govern the lateral extent of a thermal metamorphic aureole.",
+      "image": "img/2019-summer-a1/q3d.jpg",
+      "figures": [],
+      "markscheme": "img/2019-summer-a1/ms-q3d.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q4ai",
+      "paper": "2019-summer-a1",
+      "question": "4(a)(i)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Describe the surface geometric outcrop characteristics, orientation, and cross-cutting relationships of the igneous intrusion shown on the map.",
+      "image": "img/2019-summer-a1/q4ai.jpg",
+      "figures": [
+        "img/2019-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q4ai.jpg",
+      "note": "This question uses Specimen F, a physical sample that is not included here."
+    },
+    {
+      "id": "2019-summer-a1-q4aii",
+      "paper": "2019-summer-a1",
+      "question": "4(a)(ii)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "2.2",
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the observable petrographic texture, crystal size range, and mineral composition of the igneous hand specimen.",
+      "image": "img/2019-summer-a1/q4aii.jpg",
+      "figures": [],
+      "markscheme": "img/2019-summer-a1/ms-q4aii.jpg",
+      "note": "This question uses Specimen F, a physical sample that is not included here."
+    },
+    {
+      "id": "2019-summer-a1-q4aiii",
+      "paper": "2019-summer-a1",
+      "question": "4(a)(iii)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify the medium-grained mafic igneous rock forming the specimen.",
+      "image": "img/2019-summer-a1/q4aiii.jpg",
+      "figures": [],
+      "markscheme": "img/2019-summer-a1/ms-q4aiii.jpg",
+      "note": "This question uses Specimen F, a physical sample that is not included here."
+    },
+    {
+      "id": "2019-summer-a1-q4b",
+      "paper": "2019-summer-a1",
+      "question": "4(b)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "map",
+        "practical"
+      ],
+      "summary": "Determine the structural form of the igneous body and justify the conclusion using independent evidence from the map and hand specimen.",
+      "image": "img/2019-summer-a1/q4b.jpg",
+      "figures": [
+        "img/2019-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q4b.jpg",
+      "note": "This question uses Specimen F, a physical sample that is not included here."
+    },
+    {
+      "id": "2019-summer-a1-q5",
+      "paper": "2019-summer-a1",
+      "question": "5",
+      "marks": 9,
+      "page": 12,
+      "topics": [
+        "2.2",
+        "2.1",
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "map",
+        "practical"
+      ],
+      "summary": "Design an investigative field strategy specifying diagnostic outcrop observations and their rationale to decipher past igneous, sedimentary, and structural events.",
+      "image": "img/2019-summer-a1/q5.jpg",
+      "figures": [
+        "img/2019-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q5.jpg",
+      "note": "This question refers to Photograph 1 on the Resource Sheet, which was not included."
+    },
+    {
+      "id": "2019-summer-a1-q6ai",
+      "paper": "2019-summer-a1",
+      "question": "6(a)(i)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Draw an accurate, scaled morphological sketch of the fossil cast specimen highlighting diagnostic skeletal structures.",
+      "image": "img/2019-summer-a1/q6ai.jpg",
+      "figures": [],
+      "markscheme": "img/2019-summer-a1/ms-q6ai.jpg",
+      "note": "This question uses Specimen E, a physical sample that is not included here."
+    },
+    {
+      "id": "2019-summer-a1-q6aii",
+      "paper": "2019-summer-a1",
+      "question": "6(a)(ii)",
+      "marks": 1,
+      "page": 14,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State the taxonomic fossil invertebrate group represented by the cast specimen.",
+      "image": "img/2019-summer-a1/q6aii.jpg",
+      "figures": [],
+      "markscheme": "img/2019-summer-a1/ms-q6aii.jpg",
+      "note": "This question uses Specimen E, a physical sample that is not included here."
+    },
+    {
+      "id": "2019-summer-a1-q6b",
+      "paper": "2019-summer-a1",
+      "question": "6(b)",
+      "marks": 1,
+      "page": 14,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify the fossil invertebrate group depicted in the vertical cliff section exposure.",
+      "image": "img/2019-summer-a1/q6b.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q6b.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q6c",
+      "paper": "2019-summer-a1",
+      "question": "6(c)",
+      "marks": 4,
+      "page": 15,
+      "topics": [
+        "2.1",
+        "2.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Explain the sedimentological and geopetal evidence demonstrating that the strata at Localities II and III have been tectonically overturned.",
+      "image": "img/2019-summer-a1/q6c.jpg",
+      "figures": [
+        "img/2019-summer-a1/fig-q6b.jpg",
+        "img/2019-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q6c.jpg",
+      "note": "This question refers to Photograph 2 on the Resource Sheet, which was not included."
+    },
+    {
+      "id": "2019-summer-a1-q7",
+      "paper": "2019-summer-a1",
+      "question": "7",
+      "marks": 6,
+      "page": 16,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Account for the progressive metamorphic recrystallisation and textural transformations converting a shale protolith into intermediate and high-grade regional metamorphic rocks.",
+      "image": "img/2019-summer-a1/q7.jpg",
+      "figures": [
+        "img/2019-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q7.jpg",
+      "note": "This question uses Specimen A (physical sample) and Photographs 3 and 4 on the Resource Sheet, which were not included."
+    },
+    {
+      "id": "2019-summer-a1-q8a",
+      "paper": "2019-summer-a1",
+      "question": "8(a)",
+      "marks": 6,
+      "page": 17,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a fault comparison table establishing dip angle, dip direction, hanging-wall position, displacement age, and kinematic fault classification for faults F1 and F2.",
+      "image": "img/2019-summer-a1/q8a.jpg",
+      "figures": [
+        "img/2019-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q8a.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q8b",
+      "paper": "2019-summer-a1",
+      "question": "8(b)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Accurately mark and label the trace of an unconformity and two fold axial plane traces on the geological map.",
+      "image": "img/2019-summer-a1/q8b.jpg",
+      "figures": [
+        "img/2019-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q8b.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q9a",
+      "paper": "2019-summer-a1",
+      "question": "9(a)",
+      "marks": 13,
+      "page": 18,
+      "topics": [
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "map",
+        "practical"
+      ],
+      "summary": "Construct a complete geological cross-section along topographic profile Y–Z showing folded stratigraphic units, faults, unconformities, and cross-cutting relationships.",
+      "image": "img/2019-summer-a1/q9a.jpg",
+      "figures": [
+        "img/2019-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q9a.jpg"
+    },
+    {
+      "id": "2019-summer-a1-q9b",
+      "paper": "2019-summer-a1",
+      "question": "9(b)",
+      "marks": 8,
+      "page": 19,
+      "topics": [
+        "3.2",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Deduce the complete chronological sequence of geological events, rock units, faulting episodes, and folding represented across the geological map.",
+      "image": "img/2019-summer-a1/q9b.jpg",
+      "figures": [
+        "img/2019-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2019-summer-a1/ms-q9b.jpg"
     }
   ],
   "levels": [
