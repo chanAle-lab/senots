@@ -355,6 +355,18 @@
       "spec": "current",
       "totalMarks": 90,
       "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2020-autumn-c2",
+      "year": 2020,
+      "series": "Autumn",
+      "date": "2020-10-13",
+      "code": "B480U20-1",
+      "unit": "AS Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
     }
   ],
   "questions": [
@@ -8321,6 +8333,645 @@
         "img/2019-summer-a2/fig-q6c.jpg"
       ],
       "markscheme": "img/2019-summer-a2/ms-q6d.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q1a",
+      "paper": "2020-autumn-c2",
+      "question": "1(a)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete the data table calculating the mass, volume, and relative density of Earth, basalt, and granite.",
+      "image": "img/2020-autumn-c2/q1a.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q1a.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q1b",
+      "paper": "2020-autumn-c2",
+      "question": "1(b)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Explain what the relative densities of crustal rocks indicate about the composition and density of deeper Earth layers.",
+      "image": "img/2020-autumn-c2/q1b.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q1b.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q1ci",
+      "paper": "2020-autumn-c2",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Classify meteorites X and Y as stony or iron based on their relative densities.",
+      "image": "img/2020-autumn-c2/q1ci.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q1a.jpg",
+        "img/2020-autumn-c2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q1ci.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q1cii",
+      "paper": "2020-autumn-c2",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Plot the relative densities of meteorites X and Y on the Earth density–depth graph.",
+      "image": "img/2020-autumn-c2/q1cii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q1cii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q1ciii",
+      "paper": "2020-autumn-c2",
+      "question": "1(c)(iii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Explain how meteorite compositions and densities provide indirect evidence for Earth’s internal core and mantle.",
+      "image": "img/2020-autumn-c2/q1ciii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q1d",
+      "paper": "2020-autumn-c2",
+      "question": "1(d)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Describe one other line of evidence, such as seismic wave behaviour or xenoliths, used to deduce Earth’s internal structure.",
+      "image": "img/2020-autumn-c2/q1d.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-c2/ms-q1d.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q2ai",
+      "paper": "2020-autumn-c2",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Identify the geological age at which graptolite group diversity reached its maximum peak.",
+      "image": "img/2020-autumn-c2/q2ai.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q2ai.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q2aii",
+      "paper": "2020-autumn-c2",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the percentage reduction in the number of graptolite groups between points M and N on the graph.",
+      "image": "img/2020-autumn-c2/q2aii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q2aii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q2aiii",
+      "paper": "2020-autumn-c2",
+      "question": "2(a)(iii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Evaluate whether the decline in graptolite groups between points M and N satisfies the criteria for a mass extinction event.",
+      "image": "img/2020-autumn-c2/q2aiii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q2aiii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q2b",
+      "paper": "2020-autumn-c2",
+      "question": "2(b)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify three graptolite specimens using the dichotomous key based on stipe count, thecal complexity, and orientation.",
+      "image": "img/2020-autumn-c2/q2b.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q2b.jpg",
+        "img/2020-autumn-c2/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q2b.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q2c",
+      "paper": "2020-autumn-c2",
+      "question": "2(c)",
+      "marks": 6,
+      "page": 7,
+      "topics": [
+        "3.1",
+        "3.2",
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Evaluate whether shale Y is younger than shale X using graptolite biostratigraphy, the law of superposition, and way-up structures.",
+      "image": "img/2020-autumn-c2/q2c.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q2d.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q2c.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q3ai",
+      "paper": "2020-autumn-c2",
+      "question": "3(a)(i)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the clastic texture of sediment A including grain size range, roundness, and sorting.",
+      "image": "img/2020-autumn-c2/q3ai.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q3ai.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q3aii",
+      "paper": "2020-autumn-c2",
+      "question": "3(a)(ii)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "State the specific sandstone type formed by the lithification of pure, well-sorted quartz sediment A.",
+      "image": "img/2020-autumn-c2/q3aii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q3aii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q3aiii",
+      "paper": "2020-autumn-c2",
+      "question": "3(a)(iii)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "1.1",
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify mineral C in sediment B using its physical cleavage and hardness properties.",
+      "image": "img/2020-autumn-c2/q3aiii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q3aiii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q3bi",
+      "paper": "2020-autumn-c2",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Complete the cumulative frequency values for sediment B in the sediment size distribution table.",
+      "image": "img/2020-autumn-c2/q3bi.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q3a.jpg",
+        "img/2020-autumn-c2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q3bi.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q3bii",
+      "paper": "2020-autumn-c2",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Plot the cumulative frequency curve for sediment A onto the grain size graph.",
+      "image": "img/2020-autumn-c2/q3bii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q3bii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q3c",
+      "paper": "2020-autumn-c2",
+      "question": "3(c)",
+      "marks": 6,
+      "page": 11,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Evaluate the comparative textural and mineralogical maturity of sediments A and B in relation to distance and duration of transport.",
+      "image": "img/2020-autumn-c2/q3c.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q3a.jpg",
+        "img/2020-autumn-c2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q3c.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q4ai",
+      "paper": "2020-autumn-c2",
+      "question": "4(a)(i)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Describe the igneous crystalline texture of rock J including crystal size range, interlocking boundaries, and orientation.",
+      "image": "img/2020-autumn-c2/q4ai.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q4a.jpg",
+        "img/2020-autumn-c2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q4ai.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q4aii",
+      "paper": "2020-autumn-c2",
+      "question": "4(a)(ii)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Name coarse-grained mafic igneous rock J composed of plagioclase feldspar and augite.",
+      "image": "img/2020-autumn-c2/q4aii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q4aii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q4bi",
+      "paper": "2020-autumn-c2",
+      "question": "4(b)(i)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Draw a scaled diagram showing the non-foliated granoblastic texture of recrystallised metaquartzite at location S.",
+      "image": "img/2020-autumn-c2/q4bi.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q4a.jpg",
+        "img/2020-autumn-c2/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q4bi.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q4bii",
+      "paper": "2020-autumn-c2",
+      "question": "4(b)(ii)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "State the name of the metamorphic rock formed by contact thermal metamorphism of quartz sandstone at location S.",
+      "image": "img/2020-autumn-c2/q4bii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q4bii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q4c",
+      "paper": "2020-autumn-c2",
+      "question": "4(c)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "2.2",
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Explain the rock cycle processes connecting the protolith sandstone to the contact metamorphic rock at location S.",
+      "image": "img/2020-autumn-c2/q4c.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q4c.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q4d",
+      "paper": "2020-autumn-c2",
+      "question": "4(d)",
+      "marks": 4,
+      "page": 14,
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain the variation in permeability between sandstone, mudstone, gabbro, and metaquartzite based on pore size and crystalline texture.",
+      "image": "img/2020-autumn-c2/q4d.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q4d.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q5a",
+      "paper": "2020-autumn-c2",
+      "question": "5(a)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Plot two earthquake focal depth data points onto the Wadati–Benioff zone cross-section graph.",
+      "image": "img/2020-autumn-c2/q5a.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q5a.jpg",
+        "img/2020-autumn-c2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q5a.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q5bi",
+      "paper": "2020-autumn-c2",
+      "question": "5(b)(i)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the mathematical correlation between earthquake focal depth and distance from the oceanic plate boundary.",
+      "image": "img/2020-autumn-c2/q5bi.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q5bi.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q5bii",
+      "paper": "2020-autumn-c2",
+      "question": "5(b)(ii)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Explain how subduction geometry and frictional stick-slip failure along a descending oceanic slab account for the focal depth pattern.",
+      "image": "img/2020-autumn-c2/q5bii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q5a.jpg",
+        "img/2020-autumn-c2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q5bii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q5c",
+      "paper": "2020-autumn-c2",
+      "question": "5(c)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "4.1",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Explain why seismic hypocentres are absent at depths exceeding 700 kilometres due to ductile mantle rheology.",
+      "image": "img/2020-autumn-c2/q5c.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q5c.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q5di",
+      "paper": "2020-autumn-c2",
+      "question": "5(d)(i)",
+      "marks": 3,
+      "page": 18,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Describe one primary or secondary volcanic hazard associated with destructive margin composite volcanoes.",
+      "image": "img/2020-autumn-c2/q5di.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q5di.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q5dii",
+      "paper": "2020-autumn-c2",
+      "question": "5(d)(ii)",
+      "marks": 3,
+      "page": 18,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain the operating principle and application of one volcano monitoring technique in forecasting eruptions.",
+      "image": "img/2020-autumn-c2/q5dii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q5dii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q6ai",
+      "paper": "2020-autumn-c2",
+      "question": "6(a)(i)",
+      "marks": 1,
+      "page": 20,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Complete the block diagram by projecting folded geological beds onto the eastern vertical section face.",
+      "image": "img/2020-autumn-c2/q6ai.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q6ai.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q6aii",
+      "paper": "2020-autumn-c2",
+      "question": "6(a)(ii)",
+      "marks": 3,
+      "page": 20,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Name and describe the sedimentary hydrodynamic formation of the graded bedding structure shown in the outcrop photograph.",
+      "image": "img/2020-autumn-c2/q6aii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q6aii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q6aiii",
+      "paper": "2020-autumn-c2",
+      "question": "6(a)(iii)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "2.3",
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Explain how graded bedding way-up evidence confirms that the antiforms in the block diagram are true anticlines.",
+      "image": "img/2020-autumn-c2/q6aiii.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q6a.jpg",
+        "img/2020-autumn-c2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q6aiii.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q6aiv",
+      "paper": "2020-autumn-c2",
+      "question": "6(a)(iv)",
+      "marks": 4,
+      "page": 21,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Describe the structural geometry of the folds including fold axis orientation, symmetry, interlimb angle, and hinge shape.",
+      "image": "img/2020-autumn-c2/q6aiv.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q6aiv.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q6b",
+      "paper": "2020-autumn-c2",
+      "question": "6(b)",
+      "marks": 3,
+      "page": 21,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe how to measure the strike and true dip of an inclined bedding plane in the field using a compass-clinometer.",
+      "image": "img/2020-autumn-c2/q6b.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-c2/ms-q6b.jpg"
+    },
+    {
+      "id": "2020-autumn-c2-q6c",
+      "paper": "2020-autumn-c2",
+      "question": "6(c)",
+      "marks": 4,
+      "page": 22,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Explain why compressive stress accounts for folding while tensional extension is required to form the normal fault.",
+      "image": "img/2020-autumn-c2/q6c.jpg",
+      "figures": [
+        "img/2020-autumn-c2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c2/ms-q6c.jpg"
     }
   ],
   "levels": [
