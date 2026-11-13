@@ -403,6 +403,18 @@
       "spec": "current",
       "totalMarks": 90,
       "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2022-summer-a2",
+      "year": 2022,
+      "series": "Summer",
+      "date": "2022-06-14",
+      "code": "A480U20-1",
+      "unit": "A level Component 2: Geological Principles and Processes",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
     }
   ],
   "questions": [
@@ -10924,6 +10936,656 @@
         "img/2022-summer-c2/fig-q6a.jpg"
       ],
       "markscheme": "img/2022-summer-c2/ms-q6d.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q1a",
+      "paper": "2022-summer-a2",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "Identify the external and internal energy sources driving Earth’s rock cycle processes.",
+      "image": "img/2022-summer-a2/q1a.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q1a.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q1bi",
+      "paper": "2022-summer-a2",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "1.1",
+        "2.1",
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Match rock cycle processes of uplift, lithification, and partial melting to positions on the rock cycle diagram.",
+      "image": "img/2022-summer-a2/q1bi.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q1bii",
+      "paper": "2022-summer-a2",
+      "question": "1(b)(ii)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Contrast and account for differences in sediment maturity between locations A and B on the rock cycle diagram.",
+      "image": "img/2022-summer-a2/q1bii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q1ci",
+      "paper": "2022-summer-a2",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "2.2",
+        "G1.2"
+      ],
+      "skills": [],
+      "summary": "Describe textural or mineralogical evidence from the rock photograph indicating a metamorphic origin.",
+      "image": "img/2022-summer-a2/q1ci.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q1a.jpg",
+        "img/2022-summer-a2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q1ci.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q1cii",
+      "paper": "2022-summer-a2",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "2.2",
+        "G1.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Evaluate a student’s claim regarding the specific geological environment where the metamorphic rock formed.",
+      "image": "img/2022-summer-a2/q1cii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q1a.jpg",
+        "img/2022-summer-a2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q1cii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q1di",
+      "paper": "2022-summer-a2",
+      "question": "1(d)(i)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the depth interval exhibiting the steepest geothermal gradient and provide supporting evidence.",
+      "image": "img/2022-summer-a2/q1di.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q1di.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q1dii",
+      "paper": "2022-summer-a2",
+      "question": "1(d)(ii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Mark the upper and lower boundaries of the outer core on the geotherm chart and justify using melting curves.",
+      "image": "img/2022-summer-a2/q1dii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q1dii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q2ai",
+      "paper": "2022-summer-a2",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "2.1",
+        "G1.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Read the Hjulström diagram to find minimum erosion and transport velocities for specified quartz grain sizes.",
+      "image": "img/2022-summer-a2/q2ai.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q2ai.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q2aii",
+      "paper": "2022-summer-a2",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "2.1",
+        "G1.3"
+      ],
+      "skills": [],
+      "summary": "Explain why higher water velocity is needed to erode grains than to keep them in transport.",
+      "image": "img/2022-summer-a2/q2aii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q2aii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q2aiii",
+      "paper": "2022-summer-a2",
+      "question": "2(a)(iii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "2.1",
+        "G1.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Sketch expected erosion and settling curves for sediment grains denser than quartz on the Hjulström graph.",
+      "image": "img/2022-summer-a2/q2aiii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q2aiii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q2bi",
+      "paper": "2022-summer-a2",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "2.1",
+        "G1.3"
+      ],
+      "skills": [],
+      "summary": "Describe how clay settling velocity changes as water salinity increases in an estuarine environment.",
+      "image": "img/2022-summer-a2/q2bi.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q2bi.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q2bii",
+      "paper": "2022-summer-a2",
+      "question": "2(b)(ii)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "2.1",
+        "G1.3"
+      ],
+      "skills": [],
+      "summary": "Explain the physical and chemical mechanism of flocculation in clay deposition across a salinity gradient.",
+      "image": "img/2022-summer-a2/q2bii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q2bii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q3ai",
+      "paper": "2022-summer-a2",
+      "question": "3(a)(i)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [],
+      "summary": "Identify the anatomical structures labelled on the Cambrian trilobite specimen.",
+      "image": "img/2022-summer-a2/q3ai.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q3ai.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q3aii",
+      "paper": "2022-summer-a2",
+      "question": "3(a)(ii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [],
+      "summary": "Critically evaluate a student’s proposal that the trilobite exhibited a pelagic mode of life.",
+      "image": "img/2022-summer-a2/q3aii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q3aii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q3b",
+      "paper": "2022-summer-a2",
+      "question": "3(b)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [],
+      "summary": "Compare morphological features between the Cambrian trilobite and the Ediacaran organism Spriggina.",
+      "image": "img/2022-summer-a2/q3b.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q3a.jpg",
+        "img/2022-summer-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q3b.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q3c",
+      "paper": "2022-summer-a2",
+      "question": "3(c)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "3.1",
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Define the evolutionary significance of the Cambrian Explosion event in Earth history.",
+      "image": "img/2022-summer-a2/q3c.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q3c.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q3c.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q3d",
+      "paper": "2022-summer-a2",
+      "question": "3(d)",
+      "marks": 6,
+      "page": 11,
+      "topics": [
+        "3.1",
+        "3.2",
+        "G3.2"
+      ],
+      "skills": [],
+      "summary": "Explain how rising atmospheric oxygen, increased weathering, and climatic upheavals triggered the Cambrian Explosion.",
+      "image": "img/2022-summer-a2/q3d.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q3c.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q3d.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q4a",
+      "paper": "2022-summer-a2",
+      "question": "4(a)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "2.2",
+        "G1.1"
+      ],
+      "skills": [],
+      "summary": "Identify the igneous pluton on the geological map using contact relationships and outcrop pattern.",
+      "image": "img/2022-summer-a2/q4a.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q4.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q4a.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q4b",
+      "paper": "2022-summer-a2",
+      "question": "4(b)",
+      "marks": 6,
+      "page": 13,
+      "topics": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Synthesise the chronological geological history of the mapped region from structural and stratigraphic evidence.",
+      "image": "img/2022-summer-a2/q4b.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q4.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q4b.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q4ci",
+      "paper": "2022-summer-a2",
+      "question": "4(c)(i)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the radiometric age of the igneous body using samarium-neodymium isotope data to three significant figures.",
+      "image": "img/2022-summer-a2/q4ci.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q4.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q4ci.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q4cii",
+      "paper": "2022-summer-a2",
+      "question": "4(c)(ii)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "2.2",
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain why radiometric dating of an altered contact zone yields an anomalously young age compared to the fresh pluton.",
+      "image": "img/2022-summer-a2/q4cii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q4.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q4cii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q5a",
+      "paper": "2022-summer-a2",
+      "question": "5(a)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Identify structural and volcanic features supporting a convergent plate margin along the Aleutian arc.",
+      "image": "img/2022-summer-a2/q5a.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q5a.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q5bi",
+      "paper": "2022-summer-a2",
+      "question": "5(b)(i)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Describe the pattern of plate speed variation along the subducting Pacific Plate margin.",
+      "image": "img/2022-summer-a2/q5bi.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q5bi.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q5bii",
+      "paper": "2022-summer-a2",
+      "question": "5(b)(ii)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Account for the variation in plate velocity using oceanic lithosphere age and slab pull dynamics.",
+      "image": "img/2022-summer-a2/q5bii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q5bii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q5ci",
+      "paper": "2022-summer-a2",
+      "question": "5(c)(i)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Delineate the upper surface of the subducted oceanic slab on the earthquake cross-section.",
+      "image": "img/2022-summer-a2/q5ci.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q5a.jpg",
+        "img/2022-summer-a2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q5ci.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q5cii",
+      "paper": "2022-summer-a2",
+      "question": "5(c)(ii)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "2.2",
+        "4.2",
+        "G1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Mark the site of mantle wedge partial melting and the location of the resulting arc volcano on the cross-section.",
+      "image": "img/2022-summer-a2/q5cii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q5a.jpg",
+        "img/2022-summer-a2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q5cii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q5ciii",
+      "paper": "2022-summer-a2",
+      "question": "5(c)(iii)",
+      "marks": 3,
+      "page": 18,
+      "topics": [
+        "2.2",
+        "4.2",
+        "G1.1"
+      ],
+      "skills": [],
+      "summary": "Explain differences in volcanic lava composition between eastern and western sectors of the island arc.",
+      "image": "img/2022-summer-a2/q5ciii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q5ciii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q5d",
+      "paper": "2022-summer-a2",
+      "question": "5(d)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Suggest why intermediate and deep earthquakes are absent in the transform segment of the plate boundary.",
+      "image": "img/2022-summer-a2/q5d.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q5d.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q6ai",
+      "paper": "2022-summer-a2",
+      "question": "6(a)(i)",
+      "marks": 3,
+      "page": 20,
+      "topics": [
+        "3.1",
+        "G3.1",
+        "G3.3"
+      ],
+      "skills": [],
+      "summary": "Describe the global geographical and latitudinal distribution of modern coral reefs in relation to sea surface temperature.",
+      "image": "img/2022-summer-a2/q6ai.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q6ai.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q6aii",
+      "paper": "2022-summer-a2",
+      "question": "6(a)(ii)",
+      "marks": 2,
+      "page": 20,
+      "topics": [
+        "3.1",
+        "3.2",
+        "G3.1"
+      ],
+      "skills": [],
+      "summary": "Evaluate a student’s inference about past tropical latitudes based on the occurrence of fossil Silurian reefs.",
+      "image": "img/2022-summer-a2/q6aii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q6aii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q6bi",
+      "paper": "2022-summer-a2",
+      "question": "6(b)(i)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "3.1",
+        "G3.3"
+      ],
+      "skills": [],
+      "summary": "Explain how biogenic aragonite in coral skeletons archives the isotopic signature of ancient ocean waters.",
+      "image": "img/2022-summer-a2/q6bi.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q6a.jpg",
+        "img/2022-summer-a2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q6bi.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q6bii",
+      "paper": "2022-summer-a2",
+      "question": "6(b)(ii)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "3.1",
+        "G3.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the oxygen isotope ratios for coral growth rings from 1800 and 1990 from the time-series record.",
+      "image": "img/2022-summer-a2/q6bii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q6bii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q6biii",
+      "paper": "2022-summer-a2",
+      "question": "6(b)(iii)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "3.1",
+        "G3.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the seawater temperature warming between 1800 and 1990 indicated by the coral isotope shift.",
+      "image": "img/2022-summer-a2/q6biii.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q6biii.jpg"
+    },
+    {
+      "id": "2022-summer-a2-q6c",
+      "paper": "2022-summer-a2",
+      "question": "6(c)",
+      "marks": 3,
+      "page": 22,
+      "topics": [
+        "G3.2",
+        "G3.3"
+      ],
+      "skills": [],
+      "summary": "Explain how atmospheric evaporation and precipitation fractionation cycles link seawater temperature to coral isotope ratios.",
+      "image": "img/2022-summer-a2/q6c.jpg",
+      "figures": [
+        "img/2022-summer-a2/fig-q6c.jpg"
+      ],
+      "markscheme": "img/2022-summer-a2/ms-q6c.jpg"
     }
   ],
   "levels": [
