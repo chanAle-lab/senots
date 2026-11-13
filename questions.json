@@ -379,6 +379,18 @@
       "spec": "current",
       "totalMarks": 90,
       "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2021-autumn-a2",
+      "year": 2021,
+      "series": "Autumn",
+      "date": "2021-10-12",
+      "code": "A480U20-1",
+      "unit": "A level Component 2: Geological Principles and Processes",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
     }
   ],
   "questions": [
@@ -9591,6 +9603,638 @@
         "img/2020-autumn-a2/fig-q6c.jpg"
       ],
       "markscheme": "img/2020-autumn-a2/ms-q6d.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q1ai",
+      "paper": "2021-autumn-a2",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify mineral Y from its brass-yellow colour and greenish-black streak.",
+      "image": "img/2021-autumn-a2/q1ai.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q1ai.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q1aii",
+      "paper": "2021-autumn-a2",
+      "question": "1(a)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Explain the fossilisation process replacing the original calcium carbonate shells with mineral Y under anoxic conditions.",
+      "image": "img/2021-autumn-a2/q1aii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q1aii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q1bi",
+      "paper": "2021-autumn-a2",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "3.1",
+        "3.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Deduce which collection site yielded ceratite specimen A using the law of superposition and cephalopod evolutionary age.",
+      "image": "img/2021-autumn-a2/q1bi.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q1a.jpg",
+        "img/2021-autumn-a2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q1bii",
+      "paper": "2021-autumn-a2",
+      "question": "1(b)(ii)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain structural and biostratigraphic evidence from the geological map demonstrating that boundary Z is an unconformity.",
+      "image": "img/2021-autumn-a2/q1bii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q1ci",
+      "paper": "2021-autumn-a2",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "3.1",
+        "G3.3"
+      ],
+      "skills": [],
+      "summary": "Define what is meant by a zone fossil in biostratigraphy.",
+      "image": "img/2021-autumn-a2/q1ci.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a2/ms-q1ci.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q1cii",
+      "paper": "2021-autumn-a2",
+      "question": "1(c)(ii)",
+      "marks": 6,
+      "page": 4,
+      "topics": [
+        "3.1",
+        "G3.3"
+      ],
+      "skills": [],
+      "summary": "Critically evaluate the advantages and limitations of cephalopods as index fossils referencing shell anatomy and facies independence.",
+      "image": "img/2021-autumn-a2/q1cii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q1a.jpg",
+        "img/2021-autumn-a2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q1cii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q2ai",
+      "paper": "2021-autumn-a2",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Indicate relative lithospheric plate motion by drawing divergent arrows on either side of the oceanic spreading ridge.",
+      "image": "img/2021-autumn-a2/q2ai.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q2ai.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q2aii",
+      "paper": "2021-autumn-a2",
+      "question": "2(a)(ii)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the average full rate of ocean basin opening over the last 4.0 Ma in centimetres per year.",
+      "image": "img/2021-autumn-a2/q2aii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q2aii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q2bi",
+      "paper": "2021-autumn-a2",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "State the definition of reversed geomagnetic polarity preserved within crustal rocks.",
+      "image": "img/2021-autumn-a2/q2bi.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a2/ms-q2bi.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q2bii",
+      "paper": "2021-autumn-a2",
+      "question": "2(b)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "2.1",
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Explain how ferromagnetic minerals in cooling basaltic oceanic crust acquire and preserve Earth’s magnetic field orientation below the Curie temperature.",
+      "image": "img/2021-autumn-a2/q2bii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q2bii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q2biii",
+      "paper": "2021-autumn-a2",
+      "question": "2(b)(iii)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Account for variations in the width of seafloor magnetic anomaly stripes in terms of spreading rate and reversal duration.",
+      "image": "img/2021-autumn-a2/q2biii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q2biii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q2ci",
+      "paper": "2021-autumn-a2",
+      "question": "2(c)(i)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "2.1",
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Describe how decompression melting of ascending mantle generates mafic magma that crystallises into new oceanic crust.",
+      "image": "img/2021-autumn-a2/q2ci.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q2ci.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q2cii",
+      "paper": "2021-autumn-a2",
+      "question": "2(c)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "4.1",
+        "G4.3"
+      ],
+      "skills": [],
+      "summary": "Explain how gravitational sliding away from elevated mid-ocean ridges provides the ridge-push driving mechanism for plate motion.",
+      "image": "img/2021-autumn-a2/q2cii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q2cii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q3ai",
+      "paper": "2021-autumn-a2",
+      "question": "3(a)(i)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Determine whether summit or flank lava flows present greater peril to local populations on Mount Etna and justify the choice.",
+      "image": "img/2021-autumn-a2/q3ai.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q3ai.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q3aii",
+      "paper": "2021-autumn-a2",
+      "question": "3(a)(ii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Describe the primary hazardous characteristics of a non-lava volcanic phenomenon that threatens communities surrounding Mount Etna.",
+      "image": "img/2021-autumn-a2/q3aii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q3aii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q3bi",
+      "paper": "2021-autumn-a2",
+      "question": "3(b)(i)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe temporal fluctuations in volcanic carbon dioxide to sulphur dioxide gas ratios recorded between January and late May 2006.",
+      "image": "img/2021-autumn-a2/q3bi.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q3bi.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q3bii",
+      "paper": "2021-autumn-a2",
+      "question": "3(b)(ii)",
+      "marks": 4,
+      "page": 10,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Evaluate the reliability of monitoring gas emission ratios as a predictive forecasting tool for impending summit volcanic eruptions.",
+      "image": "img/2021-autumn-a2/q3bii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q3bii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q4ai",
+      "paper": "2021-autumn-a2",
+      "question": "4(a)(i)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify minerals A and B within a chondritic meteorite using physical diagnostic properties from the mineral data sheet.",
+      "image": "img/2021-autumn-a2/q4ai.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q4ai.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q4aii",
+      "paper": "2021-autumn-a2",
+      "question": "4(a)(ii)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "4.2",
+        "G1.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Highlight three textural distinctions observed between polished surfaces of chondritic stony meteorites and Widmanstätten iron meteorites.",
+      "image": "img/2021-autumn-a2/q4aii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q4aii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q4bi",
+      "paper": "2021-autumn-a2",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "4.2",
+        "G1.2"
+      ],
+      "skills": [],
+      "summary": "Identify the two missing major rock-forming chemical elements in the elemental abundance comparative dataset.",
+      "image": "img/2021-autumn-a2/q4bi.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q4bi.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q4bii",
+      "paper": "2021-autumn-a2",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "4.2",
+        "G1.2"
+      ],
+      "skills": [],
+      "summary": "Compare relative percentage abundances of iron across Earth’s crust, bulk Earth, stony chondrites, and iron meteorites.",
+      "image": "img/2021-autumn-a2/q4bii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q4bii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q4biii",
+      "paper": "2021-autumn-a2",
+      "question": "4(b)(iii)",
+      "marks": 4,
+      "page": 13,
+      "topics": [
+        "4.2",
+        "G1.2"
+      ],
+      "skills": [],
+      "summary": "Explain how meteorite geochemical data support gravitational differentiation and core segregation during early planetary melting.",
+      "image": "img/2021-autumn-a2/q4biii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q4biii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q5a",
+      "paper": "2021-autumn-a2",
+      "question": "5(a)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe interpreted bathymetric changes in seawater depth recorded throughout vertical sedimentary interval P to Q.",
+      "image": "img/2021-autumn-a2/q5a.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q5a.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q5b",
+      "paper": "2021-autumn-a2",
+      "question": "5(b)",
+      "marks": 4,
+      "page": 15,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Evaluate sedimentological and palaeontological evidence supporting and opposing a low-energy marine interpretation for facies 1.",
+      "image": "img/2021-autumn-a2/q5b.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q5b.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q5ci",
+      "paper": "2021-autumn-a2",
+      "question": "5(c)(i)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "2.2",
+        "G3.1"
+      ],
+      "skills": [],
+      "summary": "Classify vector arrow Z as representing a transgression or regression and provide a geological reason.",
+      "image": "img/2021-autumn-a2/q5ci.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q5ci.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q5cii",
+      "paper": "2021-autumn-a2",
+      "question": "5(c)(ii)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "2.2",
+        "G3.2"
+      ],
+      "skills": [],
+      "summary": "Evaluate a student’s assertion regarding whether volcanic tuff horizons and lithofacies boundaries are diachronous or isochronous.",
+      "image": "img/2021-autumn-a2/q5cii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q5cii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q5di",
+      "paper": "2021-autumn-a2",
+      "question": "5(d)(i)",
+      "marks": 1,
+      "page": 17,
+      "topics": [
+        "2.2",
+        "G3.2"
+      ],
+      "skills": [],
+      "summary": "Locate where a vertical borehole would intersect all three sedimentary facies across the regional cross-section.",
+      "image": "img/2021-autumn-a2/q5di.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q5a.jpg",
+        "img/2021-autumn-a2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q5di.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q5dii",
+      "paper": "2021-autumn-a2",
+      "question": "5(d)(ii)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "2.2",
+        "G3.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Demonstrate how the borehole log and chronostratigraphic cross-section together illustrate the principles of Walther’s Law.",
+      "image": "img/2021-autumn-a2/q5dii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q5a.jpg",
+        "img/2021-autumn-a2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q5dii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q6ai",
+      "paper": "2021-autumn-a2",
+      "question": "6(a)(i)",
+      "marks": 1,
+      "page": 18,
+      "topics": [
+        "2.3",
+        "G4.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Select the arrow diagram displaying the correct orientation of maximum principal compressive stress causing vertical cylinder failure.",
+      "image": "img/2021-autumn-a2/q6ai.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q6ai.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q6aii",
+      "paper": "2021-autumn-a2",
+      "question": "6(a)(ii)",
+      "marks": 3,
+      "page": 18,
+      "topics": [
+        "2.3",
+        "G4.1"
+      ],
+      "skills": [],
+      "summary": "Explain the physical factors leading to brittle shear fracture in the unconfined rock cylinder under experimental loading.",
+      "image": "img/2021-autumn-a2/q6aii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q6aii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q6bi",
+      "paper": "2021-autumn-a2",
+      "question": "6(b)(i)",
+      "marks": 1,
+      "page": 19,
+      "topics": [
+        "2.3",
+        "G4.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Locate and label the terminal fracture rupture point on the stress-strain experimental curve.",
+      "image": "img/2021-autumn-a2/q6bi.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q6a.jpg",
+        "img/2021-autumn-a2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q6bi.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q6bii",
+      "paper": "2021-autumn-a2",
+      "question": "6(b)(ii)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "2.3",
+        "G4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the stiffness gradient between coordinates A and B on the linear elastic deformation segment to two significant figures.",
+      "image": "img/2021-autumn-a2/q6bii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q6bii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q6biii",
+      "paper": "2021-autumn-a2",
+      "question": "6(b)(iii)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "2.3",
+        "G4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Construct a comparative stress-strain curve representing lower stiffness, reduced yield point, and extensive ductile plastic strain.",
+      "image": "img/2021-autumn-a2/q6biii.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q6biii.jpg"
+    },
+    {
+      "id": "2021-autumn-a2-q6c",
+      "paper": "2021-autumn-a2",
+      "question": "6(c)",
+      "marks": 6,
+      "page": 20,
+      "topics": [
+        "2.3",
+        "G4.1"
+      ],
+      "skills": [],
+      "summary": "Account for the progressive transition from brittle faulting in near-surface rocks to ductile folding and ductile shearing at depth.",
+      "image": "img/2021-autumn-a2/q6c.jpg",
+      "figures": [
+        "img/2021-autumn-a2/fig-q6c.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a2/ms-q6c.jpg"
     }
   ],
   "levels": [
