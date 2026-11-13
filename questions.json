@@ -391,6 +391,18 @@
       "spec": "current",
       "totalMarks": 90,
       "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2022-summer-c2",
+      "year": 2022,
+      "series": "Summer",
+      "date": "2022-05-26",
+      "code": "B480U20-1",
+      "unit": "AS Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
     }
   ],
   "questions": [
@@ -10235,6 +10247,683 @@
         "img/2021-autumn-a2/fig-q6c.jpg"
       ],
       "markscheme": "img/2021-autumn-a2/ms-q6c.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q1ai",
+      "paper": "2022-summer-c2",
+      "question": "1(a)(i)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the crystalline and porphyritic texture of the rock shown in the photomicrograph.",
+      "image": "img/2022-summer-c2/q1ai.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q1a.jpg",
+        "img/2022-summer-c2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q1ai.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q1aii",
+      "paper": "2022-summer-c2",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Name the coarse-grained igneous rock shown in the photomicrograph.",
+      "image": "img/2022-summer-c2/q1aii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q1aii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q1bi",
+      "paper": "2022-summer-c2",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Identify two products formed from the chemical weathering of the granite outcrop.",
+      "image": "img/2022-summer-c2/q1bi.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q1bii",
+      "paper": "2022-summer-c2",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain the chemical weathering process of hydrolysis or oxidation acting on the outcrop.",
+      "image": "img/2022-summer-c2/q1bii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q1c",
+      "paper": "2022-summer-c2",
+      "question": "1(c)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Describe how biological weathering by encrusting lichen causes physical and chemical breakdown of the rock surface.",
+      "image": "img/2022-summer-c2/q1c.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q1a.jpg",
+        "img/2022-summer-c2/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q1c.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q1d",
+      "paper": "2022-summer-c2",
+      "question": "1(d)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain the mechanism of flocculation causing clay particles to aggregate and deposit in saline marine environments.",
+      "image": "img/2022-summer-c2/q1d.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q1a.jpg",
+        "img/2022-summer-c2/fig-q1b.jpg",
+        "img/2022-summer-c2/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q1d.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q2ai",
+      "paper": "2022-summer-c2",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "Identify the single chain and framework silicate structures for minerals forming grains A and B.",
+      "image": "img/2022-summer-c2/q2ai.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q2ai.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q2aii",
+      "paper": "2022-summer-c2",
+      "question": "2(a)(ii)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "1.1",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain how atomic bonding and cleavage planes control the differential mechanical breakdown of pyroxene compared to quartz during river transport.",
+      "image": "img/2022-summer-c2/q2aii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q2aii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q2b",
+      "paper": "2022-summer-c2",
+      "question": "2(b)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Use the dichotomous mineral identification chart to determine the mineral forming grain A.",
+      "image": "img/2022-summer-c2/q2b.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q2a.jpg",
+        "img/2022-summer-c2/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q2b.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q2ci",
+      "paper": "2022-summer-c2",
+      "question": "2(c)(i)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the critical river flow velocities required to deposit grains A and B using the deposition model.",
+      "image": "img/2022-summer-c2/q2ci.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q2ci.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q2cii",
+      "paper": "2022-summer-c2",
+      "question": "2(c)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "State two physical grain characteristics besides grain diameter that influence the velocity of sediment deposition.",
+      "image": "img/2022-summer-c2/q2cii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q2cii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q2d",
+      "paper": "2022-summer-c2",
+      "question": "2(d)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain the hydrodynamic mechanisms responsible for eroding and transporting coarse quartz grain B downriver.",
+      "image": "img/2022-summer-c2/q2d.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q2d.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q3ai",
+      "paper": "2022-summer-c2",
+      "question": "3(a)(i)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "2.1",
+        "2.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the crustal geothermal gradient from the surface to the Moho using the continental geotherm model.",
+      "image": "img/2022-summer-c2/q3ai.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q3a.jpg",
+        "img/2022-summer-c2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q3ai.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q3aii",
+      "paper": "2022-summer-c2",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "2.3",
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the percentage crustal and lithospheric thickening occurring beneath the collision mountain belt.",
+      "image": "img/2022-summer-c2/q3aii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q3aii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q3aiii",
+      "paper": "2022-summer-c2",
+      "question": "3(a)(iii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Estimate the minimum focal depth where continental crustal temperatures intersect the granite solidus melting curve.",
+      "image": "img/2022-summer-c2/q3aiii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q3aiii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q3aiv",
+      "paper": "2022-summer-c2",
+      "question": "3(a)(iv)",
+      "marks": 4,
+      "page": 9,
+      "topics": [
+        "2.1",
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Explain the petrogenesis and emplacement of granitic magma intrusions within thickened orogenic crust.",
+      "image": "img/2022-summer-c2/q3aiv.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q3a.jpg",
+        "img/2022-summer-c2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q3aiv.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q3bi",
+      "paper": "2022-summer-c2",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Identify the fine-grained foliated metamorphic rock specimen displaying slaty cleavage.",
+      "image": "img/2022-summer-c2/q3bi.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q3a.jpg",
+        "img/2022-summer-c2/fig-q3c.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q3bi.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q3bii",
+      "paper": "2022-summer-c2",
+      "question": "3(b)(ii)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Explain the metamorphic pressure, temperature, and recrystallisation conditions that produce slaty cleavage.",
+      "image": "img/2022-summer-c2/q3bii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q3c.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q3bii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q3c",
+      "paper": "2022-summer-c2",
+      "question": "3(c)",
+      "marks": 6,
+      "page": 10,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Critically evaluate whether crustal rock deformation in collision zones is governed solely by temperature or also influenced by confining pressure, strain rate, and lithology.",
+      "image": "img/2022-summer-c2/q3c.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q3c.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q4ai",
+      "paper": "2022-summer-c2",
+      "question": "4(a)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Label the umbo and cardinal hinge line on brachiopod specimen C.",
+      "image": "img/2022-summer-c2/q4ai.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q4ai.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q4aii",
+      "paper": "2022-summer-c2",
+      "question": "4(a)(ii)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Draw the plane of symmetry on brachiopod specimen C and between the valves on bivalve specimen D.",
+      "image": "img/2022-summer-c2/q4aii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q4aii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q4b",
+      "paper": "2022-summer-c2",
+      "question": "4(b)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Measure and calculate the width-to-length ratio of razor clam specimen D.",
+      "image": "img/2022-summer-c2/q4b.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q4b.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q4c",
+      "paper": "2022-summer-c2",
+      "question": "4(c)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Classify specimens C and D into their respective invertebrate fossil phyla.",
+      "image": "img/2022-summer-c2/q4c.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q4c.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q4di",
+      "paper": "2022-summer-c2",
+      "question": "4(d)(i)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Deduce the preferred life habitat of specimen D from shell morphology and internal anatomical structures.",
+      "image": "img/2022-summer-c2/q4di.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q4a.jpg",
+        "img/2022-summer-c2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q4di.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q4dii",
+      "paper": "2022-summer-c2",
+      "question": "4(d)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "3.1",
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain why uniformitarian principles allow more confident palaeoecological interpretations for extant razor clams than extinct trilobites.",
+      "image": "img/2022-summer-c2/q4dii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q4dii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q4diii",
+      "paper": "2022-summer-c2",
+      "question": "4(d)(iii)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Explain geological and biological factors causing taphonomic bias and incompleteness in the fossil record.",
+      "image": "img/2022-summer-c2/q4diii.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-c2/ms-q4diii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q5ai",
+      "paper": "2022-summer-c2",
+      "question": "5(a)(i)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Draw converging arrows indicating relative plate motion at the Sunda subduction trench.",
+      "image": "img/2022-summer-c2/q5ai.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q5ai.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q5aii",
+      "paper": "2022-summer-c2",
+      "question": "5(a)(ii)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "2.1",
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "State the compositional category of lava typically erupted at the Anak Krakatoa volcanic arc.",
+      "image": "img/2022-summer-c2/q5aii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q5aii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q5aiii",
+      "paper": "2022-summer-c2",
+      "question": "5(a)(iii)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.1",
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Explain the subduction and flux melting processes producing intermediate magma in volcanic island arcs.",
+      "image": "img/2022-summer-c2/q5aiii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q5aiii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q5b",
+      "paper": "2022-summer-c2",
+      "question": "5(b)",
+      "marks": 2,
+      "page": 14,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Estimate the total volcanic island surface area destroyed during the December 2018 explosive collapse using the calibrated grid.",
+      "image": "img/2022-summer-c2/q5b.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q5b.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q5c",
+      "paper": "2022-summer-c2",
+      "question": "5(c)",
+      "marks": 6,
+      "page": 15,
+      "topics": [
+        "2.1",
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Contrast the explosive eruption dynamics of subduction-zone arc volcanoes with effusive intraplate hotspot volcanism in Hawaii.",
+      "image": "img/2022-summer-c2/q5c.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q5c.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q6ai",
+      "paper": "2022-summer-c2",
+      "question": "6(a)(i)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the clastic and poorly-sorted sedimentary texture of conglomerate specimen X.",
+      "image": "img/2022-summer-c2/q6ai.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q6a.jpg",
+        "img/2022-summer-c2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q6ai.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q6aii",
+      "paper": "2022-summer-c2",
+      "question": "6(a)(ii)",
+      "marks": 1,
+      "page": 17,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Name the sedimentary rock composed of rounded coarse gravel clasts.",
+      "image": "img/2022-summer-c2/q6aii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q6aii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q6b",
+      "paper": "2022-summer-c2",
+      "question": "6(b)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "2.2",
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain the sequence of deposition, tectonic uplift, erosion, and submergence forming unconformity boundary R.",
+      "image": "img/2022-summer-c2/q6b.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q6b.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q6ci",
+      "paper": "2022-summer-c2",
+      "question": "6(c)(i)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Identify the fault classification of fault F1 and state the relative displacement of the hanging wall.",
+      "image": "img/2022-summer-c2/q6ci.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q6ci.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q6cii",
+      "paper": "2022-summer-c2",
+      "question": "6(c)(ii)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the vertical stratigraphic throw displacement along fault F2 using the cross-section scale.",
+      "image": "img/2022-summer-c2/q6cii.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q6cii.jpg"
+    },
+    {
+      "id": "2022-summer-c2-q6d",
+      "paper": "2022-summer-c2",
+      "question": "6(d)",
+      "marks": 4,
+      "page": 17,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Evaluate whether faults F1 and F2 formed under identical extensional tectonic stresses simultaneously or during separate deformation events.",
+      "image": "img/2022-summer-c2/q6d.jpg",
+      "figures": [
+        "img/2022-summer-c2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2022-summer-c2/ms-q6d.jpg"
     }
   ],
   "levels": [
