@@ -319,6 +319,18 @@
       "spec": "current",
       "totalMarks": 105,
       "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2025-summer-a1",
+      "year": 2025,
+      "series": "Summer",
+      "date": "2025-06-03",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
     }
   ],
   "questions": [
@@ -6352,6 +6364,695 @@
         "img/2024-summer-a1/fig-q10.jpg"
       ],
       "markscheme": "img/2024-summer-a1/ms-q10cii.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q1ai",
+      "paper": "2025-summer-a1",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "T3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Determine the lowest temperature needed for natural gas generation after two hundred million years of burial using a maturation graph.",
+      "image": "img/2025-summer-a1/q1ai.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q1aii",
+      "paper": "2025-summer-a1",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "T3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Identify the post-burial duration required for crude oil generation to commence at sixty degrees Celsius.",
+      "image": "img/2025-summer-a1/q1aii.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q1aiii",
+      "paper": "2025-summer-a1",
+      "question": "1(a)(iii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "T3.1"
+      ],
+      "skills": [],
+      "summary": "Explain the thermal cracking mechanism that transforms liquid petroleum hydrocarbons into gaseous hydrocarbons at elevated temperatures.",
+      "image": "img/2025-summer-a1/q1aiii.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q1bi",
+      "paper": "2025-summer-a1",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T3.1",
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Complete a table assigning source rock, reservoir rock, and cap rock roles to the lithological units of an offshore petroleum field.",
+      "image": "img/2025-summer-a1/q1bi.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q1bii",
+      "paper": "2025-summer-a1",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Outline the depositional environment and climatic settings necessary for pelagic chalk accumulation.",
+      "image": "img/2025-summer-a1/q1bii.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q1biii",
+      "paper": "2025-summer-a1",
+      "question": "1(b)(iii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "2.3",
+        "T3.1"
+      ],
+      "skills": [],
+      "summary": "Explain the formation and domal geometry of the subsurface halite diapir depicted in the reservoir section.",
+      "image": "img/2025-summer-a1/q1biii.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q1biii.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q1ci",
+      "paper": "2025-summer-a1",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "G4.3"
+      ],
+      "skills": [],
+      "summary": "State the specific geophysical exploration technique utilised to produce the provided subsurface reflection profile.",
+      "image": "img/2025-summer-a1/q1ci.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q1cii",
+      "paper": "2025-summer-a1",
+      "question": "1(c)(ii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "T3.1",
+        "G4.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Identify a petroleum trap geometry displayed in the seismic record, specify its location, and justify the selection.",
+      "image": "img/2025-summer-a1/q1cii.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q1d",
+      "paper": "2025-summer-a1",
+      "question": "1(d)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "3.1",
+        "T3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the application of microfossil biostratigraphy and thermal alteration indices during hydrocarbon exploration programmes.",
+      "image": "img/2025-summer-a1/q1d.jpg",
+      "figures": [],
+      "markscheme": "img/2025-summer-a1/ms-q1d.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q2a",
+      "paper": "2025-summer-a1",
+      "question": "2(a)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify the fossil taxonomic group illustrated in William Smith’s historical drawing and state the anatomical feature supporting the diagnosis.",
+      "image": "img/2025-summer-a1/q2a.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q2a.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q2bi",
+      "paper": "2025-summer-a1",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Measure the apparent inclination angle of bedding within the lower succession shown in the outcrop photograph.",
+      "image": "img/2025-summer-a1/q2bi.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q2bi.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q2bii",
+      "paper": "2025-summer-a1",
+      "question": "2(b)(ii)",
+      "marks": 4,
+      "page": 8,
+      "topics": [
+        "2.3",
+        "G1.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Explain the field methodology for measuring the true dip angle and strike orientation of bedding planes exposed at an inaccessible cliff section.",
+      "image": "img/2025-summer-a1/q2bii.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q2bii.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q2c",
+      "paper": "2025-summer-a1",
+      "question": "2(c)",
+      "marks": 6,
+      "page": 9,
+      "topics": [
+        "3.2",
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Produce an extended explanation detailing the sequence of geological events recorded at Siccar Point and evaluate how it exemplifies uniformitarianism.",
+      "image": "img/2025-summer-a1/q2c.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q2c.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q3a",
+      "paper": "2025-summer-a1",
+      "question": "3(a)",
+      "marks": 5,
+      "page": 11,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Draw an accurate, scaled, and labelled morphological diagram of the fossil cast provided in the specimen photographs.",
+      "image": "img/2025-summer-a1/q3a.jpg",
+      "figures": [
+        "img/2025-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q3a.jpg",
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-a1-q3b",
+      "paper": "2025-summer-a1",
+      "question": "3(b)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Classify the specimen to genus level using the dichotomous fossil identification key.",
+      "image": "img/2025-summer-a1/q3b.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q3.jpg",
+        "img/2025-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q3b.jpg",
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-a1-q3c",
+      "paper": "2025-summer-a1",
+      "question": "3(c)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Deduce the likely palaeoecological lifestyle of the specimen and justify the deduction using two morphological adaptations.",
+      "image": "img/2025-summer-a1/q3c.jpg",
+      "figures": [
+        "img/2025-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q3c.jpg",
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-a1-q4a",
+      "paper": "2025-summer-a1",
+      "question": "4(a)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Select the appropriate non-parametric statistical hypothesis test to compare fossil length datasets from two localities and justify the choice.",
+      "image": "img/2025-summer-a1/q4a.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q4a.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q4b",
+      "paper": "2025-summer-a1",
+      "question": "4(b)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "3.1",
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Critically assess a hypothesis contrasting death and life assemblages using fossil size distribution data and preservation characteristics.",
+      "image": "img/2025-summer-a1/q4b.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q4b.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q5a",
+      "paper": "2025-summer-a1",
+      "question": "5(a)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "2.2",
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name the igneous lithology forming the specimen and substantiate the identification with observable textural and compositional diagnostic criteria.",
+      "image": "img/2025-summer-a1/q5a.jpg",
+      "figures": [
+        "img/2025-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q5a.jpg",
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-a1-q5b",
+      "paper": "2025-summer-a1",
+      "question": "5(b)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "map",
+        "practical"
+      ],
+      "summary": "Evaluate whether the mapped igneous sheet represents an extrusive lava flow or an intrusive sill using field and petrological evidence.",
+      "image": "img/2025-summer-a1/q5b.jpg",
+      "figures": [
+        "img/2025-summer-a1/specimens.jpg",
+        "img/2025-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q5b.jpg",
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-a1-q6",
+      "paper": "2025-summer-a1",
+      "question": "6",
+      "marks": 9,
+      "page": 16,
+      "topics": [
+        "2.3",
+        "3.2",
+        "2.2"
+      ],
+      "skills": [
+        "map",
+        "practical"
+      ],
+      "summary": "Design an investigative field strategy to establish the relative chronological sequence of lithological units and structural features within a mapped target area.",
+      "image": "img/2025-summer-a1/q6.jpg",
+      "figures": [
+        "img/2025-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q6.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q7ai",
+      "paper": "2025-summer-a1",
+      "question": "7(a)(i)",
+      "marks": 3,
+      "page": 18,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Complete a mineral testing protocol table detailing the practical observations and data sheet criteria needed to confirm the specimen identity.",
+      "image": "img/2025-summer-a1/q7ai.jpg",
+      "figures": [
+        "img/2025-summer-a1/datasheet.jpg",
+        "img/2025-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q7ai.jpg",
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-a1-q7aii",
+      "paper": "2025-summer-a1",
+      "question": "7(a)(ii)",
+      "marks": 1,
+      "page": 18,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify the mineral constituting the specimen by correlating observed diagnostic properties with the reference data sheet.",
+      "image": "img/2025-summer-a1/q7aii.jpg",
+      "figures": [
+        "img/2025-summer-a1/datasheet.jpg",
+        "img/2025-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q7aii.jpg",
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-a1-q7b",
+      "paper": "2025-summer-a1",
+      "question": "7(b)",
+      "marks": 3,
+      "page": 18,
+      "topics": [
+        "T4.1",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Explain the hydrothermal precipitation mechanisms responsible for mineral vein emplacement along the fault plane at the mapped locality.",
+      "image": "img/2025-summer-a1/q7b.jpg",
+      "figures": [
+        "img/2025-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q7b.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q8ai",
+      "paper": "2025-summer-a1",
+      "question": "8(a)(i)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "2.2",
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the petrographic fabric and textural characteristics of the metamorphic hand specimen including grain size and preferred orientation.",
+      "image": "img/2025-summer-a1/q8ai.jpg",
+      "figures": [
+        "img/2025-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q8ai.jpg",
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-a1-q8aii",
+      "paper": "2025-summer-a1",
+      "question": "8(a)(ii)",
+      "marks": 1,
+      "page": 19,
+      "topics": [
+        "2.2",
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify a key constituent metamorphic mineral visible within the foliated specimen.",
+      "image": "img/2025-summer-a1/q8aii.jpg",
+      "figures": [
+        "img/2025-summer-a1/specimens.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q8aii.jpg",
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-a1-q8b",
+      "paper": "2025-summer-a1",
+      "question": "8(b)",
+      "marks": 4,
+      "page": 19,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "map",
+        "practical"
+      ],
+      "summary": "Critically evaluate whether the metamorphic rock developed through contact metamorphism or regional orogenic deformation using specimen and map evidence.",
+      "image": "img/2025-summer-a1/q8b.jpg",
+      "figures": [
+        "img/2025-summer-a1/specimens.jpg",
+        "img/2025-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q8b.jpg",
+      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+    },
+    {
+      "id": "2025-summer-a1-q9",
+      "paper": "2025-summer-a1",
+      "question": "9",
+      "marks": 3,
+      "page": 20,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Trace and mark three synformal fold axial plane traces on the geological base map using the standardised cartographic symbol.",
+      "image": "img/2025-summer-a1/q9.jpg",
+      "figures": [
+        "img/2025-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q9.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q10",
+      "paper": "2025-summer-a1",
+      "question": "10",
+      "marks": 14,
+      "page": 21,
+      "topics": [
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "map",
+        "practical"
+      ],
+      "summary": "Construct a fully annotated geological cross-section along section line X–Y integrating surface dip data, borehole intercepts, and structural projections.",
+      "image": "img/2025-summer-a1/q10.jpg",
+      "figures": [
+        "img/2025-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q10.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q11a",
+      "paper": "2025-summer-a1",
+      "question": "11(a)",
+      "marks": 2,
+      "page": 22,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Characterise the mathematical and physical relationship between applied differential stress and resultant strain demonstrated by the rock core test curve.",
+      "image": "img/2025-summer-a1/q11a.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q11a.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q11b",
+      "paper": "2025-summer-a1",
+      "question": "11(b)",
+      "marks": 2,
+      "page": 22,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "State the mechanical deformation regime operating along designated intervals of the laboratory stress-strain curve.",
+      "image": "img/2025-summer-a1/q11b.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q11b.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q11c",
+      "paper": "2025-summer-a1",
+      "question": "11(c)",
+      "marks": 3,
+      "page": 23,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Sketch the deformed cylindrical geometry of rock cores following stress testing within the elastic range and post-yield plastic range.",
+      "image": "img/2025-summer-a1/q11c.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q11c.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q11di",
+      "paper": "2025-summer-a1",
+      "question": "11(d)(i)",
+      "marks": 1,
+      "page": 23,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "practical",
+        "map"
+      ],
+      "summary": "Match the specific structural deformation feature observed at Locality 5 to its corresponding point on the experimental stress-strain graph.",
+      "image": "img/2025-summer-a1/q11di.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q11a.jpg",
+        "img/2025-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q11di.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q11dii",
+      "paper": "2025-summer-a1",
+      "question": "11(d)(ii)",
+      "marks": 2,
+      "page": 24,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Provide mechanical justifications for the graph interval assignments corresponding to field structures observed at both test localities.",
+      "image": "img/2025-summer-a1/q11dii.jpg",
+      "figures": [
+        "img/2025-summer-a1/fig-q11a.jpg",
+        "img/2025-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q11dii.jpg"
+    },
+    {
+      "id": "2025-summer-a1-q11e",
+      "paper": "2025-summer-a1",
+      "question": "11(e)",
+      "marks": 4,
+      "page": 24,
+      "topics": [
+        "2.3",
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Suggest and explain the differing physical conditions such as confining pressure, temperature, or strain rate that governed contrasting brittle and ductile behaviours.",
+      "image": "img/2025-summer-a1/q11e.jpg",
+      "figures": [
+        "img/2025-summer-a1/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a1/ms-q11e.jpg"
     }
   ],
   "levels": [
