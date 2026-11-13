@@ -415,6 +415,18 @@
       "spec": "current",
       "totalMarks": 90,
       "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2023-summer-c2",
+      "year": 2023,
+      "series": "Summer",
+      "date": "2023-05-22",
+      "code": "B480U20-1",
+      "unit": "AS Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
     }
   ],
   "questions": [
@@ -11586,6 +11598,620 @@
         "img/2022-summer-a2/fig-q6c.jpg"
       ],
       "markscheme": "img/2022-summer-a2/ms-q6c.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q1a",
+      "paper": "2023-summer-c2",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "1.1",
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Classify Earth layers according to the Goldschmidt geochemical distribution system.",
+      "image": "img/2023-summer-c2/q1a.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c2/ms-q1a.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q1bi",
+      "paper": "2023-summer-c2",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the total volume of Earth assuming a spherical shape, expressing the result in standard form.",
+      "image": "img/2023-summer-c2/q1bi.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q1bii",
+      "paper": "2023-summer-c2",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the mean bulk density of the whole Earth using its mass and calculated volume.",
+      "image": "img/2023-summer-c2/q1bii.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q1c",
+      "paper": "2023-summer-c2",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Explain how Earth’s mean bulk density provides evidence for a dense iron-nickel core compared to crust and mantle densities.",
+      "image": "img/2023-summer-c2/q1c.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c2/ms-q1c.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q2a",
+      "paper": "2023-summer-c2",
+      "question": "2(a)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Identify the broad rock genetic category forming under near-surface conditions at location G.",
+      "image": "img/2023-summer-c2/q2a.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q2a.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q2b",
+      "paper": "2023-summer-c2",
+      "question": "2(b)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Sketch the crystalline metamorphic texture formed when quartz sediment recrystallises under contact metamorphic conditions.",
+      "image": "img/2023-summer-c2/q2b.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q2a.jpg",
+        "img/2023-summer-c2/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q2b.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q2c",
+      "paper": "2023-summer-c2",
+      "question": "2(c)",
+      "marks": 4,
+      "page": 5,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Deduce which temperature-pressure regime produced the garnet-mica schist and justify using metamorphic grade indicators.",
+      "image": "img/2023-summer-c2/q2c.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q2a.jpg",
+        "img/2023-summer-c2/fig-q2d.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q2c.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q2di",
+      "paper": "2023-summer-c2",
+      "question": "2(d)(i)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Define the geological principle of uniformitarianism formulated by James Hutton.",
+      "image": "img/2023-summer-c2/q2di.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c2/ms-q2di.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q2dii",
+      "paper": "2023-summer-c2",
+      "question": "2(d)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "Identify the internal and external energy sources responsible for driving Earth’s rock cycle.",
+      "image": "img/2023-summer-c2/q2dii.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c2/ms-q2dii.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q2diii",
+      "paper": "2023-summer-c2",
+      "question": "2(d)(iii)",
+      "marks": 6,
+      "page": 6,
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Synthesise the genetic relationships linking shale, spotted hornfels, and banded gneiss through metamorphic and sedimentary processes.",
+      "image": "img/2023-summer-c2/q2diii.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q2e.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q2diii.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q3a",
+      "paper": "2023-summer-c2",
+      "question": "3(a)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Identify the tectonic plate boundary configurations associated with oceanic ridge and volcanic arc settings.",
+      "image": "img/2023-summer-c2/q3a.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q3a.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q3b",
+      "paper": "2023-summer-c2",
+      "question": "3(b)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Determine the physical state of asthenospheric mantle material at location X from experimental melting curves.",
+      "image": "img/2023-summer-c2/q3b.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q3b.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q3ci",
+      "paper": "2023-summer-c2",
+      "question": "3(c)(i)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "2.2",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Explain the mechanism of decompression partial melting in the rising asthenospheric mantle beneath ocean ridges.",
+      "image": "img/2023-summer-c2/q3ci.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q3a.jpg",
+        "img/2023-summer-c2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q3ci.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q3cii",
+      "paper": "2023-summer-c2",
+      "question": "3(c)(ii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "2.2",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Contrast the typical magma and lava chemical compositions erupted at divergent versus convergent plate margins.",
+      "image": "img/2023-summer-c2/q3cii.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q3cii.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q3di",
+      "paper": "2023-summer-c2",
+      "question": "3(d)(i)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the diagnostic textural features of the fragmented pyroclastic volcanic rock specimen.",
+      "image": "img/2023-summer-c2/q3di.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q3c.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q3di.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q3dii",
+      "paper": "2023-summer-c2",
+      "question": "3(d)(ii)",
+      "marks": 4,
+      "page": 9,
+      "topics": [
+        "2.2",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Deduce whether the pyroclastic tuff originated from the ridge or arc volcanic setting and explain why.",
+      "image": "img/2023-summer-c2/q3dii.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q3a.jpg",
+        "img/2023-summer-c2/fig-q3c.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q3dii.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q4ai",
+      "paper": "2023-summer-c2",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Name the internal skeletal partition boundary feature labelled D on the fossil cephalopod.",
+      "image": "img/2023-summer-c2/q4ai.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q4ai.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q4aii",
+      "paper": "2023-summer-c2",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Identify the cephalopod subgroup of fossil L and justify using its characteristic suture pattern.",
+      "image": "img/2023-summer-c2/q4aii.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q4aii.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q4aiii",
+      "paper": "2023-summer-c2",
+      "question": "4(a)(iii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Sketch the complex ammonitic suture line exhibiting intricate saddles and lobes characteristic of true ammonites.",
+      "image": "img/2023-summer-c2/q4aiii.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q4aiv",
+      "paper": "2023-summer-c2",
+      "question": "4(a)(iv)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Explain the pyritization fossil preservation pathway for the brass-yellow ammonite replacement shell.",
+      "image": "img/2023-summer-c2/q4aiv.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q4aiv.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q4bi",
+      "paper": "2023-summer-c2",
+      "question": "4(b)(i)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Define the essential characteristics and stratigraphic utility of a zone fossil.",
+      "image": "img/2023-summer-c2/q4bi.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-c2/ms-q4bi.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q4bii",
+      "paper": "2023-summer-c2",
+      "question": "4(b)(ii)",
+      "marks": 4,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "3.1",
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Deduce the map location where the younger ammonite fossil occurs relative to the unconformity and older goniatite.",
+      "image": "img/2023-summer-c2/q4bii.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q4a.jpg",
+        "img/2023-summer-c2/fig-q4b.jpg",
+        "img/2023-summer-c2/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q4bii.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q5a",
+      "paper": "2023-summer-c2",
+      "question": "5(a)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Complete the global cross-section by sketching magnetic field inclination dip arrows from the North to South Pole.",
+      "image": "img/2023-summer-c2/q5a.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q5.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q5a.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q5bi",
+      "paper": "2023-summer-c2",
+      "question": "5(b)(i)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the mean magnetic inclination value recorded in recent basaltic lava flows from Cotopaxi.",
+      "image": "img/2023-summer-c2/q5bi.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q5-tab3.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q5bi.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q5bii",
+      "paper": "2023-summer-c2",
+      "question": "5(b)(ii)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.2",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Explain how cooling basaltic lavas lock in thermal remanent magnetization below the Curie temperature.",
+      "image": "img/2023-summer-c2/q5bii.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q5-tab3.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q5bii.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q5biii",
+      "paper": "2023-summer-c2",
+      "question": "5(b)(iii)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the palaeolatitude of the Cotopaxi volcano using the palaeomagnetic inclination formula.",
+      "image": "img/2023-summer-c2/q5biii.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q5-tab3.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q5biii.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q5ci",
+      "paper": "2023-summer-c2",
+      "question": "5(c)(i)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the deviations and squared deviation values to complete the standard deviation working table.",
+      "image": "img/2023-summer-c2/q5ci.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q5-tab4.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q5ci.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q5cii",
+      "paper": "2023-summer-c2",
+      "question": "5(c)(ii)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the sample standard deviation for the Indian palaeomagnetic inclination dataset.",
+      "image": "img/2023-summer-c2/q5cii.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q5-tab4.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q5cii.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q5ciii",
+      "paper": "2023-summer-c2",
+      "question": "5(c)(iii)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Account for the pronounced difference in inclination dispersion between single-eruption Cotopaxi lavas and the Indian trap sequence.",
+      "image": "img/2023-summer-c2/q5ciii.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q5-tab3.jpg",
+        "img/2023-summer-c2/fig-q5-tab4.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q5ciii.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q6a",
+      "paper": "2023-summer-c2",
+      "question": "6(a)",
+      "marks": 1,
+      "page": 16,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Draw the antiform fold axial plane trace on the geological map using standard geological cartographic symbols.",
+      "image": "img/2023-summer-c2/q6a.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q6.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q6a.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q6b",
+      "paper": "2023-summer-c2",
+      "question": "6(b)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Cite two pieces of structural map evidence proving that igneous body A represents an intrusive dyke.",
+      "image": "img/2023-summer-c2/q6b.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q6.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q6b.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q6c",
+      "paper": "2023-summer-c2",
+      "question": "6(c)",
+      "marks": 4,
+      "page": 17,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Determine the kinematic classification of fault F and justify using undisturbed fold axial symmetry and topography.",
+      "image": "img/2023-summer-c2/q6c.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q6.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q6c.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q6d",
+      "paper": "2023-summer-c2",
+      "question": "6(d)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe three diagnostic field criteria used to differentiate between a concordant intrusive sill and an extrusive lava flow.",
+      "image": "img/2023-summer-c2/q6d.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q6.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q6d.jpg"
+    },
+    {
+      "id": "2023-summer-c2-q6e",
+      "paper": "2023-summer-c2",
+      "question": "6(e)",
+      "marks": 6,
+      "page": 17,
+      "topics": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Establish the complete chronostratigraphic sequence of events for all rock units and structural features shown on the map.",
+      "image": "img/2023-summer-c2/q6e.jpg",
+      "figures": [
+        "img/2023-summer-c2/fig-q6.jpg"
+      ],
+      "markscheme": "img/2023-summer-c2/ms-q6e.jpg"
     }
   ],
   "levels": [
