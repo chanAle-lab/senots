@@ -367,6 +367,18 @@
       "spec": "current",
       "totalMarks": 90,
       "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2020-autumn-a2",
+      "year": 2020,
+      "series": "Autumn",
+      "date": "2020-10-13",
+      "code": "A480U20-1",
+      "unit": "A level Component 2: Geological Principles and Processes",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
     }
   ],
   "questions": [
@@ -8972,6 +8984,613 @@
         "img/2020-autumn-c2/fig-q6a.jpg"
       ],
       "markscheme": "img/2020-autumn-c2/ms-q6c.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q1ai",
+      "paper": "2020-autumn-a2",
+      "question": "1(a)(i)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Complete the comparative table by assigning anatomical shell characteristics to brachiopod specimen A or bivalve specimen B.",
+      "image": "img/2020-autumn-a2/q1ai.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q1ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q1aii",
+      "paper": "2020-autumn-a2",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Name the invertebrate fossil group represented by specimen A possessing a pedicle foramen.",
+      "image": "img/2020-autumn-a2/q1aii.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q1aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q1aiii",
+      "paper": "2020-autumn-a2",
+      "question": "1(a)(iii)",
+      "marks": 4,
+      "page": 2,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Deduce the infaunal burrowing mode of life of bivalve specimen B based on shell morphology and pallial sinus evidence.",
+      "image": "img/2020-autumn-a2/q1aiii.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q1bi",
+      "paper": "2020-autumn-a2",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe three statistical differences in shell length distribution and preservation between fossil populations 1 and 2.",
+      "image": "img/2020-autumn-a2/q1bi.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q1bii",
+      "paper": "2020-autumn-a2",
+      "question": "1(b)(ii)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Evaluate whether fossil population 2 represents a transported death assemblage rather than an in situ life assemblage.",
+      "image": "img/2020-autumn-a2/q1bii.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q2a",
+      "paper": "2020-autumn-a2",
+      "question": "2(a)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "2.2",
+        "G1.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the melting points of pure anorthite and pure albite endmembers from the plagioclase binary phase diagram.",
+      "image": "img/2020-autumn-a2/q2a.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q2a.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q2bi",
+      "paper": "2020-autumn-a2",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "1.1",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain why potassium and sodium feldspars do not form a complete solid solution series at low temperatures based on ionic radii.",
+      "image": "img/2020-autumn-a2/q2bi.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q2bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q2bii",
+      "paper": "2020-autumn-a2",
+      "question": "2(b)(ii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "1.1",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain the coupled ionic substitution mechanism that enables a complete continuous solid solution series in plagioclase feldspars.",
+      "image": "img/2020-autumn-a2/q2bii.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q2bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q2ci",
+      "paper": "2020-autumn-a2",
+      "question": "2(c)(i)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "2.2",
+        "G1.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete the table tracing liquid and crystal compositions during the equilibrium partial melting of plagioclase solid S.",
+      "image": "img/2020-autumn-a2/q2ci.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q2ci.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q2cii",
+      "paper": "2020-autumn-a2",
+      "question": "2(c)(ii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "2.2",
+        "G1.1"
+      ],
+      "skills": [],
+      "summary": "Describe the chemical partitioning of sodium, calcium, and silica between coexisting melt and crystal phases at 1450°C.",
+      "image": "img/2020-autumn-a2/q2cii.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q2cii.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q2d",
+      "paper": "2020-autumn-a2",
+      "question": "2(d)",
+      "marks": 4,
+      "page": 6,
+      "topics": [
+        "G1.1",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Evaluate whether the partial melting of subducted mafic oceanic lithosphere can generate andesitic or basaltic magmas.",
+      "image": "img/2020-autumn-a2/q2d.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q2d.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q3ai",
+      "paper": "2020-autumn-a2",
+      "question": "3(a)(i)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "2.2",
+        "G1.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Draw two metamorphic isograds on the geological map separating the muscovite, andalusite, and sillimanite zones.",
+      "image": "img/2020-autumn-a2/q3ai.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q3ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q3aii",
+      "paper": "2020-autumn-a2",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "2.2",
+        "G1.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Draw an arrow on the map indicating the direction of increasing metamorphic grade towards the granite intrusion with justification.",
+      "image": "img/2020-autumn-a2/q3aii.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q3aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q3aiii",
+      "paper": "2020-autumn-a2",
+      "question": "3(a)(iii)",
+      "marks": 4,
+      "page": 9,
+      "topics": [
+        "2.2",
+        "G1.2"
+      ],
+      "skills": [],
+      "summary": "Explain why aluminous silicate isograds cannot be mapped across the post-metamorphic sandstone or calcium-rich limestone units.",
+      "image": "img/2020-autumn-a2/q3aiii.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q3aiii.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q3aiv",
+      "paper": "2020-autumn-a2",
+      "question": "3(a)(iv)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "2.2",
+        "G1.2"
+      ],
+      "skills": [],
+      "summary": "Explain how differences in thermal conductivity and jointing between shale and limestone influenced the width of the contact aureole.",
+      "image": "img/2020-autumn-a2/q3aiv.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q3aiv.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q3b",
+      "paper": "2020-autumn-a2",
+      "question": "3(b)",
+      "marks": 6,
+      "page": 10,
+      "topics": [
+        "2.2",
+        "2.3",
+        "G1.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Evaluate how dynamic metamorphism and fault-related shear stress produced foliated fault gouge and cataclastic fault breccia.",
+      "image": "img/2020-autumn-a2/q3b.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q3a.jpg",
+        "img/2020-autumn-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q3b.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q4ai",
+      "paper": "2020-autumn-a2",
+      "question": "4(a)(i)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "G3.2",
+        "G3.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the long-term eustatic sea level changes throughout the Mesozoic and Cenozoic eras from the Phanerozoic curve.",
+      "image": "img/2020-autumn-a2/q4ai.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q4ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q4aii",
+      "paper": "2020-autumn-a2",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "G3.2",
+        "G3.3"
+      ],
+      "skills": [],
+      "summary": "Explain the glacio-eustatic and thermal contraction mechanisms that cause global sea levels to fall during icehouse climates.",
+      "image": "img/2020-autumn-a2/q4aii.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q4aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q4b",
+      "paper": "2020-autumn-a2",
+      "question": "4(b)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "G3.2",
+        "G3.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Evaluate the claim that sea level is solely controlled by global climate by citing periods of concordant and discordant correlation.",
+      "image": "img/2020-autumn-a2/q4b.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q4b.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q4c",
+      "paper": "2020-autumn-a2",
+      "question": "4(c)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Compare the tectonic Wilson Cycle development of the expanding Atlantic Ocean and closing Tethys Ocean in the late Cretaceous.",
+      "image": "img/2020-autumn-a2/q4c.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q4c.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q4di",
+      "paper": "2020-autumn-a2",
+      "question": "4(d)(i)",
+      "marks": 2,
+      "page": 14,
+      "topics": [
+        "4.2",
+        "G3.2"
+      ],
+      "skills": [],
+      "summary": "Evaluate whether periods of extensive mid-ocean ridge volcanism correspond to elevated global sea levels during the Cretaceous.",
+      "image": "img/2020-autumn-a2/q4di.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q4a.jpg",
+        "img/2020-autumn-a2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q4di.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q4dii",
+      "paper": "2020-autumn-a2",
+      "question": "4(d)(ii)",
+      "marks": 2,
+      "page": 14,
+      "topics": [
+        "4.2",
+        "G3.2"
+      ],
+      "skills": [],
+      "summary": "Explain how elevated mid-ocean ridge volume and hydrothermal buoyancy displace seawater and cause marine transgression.",
+      "image": "img/2020-autumn-a2/q4dii.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q4dii.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q5a",
+      "paper": "2020-autumn-a2",
+      "question": "5(a)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "1.1",
+        "G4.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe how gold and magnetite can be distinguished in hand specimen using diagnostic physical properties.",
+      "image": "img/2020-autumn-a2/q5a.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q5.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q5a.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q5bi",
+      "paper": "2020-autumn-a2",
+      "question": "5(b)(i)",
+      "marks": 3,
+      "page": 16,
+      "topics": [
+        "2.1",
+        "G4.1"
+      ],
+      "skills": [],
+      "summary": "Explain how high relative density and chemical resistance allow gold and magnetite to concentrate in fluvial placer deposits.",
+      "image": "img/2020-autumn-a2/q5bi.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q5.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q5bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q5bii",
+      "paper": "2020-autumn-a2",
+      "question": "5(b)(ii)",
+      "marks": 1,
+      "page": 16,
+      "topics": [
+        "G4.1"
+      ],
+      "skills": [],
+      "summary": "Identify one other resistant, high-density ore mineral from Table 3 commonly concentrated in alluvial placer gravels.",
+      "image": "img/2020-autumn-a2/q5bii.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q5.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q5bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q5c",
+      "paper": "2020-autumn-a2",
+      "question": "5(c)",
+      "marks": 6,
+      "page": 17,
+      "topics": [
+        "G4.3",
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Evaluate the suitability of gravity, magnetic, electrical resistivity, and seismic methods for exploring metalliferous ore deposits.",
+      "image": "img/2020-autumn-a2/q5c.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q5.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q5c.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q6a",
+      "paper": "2020-autumn-a2",
+      "question": "6(a)",
+      "marks": 3,
+      "page": 18,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Annotate the Cocos plate tectonic map by identifying locations of an ocean trench, a transform fault, and deep earthquakes.",
+      "image": "img/2020-autumn-a2/q6a.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q6a.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q6bi",
+      "paper": "2020-autumn-a2",
+      "question": "6(b)(i)",
+      "marks": 1,
+      "page": 18,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Measure the linear length of the Middle America subduction zone edge Y using the graphic scale bar.",
+      "image": "img/2020-autumn-a2/q6bi.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q6bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q6bii",
+      "paper": "2020-autumn-a2",
+      "question": "6(b)(ii)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the subduction zone boundary length Y as a percentage of the total circumference of the Cocos plate.",
+      "image": "img/2020-autumn-a2/q6bii.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q6bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q6ci",
+      "paper": "2020-autumn-a2",
+      "question": "6(c)(i)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Plot data points for the Cocos plate onto the plate area and subduction zone percentage correlation graphs.",
+      "image": "img/2020-autumn-a2/q6ci.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q6b.jpg",
+        "img/2020-autumn-a2/fig-q6c.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q6ci.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q6cii",
+      "paper": "2020-autumn-a2",
+      "question": "6(c)(ii)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Evaluate the degree of correlation between mean plate motion speed, total plate area, and subduction boundary percentage.",
+      "image": "img/2020-autumn-a2/q6cii.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q6b.jpg",
+        "img/2020-autumn-a2/fig-q6c.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q6cii.jpg"
+    },
+    {
+      "id": "2020-autumn-a2-q6d",
+      "paper": "2020-autumn-a2",
+      "question": "6(d)",
+      "marks": 3,
+      "page": 20,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Assess the extent to which the empirical plate velocity data supports slab pull as the primary driving mechanism of plate tectonics.",
+      "image": "img/2020-autumn-a2/q6d.jpg",
+      "figures": [
+        "img/2020-autumn-a2/fig-q6c.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a2/ms-q6d.jpg"
     }
   ],
   "levels": [
