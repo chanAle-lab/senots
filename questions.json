@@ -343,6 +343,18 @@
       "spec": "current",
       "totalMarks": 105,
       "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2019-summer-a2",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-06",
+      "code": "A480U20-1",
+      "unit": "A level Component 2: Geological Principles and Processes",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
     }
   ],
   "questions": [
@@ -7667,6 +7679,648 @@
         "img/2019-summer-a1/map1.jpg"
       ],
       "markscheme": "img/2019-summer-a1/ms-q9b.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q1ai",
+      "paper": "2019-summer-a2",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the relationship between annual precipitation and depth of weathering shown in the climate model.",
+      "image": "img/2019-summer-a2/q1ai.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q1ai.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q1aii",
+      "paper": "2019-summer-a2",
+      "question": "1(a)(ii)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Explain why intense chemical weathering profiles extend to greater depths in humid tropical climates.",
+      "image": "img/2019-summer-a2/q1aii.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q1aii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q1aiii",
+      "paper": "2019-summer-a2",
+      "question": "1(a)(iii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Identify a climatic zone where freeze–thaw weathering operates most effectively and justify the choice with temperature and moisture conditions.",
+      "image": "img/2019-summer-a2/q1aiii.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q1b",
+      "paper": "2019-summer-a2",
+      "question": "1(b)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "2.1",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain why sedimentary rocks cover three quarters of the continental surface area but form under a tenth of total crustal volume.",
+      "image": "img/2019-summer-a2/q1b.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q1a.jpg",
+        "img/2019-summer-a2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q1b.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q1c",
+      "paper": "2019-summer-a2",
+      "question": "1(c)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "2.2",
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Explain the chemical weathering processes that break down granite minerals and produce sedimentary products.",
+      "image": "img/2019-summer-a2/q1c.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q1a.jpg",
+        "img/2019-summer-a2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q1c.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q2ai",
+      "paper": "2019-summer-a2",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Complete the data table comparing marine and terrestrial species diversity at the Permian–Triassic boundary.",
+      "image": "img/2019-summer-a2/q2ai.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q2ai.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q2aii",
+      "paper": "2019-summer-a2",
+      "question": "2(a)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the overall trend and key changes in marine species diversity over the past 600 million years.",
+      "image": "img/2019-summer-a2/q2aii.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q2aii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q2b",
+      "paper": "2019-summer-a2",
+      "question": "2(b)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [],
+      "summary": "Define the term mass extinction and outline its defining characteristics with reference to the Permian–Triassic event.",
+      "image": "img/2019-summer-a2/q2b.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q2b.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q2c",
+      "paper": "2019-summer-a2",
+      "question": "2(c)",
+      "marks": 6,
+      "page": 9,
+      "topics": [
+        "G3.1",
+        "G3.2",
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Evaluate the evidence linking major mass extinction events with flood basalt volcanism and meteorite impacts.",
+      "image": "img/2019-summer-a2/q2c.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q2b.jpg",
+        "img/2019-summer-a2/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q2c.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q3a",
+      "paper": "2019-summer-a2",
+      "question": "3(a)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "2.2",
+        "G1.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State three textural and mineralogical features visible in the photomicrograph that identify the rock specimen as slate.",
+      "image": "img/2019-summer-a2/q3a.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q3a.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q3bi",
+      "paper": "2019-summer-a2",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [],
+      "summary": "Locate and label with an arrow BP the position of a primary bedding plane in the fold cliff photograph.",
+      "image": "img/2019-summer-a2/q3bi.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q3bi.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q3bii",
+      "paper": "2019-summer-a2",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Measure and record the dip angle and dip direction of axial planar cleavage within the slate in Box A.",
+      "image": "img/2019-summer-a2/q3bii.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q3bii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q3biii",
+      "paper": "2019-summer-a2",
+      "question": "3(b)(iii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [],
+      "summary": "Describe two differences in cleavage development and orientation between the incompetent slate and competent metaquartzite.",
+      "image": "img/2019-summer-a2/q3biii.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q3biii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q3biv",
+      "paper": "2019-summer-a2",
+      "question": "3(b)(iv)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Measure the true thickness of the metaquartzite bed at the fold hinge and fold limb using the scale bar.",
+      "image": "img/2019-summer-a2/q3biv.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q3biv.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q3bv",
+      "paper": "2019-summer-a2",
+      "question": "3(b)(v)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [],
+      "summary": "Explain the deformational mechanism responsible for the difference in bed thickness between the fold hinge and limbs.",
+      "image": "img/2019-summer-a2/q3bv.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q3bv.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q3c",
+      "paper": "2019-summer-a2",
+      "question": "3(c)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [],
+      "summary": "Critique a student’s description of the antiform as asymmetric, overturned, and isoclinal using geometric evidence.",
+      "image": "img/2019-summer-a2/q3c.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q3c.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q4a",
+      "paper": "2019-summer-a2",
+      "question": "4(a)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "2.1",
+        "G1.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State three textural contrasts between crystalline rock salt and clastic sandstone shown in the photomicrographs.",
+      "image": "img/2019-summer-a2/q4a.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q4a.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q4bi",
+      "paper": "2019-summer-a2",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "2.1",
+        "G4.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Determine from the depth–density graph the crossover depths where rock salt becomes less dense than shale and sandstone.",
+      "image": "img/2019-summer-a2/q4bi.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q4a.jpg",
+        "img/2019-summer-a2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q4bi.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q4bii",
+      "paper": "2019-summer-a2",
+      "question": "4(b)(ii)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "2.1",
+        "G4.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the rate of increase in sandstone density over the uppermost four kilometres of crust, including units.",
+      "image": "img/2019-summer-a2/q4bii.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q4bii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q4biii",
+      "paper": "2019-summer-a2",
+      "question": "4(b)(iii)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "2.1",
+        "G4.2"
+      ],
+      "skills": [],
+      "summary": "Explain why rock salt maintains a constant density with burial depth whereas clastic sandstone undergoes progressive density increase.",
+      "image": "img/2019-summer-a2/q4biii.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q4a.jpg",
+        "img/2019-summer-a2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q4biii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q4ci",
+      "paper": "2019-summer-a2",
+      "question": "4(c)(i)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "G4.2"
+      ],
+      "skills": [],
+      "summary": "Draw two horizontal boundary lines on the salt dome cross-section to represent gas, oil, and water contacts in the trap.",
+      "image": "img/2019-summer-a2/q4ci.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q4b.jpg",
+        "img/2019-summer-a2/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q4ci.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q4cii",
+      "paper": "2019-summer-a2",
+      "question": "4(c)(ii)",
+      "marks": 3,
+      "page": 16,
+      "topics": [
+        "G4.2",
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Explain the physical processes and buoyancy forces driving salt diapir formation and surrounding bed deformation.",
+      "image": "img/2019-summer-a2/q4cii.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q4b.jpg",
+        "img/2019-summer-a2/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q4cii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q5ai",
+      "paper": "2019-summer-a2",
+      "question": "5(a)(i)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Label the P-wave and S-wave arrival times indicated by arrows on the earthquake seismogram with reasons.",
+      "image": "img/2019-summer-a2/q5ai.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q5a.jpg",
+        "img/2019-summer-a2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q5ai.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q5aii",
+      "paper": "2019-summer-a2",
+      "question": "5(a)(ii)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Mark with an arrow labelled X the probable seismometer recording location on Earth’s surface based on wave paths.",
+      "image": "img/2019-summer-a2/q5aii.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q5a.jpg",
+        "img/2019-summer-a2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q5aii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q5bi",
+      "paper": "2019-summer-a2",
+      "question": "5(b)(i)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Describe the curved trajectory of P-wave ray Z through the mantle and explain why its path curves upward.",
+      "image": "img/2019-summer-a2/q5bi.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q5bi.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q5bii",
+      "paper": "2019-summer-a2",
+      "question": "5(b)(ii)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Explain why direct P-waves are absent from the shadow zone between 103° and 142° angular distance.",
+      "image": "img/2019-summer-a2/q5bii.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q5bii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q5biii",
+      "paper": "2019-summer-a2",
+      "question": "5(b)(iii)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Draw a P-wave ray path on the global cross-section reflecting or refracting off the inner core as proposed by Lehmann.",
+      "image": "img/2019-summer-a2/q5biii.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q5biii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q5c",
+      "paper": "2019-summer-a2",
+      "question": "5(c)",
+      "marks": 3,
+      "page": 20,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the radius of Earth’s core in kilometres using the ray geometry diagram and trigonometric working.",
+      "image": "img/2019-summer-a2/q5c.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q5c.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q5c.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q6a",
+      "paper": "2019-summer-a2",
+      "question": "6(a)",
+      "marks": 2,
+      "page": 23,
+      "topics": [
+        "2.2",
+        "G1.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the mathematical relationship between the silica content of erupted lava at Hekla and the interval between eruptions.",
+      "image": "img/2019-summer-a2/q6a.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q6a.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q6b",
+      "paper": "2019-summer-a2",
+      "question": "6(b)",
+      "marks": 6,
+      "page": 23,
+      "topics": [
+        "G1.1",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Evaluate why evolved intermediate–silicic volcanic products at Hekla conflict with simple divergent plate margin melting models.",
+      "image": "img/2019-summer-a2/q6b.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q6a.jpg",
+        "img/2019-summer-a2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q6b.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q6ci",
+      "paper": "2019-summer-a2",
+      "question": "6(c)(i)",
+      "marks": 2,
+      "page": 24,
+      "topics": [
+        "G1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete the Spearman’s rank data table by calculating the missing rank values for eruption intervals and volumes.",
+      "image": "img/2019-summer-a2/q6ci.jpg",
+      "figures": [],
+      "markscheme": "img/2019-summer-a2/ms-q6ci.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q6cii",
+      "paper": "2019-summer-a2",
+      "question": "6(c)(ii)",
+      "marks": 2,
+      "page": 24,
+      "topics": [
+        "G1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the Spearman’s rank correlation coefficient using the given formula and table data.",
+      "image": "img/2019-summer-a2/q6cii.jpg",
+      "figures": [],
+      "markscheme": "img/2019-summer-a2/ms-q6cii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q6ciii",
+      "paper": "2019-summer-a2",
+      "question": "6(c)(iii)",
+      "marks": 2,
+      "page": 25,
+      "topics": [
+        "G1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the statistical significance of the calculated correlation coefficient using the critical values graph.",
+      "image": "img/2019-summer-a2/q6ciii.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q6c.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q6ciii.jpg"
+    },
+    {
+      "id": "2019-summer-a2-q6d",
+      "paper": "2019-summer-a2",
+      "question": "6(d)",
+      "marks": 2,
+      "page": 25,
+      "topics": [
+        "G1.1",
+        "T1.2"
+      ],
+      "skills": [],
+      "summary": "Provide a volcanological explanation for why longer quiescence intervals correlate with larger erupted volumes of magma.",
+      "image": "img/2019-summer-a2/q6d.jpg",
+      "figures": [
+        "img/2019-summer-a2/fig-q6c.jpg"
+      ],
+      "markscheme": "img/2019-summer-a2/ms-q6d.jpg"
     }
   ],
   "levels": [
