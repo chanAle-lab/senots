@@ -427,6 +427,18 @@
       "spec": "current",
       "totalMarks": 90,
       "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2023-summer-a2",
+      "year": 2023,
+      "series": "Summer",
+      "date": "2023-06-13",
+      "code": "A480U20-1",
+      "unit": "A level Component 2: Geological Principles and Processes",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
     }
   ],
   "questions": [
@@ -12212,6 +12224,657 @@
         "img/2023-summer-c2/fig-q6.jpg"
       ],
       "markscheme": "img/2023-summer-c2/ms-q6e.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q1a",
+      "paper": "2023-summer-a2",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [],
+      "summary": "Identify the characteristic marine fossil groups representing Cambrian and Modern evolutionary faunas.",
+      "image": "img/2023-summer-a2/q1a.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q1a.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q1bi",
+      "paper": "2023-summer-a2",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the diversity trajectory of the Cambrian fauna across the Lower Palaeozoic from Sepkoski’s curves.",
+      "image": "img/2023-summer-a2/q1bi.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q1bii",
+      "paper": "2023-summer-a2",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the percentage change in taxonomic family richness for Modern fauna across the Mesozoic.",
+      "image": "img/2023-summer-a2/q1bii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q1c",
+      "paper": "2023-summer-a2",
+      "question": "1(c)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "3.1",
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Critically evaluate a student’s proposition that every geological period culminates in a mass extinction event.",
+      "image": "img/2023-summer-a2/q1c.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q1c.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q1di",
+      "paper": "2023-summer-a2",
+      "question": "1(d)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [],
+      "summary": "Identify which speciation model represents punctuated equilibrium rather than phyletic gradualism.",
+      "image": "img/2023-summer-a2/q1di.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q1di.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q1dii",
+      "paper": "2023-summer-a2",
+      "question": "1(d)(ii)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [],
+      "summary": "Contrast the contrasting evolutionary dynamics depicted by the gradualist and punctuated speciation models.",
+      "image": "img/2023-summer-a2/q1dii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q1dii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q2a",
+      "paper": "2023-summer-a2",
+      "question": "2(a)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "1.1",
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Explain the mineralogical and textural criteria confirming that the mantle xenolith is peridotite.",
+      "image": "img/2023-summer-a2/q2a.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q2a.jpg",
+        "img/2023-summer-a2/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q2a.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q2bi",
+      "paper": "2023-summer-a2",
+      "question": "2(b)(i)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the rock density of the peridotite specimen and determine its combined percentage uncertainty.",
+      "image": "img/2023-summer-a2/q2bi.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a2/ms-q2bi.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q2bii",
+      "paper": "2023-summer-a2",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Suggest two experimental refinements to minimise measurement uncertainty in density determination.",
+      "image": "img/2023-summer-a2/q2bii.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a2/ms-q2bii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q2ci",
+      "paper": "2023-summer-a2",
+      "question": "2(c)(i)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the depth-dependent density variations through the upper mantle from 40 to 1800 km.",
+      "image": "img/2023-summer-a2/q2ci.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q2ci.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q2cii",
+      "paper": "2023-summer-a2",
+      "question": "2(c)(ii)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Plot the inferred origin depth of the peridotite xenolith onto the mantle density profile.",
+      "image": "img/2023-summer-a2/q2cii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q2cii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q2ciii",
+      "paper": "2023-summer-a2",
+      "question": "2(c)(iii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "2.2",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Account for the entrainment, ascent, and eruption of deep-seated mantle xenoliths within oceanic basalt.",
+      "image": "img/2023-summer-a2/q2ciii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q2a.jpg",
+        "img/2023-summer-a2/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q2ciii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q2di",
+      "paper": "2023-summer-a2",
+      "question": "2(d)(i)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Deduce the physical density constraints on Earth’s core implied by the mantle density profile and bulk Earth mass.",
+      "image": "img/2023-summer-a2/q2di.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q2di.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q2dii",
+      "paper": "2023-summer-a2",
+      "question": "2(d)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Explain how Earth’s geomagnetic field reveals the composition and fluid convective state of the outer core.",
+      "image": "img/2023-summer-a2/q2dii.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a2/ms-q2dii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q3a",
+      "paper": "2023-summer-a2",
+      "question": "3(a)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "2.2",
+        "G1.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Read peak pressure and temperature conditions attained along metamorphic pathway 2 at 36 Ma.",
+      "image": "img/2023-summer-a2/q3a.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q3a.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q3b",
+      "paper": "2023-summer-a2",
+      "question": "3(b)",
+      "marks": 6,
+      "page": 9,
+      "topics": [
+        "2.2",
+        "G1.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Compare the pressure-temperature-time trajectories, mineral stability fields, and metamorphic facies of pathways 1 and 2.",
+      "image": "img/2023-summer-a2/q3b.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q3b.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q3ci",
+      "paper": "2023-summer-a2",
+      "question": "3(c)(i)",
+      "marks": 4,
+      "page": 10,
+      "topics": [
+        "2.2",
+        "G1.2"
+      ],
+      "skills": [],
+      "summary": "Explain how porphyroblastic kyanite, sillimanite, and foliation validate the regional metamorphic pathway.",
+      "image": "img/2023-summer-a2/q3ci.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q3a.jpg",
+        "img/2023-summer-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q3ci.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q3cii",
+      "paper": "2023-summer-a2",
+      "question": "3(c)(ii)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "2.2",
+        "G1.2"
+      ],
+      "skills": [],
+      "summary": "Explain why andalusite failed to crystallise during decompression despite pathway 2 traversing its stability field.",
+      "image": "img/2023-summer-a2/q3cii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q3a.jpg",
+        "img/2023-summer-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q3cii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q4a",
+      "paper": "2023-summer-a2",
+      "question": "4(a)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Evaluate a student’s claim regarding the spatial distribution and plate margin association of global mantle plumes.",
+      "image": "img/2023-summer-a2/q4a.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q4a.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q4b",
+      "paper": "2023-summer-a2",
+      "question": "4(b)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "4.1",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Assess whether seismic tomography under Yellowstone supports Morgan’s deep lower-mantle plume hypothesis.",
+      "image": "img/2023-summer-a2/q4b.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q4a.jpg",
+        "img/2023-summer-a2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q4b.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q4ci",
+      "paper": "2023-summer-a2",
+      "question": "4(c)(i)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "2.2",
+        "4.2",
+        "G1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Delineate the partially molten mantle zones on divergent and hotspot geotherm diagrams with justification.",
+      "image": "img/2023-summer-a2/q4ci.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q4ci.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q4cii",
+      "paper": "2023-summer-a2",
+      "question": "4(c)(ii)",
+      "marks": 4,
+      "page": 15,
+      "topics": [
+        "2.2",
+        "4.2",
+        "G1.1"
+      ],
+      "skills": [],
+      "summary": "Contrast the thermodynamic mechanisms triggering magma generation at divergent margins versus mantle plumes.",
+      "image": "img/2023-summer-a2/q4cii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q4cii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q4ciii",
+      "paper": "2023-summer-a2",
+      "question": "4(c)(iii)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "2.2",
+        "4.2",
+        "G1.1"
+      ],
+      "skills": [],
+      "summary": "Explain why divergent rift and intraplate oceanic hotspot lavas display closely comparable basaltic chemistry.",
+      "image": "img/2023-summer-a2/q4ciii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q4ciii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q5ai",
+      "paper": "2023-summer-a2",
+      "question": "5(a)(i)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "3.1",
+        "G3.2",
+        "G3.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete the palaeolatitude distribution histogram for Neoproterozoic low-latitude glacial deposits.",
+      "image": "img/2023-summer-a2/q5ai.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q5a.jpg",
+        "img/2023-summer-a2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q5ai.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q5aii",
+      "paper": "2023-summer-a2",
+      "question": "5(a)(ii)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "4.2",
+        "G3.3"
+      ],
+      "skills": [],
+      "summary": "Explain how remanent magnetic inclination in tillites and associated lavas determines palaeolatitude.",
+      "image": "img/2023-summer-a2/q5aii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q5aii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q5aiii",
+      "paper": "2023-summer-a2",
+      "question": "5(a)(iii)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "3.1",
+        "G3.2",
+        "G3.3"
+      ],
+      "skills": [],
+      "summary": "Contrast the global latitudinal extent of Neoproterozoic glacial deposits with Quaternary ice sheet limits.",
+      "image": "img/2023-summer-a2/q5aiii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q5a.jpg",
+        "img/2023-summer-a2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q5aiii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q5b",
+      "paper": "2023-summer-a2",
+      "question": "5(b)",
+      "marks": 6,
+      "page": 18,
+      "topics": [
+        "3.1",
+        "G3.2",
+        "G3.3"
+      ],
+      "skills": [],
+      "summary": "Evaluate the Snowball Earth hypothesis using palaeolatitudinal distribution, tillite lithology, and global depositional patterns.",
+      "image": "img/2023-summer-a2/q5b.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q5a.jpg",
+        "img/2023-summer-a2/fig-q5b.jpg",
+        "img/2023-summer-a2/fig-q5c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q5b.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q6ai",
+      "paper": "2023-summer-a2",
+      "question": "6(a)(i)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "G4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the peak formation temperature thresholds for crude oil and natural gas generation.",
+      "image": "img/2023-summer-a2/q6ai.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q6ai.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q6aii",
+      "paper": "2023-summer-a2",
+      "question": "6(a)(ii)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "4.1",
+        "G4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the geothermal gradient of the North Sea sedimentary basin expressed in degrees Celsius per metre.",
+      "image": "img/2023-summer-a2/q6aii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q6aii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q6aiii",
+      "paper": "2023-summer-a2",
+      "question": "6(a)(iii)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "G4.2"
+      ],
+      "skills": [],
+      "summary": "Predict and explain the shift in oil window generation depth resulting from an elevated geothermal gradient.",
+      "image": "img/2023-summer-a2/q6aiii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q6aiii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q6bi",
+      "paper": "2023-summer-a2",
+      "question": "6(b)(i)",
+      "marks": 1,
+      "page": 20,
+      "topics": [
+        "G4.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Delineate the base of the productive oil accumulation zone in the borehole graphic column.",
+      "image": "img/2023-summer-a2/q6bi.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q6bi.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q6bii",
+      "paper": "2023-summer-a2",
+      "question": "6(b)(ii)",
+      "marks": 3,
+      "page": 20,
+      "topics": [
+        "G4.2"
+      ],
+      "skills": [],
+      "summary": "Account for the structural entrapment of oil based on sandstone reservoir quality and impermeable shale seals.",
+      "image": "img/2023-summer-a2/q6bii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q6bii.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q6ci",
+      "paper": "2023-summer-a2",
+      "question": "6(c)(i)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "3.2",
+        "G4.2"
+      ],
+      "skills": [],
+      "summary": "Subdivide the borehole sedimentary succession into palynological microfossil biozones based on first downhole appearances.",
+      "image": "img/2023-summer-a2/q6ci.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q6b.jpg",
+        "img/2023-summer-a2/fig-q6c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q6ci.jpg"
+    },
+    {
+      "id": "2023-summer-a2-q6cii",
+      "paper": "2023-summer-a2",
+      "question": "6(c)(ii)",
+      "marks": 3,
+      "page": 21,
+      "topics": [
+        "3.1",
+        "3.2",
+        "G4.2"
+      ],
+      "skills": [],
+      "summary": "Evaluate the relative biostratigraphic resolution and facies tolerance of ammonites versus microfossils in oilfield correlation.",
+      "image": "img/2023-summer-a2/q6cii.jpg",
+      "figures": [
+        "img/2023-summer-a2/fig-q6b.jpg",
+        "img/2023-summer-a2/fig-q6c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a2/ms-q6cii.jpg"
     }
   ],
   "levels": [
