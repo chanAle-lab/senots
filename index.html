@@ -3,64 +3,50 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SENOTS · WJEC Eduqas Geology Revision</title>
-<meta name="description" content="Interactive past paper revision tool for WJEC Eduqas AS and A level Geology, organised by specification topic.">
+<title>SENOTS · Geology Past Papers</title>
+<meta name="description" content="Minimalist past paper revision question bank for WJEC Eduqas AS and A level Geology, organised by topic.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Schibsted+Grotesk:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
-  --font-sans: 'Schibsted Grotesk', system-ui, -apple-system, sans-serif;
-  --font-display: 'Outfit', var(--font-sans);
-  --font-mono: 'JetBrains Mono', monospace;
-
-  /* Light Theme (Limestone / Warm Paper) */
-  --bg: #f5f6f4;
-  --bg-subtle: #ebedeb;
-  --card: #ffffff;
-  --card-elevated: #ffffff;
-  --ink: #141f22;
-  --ink-secondary: #4a5a5e;
-  --muted: #697a7e;
-  --line: #d8dedb;
-  --line-strong: #b8c4bf;
-  --focus: #0f62fe;
-  --accent: #2c6e64;
-  --accent-light: #e8f4f1;
-  --star: #d97706;
-  --star-bg: #fef3c7;
-  --success: #15803d;
-  --success-bg: #dcfce7;
-  --danger: #b91c1c;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.04);
-  --shadow-lg: 0 12px 32px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.06);
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 14px;
+  --font: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  /* Minimalist Light Palette */
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --surface-hover: #f4f4f5;
+  --ink: #18181b;
+  --ink-secondary: #52525b;
+  --muted: #71717a;
+  --border: #e4e4e7;
+  --border-strong: #d4d4d8;
+  --accent: #18181b;
+  --accent-contrast: #ffffff;
+  --mark-bg: #f4f4f5;
+  --mark-color: #27272a;
+  --tag-bg: #f4f4f5;
+  --tag-ink: #3f3f46;
+  --radius: 6px;
+  --radius-lg: 8px;
 }
 
 [data-theme="dark"] {
-  --bg: #0d1217;
-  --bg-subtle: #141b22;
-  --card: #18222c;
-  --card-elevated: #202c38;
-  --ink: #e6edf3;
-  --ink-secondary: #9db1c0;
-  --muted: #798e9f;
-  --line: #293846;
-  --line-strong: #3b4e60;
-  --focus: #388bfd;
-  --accent: #38a394;
-  --accent-light: #162f2c;
-  --star: #fbbf24;
-  --star-bg: #362908;
-  --success: #4ade80;
-  --success-bg: #0d321d;
-  --danger: #f87171;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
-  --shadow-md: 0 4px 14px rgba(0,0,0,0.4);
-  --shadow-lg: 0 12px 36px rgba(0,0,0,0.6);
+  /* Minimalist Dark Palette */
+  --bg: #09090b;
+  --surface: #121215;
+  --surface-hover: #18181b;
+  --ink: #f4f4f5;
+  --ink-secondary: #a1a1aa;
+  --muted: #71717a;
+  --border: #27272a;
+  --border-strong: #3f3f46;
+  --accent: #f4f4f5;
+  --accent-contrast: #09090b;
+  --mark-bg: #27272a;
+  --mark-color: #f4f4f5;
+  --tag-bg: #1c1c20;
+  --tag-ink: #d4d4d8;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -69,15 +55,15 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: var(--font-sans);
-  font-size: 15px;
-  line-height: 1.55;
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 /* ========================================================
-   Password Lock Screen
+   Password Gate (Minimalist)
    ======================================================== */
 .lock-screen {
   position: fixed;
@@ -87,135 +73,97 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 24px;
 }
 .lock-card {
   width: 100%;
-  max-width: 430px;
-  background: var(--card);
-  border: 1px solid var(--line);
+  max-width: 360px;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 38px 32px;
-  box-shadow: var(--shadow-lg);
-  text-align: center;
-  animation: fadeInLock 0.3s ease-out;
-}
-@keyframes fadeInLock {
-  from { opacity: 0; transform: scale(0.96) translateY(8px); }
-  to { opacity: 1; transform: scale(1) translateY(0); }
-}
-.lock-icon-wrap {
-  width: 64px;
-  height: 64px;
-  margin: 0 auto 16px;
-  background: var(--accent-light);
-  border: 1px solid rgba(44, 110, 100, 0.25);
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-}
-.lock-icon {
-  font-size: 28px;
+  padding: 32px 28px;
+  text-align: left;
 }
 .lock-title {
-  font-family: var(--font-display);
-  font-size: 1.55rem;
-  font-weight: 700;
-  margin: 0 0 8px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0 0 6px;
   color: var(--ink);
-  letter-spacing: -0.01em;
 }
 .lock-desc {
-  font-size: 0.88rem;
+  font-size: 0.85rem;
   color: var(--muted);
-  margin: 0 0 24px;
+  margin: 0 0 20px;
   line-height: 1.5;
 }
 .lock-form {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
 }
 .lock-input-wrap {
   position: relative;
-  display: flex;
-  align-items: center;
 }
 .lock-input {
   width: 100%;
-  padding: 12px 44px 12px 14px;
-  background: var(--bg-subtle);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-md);
+  padding: 10px 36px 10px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   font-family: inherit;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--ink);
-  transition: all 0.15s ease;
+  outline: none;
+  transition: border-color 0.15s;
 }
 .lock-input:focus {
-  outline: 0;
-  background: var(--card);
-  border-color: var(--focus);
-  box-shadow: 0 0 0 3px rgba(15, 98, 254, 0.15);
+  border-color: var(--ink);
 }
 .lock-eye-btn {
   position: absolute;
   right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
   background: transparent;
   border: 0;
-  cursor: pointer;
   color: var(--muted);
-  font-size: 18px;
-  padding: 4px;
+  cursor: pointer;
+  padding: 0;
+  font-size: 0.8rem;
 }
 .lock-options {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 0.82rem;
-  color: var(--ink-secondary);
+  font-size: 0.8rem;
+  color: var(--muted);
 }
-.lock-remember-label {
+.lock-options label {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   cursor: pointer;
-  user-select: none;
 }
 .lock-submit-btn {
   background: var(--accent);
-  color: #fff;
+  color: var(--accent-contrast);
   border: 0;
-  padding: 12px 20px;
-  border-radius: var(--radius-md);
+  padding: 10px 16px;
+  border-radius: var(--radius);
   font-family: inherit;
-  font-size: 0.95rem;
-  font-weight: 700;
+  font-size: 0.88rem;
+  font-weight: 500;
   cursor: pointer;
-  transition: filter 0.15s ease, transform 0.05s ease;
+  transition: opacity 0.15s;
 }
 .lock-submit-btn:hover {
-  filter: brightness(1.1);
-}
-.lock-submit-btn:active {
-  transform: scale(0.99);
+  opacity: 0.9;
 }
 .lock-error {
-  font-size: 0.85rem;
-  color: var(--danger);
-  min-height: 20px;
-  font-weight: 600;
-}
-.lock-shake {
-  animation: shakeLock 0.4s ease-in-out;
-}
-@keyframes shakeLock {
-  0%, 100% { transform: translateX(0); }
-  20%, 60% { transform: translateX(-8px); }
-  40%, 80% { transform: translateX(8px); }
+  font-size: 0.8rem;
+  color: #dc2626;
+  min-height: 18px;
 }
 
-/* App root container (hidden when locked) */
+/* App container */
 #app-root {
   display: none;
 }
@@ -223,20 +171,20 @@ body {
   display: block;
 }
 
-/* Header & Navigation Bar */
+/* ========================================================
+   Site Header & Clean Navigation
+   ======================================================== */
 .site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
   position: sticky;
   top: 0;
-  z-index: 40;
-  background: var(--card);
-  border-bottom: 1px solid var(--line);
-  box-shadow: var(--shadow-sm);
-  backdrop-filter: blur(8px);
+  z-index: 30;
 }
 .header-inner {
-  max-width: 1200px;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 12px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -245,858 +193,568 @@ body {
 }
 .brand {
   display: flex;
-  align-items: center;
-  gap: 12px;
+  align-items: baseline;
+  gap: 8px;
   text-decoration: none;
-  color: inherit;
+  color: var(--ink);
 }
-.brand-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: var(--radius-sm);
-  background: linear-gradient(135deg, #7a5c47 0%, #d2ae63 40%, #5e7a6b 70%, #4f7391 100%);
-  display: grid;
-  place-items: center;
-  color: #fff;
+.brand-name {
+  font-size: 1.05rem;
   font-weight: 700;
-  font-family: var(--font-display);
-  font-size: 18px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.18);
-  flex-shrink: 0;
-}
-.brand-title {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.25rem;
   letter-spacing: -0.02em;
-  line-height: 1.15;
-  margin: 0;
 }
-.brand-tag {
-  font-size: 0.75rem;
-  font-weight: 600;
+.brand-sub {
+  font-size: 0.8rem;
   color: var(--muted);
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
 }
 
-.header-center {
+.view-tabs {
   display: flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--bg-subtle);
-  padding: 3px;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--line);
+  gap: 4px;
 }
-.view-btn {
+.tab-link {
   background: transparent;
   border: 0;
-  padding: 6px 14px;
-  font-family: var(--font-sans);
+  padding: 6px 12px;
+  font-family: inherit;
   font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--ink-secondary);
-  border-radius: var(--radius-sm);
+  font-weight: 500;
+  color: var(--muted);
+  border-radius: var(--radius);
   cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  transition: all 0.15s ease;
+  transition: color 0.15s, background-color 0.15s;
 }
-.view-btn:hover {
+.tab-link:hover {
   color: var(--ink);
+  background: var(--surface-hover);
 }
-.view-btn.active {
-  background: var(--card);
+.tab-link.active {
   color: var(--ink);
-  box-shadow: var(--shadow-sm);
+  background: var(--surface-hover);
+  font-weight: 600;
 }
 
-.header-actions {
+.header-right {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
-.btn-icon {
-  background: var(--card);
-  border: 1px solid var(--line);
-  color: var(--ink-secondary);
-  width: 38px;
-  height: 38px;
-  border-radius: var(--radius-sm);
-  display: grid;
-  place-items: center;
+.stats-badge {
+  font-size: 0.8rem;
+  color: var(--muted);
   cursor: pointer;
-  font-size: 16px;
-  transition: all 0.15s ease;
 }
-.btn-icon:hover {
-  background: var(--bg-subtle);
+.stats-badge b {
   color: var(--ink);
-  border-color: var(--line-strong);
 }
-
-/* Mastery Quick Stats Pill */
-.mastery-pill {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--bg-subtle);
-  border: 1px solid var(--line);
-  padding: 5px 12px;
-  border-radius: 99px;
-  font-size: 0.82rem;
-  font-weight: 600;
+.stats-badge:hover {
+  color: var(--ink);
+}
+.btn-minimal {
+  background: transparent;
+  border: 1px solid var(--border);
   color: var(--ink-secondary);
+  border-radius: var(--radius);
+  padding: 4px 10px;
+  font-family: inherit;
+  font-size: 0.8rem;
   cursor: pointer;
   transition: all 0.15s;
 }
-.mastery-pill:hover {
-  border-color: var(--accent);
+.btn-minimal:hover {
+  background: var(--surface-hover);
   color: var(--ink);
-}
-.mastery-bar-wrap {
-  width: 50px;
-  height: 6px;
-  background: var(--line);
-  border-radius: 99px;
-  overflow: hidden;
-}
-.mastery-bar-fill {
-  height: 100%;
-  background: var(--success);
-  width: 0%;
-  transition: width 0.3s ease;
+  border-color: var(--border-strong);
 }
 
-/* Layout Wrap */
-.layout-wrap {
-  max-width: 1200px;
+/* ========================================================
+   Main Content Layout
+   ======================================================== */
+.container {
+  max-width: 960px;
   margin: 0 auto;
   padding: 24px 20px 80px;
 }
 
-/* Hero / Filter Bar */
-.filter-card {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  padding: 20px 22px;
-  box-shadow: var(--shadow-sm);
+/* Minimalist Search & Filter Bar */
+.filter-panel {
   margin-bottom: 24px;
-}
-.search-row {
   display: flex;
+  flex-direction: column;
   gap: 12px;
-  margin-bottom: 14px;
 }
-.search-box {
+.search-input-wrap {
   position: relative;
-  flex: 1;
-}
-.search-icon {
-  position: absolute;
-  left: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--muted);
-  pointer-events: none;
-  font-size: 16px;
 }
 .search-input {
   width: 100%;
-  padding: 12px 14px 12px 42px;
-  background: var(--bg-subtle);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-md);
+  padding: 10px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   font-family: inherit;
-  font-size: 0.95rem;
-  color: var(--ink);
-  transition: all 0.15s ease;
-}
-.search-input:focus {
-  outline: 0;
-  background: var(--card);
-  border-color: var(--focus);
-  box-shadow: 0 0 0 3px rgba(15, 98, 254, 0.15);
-}
-.btn-random {
-  background: var(--accent);
-  color: #fff;
-  border: 0;
-  border-radius: var(--radius-md);
-  padding: 0 18px;
-  font-family: inherit;
-  font-weight: 600;
   font-size: 0.9rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: filter 0.15s ease;
-}
-.btn-random:hover {
-  filter: brightness(1.1);
-}
-
-/* Filter Controls Grid */
-.filter-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 12px;
-}
-.field {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-.field label {
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  color: var(--muted);
-}
-.select-ctl {
-  padding: 9px 10px;
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
   color: var(--ink);
-  font-family: inherit;
-  font-size: 0.88rem;
-  cursor: pointer;
-  width: 100%;
+  outline: none;
   transition: border-color 0.15s;
 }
-.select-ctl:focus {
-  outline: 0;
-  border-color: var(--focus);
+.search-input:focus {
+  border-color: var(--border-strong);
 }
-
-/* Quick Filter Badges Bar */
-.quick-chips {
+.filter-row {
   display: flex;
-  flex-wrap: wrap;
   gap: 8px;
-  margin-top: 14px;
-  padding-top: 14px;
-  border-top: 1px solid var(--line);
+  flex-wrap: wrap;
   align-items: center;
 }
-.chip-label {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--muted);
-  margin-right: 4px;
-}
-.chip {
-  background: var(--bg-subtle);
-  border: 1px solid var(--line);
-  color: var(--ink-secondary);
-  border-radius: 99px;
-  padding: 4px 12px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-.chip:hover {
-  background: var(--card);
-  border-color: var(--line-strong);
+.select-minimal {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   color: var(--ink);
+  padding: 6px 10px;
+  font-family: inherit;
+  font-size: 0.82rem;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.15s;
 }
-.chip.active {
+.select-minimal:focus {
+  border-color: var(--border-strong);
+}
+
+/* Minimalist Filter Chips */
+.chips-bar {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 4px;
+}
+.chip-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  padding: 3px 10px;
+  font-size: 0.78rem;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.chip-btn:hover {
+  color: var(--ink);
+  border-color: var(--border-strong);
+}
+.chip-btn.active {
   background: var(--ink);
-  color: var(--card);
+  color: var(--surface);
   border-color: var(--ink);
 }
-.chip-reset {
+.btn-reset-inline {
   margin-left: auto;
-  color: var(--muted);
-  font-size: 0.8rem;
   background: transparent;
   border: 0;
-  text-decoration: underline;
-  cursor: pointer;
-  padding: 4px 6px;
-}
-.chip-reset:hover {
-  color: var(--ink);
-}
-
-/* Filter Summary Bar */
-.results-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 4px 16px;
-  font-size: 0.88rem;
+  font-size: 0.78rem;
   color: var(--muted);
+  cursor: pointer;
+  padding: 2px 4px;
+  text-decoration: underline;
 }
-.results-count b {
+.btn-reset-inline:hover {
   color: var(--ink);
 }
 
-/* Stratigraphic Column View */
-.strata-container {
+/* Status / Count bar */
+.status-bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+}
+.status-bar b {
+  color: var(--ink);
+}
+
+/* ========================================================
+   Stratigraphic Column (Clean Cross-Section Style)
+   ======================================================== */
+.strata-wrap {
   display: flex;
   flex-direction: column;
   gap: 28px;
 }
-.strata-group {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  padding: 22px;
-  box-shadow: var(--shadow-sm);
-}
-.strata-group-title {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin: 0 0 4px;
-  color: var(--ink);
-}
-.strata-group-desc {
+.strata-section-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   color: var(--muted);
-  font-size: 0.85rem;
-  margin: 0 0 16px;
+  margin: 0 0 10px;
 }
-.strata-stack {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid var(--ink);
-  border-radius: var(--radius-md);
+.strata-column {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   overflow: hidden;
-  box-shadow: var(--shadow-sm);
+  background: var(--surface);
 }
-.strata-band {
+.strata-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
-  padding: 14px 20px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
   text-decoration: none;
-  background: var(--c);
-  color: var(--fg);
-  border-bottom: 1px solid rgba(0,0,0,0.22);
-  transition: filter 0.15s ease, transform 0.15s ease;
+  color: inherit;
+  background: var(--surface);
+  transition: background-color 0.15s;
   position: relative;
 }
-.strata-band:last-child {
+.strata-row:last-child {
   border-bottom: 0;
 }
-.strata-band:hover {
-  filter: brightness(1.09);
-  z-index: 2;
+.strata-row:hover {
+  background: var(--surface-hover);
 }
-.strata-info {
+.strata-left {
   display: flex;
-  flex-direction: column;
-  gap: 3px;
+  align-items: center;
+  gap: 12px;
 }
-.strata-title {
-  font-weight: 700;
-  font-size: 1.05rem;
-  letter-spacing: -0.01em;
+.strata-color-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: var(--c);
+  flex-shrink: 0;
 }
-.strata-sub {
-  font-size: 0.82rem;
-  opacity: 0.88;
+.strata-name {
+  font-size: 0.9rem;
+  font-weight: 500;
 }
-.strata-meta {
-  text-align: right;
+.strata-right {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 4px;
+  align-items: center;
+  gap: 14px;
+  font-size: 0.8rem;
+  color: var(--muted);
 }
-.strata-badge {
-  font-weight: 700;
-  font-family: var(--font-mono);
-  font-size: 0.88rem;
-  background: rgba(0,0,0,0.25);
-  padding: 3px 10px;
-  border-radius: 99px;
-  backdrop-filter: blur(4px);
-}
-.strata-mastery {
-  font-size: 0.76rem;
-  opacity: 0.9;
+.strata-mark-pill {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--radius);
+  background: var(--mark-bg);
+  color: var(--mark-color);
 }
 
-/* Card Feed View */
-.cards-grid {
+/* ========================================================
+   Question Cards (Minimalist Flat Layout)
+   ======================================================== */
+.cards-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 }
-.card {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-left: 8px solid var(--c);
-  border-radius: var(--radius-md);
-  padding: 20px 22px;
-  box-shadow: var(--shadow-sm);
-  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+.q-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  position: relative;
+  transition: border-color 0.15s;
 }
-.card:hover {
-  box-shadow: var(--shadow-md);
-  border-color: var(--line-strong);
+.q-card:hover {
+  border-color: var(--border-strong);
 }
-.card-header {
+.q-card-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 14px;
+  gap: 12px;
   margin-bottom: 8px;
   flex-wrap: wrap;
 }
-.card-title-group {
+.q-title-wrap {
   display: flex;
   align-items: baseline;
   gap: 10px;
-  flex-wrap: wrap;
 }
-.card-title {
+.q-title {
   margin: 0;
-  font-family: var(--font-display);
-  font-size: 1.3rem;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 600;
   letter-spacing: -0.01em;
 }
-.badge-marks {
-  background: var(--accent-light);
-  color: var(--accent);
-  font-family: var(--font-mono);
-  font-weight: 700;
-  font-size: 0.85rem;
-  padding: 3px 9px;
-  border-radius: var(--radius-sm);
-  border: 1px solid rgba(44, 110, 100, 0.2);
-}
-.card-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.action-btn {
-  background: var(--bg-subtle);
-  border: 1px solid var(--line);
-  color: var(--ink-secondary);
-  border-radius: var(--radius-sm);
-  padding: 6px 10px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  transition: all 0.15s ease;
-}
-.action-btn:hover {
-  background: var(--card);
-  color: var(--ink);
-  border-color: var(--line-strong);
-}
-.action-btn.active-star {
-  background: var(--star-bg);
-  color: var(--star);
-  border-color: var(--star);
-}
-.action-btn.active-check {
-  background: var(--success-bg);
-  color: var(--success);
-  border-color: var(--success);
-}
-
-.paper-meta {
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin-bottom: 12px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-.paper-meta span {
-  display: inline-flex;
-  align-items: center;
-}
-.meta-dot {
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: var(--line-strong);
-}
-
-.card-summary {
-  font-size: 0.95rem;
-  margin: 0 0 14px;
-  color: var(--ink);
-  line-height: 1.5;
-}
-.card-note {
-  font-size: 0.85rem;
-  background: #fffbeb;
-  border: 1px solid #fde68a;
-  color: #92400e;
-  border-radius: var(--radius-sm);
-  padding: 8px 12px;
-  margin-bottom: 14px;
-}
-[data-theme="dark"] .card-note {
-  background: #281d06;
-  border-color: #614407;
-  color: #fde68a;
-}
-
-.tags-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 16px;
-}
-.tag-pill {
+.q-mark {
   font-size: 0.78rem;
-  padding: 3px 10px;
-  border-radius: 99px;
-  border: 1px solid var(--line);
-  background: var(--bg-subtle);
-  color: var(--ink-secondary);
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
+  font-weight: 600;
+  background: var(--mark-bg);
+  color: var(--mark-color);
+  padding: 2px 7px;
+  border-radius: var(--radius);
+}
+.q-actions {
+  display: flex;
   gap: 6px;
-  transition: all 0.15s ease;
 }
-.tag-pill:hover {
-  border-color: var(--line-strong);
-  color: var(--ink);
-}
-.tag-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--c);
-}
-
-/* Image preview containers */
-.preview-wrap {
-  position: relative;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--line);
-  background: #ffffff;
-  overflow: hidden;
-  margin-bottom: 14px;
-}
-[data-theme="dark"] .preview-wrap {
-  background: #10161d;
-}
-.img-preview {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  cursor: zoom-in;
-  margin: 0 auto;
-}
-.preview-overlay {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background: rgba(0, 0, 0, 0.75);
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: var(--radius-sm);
-  font-size: 0.75rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  pointer-events: none;
-  backdrop-filter: blur(4px);
-  opacity: 0;
-  transition: opacity 0.15s ease;
-}
-.preview-wrap:hover .preview-overlay {
-  opacity: 1;
-}
-
-/* Accordion sections for figures & mark schemes */
-.card-accordions {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.accordion-box {
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  background: var(--bg-subtle);
-  overflow: hidden;
-}
-.accordion-box.ms-box {
-  border-color: rgba(44, 110, 100, 0.35);
-  background: var(--card);
-}
-.accordion-box summary {
-  padding: 10px 14px;
-  font-weight: 600;
-  font-size: 0.88rem;
-  color: var(--ink);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  user-select: none;
-}
-.accordion-box summary:hover {
-  background: var(--line);
-}
-.accordion-box[open] summary {
-  border-bottom: 1px solid var(--line);
-}
-.accordion-body {
-  padding: 14px;
-  background: #ffffff;
-}
-[data-theme="dark"] .accordion-body {
-  background: #10161d;
-}
-
-/* Compare in modal button */
-.card-footer {
-  margin-top: 14px;
-  display: flex;
-  justify-content: flex-end;
-  gap: 8px;
-}
-.btn-compare {
+.btn-q-action {
   background: transparent;
-  border: 1px solid var(--line);
-  color: var(--ink-secondary);
-  border-radius: var(--radius-sm);
-  padding: 6px 12px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  transition: all 0.15s ease;
-}
-.btn-compare:hover {
-  background: var(--bg-subtle);
-  border-color: var(--accent);
-  color: var(--accent);
-}
-
-/* Flashcard / Practice View */
-.practice-stage {
-  max-width: 900px;
-  margin: 0 auto;
-}
-.practice-header {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  padding: 16px 22px;
-  margin-bottom: 20px;
-  box-shadow: var(--shadow-sm);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-.practice-progress-group {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-.practice-counter {
-  font-family: var(--font-mono);
-  font-weight: 700;
-  font-size: 0.95rem;
-}
-.practice-timer {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--bg-subtle);
-  border: 1px solid var(--line);
-  padding: 6px 12px;
-  border-radius: var(--radius-sm);
-  font-family: var(--font-mono);
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--ink);
-}
-.practice-timer-btn {
-  background: transparent;
-  border: 0;
-  cursor: pointer;
+  border: 1px solid var(--border);
   color: var(--muted);
-  font-size: 14px;
-  padding: 0 4px;
-}
-.practice-timer-btn:hover {
-  color: var(--ink);
-}
-
-.practice-card {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  padding: 28px;
-  box-shadow: var(--shadow-md);
-  margin-bottom: 24px;
-}
-.practice-actions-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 24px;
-  padding-top: 20px;
-  border-top: 1px solid var(--line);
-  flex-wrap: wrap;
-  gap: 12px;
-}
-.nav-btn-group {
-  display: flex;
-  gap: 8px;
-}
-.btn-nav {
-  background: var(--card);
-  border: 1px solid var(--line);
-  color: var(--ink);
-  padding: 8px 16px;
-  border-radius: var(--radius-sm);
-  font-weight: 600;
-  font-size: 0.9rem;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  transition: all 0.15s ease;
-}
-.btn-nav:hover {
-  background: var(--bg-subtle);
-  border-color: var(--line-strong);
-}
-.btn-reveal-ms {
-  background: var(--accent);
-  color: #fff;
-  border: 0;
-  padding: 10px 22px;
-  border-radius: var(--radius-sm);
-  font-weight: 700;
-  font-size: 0.92rem;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: filter 0.15s ease;
-}
-.btn-reveal-ms:hover {
-  filter: brightness(1.1);
-}
-.self-eval-group {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 16px;
-  padding: 14px;
-  background: var(--bg-subtle);
-  border-radius: var(--radius-md);
-  border: 1px solid var(--line);
-  width: 100%;
-  justify-content: center;
-}
-
-/* Lightbox Modal (Side-by-side & Tabs) */
-.modal-backdrop {
-  position: fixed;
-  inset: 0;
-  z-index: 100;
-  background: rgba(10, 15, 20, 0.85);
-  backdrop-filter: blur(6px);
-  display: flex;
-  flex-direction: column;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease;
-}
-.modal-backdrop.open {
-  opacity: 1;
-  pointer-events: auto;
-}
-.modal-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 20px;
-  background: #141b22;
-  border-bottom: 1px solid #293846;
-  color: #fff;
-  flex-shrink: 0;
-}
-.modal-title {
-  font-family: var(--font-display);
-  font-size: 1.1rem;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.modal-tabs {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  background: #0d1217;
-  padding: 4px;
-  border-radius: var(--radius-sm);
-  border: 1px solid #293846;
-}
-.modal-tab-btn {
-  background: transparent;
-  border: 0;
-  color: #9db1c0;
+  border-radius: var(--radius);
+  padding: 4px 8px;
+  font-size: 0.76rem;
   font-family: inherit;
-  font-size: 0.82rem;
-  font-weight: 600;
-  padding: 6px 12px;
-  border-radius: 4px;
   cursor: pointer;
   transition: all 0.15s;
 }
-.modal-tab-btn:hover {
-  color: #fff;
+.btn-q-action:hover {
+  color: var(--ink);
+  border-color: var(--border-strong);
 }
-.modal-tab-btn.active {
-  background: #202c38;
-  color: #fff;
+.btn-q-action.active-star {
+  color: #d97706;
+  border-color: #d97706;
+  background: rgba(217, 119, 6, 0.08);
 }
-.modal-close-btn {
-  background: transparent;
-  border: 0;
-  color: #9db1c0;
-  font-size: 22px;
-  cursor: pointer;
-  width: 36px;
-  height: 36px;
-  display: grid;
-  place-items: center;
-  border-radius: 4px;
-}
-.modal-close-btn:hover {
-  color: #fff;
-  background: #202c38;
+.btn-q-action.active-check {
+  color: #16a34a;
+  border-color: #16a34a;
+  background: rgba(22, 163, 74, 0.08);
 }
 
-.modal-body {
+.q-citation {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.q-summary {
+  font-size: 0.9rem;
+  margin: 0 0 12px;
+  color: var(--ink);
+}
+.q-note {
+  font-size: 0.82rem;
+  padding: 8px 12px;
+  background: var(--surface-hover);
+  border-left: 2px solid var(--border-strong);
+  margin-bottom: 12px;
+  color: var(--ink-secondary);
+}
+
+.q-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 14px;
+}
+.q-tag {
+  font-size: 0.76rem;
+  padding: 2px 8px;
+  background: var(--tag-bg);
+  color: var(--tag-ink);
+  border-radius: var(--radius);
+  text-decoration: none;
+}
+.q-tag:hover {
+  color: var(--ink);
+}
+
+.img-container {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #ffffff;
+  overflow: hidden;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.img-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  cursor: zoom-in;
+}
+
+/* Minimal Details Accordion */
+.details-clean {
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+  margin-top: 8px;
+}
+.details-clean summary {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--ink-secondary);
+  cursor: pointer;
+  padding: 4px 0;
+  user-select: none;
+}
+.details-clean summary:hover {
+  color: var(--ink);
+}
+.details-body {
+  margin-top: 8px;
+}
+
+.q-footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-compare-link {
+  background: transparent;
+  border: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+.btn-compare-link:hover {
+  color: var(--ink);
+}
+
+/* ========================================================
+   Practice / Flashcard Mode
+   ======================================================== */
+.practice-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.practice-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.practice-info {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.practice-timer-text {
+  font-family: inherit;
+  font-size: 0.85rem;
+  color: var(--ink-secondary);
+}
+.practice-buttons {
+  display: flex;
+  gap: 8px;
+}
+.btn-practice-nav {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+.btn-practice-nav:hover {
+  background: var(--surface-hover);
+}
+
+.practice-card-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+}
+.btn-reveal-clean {
+  width: 100%;
+  background: var(--surface-hover);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius);
+  padding: 14px;
+  color: var(--ink);
+  font-size: 0.88rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.btn-reveal-clean:hover {
+  background: var(--border);
+}
+.self-rate-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+  padding: 12px;
+  background: var(--surface-hover);
+  border-radius: var(--radius);
+  font-size: 0.82rem;
+}
+
+/* ========================================================
+   Lightbox Modal (Minimalist)
+   ======================================================== */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+.modal-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-top {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.modal-top-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.modal-top-tabs {
+  display: flex;
+  gap: 4px;
+}
+.btn-modal-tab {
+  background: transparent;
+  border: 0;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  font-family: inherit;
+  color: var(--muted);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.btn-modal-tab.active {
+  background: var(--surface-hover);
+  color: var(--ink);
+  font-weight: 600;
+}
+.btn-modal-close {
+  background: transparent;
+  border: 0;
+  font-size: 1.1rem;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 4px 8px;
+}
+.btn-modal-close:hover {
+  color: var(--ink);
+}
+.modal-content-area {
   flex: 1;
   overflow: auto;
   padding: 20px;
@@ -1104,83 +762,64 @@ body {
   align-items: center;
   justify-content: center;
 }
-.modal-single-img-wrap {
-  max-width: 100%;
-  max-height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-single-img {
+.modal-content-area img {
   max-width: 100%;
   max-height: 85vh;
   object-fit: contain;
-  border-radius: var(--radius-sm);
-  background: #fff;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  background: #ffffff;
+  border-radius: var(--radius);
 }
-.modal-split-wrap {
+.split-view {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 16px;
   width: 100%;
-  max-width: 1600px;
+  max-width: 1400px;
   height: 85vh;
 }
-.modal-split-col {
+.split-pane {
   display: flex;
   flex-direction: column;
-  background: #18222c;
-  border: 1px solid #293846;
-  border-radius: var(--radius-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   overflow: hidden;
 }
-.modal-split-col-header {
-  padding: 10px 16px;
-  background: #141b22;
-  border-bottom: 1px solid #293846;
-  font-weight: 700;
-  font-size: 0.85rem;
-  color: #9db1c0;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
+.split-pane-head {
+  padding: 8px 14px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
 }
-.modal-split-col-content {
+.split-pane-body {
   flex: 1;
   overflow: auto;
-  padding: 14px;
+  padding: 12px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background: #0b0f14;
-}
-.modal-split-col-content img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  background: #fff;
-  border-radius: 4px;
+  gap: 12px;
 }
 
-/* Toast Notifications */
-.toast-msg {
+/* Toast */
+.toast {
   position: fixed;
-  bottom: 24px;
-  right: 24px;
+  bottom: 20px;
+  right: 20px;
   background: var(--ink);
-  color: var(--card);
-  padding: 10px 18px;
-  border-radius: var(--radius-md);
-  font-size: 0.88rem;
-  font-weight: 600;
-  box-shadow: var(--shadow-lg);
-  z-index: 110;
+  color: var(--surface);
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  font-size: 0.82rem;
+  font-weight: 500;
   opacity: 0;
-  transform: translateY(10px);
-  transition: all 0.25s ease;
+  transform: translateY(8px);
+  transition: all 0.2s ease;
   pointer-events: none;
+  z-index: 120;
 }
-.toast-msg.show {
+.toast.show {
   opacity: 1;
   transform: translateY(0);
 }
@@ -1188,210 +827,147 @@ body {
 /* Footer */
 footer {
   margin-top: 48px;
-  padding-top: 24px;
-  border-top: 1px solid var(--line);
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   text-align: center;
-  line-height: 1.6;
-}
-
-/* Empty State */
-.empty-state {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  padding: 40px 24px;
-  text-align: center;
-  box-shadow: var(--shadow-sm);
-}
-.empty-state h3 {
-  margin: 0 0 8px;
-  font-family: var(--font-display);
-  font-size: 1.25rem;
 }
 
 @media (max-width: 768px) {
-  .header-inner { padding: 10px 14px; }
-  .modal-split-wrap { grid-template-columns: 1fr; height: auto; }
-  .modal-split-col { height: 45vh; }
-  .btn-random span { display: none; }
-  .quick-chips { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 6px; }
+  .header-inner { padding: 10px 16px; }
+  .split-view { grid-template-columns: 1fr; height: auto; }
+  .split-pane { height: 45vh; }
 }
 </style>
 </head>
 <body>
 
-<!-- Password Gate Screen -->
+<!-- Minimalist Password Gate Screen -->
 <div id="lock-screen" class="lock-screen">
-  <div class="lock-card" id="lock-card">
-    <div class="lock-icon-wrap">
-      <div class="lock-icon">🔒</div>
-    </div>
-    <h2 class="lock-title">SENOTS Portal</h2>
-    <p class="lock-desc">This past paper revision question bank is password-protected. Enter your access passcode to continue.</p>
+  <div class="lock-card">
+    <h1 class="lock-title">SENOTS</h1>
+    <p class="lock-desc">Enter passcode to access past paper revision questions.</p>
 
     <form id="lock-form" class="lock-form" onsubmit="return false;">
       <div class="lock-input-wrap">
-        <input type="password" id="lock-password" class="lock-input" placeholder="Enter access passcode..." autocomplete="current-password" autofocus required>
-        <button type="button" id="lock-toggle-pwd" class="lock-eye-btn" title="Show or hide passcode">👁️</button>
+        <input type="password" id="lock-password" class="lock-input" placeholder="Passcode" autocomplete="current-password" autofocus required>
+        <button type="button" id="lock-toggle-pwd" class="lock-eye-btn" title="Show/hide">Show</button>
       </div>
       <div class="lock-options">
-        <label class="lock-remember-label">
+        <label>
           <input type="checkbox" id="lock-remember" checked>
-          <span>Keep me logged in on this device</span>
+          <span>Remember on this device</span>
         </label>
       </div>
-      <button type="submit" id="lock-submit-btn" class="lock-submit-btn">Unlock Portal</button>
+      <button type="submit" id="lock-submit-btn" class="lock-submit-btn">Continue</button>
       <div id="lock-error-msg" class="lock-error"></div>
     </form>
   </div>
 </div>
 
-<!-- Main App Root (unlocked when authorized) -->
+<!-- Main Minimalist Portal -->
 <div id="app-root">
   <header class="site-header">
     <div class="header-inner">
-      <a href="#" class="brand" id="brand-link" title="SENOTS Home">
-        <div class="brand-icon">S</div>
-        <div>
-          <h1 class="brand-title">SENOTS</h1>
-          <div class="brand-tag">Eduqas Geology Revision</div>
-        </div>
+      <a href="#" class="brand" id="brand-link">
+        <span class="brand-name">SENOTS</span>
+        <span class="brand-sub">Geology</span>
       </a>
 
-      <div class="header-center" role="tablist" aria-label="View mode">
-        <button class="view-btn active" data-view="strata" role="tab" aria-selected="true">
-          <span>🏛️ Stratigraphy</span>
-        </button>
-        <button class="view-btn" data-view="cards" role="tab" aria-selected="false">
-          <span>📑 Question Feed</span>
-        </button>
-        <button class="view-btn" data-view="practice" role="tab" aria-selected="false">
-          <span>⚡ Flashcard Mode</span>
-        </button>
-      </div>
+      <nav class="view-tabs" role="tablist">
+        <button class="tab-link active" data-view="strata" role="tab" aria-selected="true">Stratigraphy</button>
+        <button class="tab-link" data-view="cards" role="tab" aria-selected="false">Questions</button>
+        <button class="tab-link" data-view="practice" role="tab" aria-selected="false">Practice</button>
+      </nav>
 
-      <div class="header-actions">
-        <div class="mastery-pill" id="global-mastery-pill" title="Click to filter by Mastered">
-          <span>Mastered: <b id="mastery-count-txt">0</b>/<span id="mastery-total-txt">1,830</span>m</span>
-          <div class="mastery-bar-wrap">
-            <div class="mastery-bar-fill" id="mastery-bar-fill"></div>
-          </div>
-        </div>
-        <button class="btn-icon" id="theme-toggle" title="Toggle dark/light mode" aria-label="Toggle theme">
-          <span id="theme-icon">🌙</span>
-        </button>
-        <button class="btn-icon" id="btn-lock-site" title="Lock website" aria-label="Lock website">
-          <span>🔒</span>
-        </button>
+      <div class="header-right">
+        <span class="stats-badge" id="stats-pill" title="Filter by mastered questions">
+          Mastered: <b id="mastery-count-txt">0</b> / <span id="mastery-total-txt">1,830</span>m
+        </span>
+        <button class="btn-minimal" id="theme-toggle" title="Toggle theme">Theme</button>
+        <button class="btn-minimal" id="btn-lock-site" title="Lock portal">Lock</button>
       </div>
     </div>
   </header>
 
-  <div class="layout-wrap">
-    <!-- Interactive Filter Bar -->
-    <section class="filter-card">
-      <div class="search-row">
-        <div class="search-box">
-          <span class="search-icon">🔍</span>
-          <input type="search" id="q" class="search-input" placeholder="Search keywords, questions, specimens, fossils, folds, formulas... (Press '/' to focus)" aria-label="Search questions">
-        </div>
-        <button type="button" class="btn-random" id="btn-random" title="Pick a random question from current filters">
-          🎲 <span>Random Question</span>
-        </button>
+  <main class="container">
+    <!-- Filter Panel -->
+    <section class="filter-panel">
+      <div class="search-input-wrap">
+        <input type="search" id="q" class="search-input" placeholder="Search keywords, questions, fossils, formulas... (Press '/' to focus)" aria-label="Search questions">
       </div>
 
-      <div class="filter-grid">
-        <div class="field">
-          <label for="level">Level</label>
-          <select id="level" class="select-ctl"></select>
-        </div>
-        <div class="field">
-          <label for="topic">Topic</label>
-          <select id="topic" class="select-ctl"></select>
-        </div>
-        <div class="field">
-          <label for="year">Year</label>
-          <select id="year" class="select-ctl"></select>
-        </div>
-        <div class="field">
-          <label for="skill">Skill</label>
-          <select id="skill" class="select-ctl"></select>
-        </div>
-        <div class="field">
-          <label for="min">Marks</label>
-          <select id="min" class="select-ctl"></select>
-        </div>
-        <div class="field">
-          <label for="status">Revision Status</label>
-          <select id="status" class="select-ctl">
-            <option value="">All questions</option>
-            <option value="bookmarked">⭐ Bookmarked for Review</option>
-            <option value="unmastered">🎯 Needs Work (Unmastered)</option>
-            <option value="mastered">✅ Mastered</option>
-          </select>
-        </div>
+      <div class="filter-row">
+        <select id="level" class="select-minimal"></select>
+        <select id="topic" class="select-minimal"></select>
+        <select id="year" class="select-minimal"></select>
+        <select id="skill" class="select-minimal"></select>
+        <select id="min" class="select-minimal"></select>
+        <select id="status" class="select-minimal">
+          <option value="">All questions</option>
+          <option value="bookmarked">Bookmarked</option>
+          <option value="unmastered">Needs work</option>
+          <option value="mastered">Mastered</option>
+        </select>
+        <button type="button" class="btn-minimal" id="btn-random">Random</button>
       </div>
 
-      <div class="quick-chips">
-        <span class="chip-label">Quick:</span>
-        <button type="button" class="chip" data-chip="all">All Specs</button>
-        <button type="button" class="chip" data-chip="as">AS Level Only</button>
-        <button type="button" class="chip" data-chip="a2">A Level Only</button>
-        <button type="button" class="chip" data-chip="high">High Marks (≥4m)</button>
-        <button type="button" class="chip" data-chip="maths">Maths & Practical</button>
-        <button type="button" class="chip" data-chip="review">⭐ Review List</button>
-        <button type="button" class="chip-reset" id="btn-reset">Reset All Filters</button>
+      <div class="chips-bar">
+        <button type="button" class="chip-btn" data-chip="all">All</button>
+        <button type="button" class="chip-btn" data-chip="as">AS Level</button>
+        <button type="button" class="chip-btn" data-chip="a2">A Level</button>
+        <button type="button" class="chip-btn" data-chip="high">≥4 Marks</button>
+        <button type="button" class="chip-btn" data-chip="maths">Maths & Practical</button>
+        <button type="button" class="chip-btn" data-chip="review">Bookmarked</button>
+        <button type="button" class="btn-reset-inline" id="btn-reset">Reset</button>
       </div>
     </section>
 
-    <!-- Filter Results Summary -->
-    <div class="results-bar" id="results-bar">
-      <div class="results-count" id="results-count-msg">Loading question bank...</div>
-      <div id="results-active-tag"></div>
+    <!-- Results Status Bar -->
+    <div class="status-bar" id="status-bar">
+      <span id="results-count-msg">Loading...</span>
+      <span id="results-active-tag"></span>
     </div>
 
-    <!-- App Views Mount Point -->
-    <main id="app-view" aria-live="polite"></main>
+    <!-- Active View Mount -->
+    <div id="app-view" aria-live="polite"></div>
 
     <footer>
-      <p>SENOTS Revision Aid for WJEC Eduqas AS and A level Geology.</p>
-      <p>Exam questions, figures, resource sheets, and mark schemes remain © WJEC CBAC Ltd.</p>
+      WJEC Eduqas AS & A level Geology revision aid. Exam papers, figures and mark schemes © WJEC CBAC Ltd.
     </footer>
-  </div>
+  </main>
 </div>
 
-<!-- Modal / Lightbox -->
-<div class="modal-backdrop" id="modal-box" role="dialog" aria-modal="true" aria-hidden="true">
-  <div class="modal-header">
-    <div class="modal-title" id="modal-title-txt">Question Viewer</div>
-    <div class="modal-tabs" id="modal-tabs-wrap">
-      <button class="modal-tab-btn active" data-tab="question">Question</button>
-      <button class="modal-tab-btn" data-tab="figures" id="modal-tab-figures">Figures</button>
-      <button class="modal-tab-btn" data-tab="markscheme" id="modal-tab-ms">Mark Scheme</button>
-      <button class="modal-tab-btn" data-tab="split" id="modal-tab-split">⚖️ Side-by-Side</button>
+<!-- Lightbox Modal -->
+<div class="modal-overlay" id="modal-box" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="modal-top">
+    <div class="modal-top-title" id="modal-title-txt">Question</div>
+    <div class="modal-top-tabs" id="modal-tabs-wrap">
+      <button class="btn-modal-tab active" data-tab="question">Question</button>
+      <button class="btn-modal-tab" data-tab="figures" id="modal-tab-figures">Figures</button>
+      <button class="btn-modal-tab" data-tab="markscheme" id="modal-tab-ms">Mark Scheme</button>
+      <button class="btn-modal-tab" data-tab="split" id="modal-tab-split">Side-by-Side</button>
     </div>
-    <button class="modal-close-btn" id="modal-close" aria-label="Close dialog">✕</button>
+    <button class="btn-modal-close" id="modal-close" aria-label="Close">✕</button>
   </div>
-  <div class="modal-body" id="modal-body"></div>
+  <div class="modal-content-area" id="modal-body"></div>
 </div>
 
-<!-- Toast Message -->
-<div class="toast-msg" id="toast"></div>
+<!-- Toast -->
+<div class="toast" id="toast"></div>
 
 <script>
 /* ========================================================
-   SENOTS Geology Engine
+   SENOTS Minimalist Engine
    ======================================================== */
 const $ = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
 const esc = s => String(s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 /* ========================================================
-   Password Gate Logic
+   Password Gate (Passcode: "geology")
    ======================================================== */
-// SHA-256 hash of "geology"
 const PASS_HASH = '1cfe1c910983119342c466a3954eac2b38c70c784d670045d882a39abf7aabc9';
 
 async function sha256(text) {
@@ -1421,12 +997,11 @@ function lockSite() {
 async function handleUnlockSubmit() {
   const input = $('#lock-password');
   const err = $('#lock-error-msg');
-  const card = $('#lock-card');
   const remember = $('#lock-remember').checked;
   const pwd = input.value.trim();
 
   if (!pwd) {
-    err.textContent = 'Please enter the access passcode.';
+    err.textContent = 'Please enter passcode.';
     return;
   }
 
@@ -1436,73 +1011,62 @@ async function handleUnlockSubmit() {
     setAuthorized(remember);
     unlockPortal();
   } else {
-    err.textContent = 'Incorrect passcode. Please try again.';
-    card.classList.remove('lock-shake');
-    void card.offsetWidth; // trigger reflow
-    card.classList.add('lock-shake');
+    err.textContent = 'Incorrect passcode.';
     input.select();
   }
 }
 
 function unlockPortal() {
   $('#lock-screen').style.display = 'none';
-  const root = $('#app-root');
-  root.classList.add('unlocked');
+  $('#app-root').classList.add('unlocked');
   loadQuestionBank();
 }
 
-// Attach password screen listeners
 $('#lock-form').onsubmit = handleUnlockSubmit;
 $('#lock-submit-btn').onclick = handleUnlockSubmit;
-
 $('#lock-toggle-pwd').onclick = () => {
   const input = $('#lock-password');
   const isPwd = input.type === 'password';
   input.type = isPwd ? 'text' : 'password';
-  $('#lock-toggle-pwd').textContent = isPwd ? '🙈' : '👁️';
+  $('#lock-toggle-pwd').textContent = isPwd ? 'Hide' : 'Show';
 };
-
 $('#btn-lock-site').onclick = () => {
-  if (confirm('Lock the SENOTS portal? You will need the passcode to enter again.')) {
-    lockSite();
-  }
+  if (confirm('Lock portal?')) lockSite();
 };
 
 /* ========================================================
-   Theme Handling
+   Theme Minimalist
    ======================================================== */
 const preferredTheme = localStorage.getItem('senots_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 document.documentElement.setAttribute('data-theme', preferredTheme);
-$('#theme-icon').textContent = preferredTheme === 'dark' ? '☀️' : '🌙';
 
 $('#theme-toggle').onclick = () => {
   const current = document.documentElement.getAttribute('data-theme');
   const next = current === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
   localStorage.setItem('senots_theme', next);
-  $('#theme-icon').textContent = next === 'dark' ? '☀️' : '🌙';
 };
 
 /* ========================================================
-   Main App State & Data
+   State & Topic Natural Color Mapping
    ======================================================== */
 const BASE = {
-  '1.1':['#7a5c47','#fff'], '2.1':['#c29a4b','#141f22'], '2.2':['#a84c41','#fff'], '2.3':['#477660','#fff'],
-  '3.1':['#889d49','#141f22'], '3.2':['#3b6f8c','#fff'], '4.1':['#41516b','#fff'], '4.2':['#65447a','#fff'],
-  'G1':['#2a696d','#fff'], 'G2':['#846b28','#fff'], 'G3':['#517534','#fff'], 'G4':['#8a4f21','#fff'],
-  'T1':['#a83838','#fff'], 'T2':['#3b658a','#fff'], 'T3':['#5d4572','#fff'], 'T4':['#78513b','#fff'], 'T5':['#23495d','#fff']
+  '1.1':'#786458', '2.1':'#a38a53', '2.2':'#9e554d', '2.3':'#506e5e',
+  '3.1':'#7a8751', '3.2':'#476579', '4.1':'#4a5463', '4.2':'#5c4a6b',
+  'G1':'#3a6366', 'G2':'#736336', 'G3':'#526b3e', 'G4':'#7d5334',
+  'T1':'#8c4040', 'T2':'#435c75', 'T3':'#574763', 'T4':'#6e5244', 'T5':'#324b59'
 };
-const colorOf = id => BASE[id] || BASE[String(id).split('.')[0]] || ['#556877', '#fff'];
+const colorOf = id => BASE[id] || BASE[String(id).split('.')[0]] || '#666';
 
 let D, T = {}, S = {};
 let state = {
-  view: 'strata', // 'strata', 'cards', 'practice'
+  view: 'strata',
   level: '',
   topic: '',
   skill: '',
   year: '',
   min: 0,
-  status: '', // 'bookmarked', 'unmastered', 'mastered'
+  status: '',
   q: '',
   pick: '',
   practiceIdx: 0,
@@ -1511,7 +1075,6 @@ let state = {
   timerInterval: null
 };
 
-// LocalStorage Sets
 let mastered = new Set(JSON.parse(localStorage.getItem('senots_mastered') || '[]'));
 let bookmarked = new Set(JSON.parse(localStorage.getItem('senots_bookmarked') || '[]'));
 
@@ -1527,10 +1090,9 @@ function showToast(msg) {
   const t = $('#toast');
   t.textContent = msg;
   t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 2500);
+  setTimeout(() => t.classList.remove('show'), 2000);
 }
 
-// Initial authorization check
 if (isAuthorized()) {
   unlockPortal();
 } else {
@@ -1552,24 +1114,24 @@ function loadQuestionBank() {
       initApp();
     })
     .catch(() => {
-      $('#app-view').innerHTML = '<div class="empty-state"><h3>Could not load question bank</h3><p>Ensure questions.json sits in the same directory as index.html.</p></div>';
+      $('#app-view').innerHTML = '<p style="color:var(--muted);text-align:center;padding:40px 0">Could not load questions.json</p>';
     });
 }
 
 function initApp() {
-  opts('#level', 'All Levels (AS & A-Level)', (D.levels || []).map(l => [l.id, l.name]));
+  opts('#level', 'All Levels', (D.levels || []).map(l => [l.id, l.name]));
   $('#topic').innerHTML = buildTopicOptions();
   opts('#skill', 'All Skills', D.skills.map(s => [s.id, s.name]));
   const years = [...new Set(D.papers.map(p => p.year))].sort((a, b) => b - a);
   opts('#year', 'All Years', years.map(y => [y, y]));
   opts('#min', 'Any Marks', [[2, '2+ Marks'], [3, '3+ Marks'], [4, '4+ Marks'], [6, '6+ Marks']]);
 
-  $('.filter-card').addEventListener('input', onFilterChange);
+  $('.filter-panel').addEventListener('input', onFilterChange);
   $('#btn-reset').onclick = resetFilters;
   $('#btn-random').onclick = pickRandomQuestion;
   $('#brand-link').onclick = e => { e.preventDefault(); state.view = 'strata'; resetFilters(); };
 
-  $$('.view-btn').forEach(btn => {
+  $$('.tab-link').forEach(btn => {
     btn.onclick = () => {
       state.view = btn.dataset.view;
       state.pick = '';
@@ -1579,7 +1141,7 @@ function initApp() {
     };
   });
 
-  $$('.chip[data-chip]').forEach(chip => {
+  $$('.chip-btn[data-chip]').forEach(chip => {
     chip.onclick = () => {
       const c = chip.dataset.chip;
       if (c === 'all') { state.level = ''; state.min = 0; state.skill = ''; state.status = ''; }
@@ -1595,7 +1157,7 @@ function initApp() {
     };
   });
 
-  $('#global-mastery-pill').onclick = () => {
+  $('#stats-pill').onclick = () => {
     state.status = state.status === 'mastered' ? '' : 'mastered';
     if (state.view === 'strata') state.view = 'cards';
     syncControls();
@@ -1627,7 +1189,7 @@ function buildTopicOptions() {
   const gs = {};
   D.topics.forEach(t => { const g = t.group || 'Topics'; (gs[g] = gs[g] || []).push(t); });
   return '<option value="">All Topics</option>' + Object.entries(gs).map(([g, ts]) =>
-    `<optgroup label="${esc(g)}">` + ts.map(t => `<option value="${esc(t.id)}">${esc(t.id)} · ${esc(t.name)}</option>`).join('') + '</optgroup>').join('');
+    `<optgroup label="${esc(g)}">` + ts.map(t => `<option value="${esc(t.id)}">${esc(t.id)} ${esc(t.name)}</option>`).join('') + '</optgroup>').join('');
 }
 
 function onFilterChange() {
@@ -1663,7 +1225,7 @@ function syncControls() {
   $('#min').value = state.min || '';
   $('#status').value = state.status || '';
 
-  $$('.chip[data-chip]').forEach(c => {
+  $$('.chip-btn[data-chip]').forEach(c => {
     const val = c.dataset.chip;
     let act = false;
     if (val === 'as' && state.level === 'AS') act = true;
@@ -1676,7 +1238,7 @@ function syncControls() {
 }
 
 function syncViewButtons() {
-  $$('.view-btn').forEach(b => {
+  $$('.tab-link').forEach(b => {
     const isAct = b.dataset.view === state.view;
     b.classList.toggle('active', isAct);
     b.setAttribute('aria-selected', isAct);
@@ -1735,24 +1297,18 @@ function updateMasteryStats() {
   });
   $('#mastery-count-txt').textContent = masteredMarks.toLocaleString();
   $('#mastery-total-txt').textContent = totalMarks.toLocaleString();
-  const pct = totalMarks ? ((masteredMarks / totalMarks) * 100).toFixed(1) : 0;
-  $('#mastery-bar-fill').style.width = pct + '%';
-  $('#global-mastery-pill').title = `${masteredMarks} / ${totalMarks} marks mastered (${pct}%)`;
 }
 
 function pickRandomQuestion() {
   const pool = filtered();
-  if (!pool.length) {
-    showToast('No questions match current filters.');
-    return;
-  }
+  if (!pool.length) return;
   const q = pool[Math.floor(Math.random() * pool.length)];
   state.pick = q.id;
   state.view = 'cards';
   syncViewButtons();
   toHash();
   render();
-  showToast(`Loaded Question ${q.question} (${q.marks} marks)`);
+  showToast(`Question ${q.question} (${q.marks}m)`);
 }
 
 function render() {
@@ -1760,19 +1316,19 @@ function render() {
   const totalM = list.reduce((n, x) => n + x.marks, 0);
 
   if (state.pick) {
-    $('#results-count-msg').innerHTML = `Focusing on <b>1 Question</b> (${totalM} marks). <a href="javascript:void(0)" onclick="state.pick='';toHash();render();" style="color:var(--focus);margin-left:8px">Show all matching</a>`;
+    $('#results-count-msg').innerHTML = `1 question (${totalM} marks) · <a href="javascript:void(0)" onclick="state.pick='';toHash();render();" style="color:inherit;text-decoration:underline">Show all</a>`;
   } else {
-    $('#results-count-msg').innerHTML = `Showing <b>${list.length.toLocaleString()}</b> questions (<b>${totalM.toLocaleString()}</b> marks available)`;
+    $('#results-count-msg').innerHTML = `${list.length.toLocaleString()} questions (${totalM.toLocaleString()} marks)`;
   }
 
   const badges = [];
-  if (state.level) badges.push(`Level: ${state.level}`);
-  if (state.topic) badges.push(`Topic: ${state.topic}`);
-  if (state.year) badges.push(`Year: ${state.year}`);
-  if (state.skill) badges.push(`Skill: ${S[state.skill] ? S[state.skill].name : state.skill}`);
-  if (state.status) badges.push(`Status: ${state.status}`);
-  if (state.min) badges.push(`≥${state.min} marks`);
-  $('#results-active-tag').innerHTML = badges.map(b => `<span style="background:var(--bg-subtle);border:1px solid var(--line);padding:2px 8px;border-radius:99px;font-size:0.78rem;font-weight:600;margin-left:4px">${esc(b)}</span>`).join('');
+  if (state.level) badges.push(state.level);
+  if (state.topic) badges.push(state.topic);
+  if (state.year) badges.push(state.year);
+  if (state.skill) badges.push(S[state.skill] ? S[state.skill].name : state.skill);
+  if (state.status) badges.push(state.status);
+  if (state.min) badges.push(`≥${state.min}m`);
+  $('#results-active-tag').textContent = badges.join(' · ');
 
   if (state.view === 'strata') {
     renderStrata();
@@ -1784,49 +1340,40 @@ function render() {
 }
 
 /* ========================================================
-   VIEW 1: STRATIGRAPHIC ROCK COLUMN
+   VIEW 1: STRATIGRAPHY COLUMN (MINIMALIST)
    ======================================================== */
 function renderStrata() {
   const inLevel = x => !state.level || D.P[x.paper].level === state.level;
   const groups = {};
   D.topics.forEach(t => { const g = t.group || 'Topics'; (groups[g] = groups[g] || []).push(t); });
 
-  let html = `<div class="strata-container">`;
+  let html = `<div class="strata-wrap">`;
 
   for (const [g, ts] of Object.entries(groups)) {
-    let groupTotalMarks = 0;
-    let groupTotalQs = 0;
-
-    const bands = ts.map(t => {
+    const rows = ts.map(t => {
       const qs = D.questions.filter(x => x.topics.includes(t.id) && inLevel(x));
       if (!qs.length) return '';
       const marks = qs.reduce((n, x) => n + x.marks, 0);
       const masteredInTopic = qs.filter(x => mastered.has(x.id)).reduce((n, x) => n + x.marks, 0);
-      groupTotalMarks += marks;
-      groupTotalQs += qs.length;
+      const c = colorOf(t.id);
 
-      const [c, fg] = colorOf(t.id);
-      const height = Math.max(54, Math.min(130, 48 + marks * 1.5));
-      const pct = marks ? Math.round((masteredInTopic / marks) * 100) : 0;
-
-      return `<a class="strata-band" href="#view=cards&topic=${esc(t.id)}${state.level ? '&level=' + esc(state.level) : ''}" style="--c:${c};--fg:${fg};min-height:${height}px">
-        <div class="strata-info">
-          <div class="strata-title">${esc(t.id)} · ${esc(t.name)}</div>
-          <div class="strata-sub">${qs.length} ${qs.length === 1 ? 'question' : 'questions'} available</div>
+      return `<a class="strata-row" href="#view=cards&topic=${esc(t.id)}${state.level ? '&level=' + esc(state.level) : ''}">
+        <div class="strata-left">
+          <span class="strata-color-indicator" style="--c:${c}"></span>
+          <span class="strata-name">${esc(t.id)} · ${esc(t.name)}</span>
         </div>
-        <div class="strata-meta">
-          <div class="strata-badge">${marks} MARKS</div>
-          <div class="strata-mastery">${pct}% mastered (${masteredInTopic}/${marks}m)</div>
+        <div class="strata-right">
+          <span>${masteredInTopic ? `${masteredInTopic}/${marks}m mastered` : `${qs.length} questions`}</span>
+          <span class="strata-mark-pill">${marks}m</span>
         </div>
       </a>`;
     }).join('');
 
-    if (bands) {
+    if (rows) {
       html += `
-        <section class="strata-group">
-          <h2 class="strata-group-title">${esc(g)}</h2>
-          <div class="strata-group-desc">${groupTotalQs} questions · ${groupTotalMarks} marks in this section</div>
-          <div class="strata-stack">${bands}</div>
+        <section>
+          <div class="strata-section-title">${esc(g)}</div>
+          <div class="strata-column">${rows}</div>
         </section>
       `;
     }
@@ -1837,108 +1384,83 @@ function renderStrata() {
 }
 
 /* ========================================================
-   VIEW 2: QUESTION FEED / CARDS
+   VIEW 2: QUESTION CARDS (MINIMALIST)
    ======================================================== */
 function renderCards(list) {
   if (!list.length) {
     $('#app-view').innerHTML = `
-      <div class="empty-state">
-        <h3>No questions match these filters</h3>
-        <p>Try adjusting your search query, lowering minimum marks, or resetting filters.</p>
-        <button type="button" class="btn-nav" onclick="resetFilters()" style="margin-top:14px">Reset Filters</button>
+      <div style="text-align:center;padding:48px 0;color:var(--muted)">
+        <p>No questions match current filters.</p>
+        <button type="button" class="btn-minimal" onclick="resetFilters()">Clear Filters</button>
       </div>`;
     return;
   }
 
-  const html = `<div class="cards-grid">` + list.map(q => renderCard(q)).join('') + `</div>`;
+  const html = `<div class="cards-list">` + list.map(q => renderCard(q)).join('') + `</div>`;
   $('#app-view').innerHTML = html;
 }
 
 function renderCard(x) {
   const p = D.P[x.paper];
-  const [c] = colorOf(x.topics[0]);
   const isMastered = mastered.has(x.id);
   const isBookmarked = bookmarked.has(x.id);
 
-  const tags = x.topics.map(t => {
-    const [tc] = colorOf(t);
-    return `<a class="tag-pill" style="--c:${tc}" href="#view=cards&topic=${t}" title="${esc(T[t] ? T[t].name : t)}"><i class="tag-dot"></i>${esc(t)} ${esc(T[t] ? T[t].name : '')}</a>`;
-  }).join('') + x.skills.map(s => `<span class="tag-pill" style="--c:#9aa6a1"><i class="tag-dot"></i>${esc(S[s] ? S[s].name : s)}</span>`).join('');
+  const tags = x.topics.map(t => `<a class="q-tag" href="#view=cards&topic=${t}">${esc(t)} ${esc(T[t] ? T[t].name : '')}</a>`).join('')
+    + x.skills.map(s => `<span class="q-tag">${esc(S[s] ? S[s].name : s)}</span>`).join('');
 
   return `
-    <article class="card" id="q-${x.id}" style="--c:${c}">
-      <div class="card-header">
-        <div class="card-title-group">
-          <h2 class="card-title">Question ${esc(x.question)}</h2>
-          <span class="badge-marks">${x.marks} ${x.marks === 1 ? 'Mark' : 'Marks'}</span>
+    <article class="q-card" id="q-${x.id}">
+      <div class="q-card-header">
+        <div class="q-title-wrap">
+          <h2 class="q-title">Question ${esc(x.question)}</h2>
+          <span class="q-mark">${x.marks} ${x.marks === 1 ? 'mark' : 'marks'}</span>
         </div>
-        <div class="card-actions">
-          <button type="button" class="action-btn ${isBookmarked ? 'active-star' : ''}" onclick="toggleBookmark('${x.id}', this)" title="Bookmark for revision">
-            ⭐ <span>${isBookmarked ? 'Bookmarked' : 'Bookmark'}</span>
+        <div class="q-actions">
+          <button type="button" class="btn-q-action ${isBookmarked ? 'active-star' : ''}" onclick="toggleBookmark('${x.id}', this)">
+            ${isBookmarked ? 'Bookmarked' : 'Bookmark'}
           </button>
-          <button type="button" class="action-btn ${isMastered ? 'active-check' : ''}" onclick="toggleMastered('${x.id}', this)" title="Mark as mastered">
-            ✅ <span>${isMastered ? 'Mastered' : 'Mark Mastered'}</span>
+          <button type="button" class="btn-q-action ${isMastered ? 'active-check' : ''}" onclick="toggleMastered('${x.id}', this)">
+            ${isMastered ? 'Mastered' : 'Mark done'}
           </button>
-          <button type="button" class="action-btn" onclick="copyQuestionLink('${x.id}')" title="Copy direct link">
-            🔗
-          </button>
+          <button type="button" class="btn-q-action" onclick="copyQuestionLink('${x.id}')" title="Copy link">Link</button>
         </div>
       </div>
 
-      <div class="paper-meta">
-        <span><b>${esc(p.series)} ${p.year}</b></span>
-        <span class="meta-dot"></span>
-        <span>${esc(p.unit)} (${esc(p.code)})</span>
-        <span class="meta-dot"></span>
-        <span>Printed Page ${x.page}</span>
-        <span class="meta-dot"></span>
-        <span>Level: ${esc(p.level)}</span>
+      <div class="q-citation">${esc(p.series)} ${p.year} · ${esc(p.unit)} (${esc(p.code)}) · Page ${x.page}</div>
+
+      <p class="q-summary">${esc(x.summary)}</p>
+      ${x.note ? `<div class="q-note">${esc(x.note)}</div>` : ''}
+
+      <div class="q-tags">${tags}</div>
+
+      <div class="img-container">
+        <img loading="lazy" src="${esc(x.image)}" alt="Question ${esc(x.question)}" onclick="openModal('${x.id}', 'question')">
       </div>
 
-      <p class="card-summary">${esc(x.summary)}</p>
-      ${x.note ? `<div class="card-note">ℹ️ ${esc(x.note)}</div>` : ''}
-
-      <div class="tags-list">${tags}</div>
-
-      <div class="preview-wrap">
-        <img class="img-preview" loading="lazy" src="${esc(x.image)}" alt="Question ${esc(x.question)}" onclick="openModal('${x.id}', 'question')">
-        <div class="preview-overlay">🔍 Click to zoom & compare</div>
-      </div>
-
-      <div class="card-accordions">
-        ${(x.figures || []).map((f, fi) => `
-          <details class="accordion-box">
-            <summary>
-              <span>🖼️ ${figLabel(f)}</span>
-              <small style="color:var(--muted)">Expand figure</small>
-            </summary>
-            <div class="accordion-body">
-              <div class="preview-wrap" style="margin:0">
-                <img class="img-preview" loading="lazy" src="${esc(f)}" alt="${figLabel(f)}" onclick="openModal('${x.id}', 'figure', ${fi})">
-              </div>
+      ${(x.figures || []).map((f, fi) => `
+        <details class="details-clean">
+          <summary>${figLabel(f)}</summary>
+          <div class="details-body">
+            <div class="img-container">
+              <img loading="lazy" src="${esc(f)}" alt="${figLabel(f)}" onclick="openModal('${x.id}', 'figure', ${fi})">
             </div>
-          </details>
-        `).join('')}
+          </div>
+        </details>
+      `).join('')}
 
-        ${x.markscheme ? `
-          <details class="accordion-box ms-box">
-            <summary>
-              <span>📋 Mark Scheme & Examiner Answers</span>
-              <small style="color:var(--accent)">Reveal answers</small>
-            </summary>
-            <div class="accordion-body">
-              <div class="preview-wrap" style="margin:0">
-                <img class="img-preview" loading="lazy" src="${esc(x.markscheme)}" alt="Mark Scheme for Question ${esc(x.question)}" onclick="openModal('${x.id}', 'markscheme')">
-              </div>
+      ${x.markscheme ? `
+        <details class="details-clean">
+          <summary>Mark scheme</summary>
+          <div class="details-body">
+            <div class="img-container">
+              <img loading="lazy" src="${esc(x.markscheme)}" alt="Mark Scheme" onclick="openModal('${x.id}', 'markscheme')">
             </div>
-          </details>
-        ` : ''}
-      </div>
+          </div>
+        </details>
+      ` : ''}
 
-      <div class="card-footer">
-        <button type="button" class="btn-compare" onclick="openModal('${x.id}', 'split')">
-          ⚖️ View Side-by-Side with Mark Scheme
-        </button>
+      <div class="q-footer">
+        <button type="button" class="btn-compare-link" onclick="openModal('${x.id}', 'split')">View side-by-side with mark scheme</button>
       </div>
     </article>
   `;
@@ -1946,15 +1468,15 @@ function renderCard(x) {
 
 function figLabel(f) {
   if (f.includes('datasheet')) return 'Mineral Data Sheet';
-  if (f.includes('map1')) return 'Map 1 (Resource Sheet)';
-  if (f.includes('specimens')) return 'Photographs of Specimens';
-  if (f.includes('photos23')) return 'Photographs 2 and 3 (Resource Sheet)';
-  if (f.includes('photo4')) return 'Photograph 4 (Resource Sheet)';
-  if (f.includes('photo1')) return 'Photograph 1 (Resource Sheet)';
-  if (f.includes('photo2')) return 'Photograph 2 (Resource Sheet)';
-  if (f.includes('photo3')) return 'Photograph 3 (Resource Sheet)';
-  if (f.includes('photos')) return 'Photographs 1 and 2 (Resource Sheet)';
-  return 'Resource Figures';
+  if (f.includes('map1')) return 'Map 1';
+  if (f.includes('specimens')) return 'Specimen photographs';
+  if (f.includes('photos23')) return 'Photographs 2 and 3';
+  if (f.includes('photo4')) return 'Photograph 4';
+  if (f.includes('photo1')) return 'Photograph 1';
+  if (f.includes('photo2')) return 'Photograph 2';
+  if (f.includes('photo3')) return 'Photograph 3';
+  if (f.includes('photos')) return 'Photographs 1 and 2';
+  return 'Resource figure';
 }
 
 function toggleMastered(id, btn) {
@@ -1962,18 +1484,14 @@ function toggleMastered(id, btn) {
     mastered.delete(id);
     if (btn) {
       btn.classList.remove('active-check');
-      const span = btn.querySelector('span');
-      if (span) span.textContent = 'Mark Mastered';
+      btn.textContent = 'Mark done';
     }
-    showToast('Removed from Mastered');
   } else {
     mastered.add(id);
     if (btn) {
       btn.classList.add('active-check');
-      const span = btn.querySelector('span');
-      if (span) span.textContent = 'Mastered';
+      btn.textContent = 'Mastered';
     }
-    showToast('Marked as Mastered! 🎉');
   }
   saveMastered();
 }
@@ -1983,18 +1501,14 @@ function toggleBookmark(id, btn) {
     bookmarked.delete(id);
     if (btn) {
       btn.classList.remove('active-star');
-      const span = btn.querySelector('span');
-      if (span) span.textContent = 'Bookmark';
+      btn.textContent = 'Bookmark';
     }
-    showToast('Removed bookmark');
   } else {
     bookmarked.add(id);
     if (btn) {
       btn.classList.add('active-star');
-      const span = btn.querySelector('span');
-      if (span) span.textContent = 'Bookmarked';
+      btn.textContent = 'Bookmarked';
     }
-    showToast('Bookmarked for review ⭐');
   }
   saveBookmarked();
 }
@@ -2002,23 +1516,18 @@ function toggleBookmark(id, btn) {
 function copyQuestionLink(id) {
   const url = `${location.origin}${location.pathname}#view=cards&pick=${id}`;
   navigator.clipboard.writeText(url).then(() => {
-    showToast('Direct link copied to clipboard!');
+    showToast('Link copied');
   }).catch(() => {
-    prompt('Direct URL:', url);
+    prompt('URL:', url);
   });
 }
 
 /* ========================================================
-   VIEW 3: FLASHCARD / PRACTICE MODE
+   VIEW 3: PRACTICE (MINIMALIST)
    ======================================================== */
 function renderPractice(list) {
   if (!list.length) {
-    $('#app-view').innerHTML = `
-      <div class="empty-state">
-        <h3>No questions available for practice</h3>
-        <p>Adjust your filters or reset to study from the full bank.</p>
-        <button type="button" class="btn-nav" onclick="resetFilters()" style="margin-top:14px">Reset Filters</button>
-      </div>`;
+    $('#app-view').innerHTML = `<p style="text-align:center;padding:40px 0;color:var(--muted)">No questions in this filter.</p>`;
     return;
   }
 
@@ -2027,89 +1536,68 @@ function renderPractice(list) {
 
   const x = list[state.practiceIdx];
   const p = D.P[x.paper];
-  const [c] = colorOf(x.topics[0]);
   const isMastered = mastered.has(x.id);
   const isBookmarked = bookmarked.has(x.id);
 
-  const tags = x.topics.map(t => `<span class="tag-pill" style="--c:${colorOf(t)[0]}"><i class="tag-dot"></i>${esc(t)} ${esc(T[t] ? T[t].name : '')}</span>`).join('');
-
   $('#app-view').innerHTML = `
-    <div class="practice-stage">
-      <div class="practice-header">
-        <div class="practice-progress-group">
-          <span class="practice-counter">Question ${state.practiceIdx + 1} of ${list.length}</span>
-          <span class="badge-marks">${x.marks} ${x.marks === 1 ? 'Mark' : 'Marks'}</span>
+    <div class="practice-wrap">
+      <div class="practice-nav-bar">
+        <div class="practice-info">
+          <span>Question ${state.practiceIdx + 1} of ${list.length}</span> · 
+          <span>${x.marks} marks</span>
         </div>
-
-        <div class="practice-timer">
-          <span>⏱️</span>
+        <div class="practice-timer-text">
           <span id="practice-timer-val">${formatTime(state.timerSeconds)}</span>
-          <button type="button" class="practice-timer-btn" id="practice-timer-toggle" title="Start/Pause Timer">⏯️</button>
-          <button type="button" class="practice-timer-btn" id="practice-timer-reset" title="Reset Timer">🔄</button>
+          <button type="button" class="btn-minimal" id="practice-timer-toggle" style="margin-left:6px">Timer</button>
         </div>
-
-        <div class="nav-btn-group">
-          <button type="button" class="btn-nav" id="p-prev" title="Previous question (← key)">← Prev</button>
-          <button type="button" class="btn-nav" id="p-next" title="Next question (→ key)">Next →</button>
+        <div class="practice-buttons">
+          <button type="button" class="btn-practice-nav" id="p-prev">← Prev</button>
+          <button type="button" class="btn-practice-nav" id="p-next">Next →</button>
         </div>
       </div>
 
-      <div class="practice-card" style="border-top: 6px solid ${c}">
-        <div class="paper-meta">
-          <span><b>${esc(p.series)} ${p.year}</b></span>
-          <span class="meta-dot"></span>
-          <span>${esc(p.unit)}</span>
-          <span class="meta-dot"></span>
-          <span>Printed Page ${x.page}</span>
-        </div>
+      <div class="practice-card-box">
+        <div class="q-citation">${esc(p.series)} ${p.year} · ${esc(p.unit)} · Page ${x.page}</div>
+        <h2 class="q-title" style="margin-bottom:8px">Question ${esc(x.question)}</h2>
+        <p class="q-summary">${esc(x.summary)}</p>
 
-        <h2 class="card-title" style="margin-bottom:12px">Question ${esc(x.question)}</h2>
-        <p class="card-summary">${esc(x.summary)}</p>
-        <div class="tags-list">${tags}</div>
-
-        <div class="preview-wrap">
-          <img class="img-preview" src="${esc(x.image)}" alt="Question ${esc(x.question)}" onclick="openModal('${x.id}', 'question')">
+        <div class="img-container">
+          <img src="${esc(x.image)}" alt="Question ${esc(x.question)}" onclick="openModal('${x.id}', 'question')">
         </div>
 
         ${(x.figures || []).map(f => `
-          <div style="margin-top:14px">
-            <h4 style="margin:0 0 8px;font-size:0.9rem;color:var(--muted)">Resource: ${figLabel(f)}</h4>
-            <div class="preview-wrap">
-              <img class="img-preview" src="${esc(f)}" alt="${figLabel(f)}" onclick="openModal('${x.id}', 'figures')">
+          <div style="margin-top:12px">
+            <div style="font-size:0.8rem;color:var(--muted);margin-bottom:4px">${figLabel(f)}</div>
+            <div class="img-container">
+              <img src="${esc(f)}" alt="${figLabel(f)}" onclick="openModal('${x.id}', 'figures')">
             </div>
           </div>
         `).join('')}
 
-        <div id="practice-ms-reveal-area" style="margin-top:20px;text-align:center">
-          <button type="button" class="btn-reveal-ms" id="btn-reveal-ms">
-            🔍 Reveal Mark Scheme & Answers (Spacebar)
+        <div id="practice-ms-reveal-area">
+          <button type="button" class="btn-reveal-clean" id="btn-reveal-ms">
+            Reveal Mark Scheme (Press Space)
           </button>
         </div>
 
-        <div id="practice-ms-content" style="display:none;margin-top:24px;border-top:1px solid var(--line);padding-top:20px">
-          <h3 style="margin:0 0 12px;font-family:var(--font-display)">Official Mark Scheme</h3>
-          <div class="preview-wrap">
-            <img class="img-preview" src="${esc(x.markscheme)}" alt="Mark Scheme">
+        <div id="practice-ms-content" style="display:none;margin-top:18px">
+          <div style="font-size:0.85rem;font-weight:600;margin-bottom:8px">Mark Scheme</div>
+          <div class="img-container">
+            <img src="${esc(x.markscheme)}" alt="Mark Scheme">
           </div>
 
-          <div class="self-eval-group">
-            <span style="font-weight:600;font-size:0.85rem">How did you do?</span>
-            <button type="button" class="action-btn" id="eval-review" style="background:#fee2e2;color:#991b1b;border-color:#fca5a5">
-              ❌ Needs Review
-            </button>
-            <button type="button" class="action-btn ${isMastered ? 'active-check' : ''}" id="eval-mastered">
-              ✅ Mastered (+${x.marks} marks)
-            </button>
+          <div class="self-rate-row">
+            <span>Result:</span>
+            <button type="button" class="btn-minimal" id="eval-review">Needs Review</button>
+            <button type="button" class="btn-minimal" id="eval-mastered">Mastered (+${x.marks}m)</button>
           </div>
         </div>
 
-        <div class="practice-actions-bar">
-          <button type="button" class="action-btn ${isBookmarked ? 'active-star' : ''}" id="p-star">
-            ⭐ <span>${isBookmarked ? 'Bookmarked' : 'Bookmark for later'}</span>
+        <div style="margin-top:16px;display:flex;justify-content:space-between">
+          <button type="button" class="btn-q-action ${isBookmarked ? 'active-star' : ''}" id="p-star">
+            ${isBookmarked ? 'Bookmarked' : 'Bookmark'}
           </button>
-          <button type="button" class="btn-compare" onclick="openModal('${x.id}', 'split')">
-            ⚖️ Fullscreen Side-by-Side
-          </button>
+          <button type="button" class="btn-compare-link" onclick="openModal('${x.id}', 'split')">Side-by-side view</button>
         </div>
       </div>
     </div>
@@ -2128,7 +1616,6 @@ function renderPractice(list) {
     if (mastered.has(x.id)) { mastered.delete(x.id); saveMastered(); }
     bookmarked.add(x.id);
     saveBookmarked();
-    showToast('Saved to Needs Review list');
     state.practiceIdx++;
     render();
   };
@@ -2136,13 +1623,11 @@ function renderPractice(list) {
   $('#eval-mastered').onclick = () => {
     mastered.add(x.id);
     saveMastered();
-    showToast(`Mastered! +${x.marks} marks 🎉`);
     state.practiceIdx++;
     render();
   };
 
   $('#practice-timer-toggle').onclick = toggleTimer;
-  $('#practice-timer-reset').onclick = resetTimer;
 }
 
 function formatTime(sec) {
@@ -2163,14 +1648,6 @@ function toggleTimer() {
       if (el) el.textContent = formatTime(state.timerSeconds);
     }, 1000);
   }
-}
-
-function resetTimer() {
-  clearInterval(state.timerInterval);
-  state.timerRunning = false;
-  state.timerSeconds = 0;
-  const el = $('#practice-timer-val');
-  if (el) el.textContent = '0:00';
 }
 
 window.addEventListener('keydown', e => {
@@ -2195,7 +1672,7 @@ window.addEventListener('keydown', e => {
 });
 
 /* ========================================================
-   LIGHTBOX / SIDE-BY-SIDE MODAL
+   LIGHTBOX (MINIMALIST)
    ======================================================== */
 let activeModalQ = null;
 let activeModalTab = 'question';
@@ -2207,7 +1684,7 @@ function openModal(qid, tab = 'question', figureIndex = 0) {
   activeModalQ = q;
   activeModalTab = tab === 'figure' ? 'figures' : tab;
 
-  $('#modal-title-txt').textContent = `Question ${q.question} (${q.marks} Marks) · ${D.P[q.paper].year} ${D.P[q.paper].series}`;
+  $('#modal-title-txt').textContent = `Question ${q.question} (${q.marks}m) · ${D.P[q.paper].year}`;
 
   const hasFigures = q.figures && q.figures.length > 0;
   $('#modal-tab-figures').style.display = hasFigures ? 'inline-block' : 'none';
@@ -2238,7 +1715,7 @@ window.addEventListener('keydown', e => {
   if (e.key === 'Escape' && $('#modal-box').classList.contains('open')) closeModal();
 });
 
-$$('.modal-tab-btn').forEach(b => {
+$$('.btn-modal-tab').forEach(b => {
   b.onclick = () => {
     activeModalTab = b.dataset.tab;
     syncModalTabs();
@@ -2247,7 +1724,7 @@ $$('.modal-tab-btn').forEach(b => {
 });
 
 function syncModalTabs() {
-  $$('.modal-tab-btn').forEach(b => {
+  $$('.btn-modal-tab').forEach(b => {
     b.classList.toggle('active', b.dataset.tab === activeModalTab);
   });
 }
@@ -2258,48 +1735,27 @@ function renderModalContent() {
   const body = $('#modal-body');
 
   if (activeModalTab === 'question') {
-    body.innerHTML = `
-      <div class="modal-single-img-wrap">
-        <img class="modal-single-img" src="${esc(q.image)}" alt="Question ${esc(q.question)}">
-      </div>`;
+    body.innerHTML = `<img src="${esc(q.image)}" alt="Question ${esc(q.question)}">`;
   } else if (activeModalTab === 'figures') {
     body.innerHTML = `
-      <div style="display:flex;flex-direction:column;gap:16px;max-width:100%">
-        ${(q.figures || []).map(f => `
-          <div style="text-align:center">
-            <h4 style="color:#9db1c0;margin:0 0 8px">${figLabel(f)}</h4>
-            <img class="modal-single-img" src="${esc(f)}" alt="${figLabel(f)}">
-          </div>
-        `).join('')}
+      <div style="display:flex;flex-direction:column;gap:16px;align-items:center">
+        ${(q.figures || []).map(f => `<img src="${esc(f)}" alt="${figLabel(f)}">`).join('')}
       </div>`;
   } else if (activeModalTab === 'markscheme') {
-    body.innerHTML = `
-      <div class="modal-single-img-wrap">
-        <img class="modal-single-img" src="${esc(q.markscheme)}" alt="Mark Scheme for Question ${esc(q.question)}">
-      </div>`;
+    body.innerHTML = `<img src="${esc(q.markscheme)}" alt="Mark Scheme">`;
   } else if (activeModalTab === 'split') {
-    const leftImg = (q.figures && q.figures.length) ? q.figures[0] : q.image;
-    const leftTitle = (q.figures && q.figures.length) ? `Question & ${figLabel(leftImg)}` : `Question ${esc(q.question)}`;
-
     body.innerHTML = `
-      <div class="modal-split-wrap">
-        <div class="modal-split-col">
-          <div class="modal-split-col-header">
-            <span>Left: ${leftTitle}</span>
-          </div>
-          <div class="modal-split-col-content">
-            <div style="display:flex;flex-direction:column;gap:12px;width:100%;align-items:center">
-              <img src="${esc(q.image)}" alt="Question">
-              ${(q.figures || []).map(f => `<img src="${esc(f)}" alt="${figLabel(f)}">`).join('')}
-            </div>
+      <div class="split-view">
+        <div class="split-pane">
+          <div class="split-pane-head">Question & Resource</div>
+          <div class="split-pane-body">
+            <img src="${esc(q.image)}" alt="Question">
+            ${(q.figures || []).map(f => `<img src="${esc(f)}" alt="${figLabel(f)}">`).join('')}
           </div>
         </div>
-
-        <div class="modal-split-col">
-          <div class="modal-split-col-header" style="color:var(--success)">
-            <span>Right: Official Mark Scheme</span>
-          </div>
-          <div class="modal-split-col-content">
+        <div class="split-pane">
+          <div class="split-pane-head">Mark Scheme</div>
+          <div class="split-pane-body">
             <img src="${esc(q.markscheme)}" alt="Mark Scheme">
           </div>
         </div>
