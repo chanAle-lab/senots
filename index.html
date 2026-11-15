@@ -3,238 +3,2050 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Geology past papers by topic</title>
+<title>SENOTS · WJEC Eduqas Geology Revision</title>
+<meta name="description" content="Interactive past paper revision tool for WJEC Eduqas AS and A level Geology, organised by specification topic.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Schibsted+Grotesk:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#1e2a2f;--paper:#f3f5f2;--card:#fff;--line:#d3d9d4;--muted:#55645f;--focus:#0b6bcb;
-font-family:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif}
-*{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);line-height:1.5}
-.wrap{max-width:860px;margin:0 auto;padding:28px 18px 56px}
-h1{font-size:clamp(1.7rem,4.5vw,2.4rem);line-height:1.15;margin:0 0 6px;letter-spacing:-.02em}
-.sub{margin:0 0 22px;color:var(--muted);max-width:60ch}
-:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:22px}
-form .wide{grid-column:1/-1}
-label{display:flex;flex-direction:column;gap:3px;font-size:.82rem;font-weight:600;color:var(--muted)}
-input,select,button{font:inherit;color:var(--ink);padding:9px 10px;border:1px solid #9aa6a1;border-radius:6px;background:#fff}
-button{cursor:pointer;font-weight:600}
-button:hover{background:#e8ece9}
-.row{display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap}
-.row button{flex:1 1 140px}
-.col{display:flex;flex-direction:column;border:2px solid var(--ink);border-radius:6px;overflow:hidden}
-.band{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;padding:12px 16px;text-decoration:none;background:var(--c);color:var(--fg);border-bottom:1px solid rgba(0,0,0,.25)}
-.band:last-child{border-bottom:0}
-.band:hover{filter:brightness(1.08)}
-.band b{font-size:1.05rem}
-.band span{font-size:.9rem}
-.grp{font-size:1rem;margin:22px 0 8px;color:var(--muted)}
-.note{color:var(--muted);font-size:.9rem;margin:14px 0 0;max-width:62ch}
-.count{font-weight:600;margin:0 0 12px}
-.card{background:var(--card);border:1px solid var(--line);border-left:8px solid var(--c);border-radius:6px;padding:14px 16px;margin-bottom:12px}
-.card h2{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:1.15rem;margin:0 0 4px}
-.card h2 small{font-size:.85rem;font-weight:600;color:var(--muted)}
-.card p{margin:0 0 10px}
-.paper{font-size:.85rem;color:var(--muted);margin-bottom:8px}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
-.tag{font-size:.8rem;padding:2px 9px;border-radius:99px;border:1px solid var(--line);background:#f7f9f8}
-.tag i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;background:var(--c)}
-.shot{cursor:zoom-in;display:block;max-width:100%;height:auto;border:1px solid var(--line);border-radius:4px;background:#fff}
-details{margin-top:10px}
-summary{cursor:pointer;font-weight:600;font-size:.92rem;color:var(--focus);padding:4px 0}
-details .shot{margin-top:6px}
-.note2{font-size:.88rem;background:#fff6e0;border:1px solid #e3cf9c;border-radius:6px;padding:6px 10px;margin:0 0 10px}
-.err,.empty{background:#fff;border:1px solid var(--line);border-radius:6px;padding:16px}
-footer{margin-top:36px;font-size:.8rem;color:var(--muted);max-width:70ch}
+:root {
+  --font-sans: 'Schibsted Grotesk', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', var(--font-sans);
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Light Theme (Limestone / Warm Paper) */
+  --bg: #f5f6f4;
+  --bg-subtle: #ebedeb;
+  --card: #ffffff;
+  --card-elevated: #ffffff;
+  --ink: #141f22;
+  --ink-secondary: #4a5a5e;
+  --muted: #697a7e;
+  --line: #d8dedb;
+  --line-strong: #b8c4bf;
+  --focus: #0f62fe;
+  --accent: #2c6e64;
+  --accent-light: #e8f4f1;
+  --star: #d97706;
+  --star-bg: #fef3c7;
+  --success: #15803d;
+  --success-bg: #dcfce7;
+  --danger: #b91c1c;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.04);
+  --shadow-lg: 0 12px 32px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.06);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+[data-theme="dark"] {
+  --bg: #0d1217;
+  --bg-subtle: #141b22;
+  --card: #18222c;
+  --card-elevated: #202c38;
+  --ink: #e6edf3;
+  --ink-secondary: #9db1c0;
+  --muted: #798e9f;
+  --line: #293846;
+  --line-strong: #3b4e60;
+  --focus: #388bfd;
+  --accent: #38a394;
+  --accent-light: #162f2c;
+  --star: #fbbf24;
+  --star-bg: #362908;
+  --success: #4ade80;
+  --success-bg: #0d321d;
+  --danger: #f87171;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 14px rgba(0,0,0,0.4);
+  --shadow-lg: 0 12px 36px rgba(0,0,0,0.6);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Header & Navigation Bar */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--card);
+  border-bottom: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(8px);
+}
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+.brand-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(135deg, #7a5c47 0%, #d2ae63 40%, #5e7a6b 70%, #4f7391 100%);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-family: var(--font-display);
+  font-size: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+  flex-shrink: 0;
+}
+.brand-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0;
+}
+.brand-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-subtle);
+  padding: 3px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+}
+.view-btn {
+  background: transparent;
+  border: 0;
+  padding: 6px 14px;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-secondary);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+.view-btn:hover {
+  color: var(--ink);
+}
+.view-btn.active {
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: var(--shadow-sm);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn-icon {
+  background: var(--card);
+  border: 1px solid var(--line);
+  color: var(--ink-secondary);
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.15s ease;
+}
+.btn-icon:hover {
+  background: var(--bg-subtle);
+  color: var(--ink);
+  border-color: var(--line-strong);
+}
+
+/* Mastery Quick Stats Pill */
+.mastery-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--line);
+  padding: 5px 12px;
+  border-radius: 99px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-secondary);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.mastery-pill:hover {
+  border-color: var(--accent);
+  color: var(--ink);
+}
+.mastery-bar-wrap {
+  width: 50px;
+  height: 6px;
+  background: var(--line);
+  border-radius: 99px;
+  overflow: hidden;
+}
+.mastery-bar-fill {
+  height: 100%;
+  background: var(--success);
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+/* Layout Wrap */
+.layout-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px 80px;
+}
+
+/* Hero / Filter Bar */
+.filter-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 20px 22px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 24px;
+}
+.search-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.search-box {
+  position: relative;
+  flex: 1;
+}
+.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  pointer-events: none;
+  font-size: 16px;
+}
+.search-input {
+  width: 100%;
+  padding: 12px 14px 12px 42px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: var(--ink);
+  transition: all 0.15s ease;
+}
+.search-input:focus {
+  outline: 0;
+  background: var(--card);
+  border-color: var(--focus);
+  box-shadow: 0 0 0 3px rgba(15, 98, 254, 0.15);
+}
+.btn-random {
+  background: var(--accent);
+  color: #fff;
+  border: 0;
+  border-radius: var(--radius-md);
+  padding: 0 18px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: filter 0.15s ease;
+}
+.btn-random:hover {
+  filter: brightness(1.1);
+}
+
+/* Filter Controls Grid */
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.field label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+}
+.select-ctl {
+  padding: 9px 10px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 0.88rem;
+  cursor: pointer;
+  width: 100%;
+  transition: border-color 0.15s;
+}
+.select-ctl:focus {
+  outline: 0;
+  border-color: var(--focus);
+}
+
+/* Quick Filter Badges Bar */
+.quick-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  align-items: center;
+}
+.chip-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-right: 4px;
+}
+.chip {
+  background: var(--bg-subtle);
+  border: 1px solid var(--line);
+  color: var(--ink-secondary);
+  border-radius: 99px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.chip:hover {
+  background: var(--card);
+  border-color: var(--line-strong);
+  color: var(--ink);
+}
+.chip.active {
+  background: var(--ink);
+  color: var(--card);
+  border-color: var(--ink);
+}
+.chip-reset {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 0.8rem;
+  background: transparent;
+  border: 0;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 4px 6px;
+}
+.chip-reset:hover {
+  color: var(--ink);
+}
+
+/* Filter Summary Bar */
+.results-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 4px 16px;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+.results-count b {
+  color: var(--ink);
+}
+
+/* Stratigraphic Column View */
+.strata-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.strata-group {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  box-shadow: var(--shadow-sm);
+}
+.strata-group-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 4px;
+  color: var(--ink);
+}
+.strata-group-desc {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 0 0 16px;
+}
+.strata-stack {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+.strata-band {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 20px;
+  text-decoration: none;
+  background: var(--c);
+  color: var(--fg);
+  border-bottom: 1px solid rgba(0,0,0,0.22);
+  transition: filter 0.15s ease, transform 0.15s ease;
+  position: relative;
+}
+.strata-band:last-child {
+  border-bottom: 0;
+}
+.strata-band:hover {
+  filter: brightness(1.09);
+  z-index: 2;
+}
+.strata-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.strata-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+.strata-sub {
+  font-size: 0.82rem;
+  opacity: 0.88;
+}
+.strata-meta {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+.strata-badge {
+  font-weight: 700;
+  font-family: var(--font-mono);
+  font-size: 0.88rem;
+  background: rgba(0,0,0,0.25);
+  padding: 3px 10px;
+  border-radius: 99px;
+  backdrop-filter: blur(4px);
+}
+.strata-mastery {
+  font-size: 0.76rem;
+  opacity: 0.9;
+}
+
+/* Card Feed View */
+.cards-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 8px solid var(--c);
+  border-radius: var(--radius-md);
+  padding: 20px 22px;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--line-strong);
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.card-title-group {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.badge-marks {
+  background: var(--accent-light);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 3px 9px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(44, 110, 100, 0.2);
+}
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.action-btn {
+  background: var(--bg-subtle);
+  border: 1px solid var(--line);
+  color: var(--ink-secondary);
+  border-radius: var(--radius-sm);
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+.action-btn:hover {
+  background: var(--card);
+  color: var(--ink);
+  border-color: var(--line-strong);
+}
+.action-btn.active-star {
+  background: var(--star-bg);
+  color: var(--star);
+  border-color: var(--star);
+}
+.action-btn.active-check {
+  background: var(--success-bg);
+  color: var(--success);
+  border-color: var(--success);
+}
+
+.paper-meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.paper-meta span {
+  display: inline-flex;
+  align-items: center;
+}
+.meta-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--line-strong);
+}
+
+.card-summary {
+  font-size: 0.95rem;
+  margin: 0 0 14px;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.card-note {
+  font-size: 0.85rem;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  color: #92400e;
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  margin-bottom: 14px;
+}
+[data-theme="dark"] .card-note {
+  background: #281d06;
+  border-color: #614407;
+  color: #fde68a;
+}
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+.tag-pill {
+  font-size: 0.78rem;
+  padding: 3px 10px;
+  border-radius: 99px;
+  border: 1px solid var(--line);
+  background: var(--bg-subtle);
+  color: var(--ink-secondary);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+.tag-pill:hover {
+  border-color: var(--line-strong);
+  color: var(--ink);
+}
+.tag-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--c);
+}
+
+/* Image preview containers */
+.preview-wrap {
+  position: relative;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: #ffffff;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+[data-theme="dark"] .preview-wrap {
+  background: #10161d;
+}
+.img-preview {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  cursor: zoom-in;
+  margin: 0 auto;
+}
+.preview-overlay {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  pointer-events: none;
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.preview-wrap:hover .preview-overlay {
+  opacity: 1;
+}
+
+/* Accordion sections for figures & mark schemes */
+.card-accordions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.accordion-box {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-subtle);
+  overflow: hidden;
+}
+.accordion-box.ms-box {
+  border-color: rgba(44, 110, 100, 0.35);
+  background: var(--card);
+}
+.accordion-box summary {
+  padding: 10px 14px;
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: var(--ink);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+.accordion-box summary:hover {
+  background: var(--line);
+}
+.accordion-box[open] summary {
+  border-bottom: 1px solid var(--line);
+}
+.accordion-body {
+  padding: 14px;
+  background: #ffffff;
+}
+[data-theme="dark"] .accordion-body {
+  background: #10161d;
+}
+
+/* Compare in modal button */
+.card-footer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.btn-compare {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--ink-secondary);
+  border-radius: var(--radius-sm);
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+.btn-compare:hover {
+  background: var(--bg-subtle);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Flashcard / Practice View */
+.practice-stage {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.practice-header {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 16px 22px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.practice-progress-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.practice-counter {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.practice-timer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--line);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.practice-timer-btn {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 14px;
+  padding: 0 4px;
+}
+.practice-timer-btn:hover {
+  color: var(--ink);
+}
+
+.practice-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 24px;
+}
+.practice-actions-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.nav-btn-group {
+  display: flex;
+  gap: 8px;
+}
+.btn-nav {
+  background: var(--card);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+.btn-nav:hover {
+  background: var(--bg-subtle);
+  border-color: var(--line-strong);
+}
+.btn-reveal-ms {
+  background: var(--accent);
+  color: #fff;
+  border: 0;
+  padding: 10px 22px;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.92rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: filter 0.15s ease;
+}
+.btn-reveal-ms:hover {
+  filter: brightness(1.1);
+}
+.self-eval-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 14px;
+  background: var(--bg-subtle);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  width: 100%;
+  justify-content: center;
+}
+
+/* Lightbox Modal (Side-by-side & Tabs) */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(10, 15, 20, 0.85);
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+.modal-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: #141b22;
+  border-bottom: 1px solid #293846;
+  color: #fff;
+  flex-shrink: 0;
+}
+.modal-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.modal-tabs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #0d1217;
+  padding: 4px;
+  border-radius: var(--radius-sm);
+  border: 1px solid #293846;
+}
+.modal-tab-btn {
+  background: transparent;
+  border: 0;
+  color: #9db1c0;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.modal-tab-btn:hover {
+  color: #fff;
+}
+.modal-tab-btn.active {
+  background: #202c38;
+  color: #fff;
+}
+.modal-close-btn {
+  background: transparent;
+  border: 0;
+  color: #9db1c0;
+  font-size: 22px;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+}
+.modal-close-btn:hover {
+  color: #fff;
+  background: #202c38;
+}
+
+.modal-body {
+  flex: 1;
+  overflow: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-single-img-wrap {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-single-img {
+  max-width: 100%;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+  background: #fff;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+.modal-split-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+  max-width: 1600px;
+  height: 85vh;
+}
+.modal-split-col {
+  display: flex;
+  flex-direction: column;
+  background: #18222c;
+  border: 1px solid #293846;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+.modal-split-col-header {
+  padding: 10px 16px;
+  background: #141b22;
+  border-bottom: 1px solid #293846;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #9db1c0;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.modal-split-col-content {
+  flex: 1;
+  overflow: auto;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0b0f14;
+}
+.modal-split-col-content img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 4px;
+}
+
+/* Toast Notifications */
+.toast-msg {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: var(--ink);
+  color: var(--card);
+  padding: 10px 18px;
+  border-radius: var(--radius-md);
+  font-size: 0.88rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-lg);
+  z-index: 110;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+.toast-msg.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Footer */
+footer {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.82rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Empty State */
+.empty-state {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 40px 24px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+.empty-state h3 {
+  margin: 0 0 8px;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .header-inner { padding: 10px 14px; }
+  .modal-split-wrap { grid-template-columns: 1fr; height: auto; }
+  .modal-split-col { height: 45vh; }
+  .btn-random span { display: none; }
+  .quick-chips { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 6px; }
+}
 </style>
 </head>
 <body>
-<div class="wrap">
-<h1>Geology past papers, sorted by topic</h1>
-<p class="sub">WJEC Eduqas AS and A level Geology questions grouped by the topics in the specifications. Choose a level and a topic, or search for a keyword.</p>
 
-<form id="f" role="search">
-  <label class="wide">Search<input id="q" type="search" placeholder="e.g. fold, P waves, fossils"></label>
-  <label>Level<select id="level"></select></label>
-  <label>Topic<select id="topic"></select></label>
-  <label>Year<select id="year"></select></label>
-  <label>Skill<select id="skill"></select></label>
-  <label>Marks<select id="min"></select></label>
-  <div class="row wide">
-    <button type="button" id="random">Random question</button>
-    <button type="button" id="reset">Clear filters</button>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#" class="brand" id="brand-link" title="SENOTS Home">
+      <div class="brand-icon">S</div>
+      <div>
+        <h1 class="brand-title">SENOTS</h1>
+        <div class="brand-tag">Eduqas Geology Revision</div>
+      </div>
+    </a>
+
+    <div class="header-center" role="tablist" aria-label="View mode">
+      <button class="view-btn active" data-view="strata" role="tab" aria-selected="true">
+        <span>🏛️ Stratigraphy</span>
+      </button>
+      <button class="view-btn" data-view="cards" role="tab" aria-selected="false">
+        <span>📑 Question Feed</span>
+      </button>
+      <button class="view-btn" data-view="practice" role="tab" aria-selected="false">
+        <span>⚡ Flashcard Mode</span>
+      </button>
+    </div>
+
+    <div class="header-actions">
+      <div class="mastery-pill" id="global-mastery-pill" title="Click to filter by Mastered">
+        <span>Mastered: <b id="mastery-count-txt">0</b>/<span id="mastery-total-txt">1,830</span>m</span>
+        <div class="mastery-bar-wrap">
+          <div class="mastery-bar-fill" id="mastery-bar-fill"></div>
+        </div>
+      </div>
+      <button class="btn-icon" id="theme-toggle" title="Toggle dark/light mode" aria-label="Toggle theme">
+        <span id="theme-icon">🌙</span>
+      </button>
+    </div>
   </div>
-</form>
+</header>
 
-<main id="app" aria-live="polite"></main>
+<div class="layout-wrap">
+  <!-- Interactive Filter Bar -->
+  <section class="filter-card">
+    <div class="search-row">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="search" id="q" class="search-input" placeholder="Search keywords, questions, specimens, fossils, folds, formulas... (Press '/' to focus)" aria-label="Search questions">
+      </div>
+      <button type="button" class="btn-random" id="btn-random" title="Pick a random question from current filters">
+        🎲 <span>Random Question</span>
+      </button>
+    </div>
 
-<footer>An unofficial revision aid. Exam questions, figures, the mineral data sheet and mark schemes are © WJEC CBAC Ltd.</footer>
+    <div class="filter-grid">
+      <div class="field">
+        <label for="level">Level</label>
+        <select id="level" class="select-ctl"></select>
+      </div>
+      <div class="field">
+        <label for="topic">Topic</label>
+        <select id="topic" class="select-ctl"></select>
+      </div>
+      <div class="field">
+        <label for="year">Year</label>
+        <select id="year" class="select-ctl"></select>
+      </div>
+      <div class="field">
+        <label for="skill">Skill</label>
+        <select id="skill" class="select-ctl"></select>
+      </div>
+      <div class="field">
+        <label for="min">Marks</label>
+        <select id="min" class="select-ctl"></select>
+      </div>
+      <div class="field">
+        <label for="status">Revision Status</label>
+        <select id="status" class="select-ctl">
+          <option value="">All questions</option>
+          <option value="bookmarked">⭐ Bookmarked for Review</option>
+          <option value="unmastered">🎯 Needs Work (Unmastered)</option>
+          <option value="mastered">✅ Mastered</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="quick-chips">
+      <span class="chip-label">Quick:</span>
+      <button type="button" class="chip" data-chip="all">All Specs</button>
+      <button type="button" class="chip" data-chip="as">AS Level Only</button>
+      <button type="button" class="chip" data-chip="a2">A Level Only</button>
+      <button type="button" class="chip" data-chip="high">High Marks (≥4m)</button>
+      <button type="button" class="chip" data-chip="maths">Maths & Practical</button>
+      <button type="button" class="chip" data-chip="review">⭐ Review List</button>
+      <button type="button" class="chip-reset" id="btn-reset">Reset All Filters</button>
+    </div>
+  </section>
+
+  <!-- Filter Results Summary -->
+  <div class="results-bar" id="results-bar">
+    <div class="results-count" id="results-count-msg">Loading question bank...</div>
+    <div id="results-active-tag"></div>
+  </div>
+
+  <!-- App Views Mount Point -->
+  <main id="app-view" aria-live="polite"></main>
+
+  <footer>
+    <p>SENOTS Revision Aid for WJEC Eduqas AS and A level Geology.</p>
+    <p>Exam questions, figures, resource sheets, and mark schemes remain © WJEC CBAC Ltd.</p>
+  </footer>
 </div>
 
-<script>
-const $ = s => document.querySelector(s);
-const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const BASE = {
-  '1.1':['#7a5c47','#fff'], '2.1':['#d2ae63','#1e2a2f'], '2.2':['#a4524a','#fff'], '2.3':['#5e7a6b','#fff'],
-  '3.1':['#a3b46a','#1e2a2f'], '3.2':['#4f7391','#fff'], '4.1':['#3f4e63','#fff'], '4.2':['#6b4f7a','#fff'],
-  'G1':['#2f6f73','#fff'], 'G2':['#7b6a2e','#fff'], 'G3':['#5d7f3a','#fff'], 'G4':['#8b5a2b','#fff'],
-  'T1':['#a14b4b','#fff'], 'T2':['#4a6f8f','#fff'], 'T3':['#6b4f7a','#fff'], 'T4':['#7a5c47','#fff'], 'T5':['#2e4a5a','#fff']
-};
-const colorOf = id => BASE[id] || BASE[String(id).split('.')[0]] || ['#777', '#fff'];
-let D, T = {}, S = {}, state = {level:'',topic:'',skill:'',year:'',min:0,q:'',pick:''};
+<!-- Modal / Lightbox -->
+<div class="modal-backdrop" id="modal-box" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="modal-header">
+    <div class="modal-title" id="modal-title-txt">Question Viewer</div>
+    <div class="modal-tabs" id="modal-tabs-wrap">
+      <button class="modal-tab-btn active" data-tab="question">Question</button>
+      <button class="modal-tab-btn" data-tab="figures" id="modal-tab-figures">Figures</button>
+      <button class="modal-tab-btn" data-tab="markscheme" id="modal-tab-ms">Mark Scheme</button>
+      <button class="modal-tab-btn" data-tab="split" id="modal-tab-split">⚖️ Side-by-Side</button>
+    </div>
+    <button class="modal-close-btn" id="modal-close" aria-label="Close dialog">✕</button>
+  </div>
+  <div class="modal-body" id="modal-body"></div>
+</div>
 
-fetch('questions.json').then(r => { if (!r.ok) throw 0; return r.json(); }).then(d => {
-  D = d;
-  d.papers.forEach(p => { p.level = p.level || 'AS'; });
-  D.P = Object.fromEntries(d.papers.map(p => [p.id, p]));
-  d.topics.forEach(t => T[t.id] = t);
-  d.skills.forEach(s => S[s.id] = s);
-  d.questions.forEach((x, i) => x.i = i);
-  init();
-}).catch(() => {
-  $('#app').innerHTML = '<p class="err">Couldn’t load questions.json. Check that it sits in the same folder as index.html. If you opened this file straight from your computer, view the site through GitHub Pages or a local server instead.</p>';
-});
+<!-- Toast Message -->
+<div class="toast-msg" id="toast"></div>
+
+<script>
+/* ========================================================
+   SENOTS Geology Engine
+   ======================================================== */
+const $ = s => document.querySelector(s);
+const $$ = s => document.querySelectorAll(s);
+const esc = s => String(s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+const BASE = {
+  '1.1':['#7a5c47','#fff'], '2.1':['#c29a4b','#141f22'], '2.2':['#a84c41','#fff'], '2.3':['#477660','#fff'],
+  '3.1':['#889d49','#141f22'], '3.2':['#3b6f8c','#fff'], '4.1':['#41516b','#fff'], '4.2':['#65447a','#fff'],
+  'G1':['#2a696d','#fff'], 'G2':['#846b28','#fff'], 'G3':['#517534','#fff'], 'G4':['#8a4f21','#fff'],
+  'T1':['#a83838','#fff'], 'T2':['#3b658a','#fff'], 'T3':['#5d4572','#fff'], 'T4':['#78513b','#fff'], 'T5':['#23495d','#fff']
+};
+const colorOf = id => BASE[id] || BASE[String(id).split('.')[0]] || ['#556877', '#fff'];
+
+let D, T = {}, S = {};
+let state = {
+  view: 'strata', // 'strata', 'cards', 'practice'
+  level: '',
+  topic: '',
+  skill: '',
+  year: '',
+  min: 0,
+  status: '', // 'bookmarked', 'unmastered', 'mastered'
+  q: '',
+  pick: '',
+  practiceIdx: 0,
+  timerRunning: false,
+  timerSeconds: 0,
+  timerInterval: null
+};
+
+// LocalStorage Sets
+let mastered = new Set(JSON.parse(localStorage.getItem('senots_mastered') || '[]'));
+let bookmarked = new Set(JSON.parse(localStorage.getItem('senots_bookmarked') || '[]'));
+
+function saveMastered() {
+  localStorage.setItem('senots_mastered', JSON.stringify([...mastered]));
+  updateMasteryStats();
+}
+function saveBookmarked() {
+  localStorage.setItem('senots_bookmarked', JSON.stringify([...bookmarked]));
+}
+
+// Theme handling
+const preferredTheme = localStorage.getItem('senots_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+document.documentElement.setAttribute('data-theme', preferredTheme);
+$('#theme-icon').textContent = preferredTheme === 'dark' ? '☀️' : '🌙';
+
+$('#theme-toggle').onclick = () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('senots_theme', next);
+  $('#theme-icon').textContent = next === 'dark' ? '☀️' : '🌙';
+};
+
+// Toast notification helper
+function showToast(msg) {
+  const t = $('#toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+// Fetch database
+fetch('questions.json')
+  .then(r => { if (!r.ok) throw 0; return r.json(); })
+  .then(d => {
+    D = d;
+    d.papers.forEach(p => { p.level = p.level || 'AS'; });
+    D.P = Object.fromEntries(d.papers.map(p => [p.id, p]));
+    d.topics.forEach(t => T[t.id] = t);
+    d.skills.forEach(s => S[s.id] = s);
+    d.questions.forEach((x, i) => x.i = i);
+    initApp();
+  })
+  .catch(() => {
+    $('#app-view').innerHTML = '<div class="empty-state"><h3>Could not load question bank</h3><p>Ensure questions.json sits in the same directory as index.html.</p></div>';
+  });
+
+function initApp() {
+  // Populate filter dropdowns
+  opts('#level', 'All Levels (AS & A-Level)', (D.levels || []).map(l => [l.id, l.name]));
+  $('#topic').innerHTML = buildTopicOptions();
+  opts('#skill', 'All Skills', D.skills.map(s => [s.id, s.name]));
+  const years = [...new Set(D.papers.map(p => p.year))].sort((a, b) => b - a);
+  opts('#year', 'All Years', years.map(y => [y, y]));
+  opts('#min', 'Any Marks', [[2, '2+ Marks'], [3, '3+ Marks'], [4, '4+ Marks'], [6, '6+ Marks']]);
+
+  // Event Listeners
+  $('.filter-card').addEventListener('input', onFilterChange);
+  $('#btn-reset').onclick = resetFilters;
+  $('#btn-random').onclick = pickRandomQuestion;
+  $('#brand-link').onclick = e => { e.preventDefault(); state.view = 'strata'; resetFilters(); };
+
+  // View buttons
+  $$('.view-btn').forEach(btn => {
+    btn.onclick = () => {
+      state.view = btn.dataset.view;
+      state.pick = '';
+      syncViewButtons();
+      toHash();
+      render();
+    };
+  });
+
+  // Quick chips
+  $$('.chip[data-chip]').forEach(chip => {
+    chip.onclick = () => {
+      const c = chip.dataset.chip;
+      if (c === 'all') { state.level = ''; state.min = 0; state.skill = ''; state.status = ''; }
+      else if (c === 'as') { state.level = 'AS'; }
+      else if (c === 'a2') { state.level = 'A'; }
+      else if (c === 'high') { state.min = 4; }
+      else if (c === 'maths') { state.skill = 'maths'; }
+      else if (c === 'review') { state.status = 'bookmarked'; }
+      if (state.view === 'strata' && c !== 'all' && c !== 'as' && c !== 'a2') state.view = 'cards';
+      syncControls();
+      toHash();
+      render();
+    };
+  });
+
+  $('#global-mastery-pill').onclick = () => {
+    state.status = state.status === 'mastered' ? '' : 'mastered';
+    if (state.view === 'strata') state.view = 'cards';
+    syncControls();
+    toHash();
+    render();
+  };
+
+  // Keyboard shortcut '/' to focus search
+  window.addEventListener('keydown', e => {
+    if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'SELECT') {
+      e.preventDefault();
+      $('#q').focus();
+    }
+  });
+
+  window.addEventListener('hashchange', () => { fromHash(); syncControls(); syncViewButtons(); render(); });
+
+  fromHash();
+  syncControls();
+  syncViewButtons();
+  updateMasteryStats();
+  render();
+}
 
 function opts(sel, first, items) {
   $(sel).innerHTML = '<option value="">' + first + '</option>' + items.map(([v, l]) => `<option value="${esc(v)}">${esc(l)}</option>`).join('');
 }
 
-function topicOptions() {
+function buildTopicOptions() {
   const gs = {};
   D.topics.forEach(t => { const g = t.group || 'Topics'; (gs[g] = gs[g] || []).push(t); });
-  return '<option value="">All topics</option>' + Object.entries(gs).map(([g, ts]) =>
-    `<optgroup label="${esc(g)}">` + ts.map(t => `<option value="${esc(t.id)}">${esc(t.id)} ${esc(t.name)}</option>`).join('') + '</optgroup>').join('');
+  return '<option value="">All Topics</option>' + Object.entries(gs).map(([g, ts]) =>
+    `<optgroup label="${esc(g)}">` + ts.map(t => `<option value="${esc(t.id)}">${esc(t.id)} · ${esc(t.name)}</option>`).join('') + '</optgroup>').join('');
 }
 
-function init() {
-  opts('#level', 'All levels', (D.levels || []).map(l => [l.id, l.name]));
-  $('#topic').innerHTML = topicOptions();
-  opts('#skill', 'All skills', D.skills.map(s => [s.id, s.name]));
-  const years = [...new Set(D.papers.map(p => p.year))].sort((a, b) => b - a);
-  opts('#year', 'All years', years.map(y => [y, y]));
-  opts('#min', 'Any marks', [[2, '2+ marks'], [3, '3+ marks'], [4, '4+ marks']]);
-  $('#f').addEventListener('input', onInput);
-  $('#f').addEventListener('submit', e => e.preventDefault());
-  $('#reset').onclick = () => { state = {level:'',topic:'',skill:'',year:'',min:0,q:'',pick:''}; syncControls(); toHash(); render(); };
-  $('#random').onclick = () => {
-    const keep = state.pick; state.pick = '';
-    const pool = filtered(); state.pick = keep;
-    if (!pool.length) return;
-    state.pick = pool[Math.floor(Math.random() * pool.length)].id;
-    toHash(); render();
-  };
-  addEventListener('hashchange', () => { fromHash(); syncControls(); render(); });
-  fromHash(); syncControls(); render();
-}
-
-function onInput() {
+function onFilterChange() {
   state.q = $('#q').value.trim();
   state.level = $('#level').value;
   state.topic = $('#topic').value;
-  state.skill = $('#skill').value;
   state.year = $('#year').value;
+  state.skill = $('#skill').value;
   state.min = +$('#min').value || 0;
+  state.status = $('#status').value;
   state.pick = '';
-  toHash(); render();
+  // If user searches or selects a topic while on strata, switch smoothly to card feed
+  if ((state.topic || state.skill || state.year || state.min || state.q || state.status) && state.view === 'strata') {
+    state.view = 'cards';
+  }
+  syncViewButtons();
+  toHash();
+  render();
+}
+
+function resetFilters() {
+  state = { ...state, level:'', topic:'', skill:'', year:'', min:0, status:'', q:'', pick:'' };
+  syncControls();
+  toHash();
+  render();
 }
 
 function syncControls() {
-  $('#q').value = state.q; $('#level').value = state.level; $('#topic').value = state.topic; $('#skill').value = state.skill;
-  $('#year').value = state.year; $('#min').value = state.min || '';
+  $('#q').value = state.q;
+  $('#level').value = state.level;
+  $('#topic').value = state.topic;
+  $('#year').value = state.year;
+  $('#skill').value = state.skill;
+  $('#min').value = state.min || '';
+  $('#status').value = state.status || '';
+
+  // Update chip active states
+  $$('.chip[data-chip]').forEach(c => {
+    const val = c.dataset.chip;
+    let act = false;
+    if (val === 'as' && state.level === 'AS') act = true;
+    if (val === 'a2' && state.level === 'A') act = true;
+    if (val === 'high' && state.min >= 4) act = true;
+    if (val === 'maths' && state.skill === 'maths') act = true;
+    if (val === 'review' && state.status === 'bookmarked') act = true;
+    c.classList.toggle('active', act);
+  });
+}
+
+function syncViewButtons() {
+  $$('.view-btn').forEach(b => {
+    const isAct = b.dataset.view === state.view;
+    b.classList.toggle('active', isAct);
+    b.setAttribute('aria-selected', isAct);
+  });
 }
 
 function fromHash() {
   const p = new URLSearchParams(location.hash.slice(1));
-  state = {level:p.get('level')||'', topic:p.get('topic')||'', skill:p.get('skill')||'', year:p.get('year')||'', min:+p.get('min')||0, q:p.get('q')||'', pick:p.get('pick')||''};
+  state.view = p.get('view') || state.view || 'strata';
+  state.level = p.get('level') || '';
+  state.topic = p.get('topic') || '';
+  state.skill = p.get('skill') || '';
+  state.year = p.get('year') || '';
+  state.min = +p.get('min') || 0;
+  state.status = p.get('status') || '';
+  state.q = p.get('q') || '';
+  state.pick = p.get('pick') || '';
 }
 
 function toHash() {
   const p = new URLSearchParams();
-  ['level','topic','skill','year','min','q','pick'].forEach(k => { if (state[k]) p.set(k, state[k]); });
+  if (state.view && state.view !== 'strata') p.set('view', state.view);
+  ['level','topic','skill','year','min','status','q','pick'].forEach(k => {
+    if (state[k]) p.set(k, state[k]);
+  });
   history.replaceState(null, '', location.pathname + location.search + (p.toString() ? '#' + p : ''));
 }
 
 function filtered() {
-  const q = state.q.toLowerCase();
-  return D.questions.filter(x =>
-    (!state.pick || x.id === state.pick) &&
-    (!state.level || D.P[x.paper].level === state.level) &&
-    (!state.topic || x.topics.includes(state.topic)) &&
-    (!state.skill || x.skills.includes(state.skill)) &&
-    (!state.year || D.P[x.paper].year == state.year) &&
-    x.marks >= state.min &&
-    (!q || (x.summary + ' ' + x.question + ' ' + x.topics.map(t => T[t].name).join(' ') + ' ' + x.skills.map(s => S[s].name).join(' ')).toLowerCase().includes(q))
-  ).sort((a, b) => D.P[b.paper].year - D.P[a.paper].year || a.i - b.i);
+  const query = state.q.toLowerCase();
+  return D.questions.filter(x => {
+    if (state.pick && x.id !== state.pick) return false;
+    if (state.level && D.P[x.paper].level !== state.level) return false;
+    if (state.topic && !x.topics.includes(state.topic)) return false;
+    if (state.skill && !x.skills.includes(state.skill)) return false;
+    if (state.year && D.P[x.paper].year != state.year) return false;
+    if (x.marks < state.min) return false;
+    if (state.status === 'mastered' && !mastered.has(x.id)) return false;
+    if (state.status === 'unmastered' && mastered.has(x.id)) return false;
+    if (state.status === 'bookmarked' && !bookmarked.has(x.id)) return false;
+    if (query) {
+      const blob = (x.summary + ' ' + x.question + ' ' + x.topics.map(t => T[t] ? T[t].name : '').join(' ') + ' ' + x.skills.map(s => S[s] ? S[s].name : '').join(' ')).toLowerCase();
+      if (!blob.includes(query)) return false;
+    }
+    return true;
+  }).sort((a, b) => D.P[b.paper].year - D.P[a.paper].year || a.i - b.i);
+}
+
+function updateMasteryStats() {
+  if (!D) return;
+  let masteredMarks = 0;
+  let totalMarks = 0;
+  D.questions.forEach(q => {
+    totalMarks += q.marks;
+    if (mastered.has(q.id)) masteredMarks += q.marks;
+  });
+  $('#mastery-count-txt').textContent = masteredMarks.toLocaleString();
+  $('#mastery-total-txt').textContent = totalMarks.toLocaleString();
+  const pct = totalMarks ? ((masteredMarks / totalMarks) * 100).toFixed(1) : 0;
+  $('#mastery-bar-fill').style.width = pct + '%';
+  $('#global-mastery-pill').title = `${masteredMarks} / ${totalMarks} marks mastered (${pct}%)`;
+}
+
+function pickRandomQuestion() {
+  const pool = filtered();
+  if (!pool.length) {
+    showToast('No questions match current filters.');
+    return;
+  }
+  const q = pool[Math.floor(Math.random() * pool.length)];
+  state.pick = q.id;
+  state.view = 'cards';
+  syncViewButtons();
+  toHash();
+  render();
+  showToast(`Loaded Question ${q.question} (${q.marks} marks)`);
 }
 
 function render() {
-  const active = state.topic || state.skill || state.year || state.min || state.q || state.pick;
-  $('#app').innerHTML = active ? results() : home();
+  const list = filtered();
+  const totalM = list.reduce((n, x) => n + x.marks, 0);
+
+  // Results bar
+  if (state.pick) {
+    $('#results-count-msg').innerHTML = `Focusing on <b>1 Question</b> (${totalM} marks). <a href="javascript:void(0)" onclick="state.pick='';toHash();render();" style="color:var(--focus);margin-left:8px">Show all matching</a>`;
+  } else {
+    $('#results-count-msg').innerHTML = `Showing <b>${list.length.toLocaleString()}</b> questions (<b>${totalM.toLocaleString()}</b> marks available)`;
+  }
+
+  // Active filters badges in results bar
+  const badges = [];
+  if (state.level) badges.push(`Level: ${state.level}`);
+  if (state.topic) badges.push(`Topic: ${state.topic}`);
+  if (state.year) badges.push(`Year: ${state.year}`);
+  if (state.skill) badges.push(`Skill: ${S[state.skill] ? S[state.skill].name : state.skill}`);
+  if (state.status) badges.push(`Status: ${state.status}`);
+  if (state.min) badges.push(`≥${state.min} marks`);
+  $('#results-active-tag').innerHTML = badges.map(b => `<span style="background:var(--bg-subtle);border:1px solid var(--line);padding:2px 8px;border-radius:99px;font-size:0.78rem;font-weight:600;margin-left:4px">${esc(b)}</span>`).join('');
+
+  if (state.view === 'strata') {
+    renderStrata();
+  } else if (state.view === 'practice') {
+    renderPractice(list);
+  } else {
+    renderCards(list);
+  }
 }
 
-function home() {
+/* ========================================================
+   VIEW 1: STRATIGRAPHIC ROCK COLUMN
+   ======================================================== */
+function renderStrata() {
   const inLevel = x => !state.level || D.P[x.paper].level === state.level;
   const groups = {};
   D.topics.forEach(t => { const g = t.group || 'Topics'; (groups[g] = groups[g] || []).push(t); });
-  let html = '';
+
+  let html = `<div class="strata-container">`;
+
   for (const [g, ts] of Object.entries(groups)) {
+    let groupTotalMarks = 0;
+    let groupTotalQs = 0;
+
     const bands = ts.map(t => {
       const qs = D.questions.filter(x => x.topics.includes(t.id) && inLevel(x));
       if (!qs.length) return '';
       const marks = qs.reduce((n, x) => n + x.marks, 0);
+      const masteredInTopic = qs.filter(x => mastered.has(x.id)).reduce((n, x) => n + x.marks, 0);
+      groupTotalMarks += marks;
+      groupTotalQs += qs.length;
+
       const [c, fg] = colorOf(t.id);
-      return `<a class="band" href="#topic=${esc(t.id)}${state.level ? '&level=' + esc(state.level) : ''}" style="--c:${c};--fg:${fg};min-height:${52 + Math.min(marks, 80) * 3}px">
-        <b>${esc(t.id)} ${esc(t.name)}</b><span>${qs.length} ${qs.length === 1 ? 'question' : 'questions'}, ${marks} marks</span></a>`;
+      const height = Math.max(54, Math.min(130, 48 + marks * 1.5));
+      const pct = marks ? Math.round((masteredInTopic / marks) * 100) : 0;
+
+      return `<a class="strata-band" href="#view=cards&topic=${esc(t.id)}${state.level ? '&level=' + esc(state.level) : ''}" style="--c:${c};--fg:${fg};min-height:${height}px">
+        <div class="strata-info">
+          <div class="strata-title">${esc(t.id)} · ${esc(t.name)}</div>
+          <div class="strata-sub">${qs.length} ${qs.length === 1 ? 'question' : 'questions'} available</div>
+        </div>
+        <div class="strata-meta">
+          <div class="strata-badge">${marks} MARKS</div>
+          <div class="strata-mastery">${pct}% mastered (${masteredInTopic}/${marks}m)</div>
+        </div>
+      </a>`;
     }).join('');
-    if (bands) html += `<h2 class="grp">${esc(g)}</h2><div class="col" role="list">${bands}</div>`;
+
+    if (bands) {
+      html += `
+        <section class="strata-group">
+          <h2 class="strata-group-title">${esc(g)}</h2>
+          <div class="strata-group-desc">${groupTotalQs} questions · ${groupTotalMarks} marks in this section</div>
+          <div class="strata-stack">${bands}</div>
+        </section>
+      `;
+    }
   }
-  if (!html) return '<div class="empty"><p>No questions have been added for this level yet.</p></div>';
-  return html + '<p class="note">Each layer is a topic from the specification, and thicker layers have more marks of past paper questions. Select one to see its questions. A question that tests two topics appears in both.</p>';
+
+  html += `</div>`;
+  $('#app-view').innerHTML = html;
 }
 
-function results() {
-  const list = filtered();
-  const head = state.pick ? '<p class="count">One random question. <a href="#">Show all</a></p>'
-    : `<p class="count">${list.length} ${list.length === 1 ? 'question' : 'questions'}, ${list.reduce((n, x) => n + x.marks, 0)} marks</p>`;
-  if (!list.length) return head + '<div class="empty"><p>No questions match these filters. Remove a filter or try a different keyword.</p></div>';
-  return head + list.map(card).join('');
+/* ========================================================
+   VIEW 2: QUESTION FEED / CARDS
+   ======================================================== */
+function renderCards(list) {
+  if (!list.length) {
+    $('#app-view').innerHTML = `
+      <div class="empty-state">
+        <h3>No questions match these filters</h3>
+        <p>Try adjusting your search query, lowering minimum marks, or resetting filters.</p>
+        <button type="button" class="btn-nav" onclick="resetFilters()" style="margin-top:14px">Reset Filters</button>
+      </div>`;
+    return;
+  }
+
+  const html = `<div class="cards-grid">` + list.map(q => renderCard(q)).join('') + `</div>`;
+  $('#app-view').innerHTML = html;
 }
 
-function card(x) {
+function renderCard(x) {
   const p = D.P[x.paper];
   const [c] = colorOf(x.topics[0]);
-  const tags = x.topics.map(t => `<a class="tag" style="--c:${colorOf(t)[0]};text-decoration:none;color:inherit" href="#topic=${t}"><i></i>${esc(t)} ${esc(T[t].name)}</a>`).join('')
-    + x.skills.map(s => `<span class="tag" style="--c:#9aa6a1"><i></i>${esc(S[s].name)}</span>`).join('');
-  return `<article class="card" style="--c:${c}">
-    <h2>Question ${esc(x.question)} <small>${x.marks} ${x.marks === 1 ? 'mark' : 'marks'}</small></h2>
-    <div class="paper">${esc(p.series)} ${p.year}, ${esc(p.unit)} (${esc(p.code)}), printed page ${x.page}</div>
-    <p>${esc(x.summary)}</p>
-    ${x.note ? `<p class="note2">${esc(x.note)}</p>` : ''}
-    <div class="tags">${tags}</div>
-    <img class="shot" loading="lazy" src="${esc(x.image)}" alt="Screenshot of question ${esc(x.question)} from the ${p.year} ${esc(p.series)} paper. ${esc(x.summary)}">
-    ${(x.figures || []).map(f => `<details><summary>${figLabel(f)}</summary><img class="shot" loading="lazy" src="${esc(f)}" alt="${f.includes('datasheet') ? 'Mineral data sheet' : 'Figures for question ' + esc(x.question) + ' from the ' + p.year + ' ' + esc(p.series) + ' paper'}"></details>`).join('')}
-    ${x.markscheme ? `<details><summary>Show mark scheme</summary><img class="shot" loading="lazy" src="${esc(x.markscheme)}" alt="Mark scheme for question ${esc(x.question)} from the ${p.year} ${esc(p.series)} paper"></details>` : ''}
-  </article>`;
+  const isMastered = mastered.has(x.id);
+  const isBookmarked = bookmarked.has(x.id);
+
+  const tags = x.topics.map(t => {
+    const [tc] = colorOf(t);
+    return `<a class="tag-pill" style="--c:${tc}" href="#view=cards&topic=${t}" title="${esc(T[t] ? T[t].name : t)}"><i class="tag-dot"></i>${esc(t)} ${esc(T[t] ? T[t].name : '')}</a>`;
+  }).join('') + x.skills.map(s => `<span class="tag-pill" style="--c:#9aa6a1"><i class="tag-dot"></i>${esc(S[s] ? S[s].name : s)}</span>`).join('');
+
+  return `
+    <article class="card" id="q-${x.id}" style="--c:${c}">
+      <div class="card-header">
+        <div class="card-title-group">
+          <h2 class="card-title">Question ${esc(x.question)}</h2>
+          <span class="badge-marks">${x.marks} ${x.marks === 1 ? 'Mark' : 'Marks'}</span>
+        </div>
+        <div class="card-actions">
+          <button type="button" class="action-btn ${isBookmarked ? 'active-star' : ''}" onclick="toggleBookmark('${x.id}', this)" title="Bookmark for revision">
+            ⭐ <span>${isBookmarked ? 'Bookmarked' : 'Bookmark'}</span>
+          </button>
+          <button type="button" class="action-btn ${isMastered ? 'active-check' : ''}" onclick="toggleMastered('${x.id}', this)" title="Mark as mastered">
+            ✅ <span>${isMastered ? 'Mastered' : 'Mark Mastered'}</span>
+          </button>
+          <button type="button" class="action-btn" onclick="copyQuestionLink('${x.id}')" title="Copy direct link">
+            🔗
+          </button>
+        </div>
+      </div>
+
+      <div class="paper-meta">
+        <span><b>${esc(p.series)} ${p.year}</b></span>
+        <span class="meta-dot"></span>
+        <span>${esc(p.unit)} (${esc(p.code)})</span>
+        <span class="meta-dot"></span>
+        <span>Printed Page ${x.page}</span>
+        <span class="meta-dot"></span>
+        <span>Level: ${esc(p.level)}</span>
+      </div>
+
+      <p class="card-summary">${esc(x.summary)}</p>
+      ${x.note ? `<div class="card-note">ℹ️ ${esc(x.note)}</div>` : ''}
+
+      <div class="tags-list">${tags}</div>
+
+      <div class="preview-wrap">
+        <img class="img-preview" loading="lazy" src="${esc(x.image)}" alt="Question ${esc(x.question)}" onclick="openModal('${x.id}', 'question')">
+        <div class="preview-overlay">🔍 Click to zoom & compare</div>
+      </div>
+
+      <div class="card-accordions">
+        ${(x.figures || []).map((f, fi) => `
+          <details class="accordion-box">
+            <summary>
+              <span>🖼️ ${figLabel(f)}</span>
+              <small style="color:var(--muted)">Expand figure</small>
+            </summary>
+            <div class="accordion-body">
+              <div class="preview-wrap" style="margin:0">
+                <img class="img-preview" loading="lazy" src="${esc(f)}" alt="${figLabel(f)}" onclick="openModal('${x.id}', 'figure', ${fi})">
+              </div>
+            </div>
+          </details>
+        `).join('')}
+
+        ${x.markscheme ? `
+          <details class="accordion-box ms-box">
+            <summary>
+              <span>📋 Mark Scheme & Examiner Answers</span>
+              <small style="color:var(--accent)">Reveal answers</small>
+            </summary>
+            <div class="accordion-body">
+              <div class="preview-wrap" style="margin:0">
+                <img class="img-preview" loading="lazy" src="${esc(x.markscheme)}" alt="Mark Scheme for Question ${esc(x.question)}" onclick="openModal('${x.id}', 'markscheme')">
+              </div>
+            </div>
+          </details>
+        ` : ''}
+      </div>
+
+      <div class="card-footer">
+        <button type="button" class="btn-compare" onclick="openModal('${x.id}', 'split')">
+          ⚖️ View Side-by-Side with Mark Scheme
+        </button>
+      </div>
+    </article>
+  `;
 }
 
 function figLabel(f) {
-  if (f.includes('datasheet')) return 'Mineral data sheet';
+  if (f.includes('datasheet')) return 'Mineral Data Sheet';
   if (f.includes('map1')) return 'Map 1 (Resource Sheet)';
-  if (f.includes('specimens')) return 'Photographs of the specimens';
+  if (f.includes('specimens')) return 'Photographs of Specimens';
   if (f.includes('photos23')) return 'Photographs 2 and 3 (Resource Sheet)';
   if (f.includes('photo4')) return 'Photograph 4 (Resource Sheet)';
   if (f.includes('photo1')) return 'Photograph 1 (Resource Sheet)';
   if (f.includes('photo2')) return 'Photograph 2 (Resource Sheet)';
   if (f.includes('photo3')) return 'Photograph 3 (Resource Sheet)';
   if (f.includes('photos')) return 'Photographs 1 and 2 (Resource Sheet)';
-  return 'Figures for this question';
+  return 'Resource Figures';
 }
-document.addEventListener('click', e => {
-  const i = e.target.closest('img.shot');
-  if (i) window.open(i.src, '_blank', 'noopener');
+
+function toggleMastered(id, btn) {
+  if (mastered.has(id)) {
+    mastered.delete(id);
+    if (btn) {
+      btn.classList.remove('active-check');
+      const span = btn.querySelector('span');
+      if (span) span.textContent = 'Mark Mastered';
+    }
+    showToast('Removed from Mastered');
+  } else {
+    mastered.add(id);
+    if (btn) {
+      btn.classList.add('active-check');
+      const span = btn.querySelector('span');
+      if (span) span.textContent = 'Mastered';
+    }
+    showToast('Marked as Mastered! 🎉');
+  }
+  saveMastered();
+}
+
+function toggleBookmark(id, btn) {
+  if (bookmarked.has(id)) {
+    bookmarked.delete(id);
+    if (btn) {
+      btn.classList.remove('active-star');
+      const span = btn.querySelector('span');
+      if (span) span.textContent = 'Bookmark';
+    }
+    showToast('Removed bookmark');
+  } else {
+    bookmarked.add(id);
+    if (btn) {
+      btn.classList.add('active-star');
+      const span = btn.querySelector('span');
+      if (span) span.textContent = 'Bookmarked';
+    }
+    showToast('Bookmarked for review ⭐');
+  }
+  saveBookmarked();
+}
+
+function copyQuestionLink(id) {
+  const url = `${location.origin}${location.pathname}#view=cards&pick=${id}`;
+  navigator.clipboard.writeText(url).then(() => {
+    showToast('Direct link copied to clipboard!');
+  }).catch(() => {
+    prompt('Direct URL:', url);
+  });
+}
+
+/* ========================================================
+   VIEW 3: FLASHCARD / PRACTICE MODE
+   ======================================================== */
+function renderPractice(list) {
+  if (!list.length) {
+    $('#app-view').innerHTML = `
+      <div class="empty-state">
+        <h3>No questions available for practice</h3>
+        <p>Adjust your filters or reset to study from the full bank.</p>
+        <button type="button" class="btn-nav" onclick="resetFilters()" style="margin-top:14px">Reset Filters</button>
+      </div>`;
+    return;
+  }
+
+  if (state.practiceIdx >= list.length) state.practiceIdx = 0;
+  if (state.practiceIdx < 0) state.practiceIdx = list.length - 1;
+
+  const x = list[state.practiceIdx];
+  const p = D.P[x.paper];
+  const [c] = colorOf(x.topics[0]);
+  const isMastered = mastered.has(x.id);
+  const isBookmarked = bookmarked.has(x.id);
+
+  const tags = x.topics.map(t => `<span class="tag-pill" style="--c:${colorOf(t)[0]}"><i class="tag-dot"></i>${esc(t)} ${esc(T[t] ? T[t].name : '')}</span>`).join('');
+
+  $('#app-view').innerHTML = `
+    <div class="practice-stage">
+      <div class="practice-header">
+        <div class="practice-progress-group">
+          <span class="practice-counter">Question ${state.practiceIdx + 1} of ${list.length}</span>
+          <span class="badge-marks">${x.marks} ${x.marks === 1 ? 'Mark' : 'Marks'}</span>
+        </div>
+
+        <div class="practice-timer">
+          <span>⏱️</span>
+          <span id="practice-timer-val">${formatTime(state.timerSeconds)}</span>
+          <button type="button" class="practice-timer-btn" id="practice-timer-toggle" title="Start/Pause Timer">⏯️</button>
+          <button type="button" class="practice-timer-btn" id="practice-timer-reset" title="Reset Timer">🔄</button>
+        </div>
+
+        <div class="nav-btn-group">
+          <button type="button" class="btn-nav" id="p-prev" title="Previous question (← key)">← Prev</button>
+          <button type="button" class="btn-nav" id="p-next" title="Next question (→ key)">Next →</button>
+        </div>
+      </div>
+
+      <div class="practice-card" style="border-top: 6px solid ${c}">
+        <div class="paper-meta">
+          <span><b>${esc(p.series)} ${p.year}</b></span>
+          <span class="meta-dot"></span>
+          <span>${esc(p.unit)}</span>
+          <span class="meta-dot"></span>
+          <span>Printed Page ${x.page}</span>
+        </div>
+
+        <h2 class="card-title" style="margin-bottom:12px">Question ${esc(x.question)}</h2>
+        <p class="card-summary">${esc(x.summary)}</p>
+        <div class="tags-list">${tags}</div>
+
+        <div class="preview-wrap">
+          <img class="img-preview" src="${esc(x.image)}" alt="Question ${esc(x.question)}" onclick="openModal('${x.id}', 'question')">
+        </div>
+
+        ${(x.figures || []).map(f => `
+          <div style="margin-top:14px">
+            <h4 style="margin:0 0 8px;font-size:0.9rem;color:var(--muted)">Resource: ${figLabel(f)}</h4>
+            <div class="preview-wrap">
+              <img class="img-preview" src="${esc(f)}" alt="${figLabel(f)}" onclick="openModal('${x.id}', 'figures')">
+            </div>
+          </div>
+        `).join('')}
+
+        <div id="practice-ms-reveal-area" style="margin-top:20px;text-align:center">
+          <button type="button" class="btn-reveal-ms" id="btn-reveal-ms">
+            🔍 Reveal Mark Scheme & Answers (Spacebar)
+          </button>
+        </div>
+
+        <div id="practice-ms-content" style="display:none;margin-top:24px;border-top:1px solid var(--line);padding-top:20px">
+          <h3 style="margin:0 0 12px;font-family:var(--font-display)">Official Mark Scheme</h3>
+          <div class="preview-wrap">
+            <img class="img-preview" src="${esc(x.markscheme)}" alt="Mark Scheme">
+          </div>
+
+          <div class="self-eval-group">
+            <span style="font-weight:600;font-size:0.85rem">How did you do?</span>
+            <button type="button" class="action-btn" id="eval-review" style="background:#fee2e2;color:#991b1b;border-color:#fca5a5">
+              ❌ Needs Review
+            </button>
+            <button type="button" class="action-btn ${isMastered ? 'active-check' : ''}" id="eval-mastered">
+              ✅ Mastered (+${x.marks} marks)
+            </button>
+          </div>
+        </div>
+
+        <div class="practice-actions-bar">
+          <button type="button" class="action-btn ${isBookmarked ? 'active-star' : ''}" id="p-star">
+            ⭐ <span>${isBookmarked ? 'Bookmarked' : 'Bookmark for later'}</span>
+          </button>
+          <button type="button" class="btn-compare" onclick="openModal('${x.id}', 'split')">
+            ⚖️ Fullscreen Side-by-Side
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  // Attach Practice events
+  $('#p-prev').onclick = () => { state.practiceIdx--; render(); };
+  $('#p-next').onclick = () => { state.practiceIdx++; render(); };
+  $('#p-star').onclick = () => { toggleBookmark(x.id, $('#p-star')); };
+
+  $('#btn-reveal-ms').onclick = () => {
+    $('#practice-ms-reveal-area').style.display = 'none';
+    $('#practice-ms-content').style.display = 'block';
+  };
+
+  $('#eval-review').onclick = () => {
+    if (mastered.has(x.id)) { mastered.delete(x.id); saveMastered(); }
+    bookmarked.add(x.id);
+    saveBookmarked();
+    showToast('Saved to Needs Review list');
+    state.practiceIdx++;
+    render();
+  };
+
+  $('#eval-mastered').onclick = () => {
+    mastered.add(x.id);
+    saveMastered();
+    showToast(`Mastered! +${x.marks} marks 🎉`);
+    state.practiceIdx++;
+    render();
+  };
+
+  // Timer controls
+  $('#practice-timer-toggle').onclick = toggleTimer;
+  $('#practice-timer-reset').onclick = resetTimer;
+}
+
+function formatTime(sec) {
+  const m = Math.floor(sec / 60);
+  const s = sec % 60;
+  return `${m}:${s < 10 ? '0' : ''}${s}`;
+}
+
+function toggleTimer() {
+  if (state.timerRunning) {
+    clearInterval(state.timerInterval);
+    state.timerRunning = false;
+  } else {
+    state.timerRunning = true;
+    state.timerInterval = setInterval(() => {
+      state.timerSeconds++;
+      const el = $('#practice-timer-val');
+      if (el) el.textContent = formatTime(state.timerSeconds);
+    }, 1000);
+  }
+}
+
+function resetTimer() {
+  clearInterval(state.timerInterval);
+  state.timerRunning = false;
+  state.timerSeconds = 0;
+  const el = $('#practice-timer-val');
+  if (el) el.textContent = '0:00';
+}
+
+// Global practice keyboard shortcuts
+window.addEventListener('keydown', e => {
+  if (state.view !== 'practice') return;
+  if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') return;
+
+  if (e.key === 'ArrowLeft') {
+    e.preventDefault();
+    state.practiceIdx--;
+    render();
+  } else if (e.key === 'ArrowRight') {
+    e.preventDefault();
+    state.practiceIdx++;
+    render();
+  } else if (e.key === ' ' || e.code === 'Space') {
+    const btn = $('#btn-reveal-ms');
+    if (btn && btn.offsetParent !== null) {
+      e.preventDefault();
+      btn.click();
+    }
+  }
 });
+
+/* ========================================================
+   LIGHTBOX / SIDE-BY-SIDE MODAL
+   ======================================================== */
+let activeModalQ = null;
+let activeModalTab = 'question';
+
+function openModal(qid, tab = 'question', figureIndex = 0) {
+  const q = D.questions.find(x => x.id === qid);
+  if (!q) return;
+
+  activeModalQ = q;
+  activeModalTab = tab === 'figure' ? 'figures' : tab;
+
+  $('#modal-title-txt').textContent = `Question ${q.question} (${q.marks} Marks) · ${D.P[q.paper].year} ${D.P[q.paper].series}`;
+
+  // Configure tabs visibility
+  const hasFigures = q.figures && q.figures.length > 0;
+  $('#modal-tab-figures').style.display = hasFigures ? 'inline-block' : 'none';
+  $('#modal-tab-ms').style.display = q.markscheme ? 'inline-block' : 'none';
+  $('#modal-tab-split').style.display = q.markscheme ? 'inline-block' : 'none';
+
+  syncModalTabs();
+  renderModalContent();
+
+  const m = $('#modal-box');
+  m.classList.add('open');
+  m.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  const m = $('#modal-box');
+  m.classList.remove('open');
+  m.setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
+}
+
+$('#modal-close').onclick = closeModal;
+$('#modal-box').onclick = e => {
+  if (e.target === $('#modal-box')) closeModal();
+};
+window.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && $('#modal-box').classList.contains('open')) closeModal();
+});
+
+$$('.modal-tab-btn').forEach(b => {
+  b.onclick = () => {
+    activeModalTab = b.dataset.tab;
+    syncModalTabs();
+    renderModalContent();
+  };
+});
+
+function syncModalTabs() {
+  $$('.modal-tab-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.tab === activeModalTab);
+  });
+}
+
+function renderModalContent() {
+  if (!activeModalQ) return;
+  const q = activeModalQ;
+  const body = $('#modal-body');
+
+  if (activeModalTab === 'question') {
+    body.innerHTML = `
+      <div class="modal-single-img-wrap">
+        <img class="modal-single-img" src="${esc(q.image)}" alt="Question ${esc(q.question)}">
+      </div>`;
+  } else if (activeModalTab === 'figures') {
+    body.innerHTML = `
+      <div style="display:flex;flex-direction:column;gap:16px;max-width:100%">
+        ${(q.figures || []).map(f => `
+          <div style="text-align:center">
+            <h4 style="color:#9db1c0;margin:0 0 8px">${figLabel(f)}</h4>
+            <img class="modal-single-img" src="${esc(f)}" alt="${figLabel(f)}">
+          </div>
+        `).join('')}
+      </div>`;
+  } else if (activeModalTab === 'markscheme') {
+    body.innerHTML = `
+      <div class="modal-single-img-wrap">
+        <img class="modal-single-img" src="${esc(q.markscheme)}" alt="Mark Scheme for Question ${esc(q.question)}">
+      </div>`;
+  } else if (activeModalTab === 'split') {
+    // Side-by-side mode!
+    const leftImg = (q.figures && q.figures.length) ? q.figures[0] : q.image;
+    const leftTitle = (q.figures && q.figures.length) ? `Question & ${figLabel(leftImg)}` : `Question ${esc(q.question)}`;
+
+    body.innerHTML = `
+      <div class="modal-split-wrap">
+        <div class="modal-split-col">
+          <div class="modal-split-col-header">
+            <span>Left: ${leftTitle}</span>
+          </div>
+          <div class="modal-split-col-content">
+            <div style="display:flex;flex-direction:column;gap:12px;width:100%;align-items:center">
+              <img src="${esc(q.image)}" alt="Question">
+              ${(q.figures || []).map(f => `<img src="${esc(f)}" alt="${figLabel(f)}">`).join('')}
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-split-col">
+          <div class="modal-split-col-header" style="color:var(--success)">
+            <span>Right: Official Mark Scheme</span>
+          </div>
+          <div class="modal-split-col-content">
+            <img src="${esc(q.markscheme)}" alt="Mark Scheme">
+          </div>
+        </div>
+      </div>`;
+  }
+}
 </script>
 </body>
 </html>
