@@ -824,6 +824,98 @@ body {
   transform: translateY(0);
 }
 
+/* ========================================================
+   Cheatsheets Minimalist View
+   ======================================================== */
+.cheatsheets-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.sheet-topic-bar {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+.sheet-pill {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--ink-secondary);
+  border-radius: var(--radius);
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.sheet-pill:hover {
+  border-color: var(--border-strong);
+  color: var(--ink);
+}
+.sheet-pill.active {
+  background: var(--ink);
+  color: var(--surface);
+  border-color: var(--ink);
+  font-weight: 500;
+}
+.sheet-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+}
+.sheet-head {
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.sheet-title {
+  margin: 0 0 4px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.sheet-spec {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.sheet-section {
+  margin-bottom: 22px;
+}
+.sheet-section:last-child {
+  margin-bottom: 0;
+}
+.sheet-section-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0 0 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px dashed var(--border);
+}
+.sheet-list {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sheet-list li {
+  font-size: 0.88rem;
+  color: var(--ink);
+  line-height: 1.55;
+}
+.sheet-list li b {
+  color: var(--ink);
+}
+
 /* Footer */
 footer {
   margin-top: 48px;
@@ -879,6 +971,7 @@ footer {
         <button class="tab-link active" data-view="strata" role="tab" aria-selected="true">Stratigraphy</button>
         <button class="tab-link" data-view="cards" role="tab" aria-selected="false">Questions</button>
         <button class="tab-link" data-view="practice" role="tab" aria-selected="false">Practice</button>
+        <button class="tab-link" data-view="cheatsheets" role="tab" aria-selected="false">Cheatsheets</button>
       </nav>
 
       <div class="header-right">
@@ -1058,7 +1151,9 @@ const BASE = {
 };
 const colorOf = id => BASE[id] || BASE[String(id).split('.')[0]] || '#666';
 
-let D, T = {}, S = {};
+let D, T = {}, S = {}, CHEATS = null;
+let activeSheetTopic = '1.1';
+
 let state = {
   view: 'strata',
   level: '',
@@ -1102,6 +1197,7 @@ if (isAuthorized()) {
 
 function loadQuestionBank() {
   if (D) return;
+  fetch('cheatsheets.json').then(r => r.json()).then(c => { CHEATS = c; }).catch(() => {});
   fetch('questions.json')
     .then(r => { if (!r.ok) throw 0; return r.json(); })
     .then(d => {
@@ -1330,12 +1426,22 @@ function render() {
   if (state.min) badges.push(`≥${state.min}m`);
   $('#results-active-tag').textContent = badges.join(' · ');
 
-  if (state.view === 'strata') {
-    renderStrata();
-  } else if (state.view === 'practice') {
-    renderPractice(list);
+  const filterPanel = $('.filter-panel');
+  const statusBar = $('#status-bar');
+  if (state.view === 'cheatsheets') {
+    if (filterPanel) filterPanel.style.display = 'none';
+    if (statusBar) statusBar.style.display = 'none';
+    renderCheatsheets();
   } else {
-    renderCards(list);
+    if (filterPanel) filterPanel.style.display = '';
+    if (statusBar) statusBar.style.display = '';
+    if (state.view === 'strata') {
+      renderStrata();
+    } else if (state.view === 'practice') {
+      renderPractice(list);
+    } else {
+      renderCards(list);
+    }
   }
 }
 
@@ -1459,7 +1565,8 @@ function renderCard(x) {
         </details>
       ` : ''}
 
-      <div class="q-footer">
+      <div class="q-footer" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+        <a href="javascript:void(0)" class="btn-compare-link" onclick="openSheet('${x.topics[0]}')">Cheatsheet: ${esc(x.topics[0])} ${esc(T[x.topics[0]] ? T[x.topics[0]].name : '')}</a>
         <button type="button" class="btn-compare-link" onclick="openModal('${x.id}', 'split')">View side-by-side with mark scheme</button>
       </div>
     </article>
@@ -1762,6 +1869,61 @@ function renderModalContent() {
       </div>`;
   }
 }
+
+function openSheet(tid) {
+  state.view = 'cheatsheets';
+  activeSheetTopic = tid in (CHEATS || {}) ? tid : (tid.split('.')[0] in (CHEATS || {}) ? tid.split('.')[0] : '1.1');
+  syncViewButtons();
+  toHash();
+  render();
+}
+
+function renderCheatsheets() {
+  if (!CHEATS) {
+    $('#app-view').innerHTML = `<p style="text-align:center;padding:40px 0;color:var(--muted)">Loading cheatsheets...</p>`;
+    return;
+  }
+
+  const topicKeys = Object.keys(CHEATS);
+  if (!topicKeys.includes(activeSheetTopic)) activeSheetTopic = topicKeys[0];
+
+  const pillsHtml = topicKeys.map(k => {
+    const isAct = k === activeSheetTopic;
+    return `<button type="button" class="sheet-pill ${isAct ? 'active' : ''}" onclick="activeSheetTopic='${k}';renderCheatsheets()">${k} · ${esc(CHEATS[k].title.split('·')[1] || k)}</button>`;
+  }).join('');
+
+  const current = CHEATS[activeSheetTopic];
+  let sectionsHtml = '';
+  (current.sections || []).forEach(sec => {
+    sectionsHtml += `
+      <div class="sheet-section">
+        <h3 class="sheet-section-title">${esc(sec.heading)}</h3>
+        <ul class="sheet-list">
+          ${sec.points.map(pt => `<li>${pt}</li>`).join('')}
+        </ul>
+      </div>
+    `;
+  });
+
+  $('#app-view').innerHTML = `
+    <div class="cheatsheets-wrap">
+      <div class="sheet-topic-bar">${pillsHtml}</div>
+      <article class="sheet-card">
+        <div class="sheet-head">
+          <div>
+            <h2 class="sheet-title">${esc(current.title)}</h2>
+            <div class="sheet-spec"><b>Specification:</b> ${esc(current.spec)}</div>
+          </div>
+          <button type="button" class="btn-minimal" onclick="state.view='cards';state.topic='${activeSheetTopic}';syncControls();syncViewButtons();toHash();render();">
+            Practice questions for this topic →
+          </button>
+        </div>
+        ${sectionsHtml}
+      </article>
+    </div>
+  `;
+}
+
 </script>
 </body>
 </html>
