@@ -76,6 +76,153 @@ body {
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
+/* ========================================================
+   Password Lock Screen
+   ======================================================== */
+.lock-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.lock-card {
+  width: 100%;
+  max-width: 430px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 38px 32px;
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+  animation: fadeInLock 0.3s ease-out;
+}
+@keyframes fadeInLock {
+  from { opacity: 0; transform: scale(0.96) translateY(8px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+.lock-icon-wrap {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 16px;
+  background: var(--accent-light);
+  border: 1px solid rgba(44, 110, 100, 0.25);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.lock-icon {
+  font-size: 28px;
+}
+.lock-title {
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+.lock-desc {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin: 0 0 24px;
+  line-height: 1.5;
+}
+.lock-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.lock-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.lock-input {
+  width: 100%;
+  padding: 12px 44px 12px 14px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: var(--ink);
+  transition: all 0.15s ease;
+}
+.lock-input:focus {
+  outline: 0;
+  background: var(--card);
+  border-color: var(--focus);
+  box-shadow: 0 0 0 3px rgba(15, 98, 254, 0.15);
+}
+.lock-eye-btn {
+  position: absolute;
+  right: 10px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 18px;
+  padding: 4px;
+}
+.lock-options {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.82rem;
+  color: var(--ink-secondary);
+}
+.lock-remember-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+.lock-submit-btn {
+  background: var(--accent);
+  color: #fff;
+  border: 0;
+  padding: 12px 20px;
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: filter 0.15s ease, transform 0.05s ease;
+}
+.lock-submit-btn:hover {
+  filter: brightness(1.1);
+}
+.lock-submit-btn:active {
+  transform: scale(0.99);
+}
+.lock-error {
+  font-size: 0.85rem;
+  color: var(--danger);
+  min-height: 20px;
+  font-weight: 600;
+}
+.lock-shake {
+  animation: shakeLock 0.4s ease-in-out;
+}
+@keyframes shakeLock {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+
+/* App root container (hidden when locked) */
+#app-root {
+  display: none;
+}
+#app-root.unlocked {
+  display: block;
+}
+
 /* Header & Navigation Bar */
 .site-header {
   position: sticky;
@@ -1075,112 +1222,144 @@ footer {
 </head>
 <body>
 
-<header class="site-header">
-  <div class="header-inner">
-    <a href="#" class="brand" id="brand-link" title="SENOTS Home">
-      <div class="brand-icon">S</div>
-      <div>
-        <h1 class="brand-title">SENOTS</h1>
-        <div class="brand-tag">Eduqas Geology Revision</div>
-      </div>
-    </a>
-
-    <div class="header-center" role="tablist" aria-label="View mode">
-      <button class="view-btn active" data-view="strata" role="tab" aria-selected="true">
-        <span>🏛️ Stratigraphy</span>
-      </button>
-      <button class="view-btn" data-view="cards" role="tab" aria-selected="false">
-        <span>📑 Question Feed</span>
-      </button>
-      <button class="view-btn" data-view="practice" role="tab" aria-selected="false">
-        <span>⚡ Flashcard Mode</span>
-      </button>
+<!-- Password Gate Screen -->
+<div id="lock-screen" class="lock-screen">
+  <div class="lock-card" id="lock-card">
+    <div class="lock-icon-wrap">
+      <div class="lock-icon">🔒</div>
     </div>
+    <h2 class="lock-title">SENOTS Portal</h2>
+    <p class="lock-desc">This past paper revision question bank is password-protected. Enter your access passcode to continue.</p>
 
-    <div class="header-actions">
-      <div class="mastery-pill" id="global-mastery-pill" title="Click to filter by Mastered">
-        <span>Mastered: <b id="mastery-count-txt">0</b>/<span id="mastery-total-txt">1,830</span>m</span>
-        <div class="mastery-bar-wrap">
-          <div class="mastery-bar-fill" id="mastery-bar-fill"></div>
+    <form id="lock-form" class="lock-form" onsubmit="return false;">
+      <div class="lock-input-wrap">
+        <input type="password" id="lock-password" class="lock-input" placeholder="Enter access passcode..." autocomplete="current-password" autofocus required>
+        <button type="button" id="lock-toggle-pwd" class="lock-eye-btn" title="Show or hide passcode">👁️</button>
+      </div>
+      <div class="lock-options">
+        <label class="lock-remember-label">
+          <input type="checkbox" id="lock-remember" checked>
+          <span>Keep me logged in on this device</span>
+        </label>
+      </div>
+      <button type="submit" id="lock-submit-btn" class="lock-submit-btn">Unlock Portal</button>
+      <div id="lock-error-msg" class="lock-error"></div>
+    </form>
+  </div>
+</div>
+
+<!-- Main App Root (unlocked when authorized) -->
+<div id="app-root">
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="brand" id="brand-link" title="SENOTS Home">
+        <div class="brand-icon">S</div>
+        <div>
+          <h1 class="brand-title">SENOTS</h1>
+          <div class="brand-tag">Eduqas Geology Revision</div>
+        </div>
+      </a>
+
+      <div class="header-center" role="tablist" aria-label="View mode">
+        <button class="view-btn active" data-view="strata" role="tab" aria-selected="true">
+          <span>🏛️ Stratigraphy</span>
+        </button>
+        <button class="view-btn" data-view="cards" role="tab" aria-selected="false">
+          <span>📑 Question Feed</span>
+        </button>
+        <button class="view-btn" data-view="practice" role="tab" aria-selected="false">
+          <span>⚡ Flashcard Mode</span>
+        </button>
+      </div>
+
+      <div class="header-actions">
+        <div class="mastery-pill" id="global-mastery-pill" title="Click to filter by Mastered">
+          <span>Mastered: <b id="mastery-count-txt">0</b>/<span id="mastery-total-txt">1,830</span>m</span>
+          <div class="mastery-bar-wrap">
+            <div class="mastery-bar-fill" id="mastery-bar-fill"></div>
+          </div>
+        </div>
+        <button class="btn-icon" id="theme-toggle" title="Toggle dark/light mode" aria-label="Toggle theme">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <button class="btn-icon" id="btn-lock-site" title="Lock website" aria-label="Lock website">
+          <span>🔒</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout-wrap">
+    <!-- Interactive Filter Bar -->
+    <section class="filter-card">
+      <div class="search-row">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="search" id="q" class="search-input" placeholder="Search keywords, questions, specimens, fossils, folds, formulas... (Press '/' to focus)" aria-label="Search questions">
+        </div>
+        <button type="button" class="btn-random" id="btn-random" title="Pick a random question from current filters">
+          🎲 <span>Random Question</span>
+        </button>
+      </div>
+
+      <div class="filter-grid">
+        <div class="field">
+          <label for="level">Level</label>
+          <select id="level" class="select-ctl"></select>
+        </div>
+        <div class="field">
+          <label for="topic">Topic</label>
+          <select id="topic" class="select-ctl"></select>
+        </div>
+        <div class="field">
+          <label for="year">Year</label>
+          <select id="year" class="select-ctl"></select>
+        </div>
+        <div class="field">
+          <label for="skill">Skill</label>
+          <select id="skill" class="select-ctl"></select>
+        </div>
+        <div class="field">
+          <label for="min">Marks</label>
+          <select id="min" class="select-ctl"></select>
+        </div>
+        <div class="field">
+          <label for="status">Revision Status</label>
+          <select id="status" class="select-ctl">
+            <option value="">All questions</option>
+            <option value="bookmarked">⭐ Bookmarked for Review</option>
+            <option value="unmastered">🎯 Needs Work (Unmastered)</option>
+            <option value="mastered">✅ Mastered</option>
+          </select>
         </div>
       </div>
-      <button class="btn-icon" id="theme-toggle" title="Toggle dark/light mode" aria-label="Toggle theme">
-        <span id="theme-icon">🌙</span>
-      </button>
+
+      <div class="quick-chips">
+        <span class="chip-label">Quick:</span>
+        <button type="button" class="chip" data-chip="all">All Specs</button>
+        <button type="button" class="chip" data-chip="as">AS Level Only</button>
+        <button type="button" class="chip" data-chip="a2">A Level Only</button>
+        <button type="button" class="chip" data-chip="high">High Marks (≥4m)</button>
+        <button type="button" class="chip" data-chip="maths">Maths & Practical</button>
+        <button type="button" class="chip" data-chip="review">⭐ Review List</button>
+        <button type="button" class="chip-reset" id="btn-reset">Reset All Filters</button>
+      </div>
+    </section>
+
+    <!-- Filter Results Summary -->
+    <div class="results-bar" id="results-bar">
+      <div class="results-count" id="results-count-msg">Loading question bank...</div>
+      <div id="results-active-tag"></div>
     </div>
+
+    <!-- App Views Mount Point -->
+    <main id="app-view" aria-live="polite"></main>
+
+    <footer>
+      <p>SENOTS Revision Aid for WJEC Eduqas AS and A level Geology.</p>
+      <p>Exam questions, figures, resource sheets, and mark schemes remain © WJEC CBAC Ltd.</p>
+    </footer>
   </div>
-</header>
-
-<div class="layout-wrap">
-  <!-- Interactive Filter Bar -->
-  <section class="filter-card">
-    <div class="search-row">
-      <div class="search-box">
-        <span class="search-icon">🔍</span>
-        <input type="search" id="q" class="search-input" placeholder="Search keywords, questions, specimens, fossils, folds, formulas... (Press '/' to focus)" aria-label="Search questions">
-      </div>
-      <button type="button" class="btn-random" id="btn-random" title="Pick a random question from current filters">
-        🎲 <span>Random Question</span>
-      </button>
-    </div>
-
-    <div class="filter-grid">
-      <div class="field">
-        <label for="level">Level</label>
-        <select id="level" class="select-ctl"></select>
-      </div>
-      <div class="field">
-        <label for="topic">Topic</label>
-        <select id="topic" class="select-ctl"></select>
-      </div>
-      <div class="field">
-        <label for="year">Year</label>
-        <select id="year" class="select-ctl"></select>
-      </div>
-      <div class="field">
-        <label for="skill">Skill</label>
-        <select id="skill" class="select-ctl"></select>
-      </div>
-      <div class="field">
-        <label for="min">Marks</label>
-        <select id="min" class="select-ctl"></select>
-      </div>
-      <div class="field">
-        <label for="status">Revision Status</label>
-        <select id="status" class="select-ctl">
-          <option value="">All questions</option>
-          <option value="bookmarked">⭐ Bookmarked for Review</option>
-          <option value="unmastered">🎯 Needs Work (Unmastered)</option>
-          <option value="mastered">✅ Mastered</option>
-        </select>
-      </div>
-    </div>
-
-    <div class="quick-chips">
-      <span class="chip-label">Quick:</span>
-      <button type="button" class="chip" data-chip="all">All Specs</button>
-      <button type="button" class="chip" data-chip="as">AS Level Only</button>
-      <button type="button" class="chip" data-chip="a2">A Level Only</button>
-      <button type="button" class="chip" data-chip="high">High Marks (≥4m)</button>
-      <button type="button" class="chip" data-chip="maths">Maths & Practical</button>
-      <button type="button" class="chip" data-chip="review">⭐ Review List</button>
-      <button type="button" class="chip-reset" id="btn-reset">Reset All Filters</button>
-    </div>
-  </section>
-
-  <!-- Filter Results Summary -->
-  <div class="results-bar" id="results-bar">
-    <div class="results-count" id="results-count-msg">Loading question bank...</div>
-    <div id="results-active-tag"></div>
-  </div>
-
-  <!-- App Views Mount Point -->
-  <main id="app-view" aria-live="polite"></main>
-
-  <footer>
-    <p>SENOTS Revision Aid for WJEC Eduqas AS and A level Geology.</p>
-    <p>Exam questions, figures, resource sheets, and mark schemes remain © WJEC CBAC Ltd.</p>
-  </footer>
 </div>
 
 <!-- Modal / Lightbox -->
@@ -1209,6 +1388,104 @@ const $ = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
 const esc = s => String(s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
+/* ========================================================
+   Password Gate Logic
+   ======================================================== */
+// SHA-256 hash of "senots"
+const PASS_HASH = 'e531c1b266abfe0b2f7459e2f9dd299c95d6524ba3f3504fc504e7861a991b2f';
+
+async function sha256(text) {
+  const enc = new TextEncoder().encode(text);
+  const buf = await crypto.subtle.digest('SHA-256', enc);
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+function isAuthorized() {
+  return localStorage.getItem('senots_auth') === 'valid' || sessionStorage.getItem('senots_auth') === 'valid';
+}
+
+function setAuthorized(remember) {
+  if (remember) {
+    localStorage.setItem('senots_auth', 'valid');
+  } else {
+    sessionStorage.setItem('senots_auth', 'valid');
+  }
+}
+
+function lockSite() {
+  localStorage.removeItem('senots_auth');
+  sessionStorage.removeItem('senots_auth');
+  location.reload();
+}
+
+async function handleUnlockSubmit() {
+  const input = $('#lock-password');
+  const err = $('#lock-error-msg');
+  const card = $('#lock-card');
+  const remember = $('#lock-remember').checked;
+  const pwd = input.value.trim();
+
+  if (!pwd) {
+    err.textContent = 'Please enter the access passcode.';
+    return;
+  }
+
+  const hash = await sha256(pwd);
+  if (hash === PASS_HASH) {
+    err.textContent = '';
+    setAuthorized(remember);
+    unlockPortal();
+  } else {
+    err.textContent = 'Incorrect passcode. Please try again.';
+    card.classList.remove('lock-shake');
+    void card.offsetWidth; // trigger reflow
+    card.classList.add('lock-shake');
+    input.select();
+  }
+}
+
+function unlockPortal() {
+  $('#lock-screen').style.display = 'none';
+  const root = $('#app-root');
+  root.classList.add('unlocked');
+  loadQuestionBank();
+}
+
+// Attach password screen listeners
+$('#lock-form').onsubmit = handleUnlockSubmit;
+$('#lock-submit-btn').onclick = handleUnlockSubmit;
+
+$('#lock-toggle-pwd').onclick = () => {
+  const input = $('#lock-password');
+  const isPwd = input.type === 'password';
+  input.type = isPwd ? 'text' : 'password';
+  $('#lock-toggle-pwd').textContent = isPwd ? '🙈' : '👁️';
+};
+
+$('#btn-lock-site').onclick = () => {
+  if (confirm('Lock the SENOTS portal? You will need the passcode to enter again.')) {
+    lockSite();
+  }
+};
+
+/* ========================================================
+   Theme Handling
+   ======================================================== */
+const preferredTheme = localStorage.getItem('senots_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+document.documentElement.setAttribute('data-theme', preferredTheme);
+$('#theme-icon').textContent = preferredTheme === 'dark' ? '☀️' : '🌙';
+
+$('#theme-toggle').onclick = () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('senots_theme', next);
+  $('#theme-icon').textContent = next === 'dark' ? '☀️' : '🌙';
+};
+
+/* ========================================================
+   Main App State & Data
+   ======================================================== */
 const BASE = {
   '1.1':['#7a5c47','#fff'], '2.1':['#c29a4b','#141f22'], '2.2':['#a84c41','#fff'], '2.3':['#477660','#fff'],
   '3.1':['#889d49','#141f22'], '3.2':['#3b6f8c','#fff'], '4.1':['#41516b','#fff'], '4.2':['#65447a','#fff'],
@@ -1246,20 +1523,6 @@ function saveBookmarked() {
   localStorage.setItem('senots_bookmarked', JSON.stringify([...bookmarked]));
 }
 
-// Theme handling
-const preferredTheme = localStorage.getItem('senots_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-document.documentElement.setAttribute('data-theme', preferredTheme);
-$('#theme-icon').textContent = preferredTheme === 'dark' ? '☀️' : '🌙';
-
-$('#theme-toggle').onclick = () => {
-  const current = document.documentElement.getAttribute('data-theme');
-  const next = current === 'dark' ? 'light' : 'dark';
-  document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem('senots_theme', next);
-  $('#theme-icon').textContent = next === 'dark' ? '☀️' : '🌙';
-};
-
-// Toast notification helper
 function showToast(msg) {
   const t = $('#toast');
   t.textContent = msg;
@@ -1267,24 +1530,33 @@ function showToast(msg) {
   setTimeout(() => t.classList.remove('show'), 2500);
 }
 
-// Fetch database
-fetch('questions.json')
-  .then(r => { if (!r.ok) throw 0; return r.json(); })
-  .then(d => {
-    D = d;
-    d.papers.forEach(p => { p.level = p.level || 'AS'; });
-    D.P = Object.fromEntries(d.papers.map(p => [p.id, p]));
-    d.topics.forEach(t => T[t.id] = t);
-    d.skills.forEach(s => S[s.id] = s);
-    d.questions.forEach((x, i) => x.i = i);
-    initApp();
-  })
-  .catch(() => {
-    $('#app-view').innerHTML = '<div class="empty-state"><h3>Could not load question bank</h3><p>Ensure questions.json sits in the same directory as index.html.</p></div>';
-  });
+// Initial authorization check
+if (isAuthorized()) {
+  unlockPortal();
+} else {
+  $('#lock-screen').style.display = 'flex';
+  $('#lock-password').focus();
+}
+
+function loadQuestionBank() {
+  if (D) return;
+  fetch('questions.json')
+    .then(r => { if (!r.ok) throw 0; return r.json(); })
+    .then(d => {
+      D = d;
+      d.papers.forEach(p => { p.level = p.level || 'AS'; });
+      D.P = Object.fromEntries(d.papers.map(p => [p.id, p]));
+      d.topics.forEach(t => T[t.id] = t);
+      d.skills.forEach(s => S[s.id] = s);
+      d.questions.forEach((x, i) => x.i = i);
+      initApp();
+    })
+    .catch(() => {
+      $('#app-view').innerHTML = '<div class="empty-state"><h3>Could not load question bank</h3><p>Ensure questions.json sits in the same directory as index.html.</p></div>';
+    });
+}
 
 function initApp() {
-  // Populate filter dropdowns
   opts('#level', 'All Levels (AS & A-Level)', (D.levels || []).map(l => [l.id, l.name]));
   $('#topic').innerHTML = buildTopicOptions();
   opts('#skill', 'All Skills', D.skills.map(s => [s.id, s.name]));
@@ -1292,13 +1564,11 @@ function initApp() {
   opts('#year', 'All Years', years.map(y => [y, y]));
   opts('#min', 'Any Marks', [[2, '2+ Marks'], [3, '3+ Marks'], [4, '4+ Marks'], [6, '6+ Marks']]);
 
-  // Event Listeners
   $('.filter-card').addEventListener('input', onFilterChange);
   $('#btn-reset').onclick = resetFilters;
   $('#btn-random').onclick = pickRandomQuestion;
   $('#brand-link').onclick = e => { e.preventDefault(); state.view = 'strata'; resetFilters(); };
 
-  // View buttons
   $$('.view-btn').forEach(btn => {
     btn.onclick = () => {
       state.view = btn.dataset.view;
@@ -1309,7 +1579,6 @@ function initApp() {
     };
   });
 
-  // Quick chips
   $$('.chip[data-chip]').forEach(chip => {
     chip.onclick = () => {
       const c = chip.dataset.chip;
@@ -1334,7 +1603,6 @@ function initApp() {
     render();
   };
 
-  // Keyboard shortcut '/' to focus search
   window.addEventListener('keydown', e => {
     if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'SELECT') {
       e.preventDefault();
@@ -1371,7 +1639,6 @@ function onFilterChange() {
   state.min = +$('#min').value || 0;
   state.status = $('#status').value;
   state.pick = '';
-  // If user searches or selects a topic while on strata, switch smoothly to card feed
   if ((state.topic || state.skill || state.year || state.min || state.q || state.status) && state.view === 'strata') {
     state.view = 'cards';
   }
@@ -1396,7 +1663,6 @@ function syncControls() {
   $('#min').value = state.min || '';
   $('#status').value = state.status || '';
 
-  // Update chip active states
   $$('.chip[data-chip]').forEach(c => {
     const val = c.dataset.chip;
     let act = false;
@@ -1493,14 +1759,12 @@ function render() {
   const list = filtered();
   const totalM = list.reduce((n, x) => n + x.marks, 0);
 
-  // Results bar
   if (state.pick) {
     $('#results-count-msg').innerHTML = `Focusing on <b>1 Question</b> (${totalM} marks). <a href="javascript:void(0)" onclick="state.pick='';toHash();render();" style="color:var(--focus);margin-left:8px">Show all matching</a>`;
   } else {
     $('#results-count-msg').innerHTML = `Showing <b>${list.length.toLocaleString()}</b> questions (<b>${totalM.toLocaleString()}</b> marks available)`;
   }
 
-  // Active filters badges in results bar
   const badges = [];
   if (state.level) badges.push(`Level: ${state.level}`);
   if (state.topic) badges.push(`Topic: ${state.topic}`);
@@ -1851,7 +2115,6 @@ function renderPractice(list) {
     </div>
   `;
 
-  // Attach Practice events
   $('#p-prev').onclick = () => { state.practiceIdx--; render(); };
   $('#p-next').onclick = () => { state.practiceIdx++; render(); };
   $('#p-star').onclick = () => { toggleBookmark(x.id, $('#p-star')); };
@@ -1878,7 +2141,6 @@ function renderPractice(list) {
     render();
   };
 
-  // Timer controls
   $('#practice-timer-toggle').onclick = toggleTimer;
   $('#practice-timer-reset').onclick = resetTimer;
 }
@@ -1911,7 +2173,6 @@ function resetTimer() {
   if (el) el.textContent = '0:00';
 }
 
-// Global practice keyboard shortcuts
 window.addEventListener('keydown', e => {
   if (state.view !== 'practice') return;
   if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') return;
@@ -1948,7 +2209,6 @@ function openModal(qid, tab = 'question', figureIndex = 0) {
 
   $('#modal-title-txt').textContent = `Question ${q.question} (${q.marks} Marks) · ${D.P[q.paper].year} ${D.P[q.paper].series}`;
 
-  // Configure tabs visibility
   const hasFigures = q.figures && q.figures.length > 0;
   $('#modal-tab-figures').style.display = hasFigures ? 'inline-block' : 'none';
   $('#modal-tab-ms').style.display = q.markscheme ? 'inline-block' : 'none';
@@ -2018,7 +2278,6 @@ function renderModalContent() {
         <img class="modal-single-img" src="${esc(q.markscheme)}" alt="Mark Scheme for Question ${esc(q.question)}">
       </div>`;
   } else if (activeModalTab === 'split') {
-    // Side-by-side mode!
     const leftImg = (q.figures && q.figures.length) ? q.figures[0] : q.image;
     const leftTitle = (q.figures && q.figures.length) ? `Question & ${figLabel(leftImg)}` : `Question ${esc(q.question)}`;
 
