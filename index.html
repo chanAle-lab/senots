@@ -620,77 +620,164 @@ body {
 }
 
 /* ========================================================
-   Practice / Flashcard Mode
+   Cheatsheet Active-Recall Flashcard System
    ======================================================== */
-.practice-wrap {
+.flashcard-wrap {
   max-width: 760px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-.practice-nav-bar {
+.flashcard-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.flashcard-filters {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flashcard-stats {
+  font-size: 0.82rem;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flashcard-stats b {
+  color: var(--ink);
+}
+.flashcard-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: border-color 0.15s;
+}
+.flashcard-box:hover {
+  border-color: var(--border-strong);
+}
+.flashcard-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--border);
-}
-.practice-info {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--muted);
 }
-.practice-timer-text {
-  font-family: inherit;
-  font-size: 0.85rem;
-  color: var(--ink-secondary);
-}
-.practice-buttons {
+.flashcard-topic-tag {
   display: flex;
-  gap: 8px;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
 }
-.btn-practice-nav {
-  background: var(--surface);
-  border: 1px solid var(--border);
+.flashcard-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--c, #666);
+}
+.flashcard-question-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.45;
   color: var(--ink);
-  padding: 6px 12px;
-  border-radius: var(--radius);
-  font-size: 0.82rem;
-  cursor: pointer;
+  letter-spacing: -0.01em;
+  margin: 0 0 20px;
 }
-.btn-practice-nav:hover {
-  background: var(--surface-hover);
-}
-
-.practice-card-box {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 24px;
-}
-.btn-reveal-clean {
-  width: 100%;
+.flashcard-reveal-btn {
   background: var(--surface-hover);
   border: 1px dashed var(--border-strong);
   border-radius: var(--radius);
-  padding: 14px;
-  color: var(--ink);
+  color: var(--ink-secondary);
+  font-family: inherit;
   font-size: 0.88rem;
   font-weight: 500;
+  padding: 14px;
+  width: 100%;
   cursor: pointer;
-  margin-top: 16px;
+  transition: all 0.15s;
+  text-align: center;
 }
-.btn-reveal-clean:hover {
+.flashcard-reveal-btn:hover {
   background: var(--border);
+  color: var(--ink);
 }
-.self-rate-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  margin-top: 16px;
-  padding: 12px;
+.flashcard-answer-box {
   background: var(--surface-hover);
   border-radius: var(--radius);
+  border-left: 3px solid var(--ink);
+  padding: 16px 18px;
+  margin-top: 14px;
+  animation: fadeInAns 0.15s ease-out;
+}
+@keyframes fadeInAns {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.flashcard-answer-text {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.flashcard-eval-bar {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.btn-eval-review {
+  background: transparent;
+  border: 1px solid #f87171;
+  color: #dc2626;
+  border-radius: var(--radius);
+  padding: 6px 14px;
+  font-family: inherit;
   font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn-eval-review:hover {
+  background: rgba(239, 68, 68, 0.08);
+}
+.btn-eval-mastered {
+  background: var(--ink);
+  border: 1px solid var(--ink);
+  color: var(--surface);
+  border-radius: var(--radius);
+  padding: 6px 14px;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn-eval-mastered:hover {
+  opacity: 0.9;
+}
+.flashcard-footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+.flashcard-shortcuts-tip {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 6px;
 }
 
 /* ========================================================
@@ -1151,7 +1238,10 @@ const BASE = {
 };
 const colorOf = id => BASE[id] || BASE[String(id).split('.')[0]] || '#666';
 
-let D, T = {}, S = {}, CHEATS = null;
+let D, T = {}, S = {}, CHEATS = null, FLASHCARDS = [];
+let sheetMastered = new Set(JSON.parse(localStorage.getItem('senots_sheet_mastered') || '[]'));
+let sheetStarred = new Set(JSON.parse(localStorage.getItem('senots_sheet_starred') || '[]'));
+let practiceState = { topic: '', status: '', idx: 0, revealed: false };
 let activeSheetTopic = '1.1';
 
 let state = {
@@ -1197,7 +1287,8 @@ if (isAuthorized()) {
 
 function loadQuestionBank() {
   if (D) return;
-  fetch('cheatsheets.json').then(r => r.json()).then(c => { CHEATS = c; }).catch(() => {});
+  fetch('cheatsheets.json').then(r => r.json()).then(c => { CHEATS = c; buildFlashcards(); }).catch(() => {});
+  fetch('flashcards.json').then(r => r.json()).then(fc => { FLASHCARDS = fc; }).catch(() => {});
   fetch('questions.json')
     .then(r => { if (!r.ok) throw 0; return r.json(); })
     .then(d => {
@@ -1432,13 +1523,15 @@ function render() {
     if (filterPanel) filterPanel.style.display = 'none';
     if (statusBar) statusBar.style.display = 'none';
     renderCheatsheets();
+  } else if (state.view === 'practice') {
+    if (filterPanel) filterPanel.style.display = 'none';
+    if (statusBar) statusBar.style.display = 'none';
+    renderFlashcardPractice();
   } else {
     if (filterPanel) filterPanel.style.display = '';
     if (statusBar) statusBar.style.display = '';
     if (state.view === 'strata') {
       renderStrata();
-    } else if (state.view === 'practice') {
-      renderPractice(list);
     } else {
       renderCards(list);
     }
@@ -1630,130 +1723,270 @@ function copyQuestionLink(id) {
 }
 
 /* ========================================================
-   VIEW 3: PRACTICE (MINIMALIST)
+   VIEW 3: CHEATSHEET FLASHCARD PRACTICE
    ======================================================== */
-function renderPractice(list) {
-  if (!list.length) {
-    $('#app-view').innerHTML = `<p style="text-align:center;padding:40px 0;color:var(--muted)">No questions in this filter.</p>`;
+function buildFlashcards() {
+  if (FLASHCARDS && FLASHCARDS.length) return;
+  if (!CHEATS) return;
+  const cards = [];
+  let cid = 1;
+  for (const [tid, tdata] of Object.entries(CHEATS)) {
+    for (const sec of (tdata.sections || [])) {
+      for (const pt of sec.points) {
+        const m = pt.match(/<b>(.*?)<\/b>[:\s-]*(.*)/s);
+        let qText = '', aText = '';
+        if (m) {
+          let k = m[1].replace(/:$/, '').trim();
+          let ans = m[2].trim();
+          if (k.toLowerCase().includes('vs')) qText = `Compare and distinguish: ${k}`;
+          else if (k.toLowerCase().includes('definition')) qText = `Define: ${k.replace(/ definition/i, '')}`;
+          else if (k.toLowerCase().startsWith('evidence')) qText = `What is the ${k}?`;
+          else if (/criteria|rules|properties/i.test(k)) qText = `State the key ${k}:`;
+          else if (/ratio|calculation|formula|rule/i.test(k)) qText = `State the principle/formula for: ${k}`;
+          else if (k.endsWith('?')) qText = k;
+          else qText = `Explain the key features of: ${k}`;
+          aText = ans;
+        } else {
+          qText = `${sec.heading}: key facts`;
+          aText = pt;
+        }
+        cards.append ? null : cards.push({
+          id: `card-${String(cid++).padStart(3, '0')}`,
+          topicId: tid,
+          topicTitle: tdata.title,
+          category: sec.heading,
+          question: qText,
+          answer: aText
+        });
+      }
+    }
+  }
+  FLASHCARDS = cards;
+}
+
+function startPracticeForTopic(tid) {
+  state.view = 'practice';
+  practiceState.topic = tid;
+  practiceState.idx = 0;
+  practiceState.revealed = false;
+  syncViewButtons();
+  toHash();
+  render();
+}
+
+function getPracticeCards() {
+  if (!FLASHCARDS || !FLASHCARDS.length) {
+    buildFlashcards();
+  }
+  return (FLASHCARDS || []).filter(c => {
+    if (practiceState.topic && c.topicId !== practiceState.topic) return false;
+    if (practiceState.status === 'unmastered' && sheetMastered.has(c.id)) return false;
+    if (practiceState.status === 'mastered' && !sheetMastered.has(c.id)) return false;
+    if (practiceState.status === 'starred' && !sheetStarred.has(c.id)) return false;
+    return true;
+  });
+}
+
+function renderFlashcardPractice() {
+  const cards = getPracticeCards();
+  const totalInBank = FLASHCARDS ? FLASHCARDS.length : 307;
+  const totalMasteredCount = sheetMastered.size;
+
+  if (!cards.length) {
+    $('#app-view').innerHTML = `
+      <div class="flashcard-wrap">
+        <div class="flashcard-toolbar">
+          <div class="flashcard-filters">
+            <select class="select-minimal" onchange="practiceState.topic=this.value;practiceState.idx=0;practiceState.revealed=false;renderFlashcardPractice();">
+              ${buildPracticeTopicOpts()}
+            </select>
+            <select class="select-minimal" onchange="practiceState.status=this.value;practiceState.idx=0;practiceState.revealed=false;renderFlashcardPractice();">
+              <option value="" ${practiceState.status===''?'selected':''}>All Cards</option>
+              <option value="unmastered" ${practiceState.status==='unmastered'?'selected':''}>Needs Work</option>
+              <option value="starred" ${practiceState.status==='starred'?'selected':''}>Starred</option>
+              <option value="mastered" ${practiceState.status==='mastered'?'selected':''}>Mastered</option>
+            </select>
+          </div>
+          <div class="flashcard-stats">Mastered: <b>${totalMasteredCount}</b> / ${totalInBank} cards</div>
+        </div>
+        <div style="text-align:center;padding:48px 0;color:var(--muted)">
+          <p>No cards match the selected filter.</p>
+          <button type="button" class="btn-minimal" onclick="practiceState.topic='';practiceState.status='';practiceState.idx=0;renderFlashcardPractice();">Reset Filter</button>
+        </div>
+      </div>
+    `;
     return;
   }
 
-  if (state.practiceIdx >= list.length) state.practiceIdx = 0;
-  if (state.practiceIdx < 0) state.practiceIdx = list.length - 1;
+  if (practiceState.idx >= cards.length) practiceState.idx = 0;
+  if (practiceState.idx < 0) practiceState.idx = cards.length - 1;
 
-  const x = list[state.practiceIdx];
-  const p = D.P[x.paper];
-  const isMastered = mastered.has(x.id);
-  const isBookmarked = bookmarked.has(x.id);
+  const card = cards[practiceState.idx];
+  const isMastered = sheetMastered.has(card.id);
+  const isStarred = sheetStarred.has(card.id);
+  const cColor = colorOf(card.topicId);
 
   $('#app-view').innerHTML = `
-    <div class="practice-wrap">
-      <div class="practice-nav-bar">
-        <div class="practice-info">
-          <span>Question ${state.practiceIdx + 1} of ${list.length}</span> · 
-          <span>${x.marks} marks</span>
+    <div class="flashcard-wrap">
+      <div class="flashcard-toolbar">
+        <div class="flashcard-filters">
+          <select class="select-minimal" id="practice-topic-sel">
+            ${buildPracticeTopicOpts()}
+          </select>
+          <select class="select-minimal" id="practice-status-sel">
+            <option value="" ${practiceState.status===''?'selected':''}>All Cards</option>
+            <option value="unmastered" ${practiceState.status==='unmastered'?'selected':''}>Needs Work</option>
+            <option value="starred" ${practiceState.status==='starred'?'selected':''}>Starred</option>
+            <option value="mastered" ${practiceState.status==='mastered'?'selected':''}>Mastered</option>
+          </select>
+          <button type="button" class="btn-minimal" id="btn-shuffle-cards" title="Shuffle deck">Shuffle</button>
         </div>
-        <div class="practice-timer-text">
-          <span id="practice-timer-val">${formatTime(state.timerSeconds)}</span>
-          <button type="button" class="btn-minimal" id="practice-timer-toggle" style="margin-left:6px">Timer</button>
-        </div>
-        <div class="practice-buttons">
-          <button type="button" class="btn-practice-nav" id="p-prev">← Prev</button>
-          <button type="button" class="btn-practice-nav" id="p-next">Next →</button>
+        <div class="flashcard-stats">
+          <span>Card <b>${practiceState.idx + 1}</b> of ${cards.length}</span> · 
+          <span>Mastered: <b>${totalMasteredCount}</b> / ${totalInBank}</span>
         </div>
       </div>
 
-      <div class="practice-card-box">
-        <div class="q-citation">${esc(p.series)} ${p.year} · ${esc(p.unit)} · Page ${x.page}</div>
-        <h2 class="q-title" style="margin-bottom:8px">Question ${esc(x.question)}</h2>
-        <p class="q-summary">${esc(x.summary)}</p>
-
-        <div class="img-container">
-          <img src="${esc(x.image)}" alt="Question ${esc(x.question)}" onclick="openModal('${x.id}', 'question')">
-        </div>
-
-        ${(x.figures || []).map(f => `
-          <div style="margin-top:12px">
-            <div style="font-size:0.8rem;color:var(--muted);margin-bottom:4px">${figLabel(f)}</div>
-            <div class="img-container">
-              <img src="${esc(f)}" alt="${figLabel(f)}" onclick="openModal('${x.id}', 'figures')">
+      <div class="flashcard-box">
+        <div>
+          <div class="flashcard-top">
+            <div class="flashcard-topic-tag">
+              <span class="flashcard-indicator" style="--c:${cColor}"></span>
+              <span>Topic ${esc(card.topicId)} · ${esc(card.category)}</span>
             </div>
+            <button type="button" class="btn-minimal ${isStarred ? 'active-star' : ''}" id="btn-star-card" style="${isStarred?'color:#d97706;border-color:#d97706':''}">
+              ${isStarred ? '★ Starred' : '☆ Star'}
+            </button>
           </div>
-        `).join('')}
 
-        <div id="practice-ms-reveal-area">
-          <button type="button" class="btn-reveal-clean" id="btn-reveal-ms">
-            Reveal Mark Scheme (Press Space)
-          </button>
+          <h2 class="flashcard-question-text">${esc(card.question)}</h2>
+
+          ${!practiceState.revealed ? `
+            <button type="button" class="flashcard-reveal-btn" id="btn-reveal-card">
+              Reveal Answer (Press Space)
+            </button>
+          ` : `
+            <div class="flashcard-answer-box">
+              <div class="flashcard-answer-text">${card.answer}</div>
+              <div class="flashcard-eval-bar">
+                <button type="button" class="btn-eval-review" id="eval-card-review">
+                  Needs Review (1)
+                </button>
+                <button type="button" class="btn-eval-mastered" id="eval-card-mastered">
+                  ${isMastered ? 'Mastered ✓' : 'Mark Mastered (2) ✓'}
+                </button>
+              </div>
+            </div>
+          `}
         </div>
 
-        <div id="practice-ms-content" style="display:none;margin-top:18px">
-          <div style="font-size:0.85rem;font-weight:600;margin-bottom:8px">Mark Scheme</div>
-          <div class="img-container">
-            <img src="${esc(x.markscheme)}" alt="Mark Scheme">
+        <div>
+          <div class="flashcard-footer-nav">
+            <button type="button" class="btn-minimal" id="card-prev">← Prev</button>
+            <a href="javascript:void(0)" class="btn-compare-link" onclick="openSheet('${card.topicId}')">View full ${card.topicId} cheatsheet</a>
+            <button type="button" class="btn-minimal" id="card-next">Next →</button>
           </div>
-
-          <div class="self-rate-row">
-            <span>Result:</span>
-            <button type="button" class="btn-minimal" id="eval-review">Needs Review</button>
-            <button type="button" class="btn-minimal" id="eval-mastered">Mastered (+${x.marks}m)</button>
-          </div>
-        </div>
-
-        <div style="margin-top:16px;display:flex;justify-content:space-between">
-          <button type="button" class="btn-q-action ${isBookmarked ? 'active-star' : ''}" id="p-star">
-            ${isBookmarked ? 'Bookmarked' : 'Bookmark'}
-          </button>
-          <button type="button" class="btn-compare-link" onclick="openModal('${x.id}', 'split')">Side-by-side view</button>
+          <div class="flashcard-shortcuts-tip">Shortcuts: Space to reveal · 1 Needs Review · 2 Mastered · ← / → Navigate</div>
         </div>
       </div>
     </div>
   `;
 
-  $('#p-prev').onclick = () => { state.practiceIdx--; render(); };
-  $('#p-next').onclick = () => { state.practiceIdx++; render(); };
-  $('#p-star').onclick = () => { toggleBookmark(x.id, $('#p-star')); };
-
-  $('#btn-reveal-ms').onclick = () => {
-    $('#practice-ms-reveal-area').style.display = 'none';
-    $('#practice-ms-content').style.display = 'block';
+  $('#practice-topic-sel').onchange = e => {
+    practiceState.topic = e.target.value;
+    practiceState.idx = 0;
+    practiceState.revealed = false;
+    renderFlashcardPractice();
   };
 
-  $('#eval-review').onclick = () => {
-    if (mastered.has(x.id)) { mastered.delete(x.id); saveMastered(); }
-    bookmarked.add(x.id);
-    saveBookmarked();
-    state.practiceIdx++;
-    render();
+  $('#practice-status-sel').onchange = e => {
+    practiceState.status = e.target.value;
+    practiceState.idx = 0;
+    practiceState.revealed = false;
+    renderFlashcardPractice();
   };
 
-  $('#eval-mastered').onclick = () => {
-    mastered.add(x.id);
-    saveMastered();
-    state.practiceIdx++;
-    render();
+  $('#btn-shuffle-cards').onclick = () => {
+    shuffle(FLASHCARDS);
+    practiceState.idx = 0;
+    practiceState.revealed = false;
+    renderFlashcardPractice();
+    showToast('Deck shuffled');
   };
 
-  $('#practice-timer-toggle').onclick = toggleTimer;
+  $('#btn-star-card').onclick = () => {
+    if (sheetStarred.has(card.id)) {
+      sheetStarred.delete(card.id);
+      showToast('Unstarred card');
+    } else {
+      sheetStarred.add(card.id);
+      showToast('Starred card');
+    }
+    localStorage.setItem('senots_sheet_starred', JSON.stringify([...sheetStarred]));
+    renderFlashcardPractice();
+  };
+
+  const revealBtn = $('#btn-reveal-card');
+  if (revealBtn) {
+    revealBtn.onclick = () => {
+      practiceState.revealed = true;
+      renderFlashcardPractice();
+    };
+  }
+
+  const evalReview = $('#eval-card-review');
+  if (evalReview) {
+    evalReview.onclick = () => {
+      if (sheetMastered.has(card.id)) {
+        sheetMastered.delete(card.id);
+        localStorage.setItem('senots_sheet_mastered', JSON.stringify([...sheetMastered]));
+      }
+      practiceState.idx++;
+      practiceState.revealed = false;
+      renderFlashcardPractice();
+    };
+  }
+
+  const evalMastered = $('#eval-card-mastered');
+  if (evalMastered) {
+    evalMastered.onclick = () => {
+      sheetMastered.add(card.id);
+      localStorage.setItem('senots_sheet_mastered', JSON.stringify([...sheetMastered]));
+      practiceState.idx++;
+      practiceState.revealed = false;
+      renderFlashcardPractice();
+      showToast('Card mastered! ✓');
+    };
+  }
+
+  $('#card-prev').onclick = () => {
+    practiceState.idx--;
+    practiceState.revealed = false;
+    renderFlashcardPractice();
+  };
+
+  $('#card-next').onclick = () => {
+    practiceState.idx++;
+    practiceState.revealed = false;
+    renderFlashcardPractice();
+  };
 }
 
-function formatTime(sec) {
-  const m = Math.floor(sec / 60);
-  const s = sec % 60;
-  return `${m}:${s < 10 ? '0' : ''}${s}`;
+function buildPracticeTopicOpts() {
+  const tids = CHEATS ? Object.keys(CHEATS) : ['1.1','2.1','2.2','2.3','3.1','3.2','4.1','4.2'];
+  let html = `<option value="">All Topics (${FLASHCARDS?FLASHCARDS.length:307} cards)</option>`;
+  tids.forEach(t => {
+    const title = CHEATS && CHEATS[t] ? CHEATS[t].title.replace(/^Topic |^Theme /, '') : t;
+    const isSel = practiceState.topic === t ? 'selected' : '';
+    html += `<option value="${t}" ${isSel}>${t} · ${esc(title)}</option>`;
+  });
+  return html;
 }
 
-function toggleTimer() {
-  if (state.timerRunning) {
-    clearInterval(state.timerInterval);
-    state.timerRunning = false;
-  } else {
-    state.timerRunning = true;
-    state.timerInterval = setInterval(() => {
-      state.timerSeconds++;
-      const el = $('#practice-timer-val');
-      if (el) el.textContent = formatTime(state.timerSeconds);
-    }, 1000);
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
   }
 }
 
@@ -1763,18 +1996,29 @@ window.addEventListener('keydown', e => {
 
   if (e.key === 'ArrowLeft') {
     e.preventDefault();
-    state.practiceIdx--;
-    render();
+    practiceState.idx--;
+    practiceState.revealed = false;
+    renderFlashcardPractice();
   } else if (e.key === 'ArrowRight') {
     e.preventDefault();
-    state.practiceIdx++;
-    render();
+    practiceState.idx++;
+    practiceState.revealed = false;
+    renderFlashcardPractice();
   } else if (e.key === ' ' || e.code === 'Space') {
-    const btn = $('#btn-reveal-ms');
-    if (btn && btn.offsetParent !== null) {
-      e.preventDefault();
-      btn.click();
-    }
+    e.preventDefault();
+    practiceState.revealed = !practiceState.revealed;
+    renderFlashcardPractice();
+  } else if (e.key === '1' && practiceState.revealed) {
+    e.preventDefault();
+    const btn = $('#eval-card-review');
+    if (btn) btn.click();
+  } else if (e.key === '2' && practiceState.revealed) {
+    e.preventDefault();
+    const btn = $('#eval-card-mastered');
+    if (btn) btn.click();
+  } else if (e.key === 's' || e.key === 'S') {
+    const btn = $('#btn-star-card');
+    if (btn) btn.click();
   }
 });
 
@@ -1914,8 +2158,8 @@ function renderCheatsheets() {
             <h2 class="sheet-title">${esc(current.title)}</h2>
             <div class="sheet-spec"><b>Specification:</b> ${esc(current.spec)}</div>
           </div>
-          <button type="button" class="btn-minimal" onclick="state.view='cards';state.topic='${activeSheetTopic}';syncControls();syncViewButtons();toHash();render();">
-            Practice questions for this topic →
+          <button type="button" class="btn-minimal" onclick="startPracticeForTopic('${activeSheetTopic}')">
+            Practice flashcards for this topic →
           </button>
         </div>
         ${sectionsHtml}

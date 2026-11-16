@@ -1,0 +1,2458 @@
+[
+  {
+    "id": "card-001",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Mineral Definition & Bonding",
+    "question": "Define: Mineral",
+    "answer": "A naturally occurring, inorganic crystalline solid with a definite chemical composition and ordered internal atomic structure."
+  },
+  {
+    "id": "card-002",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Mineral Definition & Bonding",
+    "question": "Explain the key features / significance of: Silicate Tetrahedron [SiO4]4-",
+    "answer": "Fundamental building block. 1 silicon ion surrounded by 4 oxygen ions in tetrahedral coordination."
+  },
+  {
+    "id": "card-003",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Mineral Definition & Bonding",
+    "question": "Explain the key features / significance of: Bond types",
+    "answer": "Covalent (strong, directional, e.g. diamond/quartz), Ionic (transfer of electrons, moderate strength, e.g. halite), Metallic (electron sea, high conductivity, e.g. pyrite), van der Waals (weak intermolecular, cleavage planes in graphite/mica)."
+  },
+  {
+    "id": "card-004",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Silicate Frameworks & Cleavage Rules",
+    "question": "Explain the key features / significance of: Isolated tetrahedra",
+    "answer": "Olivine (Mg,Fe)2SiO4. No cleavage, fracture only. High density."
+  },
+  {
+    "id": "card-005",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Silicate Frameworks & Cleavage Rules",
+    "question": "Explain the key features / significance of: Single chains",
+    "answer": "Augite / Pyroxene. Chains bonded by cations. <b>Two cleavage planes intersecting at 90°</b> (87°/93°)."
+  },
+  {
+    "id": "card-006",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Silicate Frameworks & Cleavage Rules",
+    "question": "Explain the key features / significance of: Double chains",
+    "answer": "Hornblende / Amphibole. <b>Two cleavage planes intersecting at 60° and 120°</b> (56°/124°)."
+  },
+  {
+    "id": "card-007",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Silicate Frameworks & Cleavage Rules",
+    "question": "Explain the key features / significance of: Sheet silicates",
+    "answer": "Micas (Biotite / Muscovite). Tetrahedra share 3 oxygens. <b>One perfect basal cleavage</b>."
+  },
+  {
+    "id": "card-008",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Silicate Frameworks & Cleavage Rules",
+    "question": "Explain the key features / significance of: 3D Framework",
+    "answer": "Quartz (SiO2) - shares all 4 oxygens, no cleavage, conchoidal fracture. Feldspars (Orthoclase / Plagioclase) - 2 cleavages at ~90°."
+  },
+  {
+    "id": "card-009",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Diagnostic Properties (Hand Specimen & Thin Section)",
+    "question": "Explain the key features / significance of: Hardness (Mohs scale)",
+    "answer": "Talc(1) < Gypsum(2) < [Fingernail ~2.5] < Calcite(3) < [Copper ~3.5] < Fluorite(4) < Apatite(5) < [Steel/Glass ~5.5] < Orthoclase(6) < Quartz(7) < Topaz(8) < Corundum(9) < Diamond(10)."
+  },
+  {
+    "id": "card-010",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Diagnostic Properties (Hand Specimen & Thin Section)",
+    "question": "Compare and distinguish: Calcite vs Quartz",
+    "answer": "Calcite scratches with copper/nail (H=3), effervesces with dilute cold HCl (CaCO3 + 2HCl -> CaCl2 + H2O + CO2), 3 directions of rhombohedral cleavage. Quartz scratches glass (H=7), no acid reaction, conchoidal fracture."
+  },
+  {
+    "id": "card-011",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Diagnostic Properties (Hand Specimen & Thin Section)",
+    "question": "State the key Thin section optical properties:",
+    "answer": ""
+  },
+  {
+    "id": "card-012",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Diagnostic Properties (Hand Specimen & Thin Section)",
+    "question": "Diagnostic Properties (Hand Specimen & Thin Section): key facts",
+    "answer": "• <i>Plane polarised light (PPL):</i> Relief (refractive index vs resin), Pleochroism (colour change on rotation e.g. Biotite brown-yellow, Hornblende green-brown), Cleavage traces."
+  },
+  {
+    "id": "card-013",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Diagnostic Properties (Hand Specimen & Thin Section)",
+    "question": "Diagnostic Properties (Hand Specimen & Thin Section): key facts",
+    "answer": "• <i>Crossed polars (XPL):</i> Birefringence / Interference colours (order of colours on Michel-Lévy chart), Extinction angle (straight/parallel in quartz/orthoclase/biotite, inclined in augite/hornblende), Twinning (cross-hatched in microcline, albite polysynthetic stripes in plagioclase, Carlsbad simple twin in orthoclase)."
+  },
+  {
+    "id": "card-014",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Goldich Weathering Series & Stability",
+    "question": "Goldich Weathering Series & Stability: key facts",
+    "answer": "Minerals that crystallise at the highest temperatures and pressures (least like surface conditions) weather the fastest."
+  },
+  {
+    "id": "card-015",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Goldich Weathering Series & Stability",
+    "question": "Explain the key features / significance of: Susceptibility to chemical weathering",
+    "answer": "Olivine (fastest) > Augite > Hornblende > Biotite > Plagioclase > Orthoclase > Muscovite > Quartz (most resistant)."
+  },
+  {
+    "id": "card-016",
+    "topicId": "1.1",
+    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
+    "category": "Goldich Weathering Series & Stability",
+    "question": "Goldich Weathering Series & Stability: key facts",
+    "answer": "Quartz and clays dominate mature sedimentary deposits because quartz is mechanically hard and chemically inert."
+  },
+  {
+    "id": "card-017",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Weathering & Transport",
+    "question": "Explain the key features / significance of: Mechanical weathering",
+    "answer": "Freeze-thaw (9% water expansion in joints), Exfoliation / onion-skin (insolation thermal expansion/contraction in arid climates), Salt crystallisation."
+  },
+  {
+    "id": "card-018",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Weathering & Transport",
+    "question": "Explain the key features / significance of: Chemical weathering",
+    "answer": ""
+  },
+  {
+    "id": "card-019",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Weathering & Transport",
+    "question": "Weathering & Transport: key facts",
+    "answer": "• <i>Carbonation:</i> Rainwater dissolves CO2 -> carbonic acid (H2CO3) dissolving limestone."
+  },
+  {
+    "id": "card-020",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Weathering & Transport",
+    "question": "Weathering & Transport: key facts",
+    "answer": "• <i>Hydrolysis:</i> Acidified water attacks feldspar -> kaolinite (china clay) + silicic acid + soluble K+/Na+ ions."
+  },
+  {
+    "id": "card-021",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Weathering & Transport",
+    "question": "Weathering & Transport: key facts",
+    "answer": "• <i>Oxidation:</i> Iron minerals (e.g. olivine, augite, pyrite) react with oxygen -> hematite / limonite (rust red)."
+  },
+  {
+    "id": "card-022",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Weathering & Transport",
+    "question": "Explain the key features / significance of: Hjulström Curve",
+    "answer": "Relates sediment grain size to water flow velocity required for <i>erosion (entrainment)</i>, <i>transport</i>, and <i>deposition</i>."
+  },
+  {
+    "id": "card-023",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Weathering & Transport",
+    "question": "Weathering & Transport: key facts",
+    "answer": "• Clay/silt requires higher velocity to entrain than sand due to electrostatic cohesion."
+  },
+  {
+    "id": "card-024",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Weathering & Transport",
+    "question": "Weathering & Transport: key facts",
+    "answer": "• Sand entrains at the lowest velocity (~20 cm/s)."
+  },
+  {
+    "id": "card-025",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Weathering & Transport",
+    "question": "Weathering & Transport: key facts",
+    "answer": "• Deposition occurs whenever velocity drops below settling velocity."
+  },
+  {
+    "id": "card-026",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Textural Maturity & Clastic Classification",
+    "question": "Explain the key features / significance of: Grain size (Wentworth scale)",
+    "answer": "Gravel / Rudaceous (>2 mm), Sand / Arenaceous (0.0625 mm - 2 mm), Mud / Argillaceous (<0.0625 mm, silt and clay)."
+  },
+  {
+    "id": "card-027",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Textural Maturity & Clastic Classification",
+    "question": "Explain the key features / significance of: Textural maturity",
+    "answer": "Increases with transport distance and time: Poorly sorted + angular + high matrix -> Well sorted + well rounded + low matrix (orthoquartzite)."
+  },
+  {
+    "id": "card-028",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Textural Maturity & Clastic Classification",
+    "question": "Explain the key features / significance of: Clastic rock types",
+    "answer": ""
+  },
+  {
+    "id": "card-029",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Textural Maturity & Clastic Classification",
+    "question": "Textural Maturity & Clastic Classification: key facts",
+    "answer": "• <i>Breccia:</i> Angular clasts (>2 mm), near-source deposit (scree / fault talus / wadi flash flood)."
+  },
+  {
+    "id": "card-030",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Textural Maturity & Clastic Classification",
+    "question": "Textural Maturity & Clastic Classification: key facts",
+    "answer": "• <i>Conglomerate:</i> Rounded clasts (>2 mm), high-energy aqueous transport (beach / high-energy river channel)."
+  },
+  {
+    "id": "card-031",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Textural Maturity & Clastic Classification",
+    "question": "Textural Maturity & Clastic Classification: key facts",
+    "answer": "• <i>Orthoquartzite:</i> >95% quartz grains, well rounded, well sorted, silica cement; high-energy shallow marine / beach."
+  },
+  {
+    "id": "card-032",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Textural Maturity & Clastic Classification",
+    "question": "Textural Maturity & Clastic Classification: key facts",
+    "answer": "• <i>Arkose:</i> >25% feldspar, pink/red, moderate sorting/rounding; rapid deposition from granitic source in semi-arid alluvial fan."
+  },
+  {
+    "id": "card-033",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Textural Maturity & Clastic Classification",
+    "question": "Textural Maturity & Clastic Classification: key facts",
+    "answer": "• <i>Greywacke:</i> Poorly sorted, angular grains in dark fine-grained muddy matrix (>15%); submarine turbidity current deposit."
+  },
+  {
+    "id": "card-034",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Sedimentary Structures & Way-Up Criteria",
+    "question": "Explain the key features / significance of: Cross-bedding",
+    "answer": "Formed by migrating ripples/dunes. Asymptotic curve at base, sharp truncation at top by erosion. <i>Way-up:</i> Tops truncated. <i>Paleocurrent:</i> Dips down-current."
+  },
+  {
+    "id": "card-035",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Sedimentary Structures & Way-Up Criteria",
+    "question": "Explain the key features / significance of: Graded bedding",
+    "answer": "Coarse clasts at base fining upward into fine silt/mud (density current / turbidity current settling). <i>Way-up:</i> Coarse at base, fine at top."
+  },
+  {
+    "id": "card-036",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Sedimentary Structures & Way-Up Criteria",
+    "question": "Explain the key features / significance of: Asymmetrical ripples",
+    "answer": "Formed by unidirectional current (river, wind); steep lee slope down-current."
+  },
+  {
+    "id": "card-037",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Sedimentary Structures & Way-Up Criteria",
+    "question": "Explain the key features / significance of: Symmetrical ripples",
+    "answer": "Formed by bidirectional oscillatory wave action in shallow water; sharp crests point up."
+  },
+  {
+    "id": "card-038",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Sedimentary Structures & Way-Up Criteria",
+    "question": "Explain the key features / significance of: Desiccation mudcracks",
+    "answer": "V-shaped cracks in mud due to subaerial drying; V points downwards."
+  },
+  {
+    "id": "card-039",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Carbonate & Chemical Sediments & Diagenesis",
+    "question": "Explain the key features / significance of: Oolitic limestone",
+    "answer": "Formed of spherical ooids (calcite precipitated concentrically around nucleus in warm, agitated, supersaturated shallow marine water)."
+  },
+  {
+    "id": "card-040",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Carbonate & Chemical Sediments & Diagenesis",
+    "question": "Explain the key features / significance of: Bioclastic limestone",
+    "answer": "Abundant fossil fragments (crinoids, bivalves, corals) cemented by sparry calcite."
+  },
+  {
+    "id": "card-041",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Carbonate & Chemical Sediments & Diagenesis",
+    "question": "Explain the key features / significance of: Chalk",
+    "answer": "Pure white micrite of microscopic coccolith plates (calcareous nannoplankton) in quiet pelagic marine shelf."
+  },
+  {
+    "id": "card-042",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Carbonate & Chemical Sediments & Diagenesis",
+    "question": "Explain the key features / significance of: Evaporites",
+    "answer": "Halite (NaCl), Gypsum (CaSO4·2H2O), Anhydrite. Sequential precipitation in restricted marine basins with high evaporation > precipitation."
+  },
+  {
+    "id": "card-043",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Carbonate & Chemical Sediments & Diagenesis",
+    "question": "Explain the key features / significance of: Diagenesis stages",
+    "answer": ""
+  },
+  {
+    "id": "card-044",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Carbonate & Chemical Sediments & Diagenesis",
+    "question": "Carbonate & Chemical Sediments & Diagenesis: key facts",
+    "answer": "1. Compaction: Expulsion of pore water, reduction of porosity."
+  },
+  {
+    "id": "card-045",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Carbonate & Chemical Sediments & Diagenesis",
+    "question": "Carbonate & Chemical Sediments & Diagenesis: key facts",
+    "answer": "2. Cementation: Precipitation of mineral matter (calcite, quartz, iron oxide) from pore fluids, binding grains."
+  },
+  {
+    "id": "card-046",
+    "topicId": "2.1",
+    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
+    "category": "Carbonate & Chemical Sediments & Diagenesis",
+    "question": "Carbonate & Chemical Sediments & Diagenesis: key facts",
+    "answer": "3. Recrystallisation / Neomorphism: Unstable aragonite converts to stable calcite."
+  },
+  {
+    "id": "card-047",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Magma Compositions & Igneous Classification",
+    "question": "Explain the key features / significance of: Basaltic / Mafic (45–52% SiO2)",
+    "answer": "Low viscosity, high temp (1000–1200°C), dense, low gas. Minerals: Ca-rich plagioclase, augite, olivine. Extrusive: Basalt. Intrusive: Gabbro / Dolerite."
+  },
+  {
+    "id": "card-048",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Magma Compositions & Igneous Classification",
+    "question": "Explain the key features / significance of: Andesitic / Intermediate (52–66% SiO2)",
+    "answer": "Moderate viscosity & temp (800–1000°C). Minerals: Na-Ca plagioclase, hornblende, biotite. Extrusive: Andesite. Intrusive: Diorite."
+  },
+  {
+    "id": "card-049",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Magma Compositions & Igneous Classification",
+    "question": "Explain the key features / significance of: Rhyolitic / Silicic / Felsic (>66% SiO2)",
+    "answer": "High viscosity, lower temp (700–900°C), low density, volatile-rich (explosive). Minerals: Quartz, orthoclase, Na-plagioclase, muscovite/biotite. Extrusive: Rhyolite. Intrusive: Granite."
+  },
+  {
+    "id": "card-050",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Igneous Textures & Cooling Rates",
+    "question": "Explain the key features / significance of: Equigranular / Phaneritic",
+    "answer": "Coarse crystals (>1 mm), uniform slow cooling deep underground (e.g. granite, gabbro)."
+  },
+  {
+    "id": "card-051",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Igneous Textures & Cooling Rates",
+    "question": "Explain the key features / significance of: Aphanitic",
+    "answer": "Fine crystals (<1 mm), rapid cooling at or near surface (e.g. basalt, rhyolite)."
+  },
+  {
+    "id": "card-052",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Igneous Textures & Cooling Rates",
+    "question": "Explain the key features / significance of: Porphyritic",
+    "answer": "Two distinct crystal sizes: large <i>phenocrysts</i> formed during early slow cooling at depth, set in fine <i>groundmass</i> formed during rapid cooling upon ascent/eruption."
+  },
+  {
+    "id": "card-053",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Igneous Textures & Cooling Rates",
+    "question": "Explain the key features / significance of: Glassy (Obsidian)",
+    "answer": "Instantaneous quenching, no time for crystal lattice to form."
+  },
+  {
+    "id": "card-054",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Igneous Textures & Cooling Rates",
+    "question": "Explain the key features / significance of: Vesicular & Amygdaloidal",
+    "answer": "Gas bubbles trapped upon eruption (vesicles e.g. pumice, scoria); later filled by secondary minerals like calcite or quartz (amygdales)."
+  },
+  {
+    "id": "card-055",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Intrusions vs Extrusions (Field Recognition)",
+    "question": "Explain the key features / significance of: Concordant intrusions",
+    "answer": "Parallel to bedding. <i>Sill:</i> Chilled margins top and bottom; baked margins top and bottom; country rock xenoliths; no vesicles."
+  },
+  {
+    "id": "card-056",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Intrusions vs Extrusions (Field Recognition)",
+    "question": "Explain the key features / significance of: Extrusive lava flow",
+    "answer": "Chilled margin only at base; baked margin only below; vesicular, weathered/eroded top; fragments incorporated into overlying sedimentary bed."
+  },
+  {
+    "id": "card-057",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Intrusions vs Extrusions (Field Recognition)",
+    "question": "Explain the key features / significance of: Discordant intrusions",
+    "answer": "Cut across country rock. <i>Dyke</i> (steep tabular sheet), <i>Pluton / Batholith</i> (large discordant magma chamber >100 km²)."
+  },
+  {
+    "id": "card-058",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Contact (Thermal) Metamorphism",
+    "question": "Contact (Thermal) Metamorphism: key facts",
+    "answer": "High temperature, low pressure, isotropic (uniform) confining stress. Occurs in <b>metamorphic aureole</b> surrounding igneous intrusions."
+  },
+  {
+    "id": "card-059",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Contact (Thermal) Metamorphism",
+    "question": "Explain the key features / significance of: Aureole zones in pelitic (shale/mudstone) host rock",
+    "answer": ""
+  },
+  {
+    "id": "card-060",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Contact (Thermal) Metamorphism",
+    "question": "Contact (Thermal) Metamorphism: key facts",
+    "answer": "• Outer zone (lowest temp): <i>Spotted slate / Spotted rock</i> (incipient growth of biotite/cordierite clusters)."
+  },
+  {
+    "id": "card-061",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Contact (Thermal) Metamorphism",
+    "question": "Contact (Thermal) Metamorphism: key facts",
+    "answer": "• Middle zone: <i>Andalusite hornfels</i> (porphyroblasts of chiastolite with carbonaceous cross inclusions)."
+  },
+  {
+    "id": "card-062",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Contact (Thermal) Metamorphism",
+    "question": "Contact (Thermal) Metamorphism: key facts",
+    "answer": "• Inner zone (highest temp): <i>Sillimanite-cordierite hornfels</i> (dense, hard, granoblastic, non-foliated)."
+  },
+  {
+    "id": "card-063",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Contact (Thermal) Metamorphism",
+    "question": "Contact (Thermal) Metamorphism: key facts",
+    "answer": "Pure rocks: Limestone -> Marble (coarse granoblastic calcite); Sandstone -> Metaquartzite (interlocking quartz grains)."
+  },
+  {
+    "id": "card-064",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Regional Metamorphism & Foliation Sequence",
+    "question": "Regional Metamorphism & Foliation Sequence: key facts",
+    "answer": "High directed stress + high confining pressure + elevated temperature. Convergent plate collisions / orogenesis."
+  },
+  {
+    "id": "card-065",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Regional Metamorphism & Foliation Sequence",
+    "question": "Explain the key features / significance of: Barrovian prograde metamorphic zones (pelite sequence)",
+    "answer": ""
+  },
+  {
+    "id": "card-066",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Regional Metamorphism & Foliation Sequence",
+    "question": "Regional Metamorphism & Foliation Sequence: key facts",
+    "answer": "1. <b>Slate:</b> Microscopic platy minerals aligned perpendicular to maximum principal stress (\\(\\sigma_1\\)) -> <i>slaty cleavage</i>."
+  },
+  {
+    "id": "card-067",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Regional Metamorphism & Foliation Sequence",
+    "question": "Regional Metamorphism & Foliation Sequence: key facts",
+    "answer": "2. <b>Phyllite:</b> Fine white mica/chlorite gives a silky lustrous sheen; wavy foliation."
+  },
+  {
+    "id": "card-068",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Regional Metamorphism & Foliation Sequence",
+    "question": "Regional Metamorphism & Foliation Sequence: key facts",
+    "answer": "3. <b>Schist:</b> Medium-coarse visible platy minerals (muscovite/biotite) forming continuous foliation (<i>schistosity</i>); contains porphyroblasts (garnet, staurolite)."
+  },
+  {
+    "id": "card-069",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Regional Metamorphism & Foliation Sequence",
+    "question": "Regional Metamorphism & Foliation Sequence: key facts",
+    "answer": "4. <b>Gneiss:</b> High-grade segregation into alternating light quartzo-feldspathic bands and dark mafic (biotite/hornblende) bands (<i>gneissose banding</i>)."
+  },
+  {
+    "id": "card-070",
+    "topicId": "2.2",
+    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
+    "category": "Regional Metamorphism & Foliation Sequence",
+    "question": "Regional Metamorphism & Foliation Sequence: key facts",
+    "answer": "5. <b>Migmatite:</b> Partial melting of felsic components (anatexis) forming mixed metamorphic-igneous rock."
+  },
+  {
+    "id": "card-071",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Stress, Strain & Orientation",
+    "question": "Explain the key features / significance of: Strike",
+    "answer": "The compass trend of a horizontal line on a dipping planar surface (e.g. 045°)."
+  },
+  {
+    "id": "card-072",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Stress, Strain & Orientation",
+    "question": "Explain the key features / significance of: Dip",
+    "answer": "The maximum angle of inclination measured perpendicular to strike downwards from the horizontal (e.g. 30° SE)."
+  },
+  {
+    "id": "card-073",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Stress, Strain & Orientation",
+    "question": "Explain the key features / significance of: Apparent dip",
+    "answer": "The inclination measured in any non-perpendicular direction to strike; always less than true dip."
+  },
+  {
+    "id": "card-074",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Stress, Strain & Orientation",
+    "question": "Compare and distinguish: Brittle vs Ductile deformation",
+    "answer": "Low temp/confining pressure + fast strain rate = brittle (faults/joints); High temp/pressure + slow strain rate = ductile (folding/ductile shear)."
+  },
+  {
+    "id": "card-075",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Fold Classification & Geometry",
+    "question": "Explain the key features / significance of: Anticline",
+    "answer": "Convex upwards fold with <b>oldest strata in core</b>."
+  },
+  {
+    "id": "card-076",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Fold Classification & Geometry",
+    "question": "Explain the key features / significance of: Syncline",
+    "answer": "Concave upwards fold with <b>youngest strata in core</b>."
+  },
+  {
+    "id": "card-077",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Fold Classification & Geometry",
+    "question": "Explain the key features / significance of: Symmetrical fold",
+    "answer": "Axial plane is vertical; limbs dip in opposite directions at equal angles."
+  },
+  {
+    "id": "card-078",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Fold Classification & Geometry",
+    "question": "Explain the key features / significance of: Asymmetrical fold",
+    "answer": "Axial plane is inclined; limbs dip at different angles."
+  },
+  {
+    "id": "card-079",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Fold Classification & Geometry",
+    "question": "Explain the key features / significance of: Overturned fold",
+    "answer": "One limb is tilted beyond vertical so strata are inverted (younger below older)."
+  },
+  {
+    "id": "card-080",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Fold Classification & Geometry",
+    "question": "Explain the key features / significance of: Recumbent fold",
+    "answer": "Axial plane is horizontal or sub-horizontal (dip <10°)."
+  },
+  {
+    "id": "card-081",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Fold Classification & Geometry",
+    "question": "Explain the key features / significance of: Plunging fold",
+    "answer": "Fold hinge line is inclined to the horizontal; produces V-shaped or U-shaped outcrop pattern on flat terrain. Anticlines plunge towards the closed apex of the V; synclines plunge towards the open end."
+  },
+  {
+    "id": "card-082",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Fault Mechanics & Identification",
+    "question": "Explain the key features / significance of: Normal fault",
+    "answer": "Extensional stress (\\(\\sigma_1\\) vertical). <b>Hanging wall moves down</b> relative to footwall. Lengthens crust. Omits strata on maps."
+  },
+  {
+    "id": "card-083",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Fault Mechanics & Identification",
+    "question": "Explain the key features / significance of: Reverse fault",
+    "answer": "Compressional stress (\\(\\sigma_1\\) horizontal). <b>Hanging wall moves up</b> relative to footwall (dip >45°). Shortens crust. Duplicates strata."
+  },
+  {
+    "id": "card-084",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Fault Mechanics & Identification",
+    "question": "Explain the key features / significance of: Thrust fault",
+    "answer": "Low-angle reverse fault (dip <45°); places older rocks over younger rocks over large lateral distances."
+  },
+  {
+    "id": "card-085",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Fault Mechanics & Identification",
+    "question": "Explain the key features / significance of: Strike-slip (tear) fault",
+    "answer": "Shear stress (\\(\\sigma_2\\) vertical). Lateral displacement (dextral = clockwise/right-lateral; sinistral = anticlockwise/left-lateral)."
+  },
+  {
+    "id": "card-086",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Fault Mechanics & Identification",
+    "question": "Explain the key features / significance of: Field & map evidence for faulting",
+    "answer": "Truncation and offset of beds, slickensides (grooves showing movement direction), fault breccia / fault gouge, drag folds (limbs flexed towards fault movement), spring lines."
+  },
+  {
+    "id": "card-087",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Unconformities & The Rule of V's",
+    "question": "Explain the key features / significance of: Angular unconformity",
+    "answer": "Gap in geological record where tilted/folded older rocks are eroded and overlain by flatter younger rocks."
+  },
+  {
+    "id": "card-088",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Unconformities & The Rule of V's",
+    "question": "Unconformities & The Rule of V's: key facts",
+    "answer": "• Evidence: Truncation of beds below, dip discordance, basal conglomerate containing pebbles derived from underlying unit."
+  },
+  {
+    "id": "card-089",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Unconformities & The Rule of V's",
+    "question": "State the principle/formula for: Rule of V's (Map Outcrop Pattern across Valleys)",
+    "answer": ""
+  },
+  {
+    "id": "card-090",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Unconformities & The Rule of V's",
+    "question": "Unconformities & The Rule of V's: key facts",
+    "answer": "• Horizontal beds: Contour parallel; outcrop bands follow contours."
+  },
+  {
+    "id": "card-091",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Unconformities & The Rule of V's",
+    "question": "Unconformities & The Rule of V's: key facts",
+    "answer": "• Vertical beds: Straight lines across topography regardless of valleys/hills."
+  },
+  {
+    "id": "card-092",
+    "topicId": "2.3",
+    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
+    "category": "Unconformities & The Rule of V's",
+    "question": "Unconformities & The Rule of V's: key facts",
+    "answer": "• Dipping beds: V points in the direction of dip down a valley, UNLESS the bed dips downstream at a lower angle than the valley gradient."
+  },
+  {
+    "id": "card-093",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Fossil Preservation & Taphonomy",
+    "question": "Explain the key features / significance of: Fossil",
+    "answer": "Any preserved remains, impression, or trace of organisms from past geological ages."
+  },
+  {
+    "id": "card-094",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Fossil Preservation & Taphonomy",
+    "question": "Explain the key features / significance of: Favourable preservation factors",
+    "answer": "Hard skeleton/shell (calcite, silica, apatite), rapid burial (prevents scavenging and mechanical destruction), low energy environment, anoxic bottom waters (inhibits bacterial decay)."
+  },
+  {
+    "id": "card-095",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Fossil Preservation & Taphonomy",
+    "question": "Explain the key features / significance of: Preservation modes",
+    "answer": ""
+  },
+  {
+    "id": "card-096",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Fossil Preservation & Taphonomy",
+    "question": "Fossil Preservation & Taphonomy: key facts",
+    "answer": "• <i>Replacement / Petrifaction:</i> Original mineral replaced molecule by molecule (e.g. pyritisation, silicification)."
+  },
+  {
+    "id": "card-097",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Fossil Preservation & Taphonomy",
+    "question": "Fossil Preservation & Taphonomy: key facts",
+    "answer": "• <i>Recrystallisation:</i> Unstable aragonite converts to coarse calcite crystals."
+  },
+  {
+    "id": "card-098",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Fossil Preservation & Taphonomy",
+    "question": "Fossil Preservation & Taphonomy: key facts",
+    "answer": "• <i>Moulds & Casts:</i> Shell dissolves leaving external mould (impressing wall) and internal mould (steinkern); infilled with sediment/mineral = cast."
+  },
+  {
+    "id": "card-099",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Fossil Preservation & Taphonomy",
+    "question": "Fossil Preservation & Taphonomy: key facts",
+    "answer": "• <i>Carbonisation:</i> Volatiles expelled leaving thin black carbon film (plants, graptolites)."
+  },
+  {
+    "id": "card-100",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Fossil Preservation & Taphonomy",
+    "question": "Fossil Preservation & Taphonomy: key facts",
+    "answer": "• <i>Trace fossils (ichnofossils):</i> Tracks, trails, burrows, coprolites, borings; classify behavior (feeding, dwelling, resting, locomotion)."
+  },
+  {
+    "id": "card-101",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Life Assemblage vs Death Assemblage",
+    "question": "Explain the key features / significance of: Life Assemblage (In Situ / Biocoenosis)",
+    "answer": ""
+  },
+  {
+    "id": "card-102",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Life Assemblage vs Death Assemblage",
+    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "answer": "• Organisms preserved in living position (e.g. upright corals, bivalves in burrows)."
+  },
+  {
+    "id": "card-103",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Life Assemblage vs Death Assemblage",
+    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "answer": "• Articulated multi-part skeletons (complete trilobites with free cheeks attached; bivalves with valves closed)."
+  },
+  {
+    "id": "card-104",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Life Assemblage vs Death Assemblage",
+    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "answer": "• Wide size distribution / growth stages (juveniles and adults together)."
+  },
+  {
+    "id": "card-105",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Life Assemblage vs Death Assemblage",
+    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "answer": "• Unbroken, unworn delicate spines/frills preserved."
+  },
+  {
+    "id": "card-106",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Life Assemblage vs Death Assemblage",
+    "question": "Explain the key features / significance of: Death Assemblage (Transported / Thanatocoenosis)",
+    "answer": ""
+  },
+  {
+    "id": "card-107",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Life Assemblage vs Death Assemblage",
+    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "answer": "• Disarticulated valves/segments (isolated bivalve valves, separated trilobite cranidia/pygidia)."
+  },
+  {
+    "id": "card-108",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Life Assemblage vs Death Assemblage",
+    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "answer": "• Hydrodynamically sorted (all shells same size/weight)."
+  },
+  {
+    "id": "card-109",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Life Assemblage vs Death Assemblage",
+    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "answer": "• Broken, abraded, rounded shell fragments."
+  },
+  {
+    "id": "card-110",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Life Assemblage vs Death Assemblage",
+    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "answer": "• Current alignment of elongate fossils (graptolites, belemnites, tentaculites)."
+  },
+  {
+    "id": "card-111",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Key Fossil Groups & Paleoecological Morphologies",
+    "question": "Explain the key features / significance of: Trilobites (Arthropods, Cambrian–Permian)",
+    "answer": "Cephalon (head), thorax (segmented), pygidium (tail). Glabella, compound eyes, facial sutures. Pelagic/swimmer (huge eyes, streamlined), Benthic crawler (medium eyes, sturdy legs), Burrower (no eyes, spade-shaped cephalon)."
+  },
+  {
+    "id": "card-112",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Key Fossil Groups & Paleoecological Morphologies",
+    "question": "Explain the key features / significance of: Brachiopods (Cambrian–Recent)",
+    "answer": "Bilateral symmetry perpendicular to hinge line (plane cuts through middle of both valves). Pedicle valve larger with pedicle foramen (anchored to sea floor), brachial valve supports lophophore filter-feeding organ."
+  },
+  {
+    "id": "card-113",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Key Fossil Groups & Paleoecological Morphologies",
+    "question": "Explain the key features / significance of: Bivalves (Molluscs, Cambrian–Recent)",
+    "answer": "Bilateral symmetry between the two valves (valves are mirror images of each other). Pallial sinus presence = deep burrower with retractable siphons; thick ribbed shell = high energy shallow marine."
+  },
+  {
+    "id": "card-114",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Key Fossil Groups & Paleoecological Morphologies",
+    "question": "Explain the key features / significance of: Corals (Cnidarians)",
+    "answer": "Calcareous skeleton (corallite), septa (radiating radial plates), tabulae (horizontal floor plates). Solitary (horn corals e.g. Zaphrentis) vs colonial. Shallow, warm (>20°C), clear, agitated, normal marine salinity reef environments."
+  },
+  {
+    "id": "card-115",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
+    "category": "Key Fossil Groups & Paleoecological Morphologies",
+    "question": "Explain the key features / significance of: Graptolites (Hemichordates, Cambrian–Devonian)",
+    "answer": "Planktonic colonial organisms. Stipes composed of thecae housing zooids. Rapid morphological evolution: Ordovician multi-stiped pendent/horizontal -> Silurian single-stiped scandent (Monograptus). Excellent zone fossils for deep marine shales."
+  },
+  {
+    "id": "card-116",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Principles of Relative Dating",
+    "question": "Explain the key features / significance of: Law of Superposition",
+    "answer": "In undeformed sedimentary/volcanic sequence, oldest bed at bottom, youngest at top."
+  },
+  {
+    "id": "card-117",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Principles of Relative Dating",
+    "question": "Explain the key features / significance of: Principle of Original Horizontality",
+    "answer": "Sediments are deposited under gravity in flat, horizontal layers; tilting/folding occurred post-deposition."
+  },
+  {
+    "id": "card-118",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Principles of Relative Dating",
+    "question": "Explain the key features / significance of: Cross-cutting relationships",
+    "answer": "Any feature (fault, igneous intrusion, mineral vein, unconformity) that cuts across another rock unit is <b>younger</b> than the rock it cuts."
+  },
+  {
+    "id": "card-119",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Principles of Relative Dating",
+    "question": "Explain the key features / significance of: Principle of Inclusions",
+    "answer": "Fragments (xenoliths in igneous rocks; pebbles in conglomerates) are always <b>older</b> than the rock containing them."
+  },
+  {
+    "id": "card-120",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Way-Up Evidence (Top/Bottom Criteria)",
+    "question": "Explain the key features / significance of: Sedimentary way-up",
+    "answer": "Cross-bedding truncation (eroded at top), Graded bedding (coarse at bottom, fine at top), Ripple crests (point up), Mudcracks (V points down), Flute casts/load casts (bulbous downward projections on bed base)."
+  },
+  {
+    "id": "card-121",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Way-Up Evidence (Top/Bottom Criteria)",
+    "question": "Explain the key features / significance of: Volcanic way-up",
+    "answer": "Pillow lavas (convex rounded top, cusped/keeled base fitting into underlying pillow), baked margin on bottom of flow only, vesicular zone at flow top."
+  },
+  {
+    "id": "card-122",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Way-Up Evidence (Top/Bottom Criteria)",
+    "question": "Explain the key features / significance of: Paleontological way-up",
+    "answer": "Plant roots branching downwards; corals growing upright."
+  },
+  {
+    "id": "card-123",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Biostratigraphy & Ideal Zone Fossils",
+    "question": "Explain the key features / significance of: Characteristics of an ideal Index / Zone Fossil",
+    "answer": ""
+  },
+  {
+    "id": "card-124",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Biostratigraphy & Ideal Zone Fossils",
+    "question": "Biostratigraphy & Ideal Zone Fossils: key facts",
+    "answer": "1. <b>Rapid evolution:</b> Short stratigraphic range (precise dating)."
+  },
+  {
+    "id": "card-125",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Biostratigraphy & Ideal Zone Fossils",
+    "question": "Biostratigraphy & Ideal Zone Fossils: key facts",
+    "answer": "2. <b>Geographically widespread:</b> Found across basins and continents."
+  },
+  {
+    "id": "card-126",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Biostratigraphy & Ideal Zone Fossils",
+    "question": "Biostratigraphy & Ideal Zone Fossils: key facts",
+    "answer": "3. <b>Abundant:</b> Easily found in rock exposures and drill cores."
+  },
+  {
+    "id": "card-127",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Biostratigraphy & Ideal Zone Fossils",
+    "question": "Biostratigraphy & Ideal Zone Fossils: key facts",
+    "answer": "4. <b>Easily identifiable:</b> Distinct morphological features."
+  },
+  {
+    "id": "card-128",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Biostratigraphy & Ideal Zone Fossils",
+    "question": "Biostratigraphy & Ideal Zone Fossils: key facts",
+    "answer": "5. <b>Facies-independent:</b> Pelagic / planktonic (floated in water column, found in many sediment types)."
+  },
+  {
+    "id": "card-129",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Biostratigraphy & Ideal Zone Fossils",
+    "question": "Explain the key features / significance of: Best index fossils",
+    "answer": "Graptolites (Ordovician–Silurian), Ammonites (Devonian–Cretaceous), Microfossils/Conodonts/Foraminifera (Phanerozoic)."
+  },
+  {
+    "id": "card-130",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Radiometric Absolute Dating",
+    "question": "Explain the key features / significance of: Radioactive decay",
+    "answer": "Unstable parent isotope decays to stable radiogenic daughter isotope at a constant exponential rate unaffected by heat, pressure, or chemistry."
+  },
+  {
+    "id": "card-131",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Radiometric Absolute Dating",
+    "question": "Explain the key features / significance of: Half-life (t1/2)",
+    "answer": "Time taken for half the radioactive parent atoms to decay."
+  },
+  {
+    "id": "card-132",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Radiometric Absolute Dating",
+    "question": "Radiometric Absolute Dating: key facts",
+    "answer": "• Decay stages: 0 half-lives (100% P) -> 1 (50% P, 50% D) -> 2 (25% P, 75% D) -> 3 (12.5% P, 87.5% D)."
+  },
+  {
+    "id": "card-133",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Radiometric Absolute Dating",
+    "question": "Explain the key features / significance of: Closure temperature",
+    "answer": "The temperature below which isotopes can no longer diffuse out of the crystal lattice. If rock is reheated during metamorphism above closure temp, radiogenic daughter escapes and radiometric clock is <b>reset</b>."
+  },
+  {
+    "id": "card-134",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Radiometric Absolute Dating",
+    "question": "Explain the key features / significance of: Key isotope systems",
+    "answer": ""
+  },
+  {
+    "id": "card-135",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Radiometric Absolute Dating",
+    "question": "Radiometric Absolute Dating: key facts",
+    "answer": "• <i>K-Ar / Ar-Ar:</i> K-40 decays to Ar-40 (t1/2 = 1.25 Ga). Dating igneous/metamorphic biotite, hornblende, sanidine."
+  },
+  {
+    "id": "card-136",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Radiometric Absolute Dating",
+    "question": "Radiometric Absolute Dating: key facts",
+    "answer": "• <i>U-Pb:</i> U-238/U-235 in Zircon. Zircon has very high closure temp (>900°C), retains primary crystallisation age."
+  },
+  {
+    "id": "card-137",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
+    "category": "Radiometric Absolute Dating",
+    "question": "Radiometric Absolute Dating: key facts",
+    "answer": "• <i>Carbon-14:</i> t1/2 = 5,730 yrs. Only dates organic material up to ~50,000 years (Quaternary)."
+  },
+  {
+    "id": "card-138",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Seismic Waves & Propagation",
+    "question": "Explain the key features / significance of: P-waves (Primary / Compressional)",
+    "answer": "Longitudinal particle motion parallel to wave propagation. Travel through solids and liquids. Fastest wave (~6–13 km/s)."
+  },
+  {
+    "id": "card-139",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Seismic Waves & Propagation",
+    "question": "Explain the key features / significance of: S-waves (Secondary / Shear)",
+    "answer": "Transverse particle motion perpendicular to wave propagation. Shear elastic resistance only. <b>Cannot travel through liquids or gases</b> (velocity drops to zero). Slower than P-waves (~3.5–7 km/s)."
+  },
+  {
+    "id": "card-140",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Seismic Waves & Propagation",
+    "question": "Explain the key features / significance of: Ray Paths & Velocity",
+    "answer": "In a homogeneous solid, velocity increases with depth due to rising rigidity and incompressibility exceeding density increase -> seismic rays refract/bend upwards."
+  },
+  {
+    "id": "card-141",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Earth's Internal Discontinuities & Layers",
+    "question": "Explain the key features / significance of: Moho (Mohorovičić Discontinuity)",
+    "answer": "Crust-mantle boundary. P-wave velocity jumps abruptly from ~6.0 km/s (crust) to ~8.0 km/s (peridotite mantle)."
+  },
+  {
+    "id": "card-142",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Earth's Internal Discontinuities & Layers",
+    "question": "Earth's Internal Discontinuities & Layers: key facts",
+    "answer": "• Continental crust: 30–70 km thick, granitic/felsic, density ~2.7 g/cm³."
+  },
+  {
+    "id": "card-143",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Earth's Internal Discontinuities & Layers",
+    "question": "Earth's Internal Discontinuities & Layers: key facts",
+    "answer": "• Oceanic crust: 5–10 km thick, basaltic/gabbroic, density ~3.0 g/cm³."
+  },
+  {
+    "id": "card-144",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Earth's Internal Discontinuities & Layers",
+    "question": "Explain the key features / significance of: Low Velocity Zone (LVZ / Asthenosphere)",
+    "answer": "Depth 100–250 km. P and S velocities dip slightly due to 1–2% partial melting; ductile, allows tectonic plate movement."
+  },
+  {
+    "id": "card-145",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Earth's Internal Discontinuities & Layers",
+    "question": "Explain the key features / significance of: Gutenberg Discontinuity (Core-Mantle Boundary / CMB, 2900 km)",
+    "answer": ""
+  },
+  {
+    "id": "card-146",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Earth's Internal Discontinuities & Layers",
+    "question": "Earth's Internal Discontinuities & Layers: key facts",
+    "answer": "• P-wave velocity drops sharply from ~13.7 km/s to ~8.1 km/s."
+  },
+  {
+    "id": "card-147",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Earth's Internal Discontinuities & Layers",
+    "question": "Earth's Internal Discontinuities & Layers: key facts",
+    "answer": "• <b>S-wave velocity drops to zero</b> -> proves the <b>outer core is liquid</b>."
+  },
+  {
+    "id": "card-148",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Earth's Internal Discontinuities & Layers",
+    "question": "Explain the key features / significance of: Lehmann Discontinuity (Inner Core Boundary, 5150 km)",
+    "answer": "P-wave velocity jumps from ~10.3 km/s to ~11.2 km/s -> confirms <b>solid inner core</b> (high pressure prevents melting)."
+  },
+  {
+    "id": "card-149",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Seismic Shadow Zones",
+    "question": "Explain the key features / significance of: P-wave shadow zone (103° to 142°)",
+    "answer": "Caused by severe refraction (bending inwards) of P-waves entering the slower liquid outer core at the Gutenberg discontinuity."
+  },
+  {
+    "id": "card-150",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Seismic Shadow Zones",
+    "question": "Explain the key features / significance of: S-wave shadow zone (103° to 180°)",
+    "answer": "Complete absence of direct S-waves beyond 103° on either side of earthquake focus because S-waves cannot travel through the liquid outer core."
+  },
+  {
+    "id": "card-151",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Isostasy & Gravity",
+    "question": "Explain the key features / significance of: Isostasy",
+    "answer": "Gravitational equilibrium between Earth's lithosphere floating on the denser asthenosphere."
+  },
+  {
+    "id": "card-152",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Isostasy & Gravity",
+    "question": "Explain the key features / significance of: Airy hypothesis",
+    "answer": "Uniform crustal density, varying root depth (tall mountains have deep buoyant crustal roots)."
+  },
+  {
+    "id": "card-153",
+    "topicId": "4.1",
+    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
+    "category": "Isostasy & Gravity",
+    "question": "Explain the key features / significance of: Post-glacial rebound",
+    "answer": "Melting of continental ice sheets causes lithosphere to slowly uplift as asthenosphere flows back in."
+  },
+  {
+    "id": "card-154",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Continental Drift & Paleomagnetism",
+    "question": "What is the Evidence for drift?",
+    "answer": "Continental shelf jigsaw fit, matching fossil distributions (Glossopteris flora, Mesosaurus), matching mountain belts across Atlantic, late Paleozoic glacial striations and tillites across southern continents (Gondwana)."
+  },
+  {
+    "id": "card-155",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Continental Drift & Paleomagnetism",
+    "question": "Explain the key features / significance of: Remanent Magnetism",
+    "answer": "As mafic lava cools below the <b>Curie point of magnetite (~580°C)</b>, magnetic dipoles align with Earth's current magnetic field and lock in."
+  },
+  {
+    "id": "card-156",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Continental Drift & Paleomagnetism",
+    "question": "Explain the key features / significance of: Seafloor Spreading (Vine-Matthews-Morley)",
+    "answer": "Symmetrical marine magnetic anomalies ('stripes' of normal and reversed polarities) parallel to mid-ocean ridges. Ocean crust age increases symmetrically away from ridge axis."
+  },
+  {
+    "id": "card-157",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Plate Boundaries & Characteristic Features",
+    "question": "Explain the key features / significance of: Divergent (Constructive)",
+    "answer": "Decompression melting of asthenospheric mantle -> basaltic volcanism, pillow lavas, sheeted dykes, normal fault grabens, shallow earthquakes (e.g. Mid-Atlantic Ridge, East African Rift)."
+  },
+  {
+    "id": "card-158",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Plate Boundaries & Characteristic Features",
+    "question": "Explain the key features / significance of: Convergent (Destructive) - Ocean/Continent (Andean)",
+    "answer": ""
+  },
+  {
+    "id": "card-159",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Plate Boundaries & Characteristic Features",
+    "question": "Plate Boundaries & Characteristic Features: key facts",
+    "answer": "• Subducting slab creates deep ocean trench and <b>Benioff zone</b> (earthquakes from shallow to deep down to 700 km)."
+  },
+  {
+    "id": "card-160",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Plate Boundaries & Characteristic Features",
+    "question": "Plate Boundaries & Characteristic Features: key facts",
+    "answer": "• Flux melting (water released by dehydration of slab lowers mantle solidus) produces intermediate andesitic/dacitic arc volcanism."
+  },
+  {
+    "id": "card-161",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Plate Boundaries & Characteristic Features",
+    "question": "Plate Boundaries & Characteristic Features: key facts",
+    "answer": "• Accretionary wedge of scraped-off sediments."
+  },
+  {
+    "id": "card-162",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Plate Boundaries & Characteristic Features",
+    "question": "Explain the key features / significance of: Convergent - Continent/Continent (Himalayan)",
+    "answer": "Intense crustal shortening, folding, reverse/thrust faults, regional metamorphism, high mountain plateau, no volcanism, shallow/intermediate earthquakes."
+  },
+  {
+    "id": "card-163",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Plate Boundaries & Characteristic Features",
+    "question": "Explain the key features / significance of: Conservative / Transform",
+    "answer": "Lateral displacement, strike-slip faulting, shallow earthquakes, no volcanism (e.g. San Andreas Fault)."
+  },
+  {
+    "id": "card-164",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Plate Driving Forces",
+    "question": "Explain the key features / significance of: Slab Pull",
+    "answer": "Cold, dense, subducted oceanic lithosphere undergoes eclogite metamorphism (very dense), sinking into asthenosphere under gravity and pulling the rest of the plate behind it. <b>Dominant driving force (>90%).</b>"
+  },
+  {
+    "id": "card-165",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Plate Driving Forces",
+    "question": "Explain the key features / significance of: Ridge Push",
+    "answer": "Gravitational sliding of elevated, buoyant newly formed oceanic crust at mid-ocean ridge downslope away from the ridge axis."
+  },
+  {
+    "id": "card-166",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Plate Driving Forces",
+    "question": "Explain the key features / significance of: Basal Drag",
+    "answer": "Minor traction from mantle convection currents dragging base of lithospheric plate."
+  },
+  {
+    "id": "card-167",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Hotspots & Mantle Plumes",
+    "question": "Hotspots & Mantle Plumes: key facts",
+    "answer": "Stationary thermal upwellings originating from core-mantle boundary (D'' layer)."
+  },
+  {
+    "id": "card-168",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Hotspots & Mantle Plumes",
+    "question": "Hotspots & Mantle Plumes: key facts",
+    "answer": "As tectonic plate moves over the fixed hotspot, a <b>linear chain of volcanoes</b> forms with progressive age increase away from the active volcanic centre (e.g. Hawaiian-Emperor seamount chain)."
+  },
+  {
+    "id": "card-169",
+    "topicId": "4.2",
+    "topicTitle": "Topic 4.2 · Global Tectonics",
+    "category": "Hotspots & Mantle Plumes",
+    "question": "Hotspots & Mantle Plumes: key facts",
+    "answer": "Direction of plate motion is towards the oldest volcano; rate of plate motion = distance / age difference."
+  },
+  {
+    "id": "card-170",
+    "topicId": "G1.1",
+    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
+    "category": "Magma Generation Mechanisms",
+    "question": "Explain the key features / significance of: Decompression melting",
+    "answer": "Upward movement of solid mantle peridotite without loss of heat (adiabatic) crosses solidus. Occurs at mid-ocean ridges and hotspots."
+  },
+  {
+    "id": "card-171",
+    "topicId": "G1.1",
+    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
+    "category": "Magma Generation Mechanisms",
+    "question": "State the principle/formula for: Flux melting (hydration)",
+    "answer": "Subducting oceanic slab dewaters (serpentinite/clays break down); water enters overlying mantle wedge, lowering solidus temperature below ambient temperature. Occurs at subduction zones."
+  },
+  {
+    "id": "card-172",
+    "topicId": "G1.1",
+    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
+    "category": "Magma Generation Mechanisms",
+    "question": "Explain the key features / significance of: Thermal melting",
+    "answer": "Conductive heat transfer from hot basaltic magma underplating crust melts continental crust."
+  },
+  {
+    "id": "card-173",
+    "topicId": "G1.1",
+    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
+    "category": "Magmatic Differentiation Processes",
+    "question": "Explain the key features / significance of: Fractional crystallisation / Crystal settling",
+    "answer": "Early-formed dense mafic minerals (olivine, Ca-plagioclase, pyroxene) settle out of liquid under gravity, depleting magma in Mg, Fe, Ca and enriching remaining liquid in Si, Na, K."
+  },
+  {
+    "id": "card-174",
+    "topicId": "G1.1",
+    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
+    "category": "Magmatic Differentiation Processes",
+    "question": "Explain the key features / significance of: Crustal assimilation",
+    "answer": "Hot rising magma melts and incorporates wall rock (xenolith digestion), shifting magma towards more silicic composition."
+  },
+  {
+    "id": "card-175",
+    "topicId": "G1.1",
+    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
+    "category": "Magmatic Differentiation Processes",
+    "question": "Explain the key features / significance of: Magma mixing",
+    "answer": "Influx of primitive mafic magma into evolving silicic chamber creates intermediate hybrids with mixed phenocrysts (e.g. resorbed quartz beside calcic plagioclase)."
+  },
+  {
+    "id": "card-176",
+    "topicId": "G1.1",
+    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
+    "category": "Magmatic Differentiation Processes",
+    "question": "Explain the key features / significance of: Liquid immiscibility",
+    "answer": "Magma splits into two unmixable liquids (e.g. sulfide-rich melt and silicate-rich melt)."
+  },
+  {
+    "id": "card-177",
+    "topicId": "G1.1",
+    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
+    "category": "Phase Diagrams & The Lever Rule",
+    "question": "Explain the key features / significance of: Binary Eutectic System (e.g. Diopside-Anorthite)",
+    "answer": ""
+  },
+  {
+    "id": "card-178",
+    "topicId": "G1.1",
+    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
+    "category": "Phase Diagrams & The Lever Rule",
+    "question": "Phase Diagrams & The Lever Rule: key facts",
+    "answer": "• <i>Liquidus:</i> Curve above which system is completely liquid."
+  },
+  {
+    "id": "card-179",
+    "topicId": "G1.1",
+    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
+    "category": "Phase Diagrams & The Lever Rule",
+    "question": "Phase Diagrams & The Lever Rule: key facts",
+    "answer": "• <i>Solidus:</i> Line below which system is completely solid."
+  },
+  {
+    "id": "card-180",
+    "topicId": "G1.1",
+    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
+    "category": "Phase Diagrams & The Lever Rule",
+    "question": "Phase Diagrams & The Lever Rule: key facts",
+    "answer": "• <i>Eutectic point:</i> Minimum melting temperature where liquid and both solid phases coexist at equilibrium. Final liquid always crystallises at eutectic composition."
+  },
+  {
+    "id": "card-181",
+    "topicId": "G1.1",
+    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
+    "category": "Phase Diagrams & The Lever Rule",
+    "question": "State the principle/formula for: Lever Rule calculation",
+    "answer": "Ratio of solid to liquid at any temperature: \\(\\% \text{Solid} = \frac{\text{Distance to Liquidus}}{\text{Total tie-line width}} \times 100\\)."
+  },
+  {
+    "id": "card-182",
+    "topicId": "G1.2",
+    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
+    "category": "Metamorphic Facies & Tectonic Settings",
+    "question": "Explain the key features / significance of: Zeolite & Prehnite-Pumpellyite",
+    "answer": "Low P, low T; burial metamorphism."
+  },
+  {
+    "id": "card-183",
+    "topicId": "G1.2",
+    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
+    "category": "Metamorphic Facies & Tectonic Settings",
+    "question": "Explain the key features / significance of: Greenschist",
+    "answer": "Moderate P, moderate T (300–450°C). Key minerals: Chlorite, actinolite, albite, epidote."
+  },
+  {
+    "id": "card-184",
+    "topicId": "G1.2",
+    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
+    "category": "Metamorphic Facies & Tectonic Settings",
+    "question": "Explain the key features / significance of: Amphibolite",
+    "answer": "Moderate-high P, high T (500–700°C). Key minerals: Hornblende, plagioclase, garnet, staurolite."
+  },
+  {
+    "id": "card-185",
+    "topicId": "G1.2",
+    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
+    "category": "Metamorphic Facies & Tectonic Settings",
+    "question": "Explain the key features / significance of: Granulite",
+    "answer": "High T (>750°C), anhydrous, deep continental crust. Key minerals: Pyroxene, sillimanite, garnet, perthitic feldspar."
+  },
+  {
+    "id": "card-186",
+    "topicId": "G1.2",
+    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
+    "category": "Metamorphic Facies & Tectonic Settings",
+    "question": "Explain the key features / significance of: Blueschist",
+    "answer": "High P, low T. Subducting slab at ocean trenches. Key diagnostic mineral: <b>Glaucophane</b> (blue sodic amphibole)."
+  },
+  {
+    "id": "card-187",
+    "topicId": "G1.2",
+    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
+    "category": "Metamorphic Facies & Tectonic Settings",
+    "question": "Explain the key features / significance of: Eclogite",
+    "answer": "Ultra-high P, high T. Deeply subducted crust. Key minerals: <b>Omphacite</b> (green sodic pyroxene) + <b>Pyrope garnet</b> (pink)."
+  },
+  {
+    "id": "card-188",
+    "topicId": "G1.2",
+    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
+    "category": "Microtextures & Shear-Sense Indicators",
+    "question": "Explain the key features / significance of: Porphyroblastic & Poikiloblastic",
+    "answer": "Large metamorphic crystals (e.g. garnet, staurolite, andalusite) containing inclusions of earlier matrix minerals (sieve texture)."
+  },
+  {
+    "id": "card-189",
+    "topicId": "G1.2",
+    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
+    "category": "Microtextures & Shear-Sense Indicators",
+    "question": "Explain the key features / significance of: Helicitic / Snowball Garnet",
+    "answer": "Sigmoidal spiral trails of quartz inclusions inside garnet prove crystal rotated during ductile shear (syn-tectonic growth)."
+  },
+  {
+    "id": "card-190",
+    "topicId": "G1.2",
+    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
+    "category": "Microtextures & Shear-Sense Indicators",
+    "question": "Explain the key features / significance of: Mylonites",
+    "answer": "Intense ductile grain-size reduction in shear zones. Features: Ribbon quartz, dynamically recrystallised mortar texture."
+  },
+  {
+    "id": "card-191",
+    "topicId": "G1.2",
+    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
+    "category": "Microtextures & Shear-Sense Indicators",
+    "question": "Explain the key features / significance of: Rotated Porphyroclasts",
+    "answer": ""
+  },
+  {
+    "id": "card-192",
+    "topicId": "G1.2",
+    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
+    "category": "Microtextures & Shear-Sense Indicators",
+    "question": "Microtextures & Shear-Sense Indicators: key facts",
+    "answer": "• <i>Sigma (\\(\\sigma\\)) clasts:</i> Tails / wings extend symmetrically into foliation; indicate shear sense."
+  },
+  {
+    "id": "card-193",
+    "topicId": "G1.2",
+    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
+    "category": "Microtextures & Shear-Sense Indicators",
+    "question": "Microtextures & Shear-Sense Indicators: key facts",
+    "answer": "• <i>Delta (\\(\\delta\\)) clasts:</i> Tails curved and wrapped around porphyroclast from significant rotation."
+  },
+  {
+    "id": "card-194",
+    "topicId": "G1.3",
+    "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
+    "category": "Bouma Sequence (Turbidite Deposition)",
+    "question": "Bouma Sequence (Turbidite Deposition): key facts",
+    "answer": "Formed by decelerating subaqueous density flow in deep marine environment."
+  },
+  {
+    "id": "card-195",
+    "topicId": "G1.3",
+    "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
+    "category": "Bouma Sequence (Turbidite Deposition)",
+    "question": "Explain the key features / significance of: Ta division",
+    "answer": "Massive to normally graded coarse sandstone/gravel, sharp erosive base with sole marks (flute casts, groove casts)."
+  },
+  {
+    "id": "card-196",
+    "topicId": "G1.3",
+    "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
+    "category": "Bouma Sequence (Turbidite Deposition)",
+    "question": "Explain the key features / significance of: Tb division",
+    "answer": "Parallel plane-laminated sandstone (upper flow regime flat bed)."
+  },
+  {
+    "id": "card-197",
+    "topicId": "G1.3",
+    "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
+    "category": "Bouma Sequence (Turbidite Deposition)",
+    "question": "Explain the key features / significance of: Tc division",
+    "answer": "Ripple cross-laminated or climbing ripple sandstone/siltstone with convolute lamination (lower flow regime)."
+  },
+  {
+    "id": "card-198",
+    "topicId": "G1.3",
+    "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
+    "category": "Bouma Sequence (Turbidite Deposition)",
+    "question": "Explain the key features / significance of: Td division",
+    "answer": "Parallel laminated siltstone."
+  },
+  {
+    "id": "card-199",
+    "topicId": "G1.3",
+    "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
+    "category": "Bouma Sequence (Turbidite Deposition)",
+    "question": "Explain the key features / significance of: Te division",
+    "answer": "Structureless hemipelagic clay/mud."
+  },
+  {
+    "id": "card-200",
+    "topicId": "G1.3",
+    "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
+    "category": "Paleocurrent Vector Mean & Distributions",
+    "question": "Explain the key features / significance of: Paleocurrent measurements",
+    "answer": "Flute casts, cross-bed dips, ripple crests, parting lineations."
+  },
+  {
+    "id": "card-201",
+    "topicId": "G1.3",
+    "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
+    "category": "Paleocurrent Vector Mean & Distributions",
+    "question": "Paleocurrent Vector Mean & Distributions: key facts",
+    "answer": "• Unimodal distribution (rose diagram with one strong direction): Fluvial / river channel or delta."
+  },
+  {
+    "id": "card-202",
+    "topicId": "G1.3",
+    "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
+    "category": "Paleocurrent Vector Mean & Distributions",
+    "question": "Paleocurrent Vector Mean & Distributions: key facts",
+    "answer": "• Bimodal / bipolar distribution (two opposite peaks 180° apart): Tidal marine shelf (flood and ebb tides)."
+  },
+  {
+    "id": "card-203",
+    "topicId": "G1.3",
+    "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
+    "category": "Paleocurrent Vector Mean & Distributions",
+    "question": "Paleocurrent Vector Mean & Distributions: key facts",
+    "answer": "• Polymodal / random: Deep ocean pelagic or aeolian variable dune."
+  },
+  {
+    "id": "card-204",
+    "topicId": "G2",
+    "topicTitle": "Topic G2 · Rock Deformation & Structures",
+    "category": "Stress & Strain Ellipsoids",
+    "question": "Explain the key features / significance of: Stress",
+    "answer": "Force applied per unit area. Three mutually perpendicular principal stress axes: \\(\\sigma_1\\) (maximum), \\(\\sigma_2\\) (intermediate), \\(\\sigma_3\\) (minimum)."
+  },
+  {
+    "id": "card-205",
+    "topicId": "G2",
+    "topicTitle": "Topic G2 · Rock Deformation & Structures",
+    "category": "Stress & Strain Ellipsoids",
+    "question": "Explain the key features / significance of: Strain",
+    "answer": "Deformation/distortion of rock body resulting from applied stress. Strain ellipsoid axes: \\(X \\ge Y \\ge Z\\)."
+  },
+  {
+    "id": "card-206",
+    "topicId": "G2",
+    "topicTitle": "Topic G2 · Rock Deformation & Structures",
+    "category": "Stress & Strain Ellipsoids",
+    "question": "Explain the key features / significance of: Flinn Diagram",
+    "answer": "Plots strain ratio \\(a = X/Y\\) vs \\(b = Y/Z\\)."
+  },
+  {
+    "id": "card-207",
+    "topicId": "G2",
+    "topicTitle": "Topic G2 · Rock Deformation & Structures",
+    "category": "Stress & Strain Ellipsoids",
+    "question": "Stress & Strain Ellipsoids: key facts",
+    "answer": "• \\(k > 1\\): Constrictional strain (prolate 'cigar' shape, e.g. pencil cleavage)."
+  },
+  {
+    "id": "card-208",
+    "topicId": "G2",
+    "topicTitle": "Topic G2 · Rock Deformation & Structures",
+    "category": "Stress & Strain Ellipsoids",
+    "question": "Stress & Strain Ellipsoids: key facts",
+    "answer": "• \\(k = 1\\): Plane strain (no volume change in Y)."
+  },
+  {
+    "id": "card-209",
+    "topicId": "G2",
+    "topicTitle": "Topic G2 · Rock Deformation & Structures",
+    "category": "Stress & Strain Ellipsoids",
+    "question": "Stress & Strain Ellipsoids: key facts",
+    "answer": "• \\(k < 1\\): Flattening strain (oblate 'pancake' shape, e.g. slaty cleavage)."
+  },
+  {
+    "id": "card-210",
+    "topicId": "G2",
+    "topicTitle": "Topic G2 · Rock Deformation & Structures",
+    "category": "Deformation Mechanisms & Stereonets",
+    "question": "Explain the key features / significance of: Pressure solution",
+    "answer": "Dissolution of minerals at high-stress grain contacts and precipitation in low-stress shadows (forms stylolites in limestones)."
+  },
+  {
+    "id": "card-211",
+    "topicId": "G2",
+    "topicTitle": "Topic G2 · Rock Deformation & Structures",
+    "category": "Deformation Mechanisms & Stereonets",
+    "question": "Explain the key features / significance of: Dislocation creep / Plastic glide",
+    "answer": "Movement of crystal lattice imperfections; dynamic recrystallisation."
+  },
+  {
+    "id": "card-212",
+    "topicId": "G2",
+    "topicTitle": "Topic G2 · Rock Deformation & Structures",
+    "category": "Deformation Mechanisms & Stereonets",
+    "question": "Explain the key features / significance of: Stereonet interpretation",
+    "answer": "Poles to bedding planes plotted on equal-area stereonet lie along a great circle (the \\(\\pi\\)-girdle); the pole to this girdle defines the <b>trend and plunge of the fold axis</b>."
+  },
+  {
+    "id": "card-213",
+    "topicId": "G3.1",
+    "topicTitle": "Topic G3.1 · Fossils & Diversity of Life",
+    "category": "Evolutionary Mechanisms & Patterns",
+    "question": "Explain the key features / significance of: Phyletic gradualism",
+    "answer": "Slow, steady, continuous transformation of lineages over geological time."
+  },
+  {
+    "id": "card-214",
+    "topicId": "G3.1",
+    "topicTitle": "Topic G3.1 · Fossils & Diversity of Life",
+    "category": "Evolutionary Mechanisms & Patterns",
+    "question": "Explain the key features / significance of: Punctuated equilibrium",
+    "answer": "Long periods of morphological stasis interrupted by rapid speciation events in small isolated populations."
+  },
+  {
+    "id": "card-215",
+    "topicId": "G3.1",
+    "topicTitle": "Topic G3.1 · Fossils & Diversity of Life",
+    "category": "Evolutionary Mechanisms & Patterns",
+    "question": "Explain the key features / significance of: Adaptive radiation",
+    "answer": "Rapid diversification of an ancestral group into many ecological niches following evolutionary novelty or mass extinction opening up vacant ecospace."
+  },
+  {
+    "id": "card-216",
+    "topicId": "G3.1",
+    "topicTitle": "Topic G3.1 · Fossils & Diversity of Life",
+    "category": "The Big Five Mass Extinctions",
+    "question": "Explain the key features / significance of: 1. End-Ordovician (~444 Ma)",
+    "answer": "Glaciation on Gondwana, eustatic sea-level drop, loss of shallow marine shelf habitat."
+  },
+  {
+    "id": "card-217",
+    "topicId": "G3.1",
+    "topicTitle": "Topic G3.1 · Fossils & Diversity of Life",
+    "category": "The Big Five Mass Extinctions",
+    "question": "Explain the key features / significance of: 2. Late Devonian (~375 Ma)",
+    "answer": "Oceanic anoxia, cooling; hit shallow benthic corals/brachiopods."
+  },
+  {
+    "id": "card-218",
+    "topicId": "G3.1",
+    "topicTitle": "Topic G3.1 · Fossils & Diversity of Life",
+    "category": "The Big Five Mass Extinctions",
+    "question": "Explain the key features / significance of: 3. End-Permian ('The Great Dying', ~252 Ma)",
+    "answer": "Largest extinction in history (~96% marine species, ~70% terrestrial vertebrates lost)."
+  },
+  {
+    "id": "card-219",
+    "topicId": "G3.1",
+    "topicTitle": "Topic G3.1 · Fossils & Diversity of Life",
+    "category": "The Big Five Mass Extinctions",
+    "question": "The Big Five Mass Extinctions: key facts",
+    "answer": "• <i>Causes:</i> <b>Siberian Traps flood basalt volcanism</b> releasing massive CO2 and SO2 -> global warming, ocean acidification, widespread marine anoxia, ozone layer destruction."
+  },
+  {
+    "id": "card-220",
+    "topicId": "G3.1",
+    "topicTitle": "Topic G3.1 · Fossils & Diversity of Life",
+    "category": "The Big Five Mass Extinctions",
+    "question": "Explain the key features / significance of: 4. End-Triassic (~201 Ma)",
+    "answer": "Central Atlantic Magmatic Province (CAMP) rifting; paved way for dinosaur dominance."
+  },
+  {
+    "id": "card-221",
+    "topicId": "G3.1",
+    "topicTitle": "Topic G3.1 · Fossils & Diversity of Life",
+    "category": "The Big Five Mass Extinctions",
+    "question": "Explain the key features / significance of: 5. End-Cretaceous (K-Pg, ~66 Ma)",
+    "answer": "Non-avian dinosaurs, ammonites, marine reptiles extinct."
+  },
+  {
+    "id": "card-222",
+    "topicId": "G3.1",
+    "topicTitle": "Topic G3.1 · Fossils & Diversity of Life",
+    "category": "The Big Five Mass Extinctions",
+    "question": "The Big Five Mass Extinctions: key facts",
+    "answer": "• <i>Causes:</i> <b>Chicxulub bolide impact</b> (Iridium anomaly in boundary clay, shocked quartz, tektites/microkrystites, tsunami deposits) combined with <b>Deccan Traps volcanism</b>."
+  },
+  {
+    "id": "card-223",
+    "topicId": "G3.2",
+    "topicTitle": "Topic G3.2 · Factors in Climate Change",
+    "category": "Milankovitch Astronomical Cycles",
+    "question": "Explain the key features / significance of: Orbital Eccentricity (100,000 & 400,000 yr)",
+    "answer": "Earth's orbit cycles between circular and elliptical, altering total incoming solar radiation."
+  },
+  {
+    "id": "card-224",
+    "topicId": "G3.2",
+    "topicTitle": "Topic G3.2 · Factors in Climate Change",
+    "category": "Milankovitch Astronomical Cycles",
+    "question": "Explain the key features / significance of: Obliquity / Axial Tilt (41,000 yr)",
+    "answer": "Tilt cycles between 22.1° and 24.5° (currently 23.4°). Greater tilt = more extreme seasons (warmer summers, colder winters). Less tilt favours ice sheet growth as mild summers fail to melt winter snow."
+  },
+  {
+    "id": "card-225",
+    "topicId": "G3.2",
+    "topicTitle": "Topic G3.2 · Factors in Climate Change",
+    "category": "Milankovitch Astronomical Cycles",
+    "question": "Explain the key features / significance of: Precession of Equinoxes (21,000–26,000 yr)",
+    "answer": "Wobble of Earth's rotational axis; alters timing of seasons relative to perihelion."
+  },
+  {
+    "id": "card-226",
+    "topicId": "G3.2",
+    "topicTitle": "Topic G3.2 · Factors in Climate Change",
+    "category": "Tectonic & Greenhouse Controls",
+    "question": "Explain the key features / significance of: Continental position",
+    "answer": "Landmasses over poles allow ice sheet buildup (e.g. Antarctica in Cenozoic)."
+  },
+  {
+    "id": "card-227",
+    "topicId": "G3.2",
+    "topicTitle": "Topic G3.2 · Factors in Climate Change",
+    "category": "Tectonic & Greenhouse Controls",
+    "question": "Explain the key features / significance of: Oceanic gateways",
+    "answer": "Opening of Drake Passage separated South America from Antarctica -> Antarctic Circumpolar Current thermally isolated Antarctica, initiating continental glaciation (~34 Ma)."
+  },
+  {
+    "id": "card-228",
+    "topicId": "G3.2",
+    "topicTitle": "Topic G3.2 · Factors in Climate Change",
+    "category": "Tectonic & Greenhouse Controls",
+    "question": "Explain the key features / significance of: Mountain uplift & CO2 drawdown",
+    "answer": "Himalayan collision exposed vast silicate rocks; intense chemical weathering (hydrolysis) drew down atmospheric CO2, driving global Cenozoic cooling."
+  },
+  {
+    "id": "card-229",
+    "topicId": "G3.3",
+    "topicTitle": "Topic G3.3 · Evidence for Climate Change",
+    "category": "Oxygen Isotopes (d18O) as Paleothermometers",
+    "question": "Oxygen Isotopes (d18O) as Paleothermometers: key facts",
+    "answer": "16O (light) evaporates preferentially over 18O (heavy)."
+  },
+  {
+    "id": "card-230",
+    "topicId": "G3.3",
+    "topicTitle": "Topic G3.3 · Evidence for Climate Change",
+    "category": "Oxygen Isotopes (d18O) as Paleothermometers",
+    "question": "Explain the key features / significance of: During Glacial / Icehouse Periods",
+    "answer": ""
+  },
+  {
+    "id": "card-231",
+    "topicId": "G3.3",
+    "topicTitle": "Topic G3.3 · Evidence for Climate Change",
+    "category": "Oxygen Isotopes (d18O) as Paleothermometers",
+    "question": "Oxygen Isotopes (d18O) as Paleothermometers: key facts",
+    "answer": "• Light 16O evaporates, falls as snow, and is trapped in continental ice sheets."
+  },
+  {
+    "id": "card-232",
+    "topicId": "G3.3",
+    "topicTitle": "Topic G3.3 · Evidence for Climate Change",
+    "category": "Oxygen Isotopes (d18O) as Paleothermometers",
+    "question": "Oxygen Isotopes (d18O) as Paleothermometers: key facts",
+    "answer": "• <b>Ice cores have negative \\(\\delta^{18}\text{O}\\)</b> (depleted in 18O)."
+  },
+  {
+    "id": "card-233",
+    "topicId": "G3.3",
+    "topicTitle": "Topic G3.3 · Evidence for Climate Change",
+    "category": "Oxygen Isotopes (d18O) as Paleothermometers",
+    "question": "Oxygen Isotopes (d18O) as Paleothermometers: key facts",
+    "answer": "• <b>Oceans become enriched in 18O -> marine foraminifera shells have positive \\(\\delta^{18}\text{O}\\)</b>."
+  },
+  {
+    "id": "card-234",
+    "topicId": "G3.3",
+    "topicTitle": "Topic G3.3 · Evidence for Climate Change",
+    "category": "Oxygen Isotopes (d18O) as Paleothermometers",
+    "question": "Explain the key features / significance of: During Interglacial Periods",
+    "answer": "Melting ice returns 16O to oceans; marine carbonate \\(\\delta^{18}\text{O}\\) decreases."
+  },
+  {
+    "id": "card-235",
+    "topicId": "G3.3",
+    "topicTitle": "Topic G3.3 · Evidence for Climate Change",
+    "category": "Sedimentary & Biological Climate Indicators",
+    "question": "Explain the key features / significance of: Glacial",
+    "answer": "Tillites / diamictites (unsorted, striated clasts), dropstones deforming laminations in marine shale."
+  },
+  {
+    "id": "card-236",
+    "topicId": "G3.3",
+    "topicTitle": "Topic G3.3 · Evidence for Climate Change",
+    "category": "Sedimentary & Biological Climate Indicators",
+    "question": "Explain the key features / significance of: Arid / Desert",
+    "answer": "Aeolian dunes (large-scale cross-bedding), red beds (hematite coating), evaporites (halite, gypsum)."
+  },
+  {
+    "id": "card-237",
+    "topicId": "G3.3",
+    "topicTitle": "Topic G3.3 · Evidence for Climate Change",
+    "category": "Sedimentary & Biological Climate Indicators",
+    "question": "Explain the key features / significance of: Humid / Tropical",
+    "answer": "Thick coal beds (warm swamps), laterites/bauxites (leached tropical soils)."
+  },
+  {
+    "id": "card-238",
+    "topicId": "G3.3",
+    "topicTitle": "Topic G3.3 · Evidence for Climate Change",
+    "category": "Sedimentary & Biological Climate Indicators",
+    "question": "Explain the key features / significance of: Foraminiferal coiling",
+    "answer": "<i>Neogloboquadrina pachyderma</i> coils to the left (sinistral) in polar water (<7°C) and to the right (dextral) in warmer waters."
+  },
+  {
+    "id": "card-239",
+    "topicId": "G4.1",
+    "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
+    "category": "Magmatic & Hydrothermal Ore Deposits",
+    "question": "Explain the key features / significance of: Magmatic segregation / Immiscibility",
+    "answer": "Dense sulfide or oxide liquids separate from mafic magma and sink to base of intrusion (e.g. Bushveld chromite, Sudbury Ni-Cu)."
+  },
+  {
+    "id": "card-240",
+    "topicId": "G4.1",
+    "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
+    "category": "Magmatic & Hydrothermal Ore Deposits",
+    "question": "Explain the key features / significance of: Hydrothermal veins",
+    "answer": "Superheated volatile-rich aqueous fluids scavenge metals from cooling plutons and country rocks, precipitating ore minerals in fracture veins as pressure and temperature drop."
+  },
+  {
+    "id": "card-241",
+    "topicId": "G4.1",
+    "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
+    "category": "Magmatic & Hydrothermal Ore Deposits",
+    "question": "Magmatic & Hydrothermal Ore Deposits: key facts",
+    "answer": "• Mineral zoning away from granite intrusion: Sn (cassiterite) & W (wolframite) closest (highest T) -> Cu (chalcopyrite) -> Zn (sphalerite) -> Pb (galena) -> Fe (pyrite) furthest."
+  },
+  {
+    "id": "card-242",
+    "topicId": "G4.1",
+    "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
+    "category": "Magmatic & Hydrothermal Ore Deposits",
+    "question": "Explain the key features / significance of: Porphyry deposits",
+    "answer": "Massive low-grade copper/molybdenum deposits associated with subduction arc plutons; pervasive stockwork veinlet network."
+  },
+  {
+    "id": "card-243",
+    "topicId": "G4.1",
+    "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
+    "category": "Placer & Residual Deposits",
+    "question": "Explain the key features / significance of: Placer deposits",
+    "answer": "Mechanical concentration by fluvial/coastal currents."
+  },
+  {
+    "id": "card-244",
+    "topicId": "G4.1",
+    "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
+    "category": "Placer & Residual Deposits",
+    "question": "Placer & Residual Deposits: key facts",
+    "answer": "• Requires minerals that are: <b>Dense</b> (high relative density), <b>Chemically inert</b> (resistant to weathering), and <b>Mechanically hard</b> (resist abrasion)."
+  },
+  {
+    "id": "card-245",
+    "topicId": "G4.1",
+    "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
+    "category": "Placer & Residual Deposits",
+    "question": "Placer & Residual Deposits: key facts",
+    "answer": "• Examples: Native Gold (RD 19.3), Diamond (H 10), Cassiterite (SnO2, RD 7.0), Magnetite, Zircon."
+  },
+  {
+    "id": "card-246",
+    "topicId": "G4.1",
+    "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
+    "category": "Placer & Residual Deposits",
+    "question": "Placer & Residual Deposits: key facts",
+    "answer": "• Concentrated at inside of meander bends, downstream of confluences, behind rock bars, and plunge pools."
+  },
+  {
+    "id": "card-247",
+    "topicId": "G4.1",
+    "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
+    "category": "Placer & Residual Deposits",
+    "question": "Explain the key features / significance of: Residual deposits (Bauxite & Kaolinite)",
+    "answer": ""
+  },
+  {
+    "id": "card-248",
+    "topicId": "G4.1",
+    "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
+    "category": "Placer & Residual Deposits",
+    "question": "Placer & Residual Deposits: key facts",
+    "answer": "• <i>Bauxite (Al ore):</i> Extreme tropical weathering leaches silica, leaving insoluble hydrous aluminium oxides (gibbsite)."
+  },
+  {
+    "id": "card-249",
+    "topicId": "G4.1",
+    "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
+    "category": "Placer & Residual Deposits",
+    "question": "Placer & Residual Deposits: key facts",
+    "answer": "• <i>Kaolinite (China clay):</i> Hydrothermal or deep weathering breakdown of feldspar in granites."
+  },
+  {
+    "id": "card-250",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "The Petroleum System (Five Essentials)",
+    "question": "The Petroleum System (Five Essentials): key facts",
+    "answer": "1. <b>Source Rock:</b> Organic-rich (sapropelic) marine mudstone/shale with >1% Total Organic Carbon (TOC). Plankton buried in anoxic conditions."
+  },
+  {
+    "id": "card-251",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "The Petroleum System (Five Essentials)",
+    "question": "The Petroleum System (Five Essentials): key facts",
+    "answer": "2. <b>Maturation:</b> Thermal cooking under burial:"
+  },
+  {
+    "id": "card-252",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "The Petroleum System (Five Essentials)",
+    "question": "The Petroleum System (Five Essentials): key facts",
+    "answer": "• <i>Oil Window:</i> 60°C to 120°C (burial depth 2–4 km)."
+  },
+  {
+    "id": "card-253",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "The Petroleum System (Five Essentials)",
+    "question": "The Petroleum System (Five Essentials): key facts",
+    "answer": "• <i>Gas Window:</i> 120°C to 200°C (burial depth 4–6 km)."
+  },
+  {
+    "id": "card-254",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "The Petroleum System (Five Essentials)",
+    "question": "The Petroleum System (Five Essentials): key facts",
+    "answer": "• Above 200°C: Over-mature; hydrocarbons graphitised/destroyed."
+  },
+  {
+    "id": "card-255",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "The Petroleum System (Five Essentials)",
+    "question": "The Petroleum System (Five Essentials): key facts",
+    "answer": "3. <b>Reservoir Rock:</b> Porous (stores fluids) and permeable (allows extraction). E.g. well-sorted sandstone, oolitic/reefal limestone."
+  },
+  {
+    "id": "card-256",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "The Petroleum System (Five Essentials)",
+    "question": "The Petroleum System (Five Essentials): key facts",
+    "answer": "4. <b>Cap Rock (Seal):</b> Impermeable rock barrier preventing escape. E.g. thick shale, mudstone, or evaporites (halite/anhydrite)."
+  },
+  {
+    "id": "card-257",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "The Petroleum System (Five Essentials)",
+    "question": "The Petroleum System (Five Essentials): key facts",
+    "answer": "5. <b>Trap:</b> Geometric arrangement halting migration:"
+  },
+  {
+    "id": "card-258",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "The Petroleum System (Five Essentials)",
+    "question": "The Petroleum System (Five Essentials): key facts",
+    "answer": "• <i>Structural:</i> Anticlinal crest, fault trap (reservoir juxtaposed against impermeable shale), salt dome/diapir."
+  },
+  {
+    "id": "card-259",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "The Petroleum System (Five Essentials)",
+    "question": "The Petroleum System (Five Essentials): key facts",
+    "answer": "• <i>Stratigraphic:</i> Unconformity trap, sand pinch-out / lens, reef buildup."
+  },
+  {
+    "id": "card-260",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "Hydraulic Properties & Coal Series",
+    "question": "Explain the key features / significance of: Porosity",
+    "answer": "Volume of pore space as percentage of total rock volume: \\(\\phi = \frac{V_{\text{void}}}{V_{\text{total}}} \times 100\\)."
+  },
+  {
+    "id": "card-261",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "Hydraulic Properties & Coal Series",
+    "question": "Explain the key features / significance of: Permeability",
+    "answer": "Interconnectedness of pores allowing fluid flow."
+  },
+  {
+    "id": "card-262",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "Hydraulic Properties & Coal Series",
+    "question": "Explain the key features / significance of: Coalification Rank",
+    "answer": "Progressive increase in burial T, P, and time:"
+  },
+  {
+    "id": "card-263",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "Hydraulic Properties & Coal Series",
+    "question": "Hydraulic Properties & Coal Series: key facts",
+    "answer": "• Peat -> Lignite (brown coal) -> Bituminous coal (lustrous, black) -> Anthracite (hard, shiny, non-smudge)."
+  },
+  {
+    "id": "card-264",
+    "topicId": "G4.2",
+    "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
+    "category": "Hydraulic Properties & Coal Series",
+    "question": "Hydraulic Properties & Coal Series: key facts",
+    "answer": "• Trend: Carbon content increases (up to 95%), calorific value increases, moisture and volatile content decrease."
+  },
+  {
+    "id": "card-265",
+    "topicId": "G4.3",
+    "topicTitle": "Topic G4.3 · Prospecting Techniques",
+    "category": "Geophysical Exploration Methods",
+    "question": "Explain the key features / significance of: Gravity survey (Gravimeter)",
+    "answer": "Measures local variations in gravitational field (\\(g\\))."
+  },
+  {
+    "id": "card-266",
+    "topicId": "G4.3",
+    "topicTitle": "Topic G4.3 · Prospecting Techniques",
+    "category": "Geophysical Exploration Methods",
+    "question": "Geophysical Exploration Methods: key facts",
+    "answer": "• <i>Positive anomaly (gravity high):</i> Dense subsurface bodies (massive metallic sulfide ore bodies, mafic/ultramafic intrusions)."
+  },
+  {
+    "id": "card-267",
+    "topicId": "G4.3",
+    "topicTitle": "Topic G4.3 · Prospecting Techniques",
+    "category": "Geophysical Exploration Methods",
+    "question": "Geophysical Exploration Methods: key facts",
+    "answer": "• <i>Negative anomaly (gravity low):</i> Low-density bodies (salt domes, granite plutons, sedimentary basins, caverns)."
+  },
+  {
+    "id": "card-268",
+    "topicId": "G4.3",
+    "topicTitle": "Topic G4.3 · Prospecting Techniques",
+    "category": "Geophysical Exploration Methods",
+    "question": "Explain the key features / significance of: Magnetic survey (Magnetometer)",
+    "answer": "Detects variations in Earth's magnetic field due to magnetic minerals (magnetite, pyrrhotite)."
+  },
+  {
+    "id": "card-269",
+    "topicId": "G4.3",
+    "topicTitle": "Topic G4.3 · Prospecting Techniques",
+    "category": "Geophysical Exploration Methods",
+    "question": "Explain the key features / significance of: Seismic reflection",
+    "answer": "Generates acoustic waves; reflected at boundaries between rocks of differing <b>acoustic impedance (\\(Z = \rho \times v\\))</b>. Produces cross-sectional profiles of subsurface structures and traps."
+  },
+  {
+    "id": "card-270",
+    "topicId": "G4.3",
+    "topicTitle": "Topic G4.3 · Prospecting Techniques",
+    "category": "Geochemical Prospecting & Borehole Logging",
+    "question": "Explain the key features / significance of: Geochemical survey",
+    "answer": "Systematically samples soil, stream sediments, or water to identify anomalous concentrations above regional background levels."
+  },
+  {
+    "id": "card-271",
+    "topicId": "G4.3",
+    "topicTitle": "Topic G4.3 · Prospecting Techniques",
+    "category": "Geochemical Prospecting & Borehole Logging",
+    "question": "Geochemical Prospecting & Borehole Logging: key facts",
+    "answer": "• Contour maps plotted with isolines (e.g. 50 ppm, 100 ppm Cu); highest values pinpoint upstream or upslope ore subcrop."
+  },
+  {
+    "id": "card-272",
+    "topicId": "G4.3",
+    "topicTitle": "Topic G4.3 · Prospecting Techniques",
+    "category": "Geochemical Prospecting & Borehole Logging",
+    "question": "Explain the key features / significance of: Borehole geophysical logging",
+    "answer": ""
+  },
+  {
+    "id": "card-273",
+    "topicId": "G4.3",
+    "topicTitle": "Topic G4.3 · Prospecting Techniques",
+    "category": "Geochemical Prospecting & Borehole Logging",
+    "question": "Geochemical Prospecting & Borehole Logging: key facts",
+    "answer": "• <i>Gamma log:</i> Measures natural radioactivity. High gamma = shale/clay (rich in K-40); Low gamma = sandstone, limestone, evaporites."
+  },
+  {
+    "id": "card-274",
+    "topicId": "G4.3",
+    "topicTitle": "Topic G4.3 · Prospecting Techniques",
+    "category": "Geochemical Prospecting & Borehole Logging",
+    "question": "Geochemical Prospecting & Borehole Logging: key facts",
+    "answer": "• <i>Resistivity log:</i> High resistivity = hydrocarbons or fresh water; Low resistivity = saline formation water in pores."
+  },
+  {
+    "id": "card-275",
+    "topicId": "G4.3",
+    "topicTitle": "Topic G4.3 · Prospecting Techniques",
+    "category": "Geochemical Prospecting & Borehole Logging",
+    "question": "Geochemical Prospecting & Borehole Logging: key facts",
+    "answer": "• <i>Sonic log:</i> Measures seismic velocity to calculate porosity."
+  },
+  {
+    "id": "card-276",
+    "topicId": "T1",
+    "topicTitle": "Theme T1 · Geohazards & Engineering",
+    "category": "Seismic Hazards & Volcanic Monitoring",
+    "question": "Explain the key features / significance of: Earthquake hazards",
+    "answer": "Ground shaking, liquefaction (water-saturated unconsolidated sand behaves as liquid), landslides, tsunamis."
+  },
+  {
+    "id": "card-277",
+    "topicId": "T1",
+    "topicTitle": "Theme T1 · Geohazards & Engineering",
+    "category": "Seismic Hazards & Volcanic Monitoring",
+    "question": "Explain the key features / significance of: Volcanic prediction precursors",
+    "answer": ""
+  },
+  {
+    "id": "card-278",
+    "topicId": "T1",
+    "topicTitle": "Theme T1 · Geohazards & Engineering",
+    "category": "Seismic Hazards & Volcanic Monitoring",
+    "question": "Seismic Hazards & Volcanic Monitoring: key facts",
+    "answer": "• Harmonic volcanic tremor and shallow earthquake swarms (magma moving through conduits)."
+  },
+  {
+    "id": "card-279",
+    "topicId": "T1",
+    "topicTitle": "Theme T1 · Geohazards & Engineering",
+    "category": "Seismic Hazards & Volcanic Monitoring",
+    "question": "Seismic Hazards & Volcanic Monitoring: key facts",
+    "answer": "• Ground deformation: Tiltmeters, GPS, and satellite InSAR detect swelling / inflation of volcanic edifice."
+  },
+  {
+    "id": "card-280",
+    "topicId": "T1",
+    "topicTitle": "Theme T1 · Geohazards & Engineering",
+    "category": "Seismic Hazards & Volcanic Monitoring",
+    "question": "Seismic Hazards & Volcanic Monitoring: key facts",
+    "answer": "• Gas emissions: Increasing SO2 and CO2 emission rates and ratios."
+  },
+  {
+    "id": "card-281",
+    "topicId": "T1",
+    "topicTitle": "Theme T1 · Geohazards & Engineering",
+    "category": "Seismic Hazards & Volcanic Monitoring",
+    "question": "Seismic Hazards & Volcanic Monitoring: key facts",
+    "answer": "• Thermal anomalies: FLIR infrared imaging detects rising magma."
+  },
+  {
+    "id": "card-282",
+    "topicId": "T1",
+    "topicTitle": "Theme T1 · Geohazards & Engineering",
+    "category": "Slope Stability & Engineering Geology",
+    "question": "Explain the key features / significance of: Factor of Safety (\\(F\\))",
+    "answer": "\\(F = \frac{\\sum \text{Resisting Forces}}{\\sum \text{Driving Forces}}\\). If \\(F > 1\\) slope is stable; \\(F < 1\\) failure occurs."
+  },
+  {
+    "id": "card-283",
+    "topicId": "T1",
+    "topicTitle": "Theme T1 · Geohazards & Engineering",
+    "category": "Slope Stability & Engineering Geology",
+    "question": "Slope Stability & Engineering Geology: key facts",
+    "answer": "• Driving forces: Gravity component parallel to slope, slope surcharge (buildings)."
+  },
+  {
+    "id": "card-284",
+    "topicId": "T1",
+    "topicTitle": "Theme T1 · Geohazards & Engineering",
+    "category": "Slope Stability & Engineering Geology",
+    "question": "Slope Stability & Engineering Geology: key facts",
+    "answer": "• Resisting forces: Cohesion, friction across potential slip planes."
+  },
+  {
+    "id": "card-285",
+    "topicId": "T1",
+    "topicTitle": "Theme T1 · Geohazards & Engineering",
+    "category": "Slope Stability & Engineering Geology",
+    "question": "Slope Stability & Engineering Geology: key facts",
+    "answer": "• <b>Pore water pressure:</b> Reduces effective normal stress across slip planes, triggering landslides."
+  },
+  {
+    "id": "card-286",
+    "topicId": "T1",
+    "topicTitle": "Theme T1 · Geohazards & Engineering",
+    "category": "Slope Stability & Engineering Geology",
+    "question": "Explain the key features / significance of: Engineering mitigation",
+    "answer": "Horizontal drainage pipes (relieves pore pressure), rock bolts (pins beds together across dip), retaining walls with weep holes, gabion baskets, shotcrete."
+  },
+  {
+    "id": "card-287",
+    "topicId": "T2",
+    "topicTitle": "Theme T2 · Geological Maps & Fieldwork",
+    "category": "Three-Point Problems & Strike Lines",
+    "question": "Explain the key features / significance of: Strike lines (structural contours)",
+    "answer": "Straight lines connecting points of equal elevation on a planar geological surface (bedding plane or fault)."
+  },
+  {
+    "id": "card-288",
+    "topicId": "T2",
+    "topicTitle": "Theme T2 · Geological Maps & Fieldwork",
+    "category": "Three-Point Problems & Strike Lines",
+    "question": "Three-Point Problems & Strike Lines: key facts",
+    "answer": "• The direction of a strike line is the <b>strike</b> of the bed."
+  },
+  {
+    "id": "card-289",
+    "topicId": "T2",
+    "topicTitle": "Theme T2 · Geological Maps & Fieldwork",
+    "category": "Three-Point Problems & Strike Lines",
+    "question": "Three-Point Problems & Strike Lines: key facts",
+    "answer": "• Spacing between strike lines indicates dip: closer lines = steeper dip; wider lines = gentler dip."
+  },
+  {
+    "id": "card-290",
+    "topicId": "T2",
+    "topicTitle": "Theme T2 · Geological Maps & Fieldwork",
+    "category": "Three-Point Problems & Strike Lines",
+    "question": "State the principle/formula for: Dip calculation from strike lines",
+    "answer": "\\(\tan(\text{Dip}) = \frac{\text{Contour Interval}}{\text{Horizontal Distance between strike lines}}\\)."
+  },
+  {
+    "id": "card-291",
+    "topicId": "T3",
+    "topicTitle": "Theme T3 · Quaternary Geology",
+    "category": "Glacial & Periglacial Processes",
+    "question": "Explain the key features / significance of: Glacial erosional landforms",
+    "answer": "Corries/cirques with tarns, arêtes, pyramidal peaks, U-shaped glacial troughs, hanging valleys, roche moutonnées (smooth plucked stoss-and-lee)."
+  },
+  {
+    "id": "card-292",
+    "topicId": "T3",
+    "topicTitle": "Theme T3 · Quaternary Geology",
+    "category": "Glacial & Periglacial Processes",
+    "question": "Explain the key features / significance of: Glacial depositional landforms",
+    "answer": "Moraines (terminal, lateral, medial, recessional), drumlins (streamlined elongate hills, steep blunt stoss end points up-ice), erratics, kettle holes."
+  },
+  {
+    "id": "card-293",
+    "topicId": "T3",
+    "topicTitle": "Theme T3 · Quaternary Geology",
+    "category": "Glacial & Periglacial Processes",
+    "question": "Explain the key features / significance of: Periglacial landforms",
+    "answer": "Permafrost and active layer; solifluction/gelifluction sheets; patterned ground (stone polygons sorted by frost heave); ice wedges and fossil ice wedge pseudomorphs (prove continuous permafrost)."
+  },
+  {
+    "id": "card-294",
+    "topicId": "T4",
+    "topicTitle": "Theme T4 · Evolution of Britain",
+    "category": "Terranes & Orogenic Cycles of the British Isles",
+    "question": "Explain the key features / significance of: Caledonian Orogeny (Ordovician–Devonian)",
+    "answer": "Closure of Iapetus Ocean; Laurentia (Scotland & NW Ireland) collided with Eastern Avalonia (England & Wales). Marked by the Iapetus Suture zone."
+  },
+  {
+    "id": "card-295",
+    "topicId": "T4",
+    "topicTitle": "Theme T4 · Evolution of Britain",
+    "category": "Terranes & Orogenic Cycles of the British Isles",
+    "question": "Explain the key features / significance of: Variscan Orogeny (Carboniferous–Permian)",
+    "answer": "Closure of Rheic Ocean; collision of Armorica/Gondwana with Euramerica to assemble Pangaea. Intense folding in SW England (Cornubian batholith emplacement)."
+  },
+  {
+    "id": "card-296",
+    "topicId": "T4",
+    "topicTitle": "Theme T4 · Evolution of Britain",
+    "category": "Terranes & Orogenic Cycles of the British Isles",
+    "question": "Explain the key features / significance of: Northward Drift of Britain",
+    "answer": ""
+  },
+  {
+    "id": "card-297",
+    "topicId": "T4",
+    "topicTitle": "Theme T4 · Evolution of Britain",
+    "category": "Terranes & Orogenic Cycles of the British Isles",
+    "question": "Terranes & Orogenic Cycles of the British Isles: key facts",
+    "answer": "• Cambrian: ~60°S (cold seas)."
+  },
+  {
+    "id": "card-298",
+    "topicId": "T4",
+    "topicTitle": "Theme T4 · Evolution of Britain",
+    "category": "Terranes & Orogenic Cycles of the British Isles",
+    "question": "Terranes & Orogenic Cycles of the British Isles: key facts",
+    "answer": "• Carboniferous: Equatorial ~0° (warm tropical coal-forming swamps)."
+  },
+  {
+    "id": "card-299",
+    "topicId": "T4",
+    "topicTitle": "Theme T4 · Evolution of Britain",
+    "category": "Terranes & Orogenic Cycles of the British Isles",
+    "question": "Terranes & Orogenic Cycles of the British Isles: key facts",
+    "answer": "• Permian–Triassic: 10°–20°N (arid trade wind desert, New Red Sandstone)."
+  },
+  {
+    "id": "card-300",
+    "topicId": "T4",
+    "topicTitle": "Theme T4 · Evolution of Britain",
+    "category": "Terranes & Orogenic Cycles of the British Isles",
+    "question": "Terranes & Orogenic Cycles of the British Isles: key facts",
+    "answer": "• Present: ~54°N (temperate)."
+  },
+  {
+    "id": "card-301",
+    "topicId": "T5",
+    "topicTitle": "Theme T5 · Geology of the Lithosphere",
+    "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
+    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "answer": "Complete preserved section of oceanic crust and upper mantle obducted onto land."
+  },
+  {
+    "id": "card-302",
+    "topicId": "T5",
+    "topicTitle": "Theme T5 · Geology of the Lithosphere",
+    "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
+    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "answer": "1. <b>Pelagic sediment:</b> Deep-sea chert, black mudstone, siliceous ooze (top)."
+  },
+  {
+    "id": "card-303",
+    "topicId": "T5",
+    "topicTitle": "Theme T5 · Geology of the Lithosphere",
+    "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
+    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "answer": "2. <b>Pillow basalts:</b> Extrusive lavas quenched in seawater."
+  },
+  {
+    "id": "card-304",
+    "topicId": "T5",
+    "topicTitle": "Theme T5 · Geology of the Lithosphere",
+    "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
+    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "answer": "3. <b>Sheeted dyke complex:</b> Sub-vertical feeder dykes formed in 100% extensional spreading zone."
+  },
+  {
+    "id": "card-305",
+    "topicId": "T5",
+    "topicTitle": "Theme T5 · Geology of the Lithosphere",
+    "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
+    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "answer": "4. <b>Gabbro:</b> Coarse-grained, isotropic at top, layered cumulate at base."
+  },
+  {
+    "id": "card-306",
+    "topicId": "T5",
+    "topicTitle": "Theme T5 · Geology of the Lithosphere",
+    "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
+    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "answer": "5. <b>Moho Discontinuity:</b> Petrographic boundary between gabbro and peridotite."
+  },
+  {
+    "id": "card-307",
+    "topicId": "T5",
+    "topicTitle": "Theme T5 · Geology of the Lithosphere",
+    "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
+    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "answer": "6. <b>Ultramafic mantle:</b> Harzburgite / lherzolite, often altered to serpentinite."
+  }
+]
