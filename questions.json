@@ -667,6 +667,66 @@
       "totalMarks": 15,
       "duration": "1 hour (Section A)",
       "level": "A2"
+    },
+    {
+      "id": "2015-summer-gl4",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-06-08",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting the Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "2 hours (Section A: 1 hour)",
+      "level": "A2"
+    },
+    {
+      "id": "2015-summer-gl5-u1",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-06-16",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2015-summer-gl5-u2",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-06-16",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2015-summer-gl5-u3",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-06-16",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2015-summer-gl5-u4",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-06-16",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
     }
   ],
   "questions": [
@@ -19225,6 +19285,996 @@
         "img/2014-summer-gl5-u3/fig-q1a.jpg"
       ],
       "markscheme": "img/2014-summer-gl5-u3/ms-q1cii.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q1ai",
+      "paper": "2015-summer-gl4",
+      "question": "1(a)(i)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "Geothermal Gradient",
+        "Partial Melting",
+        "Petrology"
+      ],
+      "skills": [
+        "Graph Reading",
+        "Quantitative Analysis"
+      ],
+      "summary": "Complete table of predicted temperatures and depths for continental crust, wet granite, and wet peridotite.",
+      "image": "img/2015-summer-gl4/q1ai.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q1ai.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q1aii",
+      "paper": "2015-summer-gl4",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Geothermal Gradient",
+        "Continental Crust"
+      ],
+      "skills": [
+        "Calculation",
+        "Gradient Analysis"
+      ],
+      "summary": "Calculate the average geothermal gradient for the top 20 km of continental crust in °C km⁻¹.",
+      "image": "img/2015-summer-gl4/q1aii.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q1aii.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q1bi",
+      "paper": "2015-summer-gl4",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Subduction Zones",
+        "Mantle Dehydration",
+        "Melting"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Explain why granite and peridotite might be wet at depths > 50 km in a subduction zone.",
+      "image": "img/2015-summer-gl4/q1bi.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q1bii",
+      "paper": "2015-summer-gl4",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Igneous Petrology",
+        "Anatexis",
+        "Subduction Zones"
+      ],
+      "skills": [
+        "Diagram Shading",
+        "Phase Equilibria Application"
+      ],
+      "summary": "Shade in the area on Figure 1b where crust composed of wet granite is predicted to be partially molten.",
+      "image": "img/2015-summer-gl4/q1bii.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q1a.jpg",
+        "img/2015-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q1biii",
+      "paper": "2015-summer-gl4",
+      "question": "1(b)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Magma Ascent",
+        "Granite Petrogenesis"
+      ],
+      "skills": [
+        "Physical Reasoning"
+      ],
+      "summary": "Explain why a partial melt generated in continental crust is unlikely to be erupted at the surface.",
+      "image": "img/2015-summer-gl4/q1biii.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q1biii.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q1c",
+      "paper": "2015-summer-gl4",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Magmatic Differentiation",
+        "Subduction Volcanism"
+      ],
+      "skills": [
+        "Geochemical Reasoning",
+        "Synthesis"
+      ],
+      "summary": "Suggest reasons for the variation in surface lava composition from mafic to silicic above a subduction zone.",
+      "image": "img/2015-summer-gl4/q1c.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q1c.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q2a",
+      "paper": "2015-summer-gl4",
+      "question": "2(a)",
+      "marks": 6,
+      "page": 5,
+      "topics": [
+        "Structural Geology",
+        "Block Diagrams",
+        "Folding and Faulting"
+      ],
+      "skills": [
+        "Geological Sketching",
+        "3D Projection"
+      ],
+      "summary": "Complete the block diagram in Figure 2a from specifications in Table 2.",
+      "image": "img/2015-summer-gl4/q2a.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q2.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q2a.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q2bi",
+      "paper": "2015-summer-gl4",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "Sedimentology",
+        "Sedimentary Structures",
+        "Way-Up"
+      ],
+      "skills": [
+        "Structure Identification"
+      ],
+      "summary": "Name the two sedimentary structures (load casts and cross-bedding) in Figure 2b showing way-up.",
+      "image": "img/2015-summer-gl4/q2bi.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q2bi.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q2bii",
+      "paper": "2015-summer-gl4",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "Sedimentology",
+        "Way-Up Criteria"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Explain the formation and use of one chosen sedimentary structure in determining way-up.",
+      "image": "img/2015-summer-gl4/q2bii.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q2bii.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q2biii",
+      "paper": "2015-summer-gl4",
+      "question": "2(b)(iii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "Field Geology",
+        "Structural Evaluation"
+      ],
+      "skills": [
+        "Critical Evaluation"
+      ],
+      "summary": "Evaluate the use of the loose beach boulder in establishing which Devonian fold limb is overturned.",
+      "image": "img/2015-summer-gl4/q2biii.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q2b.jpg",
+        "img/2015-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q2biii.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q2ci",
+      "paper": "2015-summer-gl4",
+      "question": "2(c)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Structural Geology",
+        "Competence Contrast"
+      ],
+      "skills": [
+        "Comparative Description"
+      ],
+      "summary": "Describe how Devonian shale and sandstone responded differently to stress during folding.",
+      "image": "img/2015-summer-gl4/q2ci.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q2ci.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q2cii",
+      "paper": "2015-summer-gl4",
+      "question": "2(c)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Rheology",
+        "Cleavage Formation"
+      ],
+      "skills": [
+        "Mechanistic Explanation"
+      ],
+      "summary": "Explain why Devonian shale and sandstone responded differently to stress during folding.",
+      "image": "img/2015-summer-gl4/q2cii.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q2cii.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q3a",
+      "paper": "2015-summer-gl4",
+      "question": "3(a)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "Metamorphic Processes",
+        "Contact Metamorphism"
+      ],
+      "skills": [
+        "Thermal Threshold Explanation"
+      ],
+      "summary": "State the temperature (200°C) for the onset of metamorphism and explain why processes start at this temperature.",
+      "image": "img/2015-summer-gl4/q3a.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q3a.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q3b",
+      "paper": "2015-summer-gl4",
+      "question": "3(b)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "Contact Metamorphism",
+        "Aureole Dimensions"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Quantitative Comparison"
+      ],
+      "summary": "Complete Table 3 showing temperature at 600m and aureole widths for wet and dry country rock.",
+      "image": "img/2015-summer-gl4/q3b.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q3b.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q3ci",
+      "paper": "2015-summer-gl4",
+      "question": "3(c)(i)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Contact Metamorphic Rocks",
+        "Hornfels"
+      ],
+      "skills": [
+        "Map Location",
+        "Petrological Justification"
+      ],
+      "summary": "Mark with arrow (<- H) a probable location of hornfels on Figure 3b and explain your answer.",
+      "image": "img/2015-summer-gl4/q3ci.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q3ci.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q3cii",
+      "paper": "2015-summer-gl4",
+      "question": "3(c)(ii)",
+      "marks": 4,
+      "page": 9,
+      "topics": [
+        "Heat Transfer",
+        "Conduction vs Convection",
+        "Aureoles"
+      ],
+      "skills": [
+        "Comparative Analysis",
+        "Process Explanation"
+      ],
+      "summary": "Describe and explain how water and rock type affected the width of the metamorphic aureole in Figure 3b.",
+      "image": "img/2015-summer-gl4/q3cii.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q3a.jpg",
+        "img/2015-summer-gl4/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q3cii.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q3di",
+      "paper": "2015-summer-gl4",
+      "question": "3(d)(i)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "Subsurface Geology",
+        "Pluton Geometry"
+      ],
+      "skills": [
+        "Geological Deduction"
+      ],
+      "summary": "Suggest one reason (shallow unexposed granite body) for the zone of spotted rock NE of the pluton.",
+      "image": "img/2015-summer-gl4/q3di.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q3di.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q3dii",
+      "paper": "2015-summer-gl4",
+      "question": "3(d)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "Contact Metamorphism",
+        "Pluton Characteristics"
+      ],
+      "skills": [
+        "Factor Identification"
+      ],
+      "summary": "Suggest two features of plutons (size, magma temperature, depth) that influence aureole width.",
+      "image": "img/2015-summer-gl4/q3dii.jpg",
+      "figures": [],
+      "markscheme": "img/2015-summer-gl4/ms-q3dii.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q4ai",
+      "paper": "2015-summer-gl4",
+      "question": "4(a)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Carbon Cycle",
+        "Subduction Zones",
+        "Decarbonation"
+      ],
+      "skills": [
+        "Cycle Description"
+      ],
+      "summary": "Describe how carbon is transferred from marine sediments to the atmosphere at plate boundaries.",
+      "image": "img/2015-summer-gl4/q4ai.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q4ai.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q4aii",
+      "paper": "2015-summer-gl4",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Carbon Cycle",
+        "Chemical Weathering",
+        "Carbon Sequestration"
+      ],
+      "skills": [
+        "Process Description"
+      ],
+      "summary": "Describe how carbon is removed from the atmosphere and returned to marine sediments via weathering and biological calcification.",
+      "image": "img/2015-summer-gl4/q4aii.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q4aii.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q4aiii",
+      "paper": "2015-summer-gl4",
+      "question": "4(a)(iii)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "Palaeoclimatology",
+        "Greenhouse Effect"
+      ],
+      "skills": [
+        "Knowledge Recall"
+      ],
+      "summary": "Briefly describe the direct relationship between atmospheric CO2 and global temperatures.",
+      "image": "img/2015-summer-gl4/q4aiii.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q4bi",
+      "paper": "2015-summer-gl4",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "Strontium Isotopes",
+        "Weathering Rates"
+      ],
+      "skills": [
+        "Data Description",
+        "Trend Identification"
+      ],
+      "summary": "Describe the relative change in 87Sr/86Sr ratios in Figure 4b over the last 40 Ma.",
+      "image": "img/2015-summer-gl4/q4bi.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q4bc.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q4bi.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q4bii",
+      "paper": "2015-summer-gl4",
+      "question": "4(b)(ii)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "Tectonic Uplift",
+        "Isotope Geochemistry"
+      ],
+      "skills": [
+        "Model Selection",
+        "Correlation Evaluation"
+      ],
+      "summary": "State which uplift model (B) most closely correlates with 87Sr/86Sr ratio data and describe the correlation.",
+      "image": "img/2015-summer-gl4/q4bii.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q4bc.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q4bii.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q4ci",
+      "paper": "2015-summer-gl4",
+      "question": "4(c)(i)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "Tectonic Uplift",
+        "Silicate Weathering",
+        "Cenozoic Cooling"
+      ],
+      "skills": [
+        "Causal Chain Analysis"
+      ],
+      "summary": "Explain how an increase in Himalayan/Tibetan plateau height caused Cenozoic global cooling via silicate weathering drawdown.",
+      "image": "img/2015-summer-gl4/q4ci.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q4a.jpg",
+        "img/2015-summer-gl4/fig-q4bc.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q4ci.jpg"
+    },
+    {
+      "id": "2015-summer-gl4-q4cii",
+      "paper": "2015-summer-gl4",
+      "question": "4(c)(ii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "Palaeoclimatology",
+        "Cenozoic Climate Mechanisms"
+      ],
+      "skills": [
+        "Hypothesis Suggestion"
+      ],
+      "summary": "Suggest one other mechanism (Drake Passage opening, reduced spreading, ocean gateway changes) for Cenozoic global cooling.",
+      "image": "img/2015-summer-gl4/q4cii.jpg",
+      "figures": [
+        "img/2015-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl4/ms-q4cii.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u1-q1ai",
+      "paper": "2015-summer-gl5-u1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Glacial Sediments",
+        "Till Texture"
+      ],
+      "skills": [
+        "Textural Description"
+      ],
+      "summary": "Describe the poorly sorted, angular, matrix-supported texture of the Criccieth Till.",
+      "image": "img/2015-summer-gl5-u1/q1ai.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u1-q1aii",
+      "paper": "2015-summer-gl5-u1",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Glacial Processes",
+        "Till Genesis"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Explain how the poorly sorted and angular texture of Criccieth Till supports a glacial transport origin.",
+      "image": "img/2015-summer-gl5-u1/q1aii.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u1-q1aiii",
+      "paper": "2015-summer-gl5-u1",
+      "question": "1(a)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Quaternary Stratigraphy",
+        "Sedimentary Breaks"
+      ],
+      "skills": [
+        "Evidence Deduction"
+      ],
+      "summary": "Explain evidence (weathered horizon and ice-widened permafrost cracks) for a hiatus between till and fluvioglacial gravel.",
+      "image": "img/2015-summer-gl5-u1/q1aiii.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u1/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u1-q1bi",
+      "paper": "2015-summer-gl5-u1",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Fluvioglacial Sediments",
+        "Outwash Texture"
+      ],
+      "skills": [
+        "Textural Evaluation"
+      ],
+      "summary": "Explain how rounding, sorting, and stratification support fluvioglacial deposition.",
+      "image": "img/2015-summer-gl5-u1/q1bi.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u1-q1bii",
+      "paper": "2015-summer-gl5-u1",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Deglaciation",
+        "Climate Change"
+      ],
+      "skills": [
+        "Palaeoclimatic Inference"
+      ],
+      "summary": "Suggest how climatic warming caused ice sheet melting and outwash gravel deposition over Criccieth Till.",
+      "image": "img/2015-summer-gl5-u1/q1bii.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u1-q1c",
+      "paper": "2015-summer-gl5-u1",
+      "question": "1(c)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "Quaternary Climate Cycles",
+        "Glacial Succession"
+      ],
+      "skills": [
+        "Sequential Synthesis"
+      ],
+      "summary": "Explain evidence for climatic fluctuations (till readvance, peat formation, soil) after fluvioglacial deposition.",
+      "image": "img/2015-summer-gl5-u1/q1c.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u1/ms-q1c.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u2-q1ai",
+      "paper": "2015-summer-gl5-u2",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Mineral Reserves",
+        "Copper Ores"
+      ],
+      "skills": [
+        "Quantitative Calculation"
+      ],
+      "summary": "Calculate the maximum amount of recoverable copper (2.73 Mt) from ore reserve and grade data.",
+      "image": "img/2015-summer-gl5-u2/q1ai.jpg",
+      "figures": [],
+      "markscheme": "img/2015-summer-gl5-u2/ms-q1ai.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u2-q1aii",
+      "paper": "2015-summer-gl5-u2",
+      "question": "1(a)(ii)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "Mining Environmental Impacts",
+        "Planning Controls"
+      ],
+      "skills": [
+        "Problem Solving",
+        "Environmental Mitigation"
+      ],
+      "summary": "Describe one mining environmental problem (AMD/scarring) and suggest a suitable planning control.",
+      "image": "img/2015-summer-gl5-u2/q1aii.jpg",
+      "figures": [],
+      "markscheme": "img/2015-summer-gl5-u2/ms-q1aii.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u2-q1bi",
+      "paper": "2015-summer-gl5-u2",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Hydrogeology",
+        "Groundwater Flow"
+      ],
+      "skills": [
+        "Diagram Analysis"
+      ],
+      "summary": "Explain why groundwater in the conglomerate flows to the west due to hydraulic gradient.",
+      "image": "img/2015-summer-gl5-u2/q1bi.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u2-q1bii",
+      "paper": "2015-summer-gl5-u2",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Geochemical Exploration",
+        "Hydrogeochemical Anomalies"
+      ],
+      "skills": [
+        "Causal Explanation"
+      ],
+      "summary": "Explain why copper concentrations in groundwater are anomalously high at Location A.",
+      "image": "img/2015-summer-gl5-u2/q1bii.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u2-q1biii",
+      "paper": "2015-summer-gl5-u2",
+      "question": "1(b)(iii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Geochemical Dispersion",
+        "Hydrogeology"
+      ],
+      "skills": [
+        "Deductive Reasoning"
+      ],
+      "summary": "Explain the low concentration of copper in groundwater at Location B despite westward flow.",
+      "image": "img/2015-summer-gl5-u2/q1biii.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u2/ms-q1biii.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u2-q1c",
+      "paper": "2015-summer-gl5-u2",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Mineral Exploration",
+        "Blind Deposits"
+      ],
+      "skills": [
+        "Comparative Evaluation"
+      ],
+      "summary": "Explain why prospecting techniques other than groundwater geochemistry were less effective for the buried Spence Deposit.",
+      "image": "img/2015-summer-gl5-u2/q1c.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u2/ms-q1c.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u3-q1a",
+      "paper": "2015-summer-gl5-u3",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Cross-Cutting Relationships",
+        "Relative Dating"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Chronological Deduction"
+      ],
+      "summary": "Determine the relative ages of faulting, intrusion, and metamorphism in Table 1.",
+      "image": "img/2015-summer-gl5-u3/q1a.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u3/ms-q1a.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u3-q1b",
+      "paper": "2015-summer-gl5-u3",
+      "question": "1(b)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Structural Geology",
+        "Thermal Metamorphism",
+        "Shap Granite"
+      ],
+      "skills": [
+        "Evidence Identification"
+      ],
+      "summary": "Explain two pieces of evidence suggesting regional cleavage is older than the Shap Granite.",
+      "image": "img/2015-summer-gl5-u3/q1b.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u3/ms-q1b.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u3-q1c",
+      "paper": "2015-summer-gl5-u3",
+      "question": "1(c)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "Caledonian Orogeny",
+        "Acadian Phase",
+        "British Stratigraphy"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Tectonic Synthesis"
+      ],
+      "summary": "Evaluate the student conclusion that pre-Late Devonian rocks and structures were produced by the Caledonian Orogeny.",
+      "image": "img/2015-summer-gl5-u3/q1c.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u3/ms-q1c.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u3-q1d",
+      "paper": "2015-summer-gl5-u3",
+      "question": "1(d)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Unconformities",
+        "Old Red Sandstone"
+      ],
+      "skills": [
+        "Multi-Source Evidence Synthesis"
+      ],
+      "summary": "State evidence in Figures 1a and 1b for an unconformity at the base of the Late Devonian Old Red Sandstone.",
+      "image": "img/2015-summer-gl5-u3/q1d.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u3/fig-q1a.jpg",
+        "img/2015-summer-gl5-u3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u3/ms-q1d.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u3-q1e",
+      "paper": "2015-summer-gl5-u3",
+      "question": "1(e)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "Sedimentology",
+        "Fluvial Environments",
+        "Arkose"
+      ],
+      "skills": [
+        "Environmental Interpretation",
+        "Evidence Justification"
+      ],
+      "summary": "State with reasons the alluvial fan / arid fluvial depositional environment of the Late Devonian sedimentary rocks.",
+      "image": "img/2015-summer-gl5-u3/q1e.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u3/ms-q1e.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u4-q1a",
+      "paper": "2015-summer-gl5-u4",
+      "question": "1(a)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Wadati-Benioff Zone",
+        "Subduction Seismicity",
+        "Sumatra"
+      ],
+      "skills": [
+        "Spatial Description",
+        "Cross-Section Interpretation"
+      ],
+      "summary": "Describe the distribution and dipping Wadati-Benioff geometry of earthquake foci in Figure 1b.",
+      "image": "img/2015-summer-gl5-u4/q1a.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u4/ms-q1a.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u4-q1bi",
+      "paper": "2015-summer-gl5-u4",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Subduction Geometry",
+        "Oceanic Lithosphere"
+      ],
+      "skills": [
+        "Diagram Annotation"
+      ],
+      "summary": "Draw and label a line showing the probable top of the subducted Indian Oceanic Plate on Figure 1b.",
+      "image": "img/2015-summer-gl5-u4/q1bi.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u4-q1bii",
+      "paper": "2015-summer-gl5-u4",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Plate Bending",
+        "Outer Trench High",
+        "Earthquakes"
+      ],
+      "skills": [
+        "Feature Identification"
+      ],
+      "summary": "Label one shallow focus (T ->) resulting from tensional bending forces seaward of the trench.",
+      "image": "img/2015-summer-gl5-u4/q1bii.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u4-q1biii",
+      "paper": "2015-summer-gl5-u4",
+      "question": "1(b)(iii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Volcanic Seismicity",
+        "Magma Intrusion"
+      ],
+      "skills": [
+        "Feature Identification"
+      ],
+      "summary": "Label one shallow earthquake focus (M ->) generated by rising magma beneath the volcanic arc.",
+      "image": "img/2015-summer-gl5-u4/q1biii.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u4/ms-q1biii.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u4-q1c",
+      "paper": "2015-summer-gl5-u4",
+      "question": "1(c)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Accretionary Prisms",
+        "Forearc Ridges"
+      ],
+      "skills": [
+        "Map Evidence Explanation"
+      ],
+      "summary": "Explain evidence from Figure 1a supporting the island chain as a modern accretionary prism.",
+      "image": "img/2015-summer-gl5-u4/q1c.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u4/ms-q1c.jpg"
+    },
+    {
+      "id": "2015-summer-gl5-u4-q1d",
+      "paper": "2015-summer-gl5-u4",
+      "question": "1(d)",
+      "marks": 6,
+      "page": 4,
+      "topics": [
+        "Ophiolites",
+        "Accretionary Complexes",
+        "Island Arcs"
+      ],
+      "skills": [
+        "Lithological Analysis",
+        "Long-Term Accretion Synthesis"
+      ],
+      "summary": "Explain how ophiolites, turbidites, and volcanic-reef units prove accretion for >100 Ma in Table 1.",
+      "image": "img/2015-summer-gl5-u4/q1d.jpg",
+      "figures": [
+        "img/2015-summer-gl5-u4/fig-tab1.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl5-u4/ms-q1d.jpg"
     }
   ],
   "levels": [
