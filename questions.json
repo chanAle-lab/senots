@@ -475,6 +475,18 @@
       "spec": "Foundation Geology",
       "totalMarks": 90,
       "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2025-summer-a2",
+      "year": 2025,
+      "series": "Summer",
+      "date": "2025-06-09",
+      "code": "A480U20-1",
+      "unit": "Component 2",
+      "level": "A",
+      "spec": "Geological Principles and Processes",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
     }
   ],
   "questions": [
@@ -14758,6 +14770,653 @@
       "summary": "Evaluate the statement that rocks north of the Brixner Granite are metamorphic rocks formed by contact metamorphism showing increasing grade northwards [QER].",
       "image": "img/2025-summer-c2/q6c.jpg",
       "markscheme": "img/2025-summer-c2/ms-q6c.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q1ai",
+      "paper": "2025-summer-a2",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "State the two missing elements in Table 1 comparing Earth's crust with meteorite P (Oxygen and Magnesium).",
+      "image": "img/2025-summer-a2/q1ai.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q1ai.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q1aii",
+      "paper": "2025-summer-a2",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the abundance of aluminium (0.90%) and potassium (0.10%) in meteorite P from Figure 1a.",
+      "image": "img/2025-summer-a2/q1aii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q1aii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q1aiii",
+      "paper": "2025-summer-a2",
+      "question": "1(a)(iii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "Identify the type of meteorite represented by meteorite Q (Iron meteorite, 88% Fe).",
+      "image": "img/2025-summer-a2/q1aiii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q1aiv",
+      "paper": "2025-summer-a2",
+      "question": "1(a)(iv)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "State the Goldschmidt classification category for iron, the main element of meteorite Q (Siderophile).",
+      "image": "img/2025-summer-a2/q1aiv.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q1aiv.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q1bi",
+      "paper": "2025-summer-a2",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "State the depth where Earth density is 3.3 g/cm3 (500 km) and suggest which internal layer is represented by meteorite P (Mantle).",
+      "image": "img/2025-summer-a2/q1bi.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q1bii",
+      "paper": "2025-summer-a2",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Suggest why Earth density increases rapidly at 5155 km depth (inner core boundary / liquid outer core to solid inner core phase change).",
+      "image": "img/2025-summer-a2/q1bii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q1biii",
+      "paper": "2025-summer-a2",
+      "question": "1(b)(iii)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "State the mean density of the Earth's core from Figure 1b (11.5 g/cm3).",
+      "image": "img/2025-summer-a2/q1biii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q1biii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q1biv",
+      "paper": "2025-summer-a2",
+      "question": "1(b)(iv)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the volume of the Earth's core in standard form cm3 given core mass 1.85 x 10^27 g and density 11.5 g/cm3 (1.61 x 10^26 cm3).",
+      "image": "img/2025-summer-a2/q1biv.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q1biv.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q2ai",
+      "paper": "2025-summer-a2",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Measure the throw of Fault F on Figure 2a (5 m).",
+      "image": "img/2025-summer-a2/q2ai.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q2ai.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q2aii",
+      "paper": "2025-summer-a2",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "State the type of fault represented by Fault F (Normal fault) and give a reason (hangingwall downthrown / crustal extension).",
+      "image": "img/2025-summer-a2/q2aii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q2aii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q2aiii",
+      "paper": "2025-summer-a2",
+      "question": "2(a)(iii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Evaluate student statement that faults in Figure 2a formed by east-west tensional stresses (normal fault confirms extension, but cross-section orientation may be apparent).",
+      "image": "img/2025-summer-a2/q2aiii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q2aiii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q2aiv",
+      "paper": "2025-summer-a2",
+      "question": "2(a)(iv)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Explain how a reduction in throw occurred with reference to changing principal stress directions (reactivation / reverse slip under later compression).",
+      "image": "img/2025-summer-a2/q2aiv.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q2aiv.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q2b",
+      "paper": "2025-summer-a2",
+      "question": "2(b)",
+      "marks": 6,
+      "page": 8,
+      "topics": [
+        "2.1",
+        "2.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Explain how the texture, composition and structure of Rock G (desert sandstone) and Rock H (fault breccia) are related to their modes of formation (aeolian sedimentation vs dynamic fault metamorphism) [QER].",
+      "image": "img/2025-summer-a2/q2b.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q2b.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q3ai",
+      "paper": "2025-summer-a2",
+      "question": "3(a)(i)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "State the distance the Pūhāhonu volcano has travelled from the fixed mantle plume in Figure 3a (1434 km).",
+      "image": "img/2025-summer-a2/q3ai.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q3ai.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q3aii",
+      "paper": "2025-summer-a2",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the mean rate of Pacific Plate movement in cm/yr since the formation of Pūhāhonu (1434 km / 14.5 Ma = 9.90 cm/yr).",
+      "image": "img/2025-summer-a2/q3aii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q3aii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q3aiii",
+      "paper": "2025-summer-a2",
+      "question": "3(a)(iii)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the relationship between rate of eruption and age of volcanism along the Hawaiian chain in Figure 3b.",
+      "image": "img/2025-summer-a2/q3aiii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q3aiii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q3aiv",
+      "paper": "2025-summer-a2",
+      "question": "3(a)(iv)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Name and describe one volcanic hazard associated with present-day volcanism at Kīlauea (lava flows, SO2 gas, tephra).",
+      "image": "img/2025-summer-a2/q3aiv.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q3aiv.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q3bi",
+      "paper": "2025-summer-a2",
+      "question": "3(b)(i)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Outline the evidence in Figure 3a that supports the mantle plume hot spot theory for Hawaii (linear chain, age progression NW, active volcanism at SE).",
+      "image": "img/2025-summer-a2/q3bi.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q3bi.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q3bii",
+      "paper": "2025-summer-a2",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "2.2",
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Suggest how an alternative lithospheric stretching/thinning theory could generate basaltic magma (decompression melting of asthenospheric mantle).",
+      "image": "img/2025-summer-a2/q3bii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q3bii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q3ci",
+      "paper": "2025-summer-a2",
+      "question": "3(c)(i)",
+      "marks": 1,
+      "page": 14,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "State the temperature at which pure forsterite (Mg2SiO4) crystallises from Figure 3c (1890 °C).",
+      "image": "img/2025-summer-a2/q3ci.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q3ci.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q3cii",
+      "paper": "2025-summer-a2",
+      "question": "3(c)(ii)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete Table 2 for olivine solid solution equilibrium crystallisation in the Pūhāhonu melt (initial crystal %Fe: 08%, 1700°C melt %Fe: 41%, final temp: 1610°C).",
+      "image": "img/2025-summer-a2/q3cii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q3cii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q3ciii",
+      "paper": "2025-summer-a2",
+      "question": "3(c)(iii)",
+      "marks": 1,
+      "page": 15,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Suggest how Table 2 compositional data indicates Pūhāhonu erupted very high temperature lava (magnesium-rich olivine requiring higher melting temperatures).",
+      "image": "img/2025-summer-a2/q3ciii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q3ciii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q4ai",
+      "paper": "2025-summer-a2",
+      "question": "4(a)(i)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete the graphic log in Figure 4a from point X to Y using the description of the three sandstone beds in Table 3.",
+      "image": "img/2025-summer-a2/q4ai.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q4ai.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q4aii",
+      "paper": "2025-summer-a2",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Sketch a line in Column Z of Figure 4a showing changes in seawater depth represented by the marine graphic log.",
+      "image": "img/2025-summer-a2/q4aii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q4aii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q4bi",
+      "paper": "2025-summer-a2",
+      "question": "4(b)(i)",
+      "marks": 3,
+      "page": 18,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify at which location (K, L, M) the borehole graphic log was recorded in Figure 4b (Location K) and give two supporting reasons.",
+      "image": "img/2025-summer-a2/q4bi.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q4bi.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q4bii",
+      "paper": "2025-summer-a2",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "State whether arrow C on Figure 4b demonstrates marine transgression or regression (marine transgression) and explain why (facies shifting landward).",
+      "image": "img/2025-summer-a2/q4bii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q4bii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q4biii",
+      "paper": "2025-summer-a2",
+      "question": "4(b)(iii)",
+      "marks": 1,
+      "page": 19,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "State what is meant by Walther's Law (facies adjacent in depositional environment are found superimposed in vertical sequence without break).",
+      "image": "img/2025-summer-a2/q4biii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q4biii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q4biv",
+      "paper": "2025-summer-a2",
+      "question": "4(b)(iv)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Evaluate student statement regarding the application of Walther's Law and overall decreasing energy conditions in Figure 4b.",
+      "image": "img/2025-summer-a2/q4biv.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q4biv.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q4ci",
+      "paper": "2025-summer-a2",
+      "question": "4(c)(i)",
+      "marks": 1,
+      "page": 20,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Name the sedimentary structure shown in Figure 4c (Cross bedding).",
+      "image": "img/2025-summer-a2/q4ci.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q4ci.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q4cii",
+      "paper": "2025-summer-a2",
+      "question": "4(c)(ii)",
+      "marks": 5,
+      "page": 20,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the appearance and explain how another sedimentary structure (flute casts, ripple marks, or imbrication) indicates paleocurrent direction.",
+      "image": "img/2025-summer-a2/q4cii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q4cii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q5ai",
+      "paper": "2025-summer-a2",
+      "question": "5(a)(i)",
+      "marks": 1,
+      "page": 22,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "State one natural source of atmospheric carbon dioxide (volcanic outgassing, respiration, ocean release).",
+      "image": "img/2025-summer-a2/q5ai.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q5ai.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q5aii",
+      "paper": "2025-summer-a2",
+      "question": "5(a)(ii)",
+      "marks": 3,
+      "page": 22,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the change in atmospheric carbon dioxide concentration since 1500 shown in Figure 5a (1610 dip, post-1780 industrial rise).",
+      "image": "img/2025-summer-a2/q5aii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q5aii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q5b",
+      "paper": "2025-summer-a2",
+      "question": "5(b)",
+      "marks": 6,
+      "page": 23,
+      "topics": [
+        "3.1",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Explain and evaluate candidate markers for defining the onset of the Anthropocene Epoch in the geological record (1610 Orbis spike vs 1964 bomb spike) [QER].",
+      "image": "img/2025-summer-a2/q5b.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q5b.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q6ai",
+      "paper": "2025-summer-a2",
+      "question": "6(a)(i)",
+      "marks": 1,
+      "page": 25,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Identify the most likely geological period of plant fossil J (Carboniferous).",
+      "image": "img/2025-summer-a2/q6ai.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q6ai.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q6aii",
+      "paper": "2025-summer-a2",
+      "question": "6(a)(ii)",
+      "marks": 1,
+      "page": 25,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "State the geological principle used to infer extinct species mode of life from present-day analogues (Uniformitarianism).",
+      "image": "img/2025-summer-a2/q6aii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q6aii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q6aiii",
+      "paper": "2025-summer-a2",
+      "question": "6(a)(iii)",
+      "marks": 2,
+      "page": 25,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Give one similarity and one difference between plant fossil J and modern plant K morphology referring to features A and B in Figure 6a/6b.",
+      "image": "img/2025-summer-a2/q6aiii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q6aiii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q6aiv",
+      "paper": "2025-summer-a2",
+      "question": "6(a)(iv)",
+      "marks": 2,
+      "page": 25,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Suggest limitations in comparing the morphology of plant fossil J with modern plant K (incomplete preservation, tectonic distortion).",
+      "image": "img/2025-summer-a2/q6aiv.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q6aiv.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q6av",
+      "paper": "2025-summer-a2",
+      "question": "6(a)(v)",
+      "marks": 3,
+      "page": 25,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Name and describe the fossilisation process preserving plant fossil J (Carbonisation: compression in anoxic conditions driving off volatiles).",
+      "image": "img/2025-summer-a2/q6av.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q6av.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q6bi",
+      "paper": "2025-summer-a2",
+      "question": "6(b)(i)",
+      "marks": 2,
+      "page": 27,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "State the range in leaf surface area of fern leaves from Figure 6c (0.1 to 30 cm2).",
+      "image": "img/2025-summer-a2/q6bi.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q6bi.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q6bii",
+      "paper": "2025-summer-a2",
+      "question": "6(b)(ii)",
+      "marks": 1,
+      "page": 27,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Draw a median line at 4 cm2 for shrub leaves on Figure 6c.",
+      "image": "img/2025-summer-a2/q6bii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q6bii.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q6ci",
+      "paper": "2025-summer-a2",
+      "question": "6(c)(i)",
+      "marks": 2,
+      "page": 27,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the relationship between typical leaf surface area and latitude shown in Figure 6d (peaks near equator, decreases poleward).",
+      "image": "img/2025-summer-a2/q6ci.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q6ci.jpg"
+    },
+    {
+      "id": "2025-summer-a2-q6cii",
+      "paper": "2025-summer-a2",
+      "question": "6(c)(ii)",
+      "marks": 2,
+      "page": 27,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Explain why leaf surface area decreases with increasing latitude with reference to global climates (temperature, transpiration, water conservation, frost protection).",
+      "image": "img/2025-summer-a2/q6cii.jpg",
+      "markscheme": "img/2025-summer-a2/ms-q6cii.jpg"
     }
   ],
   "levels": [
