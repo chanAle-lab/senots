@@ -177,6 +177,18 @@
   ],
   "papers": [
     {
+      "id": "2012-summer-gl1",
+      "year": 2012,
+      "series": "Summer",
+      "date": "2012-05-18",
+      "code": "1211/01",
+      "unit": "GL1 Foundation Unit",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour",
+      "level": "AS"
+    },
+    {
       "id": "2016-summer-gl1",
       "year": 2016,
       "series": "Summer",
@@ -15417,6 +15429,478 @@
       "summary": "Explain why leaf surface area decreases with increasing latitude with reference to global climates (temperature, transpiration, water conservation, frost protection).",
       "image": "img/2025-summer-a2/q6cii.jpg",
       "markscheme": "img/2025-summer-a2/ms-q6cii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q1ai",
+      "paper": "2012-summer-gl1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name the hard parts labelled X (brachiopod valve) and Y (trilobite cephalon) on a fossil bedding surface.",
+      "image": "img/2012-summer-gl1/q1ai.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q1aii",
+      "paper": "2012-summer-gl1",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Identify the sedimentary rock containing over 80% calcium carbonate as limestone.",
+      "image": "img/2012-summer-gl1/q1aii.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q1b",
+      "paper": "2012-summer-gl1",
+      "question": "1(b)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "2.3",
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe the shallow marine depositional environment of rock R with reasons based on calcium carbonate and marine fossils.",
+      "image": "img/2012-summer-gl1/q1b.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q1b.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q1c",
+      "paper": "2012-summer-gl1",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Evaluate a student's conclusion that the fossil assemblage is preserved as a life assemblage, giving reasons for a death assemblage.",
+      "image": "img/2012-summer-gl1/q1c.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q1c.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q1di",
+      "paper": "2012-summer-gl1",
+      "question": "1(d)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Determine the time zone during which a bedding surface with species A and C was deposited using concurrent range zones.",
+      "image": "img/2012-summer-gl1/q1di.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q1di.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q1dii",
+      "paper": "2012-summer-gl1",
+      "question": "1(d)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Determine the depositional time zone for a bed containing species B, D, and E with reasoning regarding derived (reworked) fossils.",
+      "image": "img/2012-summer-gl1/q1dii.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q1dii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q2ai",
+      "paper": "2012-summer-gl1",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "T3",
+        "T4"
+      ],
+      "skills": [
+        "diagram"
+      ],
+      "summary": "Mark the epicentre of the earthquake on the Earth cross-section with an arrow labelled E.",
+      "image": "img/2012-summer-gl1/q2ai.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q2ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q2aii",
+      "paper": "2012-summer-gl1",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "T4"
+      ],
+      "skills": [],
+      "summary": "Explain why shear S-waves cannot propagate through the liquid outer core into the S-wave shadow zone.",
+      "image": "img/2012-summer-gl1/q2aii.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q2aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q2bi",
+      "paper": "2012-summer-gl1",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "T4"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Label the three arrows on the seismogram indicating the first arrivals of P, S, and Surface waves.",
+      "image": "img/2012-summer-gl1/q2bi.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q2bi.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q2bii",
+      "paper": "2012-summer-gl1",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "T4"
+      ],
+      "skills": [],
+      "summary": "Explain why P, S, and surface seismic waves arrive at different times due to differing propagation velocities.",
+      "image": "img/2012-summer-gl1/q2bii.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q2bii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q2biii",
+      "paper": "2012-summer-gl1",
+      "question": "2(b)(iii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "T4"
+      ],
+      "skills": [
+        "diagram"
+      ],
+      "summary": "Indicate with arrow N a likely location for the recording station based on the presence of both P and S arrivals outside the shadow zone.",
+      "image": "img/2012-summer-gl1/q2biii.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q2biii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q2ci",
+      "paper": "2012-summer-gl1",
+      "question": "2(c)(i)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "T4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the mean velocity in km/second of seismic waves traveling 6600 km to station A in 8 minutes.",
+      "image": "img/2012-summer-gl1/q2ci.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q2ci.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q2cii",
+      "paper": "2012-summer-gl1",
+      "question": "2(c)(ii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "T4"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Identify the seismic wave on the travel-time map as a P-wave with reasons from velocity and the annular shadow zone.",
+      "image": "img/2012-summer-gl1/q2cii.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q2c.jpg",
+        "img/2012-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q2cii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q2ciii",
+      "paper": "2012-summer-gl1",
+      "question": "2(c)(iii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "T4"
+      ],
+      "skills": [],
+      "summary": "State which seismic wave (surface wave) is recorded at location T within the body wave shadow zone.",
+      "image": "img/2012-summer-gl1/q2ciii.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q2ciii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q3ai",
+      "paper": "2012-summer-gl1",
+      "question": "3(a)(i)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "2.2",
+        "4.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Describe the strike (N-S), dip angle (90 degrees), and dip direction of igneous body A1 in a quarry block diagram.",
+      "image": "img/2012-summer-gl1/q3ai.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q3ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q3aii",
+      "paper": "2012-summer-gl1",
+      "question": "3(a)(ii)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Identify igneous body A1 as a dyke with reasons from discordant geometry, vertical tabular shape, and branching offshoots.",
+      "image": "img/2012-summer-gl1/q3aii.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q3aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q3b",
+      "paper": "2012-summer-gl1",
+      "question": "3(b)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "3.1",
+        "2.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Evaluate a student's conclusion that igneous body A1 formed along a normal fault with reasons based on displacement and vertical dip.",
+      "image": "img/2012-summer-gl1/q3b.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q3b.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q3ci",
+      "paper": "2012-summer-gl1",
+      "question": "3(c)(i)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "State and explain the principle of superposition using the sandstone, conglomerate, and limestone sequence in Figure 3.",
+      "image": "img/2012-summer-gl1/q3ci.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q3ci.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q3cii",
+      "paper": "2012-summer-gl1",
+      "question": "3(c)(ii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "4.1",
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Explain the law of included fragments using the mafic igneous clasts inside the conglomerate.",
+      "image": "img/2012-summer-gl1/q3cii.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q3cii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q3ciii",
+      "paper": "2012-summer-gl1",
+      "question": "3(c)(iii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "4.1",
+        "2.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Determine that the mafic clasts in the conglomerate are older than igneous offshoot A2 with geological reasons.",
+      "image": "img/2012-summer-gl1/q3ciii.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q3ciii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q4ai",
+      "paper": "2012-summer-gl1",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "G2",
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Name feature M formed by hot fluids in a joint as a hydrothermal mineral vein.",
+      "image": "img/2012-summer-gl1/q4ai.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q4a.jpg",
+        "img/2012-summer-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q4ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q4aii",
+      "paper": "2012-summer-gl1",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "1.1",
+        "G2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify mineral L as quartz and mineral P as fluorite from mineral test properties using the data sheet.",
+      "image": "img/2012-summer-gl1/q4aii.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q4b.jpg",
+        "img/2012-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q4aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q4bi",
+      "paper": "2012-summer-gl1",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "2.1",
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Describe how load casts and flame structures form from density differences between overlying sand and soft water-logged mud.",
+      "image": "img/2012-summer-gl1/q4bi.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q4bi.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q4bii",
+      "paper": "2012-summer-gl1",
+      "question": "4(b)(ii)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "3.1",
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain how flame structures and load casts act as geopetal way-up indicators confirming the fold is an anticline.",
+      "image": "img/2012-summer-gl1/q4bii.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q4c.jpg",
+        "img/2012-summer-gl1/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q4bii.jpg"
+    },
+    {
+      "id": "2012-summer-gl1-q4c",
+      "paper": "2012-summer-gl1",
+      "question": "4(c)",
+      "marks": 4,
+      "page": 11,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe regional metamorphic conditions (compression, moderate temperature, cleavage development, hydrothermal veins) that altered the rocks.",
+      "image": "img/2012-summer-gl1/q4c.jpg",
+      "figures": [
+        "img/2012-summer-gl1/fig-q4a.jpg",
+        "img/2012-summer-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl1/ms-q4c.jpg"
     }
   ],
   "levels": [
