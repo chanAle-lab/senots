@@ -189,6 +189,18 @@
       "level": "AS"
     },
     {
+      "id": "2012-summer-gl4",
+      "year": 2012,
+      "series": "Summer",
+      "date": "2012-06-12",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting the Geological Record",
+      "spec": "legacy",
+      "totalMarks": 100,
+      "duration": "2 hours",
+      "level": "A"
+    },
+    {
       "id": "2016-summer-gl1",
       "year": 2016,
       "series": "Summer",
@@ -15901,6 +15913,698 @@
         "img/2012-summer-gl1/fig-q4b.jpg"
       ],
       "markscheme": "img/2012-summer-gl1/ms-q4c.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q1ai",
+      "paper": "2012-summer-gl4",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Complete the biological classification of Dromaeosaurus albertensis (Order Saurischian, Genus, Species).",
+      "image": "img/2012-summer-gl4/q1ai.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q1ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q1aii",
+      "paper": "2012-summer-gl4",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the estimated footprint length (18 cm) and approximate hip height (72 cm) of Dromaeosaurus.",
+      "image": "img/2012-summer-gl4/q1aii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q1aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q1bi",
+      "paper": "2012-summer-gl4",
+      "question": "1(b)(i)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain how two morphological features (eyes, skull/teeth, claw, digitigrade foot) show Dromaeosaurus was a predatory carnivore.",
+      "image": "img/2012-summer-gl4/q1bi.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q1bii",
+      "paper": "2012-summer-gl4",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain morphological evidence for an upturned tail (flexible base, bony rods) and its predatory dynamic balancing advantage.",
+      "image": "img/2012-summer-gl4/q1bii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q1ci",
+      "paper": "2012-summer-gl4",
+      "question": "1(c)(i)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Analyse trackway evidence supporting the conclusion that Dromaeosaurus was able to pack-hunt larger dinosaurs.",
+      "image": "img/2012-summer-gl4/q1ci.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q1ci.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q1cii",
+      "paper": "2012-summer-gl4",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Suggest alternative explanations for the dinosaur trackways not involving active predation (time separation, scavenging, shoreline path).",
+      "image": "img/2012-summer-gl4/q1cii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q1cii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q2ai",
+      "paper": "2012-summer-gl4",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "T1",
+        "T3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Mark the position and extent of the oceanic trench associated with the Aleutian island arc on a Pacific map.",
+      "image": "img/2012-summer-gl4/q2ai.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q2ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q2aii",
+      "paper": "2012-summer-gl4",
+      "question": "2(a)(ii)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "2.2",
+        "T1"
+      ],
+      "skills": [],
+      "summary": "State the intermediate andesitic magma type associated with island arcs and explain its petrogenesis via slab dehydration and differentiation.",
+      "image": "img/2012-summer-gl4/q2aii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q2aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q2bi",
+      "paper": "2012-summer-gl4",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "T1"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Read the age of Midway Island (28 Ma) from the Hawaiian chain age-distance graph.",
+      "image": "img/2012-summer-gl4/q2bi.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q2bi.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q2bii",
+      "paper": "2012-summer-gl4",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "T1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the mean rate of Pacific Plate movement (8.6 cm/yr) using distance and radiometric age data.",
+      "image": "img/2012-summer-gl4/q2bii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q2bii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q2biii",
+      "paper": "2012-summer-gl4",
+      "question": "2(b)(iii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "T1",
+        "2.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Outline geological evidence supporting the theory that the Hawaiian-Emperor chain formed over a stationary mantle plume.",
+      "image": "img/2012-summer-gl4/q2biii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q2a.jpg",
+        "img/2012-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q2biii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q2c",
+      "paper": "2012-summer-gl4",
+      "question": "2(c)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "T1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain how map and graph data demonstrate the Pacific Plate changed direction and velocity around 42 Ma.",
+      "image": "img/2012-summer-gl4/q2c.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q2a.jpg",
+        "img/2012-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q2c.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q2d",
+      "paper": "2012-summer-gl4",
+      "question": "2(d)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "2.2",
+        "T1"
+      ],
+      "skills": [],
+      "summary": "Explain an alternative hypothesis of lithospheric tension and thinning generating basaltic magma via decompression melting.",
+      "image": "img/2012-summer-gl4/q2d.jpg",
+      "figures": [],
+      "markscheme": "img/2012-summer-gl4/ms-q2d.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q3ai",
+      "paper": "2012-summer-gl4",
+      "question": "3(a)(i)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "diagram"
+      ],
+      "summary": "State the compressive stress direction (E-W) of the fold from the block diagram.",
+      "image": "img/2012-summer-gl4/q3ai.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q3ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q3aii",
+      "paper": "2012-summer-gl4",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "3.1",
+        "3.2"
+      ],
+      "skills": [
+        "diagram"
+      ],
+      "summary": "Draw axial planar cleavage on the top surface and side cross-section of the folded shale bed.",
+      "image": "img/2012-summer-gl4/q3aii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q3aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q3bi",
+      "paper": "2012-summer-gl4",
+      "question": "3(b)(i)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe textural evidence in accretionary lapilli (concentric laminae, spherical shape, nucleus) supporting airborne accretion.",
+      "image": "img/2012-summer-gl4/q3bi.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q3b.jpg",
+        "img/2012-summer-gl4/fig-q3c.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q3bi.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q3bii",
+      "paper": "2012-summer-gl4",
+      "question": "3(b)(ii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "diagram"
+      ],
+      "summary": "Draw sketches and explain distortion of accretionary lapilli under tangential longitudinal strain at fold locations X (compression) and Z (extension).",
+      "image": "img/2012-summer-gl4/q3bii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q3bii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q3c",
+      "paper": "2012-summer-gl4",
+      "question": "3(c)",
+      "marks": 5,
+      "page": 9,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Critically evaluate a student's description of the fold as an 'overturned, symmetrical syncline' using way-up structures and geometry.",
+      "image": "img/2012-summer-gl4/q3c.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q3c.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q4ai",
+      "paper": "2012-summer-gl4",
+      "question": "4(a)(i)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "G1"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Describe estimated global surface temperature variations during a Neoproterozoic Snowball Earth cycle.",
+      "image": "img/2012-summer-gl4/q4ai.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q4ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q4aii",
+      "paper": "2012-summer-gl4",
+      "question": "4(a)(ii)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "G1"
+      ],
+      "skills": [
+        "diagram"
+      ],
+      "summary": "Mark with arrow R the rapid sea-level rise event associated with abrupt post-glacial deglaciation.",
+      "image": "img/2012-summer-gl4/q4aii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q4aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q4bi",
+      "paper": "2012-summer-gl4",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "T1",
+        "G1"
+      ],
+      "skills": [],
+      "summary": "Explain how horizontal remanent magnetic inclination in glacial diamictites proves low equatorial palaeolatitude glaciations.",
+      "image": "img/2012-summer-gl4/q4bi.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q4bi.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q4bii",
+      "paper": "2012-summer-gl4",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "2.1",
+        "G1"
+      ],
+      "skills": [],
+      "summary": "Explain how dropstones piercing deep-marine laminations prove marine ice-rafting at low palaeolatitudes.",
+      "image": "img/2012-summer-gl4/q4bii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q4bii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q4c",
+      "paper": "2012-summer-gl4",
+      "question": "4(c)",
+      "marks": 6,
+      "page": 11,
+      "topics": [
+        "G1",
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain how volcanic CO2 degassing, extreme chemical rock weathering, and methane hydrate releases ended Snowball Earth and deposited cap carbonates.",
+      "image": "img/2012-summer-gl4/q4c.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q4c.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q5a",
+      "paper": "2012-summer-gl4",
+      "question": "5(a)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "4.2",
+        "G2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Identify map features at grid references 498649 (lead mineral vein) and 494644 (solution swallow hole) on the Bristol Geological Map.",
+      "image": "img/2012-summer-gl4/q5a.jpg",
+      "figures": [
+        "img/2012-summer-gl4/map-bristol.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q5a.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q5b",
+      "paper": "2012-summer-gl4",
+      "question": "5(b)",
+      "marks": 5,
+      "page": 13,
+      "topics": [
+        "3.1",
+        "2.1"
+      ],
+      "skills": [
+        "diagram"
+      ],
+      "summary": "Draw and annotate a sketch of the Variscan angular unconformity between Carboniferous strata and Triassic Dolomitic Conglomerate.",
+      "image": "img/2012-summer-gl4/q5b.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q5.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q5b.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q5ci",
+      "paper": "2012-summer-gl4",
+      "question": "5(c)(i)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "4.2",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Describe the dendritic, valley-infilling outcrop pattern of the Triassic Dolomitic Conglomerate (MMMF) bordering limestone uplands.",
+      "image": "img/2012-summer-gl4/q5ci.jpg",
+      "figures": [
+        "img/2012-summer-gl4/map-bristol.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q5ci.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q5cii",
+      "paper": "2012-summer-gl4",
+      "question": "5(c)(ii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain sedimentological evidence (boulders, poor sorting) proving the Dolomitic Conglomerate was deposited by high-energy flash-flood streams.",
+      "image": "img/2012-summer-gl4/q5cii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q5.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q5cii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q6ai",
+      "paper": "2012-summer-gl4",
+      "question": "6(a)(i)",
+      "marks": 2,
+      "page": 14,
+      "topics": [
+        "3.1",
+        "4.2"
+      ],
+      "skills": [
+        "map",
+        "graph"
+      ],
+      "summary": "Add the 3 dip arrows in grid square 5167 from the Bristol Geological Map to Table 6 and complete the totals.",
+      "image": "img/2012-summer-gl4/q6ai.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q6.jpg",
+        "img/2012-summer-gl4/map-bristol.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q6ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q6aii",
+      "paper": "2012-summer-gl4",
+      "question": "6(a)(ii)",
+      "marks": 2,
+      "page": 14,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Complete the rose diagram sectors in Figure 6 showing the dip arrow distribution for the Carboniferous Limestone.",
+      "image": "img/2012-summer-gl4/q6aii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q6.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q6aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q6bi",
+      "paper": "2012-summer-gl4",
+      "question": "6(b)(i)",
+      "marks": 4,
+      "page": 14,
+      "topics": [
+        "3.1",
+        "4.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Evaluate whether the Carboniferous Limestone forms an elongated dome-shaped fold plunging E and W using map and rose diagram evidence.",
+      "image": "img/2012-summer-gl4/q6bi.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q6.jpg",
+        "img/2012-summer-gl4/map-bristol.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q6bi.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q6bii",
+      "paper": "2012-summer-gl4",
+      "question": "6(b)(ii)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "State two limitations of dip-direction rose diagrams in revealing fold structure (omits dip angle, lacks spatial geographic location).",
+      "image": "img/2012-summer-gl4/q6bii.jpg",
+      "figures": [],
+      "markscheme": "img/2012-summer-gl4/ms-q6bii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q6ci",
+      "paper": "2012-summer-gl4",
+      "question": "6(c)(i)",
+      "marks": 4,
+      "page": 15,
+      "topics": [
+        "3.1",
+        "4.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete Table 7 describing the Wrington Hill Fault (dip angle ~70 degrees, throw ~150-200m, hanging wall south, normal fault).",
+      "image": "img/2012-summer-gl4/q6ci.jpg",
+      "figures": [
+        "img/2012-summer-gl4/map-bristol.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q6ci.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q6cii",
+      "paper": "2012-summer-gl4",
+      "question": "6(c)(ii)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Evaluate whether the major faults are compatible with the principal stress directions that formed the major fold structure (compression vs tension).",
+      "image": "img/2012-summer-gl4/q6cii.jpg",
+      "figures": [
+        "img/2012-summer-gl4/map-bristol.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q6cii.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q7a",
+      "paper": "2012-summer-gl4",
+      "question": "7(a)",
+      "marks": 3,
+      "page": 16,
+      "topics": [
+        "2.1",
+        "G2"
+      ],
+      "skills": [],
+      "summary": "Explain why cavities and hollows form in limestone via carbonation dissolution by carbonic acid infiltrating joints and bedding planes.",
+      "image": "img/2012-summer-gl4/q7a.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q7.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q7a.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q7b",
+      "paper": "2012-summer-gl4",
+      "question": "7(b)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "G3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State two geological advantages of groundwater borehole location GR 532641 (down-dip recharge, thick fractured Black Rock Limestone aquifer).",
+      "image": "img/2012-summer-gl4/q7b.jpg",
+      "figures": [
+        "img/2012-summer-gl4/map-bristol.jpg",
+        "img/2012-summer-gl4/fig-q7.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q7b.jpg"
+    },
+    {
+      "id": "2012-summer-gl4-q7c",
+      "paper": "2012-summer-gl4",
+      "question": "7(c)",
+      "marks": 7,
+      "page": 17,
+      "topics": [
+        "G3",
+        "G4"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Evaluate geological and engineering implications of expanding Bristol Airport (hydrology, groundwater pollution, karst sinkhole collapse, historical lead mining).",
+      "image": "img/2012-summer-gl4/q7c.jpg",
+      "figures": [
+        "img/2012-summer-gl4/fig-q7.jpg",
+        "img/2012-summer-gl4/map-bristol.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl4/ms-q7c.jpg"
     }
   ],
   "levels": [
