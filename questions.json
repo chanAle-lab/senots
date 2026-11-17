@@ -535,6 +535,30 @@
       "totalMarks": 15,
       "duration": "1 hour",
       "level": "A"
+    },
+    {
+      "id": "2012-summer-gl5-u2",
+      "year": 2012,
+      "series": "Summer",
+      "date": "2012-06-14",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour",
+      "level": "A"
+    },
+    {
+      "id": "2012-summer-gl5-u4",
+      "year": 2012,
+      "series": "Summer",
+      "date": "2012-06-14",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour",
+      "level": "A"
     }
   ],
   "questions": [
@@ -16890,6 +16914,244 @@
         "img/2012-summer-gl5-u3/fig-q1c.jpg"
       ],
       "markscheme": "img/2012-summer-gl5-u3/ms-q1biii.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u2-q1ai",
+      "paper": "2012-summer-gl5-u2",
+      "question": "1(a)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T2.1",
+        "G1.1"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Using Figure 1a state dip angle (20°-24°), dip direction (South), and minimum depth of extraction (0.6 km / 600 m).",
+      "image": "img/2012-summer-gl5-u2/q1ai.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u2/ms-q1ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u2-q1aii",
+      "paper": "2012-summer-gl5-u2",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T2.1",
+        "1.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe the texture of the gold bearing conglomerate from Figure 1c (rounded/sub-rounded quartz pebbles, clast-supported framework, fine matrix).",
+      "image": "img/2012-summer-gl5-u2/q1aii.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u2/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u2/ms-q1aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u2-q1aiii",
+      "paper": "2012-summer-gl5-u2",
+      "question": "1(a)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T2.1",
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe a likely sedimentary environment for the Ventersdorp Contact Reef (high-energy fluvial / braided river / alluvial fan channel placer).",
+      "image": "img/2012-summer-gl5-u2/q1aiii.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u2/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u2/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u2-q1aiv",
+      "paper": "2012-summer-gl5-u2",
+      "question": "1(a)(iv)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T2.1",
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain why small gold particles (<0.5mm) coexist with quartz pebbles (>2cm) via hydraulic equivalence (high gold density vs quartz density).",
+      "image": "img/2012-summer-gl5-u2/q1aiv.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u2/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u2/ms-q1aiv.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u2-q1bi",
+      "paper": "2012-summer-gl5-u2",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T2.1",
+        "G1.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Calculate the percentage of gold in the reef with grade 15 g/tonne (15 / 1,000,000 = 0.0015%).",
+      "image": "img/2012-summer-gl5-u2/q1bi.jpg",
+      "figures": [],
+      "markscheme": "img/2012-summer-gl5-u2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u2-q1bii",
+      "paper": "2012-summer-gl5-u2",
+      "question": "1(b)(ii)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "T2.1",
+        "G1.3"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Identify two problems mining at >3km depth (rock temperature/geothermal gradient, lithostatic pressure/rockbursts) and suggest solutions (chilled ventilation, rock bolting/backfilling).",
+      "image": "img/2012-summer-gl5-u2/q1bii.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u4-q1ai",
+      "paper": "2012-summer-gl5-u4",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "T4",
+        "T4.1"
+      ],
+      "skills": [
+        "draw"
+      ],
+      "summary": "Label top P and bottom Q of oceanic lithosphere on cross-section Figure 1.",
+      "image": "img/2012-summer-gl5-u4/q1ai.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u4/fig-q1.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u4/ms-q1ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u4-q1aii",
+      "paper": "2012-summer-gl5-u4",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "T4",
+        "T4.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain how ophiolites found at location B (accretionary prism) formed (slices of oceanic crust and mantle obducted/scraped off onto continental margin).",
+      "image": "img/2012-summer-gl5-u4/q1aii.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u4/fig-q1.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u4/ms-q1aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u4-q1bi",
+      "paper": "2012-summer-gl5-u4",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "T4",
+        "T4.1"
+      ],
+      "skills": [
+        "draw"
+      ],
+      "summary": "Draw the 600°C isotherm on Figure 1 between 200°C and 1000°C isotherms reflecting slab depression and arc upwarping.",
+      "image": "img/2012-summer-gl5-u4/q1bi.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u4/fig-q1.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u4-q1bii",
+      "paper": "2012-summer-gl5-u4",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T4",
+        "T4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain the shape of isotherms (depressed downwards into cold rapidly subducting slab; elevated beneath volcanic arc by ascending magma/advective heat).",
+      "image": "img/2012-summer-gl5-u4/q1bii.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u4/fig-q1.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u4-q1c",
+      "paper": "2012-summer-gl5-u4",
+      "question": "1(c)",
+      "marks": 6,
+      "page": 3,
+      "topics": [
+        "T4",
+        "2.3"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Complete Table 1 identifying locations (Contact=D, Dynamic=B, Regional=C) and reasons for each metamorphism type.",
+      "image": "img/2012-summer-gl5-u4/q1c.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u4/fig-q1.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u4/ms-q1c.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u4-q1d",
+      "paper": "2012-summer-gl5-u4",
+      "question": "1(d)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T4",
+        "2.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Suggest what factor enables magma to form at lower temperature at X compared to Y (water/volatiles from slab dehydration lowering solidus/flux melting).",
+      "image": "img/2012-summer-gl5-u4/q1d.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u4/fig-q1.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u4/ms-q1d.jpg"
     }
   ],
   "levels": [
