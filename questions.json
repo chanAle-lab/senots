@@ -511,6 +511,30 @@
       "spec": "Geological Principles and Processes",
       "totalMarks": 90,
       "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2012-summer-gl5-u1",
+      "year": 2012,
+      "series": "Summer",
+      "date": "2012-06-14",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour",
+      "level": "A"
+    },
+    {
+      "id": "2012-summer-gl5-u3",
+      "year": 2012,
+      "series": "Summer",
+      "date": "2012-06-14",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour",
+      "level": "A"
     }
   ],
   "questions": [
@@ -16605,6 +16629,267 @@
         "img/2012-summer-gl4/map-bristol.jpg"
       ],
       "markscheme": "img/2012-summer-gl4/ms-q7c.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u1-q1ai",
+      "paper": "2012-summer-gl5-u1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T1",
+        "T1.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe two similarities between Deposit A and Deposit B (poor sorting, matrix-supported, massive/unstratified, contains limestone).",
+      "image": "img/2012-summer-gl5-u1/q1ai.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u1/fig-q1b.jpg",
+        "img/2012-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u1-q1aii",
+      "paper": "2012-summer-gl5-u1",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T1",
+        "T1.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe two differences between Deposit A and Deposit B (clast erratics vs local limestone, angular frost-shattered vs sub-rounded faceted, radiocarbon date).",
+      "image": "img/2012-summer-gl5-u1/q1aii.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u1/fig-q1b.jpg",
+        "img/2012-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u1-q1aiii",
+      "paper": "2012-summer-gl5-u1",
+      "question": "1(a)(iii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T1",
+        "T1.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Evaluate evidence that Deposit A was deposited by a glacier (far-travelled erratics from north, till diamicton, striated clasts, 18.3ka Devensian LGM date, ice limit).",
+      "image": "img/2012-summer-gl5-u1/q1aiii.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u1/fig-q1a.jpg",
+        "img/2012-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u1/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u1-q1aiv",
+      "paper": "2012-summer-gl5-u1",
+      "question": "1(a)(iv)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T1",
+        "T1.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Evaluate evidence that Deposit B was deposited in a periglacial environment (frost-shattered angular clasts, monomict local limestone, solifluction head/scree, active layer creep).",
+      "image": "img/2012-summer-gl5-u1/q1aiv.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u1/fig-q1b.jpg",
+        "img/2012-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u1/ms-q1aiv.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u1-q1bi",
+      "paper": "2012-summer-gl5-u1",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "T1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Suggest how Deposit C (raised beach) would be different from Deposit B (well-rounded pebbles/shingle, marine sorting/bedding, marine molluscs/shells).",
+      "image": "img/2012-summer-gl5-u1/q1bi.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u1-q1bii",
+      "paper": "2012-summer-gl5-u1",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "T1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain the geological processes leading to deposition of Deposit C before Deposit A (interglacial high sea level -> glacial sea level drop -> ice sheet advance depositing till over beach).",
+      "image": "img/2012-summer-gl5-u1/q1bii.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u3-q1ai",
+      "paper": "2012-summer-gl5-u3",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "T3",
+        "T3.1"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Using Figure 1b state the approximate mean strike direction of the folded beds (090° - 270° / E-W).",
+      "image": "img/2012-summer-gl5-u3/q1ai.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u3/fig-q1b.jpg",
+        "img/2012-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u3/ms-q1ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u3-q1aii",
+      "paper": "2012-summer-gl5-u3",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "T3",
+        "T3.1"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Using arrows, mark on Figure 1b the directions of crustal shortening that formed the anticline (opposing N-S arrows towards center).",
+      "image": "img/2012-summer-gl5-u3/q1aii.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u3/ms-q1aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u3-q1aiii",
+      "paper": "2012-summer-gl5-u3",
+      "question": "1(a)(iii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T3",
+        "T3.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Name with reasons the likely orogenic event producing the anticline (Variscan / Hercynian; Carboniferous folded, E-W trend, pre-Triassic).",
+      "image": "img/2012-summer-gl5-u3/q1aiii.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u3/fig-q1a.jpg",
+        "img/2012-summer-gl5-u3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u3/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u3-q1aiv",
+      "paper": "2012-summer-gl5-u3",
+      "question": "1(a)(iv)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T3",
+        "T3.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "State other evidence to confirm fold follows main structural trend of this orogeny (strike of fold axial planes, cleavage, E-W thrusts, joints).",
+      "image": "img/2012-summer-gl5-u3/q1aiv.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u3/ms-q1aiv.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u3-q1bi",
+      "paper": "2012-summer-gl5-u3",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "T3"
+      ],
+      "skills": [
+        "draw"
+      ],
+      "summary": "Complete graphic log to show a younger bed that is a coarse sandstone of uniform grain size and 120 cm thick.",
+      "image": "img/2012-summer-gl5-u3/q1bi.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u3-q1bii",
+      "paper": "2012-summer-gl5-u3",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "T3"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe base of pebbly sandstone P and explain its origin (erosional/scoured base, high-energy fluvial channel downcutting/avulsion).",
+      "image": "img/2012-summer-gl5-u3/q1bii.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2012-summer-gl5-u3-q1biii",
+      "paper": "2012-summer-gl5-u3",
+      "question": "1(b)(iii)",
+      "marks": 5,
+      "page": 5,
+      "topics": [
+        "T3"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe and explain differences in depositional environments of units A and B (marine goniatite shale vs terrestrial delta top coal/seat earth, progradational regression).",
+      "image": "img/2012-summer-gl5-u3/q1biii.jpg",
+      "figures": [
+        "img/2012-summer-gl5-u3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl5-u3/ms-q1biii.jpg"
     }
   ],
   "levels": [
