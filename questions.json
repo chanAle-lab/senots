@@ -727,6 +727,66 @@
       "totalMarks": 15,
       "duration": "1 hour (Section A)",
       "level": "A2"
+    },
+    {
+      "id": "2016-summer-gl4",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-06-06",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting the Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "2 hours (Section A: 1 hour)",
+      "level": "A2"
+    },
+    {
+      "id": "2016-summer-gl5-u1",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-06-10",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2016-summer-gl5-u2",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-06-10",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2016-summer-gl5-u3",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-06-10",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2016-summer-gl5-u4",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-06-10",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
     }
   ],
   "questions": [
@@ -20275,6 +20335,1005 @@
         "img/2015-summer-gl5-u4/fig-tab1.jpg"
       ],
       "markscheme": "img/2015-summer-gl5-u4/ms-q1d.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q1ai",
+      "paper": "2016-summer-gl4",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Igneous Structures",
+        "Volcanic Features"
+      ],
+      "skills": [
+        "Feature Identification",
+        "Origin Explanation"
+      ],
+      "summary": "Identify the structures within igneous body A (Figure 1b) as pillow lavas and explain their submarine eruption origin.",
+      "image": "img/2016-summer-gl4/q1ai.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q1ai.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q1aii",
+      "paper": "2016-summer-gl4",
+      "question": "1(a)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Way-up Criteria",
+        "Sedimentary Sequences",
+        "Pillow Lavas"
+      ],
+      "skills": [
+        "Way-up Deduction",
+        "Diagram Annotation"
+      ],
+      "summary": "Using pillow lava younging evidence, show the youngest sedimentary rock unit in the sequence and explain why the bed is inverted.",
+      "image": "img/2016-summer-gl4/q1aii.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q1a.jpg",
+        "img/2016-summer-gl4/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q1aii.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q1bi",
+      "paper": "2016-summer-gl4",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Layered Intrusions",
+        "Mineral Distribution",
+        "Olivine"
+      ],
+      "skills": [
+        "Section Interpretation",
+        "Data Description"
+      ],
+      "summary": "Describe the distribution of olivine within igneous body B across traverse P-Q.",
+      "image": "img/2016-summer-gl4/q1bi.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q1a.jpg",
+        "img/2016-summer-gl4/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q1bii",
+      "paper": "2016-summer-gl4",
+      "question": "1(b)(ii)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "Fractional Crystallisation",
+        "Cumulate Settling",
+        "Structural Inversion"
+      ],
+      "skills": [
+        "Petrological Reasoning",
+        "Tectonic Synthesis"
+      ],
+      "summary": "Explain the presence and location of the olivine-rich cumulate layer in upper body B and its structural inversion.",
+      "image": "img/2016-summer-gl4/q1bii.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q1a.jpg",
+        "img/2016-summer-gl4/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q1c",
+      "paper": "2016-summer-gl4",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Relative Dating",
+        "Xenoliths",
+        "Law of Included Fragments"
+      ],
+      "skills": [
+        "Geological Deduction",
+        "Diagram Annotation"
+      ],
+      "summary": "Identify where a rock older than 76 Ma occurs in Figure 1a (peridotite xenolith) and explain using geological principles.",
+      "image": "img/2016-summer-gl4/q1c.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q1c.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q2a",
+      "paper": "2016-summer-gl4",
+      "question": "2(a)",
+      "marks": 4,
+      "page": 5,
+      "topics": [
+        "Sedimentary Textures",
+        "Maturity",
+        "Grain Sorting"
+      ],
+      "skills": [
+        "Photomicrograph Analysis",
+        "Comparative Description"
+      ],
+      "summary": "State two textural differences between rocks A and B in Figure 2a and explain why their textures differ.",
+      "image": "img/2016-summer-gl4/q2a.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q2a.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q2bi",
+      "paper": "2016-summer-gl4",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "Ternary Graphs",
+        "Sedimentary Composition"
+      ],
+      "skills": [
+        "Graph Plotting"
+      ],
+      "summary": "Plot the composition of rock B (95% quartz, 5% feldspar) on ternary graph Figure 2b.",
+      "image": "img/2016-summer-gl4/q2bi.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q2bi.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q2bii",
+      "paper": "2016-summer-gl4",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Chemical Weathering",
+        "Mineralogical Maturity"
+      ],
+      "skills": [
+        "Graph Annotation",
+        "Trend Prediction"
+      ],
+      "summary": "Draw an arrow from point A on Figure 2b showing how rock A composition changes under intense tropical weathering.",
+      "image": "img/2016-summer-gl4/q2bii.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q2bii.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q2biii",
+      "paper": "2016-summer-gl4",
+      "question": "2(b)(iii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Hydrolysis",
+        "Feldspar Weathering",
+        "Clay Minerals"
+      ],
+      "skills": [
+        "Chemical Weathering Explanation"
+      ],
+      "summary": "Explain the composition changes on the ternary diagram resulting from hydrolysis of feldspar into clay.",
+      "image": "img/2016-summer-gl4/q2biii.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q2biii.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q2c",
+      "paper": "2016-summer-gl4",
+      "question": "2(c)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Sedimentary Environments",
+        "Arkose",
+        "Quartz Arenite"
+      ],
+      "skills": [
+        "Facies Matching"
+      ],
+      "summary": "Match rocks A and B to modern depositional environments: semi-arid river (alluvial fan) vs beach (marine).",
+      "image": "img/2016-summer-gl4/q2c.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q2c.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q2d",
+      "paper": "2016-summer-gl4",
+      "question": "2(d)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Diagenesis",
+        "Cementation",
+        "Pressure Solution"
+      ],
+      "skills": [
+        "Petrographic Sequence Deduction"
+      ],
+      "summary": "Describe the post-depositional history of rock B: quartz overgrowth cementation followed by calcite pore filling.",
+      "image": "img/2016-summer-gl4/q2d.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q2d.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q3ai",
+      "paper": "2016-summer-gl4",
+      "question": "3(a)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Shale Environments",
+        "Marine Facies"
+      ],
+      "skills": [
+        "Palaeoenvironmental Interpretation"
+      ],
+      "summary": "Describe with reasons the low-energy marine shelf depositional environment of the cleaved shale in Figure 3.",
+      "image": "img/2016-summer-gl4/q3ai.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q3ai.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q3aii",
+      "paper": "2016-summer-gl4",
+      "question": "3(a)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Taphonomy",
+        "Fossil Assemblages",
+        "Brachiopods"
+      ],
+      "skills": [
+        "Critical Evaluation"
+      ],
+      "summary": "Critically evaluate conflicting evidence that brachiopods on the bedding plane represent a life or death assemblage.",
+      "image": "img/2016-summer-gl4/q3aii.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q3aii.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q3bi",
+      "paper": "2016-summer-gl4",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Strain Analysis",
+        "Fossil Deformation"
+      ],
+      "skills": [
+        "Measurement",
+        "Ratio Calculation"
+      ],
+      "summary": "Measure the long (hinge) axis of deformed brachiopod X and calculate its length-to-width ratio.",
+      "image": "img/2016-summer-gl4/q3bi.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q3bi.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q3bii",
+      "paper": "2016-summer-gl4",
+      "question": "3(b)(ii)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "Angular Shear",
+        "Structural Geology"
+      ],
+      "skills": [
+        "Angle Measurement"
+      ],
+      "summary": "Measure the angular shear (ψ) of brachiopod X.",
+      "image": "img/2016-summer-gl4/q3bii.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q3bii.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q3ci",
+      "paper": "2016-summer-gl4",
+      "question": "3(c)(i)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "Principal Strain Axes",
+        "Bilateral Symmetry"
+      ],
+      "skills": [
+        "Specimen Identification"
+      ],
+      "summary": "Identify a fossil brachiopod that retains bilateral symmetry (A or G) parallel to principal strain axes.",
+      "image": "img/2016-summer-gl4/q3ci.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q3ci.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q3cii",
+      "paper": "2016-summer-gl4",
+      "question": "3(c)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Strain Ellipse",
+        "Fossil Distortion"
+      ],
+      "skills": [
+        "Comparative Description"
+      ],
+      "summary": "Describe differences in the distortion of brachiopods A and G relative to their hinge and short axes.",
+      "image": "img/2016-summer-gl4/q3cii.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q3cii.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q3ciii",
+      "paper": "2016-summer-gl4",
+      "question": "3(c)(iii)",
+      "marks": 4,
+      "page": 8,
+      "topics": [
+        "Principal Stresses",
+        "Tectonic Shortening",
+        "Slaty Cleavage"
+      ],
+      "skills": [
+        "Hypothesis Evaluation",
+        "Structural Analysis"
+      ],
+      "summary": "Critically evaluate a student's conclusion regarding east-west crustal shortening using strain markers and cleavage orientation.",
+      "image": "img/2016-summer-gl4/q3ciii.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q3ciii.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q4ai",
+      "paper": "2016-summer-gl4",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "Sepkoski Curves",
+        "Evolutionary Faunas"
+      ],
+      "skills": [
+        "Graph Interpretation"
+      ],
+      "summary": "Identify the most abundant Phanerozoic marine fauna that existed during the Mesozoic era (Modern fauna).",
+      "image": "img/2016-summer-gl4/q4ai.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q4.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q4ai.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q4aii",
+      "paper": "2016-summer-gl4",
+      "question": "4(a)(ii)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "Mass Extinctions",
+        "Extinction Rates"
+      ],
+      "skills": [
+        "Percentage Calculation",
+        "Extinction Identification"
+      ],
+      "summary": "Calculate percentage of marine families extinct at the end-Cretaceous (K-T) boundary (~17%) and identify the 51% end-Permian event.",
+      "image": "img/2016-summer-gl4/q4aii.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q4.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q4aii.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q4b",
+      "paper": "2016-summer-gl4",
+      "question": "4(b)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "Precambrian Life",
+        "Fossil Preservation Bias"
+      ],
+      "skills": [
+        "Taphonomic Explanation"
+      ],
+      "summary": "Explain why the small number of recorded late Precambrian families may not reflect true biological abundance.",
+      "image": "img/2016-summer-gl4/q4b.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q4.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q4b.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q4ci",
+      "paper": "2016-summer-gl4",
+      "question": "4(c)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Continental Shelf Seas",
+        "Supercontinents"
+      ],
+      "skills": [
+        "Trend Description"
+      ],
+      "summary": "Describe relative change in continental shelf sea area between the Precambrian and the end-Carboniferous.",
+      "image": "img/2016-summer-gl4/q4ci.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q4.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q4ci.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q4cii",
+      "paper": "2016-summer-gl4",
+      "question": "4(c)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "Pangaea Breakup",
+        "Marine Diversification"
+      ],
+      "skills": [
+        "Correlation Analysis"
+      ],
+      "summary": "Describe correlation between marine diversity increase and continental breakup following the end-Permian extinction.",
+      "image": "img/2016-summer-gl4/q4cii.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q4.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q4cii.jpg"
+    },
+    {
+      "id": "2016-summer-gl4-q4ciii",
+      "paper": "2016-summer-gl4",
+      "question": "4(c)(iii)",
+      "marks": 4,
+      "page": 12,
+      "topics": [
+        "Biodiversity Drivers",
+        "Shelf Sea Area",
+        "Mass Extinctions"
+      ],
+      "skills": [
+        "Hypothesis Evaluation",
+        "Synthesis"
+      ],
+      "summary": "Critically evaluate the hypothesis that continental shelf sea area was the primary control on marine faunal diversity.",
+      "image": "img/2016-summer-gl4/q4ciii.jpg",
+      "figures": [
+        "img/2016-summer-gl4/fig-q4.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl4/ms-q4ciii.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u1-q1ai",
+      "paper": "2016-summer-gl5-u1",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Topographic Slopes",
+        "Glacial Geomorphology"
+      ],
+      "skills": [
+        "Map Interpretation"
+      ],
+      "summary": "Describe the difference between slope angles in box X (gentle) and box Y (steep) on Figure 1a.",
+      "image": "img/2016-summer-gl5-u1/q1ai.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u1-q1aii",
+      "paper": "2016-summer-gl5-u1",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Dip and Scarp Slopes",
+        "Cuesta Topography"
+      ],
+      "skills": [
+        "Structural Geomorphology"
+      ],
+      "summary": "Explain how dip and scarp slope topography in the Brecon Beacons is controlled by regional bedrock dip.",
+      "image": "img/2016-summer-gl5-u1/q1aii.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u1-q1bi",
+      "paper": "2016-summer-gl5-u1",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Corrie Aspect",
+        "Glacial Geomorphology"
+      ],
+      "skills": [
+        "Rose Diagram Interpretation"
+      ],
+      "summary": "Describe the orientation of glacial cwm/corrie back walls in the Brecon Beacons (predominantly NE).",
+      "image": "img/2016-summer-gl5-u1/q1bi.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u1-q1bii",
+      "paper": "2016-summer-gl5-u1",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Insolation",
+        "Snow Drifting",
+        "Glacial Accumulation"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Suggest why cwms face NE: solar shading reduces ablation and prevailing SW winds blow drifted snow onto leeward hollows.",
+      "image": "img/2016-summer-gl5-u1/q1bii.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u1/fig-q1b.jpg",
+        "img/2016-summer-gl5-u1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u1-q1ci",
+      "paper": "2016-summer-gl5-u1",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Moraines",
+        "Glacial Till",
+        "Craig Cerrig-gleisiad"
+      ],
+      "skills": [
+        "Landform Origin Deduction"
+      ],
+      "summary": "Suggest an origin for ridges in glacial till deposit T as recessional/push moraines formed during snout standstill or readvance.",
+      "image": "img/2016-summer-gl5-u1/q1ci.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u1-q1cii",
+      "paper": "2016-summer-gl5-u1",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Peat Bogs",
+        "Post-Glacial Hollows"
+      ],
+      "skills": [
+        "Sedimentary Process Explanation"
+      ],
+      "summary": "Explain peat formation in hollow P: water trapped behind moraine ridge creating waterlogged anaerobic conditions.",
+      "image": "img/2016-summer-gl5-u1/q1cii.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u1-q1ciii",
+      "paper": "2016-summer-gl5-u1",
+      "question": "1(c)(iii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Solifluction",
+        "Permafrost Active Layer",
+        "Paraglacial Landslides"
+      ],
+      "skills": [
+        "Hypothesis Evaluation"
+      ],
+      "summary": "Critically evaluate whether landslide L formed during periglacial conditions (active layer solifluction) or paraglacial debuttressing.",
+      "image": "img/2016-summer-gl5-u1/q1ciii.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u1/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u2-q1a",
+      "paper": "2016-summer-gl5-u2",
+      "question": "1(a)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Oil Window",
+        "Hydrocarbon Maturation"
+      ],
+      "skills": [
+        "Graph Reading"
+      ],
+      "summary": "State maximum depth of oil formation from Figure 1a (3300 m).",
+      "image": "img/2016-summer-gl5-u2/q1a.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u2/ms-q1a.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u2-q1bi",
+      "paper": "2016-summer-gl5-u2",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Hydrocarbon Traps",
+        "Brent Field"
+      ],
+      "skills": [
+        "Cross-Section Interpretation"
+      ],
+      "summary": "State the types of geological structures forming hydrocarbon traps in the Brent field (unconformity and fault trap).",
+      "image": "img/2016-summer-gl5-u2/q1bi.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u2/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u2-q1bii",
+      "paper": "2016-summer-gl5-u2",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Petroleum Systems",
+        "Source-to-Trap Migration"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Explain how hydrocarbons accumulated in the Brent field from marine shale source to sandstone reservoir sealed by caprock.",
+      "image": "img/2016-summer-gl5-u2/q1bii.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u2/fig-q1a.jpg",
+        "img/2016-summer-gl5-u2/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u2-q1biii",
+      "paper": "2016-summer-gl5-u2",
+      "question": "1(b)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Reservoir Permeability",
+        "Oil Recovery Factors"
+      ],
+      "skills": [
+        "Reservoir Geology Reasoning"
+      ],
+      "summary": "Suggest two geological reasons for variation in oil extraction efficiency (33% to 56%) across the Brent field.",
+      "image": "img/2016-summer-gl5-u2/q1biii.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u2/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u2/ms-q1biii.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u2-q1ci",
+      "paper": "2016-summer-gl5-u2",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Kerogen Types",
+        "Oil and Gas Generation"
+      ],
+      "skills": [
+        "Maturation Reasoning"
+      ],
+      "summary": "Suggest why oil and gas both occur in the Brent field based on marine kerogen maturation across the thermal window.",
+      "image": "img/2016-summer-gl5-u2/q1ci.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u2/fig-q1a.jpg",
+        "img/2016-summer-gl5-u2/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u2/ms-q1ci.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u2-q1cii",
+      "paper": "2016-summer-gl5-u2",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Coal Source Rocks",
+        "Methane Generation"
+      ],
+      "skills": [
+        "Source Rock Evaluation"
+      ],
+      "summary": "Explain why no oil occurs in the Leman field: Carboniferous coal source generates dry gas from terrestrial Type III kerogen.",
+      "image": "img/2016-summer-gl5-u2/q1cii.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u2/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u2/ms-q1cii.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u2-q1d",
+      "paper": "2016-summer-gl5-u2",
+      "question": "1(d)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Carbon Capture and Storage",
+        "Permian Sandstone Reservoir",
+        "Evaporite Caprock"
+      ],
+      "skills": [
+        "Feasibility Evaluation"
+      ],
+      "summary": "Critically evaluate using Permian sandstones and evaporite seals in the Leman field for offshore CO2 carbon sequestration.",
+      "image": "img/2016-summer-gl5-u2/q1d.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u2/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u2/ms-q1d.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u3-q1a",
+      "paper": "2016-summer-gl5-u3",
+      "question": "1(a)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "Fold Geometry",
+        "Purbeck Monocline"
+      ],
+      "skills": [
+        "Structural Analysis",
+        "Fold Description"
+      ],
+      "summary": "Describe fold characteristics in Figure 1a: antiform/anticline, steep northern limb (88°N), gentle southern limb (64°-80°), open asymmetric profile.",
+      "image": "img/2016-summer-gl5-u3/q1a.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u3/ms-q1a.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u3-q1b",
+      "paper": "2016-summer-gl5-u3",
+      "question": "1(b)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Alpine Orogeny",
+        "Cenozoic Inversion"
+      ],
+      "skills": [
+        "Tectonic Synthesis"
+      ],
+      "summary": "Identify the Alpine orogeny as responsible for E-W folding of late Jurassic/Cretaceous strata in southern England.",
+      "image": "img/2016-summer-gl5-u3/q1b.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u3/fig-q1a.jpg",
+        "img/2016-summer-gl5-u3/tab-q1.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u3/ms-q1b.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u3-q1c",
+      "paper": "2016-summer-gl5-u3",
+      "question": "1(c)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Fossil Identification",
+        "Ammonites",
+        "Trace Fossils"
+      ],
+      "skills": [
+        "Specimen Identification"
+      ],
+      "summary": "Identify fossils in Figures 1c and 1d: ammonite/cephalopod and dinosaur trackway/trace fossil.",
+      "image": "img/2016-summer-gl5-u3/q1c.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u3/fig-q1cd.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u3/ms-q1c.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u3-q1d",
+      "paper": "2016-summer-gl5-u3",
+      "question": "1(d)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Purbeck Group",
+        "Sabkha Environments",
+        "Evaporites"
+      ],
+      "skills": [
+        "Facies Analysis"
+      ],
+      "summary": "Suggest depositional environment of Purbeck Group (non-marine sabkha/lagoon) with sedimentological and palaeontological evidence.",
+      "image": "img/2016-summer-gl5-u3/q1d.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u3/fig-q1b.jpg",
+        "img/2016-summer-gl5-u3/fig-q1cd.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u3/ms-q1d.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u3-q1e",
+      "paper": "2016-summer-gl5-u3",
+      "question": "1(e)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Stratigraphic Boundaries",
+        "Biostratigraphy",
+        "Jurassic-Cretaceous"
+      ],
+      "skills": [
+        "Correlation Evaluation"
+      ],
+      "summary": "Explain why non-marine Purbeck facies and absence of marine ammonite zone fossils make defining the Jurassic-Cretaceous boundary difficult.",
+      "image": "img/2016-summer-gl5-u3/q1e.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u3/ms-q1e.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u4-q1a",
+      "paper": "2016-summer-gl5-u4",
+      "question": "1(a)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "African Shield",
+        "Cratons and Mobile Belts"
+      ],
+      "skills": [
+        "Map Description"
+      ],
+      "summary": "Describe distribution of Archean cratons surrounded by Proterozoic mobile belts and marginal Phanerozoic belts in Africa.",
+      "image": "img/2016-summer-gl5-u4/q1a.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u4/ms-q1a.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u4-q1bi",
+      "paper": "2016-summer-gl5-u4",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Crustal Growth Models",
+        "Continental Volume"
+      ],
+      "skills": [
+        "Graph Data Extraction"
+      ],
+      "summary": "Complete Table 1 with crustal volume (7.7-7.9 × 10⁹ km³), Model B crustal age (4.4-4.5 Ga), and Model C peak growth eon (Archean).",
+      "image": "img/2016-summer-gl5-u4/q1bi.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u4-q1bii",
+      "paper": "2016-summer-gl5-u4",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Crustal Growth Rates"
+      ],
+      "skills": [
+        "Rate Calculation"
+      ],
+      "summary": "Calculate mean crustal growth rate for Model B: 1.6 – 1.8 km³ year⁻¹.",
+      "image": "img/2016-summer-gl5-u4/q1bii.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u4-q1biii",
+      "paper": "2016-summer-gl5-u4",
+      "question": "1(b)(iii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Crustal Evolution Models",
+        "Hadean to Phanerozoic"
+      ],
+      "skills": [
+        "Model Comparison"
+      ],
+      "summary": "Describe differences between Model A (rapid early Hadean growth with late recycling) and Model D (steady delayed growth from Archean to Proterozoic).",
+      "image": "img/2016-summer-gl5-u4/q1biii.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u4/ms-q1biii.jpg"
+    },
+    {
+      "id": "2016-summer-gl5-u4-q1c",
+      "paper": "2016-summer-gl5-u4",
+      "question": "1(c)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "Crustal Growth Evaluation",
+        "African Geology"
+      ],
+      "skills": [
+        "Hypothesis Evaluation",
+        "Critical Synthesis"
+      ],
+      "summary": "Critically evaluate whether age distribution data for Africa supports Model C, noting outcrop proportions vs crustal volume biases.",
+      "image": "img/2016-summer-gl5-u4/q1c.jpg",
+      "figures": [
+        "img/2016-summer-gl5-u4/fig-q1a.jpg",
+        "img/2016-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl5-u4/ms-q1c.jpg"
     }
   ],
   "levels": [
