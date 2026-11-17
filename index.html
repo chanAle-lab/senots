@@ -1133,6 +1133,593 @@ footer {
 }
 
 /* ========================================================
+   Teacher's Hub & Classroom Generators
+   ======================================================== */
+.teacher-hub-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.teacher-nav {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 12px;
+  flex-wrap: wrap;
+}
+.teacher-nav-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--ink-secondary);
+  border-radius: var(--radius);
+  padding: 6px 14px;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.teacher-nav-btn:hover {
+  border-color: var(--border-strong);
+  color: var(--ink);
+}
+.teacher-nav-btn.active {
+  background: var(--ink);
+  color: var(--surface);
+  border-color: var(--ink);
+}
+
+.teacher-hero-header {
+  margin-bottom: 4px;
+}
+.teacher-hero-title {
+  margin: 0 0 6px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.teacher-hero-desc {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+/* Gateway Cards */
+.teacher-gateway-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.teacher-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.teacher-card:hover {
+  border-color: var(--border-strong);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+}
+.teacher-card-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.teacher-card-title {
+  margin: 0 0 8px;
+  font-size: 1.22rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink);
+}
+.teacher-card-desc {
+  font-size: 0.88rem;
+  color: var(--ink-secondary);
+  line-height: 1.55;
+  margin: 0 0 16px;
+}
+.teacher-card-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.teacher-card-features li {
+  font-size: 0.82rem;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.teacher-card-features li::before {
+  content: "•";
+  color: var(--ink);
+  font-weight: bold;
+}
+.btn-gateway {
+  background: var(--ink);
+  color: var(--surface);
+  border: 1px solid var(--ink);
+  border-radius: var(--radius);
+  padding: 10px 18px;
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  text-align: center;
+  width: 100%;
+}
+.btn-gateway:hover {
+  opacity: 0.88;
+}
+
+/* Preset Cards */
+.teacher-section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 8px 0 12px;
+  color: var(--ink);
+}
+.teacher-presets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 12px;
+}
+.preset-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: all 0.15s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+  text-align: left;
+}
+.preset-card:hover {
+  border-color: var(--ink);
+  transform: translateY(-2px);
+}
+.preset-title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--ink);
+}
+.preset-sub {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 0;
+}
+.preset-action {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: underline;
+  margin-top: 4px;
+}
+
+/* Quiz Generator UI */
+.quiz-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.quiz-config-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  background: var(--surface-hover);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+.quiz-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.quiz-field label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink-secondary);
+}
+.quiz-field select, .quiz-field input[type="text"] {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  padding: 7px 10px;
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 0.85rem;
+}
+
+/* Live Quiz */
+.quiz-live-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 12px;
+}
+.quiz-live-progress {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.quiz-timer-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--radius);
+  background: var(--surface-hover);
+  border: 1px solid var(--border);
+}
+.quiz-timer-box.urgent {
+  color: #dc2626;
+  border-color: #f87171;
+  background: rgba(239, 68, 68, 0.08);
+  animation: pulseTimer 1s infinite alternate;
+}
+@keyframes pulseTimer {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}
+
+.quiz-scoreboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.team-score-card {
+  background: var(--surface-hover);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.team-score-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.team-score-num {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  min-width: 32px;
+  text-align: center;
+}
+.btn-score-adjust {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+.btn-score-adjust:hover {
+  background: var(--border);
+}
+
+.quiz-stage {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.quiz-q-meta {
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.quiz-q-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 8px 0 16px;
+  color: var(--ink);
+}
+.quiz-img-box {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #ffffff;
+  padding: 8px;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+.quiz-img-box img {
+  max-width: 100%;
+  max-height: 350px;
+  object-fit: contain;
+}
+
+/* Multiple choice */
+.quiz-mc-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.quiz-mc-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  text-align: left;
+  font-family: inherit;
+  font-size: 0.92rem;
+  color: var(--ink);
+  cursor: pointer;
+  transition: all 0.15s;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.quiz-mc-btn:hover:not(:disabled) {
+  border-color: var(--border-strong);
+  background: var(--surface-hover);
+}
+.quiz-mc-btn.correct {
+  border-color: #16a34a !important;
+  background: rgba(22, 163, 74, 0.1) !important;
+  color: #15803d !important;
+  font-weight: 600;
+}
+.quiz-mc-btn.wrong {
+  border-color: #dc2626 !important;
+  background: rgba(239, 68, 68, 0.08) !important;
+  color: #b91c1c !important;
+}
+.mc-letter {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--muted);
+  width: 20px;
+}
+
+/* Reveal Mode */
+.quiz-reveal-box {
+  background: var(--surface-hover);
+  border-left: 3px solid var(--ink);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  animation: fadeInAns 0.15s ease-out;
+}
+.quiz-reveal-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.quiz-reveal-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.quiz-scoring-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+/* Quiz End Summary */
+.quiz-summary-box {
+  text-align: center;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.quiz-winner-badge {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.quiz-result-score {
+  font-size: 1.05rem;
+  color: var(--ink-secondary);
+}
+
+/* ========================================================
+   Worksheet & Assessment Generator UI
+   ======================================================== */
+.ws-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ws-controls-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.ws-controls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+}
+.ws-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.ws-field label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink-secondary);
+}
+.ws-field select, .ws-field input[type="text"], .ws-field input[type="number"] {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  padding: 7px 10px;
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 0.85rem;
+}
+.ws-actions-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.ws-export-btns {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Live Paper Preview */
+.ws-paper-preview {
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-lg);
+  padding: 32px 36px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+.ws-candidate-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 0.85rem;
+}
+.ws-candidate-table td {
+  border: 1px solid var(--border-strong);
+  padding: 8px 12px;
+}
+.ws-exam-instructions {
+  background: var(--surface-hover);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  color: var(--ink-secondary);
+  margin-bottom: 24px;
+}
+.ws-q-card {
+  border-bottom: 1px solid var(--border);
+  padding: 20px 0;
+  position: relative;
+}
+.ws-q-card:last-child {
+  border-bottom: none;
+}
+.ws-q-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.ws-q-number {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.ws-q-actions {
+  display: flex;
+  gap: 6px;
+}
+.ws-q-lines {
+  margin-top: 14px;
+  background: repeating-linear-gradient(
+    transparent,
+    transparent 24px,
+    var(--border) 24px,
+    var(--border) 25px
+  );
+  min-height: calc(var(--lines, 4) * 25px);
+  border-top: 1px solid var(--border);
+}
+
+.print-candidate-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 12pt;
+  font-size: 9pt;
+}
+.print-candidate-table td {
+  border: 1pt solid #333;
+  padding: 5pt 8pt;
+}
+.print-lines-box {
+  margin-top: 8pt;
+  background: repeating-linear-gradient(
+    transparent,
+    transparent 20pt,
+    #ccc 20pt,
+    #ccc 21pt
+  ) !important;
+  border-top: 1pt solid #ccc;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+@media (max-width: 768px) {
+  .teacher-gateway-grid { grid-template-columns: 1fr; }
+  .quiz-mc-grid { grid-template-columns: 1fr; }
+  .quiz-scoreboard-grid { grid-template-columns: 1fr; }
+  .ws-paper-preview { padding: 18px 16px; }
+}
+
+/* ========================================================
    Print & PDF Export Stylesheet (A4 Layout)
    ======================================================== */
 @media print {
@@ -1361,6 +1948,7 @@ footer {
         <button class="tab-link" data-view="cards" role="tab" aria-selected="false">Questions</button>
         <button class="tab-link" data-view="practice" role="tab" aria-selected="false">Practice</button>
         <button class="tab-link" data-view="cheatsheets" role="tab" aria-selected="false">Cheatsheets</button>
+        <button class="tab-link" data-view="teachers" role="tab" aria-selected="false">Teacher's Hub</button>
       </nav>
 
       <div class="header-right">
@@ -1577,6 +2165,7 @@ let activeSheetTopic = '1.1';
 
 let state = {
   view: 'strata',
+  teacherTab: 'hub',
   level: '',
   topic: '',
   skill: '',
@@ -1999,6 +2588,7 @@ function syncViewButtons() {
 function fromHash() {
   const p = new URLSearchParams(location.hash.slice(1));
   state.view = p.get('view') || state.view || 'strata';
+  state.teacherTab = p.get('tab') || state.teacherTab || 'hub';
   state.level = p.get('level') || '';
   state.topic = p.get('topic') || '';
   state.skill = p.get('skill') || '';
@@ -2012,6 +2602,7 @@ function fromHash() {
 function toHash() {
   const p = new URLSearchParams();
   if (state.view && state.view !== 'strata') p.set('view', state.view);
+  if (state.view === 'teachers' && state.teacherTab && state.teacherTab !== 'hub') p.set('tab', state.teacherTab);
   ['level','topic','skill','year','min','status','q','pick'].forEach(k => {
     if (state[k]) p.set(k, state[k]);
   });
@@ -2091,6 +2682,10 @@ function render() {
     if (filterPanel) filterPanel.style.display = 'none';
     if (statusBar) statusBar.style.display = 'none';
     renderFlashcardPractice();
+  } else if (state.view === 'teachers') {
+    if (filterPanel) filterPanel.style.display = 'none';
+    if (statusBar) statusBar.style.display = 'none';
+    renderTeachersHub();
   } else {
     if (filterPanel) filterPanel.style.display = '';
     if (statusBar) statusBar.style.display = '';
@@ -2743,6 +3338,1260 @@ function renderCheatsheets() {
     </div>
   `;
 }
+
+/* ========================================================
+   TEACHER'S HUB & CLASSROOM GENERATORS
+   ======================================================== */
+const QuizAudio = {
+  ctx: null,
+  enabled: true,
+  init() {
+    if (!this.ctx && (window.AudioContext || window.webkitAudioContext)) {
+      this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (this.ctx && this.ctx.state === 'suspended') {
+      this.ctx.resume();
+    }
+  },
+  play(fn) {
+    if (!this.enabled) return;
+    try {
+      this.init();
+      if (this.ctx) fn(this.ctx);
+    } catch (e) {}
+  },
+  correct() {
+    this.play(ctx => {
+      const t = ctx.currentTime;
+      [523.25, 659.25, 783.99].forEach((freq, i) => {
+        const osc = ctx.createOscillator();
+        const g = ctx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(freq, t + i * 0.08);
+        g.gain.setValueAtTime(0.12, t + i * 0.08);
+        g.gain.exponentialRampToValueAtTime(0.001, t + i * 0.08 + 0.22);
+        osc.connect(g);
+        g.connect(ctx.destination);
+        osc.start(t + i * 0.08);
+        osc.stop(t + i * 0.08 + 0.22);
+      });
+    });
+  },
+  wrong() {
+    this.play(ctx => {
+      const t = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const g = ctx.createGain();
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(220, t);
+      osc.frequency.linearRampToValueAtTime(140, t + 0.22);
+      g.gain.setValueAtTime(0.1, t);
+      g.gain.exponentialRampToValueAtTime(0.001, t + 0.22);
+      osc.connect(g);
+      g.connect(ctx.destination);
+      osc.start(t);
+      osc.stop(t + 0.22);
+    });
+  },
+  tick() {
+    this.play(ctx => {
+      const t = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const g = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(900, t);
+      g.gain.setValueAtTime(0.05, t);
+      g.gain.exponentialRampToValueAtTime(0.001, t + 0.03);
+      osc.connect(g);
+      g.connect(ctx.destination);
+      osc.start(t);
+      osc.stop(t + 0.03);
+    });
+  },
+  fanfare() {
+    this.play(ctx => {
+      const t = ctx.currentTime;
+      const notes = [523.25, 659.25, 783.99, 1046.50];
+      notes.forEach((freq, i) => {
+        const osc = ctx.createOscillator();
+        const g = ctx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(freq, t + i * 0.1);
+        g.gain.setValueAtTime(0.18, t + i * 0.1);
+        g.gain.exponentialRampToValueAtTime(0.001, t + i * 0.1 + (i === 3 ? 0.6 : 0.2));
+        osc.connect(g);
+        g.connect(ctx.destination);
+        osc.start(t + i * 0.1);
+        osc.stop(t + i * 0.1 + (i === 3 ? 0.6 : 0.2));
+      });
+    });
+  }
+};
+
+let quizState = {
+  screen: 'setup',
+  mode: 'team',
+  topic: '',
+  source: 'flashcards',
+  questionCount: 10,
+  timerSeconds: 30,
+  soundEnabled: true,
+  team1Name: 'Team Ammonites',
+  team2Name: 'Team Trilobites',
+  team1Score: 0,
+  team2Score: 0,
+  soloScore: 0,
+  streak: 0,
+  maxStreak: 0,
+  currentIdx: 0,
+  revealed: false,
+  selectedChoice: null,
+  timerRemaining: 0,
+  timerInterval: null,
+  questions: []
+};
+
+let wsState = {
+  title: 'WJEC Eduqas Geology Revision Assessment',
+  subtitle: 'Complete all questions. Marks are indicated in brackets. Show all calculations clearly.',
+  topic: '',
+  level: '',
+  targetMarks: 20,
+  skill: '',
+  includeLines: true,
+  includeHeader: true,
+  questions: []
+};
+
+function launchConfetti() {
+  const canvas = document.createElement('canvas');
+  canvas.style.position = 'fixed';
+  canvas.style.top = '0';
+  canvas.style.left = '0';
+  canvas.style.width = '100vw';
+  canvas.style.height = '100vh';
+  canvas.style.pointerEvents = 'none';
+  canvas.style.zIndex = '9999';
+  document.body.appendChild(canvas);
+  const ctx = canvas.getContext('2d');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  const particles = Array.from({ length: 65 }, () => ({
+    x: canvas.width / 2,
+    y: canvas.height / 2,
+    vx: (Math.random() - 0.5) * 14,
+    vy: (Math.random() - 0.75) * 14,
+    color: ['#16a34a', '#d97706', '#2563eb', '#9333ea', '#e11d48', '#059669'][Math.floor(Math.random() * 6)],
+    size: Math.random() * 6 + 4,
+    gravity: 0.28,
+    life: 90
+  }));
+
+  function update() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    let alive = false;
+    particles.forEach(p => {
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vy += p.gravity;
+      p.life--;
+      if (p.life > 0) {
+        alive = true;
+        ctx.fillStyle = p.color;
+        ctx.fillRect(p.x, p.y, p.size, p.size);
+      }
+    });
+    if (alive) {
+      requestAnimationFrame(update);
+    } else {
+      canvas.remove();
+    }
+  }
+  requestAnimationFrame(update);
+}
+
+function cleanAnswerText(html) {
+  const tmp = document.createElement('div');
+  tmp.innerHTML = html || '';
+  let txt = tmp.textContent || tmp.innerText || '';
+  txt = txt.replace(/\s+/g, ' ').trim();
+  if (txt.length > 130) txt = txt.substring(0, 127) + '...';
+  return txt;
+}
+
+function renderTeachersHub() {
+  const tab = state.teacherTab || 'hub';
+  if (tab === 'quiz') {
+    renderQuizGenerator();
+  } else if (tab === 'worksheet') {
+    renderWorksheetGenerator();
+  } else {
+    renderTeacherDashboard();
+  }
+}
+
+function switchTeacherTab(tab) {
+  state.teacherTab = tab;
+  toHash();
+  renderTeachersHub();
+}
+
+function renderTeacherDashboard() {
+  const html = `
+    <div class="teacher-hub-wrap">
+      <nav class="teacher-nav">
+        <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('hub')">🎓 Overview & Presets</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('quiz')">🎮 Fun Quiz Generator</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('worksheet')">📝 Question & Worksheet Generator</button>
+      </nav>
+
+      <div class="teacher-hero-header">
+        <h1 class="teacher-hero-title">Teacher's Revision & Classroom Hub</h1>
+        <p class="teacher-hero-desc">Curriculum-aligned classroom gamification, customizable homework sheets, and mock assessments based on all official WJEC Eduqas past papers.</p>
+      </div>
+
+      <div class="teacher-gateway-grid">
+        <article class="teacher-card">
+          <div>
+            <span class="teacher-card-badge">Classroom Gamification</span>
+            <h2 class="teacher-card-title">🎮 Fun Quiz Show Generator</h2>
+            <p class="teacher-card-desc">Run engaging, high-energy quizzes on your classroom projector or smartboard. Supports team competitions, rapid multiple-choice, timers, and audio effects.</p>
+            <ul class="teacher-card-features">
+              <li>Team 1 vs Team 2 scoreboard with live +1/-1 point adjustments</li>
+              <li>Rapid-fire 4-choice recall with instant answer explanations</li>
+              <li>Customizable 15s-60s countdown timer with audio chimes & fanfare</li>
+              <li>Printable quiz worksheets with teacher answer key</li>
+            </ul>
+          </div>
+          <button type="button" class="btn-gateway" onclick="switchTeacherTab('quiz')">Launch Quiz Generator →</button>
+        </article>
+
+        <article class="teacher-card">
+          <div>
+            <span class="teacher-card-badge">Assessment Creator</span>
+            <h2 class="teacher-card-title">📝 Question & Worksheet Generator</h2>
+            <p class="teacher-card-desc">Assemble tailored, printable assessment papers and homework booklets from all 813 official WJEC past paper questions with diagrams and figures.</p>
+            <ul class="teacher-card-features">
+              <li>Target specific mark totals (10m, 20m, 30m, 50m) or custom topics</li>
+              <li>Authentic exam cover table (Name, Date, Score) and ruled response lines</li>
+              <li>Interactive question swapping, reordering, and mark recalculation</li>
+              <li>One-click export to Student Worksheet PDF + Teacher Mark Scheme</li>
+            </ul>
+          </div>
+          <button type="button" class="btn-gateway" onclick="switchTeacherTab('worksheet')">Build Custom Worksheet →</button>
+        </article>
+      </div>
+
+      <div>
+        <h2 class="teacher-section-title">⚡ Quick-Start Lesson Presets</h2>
+        <div class="teacher-presets-grid">
+          <div class="preset-card" onclick="launchQuizPreset('bellringer')">
+            <div>
+              <h3 class="preset-title">5-Min Bell-Ringer</h3>
+              <p class="preset-sub">5 rapid-fire multiple-choice questions on minerals and rock cycle fundamentals.</p>
+            </div>
+            <span class="preset-action">Start Quiz →</span>
+          </div>
+
+          <div class="preset-card" onclick="launchQuizPreset('teamshowdown')">
+            <div>
+              <h3 class="preset-title">Plate Tectonics Face-Off</h3>
+              <p class="preset-sub">10-question team showdown on faults, boundaries, and earthquake hazards.</p>
+            </div>
+            <span class="preset-action">Launch Game →</span>
+          </div>
+
+          <div class="preset-card" onclick="launchWorksheetPreset('starter20')">
+            <div>
+              <h3 class="preset-title">20-Mark Unit Check</h3>
+              <p class="preset-sub">Printable assessment with ruled answer lines on Igneous and Sedimentary rocks.</p>
+            </div>
+            <span class="preset-action">Generate Paper →</span>
+          </div>
+
+          <div class="preset-card" onclick="launchWorksheetPreset('maps40')">
+            <div>
+              <h3 class="preset-title">40-Mark Geological Maps Mock</h3>
+              <p class="preset-sub">Comprehensive assessment covering map skills, structural geology & cross-sections.</p>
+            </div>
+            <span class="preset-action">Generate Paper →</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  $('#app-view').innerHTML = html;
+}
+
+function launchQuizPreset(type) {
+  state.teacherTab = 'quiz';
+  if (type === 'bellringer') {
+    quizState.mode = 'mc';
+    quizState.topic = '1.1';
+    quizState.questionCount = 5;
+    quizState.timerSeconds = 20;
+    quizState.source = 'flashcards';
+  } else if (type === 'teamshowdown') {
+    quizState.mode = 'team';
+    quizState.topic = 'T1';
+    quizState.questionCount = 10;
+    quizState.timerSeconds = 30;
+    quizState.source = 'flashcards';
+  }
+  startQuiz();
+}
+
+function launchWorksheetPreset(type) {
+  state.teacherTab = 'worksheet';
+  if (type === 'starter20') {
+    wsState.title = 'Topic 2: Igneous & Sedimentary Petrology Check';
+    wsState.topic = '2.2';
+    wsState.targetMarks = 20;
+    wsState.includeLines = true;
+  } else if (type === 'maps40') {
+    wsState.title = 'Geological Maps & Structural Geology Assessment';
+    wsState.topic = '4.2';
+    wsState.targetMarks = 40;
+    wsState.includeLines = true;
+  }
+  generateWorksheet();
+  renderWorksheetGenerator();
+}
+
+/* ========================================================
+   FUN QUIZ GENERATOR IMPLEMENTATION
+   ======================================================== */
+function renderQuizGenerator() {
+  if (quizState.screen === 'playing') {
+    renderQuizLive();
+  } else if (quizState.screen === 'ended') {
+    renderQuizSummary();
+  } else {
+    renderQuizSetup();
+  }
+}
+
+function renderQuizSetup() {
+  const topicsHtml = buildQuizTopicOptions();
+
+  const html = `
+    <div class="teacher-hub-wrap">
+      <nav class="teacher-nav">
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">← Teacher's Hub</button>
+        <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('quiz')">🎮 Fun Quiz Generator</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('worksheet')">📝 Question & Worksheet Generator</button>
+      </nav>
+
+      <div class="quiz-panel">
+        <div>
+          <h2 style="margin:0 0 6px;font-size:1.3rem;font-weight:700;color:var(--ink)">Classroom Quiz Show Generator</h2>
+          <p style="margin:0;font-size:0.85rem;color:var(--muted)">Configure question rounds, team competitive mode, speed timer, and sound effects.</p>
+        </div>
+
+        <div class="quiz-config-grid">
+          <div class="quiz-field">
+            <label>Game Mode</label>
+            <select id="cfg-quiz-mode" onchange="quizState.mode=this.value;renderQuizSetup();">
+              <option value="team" ${quizState.mode==='team'?'selected':''}>Team Showdown (Projector / Teams)</option>
+              <option value="mc" ${quizState.mode==='mc'?'selected':''}>Multiple Choice (Rapid Fire)</option>
+            </select>
+          </div>
+
+          <div class="quiz-field">
+            <label>Topic Focus</label>
+            <select id="cfg-quiz-topic" onchange="quizState.topic=this.value;">
+              ${topicsHtml}
+            </select>
+          </div>
+
+          <div class="quiz-field">
+            <label>Question Source</label>
+            <select id="cfg-quiz-source" onchange="quizState.source=this.value;">
+              <option value="flashcards" ${quizState.source==='flashcards'?'selected':''}>Active Recall Flashcards (307 key facts)</option>
+              <option value="questions" ${quizState.source==='questions'?'selected':''}>Exam Questions Bank (813 diagram questions)</option>
+              <option value="mixed" ${quizState.source==='mixed'?'selected':''}>Mixed Challenge (Both)</option>
+            </select>
+          </div>
+
+          <div class="quiz-field">
+            <label>Number of Questions</label>
+            <select id="cfg-quiz-count" onchange="quizState.questionCount=+this.value;">
+              <option value="5" ${quizState.questionCount===5?'selected':''}>5 Questions (Quick Starter)</option>
+              <option value="10" ${quizState.questionCount===10?'selected':''}>10 Questions (Standard Round)</option>
+              <option value="15" ${quizState.questionCount===15?'selected':''}>15 Questions (Plenary)</option>
+              <option value="20" ${quizState.questionCount===20?'selected':''}>20 Questions (Grand Tournament)</option>
+            </select>
+          </div>
+
+          <div class="quiz-field">
+            <label>Timer per Question</label>
+            <select id="cfg-quiz-timer" onchange="quizState.timerSeconds=+this.value;">
+              <option value="0" ${quizState.timerSeconds===0?'selected':''}>No Timer (Manual Pace)</option>
+              <option value="15" ${quizState.timerSeconds===15?'selected':''}>15 Seconds (Lightning)</option>
+              <option value="30" ${quizState.timerSeconds===30?'selected':''}>30 Seconds (Recommended)</option>
+              <option value="45" ${quizState.timerSeconds===45?'selected':''}>45 Seconds (Standard)</option>
+              <option value="60" ${quizState.timerSeconds===60?'selected':''}>60 Seconds (Deep Thinking)</option>
+            </select>
+          </div>
+
+          <div class="quiz-field">
+            <label>Audio & Sound Effects</label>
+            <div style="display:flex;align-items:center;height:100%;gap:8px;padding-top:4px">
+              <label style="cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:0.85rem">
+                <input type="checkbox" id="cfg-quiz-sound" ${quizState.soundEnabled?'checked':''} onchange="quizState.soundEnabled=this.checked;QuizAudio.enabled=this.checked;" style="accent-color:var(--ink)">
+                <span>Sound effects (chimes, buzzers, countdown)</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        ${quizState.mode === 'team' ? `
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:12px;background:var(--surface-hover);border-radius:var(--radius);border:1px solid var(--border)">
+            <div class="quiz-field">
+              <label>Team 1 Name</label>
+              <input type="text" id="cfg-team1-name" value="${esc(quizState.team1Name)}" oninput="quizState.team1Name=this.value.trim()||'Team 1'">
+            </div>
+            <div class="quiz-field">
+              <label>Team 2 Name</label>
+              <input type="text" id="cfg-team2-name" value="${esc(quizState.team2Name)}" oninput="quizState.team2Name=this.value.trim()||'Team 2'">
+            </div>
+          </div>
+        ` : ''}
+
+        <div style="display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap">
+          <button type="button" class="btn-minimal" onclick="printQuizHandout()">📄 Export as Printable Quiz Handout</button>
+          <button type="button" class="btn-print-primary" onclick="startQuiz()" style="padding:10px 22px;font-size:0.92rem">
+            🚀 Start Classroom Quiz
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+  $('#app-view').innerHTML = html;
+}
+
+function buildQuizTopicOptions() {
+  const tids = CHEATS ? Object.keys(CHEATS) : ['1.1','2.1','2.2','2.3','3.1','3.2','4.1','4.2','G1','G2','G3','G4','T1','T2','T3','T4','T5'];
+  let html = `<option value="" ${quizState.topic===''?'selected':''}>All Geological Topics (Comprehensive)</option>`;
+  tids.forEach(t => {
+    const title = CHEATS && CHEATS[t] ? CHEATS[t].title.replace(/^Topic |^Theme /, '') : (T[t] ? T[t].name : t);
+    const isSel = quizState.topic === t ? 'selected' : '';
+    html += `<option value="${t}" ${isSel}>Topic ${t} · ${esc(title)}</option>`;
+  });
+  return html;
+}
+
+function startQuiz() {
+  if (quizState.timerInterval) clearInterval(quizState.timerInterval);
+
+  let pool = [];
+  if (quizState.source === 'flashcards' || quizState.source === 'mixed') {
+    if (!FLASHCARDS || !FLASHCARDS.length) buildFlashcards();
+    const fcs = (FLASHCARDS || []).filter(c => !quizState.topic || c.topicId === quizState.topic);
+    pool.push(...fcs.map(f => ({
+      type: 'flashcard',
+      id: f.id,
+      topicId: f.topicId,
+      title: f.topicTitle,
+      category: f.category,
+      question: f.question,
+      answer: f.answer
+    })));
+  }
+
+  if (quizState.source === 'questions' || quizState.source === 'mixed') {
+    const qs = (D ? D.questions : []).filter(q => !quizState.topic || q.topics.includes(quizState.topic));
+    pool.push(...qs.map(q => ({
+      type: 'question',
+      id: q.id,
+      topicId: q.topics[0] || '1.1',
+      title: `Question ${q.question} (${q.marks}m)`,
+      category: q.topics.map(t => `${t} ${T[t]?T[t].name:''}`).join(', '),
+      question: q.summary || `Past Paper Question ${q.question}`,
+      answer: q.note || 'See official WJEC mark scheme criteria below.',
+      image: q.image,
+      figures: q.figures,
+      markscheme: q.markscheme,
+      marks: q.marks
+    })));
+  }
+
+  if (!pool.length) {
+    showToast('No questions match the selected topic.');
+    return;
+  }
+
+  shuffle(pool);
+  const selected = pool.slice(0, Math.min(quizState.questionCount, pool.length));
+
+  if (quizState.mode === 'mc') {
+    const allAnswers = (FLASHCARDS && FLASHCARDS.length ? FLASHCARDS : pool)
+      .map(item => cleanAnswerText(item.answer))
+      .filter(a => a && a.length > 2);
+
+    selected.forEach(item => {
+      const correct = cleanAnswerText(item.answer);
+      const others = allAnswers.filter(a => a !== correct);
+      shuffle(others);
+      const distractors = others.slice(0, 3);
+      while (distractors.length < 3) {
+        distractors.push('None of the above');
+      }
+      const choices = [correct, ...distractors];
+      shuffle(choices);
+      item.choices = choices;
+      item.correctIndex = choices.indexOf(correct);
+    });
+  }
+
+  quizState.questions = selected;
+  quizState.currentIdx = 0;
+  quizState.revealed = false;
+  quizState.selectedChoice = null;
+  quizState.soloScore = 0;
+  quizState.streak = 0;
+  quizState.maxStreak = 0;
+  quizState.team1Score = 0;
+  quizState.team2Score = 0;
+  quizState.screen = 'playing';
+
+  renderQuizGenerator();
+  setupQuizTimer();
+}
+
+function setupQuizTimer() {
+  if (quizState.timerInterval) clearInterval(quizState.timerInterval);
+  if (quizState.timerSeconds <= 0) {
+    quizState.timerRemaining = 0;
+    return;
+  }
+
+  quizState.timerRemaining = quizState.timerSeconds;
+  quizState.timerInterval = setInterval(() => {
+    quizState.timerRemaining--;
+    const tBox = $('#quiz-timer-num');
+    if (tBox) {
+      tBox.textContent = quizState.timerRemaining;
+      if (quizState.timerRemaining <= 5) {
+        tBox.parentElement.classList.add('urgent');
+        QuizAudio.tick();
+      }
+    }
+
+    if (quizState.timerRemaining <= 0) {
+      clearInterval(quizState.timerInterval);
+      QuizAudio.wrong();
+      if (quizState.mode === 'mc') {
+        quizState.selectedChoice = -1; // timed out
+      }
+      quizState.revealed = true;
+      renderQuizGenerator();
+      showToast('Time up!');
+    }
+  }, 1000);
+}
+
+function renderQuizLive() {
+  const q = quizState.questions[quizState.currentIdx];
+  if (!q) { endQuiz(); return; }
+
+  const total = quizState.questions.length;
+  const isLast = quizState.currentIdx === total - 1;
+  const topicColor = colorOf(q.topicId);
+
+  const html = `
+    <div class="teacher-hub-wrap">
+      <div class="quiz-panel">
+        <div class="quiz-live-header">
+          <div class="quiz-live-progress">
+            Question <b>${quizState.currentIdx + 1}</b> of ${total}
+          </div>
+
+          <div style="display:flex;align-items:center;gap:12px">
+            ${quizState.timerSeconds > 0 ? `
+              <div class="quiz-timer-box ${quizState.timerRemaining<=5?'urgent':''}">
+                ⏱️ <span id="quiz-timer-num">${quizState.timerRemaining}</span>s
+              </div>
+            ` : ''}
+
+            <button type="button" class="btn-minimal" onclick="quizState.soundEnabled=!quizState.soundEnabled;QuizAudio.enabled=quizState.soundEnabled;renderQuizLive();" title="Toggle sound">
+              ${quizState.soundEnabled ? '🔊 Sound On' : '🔇 Muted'}
+            </button>
+            <button type="button" class="btn-minimal" onclick="endQuiz()" title="End quiz now">Exit Quiz</button>
+          </div>
+        </div>
+
+        ${quizState.mode === 'team' ? `
+          <div class="quiz-scoreboard-grid">
+            <div class="team-score-card">
+              <span class="team-name">🦕 ${esc(quizState.team1Name)}</span>
+              <div class="team-score-controls">
+                <button type="button" class="btn-score-adjust" onclick="adjustTeamScore(1, -1)">-</button>
+                <span class="team-score-num">${quizState.team1Score}</span>
+                <button type="button" class="btn-score-adjust" onclick="adjustTeamScore(1, 1)">+</button>
+              </div>
+            </div>
+
+            <div class="team-score-card">
+              <span class="team-name">🐚 ${esc(quizState.team2Name)}</span>
+              <div class="team-score-controls">
+                <button type="button" class="btn-score-adjust" onclick="adjustTeamScore(2, -1)">-</button>
+                <span class="team-score-num">${quizState.team2Score}</span>
+                <button type="button" class="btn-score-adjust" onclick="adjustTeamScore(2, 1)">+</button>
+              </div>
+            </div>
+          </div>
+        ` : `
+          <div style="display:flex;justify-content:space-between;align-items:center;font-size:0.85rem;color:var(--muted)">
+            <span>Score: <b style="color:var(--ink)">${quizState.soloScore}</b> pts</span>
+            <span>Streak: <b style="color:#d97706">🔥 ${quizState.streak}</b> (Best: ${quizState.maxStreak})</span>
+          </div>
+        `}
+
+        <div class="quiz-stage">
+          <div>
+            <div class="quiz-q-meta">
+              <span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:${topicColor}"></span>
+              <span>Topic ${esc(q.topicId)} · ${esc(q.category || q.title)}</span>
+            </div>
+
+            <h2 class="quiz-q-title">${esc(q.question)}</h2>
+
+            ${q.image ? `
+              <div class="quiz-img-box">
+                <img src="${esc(q.image)}" alt="Question Diagram">
+              </div>
+            ` : ''}
+
+            ${quizState.mode === 'mc' ? `
+              <div class="quiz-mc-grid">
+                ${(q.choices || []).map((choice, i) => {
+                  const letters = ['A', 'B', 'C', 'D'];
+                  let btnClass = '';
+                  if (quizState.revealed) {
+                    if (i === q.correctIndex) btnClass = 'correct';
+                    else if (quizState.selectedChoice === i) btnClass = 'wrong';
+                  }
+                  return `
+                    <button type="button" class="quiz-mc-btn ${btnClass}" ${quizState.revealed ? 'disabled' : ''} onclick="selectQuizChoice(${i})">
+                      <span class="mc-letter">${letters[i]}</span>
+                      <span>${esc(choice)}</span>
+                    </button>
+                  `;
+                }).join('')}
+              </div>
+            ` : ''}
+
+            ${quizState.revealed ? `
+              <div class="quiz-reveal-box">
+                <div class="quiz-reveal-title">Official WJEC Answer & Mark Scheme</div>
+                <div class="quiz-reveal-text">${q.answer}</div>
+                ${q.markscheme ? `
+                  <div style="margin-top:12px;text-align:center">
+                    <img src="${esc(q.markscheme)}" style="max-width:100%;max-height:260px;object-fit:contain;border:1px solid var(--border);border-radius:var(--radius)">
+                  </div>
+                ` : ''}
+
+                ${quizState.mode === 'team' ? `
+                  <div class="quiz-scoring-row">
+                    <span style="font-size:0.82rem;font-weight:600;color:var(--ink);align-self:center">Award Points:</span>
+                    <button type="button" class="btn-minimal" onclick="adjustTeamScore(1, 1);nextQuizQuestion();">+1 ${esc(quizState.team1Name)}</button>
+                    <button type="button" class="btn-minimal" onclick="adjustTeamScore(2, 1);nextQuizQuestion();">+1 ${esc(quizState.team2Name)}</button>
+                    <button type="button" class="btn-minimal" onclick="adjustTeamScore(1, 1);adjustTeamScore(2, 1);nextQuizQuestion();">+1 Both Teams</button>
+                    <button type="button" class="btn-minimal" onclick="nextQuizQuestion();">No Points</button>
+                  </div>
+                ` : ''}
+              </div>
+            ` : (quizState.mode === 'team' ? `
+              <div style="text-align:center;margin-top:16px">
+                <button type="button" class="btn-gateway" style="max-width:320px;margin:0 auto" onclick="revealQuizAnswer()">
+                  👁️ Reveal Answer Key (Space)
+                </button>
+              </div>
+            ` : '')}
+          </div>
+
+          <div style="display:flex;justify-content:space-between;align-items:center;padding-top:16px;border-top:1px solid var(--border)">
+            <button type="button" class="btn-minimal" ${quizState.currentIdx===0?'disabled':''} onclick="prevQuizQuestion()">← Previous</button>
+            <span style="font-size:0.78rem;color:var(--muted)">Shortcuts: Space to reveal · 1 (+1 Team 1) · 2 (+1 Team 2) · → Next</span>
+            <button type="button" class="btn-minimal" style="font-weight:600;color:var(--ink)" onclick="nextQuizQuestion()">
+              ${isLast ? 'Finish Quiz 🏁' : 'Next Question →'}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  $('#app-view').innerHTML = html;
+}
+
+function selectQuizChoice(idx) {
+  if (quizState.revealed) return;
+  if (quizState.timerInterval) clearInterval(quizState.timerInterval);
+
+  quizState.selectedChoice = idx;
+  quizState.revealed = true;
+  const q = quizState.questions[quizState.currentIdx];
+
+  if (idx === q.correctIndex) {
+    QuizAudio.correct();
+    quizState.streak++;
+    if (quizState.streak > quizState.maxStreak) quizState.maxStreak = quizState.streak;
+    const timeBonus = Math.max(0, quizState.timerRemaining * 10);
+    quizState.soloScore += 100 + timeBonus;
+    showToast('Correct! +100 pts');
+  } else {
+    QuizAudio.wrong();
+    quizState.streak = 0;
+    showToast('Incorrect!');
+  }
+
+  renderQuizLive();
+}
+
+function revealQuizAnswer() {
+  if (quizState.timerInterval) clearInterval(quizState.timerInterval);
+  quizState.revealed = true;
+  QuizAudio.play(ctx => {
+    const osc = ctx.createOscillator();
+    const g = ctx.createGain();
+    osc.frequency.setValueAtTime(440, ctx.currentTime);
+    g.gain.setValueAtTime(0.08, ctx.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.15);
+    osc.connect(g);
+    g.connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + 0.15);
+  });
+  renderQuizLive();
+}
+
+function adjustTeamScore(team, delta) {
+  if (team === 1) {
+    quizState.team1Score = Math.max(0, quizState.team1Score + delta);
+  } else {
+    quizState.team2Score = Math.max(0, quizState.team2Score + delta);
+  }
+  if (delta > 0) QuizAudio.correct();
+  renderQuizLive();
+}
+
+function nextQuizQuestion() {
+  if (quizState.currentIdx >= quizState.questions.length - 1) {
+    endQuiz();
+    return;
+  }
+  quizState.currentIdx++;
+  quizState.revealed = false;
+  quizState.selectedChoice = null;
+  renderQuizLive();
+  setupQuizTimer();
+}
+
+function prevQuizQuestion() {
+  if (quizState.currentIdx <= 0) return;
+  quizState.currentIdx--;
+  quizState.revealed = false;
+  quizState.selectedChoice = null;
+  renderQuizLive();
+  setupQuizTimer();
+}
+
+function endQuiz() {
+  if (quizState.timerInterval) clearInterval(quizState.timerInterval);
+  quizState.screen = 'ended';
+  QuizAudio.fanfare();
+  launchConfetti();
+  renderQuizSummary();
+}
+
+function renderQuizSummary() {
+  let winnerHtml = '';
+  if (quizState.mode === 'team') {
+    if (quizState.team1Score > quizState.team2Score) {
+      winnerHtml = `🏆 <b>${esc(quizState.team1Name)}</b> Wins! (${quizState.team1Score} - ${quizState.team2Score})`;
+    } else if (quizState.team2Score > quizState.team1Score) {
+      winnerHtml = `🏆 <b>${esc(quizState.team2Name)}</b> Wins! (${quizState.team2Score} - ${quizState.team1Score})`;
+    } else {
+      winnerHtml = `🤝 It's a Geological Tie! (${quizState.team1Score} - ${quizState.team2Score})`;
+    }
+  } else {
+    const maxScore = quizState.questions.length * 100;
+    const pct = Math.round((quizState.soloScore / maxScore) * 100) || 0;
+    let rank = 'Novice Stratigrapher';
+    if (pct >= 90) rank = '💎 Diamond Geologist';
+    else if (pct >= 70) rank = '🌋 Igneous Master';
+    else if (pct >= 50) rank = '⛏️ Field Specialist';
+    winnerHtml = `Score: <b>${quizState.soloScore}</b> pts · ${rank} (${pct}%)`;
+  }
+
+  const html = `
+    <div class="teacher-hub-wrap">
+      <div class="quiz-panel">
+        <div class="quiz-summary-box">
+          <div style="font-size:3rem">🎉</div>
+          <div class="quiz-winner-badge">${winnerHtml}</div>
+          <p class="quiz-result-score">Quiz completed! ${quizState.questions.length} questions reviewed.</p>
+
+          <div style="display:flex;gap:12px;margin-top:10px;flex-wrap:wrap;justify-content:center">
+            <button type="button" class="btn-print-primary" onclick="startQuiz()">🔄 Play Again</button>
+            <button type="button" class="btn-minimal" onclick="printQuizHandout()">📄 Print Quiz & Answers</button>
+            <button type="button" class="btn-minimal" onclick="quizState.screen='setup';renderQuizSetup()">⚙️ Quiz Settings</button>
+            <button type="button" class="btn-minimal" onclick="switchTeacherTab('hub')">🎓 Teacher's Hub</button>
+          </div>
+        </div>
+
+        <div style="border-top:1px solid var(--border);padding-top:20px">
+          <h3 style="font-size:1rem;margin:0 0 14px;color:var(--ink)">Questions Review</h3>
+          <div style="display:flex;flex-direction:column;gap:12px">
+            ${quizState.questions.map((q, i) => `
+              <div style="background:var(--surface-hover);padding:12px 16px;border-radius:var(--radius);border:1px solid var(--border)">
+                <div style="font-size:0.8rem;color:var(--muted);margin-bottom:4px">Q${i+1} · Topic ${esc(q.topicId)}</div>
+                <div style="font-weight:600;font-size:0.95rem;color:var(--ink);margin-bottom:6px">${esc(q.question)}</div>
+                <div style="font-size:0.85rem;color:#15803d"><b>Answer:</b> ${q.answer}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  $('#app-view').innerHTML = html;
+}
+
+function printQuizHandout() {
+  const qs = quizState.questions.length ? quizState.questions : (FLASHCARDS || []).slice(0, 10);
+  executePrintWorksheet({
+    title: `SENOTS Classroom Quiz: ${quizState.topic ? 'Topic ' + quizState.topic : 'General Geology'}`,
+    subtitle: 'Name: ______________________ Date: ___________ Score: _____ / ' + qs.length,
+    questions: qs,
+    isQuiz: true
+  });
+}
+
+/* ========================================================
+   WORKSHEET & QUESTION GENERATOR IMPLEMENTATION
+   ======================================================== */
+function renderWorksheetGenerator() {
+  if (!wsState.questions.length) {
+    generateWorksheet();
+  }
+
+  const topicsHtml = buildWorksheetTopicOptions();
+  const totalMarks = wsState.questions.reduce((s, q) => s + q.marks, 0);
+
+  const html = `
+    <div class="teacher-hub-wrap">
+      <nav class="teacher-nav">
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">← Teacher's Hub</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('quiz')">🎮 Fun Quiz Generator</button>
+        <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('worksheet')">📝 Question & Worksheet Generator</button>
+      </nav>
+
+      <div class="ws-controls-card">
+        <div>
+          <h2 style="margin:0 0 4px;font-size:1.3rem;font-weight:700;color:var(--ink)">Exam Question & Worksheet Generator</h2>
+          <p style="margin:0;font-size:0.85rem;color:var(--muted)">Assemble custom tests and practice sheets from 813 official WJEC past paper questions.</p>
+        </div>
+
+        <div class="ws-controls-grid">
+          <div class="ws-field" style="grid-column:1 / -1">
+            <label>Worksheet Title</label>
+            <input type="text" id="ws-title-input" value="${esc(wsState.title)}" oninput="wsState.title=this.value;">
+          </div>
+
+          <div class="ws-field" style="grid-column:1 / -1">
+            <label>Candidate Instructions / Subtitle</label>
+            <input type="text" id="ws-sub-input" value="${esc(wsState.subtitle)}" oninput="wsState.subtitle=this.value;">
+          </div>
+
+          <div class="ws-field">
+            <label>Topic Filter</label>
+            <select id="ws-topic-sel" onchange="wsState.topic=this.value;generateWorksheet();renderWorksheetGenerator();">
+              ${topicsHtml}
+            </select>
+          </div>
+
+          <div class="ws-field">
+            <label>Level</label>
+            <select id="ws-level-sel" onchange="wsState.level=this.value;generateWorksheet();renderWorksheetGenerator();">
+              <option value="" ${wsState.level===''?'selected':''}>All Levels (AS & A-Level)</option>
+              <option value="AS" ${wsState.level==='AS'?'selected':''}>AS Level Component 1 & 2</option>
+              <option value="A" ${wsState.level==='A'?'selected':''}>A Level Component 1 & 2</option>
+            </select>
+          </div>
+
+          <div class="ws-field">
+            <label>Target Marks</label>
+            <select id="ws-marks-sel" onchange="wsState.targetMarks=+this.value;generateWorksheet();renderWorksheetGenerator();">
+              <option value="10" ${wsState.targetMarks===10?'selected':''}>10 Marks (Mini-Check)</option>
+              <option value="15" ${wsState.targetMarks===15?'selected':''}>15 Marks (Homework)</option>
+              <option value="20" ${wsState.targetMarks===20?'selected':''}>20 Marks (Standard)</option>
+              <option value="30" ${wsState.targetMarks===30?'selected':''}>30 Marks (Topic Assessment)</option>
+              <option value="40" ${wsState.targetMarks===40?'selected':''}>40 Marks (Comprehensive Mock)</option>
+              <option value="50" ${wsState.targetMarks===50?'selected':''}>50 Marks (Full Test)</option>
+            </select>
+          </div>
+
+          <div class="ws-field">
+            <label>Exam Formatting</label>
+            <div style="display:flex;flex-direction:column;gap:6px;padding-top:4px">
+              <label style="cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:0.82rem">
+                <input type="checkbox" id="ws-inc-lines" ${wsState.includeLines?'checked':''} onchange="wsState.includeLines=this.checked;renderWorksheetGenerator();" style="accent-color:var(--ink)">
+                <span>Ruled student writing lines</span>
+              </label>
+              <label style="cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:0.82rem">
+                <input type="checkbox" id="ws-inc-header" ${wsState.includeHeader?'checked':''} onchange="wsState.includeHeader=this.checked;renderWorksheetGenerator();" style="accent-color:var(--ink)">
+                <span>Candidate exam cover table</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="ws-actions-row">
+          <div style="font-size:0.85rem;color:var(--ink)">
+            <b>${wsState.questions.length}</b> questions · Total: <b>${totalMarks}</b> marks
+          </div>
+
+          <div class="ws-export-btns">
+            <button type="button" class="btn-minimal" onclick="generateWorksheet();renderWorksheetGenerator();">🎲 Reshuffle Questions</button>
+            <button type="button" class="btn-minimal" onclick="addWorksheetQuestion()">➕ Add Question</button>
+            <button type="button" class="btn-print-primary" onclick="executePrintWorksheet({isTeacherKey:false})">
+              🖨️ Print Student Worksheet (PDF)
+            </button>
+            <button type="button" class="btn-minimal" style="font-weight:600;color:#15803d;border-color:#16a34a" onclick="executePrintWorksheet({isTeacherKey:true})">
+              📋 Print Teacher Mark Scheme (PDF)
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Editable Worksheet Paper Preview -->
+      <div class="ws-paper-preview">
+        <div style="border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:16px">
+          <h1 style="margin:0 0 6px;font-size:1.4rem;font-weight:700;color:var(--ink)">${esc(wsState.title)}</h1>
+          <div style="font-size:0.85rem;color:var(--muted)">${esc(wsState.subtitle)}</div>
+        </div>
+
+        ${wsState.includeHeader ? `
+          <table class="ws-candidate-table">
+            <tr>
+              <td style="width:50%"><b>Candidate Name:</b></td>
+              <td style="width:25%"><b>Date:</b></td>
+              <td style="width:25%"><b>Class:</b></td>
+            </tr>
+            <tr>
+              <td colspan="2"><b>Score:</b> ________ / ${totalMarks} marks</td>
+              <td><b>Target:</b> ________</td>
+            </tr>
+          </table>
+        ` : ''}
+
+        <div class="ws-exam-instructions">
+          <b>Instructions to Candidates:</b> Answer all questions. Write your answers neatly in the spaces provided. Show clear workings for all calculations.
+        </div>
+
+        <div class="ws-questions-list">
+          ${wsState.questions.map((q, idx) => {
+            const p = D.P[q.paper] || {};
+            return `
+              <article class="ws-q-card">
+                <div class="ws-q-toolbar">
+                  <span class="ws-q-number">Question ${idx + 1} &nbsp;<span class="q-mark" style="font-size:0.75rem">${q.marks} ${q.marks===1?'mark':'marks'}</span></span>
+                  <div class="ws-q-actions">
+                    <button type="button" class="btn-q-action" onclick="swapWorksheetQuestion(${idx})" title="Swap for another question from this topic">🔄 Swap</button>
+                    <button type="button" class="btn-q-action" onclick="moveWorksheetQuestion(${idx}, -1)" ${idx===0?'disabled':''} title="Move up">⬆</button>
+                    <button type="button" class="btn-q-action" onclick="moveWorksheetQuestion(${idx}, 1)" ${idx===wsState.questions.length-1?'disabled':''} title="Move down">⬇</button>
+                    <button type="button" class="btn-q-action" style="color:#dc2626" onclick="removeWorksheetQuestion(${idx})" title="Remove question">✕</button>
+                  </div>
+                </div>
+
+                <div class="q-citation" style="margin-bottom:8px">WJEC Eduqas ${esc(p.series||'')} ${p.year||''} · ${esc(p.unit||'')} · Question ${esc(q.question)}</div>
+                ${q.summary ? `<p class="q-summary" style="margin-bottom:8px">${esc(q.summary)}</p>` : ''}
+
+                <div class="img-container" style="margin-bottom:8px">
+                  <img src="${esc(q.image)}" alt="Question ${esc(q.question)}" onclick="openModal('${q.id}', 'question')">
+                </div>
+
+                ${(q.figures || []).map(f => `
+                  <div class="img-container" style="margin-bottom:8px">
+                    <div style="font-size:0.75rem;font-weight:600;padding:4px;color:var(--muted);text-align:left">${esc(figLabel(f))}</div>
+                    <img src="${esc(f)}" alt="${esc(figLabel(f))}">
+                  </div>
+                `).join('')}
+
+                ${wsState.includeLines ? `
+                  <div class="ws-q-lines" style="--lines:${Math.max(3, q.marks * 2)}"></div>
+                ` : ''}
+              </article>
+            `;
+          }).join('')}
+        </div>
+
+        <div style="margin-top:24px;text-align:center">
+          <button type="button" class="btn-minimal" onclick="addWorksheetQuestion()">➕ Add Another Question from Bank</button>
+        </div>
+      </div>
+    </div>
+  `;
+  $('#app-view').innerHTML = html;
+}
+
+function buildWorksheetTopicOptions() {
+  const tids = CHEATS ? Object.keys(CHEATS) : ['1.1','2.1','2.2','2.3','3.1','3.2','4.1','4.2','G1','G2','G3','G4','T1','T2','T3','T4','T5'];
+  let html = `<option value="" ${wsState.topic===''?'selected':''}>All Topics (Mixed Exam Paper)</option>`;
+  tids.forEach(t => {
+    const title = CHEATS && CHEATS[t] ? CHEATS[t].title.replace(/^Topic |^Theme /, '') : (T[t] ? T[t].name : t);
+    const isSel = wsState.topic === t ? 'selected' : '';
+    html += `<option value="${t}" ${isSel}>Topic ${t} · ${esc(title)}</option>`;
+  });
+  return html;
+}
+
+function generateWorksheet() {
+  if (!D || !D.questions) return;
+  let pool = D.questions.filter(q => {
+    if (wsState.level && D.P[q.paper].level !== wsState.level) return false;
+    if (wsState.topic && !q.topics.includes(wsState.topic)) return false;
+    if (wsState.skill && !q.skills.includes(wsState.skill)) return false;
+    return true;
+  });
+  if (!pool.length) pool = D.questions.slice();
+  shuffle(pool);
+
+  const selected = [];
+  let currentMarks = 0;
+  for (const q of pool) {
+    if (currentMarks + q.marks <= wsState.targetMarks + 2) {
+      selected.push(q);
+      currentMarks += q.marks;
+      if (currentMarks >= wsState.targetMarks) break;
+    }
+  }
+  if (selected.length === 0 && pool.length) {
+    selected.push(pool[0]);
+  }
+  wsState.questions = selected;
+}
+
+function swapWorksheetQuestion(idx) {
+  const currentIds = new Set(wsState.questions.map(q => q.id));
+  const pool = D.questions.filter(q => {
+    if (currentIds.has(q.id)) return false;
+    if (wsState.level && D.P[q.paper].level !== wsState.level) return false;
+    if (wsState.topic && !q.topics.includes(wsState.topic)) return false;
+    return true;
+  });
+  if (!pool.length) {
+    showToast('No alternative questions found for current filters.');
+    return;
+  }
+  const replacement = pool[Math.floor(Math.random() * pool.length)];
+  wsState.questions[idx] = replacement;
+  renderWorksheetGenerator();
+  showToast(`Swapped for Question ${replacement.question} (${replacement.marks}m)`);
+}
+
+function removeWorksheetQuestion(idx) {
+  if (wsState.questions.length <= 1) {
+    showToast('Worksheet must contain at least one question.');
+    return;
+  }
+  wsState.questions.splice(idx, 1);
+  renderWorksheetGenerator();
+  showToast('Question removed.');
+}
+
+function moveWorksheetQuestion(idx, direction) {
+  const target = idx + direction;
+  if (target < 0 || target >= wsState.questions.length) return;
+  const temp = wsState.questions[idx];
+  wsState.questions[idx] = wsState.questions[target];
+  wsState.questions[target] = temp;
+  renderWorksheetGenerator();
+}
+
+function addWorksheetQuestion() {
+  const currentIds = new Set(wsState.questions.map(q => q.id));
+  const pool = D.questions.filter(q => {
+    if (currentIds.has(q.id)) return false;
+    if (wsState.topic && !q.topics.includes(wsState.topic)) return false;
+    return true;
+  });
+  if (!pool.length) {
+    showToast('No more questions available for this topic.');
+    return;
+  }
+  const added = pool[Math.floor(Math.random() * pool.length)];
+  wsState.questions.push(added);
+  renderWorksheetGenerator();
+  showToast(`Added Question ${added.question} (${added.marks}m)`);
+}
+
+async function executePrintWorksheet(options = {}) {
+  const isTeacherKey = !!options.isTeacherKey;
+  const questions = options.questions || wsState.questions;
+  const isQuiz = !!options.isQuiz;
+
+  if (!questions || !questions.length) {
+    showToast('No questions to print.');
+    return;
+  }
+
+  let printContainer = $('#print-container');
+  if (!printContainer) {
+    printContainer = document.createElement('div');
+    printContainer.id = 'print-container';
+    document.body.appendChild(printContainer);
+  }
+
+  const totalMarks = questions.reduce((sum, q) => sum + (q.marks || 1), 0);
+  const dateStr = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+
+  let itemsHtml = '';
+  if (isQuiz) {
+    itemsHtml = questions.map((q, i) => `
+      <article class="print-pack-q-item">
+        <div class="print-pack-q-head">
+          <h2 class="print-pack-q-title">Question ${i + 1}</h2>
+          <span class="print-pack-q-marks">Topic ${esc(q.topicId)}</span>
+        </div>
+        <div style="font-size:10pt;font-weight:600;margin:6pt 0">${esc(q.question)}</div>
+        <div class="print-lines-box" style="min-height:30pt"></div>
+      </article>
+    `).join('');
+  } else {
+    itemsHtml = questions.map((q, idx) => {
+      const p = D.P[q.paper] || {};
+      let figHtml = (q.figures || []).map(f => `
+        <div class="print-pack-img-block">
+          <div class="print-pack-fig-label">Resource: ${esc(figLabel(f))}</div>
+          <img src="${esc(f)}" alt="${esc(figLabel(f))}">
+        </div>
+      `).join('');
+
+      let answerArea = '';
+      if (!isTeacherKey && wsState.includeLines) {
+        answerArea = `<div class="print-lines-box" style="min-height:${Math.max(3, q.marks * 2) * 22}pt"></div>`;
+      }
+
+      let msBlock = '';
+      if (isTeacherKey && q.markscheme) {
+        msBlock = `
+          <div class="print-pack-ms-block">
+            <div class="print-pack-ms-title">Mark Scheme — Question ${esc(q.question)} (${q.marks}m)</div>
+            <div class="print-pack-img-block">
+              <img src="${esc(q.markscheme)}" alt="Mark scheme">
+            </div>
+          </div>
+        `;
+      }
+
+      return `
+        <article class="print-pack-q-item">
+          <div class="print-pack-q-head">
+            <h2 class="print-pack-q-title">Question ${idx + 1}</h2>
+            <span class="print-pack-q-marks">${q.marks} ${q.marks === 1 ? 'mark' : 'marks'}</span>
+          </div>
+          <div class="print-pack-q-citation">WJEC Eduqas ${esc(p.series || '')} ${p.year || ''} · ${esc(p.unit || '')} · Question ${esc(q.question)}</div>
+          ${q.summary ? `<div class="print-pack-q-summary">${esc(q.summary)}</div>` : ''}
+
+          <div class="print-pack-img-block">
+            <img src="${esc(q.image)}" alt="Question ${esc(q.question)}">
+          </div>
+
+          ${figHtml}
+          ${answerArea}
+          ${msBlock}
+        </article>
+      `;
+    }).join('');
+  }
+
+  const titleText = isTeacherKey ? `TEACHER MARK SCHEME: ${wsState.title}` : (options.title || wsState.title);
+
+  printContainer.innerHTML = `
+    <header class="print-pack-head">
+      <div class="print-pack-title-row">
+        <h1 class="print-pack-title">${esc(titleText)}</h1>
+        <div class="print-pack-date">${dateStr}</div>
+      </div>
+      <div class="print-pack-meta">
+        ${questions.length} questions · ${totalMarks} total marks
+        ${!isTeacherKey && wsState.subtitle ? `<br><i>${esc(wsState.subtitle)}</i>` : ''}
+      </div>
+    </header>
+
+    ${!isTeacherKey && wsState.includeHeader && !isQuiz ? `
+      <table class="print-candidate-table">
+        <tr>
+          <td style="width:50%"><b>Candidate Name:</b></td>
+          <td style="width:25%"><b>Date:</b></td>
+          <td style="width:25%"><b>Class / Group:</b></td>
+        </tr>
+        <tr>
+          <td colspan="2"><b>Candidate Score:</b> _______ / ${totalMarks} marks</td>
+          <td><b>Grade / Percentage:</b> _______</td>
+        </tr>
+      </table>
+    ` : ''}
+
+    <main class="print-pack-list">
+      ${itemsHtml}
+    </main>
+
+    <footer class="print-pack-footer">
+      WJEC Eduqas AS & A level Geology revision aid. Exam papers, figures and mark schemes © WJEC CBAC Ltd. Generated via SENOTS Teacher's Hub.
+    </footer>
+  `;
+
+  showToast('Preparing document for print / PDF export...');
+
+  const imgs = Array.from(printContainer.querySelectorAll('img'));
+  await Promise.all(imgs.map(img => {
+    if (img.complete && img.naturalWidth > 0) return Promise.resolve();
+    return new Promise(resolve => {
+      img.onload = img.onerror = resolve;
+      if (img.decode) {
+        img.decode().then(resolve).catch(resolve);
+      }
+    });
+  }));
+
+  document.body.classList.add('is-printing-pack');
+
+  setTimeout(() => {
+    window.print();
+  }, 100);
+}
+
+
+window.addEventListener('keydown', e => {
+  if (state.view !== 'teachers' || state.teacherTab !== 'quiz' || quizState.screen !== 'playing') return;
+  if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') return;
+
+  if (e.key === ' ' || e.code === 'Space') {
+    e.preventDefault();
+    if (!quizState.revealed) revealQuizAnswer();
+  } else if (e.key === 'ArrowRight') {
+    e.preventDefault();
+    nextQuizQuestion();
+  } else if (e.key === 'ArrowLeft') {
+    e.preventDefault();
+    prevQuizQuestion();
+  } else if (e.key === '1') {
+    if (quizState.mode === 'team') adjustTeamScore(1, 1);
+    else if (quizState.mode === 'mc' && !quizState.revealed) selectQuizChoice(0);
+  } else if (e.key === '2') {
+    if (quizState.mode === 'team') adjustTeamScore(2, 1);
+    else if (quizState.mode === 'mc' && !quizState.revealed) selectQuizChoice(1);
+  } else if (e.key === '3' && quizState.mode === 'mc' && !quizState.revealed) {
+    selectQuizChoice(2);
+  } else if (e.key === '4' && quizState.mode === 'mc' && !quizState.revealed) {
+    selectQuizChoice(3);
+  }
+});
 
 </script>
 </body>
