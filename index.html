@@ -2070,9 +2070,16 @@ const esc = s => String(s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;
 const PASS_HASH = '1cfe1c910983119342c466a3954eac2b38c70c784d670045d882a39abf7aabc9';
 
 async function sha256(text) {
-  const enc = new TextEncoder().encode(text);
-  const buf = await crypto.subtle.digest('SHA-256', enc);
-  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+  try {
+    if (window.crypto && window.crypto.subtle && window.crypto.subtle.digest) {
+      const enc = new TextEncoder().encode(text);
+      const buf = await window.crypto.subtle.digest('SHA-256', enc);
+      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+  } catch (e) {
+    console.warn('SubtleCrypto digest unavailable', e);
+  }
+  return '';
 }
 
 function isAuthorized() {
@@ -2093,45 +2100,83 @@ function lockSite() {
   location.reload();
 }
 
-async function handleUnlockSubmit() {
+async function handleUnlockSubmit(e) {
+  if (e && typeof e.preventDefault === 'function') {
+    e.preventDefault();
+  }
   const input = $('#lock-password');
   const err = $('#lock-error-msg');
-  const remember = $('#lock-remember').checked;
-  const pwd = input.value.trim();
+  const remember = $('#lock-remember') ? $('#lock-remember').checked : true;
+  const rawPwd = (input ? input.value : '').trim();
+  const pwdLower = rawPwd.toLowerCase();
 
-  if (!pwd) {
-    err.textContent = 'Please enter passcode.';
-    return;
+  if (!rawPwd) {
+    if (err) err.textContent = 'Please enter passcode.';
+    return false;
   }
 
-  const hash = await sha256(pwd);
-  if (hash === PASS_HASH) {
-    err.textContent = '';
+  // Allow case-insensitive "geology" or exact hash match
+  let isValid = (pwdLower === 'geology');
+  if (!isValid) {
+    try {
+      const hash = await sha256(rawPwd);
+      const hashLower = await sha256(pwdLower);
+      if (hash === PASS_HASH || hashLower === PASS_HASH) {
+        isValid = true;
+      }
+    } catch (_) {}
+  }
+
+  if (isValid) {
+    if (err) err.textContent = '';
     setAuthorized(remember);
     unlockPortal();
   } else {
-    err.textContent = 'Incorrect passcode.';
-    input.select();
+    if (err) err.textContent = 'Incorrect passcode.';
+    if (input) input.select();
   }
+  return false;
 }
 
 function unlockPortal() {
-  $('#lock-screen').style.display = 'none';
-  $('#app-root').classList.add('unlocked');
+  const lockEl = $('#lock-screen');
+  if (lockEl) lockEl.style.display = 'none';
+  const appRoot = $('#app-root');
+  if (appRoot) appRoot.classList.add('unlocked');
   loadQuestionBank();
 }
 
-$('#lock-form').onsubmit = handleUnlockSubmit;
-$('#lock-submit-btn').onclick = handleUnlockSubmit;
-$('#lock-toggle-pwd').onclick = () => {
-  const input = $('#lock-password');
-  const isPwd = input.type === 'password';
-  input.type = isPwd ? 'text' : 'password';
-  $('#lock-toggle-pwd').textContent = isPwd ? 'Hide' : 'Show';
-};
-$('#btn-lock-site').onclick = () => {
-  if (confirm('Lock portal?')) lockSite();
-};
+const lockForm = $('#lock-form');
+if (lockForm) {
+  lockForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    handleUnlockSubmit(e);
+    return false;
+  });
+}
+const lockBtn = $('#lock-submit-btn');
+if (lockBtn) {
+  lockBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    handleUnlockSubmit(e);
+  });
+}
+const togglePwd = $('#lock-toggle-pwd');
+if (togglePwd) {
+  togglePwd.onclick = () => {
+    const input = $('#lock-password');
+    if (!input) return;
+    const isPwd = input.type === 'password';
+    input.type = isPwd ? 'text' : 'password';
+    togglePwd.textContent = isPwd ? 'Hide' : 'Show';
+  };
+}
+const lockSiteBtn = $('#btn-lock-site');
+if (lockSiteBtn) {
+  lockSiteBtn.onclick = () => {
+    if (confirm('Lock portal?')) lockSite();
+  };
+}
 
 /* ========================================================
    Theme Minimalist
