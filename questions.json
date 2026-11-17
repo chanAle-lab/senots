@@ -787,6 +787,66 @@
       "totalMarks": 15,
       "duration": "1 hour (Section A)",
       "level": "A2"
+    },
+    {
+      "id": "2017-summer-gl4",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-06-06",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting the Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "2 hours (Section A: 1 hour)",
+      "level": "A2"
+    },
+    {
+      "id": "2017-summer-gl5-u1",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-06-08",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2017-summer-gl5-u2",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-06-08",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2017-summer-gl5-u3",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-06-08",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2017-summer-gl5-u4",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-06-08",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
     }
   ],
   "questions": [
@@ -21334,6 +21394,1023 @@
         "img/2016-summer-gl5-u4/fig-q1b.jpg"
       ],
       "markscheme": "img/2016-summer-gl5-u4/ms-q1c.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q1ai",
+      "paper": "2017-summer-gl4",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Granite",
+        "Igneous Petrology"
+      ],
+      "skills": [
+        "Rock Identification"
+      ],
+      "summary": "State two reasons why Shap granite in Figure 1a is correctly identified as a granite (felsic mineralogy, coarse grain size).",
+      "image": "img/2017-summer-gl4/q1ai.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q1ai.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q1aii",
+      "paper": "2017-summer-gl4",
+      "question": "1(a)(ii)",
+      "marks": 4,
+      "page": 2,
+      "topics": [
+        "Porphyritic Texture",
+        "Cooling History"
+      ],
+      "skills": [
+        "Texture Interpretation"
+      ],
+      "summary": "Explain evidence from Figure 1a suggesting Shap granite formed by two stages of cooling (porphyritic orthoclase phenocrysts in groundmass).",
+      "image": "img/2017-summer-gl4/q1aii.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q1aii.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q1bi",
+      "paper": "2017-summer-gl4",
+      "question": "1(b)(i)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "Phase Diagrams",
+        "Magma Crystallisation"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Table Completion"
+      ],
+      "summary": "Complete Table 1 from phase diagram Figure 1b to show order and temperature of mineral crystallisation at 0.2 GPa.",
+      "image": "img/2017-summer-gl4/q1bi.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q1bii",
+      "paper": "2017-summer-gl4",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Pressure Effects",
+        "Crystallisation Temperatures"
+      ],
+      "skills": [
+        "Trend Description"
+      ],
+      "summary": "Describe the effects of pressure on crystallisation temperatures: increases for mafic minerals, decreases for felsic minerals.",
+      "image": "img/2017-summer-gl4/q1bii.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q1c",
+      "paper": "2017-summer-gl4",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Megacryst Paradox",
+        "Experimental Petrology"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Petrological Reasoning"
+      ],
+      "summary": "Explain how experimental phase data (orthoclase last to crystallise) conflicts with large euhedral orthoclase phenocrysts in Shap granite.",
+      "image": "img/2017-summer-gl4/q1c.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q1a.jpg",
+        "img/2017-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q1c.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q2a",
+      "paper": "2017-summer-gl4",
+      "question": "2(a)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "Dinosaur Classification",
+        "Ornithischia"
+      ],
+      "skills": [
+        "Taxonomic Hierarchy"
+      ],
+      "summary": "Complete Table 2a by stating the taxonomic level of classification (Order) represented by ornithischian.",
+      "image": "img/2017-summer-gl4/q2a.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q2a.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q2bi",
+      "paper": "2017-summer-gl4",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Dinosaur Morphology",
+        "Pelvis"
+      ],
+      "skills": [
+        "Anatomical Identification"
+      ],
+      "summary": "Name morphological feature X on Stegosaurus (pelvis) and suggest its function (hindlimb attachment / locomotion).",
+      "image": "img/2017-summer-gl4/q2bi.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q2bi.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q2bii",
+      "paper": "2017-summer-gl4",
+      "question": "2(b)(ii)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "Dinosaur Palaeobiology",
+        "Stegosaurus"
+      ],
+      "skills": [
+        "Functional Morphology"
+      ],
+      "summary": "Explain how skeletal features (small teeth/beak, lateral eyes, defensive tail spikes, unequal limb length) suggest Stegosaurus was not a carnivorous predator.",
+      "image": "img/2017-summer-gl4/q2bii.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q2a.jpg",
+        "img/2017-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q2bii.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q2ci",
+      "paper": "2017-summer-gl4",
+      "question": "2(c)(i)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "Dinosaur Gait",
+        "Stride Length"
+      ],
+      "skills": [
+        "Graph Reading",
+        "Table Completion"
+      ],
+      "summary": "Complete Table 2b using Figure 2c to determine relative stride lengths (0.5m) and gaits (trotting, running).",
+      "image": "img/2017-summer-gl4/q2ci.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q2ci.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q2cii",
+      "paper": "2017-summer-gl4",
+      "question": "2(c)(ii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Morphometrics",
+        "Shoulder Height Calculation"
+      ],
+      "skills": [
+        "Mathematical Calculation"
+      ],
+      "summary": "Calculate the shoulder height (s = 0.91 m) of Stegosaurus using the relative stride length formula and Table 2b data.",
+      "image": "img/2017-summer-gl4/q2cii.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q2cii.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q2ciii",
+      "paper": "2017-summer-gl4",
+      "question": "2(c)(iii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "Locomotion Biomechanics",
+        "Gait Incoordination"
+      ],
+      "skills": [
+        "Biomechanical Reasoning"
+      ],
+      "summary": "Explain why stride data suggests Stegosaurus could not run fast (forelimbs trotting while hindlimbs walking; mass inertia).",
+      "image": "img/2017-summer-gl4/q2ciii.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q2a.jpg",
+        "img/2017-summer-gl4/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q2ciii.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q3ai",
+      "paper": "2017-summer-gl4",
+      "question": "3(a)(i)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "Fold Outcrop Patterns",
+        "Dip and Width of Outcrop"
+      ],
+      "skills": [
+        "Map Interpretation"
+      ],
+      "summary": "Suggest a reason for difference in outcrop width of Silurian sandstone on limbs of anticline (shallower dip creates wider outcrop).",
+      "image": "img/2017-summer-gl4/q3ai.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q3ai.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q3aii",
+      "paper": "2017-summer-gl4",
+      "question": "3(a)(ii)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "True Thickness",
+        "Vertical Strata"
+      ],
+      "skills": [
+        "Measurement from Map"
+      ],
+      "summary": "State true thickness of Silurian sandstone from vertical northern limb outcrop (~20 m).",
+      "image": "img/2017-summer-gl4/q3aii.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q3aii.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q3b",
+      "paper": "2017-summer-gl4",
+      "question": "3(b)",
+      "marks": 6,
+      "page": 11,
+      "topics": [
+        "Geological Map Completion",
+        "Dykes",
+        "Fault Offsets"
+      ],
+      "skills": [
+        "Geological Mapping",
+        "Fault Offset Construction"
+      ],
+      "summary": "Complete geological map Figure 3a by marking Precambrian dyke, normal fault F1 offset, and strike-slip fault F2 offset.",
+      "image": "img/2017-summer-gl4/q3b.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q3b.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q3c",
+      "paper": "2017-summer-gl4",
+      "question": "3(c)",
+      "marks": 4,
+      "page": 11,
+      "topics": [
+        "Metamorphic Textures",
+        "Schistosity",
+        "Porphyroblasts"
+      ],
+      "skills": [
+        "Geological Drawing"
+      ],
+      "summary": "Draw a scaled, labelled diagram of garnet-mica schist in Figure 3b showing 5mm euhedral garnet porphyroblasts in foliated mica groundmass.",
+      "image": "img/2017-summer-gl4/q3c.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q3c.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q3d",
+      "paper": "2017-summer-gl4",
+      "question": "3(d)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "Cross-Cutting Relationships",
+        "Fault vs Unconformity"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Structural Reasoning"
+      ],
+      "summary": "Critically evaluate statement that boundary X-X was an angular unconformity (boundary is a fault/thrust cutting off faults F1 and F2).",
+      "image": "img/2017-summer-gl4/q3d.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q3d.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q4ai",
+      "paper": "2017-summer-gl4",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "Palaeoclimate",
+        "Greenhouse Climate"
+      ],
+      "skills": [
+        "Graph Annotation"
+      ],
+      "summary": "Mark box G on temperature curve Figure 4a for greenhouse climate (Cretaceous).",
+      "image": "img/2017-summer-gl4/q4ai.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q4ai.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q4aii",
+      "paper": "2017-summer-gl4",
+      "question": "4(a)(ii)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "Snowball Earth",
+        "Neoproterozoic Glaciation"
+      ],
+      "skills": [
+        "Graph Annotation"
+      ],
+      "summary": "Mark box S on temperature curve Figure 4a for Snowball Earth event (late Precambrian).",
+      "image": "img/2017-summer-gl4/q4aii.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q4aii.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q4bi",
+      "paper": "2017-summer-gl4",
+      "question": "4(b)(i)",
+      "marks": 4,
+      "page": 13,
+      "topics": [
+        "Continental Configuration",
+        "Polar Glaciation"
+      ],
+      "skills": [
+        "Palaeogeographic Explanation"
+      ],
+      "summary": "Explain how late Carboniferous continental distribution influenced ice development: open ocean at North Pole vs Gondwana continent at South Pole.",
+      "image": "img/2017-summer-gl4/q4bi.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q4bi.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q4bii",
+      "paper": "2017-summer-gl4",
+      "question": "4(b)(ii)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "Climate Forcing Mechanisms",
+        "Milankovitch Cycles"
+      ],
+      "skills": [
+        "Theoretical Explanation"
+      ],
+      "summary": "Describe and explain one other mechanism accounting for global temperature fluctuations (Milankovitch orbital cycles, carbon cycle, volcanism).",
+      "image": "img/2017-summer-gl4/q4bii.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q4bii.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q4ci",
+      "paper": "2017-summer-gl4",
+      "question": "4(c)(i)",
+      "marks": 1,
+      "page": 14,
+      "topics": [
+        "Fossil Botany",
+        "Carboniferous Lycopsids"
+      ],
+      "skills": [
+        "Fossil Identification"
+      ],
+      "summary": "Identify fossil part P on upright tree trunk in Figure 4c (root / Stigmaria).",
+      "image": "img/2017-summer-gl4/q4ci.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q4ci.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q4cii",
+      "paper": "2017-summer-gl4",
+      "question": "4(c)(ii)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "Joggins Fossil Cliffs",
+        "Palaeoenvironments"
+      ],
+      "skills": [
+        "Sedimentological Synthesis"
+      ],
+      "summary": "Explain evidence from Figure 4c showing rapid flood deposition, tropical conditions (coal seams), and fluvial floodplain environment.",
+      "image": "img/2017-summer-gl4/q4cii.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q4cii.jpg"
+    },
+    {
+      "id": "2017-summer-gl4-q4d",
+      "paper": "2017-summer-gl4",
+      "question": "4(d)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "Icehouse Climates",
+        "Equatorial Tropics"
+      ],
+      "skills": [
+        "Conceptual Distinction"
+      ],
+      "summary": "Explain why Carboniferous is described as an icehouse climate globally despite tropical rainforests like Joggins at the paleo-equator.",
+      "image": "img/2017-summer-gl4/q4d.jpg",
+      "figures": [
+        "img/2017-summer-gl4/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl4/ms-q4d.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u1-q1a",
+      "paper": "2017-summer-gl5-u1",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Ice Flow Indicators",
+        "Glacial Direction"
+      ],
+      "skills": [
+        "Field Observation Description"
+      ],
+      "summary": "Describe one piece of field evidence (erratics, striations, roche moutonnée, drumlins) used to determine ice flow direction.",
+      "image": "img/2017-summer-gl5-u1/q1a.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u1/ms-q1a.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u1-q1bi",
+      "paper": "2017-summer-gl5-u1",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Moraines",
+        "Llangorse Glaciation"
+      ],
+      "skills": [
+        "Map Interpretation"
+      ],
+      "summary": "Describe evidence that Ridge 1 is the oldest moraine ridge (cross-cutting relationships, furthest in flow direction / terminal moraine).",
+      "image": "img/2017-summer-gl5-u1/q1bi.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u1-q1bii",
+      "paper": "2017-summer-gl5-u1",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Recessional Moraines",
+        "Glacial Retreat"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Explain age distribution of moraine ridges: recessional moraines deposited sequentially during overall retreat when ablation exceeded movement.",
+      "image": "img/2017-summer-gl5-u1/q1bii.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u1-q1biii",
+      "paper": "2017-summer-gl5-u1",
+      "question": "1(b)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Glacial Lakes",
+        "Proglacial Damming"
+      ],
+      "skills": [
+        "Geomorphological Deduction"
+      ],
+      "summary": "Explain why glacial Lake Llangorse shore was higher (190m) than present lake (155m): moraine dam and meltwater overflow channel.",
+      "image": "img/2017-summer-gl5-u1/q1biii.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u1/ms-q1biii.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u1-q1ci",
+      "paper": "2017-summer-gl5-u1",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Varve Sedimentation",
+        "Lamination Thickness"
+      ],
+      "skills": [
+        "Mathematical Calculation"
+      ],
+      "summary": "Calculate mean thickness of laminations in Zone X from Figure 1b (200 mm / 75 = 2.67 mm).",
+      "image": "img/2017-summer-gl5-u1/q1ci.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u1-q1cii",
+      "paper": "2017-summer-gl5-u1",
+      "question": "1(c)(ii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Varves",
+        "Seasonal Cycles"
+      ],
+      "skills": [
+        "Sedimentological Explanation"
+      ],
+      "summary": "Explain grain size variation in Figure 1c: seasonal periglacial varves with summer meltwater silt and winter suspension clay.",
+      "image": "img/2017-summer-gl5-u1/q1cii.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u1-q1ciii",
+      "paper": "2017-summer-gl5-u1",
+      "question": "1(c)(iii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Deglaciation Trends",
+        "Sediment Supply"
+      ],
+      "skills": [
+        "Palaeoclimatic Inference"
+      ],
+      "summary": "Explain thinning of laminations from Zone X to Zone Z as glacial retreat reduced inflow energy and upstream sediment delivery.",
+      "image": "img/2017-summer-gl5-u1/q1ciii.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u1/fig-q1a.jpg",
+        "img/2017-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u1/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u2-q1ai",
+      "paper": "2017-summer-gl5-u2",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "Sedimentary Ore Deposits",
+        "Placer Deposits"
+      ],
+      "skills": [
+        "Deposit Classification"
+      ],
+      "summary": "State the type of sedimentary ore deposit shown in Figure 1a (placer deposit).",
+      "image": "img/2017-summer-gl5-u2/q1ai.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u2/ms-q1ai.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u2-q1aii",
+      "paper": "2017-summer-gl5-u2",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Uraninite Concentration",
+        "Placer Grade"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Table Completion"
+      ],
+      "summary": "Complete Table 1b showing concentration range of uraninite in gravels: max 2780 ppm, min 244 ppm, range 2536 ppm.",
+      "image": "img/2017-summer-gl5-u2/q1aii.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u2/ms-q1aii.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u2-q1aiii",
+      "paper": "2017-summer-gl5-u2",
+      "question": "1(a)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Placer Minerals",
+        "Uraninite Properties"
+      ],
+      "skills": [
+        "Mineral Property Application"
+      ],
+      "summary": "Explain how two properties of uraninite (high density, hardness, insolubility) enable it to concentrate in river placers.",
+      "image": "img/2017-summer-gl5-u2/q1aiii.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u2/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u2-q1bi",
+      "paper": "2017-summer-gl5-u2",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Sediment Sorting Coefficient",
+        "Cumulative Curves"
+      ],
+      "skills": [
+        "Calculation",
+        "Graph Plotting"
+      ],
+      "summary": "Calculate sorting coefficient of sample X from cumulative frequency curve Figure 1b (1.45) and plot onto Figure 1c.",
+      "image": "img/2017-summer-gl5-u2/q1bi.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u2/fig-q1b.jpg",
+        "img/2017-summer-gl5-u2/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u2-q1bii",
+      "paper": "2017-summer-gl5-u2",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Ore Grade vs Sorting"
+      ],
+      "skills": [
+        "Correlation Description"
+      ],
+      "summary": "Describe relationship in Figure 1c: ore concentration increases non-linearly/exponentially with sorting coefficient (poor sorting).",
+      "image": "img/2017-summer-gl5-u2/q1bii.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u2/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u2-q1c",
+      "paper": "2017-summer-gl5-u2",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Hydraulic Equivalence",
+        "Interstitial Trapping"
+      ],
+      "skills": [
+        "Sedimentary Process Explanation"
+      ],
+      "summary": "Explain why uraninite concentrates in poorly sorted gravels: hydraulic equivalence of dense ore with quartz gravel and void trapping.",
+      "image": "img/2017-summer-gl5-u2/q1c.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u2/fig-q1a.jpg",
+        "img/2017-summer-gl5-u2/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u2/ms-q1c.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u2-q1d",
+      "paper": "2017-summer-gl5-u2",
+      "question": "1(d)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Environmental Geology",
+        "Mining Planning Controls"
+      ],
+      "skills": [
+        "Environmental Management"
+      ],
+      "summary": "Suggest a planning control to mitigate an environmental extraction problem (bunding for spoil, runoff treatment, restoration).",
+      "image": "img/2017-summer-gl5-u2/q1d.jpg",
+      "figures": [],
+      "markscheme": "img/2017-summer-gl5-u2/ms-q1d.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u3-q1ai",
+      "paper": "2017-summer-gl5-u3",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Barrovian Metamorphism",
+        "Metamorphic Zones"
+      ],
+      "skills": [
+        "Orientation Measurement"
+      ],
+      "summary": "State orientation of Barrovian metamorphic zones in Figure 1a (NE-SW / 070° - 250°).",
+      "image": "img/2017-summer-gl5-u3/q1ai.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u3/ms-q1ai.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u3-q1aii",
+      "paper": "2017-summer-gl5-u3",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Metamorphic Grade Trend"
+      ],
+      "skills": [
+        "Map Annotation"
+      ],
+      "summary": "Indicate direction of increasing metamorphic grade by drawing arrow in circle on Figure 1a (NNE to NNW).",
+      "image": "img/2017-summer-gl5-u3/q1aii.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u3/ms-q1aii.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u3-q1aiii",
+      "paper": "2017-summer-gl5-u3",
+      "question": "1(a)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Newer Granites",
+        "Pluton Distribution"
+      ],
+      "skills": [
+        "Map Pattern Description"
+      ],
+      "summary": "Describe outcrop pattern and location of granites relative to metamorphic zones (clustered in kyanite/sillimanite zones to NE).",
+      "image": "img/2017-summer-gl5-u3/q1aiii.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u3/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u3-q1aiv",
+      "paper": "2017-summer-gl5-u3",
+      "question": "1(a)(iv)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Granite Genesis",
+        "Anatexis"
+      ],
+      "skills": [
+        "Petrogenetic Explanation"
+      ],
+      "summary": "Explain origin of these granites: partial melting (anatexis) of metasedimentary country rocks at a destructive plate boundary.",
+      "image": "img/2017-summer-gl5-u3/q1aiv.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u3/ms-q1aiv.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u3-q1bi",
+      "paper": "2017-summer-gl5-u3",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Fold Axial Plane",
+        "Cross-Section Interpretation"
+      ],
+      "skills": [
+        "Cross-Section Annotation"
+      ],
+      "summary": "Mark position of axial plane trace of fold F on geological cross-section Figure 1b.",
+      "image": "img/2017-summer-gl5-u3/q1bi.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u3-q1bii",
+      "paper": "2017-summer-gl5-u3",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Fold Characteristics",
+        "Antiform/Synform",
+        "Overturned Folds"
+      ],
+      "skills": [
+        "Structural Analysis"
+      ],
+      "summary": "Describe characteristics of fold F: anticline / overturned synform with oldest Erins Quartzite in centre, upright open geometry.",
+      "image": "img/2017-summer-gl5-u3/q1bii.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u3-q1c",
+      "paper": "2017-summer-gl5-u3",
+      "question": "1(c)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "Caledonian Orogeny",
+        "Dalradian Tectonics"
+      ],
+      "skills": [
+        "Regional Synthesis"
+      ],
+      "summary": "Explain evidence that rocks (granites 410-458 Ma, regional Barrovian zones, slates) and structures (NE-SW folds, HBF) formed in Caledonian orogeny.",
+      "image": "img/2017-summer-gl5-u3/q1c.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u3/fig-q1a.jpg",
+        "img/2017-summer-gl5-u3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u3/ms-q1c.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u4-q1a",
+      "paper": "2017-summer-gl5-u4",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Oceanic Lithosphere",
+        "Moho and Lithosphere Base"
+      ],
+      "skills": [
+        "Cross-Section Annotation"
+      ],
+      "summary": "Draw labelled arrows on Figure 1b for the Mohorovičić discontinuity (M) and the base of the lithosphere (L).",
+      "image": "img/2017-summer-gl5-u4/q1a.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u4/ms-q1a.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u4-q1bi",
+      "paper": "2017-summer-gl5-u4",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Oceanic Heat Flow",
+        "Mid-Ocean Ridges"
+      ],
+      "skills": [
+        "Graph Description"
+      ],
+      "summary": "Describe heat flow variation across ocean floor: highest at ridge crest, non-linear symmetrical decrease onto abyssal plain.",
+      "image": "img/2017-summer-gl5-u4/q1bi.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u4-q1bii",
+      "paper": "2017-summer-gl5-u4",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Geothermal Gradient",
+        "Upwelling Asthenosphere"
+      ],
+      "skills": [
+        "Geophysical Explanation"
+      ],
+      "summary": "Explain heat flow variation using Figure 1b: shallow asthenosphere, magma chambers, and youngest conductive crust at ridge axis.",
+      "image": "img/2017-summer-gl5-u4/q1bii.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u4/fig-q1a.jpg",
+        "img/2017-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u4-q1ci",
+      "paper": "2017-summer-gl5-u4",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Ocean Bathymetry",
+        "Depth Extraction"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Table Completion"
+      ],
+      "summary": "Complete Table 1 with ocean floor depth at location X (Hd = 4.7-5.3 km) and ridge crest depth (Hr = 1.7-2.3 km).",
+      "image": "img/2017-summer-gl5-u4/q1ci.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u4/ms-q1ci.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u4-q1cii",
+      "paper": "2017-summer-gl5-u4",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Oceanic Crust Age Formula",
+        "Bathymetric Dating"
+      ],
+      "skills": [
+        "Mathematical Calculation"
+      ],
+      "summary": "Calculate age of oceanic crust at X using depth-age formula T = [(Hd - Hr)/0.35]² (expected 55 – 95 Ma).",
+      "image": "img/2017-summer-gl5-u4/q1cii.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u4/ms-q1cii.jpg"
+    },
+    {
+      "id": "2017-summer-gl5-u4-q1d",
+      "paper": "2017-summer-gl5-u4",
+      "question": "1(d)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Isostasy",
+        "Thermal Expansion",
+        "Ridge Elevation"
+      ],
+      "skills": [
+        "Isostatic Mechanism Explanation"
+      ],
+      "summary": "Explain elevated relief of ocean ridges: thermal expansion and buoyancy causing isostatic uplift at ridge vs conductive cooling and subsidence away.",
+      "image": "img/2017-summer-gl5-u4/q1d.jpg",
+      "figures": [
+        "img/2017-summer-gl5-u4/fig-q1a.jpg",
+        "img/2017-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl5-u4/ms-q1d.jpg"
     }
   ],
   "levels": [
