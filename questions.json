@@ -559,6 +559,66 @@
       "totalMarks": 15,
       "duration": "1 hour",
       "level": "A"
+    },
+    {
+      "id": "2013-summer-gl4",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-06-03",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting The Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour",
+      "level": "A"
+    },
+    {
+      "id": "2013-summer-gl5-u1",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-06-11",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour",
+      "level": "A"
+    },
+    {
+      "id": "2013-summer-gl5-u2",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-06-11",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour",
+      "level": "A"
+    },
+    {
+      "id": "2013-summer-gl5-u3",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-06-11",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour",
+      "level": "A"
+    },
+    {
+      "id": "2013-summer-gl5-u4",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-06-11",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour",
+      "level": "A"
     }
   ],
   "questions": [
@@ -17152,6 +17212,1032 @@
         "img/2012-summer-gl5-u4/fig-q1.jpg"
       ],
       "markscheme": "img/2012-summer-gl5-u4/ms-q1d.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q1ai",
+      "paper": "2013-summer-gl4",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe the sorting of sediment A from the histogram Figure 1b (moderately/poorly sorted, wide spread 0.25-16mm, modal peak 4-8mm).",
+      "image": "img/2013-summer-gl4/q1ai.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q1ai.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q1aii",
+      "paper": "2013-summer-gl4",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Account for difference in sorting between sediments A and B (sediment B better sorted due to downstream transport, attrition and selective sorting).",
+      "image": "img/2013-summer-gl4/q1aii.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q1a.jpg",
+        "img/2013-summer-gl4/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q1aii.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q1b",
+      "paper": "2013-summer-gl4",
+      "question": "1(b)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "1.1",
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe with reasons mineral composition of sediments A (granite minerals: quartz, feldspar, mica) and B (quartz-dominated due to hydrolysis/attrition).",
+      "image": "img/2013-summer-gl4/q1b.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q1b.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q1ci",
+      "paper": "2013-summer-gl4",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Suggest conclusions drawn about composition of sediment C from HCl test (5g/25% calcite/carbonate dissolved, 15g/75% insoluble silicate/quartz sand).",
+      "image": "img/2013-summer-gl4/q1ci.jpg",
+      "figures": [
+        "img/2013-summer-gl4/tab-q1c.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q1ci.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q1cii",
+      "paper": "2013-summer-gl4",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Suggest why beach at locality C has this composition (wave erosion of limestone ridge, biogenic shell debris, river delivery of quartz).",
+      "image": "img/2013-summer-gl4/q1cii.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q1a.jpg",
+        "img/2013-summer-gl4/tab-q1c.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q1cii.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q1d",
+      "paper": "2013-summer-gl4",
+      "question": "1(d)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Evaluate student statement that Figure 1d was deposited in conditions similar to locality A (poorly sorted fluvial conglomerate vs stratified channel bars).",
+      "image": "img/2013-summer-gl4/q1d.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q1d.jpg",
+        "img/2013-summer-gl4/fig-q1a.jpg",
+        "img/2013-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q1d.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q2a",
+      "paper": "2013-summer-gl4",
+      "question": "2(a)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "draw"
+      ],
+      "summary": "Draw a graph on Figure 2b illustrating the diversity of trilobites during the Palaeozoic (early Cambrian appearance, early Ordovician acme, end-Permian extinction).",
+      "image": "img/2013-summer-gl4/q2a.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q2b.jpg",
+        "img/2013-summer-gl4/tab-q2.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q2a.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q2bi",
+      "paper": "2013-summer-gl4",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Identify which trilobites represent Olenellus (C) and Paradoxides (D) from Table 2 description.",
+      "image": "img/2013-summer-gl4/q2bi.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q2a.jpg",
+        "img/2013-summer-gl4/tab-q2.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q2bi.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q2bii",
+      "paper": "2013-summer-gl4",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "State two morphological differences between trilobite A (agnostid: blind, 2 thoracic segments) and others (B, C, D).",
+      "image": "img/2013-summer-gl4/q2bii.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q2bii.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q2c",
+      "paper": "2013-summer-gl4",
+      "question": "2(c)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Suggest a mode of life for EITHER trilobite A (pelagic floater/burrower: small, blind) OR B (pelagic swimmer: huge eyes, streamlined) with evidence.",
+      "image": "img/2013-summer-gl4/q2c.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q2c.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q2di",
+      "paper": "2013-summer-gl4",
+      "question": "2(d)(i)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain why the fossil record does not contain evidence of trilobites before the Cambrian (soft-bodied ancestors lacking mineralised exoskeletons).",
+      "image": "img/2013-summer-gl4/q2di.jpg",
+      "figures": [],
+      "markscheme": "img/2013-summer-gl4/ms-q2di.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q2dii",
+      "paper": "2013-summer-gl4",
+      "question": "2(d)(ii)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "draw"
+      ],
+      "summary": "On Figure 2b mark with arrow E when the Ediacaran fauna flourished (~580-545 Ma, latest Precambrian).",
+      "image": "img/2013-summer-gl4/q2dii.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q2dii.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q2diii",
+      "paper": "2013-summer-gl4",
+      "question": "2(d)(iii)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Suggest a possible reason for the sudden development and diversification of Ediacaran fauna (rise in atmospheric/oceanic oxygen, post-glacial warming).",
+      "image": "img/2013-summer-gl4/q2diii.jpg",
+      "figures": [],
+      "markscheme": "img/2013-summer-gl4/ms-q2diii.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q3ai",
+      "paper": "2013-summer-gl4",
+      "question": "3(a)(i)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe the distribution of iridium in Figure 3a (low background ~100 ppt, sharp spike ~5x10^4 ppt at K-T boundary clay).",
+      "image": "img/2013-summer-gl4/q3ai.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q3ai.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q3aii",
+      "paper": "2013-summer-gl4",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe the degree of correlation between iridium and soot in Figure 3a (strong positive correlation, coincident sharp peaks at K-T boundary clay).",
+      "image": "img/2013-summer-gl4/q3aii.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q3aii.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q3aiii",
+      "paper": "2013-summer-gl4",
+      "question": "3(a)(iii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Account for correlation between iridium and soot at K-T boundary (simultaneous bolide impact: vaporised asteroid iridium and global impact-ignited wildfires soot).",
+      "image": "img/2013-summer-gl4/q3aiii.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q3aiii.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q3bi",
+      "paper": "2013-summer-gl4",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain why micro-tektites are spherical (surface tension in flight) and glassy (rapid quenching in upper atmosphere).",
+      "image": "img/2013-summer-gl4/q3bi.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q3bi.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q3bii",
+      "paper": "2013-summer-gl4",
+      "question": "3(b)(ii)",
+      "marks": 4,
+      "page": 11,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Outline two pieces of evidence from Figure 3b suggesting iridium layer formed much later than Chicxulub (8m of strata separating them, burrowed sandstones/limestone layer).",
+      "image": "img/2013-summer-gl4/q3bii.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q3bii.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q3c",
+      "paper": "2013-summer-gl4",
+      "question": "3(c)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain one alternative theory for mass extinction at K-T boundary (Deccan Traps flood basalt volcanism, greenhouse warming, volcanic winter, acid rain).",
+      "image": "img/2013-summer-gl4/q3c.jpg",
+      "figures": [],
+      "markscheme": "img/2013-summer-gl4/ms-q3c.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q4ai",
+      "paper": "2013-summer-gl4",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "3.1",
+        "2.2"
+      ],
+      "skills": [
+        "draw"
+      ],
+      "summary": "Complete the outcrop boundary of the gabbro pluton on Figure 4a (continuous curved boundary enclosing SW corner).",
+      "image": "img/2013-summer-gl4/q4ai.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q4ai.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q4aii",
+      "paper": "2013-summer-gl4",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "3.1",
+        "2.2"
+      ],
+      "skills": [
+        "draw"
+      ],
+      "summary": "Complete extent of dolerite dyke on Figure 4a (NE-trending vertical sheet cutting country rock).",
+      "image": "img/2013-summer-gl4/q4aii.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q4aii.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q4bi",
+      "paper": "2013-summer-gl4",
+      "question": "4(b)(i)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State maximum principal stress directions forming slate in Quarry B (N-S / 000°-180°), with evidence (E-W striking cleavage dipping 44° S, perpendicular to sigma max).",
+      "image": "img/2013-summer-gl4/q4bi.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q4a.jpg",
+        "img/2013-summer-gl4/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q4bi.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q4bii",
+      "paper": "2013-summer-gl4",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "3.1",
+        "2.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Account for difference in orientation/dip of cleavage near gabbro pluton (steepening to 57°-59° and strike swing due to forceful intrusion or rigid buttressing).",
+      "image": "img/2013-summer-gl4/q4bii.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q4bii.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q4c",
+      "paper": "2013-summer-gl4",
+      "question": "4(c)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Account for differences in mineralogy (chiastolite porphyroblasts) and structures (indistinct cleavage/hornfelsic ringing rock) in Quarry C vs Quarry B due to thermal aureole.",
+      "image": "img/2013-summer-gl4/q4c.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q4a.jpg",
+        "img/2013-summer-gl4/fig-q4bc.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q4c.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q4di",
+      "paper": "2013-summer-gl4",
+      "question": "4(d)(i)",
+      "marks": 1,
+      "page": 14,
+      "topics": [
+        "2.2",
+        "1.1"
+      ],
+      "skills": [
+        "draw"
+      ],
+      "summary": "Draw line graph showing plagioclase composition across crystal width (symmetrical Ca-rich high-T core declining to Na-rich lower-T rims).",
+      "image": "img/2013-summer-gl4/q4di.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q4d.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q4di.jpg"
+    },
+    {
+      "id": "2013-summer-gl4-q4dii",
+      "paper": "2013-summer-gl4",
+      "question": "4(d)(ii)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "2.2",
+        "1.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain reasoning for plagioclase compositional zoning (Bowen's reaction series: high-temp Ca-anorthite crystallises first, melt evolves to Na-rich albite).",
+      "image": "img/2013-summer-gl4/q4dii.jpg",
+      "figures": [
+        "img/2013-summer-gl4/fig-q4d.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl4/ms-q4dii.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u1-q1ai",
+      "paper": "2013-summer-gl5-u1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T1",
+        "T1.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe two pieces of evidence in Figure 1b that ice sheet advanced from Scotland over Irish Sea (erratic Scottish granite clasts, dredged marine shells in clay matrix).",
+      "image": "img/2013-summer-gl5-u1/q1ai.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u1-q1aii",
+      "paper": "2013-summer-gl5-u1",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T1",
+        "T1.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe and explain one field evidence supporting Welsh ice sheet advance from east (E-W striations, roche moutonnée, Welsh volcanic erratics).",
+      "image": "img/2013-summer-gl5-u1/q1aii.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u1-q1bi",
+      "paper": "2013-summer-gl5-u1",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T1",
+        "T1.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain one piece of evidence in Figure 1b that Head is a periglacial deposit (ice wedge casts from permafrost, angular frost-shattered solifluction clasts).",
+      "image": "img/2013-summer-gl5-u1/q1bi.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u1-q1bii",
+      "paper": "2013-summer-gl5-u1",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T1",
+        "T1.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain how sedimentary textures/structures provide evidence for till formation (very poor sorting, massive unbedded diamicton deposited directly from ice).",
+      "image": "img/2013-summer-gl5-u1/q1bii.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u1-q1ci",
+      "paper": "2013-summer-gl5-u1",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "T1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Give evidence in Figure 1b suggesting sea level was higher before last glaciation (raised wave-cut rock platform and conglomerate 2m above modern high water, 125ka).",
+      "image": "img/2013-summer-gl5-u1/q1ci.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u1-q1cii",
+      "paper": "2013-summer-gl5-u1",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "T1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain evidence in Figure 1a suggesting sea level rose after last glaciation (drowned valley ria at Milford Haven, submerged forest with 6ka tree stumps).",
+      "image": "img/2013-summer-gl5-u1/q1cii.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u1-q1d",
+      "paper": "2013-summer-gl5-u1",
+      "question": "1(d)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "T1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe in chronological order climatic fluctuations in Pembrokeshire (125ka interglacial warm high sea level -> 15-20ka periglacial/glacial cold till -> 6ka-present postglacial warming/sea level rise).",
+      "image": "img/2013-summer-gl5-u1/q1d.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u1/fig-q1a.jpg",
+        "img/2013-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u1/ms-q1d.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u2-q1ai",
+      "paper": "2013-summer-gl5-u2",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "T2.1",
+        "G1.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe the size and shape of Kidd Creek ore body (depth >800m, width ~100-150m, steeply dipping discordant wedge/sheet with underlying stockwork).",
+      "image": "img/2013-summer-gl5-u2/q1ai.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u2/ms-q1ai.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u2-q1aii",
+      "paper": "2013-summer-gl5-u2",
+      "question": "1(a)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T2.1",
+        "G1.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe evidence supporting hydrothermal origin of sulphide ore (massive sulphide assemblage, VMS volcanic host rhyolite/andesite, stringer fracture stockwork).",
+      "image": "img/2013-summer-gl5-u2/q1aii.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u2/fig-q1a.jpg",
+        "img/2013-summer-gl5-u2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u2/ms-q1aii.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u2-q1bi",
+      "paper": "2013-summer-gl5-u2",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T2.1",
+        "G1.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Suggest a geological reason why ore body remained undiscovered until 1964 (concealed under impermeable glacial till, masking visual and geochemical surface detection).",
+      "image": "img/2013-summer-gl5-u2/q1bi.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u2-q1bii",
+      "paper": "2013-summer-gl5-u2",
+      "question": "1(b)(ii)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "T2.1",
+        "G1.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe and evaluate one geophysical prospecting technique to discover ore body (gravity survey detecting strong positive anomaly from dense sulphides vs host volcanic rocks).",
+      "image": "img/2013-summer-gl5-u2/q1bii.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u2/fig-q1a.jpg",
+        "img/2013-summer-gl5-u2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u2-q1ci",
+      "paper": "2013-summer-gl5-u2",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "T2.1",
+        "G1.3"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "State one way extraction interferes with environment (open-pit crater / landscape scarring / waste rock heaps OR acid mine drainage from oxidising sulphides).",
+      "image": "img/2013-summer-gl5-u2/q1ci.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u2/ms-q1ci.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u2-q1cii",
+      "paper": "2013-summer-gl5-u2",
+      "question": "1(c)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T2.1",
+        "G1.3"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain how adverse effects of environmental interference could be minimised (lime water neutralisation of AMD, clay-lined tailings capping, pit backfilling and revegetation).",
+      "image": "img/2013-summer-gl5-u2/q1cii.jpg",
+      "figures": [],
+      "markscheme": "img/2013-summer-gl5-u2/ms-q1cii.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u3-q1a",
+      "paper": "2013-summer-gl5-u3",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T3",
+        "4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Identify fossils L (graptolite) and M (trilobite) to complete Table 1.",
+      "image": "img/2013-summer-gl5-u3/q1a.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u3/ms-q1a.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u3-q1bi",
+      "paper": "2013-summer-gl5-u3",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T3",
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Describe structures in bed X of section at B (convolute bedding, slump folds, contorted plastic soft-sediment disruption).",
+      "image": "img/2013-summer-gl5-u3/q1bi.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u3-q1bii",
+      "paper": "2013-summer-gl5-u3",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "T3",
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Give evidence that structures in bed X were not formed by tectonic processes (confined strictly within single bed bounded by undeformed planar beds).",
+      "image": "img/2013-summer-gl5-u3/q1bii.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u3-q1ci",
+      "paper": "2013-summer-gl5-u3",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T3",
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain evidence that at C there was shallow water (corals O, articulate brachiopods N, wave ripples/cross-bedding within photic zone).",
+      "image": "img/2013-summer-gl5-u3/q1ci.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u3/fig-q1a.jpg",
+        "img/2013-summer-gl5-u3/fig-q1b.jpg",
+        "img/2013-summer-gl5-u3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u3/ms-q1ci.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u3-q1cii",
+      "paper": "2013-summer-gl5-u3",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T3",
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain evidence that at A there was deep water (turbidite sandstones with flute casts, pelagic shales, absence of benthic shelly fauna).",
+      "image": "img/2013-summer-gl5-u3/q1cii.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u3/fig-q1a.jpg",
+        "img/2013-summer-gl5-u3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u3/ms-q1cii.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u3-q1ciii",
+      "paper": "2013-summer-gl5-u3",
+      "question": "1(c)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T3",
+        "2.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain evidence that B was on a slope (slump folds/convolute bedding from gravitational sliding on submarine slope).",
+      "image": "img/2013-summer-gl5-u3/q1ciii.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u3/fig-q1a.jpg",
+        "img/2013-summer-gl5-u3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u3/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u3-q1d",
+      "paper": "2013-summer-gl5-u3",
+      "question": "1(d)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "T3",
+        "3.2"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Evaluate statement on early Palaeozoic Wales climate and latitude (warm tropical coral reef climate supported; constant latitude refuted by palaeomagnetic drift from 30°-60°S).",
+      "image": "img/2013-summer-gl5-u3/q1d.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u3/ms-q1d.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u4-q1a",
+      "paper": "2013-summer-gl5-u4",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T4",
+        "T4.1"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete Table 1 to determine first P wave arrival times from Figure 1a (200km: 31.0s, 565km: 76.0s).",
+      "image": "img/2013-summer-gl5-u4/q1a.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u4/ms-q1a.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u4-q1b",
+      "paper": "2013-summer-gl5-u4",
+      "question": "1(b)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T4",
+        "T4.1"
+      ],
+      "skills": [
+        "draw"
+      ],
+      "summary": "Draw path of reflected P wave bouncing off Moho to seismograph station on Figure 1b.",
+      "image": "img/2013-summer-gl5-u4/q1b.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u4/ms-q1b.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u4-q1c",
+      "paper": "2013-summer-gl5-u4",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T4",
+        "T4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Explain path of refracted P wave traveling to/along Moho at critical angle and shedding head wave to station.",
+      "image": "img/2013-summer-gl5-u4/q1c.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u4/fig-q1a.jpg",
+        "img/2013-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u4/ms-q1c.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u4-q1di",
+      "paper": "2013-summer-gl5-u4",
+      "question": "1(d)(i)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "T4",
+        "T4.1"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Measure crossover distance D where two travel-time lines meet on Figure 1a (D = 230 km).",
+      "image": "img/2013-summer-gl5-u4/q1di.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u4/ms-q1di.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u4-q1dii",
+      "paper": "2013-summer-gl5-u4",
+      "question": "1(d)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "T4",
+        "T4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Show crustal thickness is ~40 km by substituting D=230, V1=6.5, V2=8.1 into formula (H = 115 * sqrt(1.6/14.6) = 38.1 km).",
+      "image": "img/2013-summer-gl5-u4/q1dii.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u4/ms-q1dii.jpg"
+    },
+    {
+      "id": "2013-summer-gl5-u4-q1e",
+      "paper": "2013-summer-gl5-u4",
+      "question": "1(e)",
+      "marks": 4,
+      "page": 5,
+      "topics": [
+        "T4",
+        "T4.1"
+      ],
+      "skills": [
+        "eval"
+      ],
+      "summary": "Suggest which location A-D in Figure 1c is underlain by this crust (Location A stable continent: ~40km thickness, granitic/gneissic V1=6.5, flat planar Moho).",
+      "image": "img/2013-summer-gl5-u4/q1e.jpg",
+      "figures": [
+        "img/2013-summer-gl5-u4/fig-q1c.jpg",
+        "img/2013-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl5-u4/ms-q1e.jpg"
     }
   ],
   "levels": [
