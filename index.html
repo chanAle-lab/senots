@@ -2438,8 +2438,11 @@ if (isAuthorized()) {
   $('#lock-password').focus();
 }
 
+let QUIZ_BANK = [{"id": "1.1-01", "topic": "1.1", "question": "What is the fundamental building block of all silicate minerals?", "options": ["Silicon-oxygen tetrahedron [SiO4]4-", "Carbonate ion [CO3]2-", "Sulphate tetrahedron [SO4]2-", "Iron-magnesium octahedron"], "answer": 0, "explanation": "The fundamental building unit of all silicate minerals is the [SiO4]4- tetrahedron (1 central Si4+ coordinated with 4 O2- ions)."}, {"id": "1.1-02", "topic": "1.1", "question": "Which silicate mineral structure consists of independent, isolated tetrahedra bonded only by cations?", "options": ["Olivine", "Augite", "Hornblende", "Biotite"], "answer": 0, "explanation": "Olivine consists of isolated [SiO4]4- tetrahedra bonded to Fe2+ and Mg2+ cations, accounting for its absence of cleavage and high density."}, {"id": "1.1-03", "topic": "1.1", "question": "Which mineral exhibits two cleavage planes intersecting at approximately 90° (87°/93°)?", "options": ["Augite (Pyroxene)", "Hornblende (Amphibole)", "Biotite Mica", "Quartz"], "answer": 0, "explanation": "Augite is a single-chain inosilicate with two prismatic cleavages intersecting at nearly 90° (87° and 93°)."}, {"id": "1.1-04", "topic": "1.1", "question": "Which mineral exhibits two cleavage planes intersecting at approximately 60° and 120° (56°/124°)?", "options": ["Hornblende (Amphibole)", "Augite (Pyroxene)", "Olivine", "Plagioclase"], "answer": 0, "explanation": "Hornblende is a double-chain inosilicate whose cleavage planes intersect at 56° and 124° (commonly cited as ~60° and 120°)."}, {"id": "1.1-05", "topic": "1.1", "question": "What type of cleavage is characteristic of sheet silicates like Biotite and Muscovite?", "options": ["One perfect basal cleavage", "Two cleavages at 90°", "Three rhombohedral cleavages", "Conchoidal fracture only"], "answer": 0, "explanation": "Sheet silicates (phyllosilicates) have weak van der Waals forces between sheets, giving one perfect basal cleavage plane."}, {"id": "1.1-06", "topic": "1.1", "question": "What is the hardness of Quartz on Mohs scale?", "options": ["7", "3", "5", "9"], "answer": 0, "explanation": "Quartz has a Mohs hardness of 7, easily scratching window glass (5.5) and steel knives."}, {"id": "1.1-07", "topic": "1.1", "question": "Which diagnostic field test immediately distinguishes Calcite from Quartz?", "options": ["Effervescence with cold dilute HCl", "Streak on porcelain", "Specific gravity in hand", "Colour in sunlight"], "answer": 0, "explanation": "Calcite (CaCO3) effervesces vigorously in cold 0.5M HCl releasing CO2. Quartz is completely non-reactive."}, {"id": "1.1-08", "topic": "1.1", "question": "According to the Goldich weathering series, which mineral is the MOST resistant to chemical weathering?", "options": ["Quartz", "Olivine", "Augite", "Ca-plagioclase"], "answer": 0, "explanation": "Quartz crystallises at the lowest temperatures and has a fully polymerised framework of strong covalent Si-O bonds, making it most stable at surface conditions."}, {"id": "1.1-09", "topic": "1.1", "question": "What optical feature appears under crossed polars (XPL) as repeated zebra-like parallel stripes in plagioclase?", "options": ["Polysynthetic (albite) twinning", "Carlsbad simple twinning", "Tartan cross-hatch twinning", "Undulose extinction"], "answer": 0, "explanation": "Polysynthetic (albite) twinning is diagnostic of plagioclase feldspar in thin section under XPL."}, {"id": "1.1-10", "topic": "1.1", "question": "Which mineral has a hardness of 3 and displays three directions of cleavage forming a rhombohedron?", "options": ["Calcite", "Halite", "Fluorite", "Gypsum"], "answer": 0, "explanation": "Calcite has a Mohs hardness of 3 and three perfect cleavage planes not at 90° (rhombohedral cleavage)."}, {"id": "1.1-11", "topic": "1.1", "question": "What diagnostic streak colour is produced by the iron ore Hematite on an unglazed porcelain plate?", "options": ["Cherry red / reddish-brown", "Lead grey", "Yellow-brown", "White"], "answer": 0, "explanation": "Hematite (Fe2O3) produces a characteristic cherry-red to reddish-brown streak, regardless of whether the specimen is specular silver or earthy red."}, {"id": "1.1-12", "topic": "1.1", "question": "Which mineral crystallises with 3 directions of cubic cleavage intersecting at exactly 90°?", "options": ["Halite (NaCl)", "Calcite", "Augite", "Quartz"], "answer": 0, "explanation": "Halite crystallises in the isometric (cubic) system, yielding three directions of perfect cleavage intersecting at exactly 90°."}, {"id": "2.1-01", "topic": "2.1", "question": "What percentage volume expansion occurs when liquid water freezes into ice inside rock joints?", "options": ["9%", "2%", "18%", "25%"], "answer": 0, "explanation": "Water expands by approximately 9% upon freezing, exerting immense pressure (up to 200 MPa) on surrounding joint walls."}, {"id": "2.1-02", "topic": "2.1", "question": "What chemical weathering process transforms potassium feldspar into kaolinite clay?", "options": ["Hydrolysis", "Carbonation", "Oxidation", "Solution"], "answer": 0, "explanation": "Hydrolysis involves H+ ions in acidic water reacting with K-feldspar to form residual kaolinite clay and soluble potassium and silica."}, {"id": "2.1-03", "topic": "2.1", "question": "According to the Hjulström curve, which sediment size requires the LOWEST water velocity to be eroded?", "options": ["Medium sand (~0.2 to 0.5 mm)", "Clay (<0.002 mm)", "Coarse pebbles (>20 mm)", "Silt (0.02 mm)"], "answer": 0, "explanation": "Medium sand requires only ~20 cm/s flow velocity to entrain. Finer clays require higher velocities due to strong electrostatic cohesion."}, {"id": "2.1-04", "topic": "2.1", "question": "Which clastic sedimentary rock is characterized by coarse (>2 mm), ANGULAR rock clasts?", "options": ["Breccia", "Conglomerate", "Orthoquartzite", "Arkose"], "answer": 0, "explanation": "Breccia consists of angular fragments >2 mm, indicating minimal abrasion and very short transport distance from the source."}, {"id": "2.1-05", "topic": "2.1", "question": "What does a high abundance (>25%) of fresh, angular feldspar grains in an Arkose indicate about the paleoclimate?", "options": ["Arid or cold climate with minimal chemical weathering", "Tropical humid climate with intense rainfall", "Deep ocean abyssal plain", "Warm shallow reef lagoon"], "answer": 0, "explanation": "Feldspar decomposes rapidly under humid conditions; an arkose indicates an arid/glacial climate where chemical weathering was inhibited."}, {"id": "2.1-06", "topic": "2.1", "question": "Which sedimentary structure provides indisputable evidence of subaerial exposure (drying out)?", "options": ["Desiccation cracks (mudcracks)", "Graded bedding", "Symmetrical wave ripples", "Flute casts"], "answer": 0, "explanation": "Desiccation cracks form exclusively when fine cohesive mud shrinks as water evaporates under direct exposure to the atmosphere."}, {"id": "2.1-07", "topic": "2.1", "question": "What weathering process dissolves limestone caves and karst features in humid regions?", "options": ["Carbonation by acidic rainwater", "Hydrolysis by ground salt", "Thermal exfoliation", "Frost shattering"], "answer": 0, "explanation": "Rainwater absorbs atmospheric CO2 to form weak carbonic acid (H2CO3), which dissolves CaCO3 into soluble calcium bicarbonate Ca(HCO3)2."}, {"id": "2.2-01", "topic": "2.2", "question": "What cooling history is recorded by a PORPHYRITIC texture in igneous rocks?", "options": ["Two-stage cooling: slow cooling at depth followed by rapid cooling upon ascent", "Continuous slow cooling deep in the crust", "Instantaneous quenching in sea water", "Solid-state deformation during shearing"], "answer": 0, "explanation": "Porphyritic texture results from two-stage cooling: large phenocrysts grow during early slow cooling, and the fine groundmass crystallises rapidly upon ascent."}, {"id": "2.2-02", "topic": "2.2", "question": "What is the fine-grained extrusive (volcanic) equivalent of Granite?", "options": ["Rhyolite", "Basalt", "Andesite", "Gabbro"], "answer": 0, "explanation": "Rhyolite is the volcanic equivalent of plutonic granite; both are felsic (>66% SiO2) with matching quartz and alkali feldspar compositions."}, {"id": "2.2-03", "topic": "2.2", "question": "What is the primary mineral composition of a typical Basalt?", "options": ["Ca-rich plagioclase and augite (pyroxene)", "Quartz and orthoclase feldspar", "Hornblende and biotite mica", "Pure olivine and serpentine"], "answer": 0, "explanation": "Basalt is a mafic volcanic rock (45-52% SiO2) composed primarily of calcium-rich plagioclase feldspar and augite pyroxene."}, {"id": "2.2-04", "topic": "2.2", "question": "Which concordant tabular igneous intrusion forms parallel to surrounding sedimentary strata?", "options": ["Sill", "Dyke", "Batholith", "Volcanic neck"], "answer": 0, "explanation": "A sill is a concordant sheet intrusion that spreads parallel to the pre-existing bedding planes."}, {"id": "2.2-05", "topic": "2.2", "question": "How can a geologist distinguish a subsurface sill from a surface lava flow in the field?", "options": ["A sill produces baked and chilled margins on BOTH upper and lower contacts", "A sill always has a vesicular frothy upper crust", "A lava flow bakes the overlying sediment layer", "A sill shows weathered fragments on its upper surface"], "answer": 0, "explanation": "A sill intrudes into pre-existing rock, creating baked country rock and chilled margins on both top and bottom contacts. Lava flows only bake underneath."}, {"id": "2.2-06", "topic": "2.2", "question": "What volcanic structure is diagnostic of submarine basaltic eruptions on the sea floor?", "options": ["Pillow lavas", "Columnar jointing", "Ignimbrite welded ash", "Pahoehoe ropy surface"], "answer": 0, "explanation": "Pillow lavas form exclusively when basaltic magma erupts underwater, quenching an outer glassy skin while molten lava breaks out in bulbous lobes."}, {"id": "2.2-07", "topic": "2.2", "question": "What term describes an unmelted fragment of surrounding country rock enclosed within an igneous intrusion?", "options": ["Xenolith", "Phenocryst", "Porphyroblast", "Amygdale"], "answer": 0, "explanation": "A xenolith is a piece of foreign pre-existing country rock incorporated into magma (by magmatic stoping) that failed to melt completely."}, {"id": "2.2-08", "topic": "2.2", "question": "Why is felsic (rhyolitic) magma far more viscous and explosive than mafic (basaltic) magma?", "options": ["Higher silica content forms extensive tetrahedral polymers that trap expanding gases", "Lower silica content allows gases to escape smoothly", "Higher temperature reduces internal friction", "Presence of dissolved water prevents bubbling"], "answer": 0, "explanation": "High silica content (>66% SiO2) produces extensive cross-linked Si-O tetrahedral polymers in the melt, causing high viscosity and catastrophic explosive eruptions."}, {"id": "2.3-01", "topic": "2.3", "question": "Which sedimentary environment produces large-scale dune cross-bedding (up to 30°) and well-rounded frosted sand grains?", "options": ["Hot desert (aeolian sand sea)", "Deep marine abyssal plain", "Glacial till plain", "Braided river channel"], "answer": 0, "explanation": "Large-scale cross-bedding, hematite red pigment, and well-rounded frosted grains (due to wind grain-to-grain impacts) are diagnostic of desert dunes."}, {"id": "2.3-02", "topic": "2.3", "question": "What sedimentary structure displays coarse sediment at the base grading upward into fine silt and clay within a single bed?", "options": ["Graded bedding", "Cross-bedding", "Asymmetrical current ripples", "Parting lineation"], "answer": 0, "explanation": "Graded bedding forms from decelerating turbidity currents where the coarsest, densest particles settle first, followed by progressively finer mud."}, {"id": "2.3-03", "topic": "2.3", "question": "What minerals precipitate in an evaporite sequence formed by evaporating marine water?", "options": ["Calcite, Gypsum, and Halite", "Quartz, Feldspar, and Mica", "Kaolinite, Hematite, and Goethite", "Augite, Olivine, and Pyrite"], "answer": 0, "explanation": "Evaporation of marine water precipitates calcium carbonate (calcite) first, followed by calcium sulphate (gypsum/anhydrite), and finally halite (NaCl)."}, {"id": "2.3-04", "topic": "2.3", "question": "Which limestone variety consists of small spherical grains (<2 mm) with concentric carbonate laminae formed in shallow agitated waters?", "options": ["Oolitic limestone", "Micrite (lime mudstone)", "Chalk", "Fossiliferous biosparite"], "answer": 0, "explanation": "Oolitic limestone is made of ooids: rounded spherical grains formed by precipitation of concentric calcium carbonate around a nucleus in tropical shallow currents."}, {"id": "2.3-05", "topic": "2.3", "question": "What type of ripple mark is formed by oscillating waves in shallow water and has symmetrical crests?", "options": ["Oscillation (wave) ripples", "Current (asymmetrical) ripples", "Megaripples (dunes)", "Antidunes"], "answer": 0, "explanation": "Wave ripples are symmetrical with sharp crests and rounded troughs formed by bidirectional back-and-forth orbital water motion."}, {"id": "2.3-06", "topic": "2.3", "question": "What microscopic organisms compose the pure, white biogenic limestone known as Chalk?", "options": ["Calcareous coccolith plates from planktonic algae", "Siliceous radiolaria tests", "Fragmented coral branches", "Bivalve shell hash"], "answer": 0, "explanation": "Chalk is a micritic biogenic limestone composed almost entirely of sub-microscopic calcite plates (coccoliths) shed by planktonic coccolithophores."}, {"id": "3.1-01", "topic": "3.1", "question": "What tectonic stress regime generates NORMAL faulting?", "options": ["Tensional (extensional) stress", "Compressional stress", "Shear (strike-slip) stress", "Lithostatic confining stress"], "answer": 0, "explanation": "Normal faults develop under tensional stress, allowing the hanging wall block to move down relative to the footwall."}, {"id": "3.1-02", "topic": "3.1", "question": "In a REVERSE fault or THRUST fault, how does the hanging wall move relative to the footwall?", "options": ["Upwards relative to the footwall", "Downwards relative to the footwall", "Horizontally with zero vertical displacement", "Rotates about a vertical axis"], "answer": 0, "explanation": "Compressional stress pushes the hanging wall upwards and over the footwall block along reverse and low-angle thrust faults."}, {"id": "3.1-03", "topic": "3.1", "question": "What fold geometry has strata arching upwards and dipping away from the hinge, with the OLDEST rocks in the core?", "options": ["Anticline", "Syncline", "Monocline", "Structural basin"], "answer": 0, "explanation": "An anticline is an upward-arching fold whose limbs dip away from the hinge, exposing the oldest rocks in the central eroded core."}, {"id": "3.1-04", "topic": "3.1", "question": "What fold geometry is characterized by both limbs dipping in the same direction, with one limb inverted past vertical?", "options": ["Overturned fold", "Symmetrical fold", "Isoclinal fold", "Chevron fold"], "answer": 0, "explanation": "An overturned fold has an inclined axial plane such that both limbs dip in the same direction, with one limb rotated upside-down."}, {"id": "3.1-05", "topic": "3.1", "question": "What contact represents an ancient erosion surface separating tilted older strata from horizontal younger strata?", "options": ["Angular unconformity", "Disconformity", "Conformable contact", "Fault scarp"], "answer": 0, "explanation": "An angular unconformity records deformation, uplift, erosion of older beds, followed by subsidence and deposition of horizontal younger beds."}, {"id": "3.1-06", "topic": "3.1", "question": "What term describes a down-dropped crustal valley bounded by conjugate normal faults under tension?", "options": ["Graben (rift valley)", "Horst block", "Nappe", "Anticlinorium"], "answer": 0, "explanation": "A graben is a central block lowered along boundary normal faults during crustal extension (e.g. East African Rift)."}, {"id": "3.1-07", "topic": "3.1", "question": "What linear friction scratches on a polished fault plane prove the direction of past slip movement?", "options": ["Slickensides", "Stylolites", "Joint fringe", "Cleavage refraction"], "answer": 0, "explanation": "Slickensides are polished fault planes with linear striations produced by frictional grinding of mineral grains during displacement."}, {"id": "3.2-01", "topic": "3.2", "question": "Which type of metamorphism is driven primarily by HIGH TEMPERATURE at low pressure adjacent to an igneous intrusion?", "options": ["Contact (thermal) metamorphism", "Regional (dynamothermal) metamorphism", "Dynamic cataclastic metamorphism", "Hydrothermal seafloor metamorphism"], "answer": 0, "explanation": "Contact metamorphism occurs in a thermal aureole surrounding an igneous pluton, driven by heat transfer with minimal directed stress."}, {"id": "3.2-02", "topic": "3.2", "question": "What is the correct progressive sequence of pelitic regional metamorphic rocks from LOW to HIGH grade?", "options": ["Slate -> Phyllite -> Schist -> Gneiss", "Gneiss -> Schist -> Phyllite -> Slate", "Slate -> Gneiss -> Schist -> Hornfels", "Hornfels -> Marble -> Quartzite -> Slate"], "answer": 0, "explanation": "With increasing temperature and pressure, shale/mudstone progressively recrystallises from Slate to Phyllite, Schist, and banded Gneiss."}, {"id": "3.2-03", "topic": "3.2", "question": "What non-foliated metamorphic rock forms from the contact metamorphism of a pure quartz sandstone?", "options": ["Metaquartzite", "Marble", "Hornfels", "Schist"], "answer": 0, "explanation": "Pure quartz sandstone recrystallises under contact metamorphism to form granoblastic metaquartzite with interlocking quartz grains."}, {"id": "3.2-04", "topic": "3.2", "question": "According to Barrow's metamorphic zones, which index mineral indicates the HIGHEST temperature metamorphic grade in pelites?", "options": ["Sillimanite (>600°C)", "Chlorite (~250°C)", "Biotite (~400°C)", "Garnet (~500°C)"], "answer": 0, "explanation": "Sillimanite marks the highest temperature zone (>600°C) of regional metamorphism before partial melting (anatexis) begins."}, {"id": "3.2-05", "topic": "3.2", "question": "What fine-grained, tough, non-foliated rock forms by contact metamorphism of mudstone right at the intrusion contact?", "options": ["Hornfels", "Slate", "Mylonite", "Gneiss"], "answer": 0, "explanation": "Hornfels is a hard, dense, sugary-textured rock formed by intense thermal recrystallisation of pelitic rocks in the inner contact aureole."}, {"id": "4.1-01", "topic": "4.1", "question": "What combination of biological characteristics defines an ideal index (zone) fossil?", "options": ["Rapid evolution, short geological range, and widespread geographic distribution", "Long geological lifespan and restricted to one small bay", "Soft-bodied anatomy with no mineralised skeleton", "Large adult size and very low reproduction rate"], "answer": 0, "explanation": "Good zone fossils evolved rapidly (narrow time duration), were geographically widespread, marine planktonic/pelagic, and easily preserved."}, {"id": "4.1-02", "topic": "4.1", "question": "Which fossil group underwent an evolutionary reduction in stipe (branch) count from ~64 down to 1 during the Ordovician-Silurian?", "options": ["Graptolites", "Trilobites", "Ammonites", "Brachiopods"], "answer": 0, "explanation": "Graptolites reduced their branch count from multi-stiped dendroids to 4, 2 (Didymograptus), and finally single-stiped monograptids in the Silurian."}, {"id": "4.1-03", "topic": "4.1", "question": "What progressive evolutionary trend is observed in ammonoid septal suture lines through geological time?", "options": ["Simple goniatitic -> ceratitic -> complexly frilled ammonitic sutures", "Ammonitic -> ceratitic -> goniatitic sutures", "Straightening into orthoconic smooth cylinders", "Loss of all internal shell chambers"], "answer": 0, "explanation": "Ammonoid septa became progressively more fluted and folded for structural shell strength, evolving from goniatitic to ceratitic and ammonitic."}, {"id": "4.1-04", "topic": "4.1", "question": "Which marine arthropod group is divided into a cephalon, segmented thorax, and pygidium with three longitudinal lobes?", "options": ["Trilobites", "Crinoids", "Echinoids", "Belemnites"], "answer": 0, "explanation": "Trilobites are extinct Palaeozoic marine arthropods with three body regions and an axial lobe flanked by two pleural lobes."}, {"id": "4.1-05", "topic": "4.1", "question": "How does the bilateral plane of symmetry differ between a Brachiopod and a Bivalve mollusc?", "options": ["Brachiopods have symmetry DOWN the middle of each valve; bivalves have symmetry BETWEEN the two valves", "Brachiopods have no symmetry; bivalves are radially symmetrical", "Brachiopod valves are identical left and right; bivalve valves are unequal", "Both groups share identical radial pentameral symmetry"], "answer": 0, "explanation": "A brachiopod valve is bisected symmetrically down its middle (equilateral, inequivalve). A bivalve has symmetry across the hinge between matching valves."}, {"id": "4.1-06", "topic": "4.1", "question": "What internal tube connects the chambers of a cephalopod phragmocone to regulate buoyancy with gas and liquid?", "options": ["Siphuncle", "Tabula", "Columella", "Pallial line"], "answer": 0, "explanation": "The siphuncle is the living vascular cord passing through septal necks that regulates fluid/gas osmotic balance in cephalopod shells."}, {"id": "4.2-01", "topic": "4.2", "question": "According to the 'Rule of V's', how does a horizontal bed outcrop when crossing a river valley on a topographic map?", "options": ["Parallel to contour lines (does not cross contour lines)", "V-shapes pointing upstream independent of contours", "Straight line ignoring topography", "V-shapes pointing downstream"], "answer": 0, "explanation": "Horizontal strata follow topographic contours precisely at a constant elevation, contouring parallel across river valleys."}, {"id": "4.2-02", "topic": "4.2", "question": "What is the angular relationship between the horizontal strike line of a bed and the direction of TRUE dip?", "options": ["Always exactly 90° (perpendicular)", "45°", "180° (parallel)", "Depends on the dip angle"], "answer": 0, "explanation": "True dip direction is always measured at exactly 90° (right angle) to the strike in the direction of steepest downward slope."}, {"id": "4.2-03", "topic": "4.2", "question": "What structural feature is indicated by concentric circular outcrops where the YOUNGEST beds are in the center?", "options": ["Structural basin (syncline)", "Structural dome (anticline)", "Horst block", "Inverted graben"], "answer": 0, "explanation": "In a structural basin, beds dip inwards toward the center, protecting and preserving the youngest stratigraphic layers in the middle."}, {"id": "4.2-04", "topic": "4.2", "question": "If a cross-section has a horizontal scale of 1:10,000 and a vertical scale of 1:2,000, what is the vertical exaggeration (VE)?", "options": ["5x", "2x", "0.2x", "10x"], "answer": 0, "explanation": "Vertical Exaggeration = Horizontal Scale denominator / Vertical Scale denominator = 10,000 / 2,000 = 5x."}, {"id": "T-01", "topic": "T1", "question": "What marine geophysical evidence conclusively proved seafloor spreading at mid-ocean ridges (Vine & Matthews, 1963)?", "options": ["Symmetrical magnetic zebra stripes of normal and reversed polarity", "Uniformly thick ocean floor sediment", "Continental granite cores drilled under the oceanic abyss", "Absence of volcanic activity on ridge axes"], "answer": 0, "explanation": "Geomagnetic polarity reversals are recorded symmetrically on both sides of mid-ocean ridges as new basaltic oceanic crust solidifies."}, {"id": "T-02", "topic": "T2", "question": "What is the primary driving mechanism providing the greatest net force on tectonic plates?", "options": ["Slab pull (gravitational sinking of cold, dense oceanic lithosphere)", "Ridge push only", "Tidal friction dragging continents", "Centrifugal spinning of the Earth"], "answer": 0, "explanation": "Slab pull, caused by cold, dense eclogitised oceanic lithosphere sinking into the asthenosphere at subduction zones, dominates plate motion."}, {"id": "T-03", "topic": "T3", "question": "What planar zone of dipping earthquake foci traces a subducting oceanic slab down to ~670 km depth?", "options": ["Wadati-Benioff zone", "Mohorovičić discontinuity", "Gutenberg discontinuity", "Lehmann boundary"], "answer": 0, "explanation": "The Wadati-Benioff zone is a dipping planar zone of earthquake foci marking frictional and brittle rupture within a descending cold slab."}, {"id": "T-04", "topic": "T4", "question": "Why does an S-wave shadow zone occur at angular distances greater than 104° from an earthquake epicentre?", "options": ["S-waves cannot propagate through the liquid iron outer core", "S-waves bounce off the crust-mantle boundary", "S-waves convert completely into surface Love waves", "S-waves speed up and exit through the atmosphere"], "answer": 0, "explanation": "Shear (S) waves require shear rigidity to propagate and cannot travel through the molten iron-nickel outer core, producing a shadow zone from 104° to 180°."}, {"id": "T-05", "topic": "T5", "question": "What seismic discontinuity marks the compositional boundary between the crust and the ultramafic mantle?", "options": ["Mohorovičić discontinuity (Moho)", "Gutenberg discontinuity", "Lehmann discontinuity", "Conrad discontinuity"], "answer": 0, "explanation": "The Moho marks the abrupt jump in P-wave velocity from ~6-7 km/s in the crust to ~8 km/s in peridotite mantle."}, {"id": "T-06", "topic": "T1", "question": "What type of plate boundary is the San Andreas Fault in California?", "options": ["Conservative (transform) plate boundary", "Destructive subduction zone", "Constructive divergent boundary", "Continental collision zone"], "answer": 0, "explanation": "The San Andreas Fault is a dextral strike-slip transform boundary where the Pacific and North American plates slide past each other horizontally."}, {"id": "G-01", "topic": "G1", "question": "What geological structure is the most common hydrocarbon trap in sedimentary basins?", "options": ["Anticlinal fold with an impermeable shale caprock", "Synclinal trough", "Open vertical master joint", "Granite batholith core"], "answer": 0, "explanation": "Low-density buoyant petroleum and gas migrate up through permeable reservoir rock and pool in the crest of an anticline under an impermeable seal."}, {"id": "G-02", "topic": "G2", "question": "What mineral is the primary commercial ore of aluminium, formed by extreme tropical leaching of silicate rocks?", "options": ["Bauxite", "Hematite", "Chalcopyrite", "Galena"], "answer": 0, "explanation": "Bauxite (hydrated aluminium oxide) forms as a residual soil in warm, humid tropical climates where intense leaching strips silica and soluble cations."}, {"id": "G-03", "topic": "G3", "question": "What physical hydrogeological property measures the capacity of a rock to TRANSMIT fluid through interconnected pore spaces?", "options": ["Permeability", "Porosity", "Bulk density", "Compressibility"], "answer": 0, "explanation": "Porosity measures the percentage of void space; permeability measures the interconnectedness of pore throats and the ease of fluid flow."}, {"id": "G-04", "topic": "G4", "question": "Why does native gold concentrate in river gravel bars and plunge pools as alluvial placer deposits?", "options": ["Extremely high specific gravity (~19.3) and chemical inertness", "High solubility in river water", "Low density that allows it to float to gravel banks", "Magnetic attraction to basalt boulders"], "answer": 0, "explanation": "Gold is dense (~19.3 g/cm3), malleable, and chemically unreactive, allowing water currents to winnow away lighter quartz and concentrate gold in gravels."}, {"id": "G-05", "topic": "G1", "question": "What ratio of oxygen isotopes (18O / 16O) in benthic foraminifera shells indicates a glacial period with extensive ice sheets?", "options": ["Higher 18O / 16O ratio (enriched in heavy 18O)", "Lower 18O / 16O ratio (depleted in 18O)", "Zero 18O remaining in seawater", "Equal 18O and 16O isotopes"], "answer": 0, "explanation": "Light 16O evaporates preferentially and is locked up in polar ice sheets, leaving ocean water and foraminiferal calcite enriched in heavy 18O."}];
+
 function loadQuestionBank() {
   if (D) return;
+  fetch('quiz_questions.json').then(r => r.json()).then(q => { if (q && q.length) QUIZ_BANK = q; }).catch(() => {});
   fetch('cheatsheets.json').then(r => r.json()).then(c => { CHEATS = c; buildFlashcards(); }).catch(() => {});
   fetch('flashcards.json').then(r => r.json()).then(fc => { FLASHCARDS = fc; }).catch(() => {});
   fetch('questions.json')
@@ -3660,7 +3663,7 @@ function launchWorksheetPreset(type) {
 }
 
 /* ========================================================
-   FUN QUIZ GENERATOR IMPLEMENTATION
+   FUN MULTIPLE-CHOICE QUIZ GENERATOR IMPLEMENTATION
    ======================================================== */
 function renderQuizGenerator() {
   if (quizState.screen === 'playing') {
@@ -3685,16 +3688,16 @@ function renderQuizSetup() {
 
       <div class="quiz-panel">
         <div>
-          <h2 style="margin:0 0 6px;font-size:1.3rem;font-weight:700;color:var(--ink)">Classroom Quiz Show Generator</h2>
-          <p style="margin:0;font-size:0.85rem;color:var(--muted)">Configure question rounds, team competitive mode, speed timer, and sound effects.</p>
+          <h2 style="margin:0 0 6px;font-size:1.3rem;font-weight:700;color:var(--ink)">Classroom Multiple-Choice Quiz Show</h2>
+          <p style="margin:0;font-size:0.85rem;color:var(--muted)">Direct, curriculum-aligned multiple choice questions with live scoreboard, speed timer, and audio effects.</p>
         </div>
 
         <div class="quiz-config-grid">
           <div class="quiz-field">
             <label>Game Mode</label>
             <select id="cfg-quiz-mode" onchange="quizState.mode=this.value;renderQuizSetup();">
-              <option value="team" ${quizState.mode==='team'?'selected':''}>Team Showdown (Projector / Teams)</option>
-              <option value="mc" ${quizState.mode==='mc'?'selected':''}>Multiple Choice (Rapid Fire)</option>
+              <option value="team" ${quizState.mode==='team'?'selected':''}>Team Showdown (Scoreboard & Buzzers)</option>
+              <option value="mc" ${quizState.mode==='mc'?'selected':''}>Rapid-Fire (Solo / Whole Class Speed)</option>
             </select>
           </div>
 
@@ -3702,15 +3705,6 @@ function renderQuizSetup() {
             <label>Topic Focus</label>
             <select id="cfg-quiz-topic" onchange="quizState.topic=this.value;">
               ${topicsHtml}
-            </select>
-          </div>
-
-          <div class="quiz-field">
-            <label>Question Source</label>
-            <select id="cfg-quiz-source" onchange="quizState.source=this.value;">
-              <option value="flashcards" ${quizState.source==='flashcards'?'selected':''}>Active Recall Flashcards (307 key facts)</option>
-              <option value="questions" ${quizState.source==='questions'?'selected':''}>Exam Questions Bank (813 diagram questions)</option>
-              <option value="mixed" ${quizState.source==='mixed'?'selected':''}>Mixed Challenge (Both)</option>
             </select>
           </div>
 
@@ -3727,7 +3721,7 @@ function renderQuizSetup() {
           <div class="quiz-field">
             <label>Timer per Question</label>
             <select id="cfg-quiz-timer" onchange="quizState.timerSeconds=+this.value;">
-              <option value="0" ${quizState.timerSeconds===0?'selected':''}>No Timer (Manual Pace)</option>
+              <option value="0" ${quizState.timerSeconds===0?'selected':''}>No Timer (Untimed / Open Discussion)</option>
               <option value="15" ${quizState.timerSeconds===15?'selected':''}>15 Seconds (Lightning)</option>
               <option value="30" ${quizState.timerSeconds===30?'selected':''}>30 Seconds (Recommended)</option>
               <option value="45" ${quizState.timerSeconds===45?'selected':''}>45 Seconds (Standard)</option>
@@ -3735,12 +3729,12 @@ function renderQuizSetup() {
             </select>
           </div>
 
-          <div class="quiz-field">
+          <div class="quiz-field" style="grid-column:1 / -1">
             <label>Audio & Sound Effects</label>
             <div style="display:flex;align-items:center;height:100%;gap:8px;padding-top:4px">
               <label style="cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:0.85rem">
                 <input type="checkbox" id="cfg-quiz-sound" ${quizState.soundEnabled?'checked':''} onchange="quizState.soundEnabled=this.checked;QuizAudio.enabled=this.checked;" style="accent-color:var(--ink)">
-                <span>Sound effects (chimes, buzzers, countdown)</span>
+                <span>Sound effects enabled (correct chimes, buzzers, countdown tick, victory fanfare)</span>
               </label>
             </div>
           </div>
@@ -3760,9 +3754,9 @@ function renderQuizSetup() {
         ` : ''}
 
         <div style="display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap">
-          <button type="button" class="btn-minimal" onclick="printQuizHandout()">📄 Export as Printable Quiz Handout</button>
+          <button type="button" class="btn-minimal" onclick="printQuizHandout()">📄 Export as Printable Multiple-Choice Quiz</button>
           <button type="button" class="btn-print-primary" onclick="startQuiz()" style="padding:10px 22px;font-size:0.92rem">
-            🚀 Start Classroom Quiz
+            🚀 Start Multiple-Choice Quiz
           </button>
         </div>
       </div>
@@ -3772,78 +3766,50 @@ function renderQuizSetup() {
 }
 
 function buildQuizTopicOptions() {
-  const tids = CHEATS ? Object.keys(CHEATS) : ['1.1','2.1','2.2','2.3','3.1','3.2','4.1','4.2','G1','G2','G3','G4','T1','T2','T3','T4','T5'];
-  let html = `<option value="" ${quizState.topic===''?'selected':''}>All Geological Topics (Comprehensive)</option>`;
-  tids.forEach(t => {
-    const title = CHEATS && CHEATS[t] ? CHEATS[t].title.replace(/^Topic |^Theme /, '') : (T[t] ? T[t].name : t);
-    const isSel = quizState.topic === t ? 'selected' : '';
-    html += `<option value="${t}" ${isSel}>Topic ${t} · ${esc(title)}</option>`;
-  });
-  return html;
+  const topicsList = [
+    ['', 'All Geological Topics (Comprehensive)'],
+    ['1.1', 'Topic 1.1 · Minerals, Silicates & Rock Forming Minerals'],
+    ['2.1', 'Topic 2.1 · Surface Processes, Weathering & Clastic Rocks'],
+    ['2.2', 'Topic 2.2 · Igneous Petrology, Magmas & Volcanism'],
+    ['2.3', 'Topic 2.3 · Sedimentary Environments, Limestones & Facies'],
+    ['3.1', 'Topic 3.1 · Structural Geology, Folds, Faults & Unconformities'],
+    ['3.2', 'Topic 3.2 · Metamorphic Petrology & Barrow's Zones'],
+    ['4.1', 'Topic 4.1 · Fossils, Evolution & Biostratigraphy'],
+    ['4.2', 'Topic 4.2 · Geological Maps, Strike/Dip & Cross-Sections'],
+    ['T1', 'Theme T1-T5 · Plate Tectonics, Earthquakes & Seismology'],
+    ['G1', 'Theme G1-G4 · Economic Resources, Karst & Quaternary']
+  ];
+  return topicsList.map(([v, l]) => `<option value="${v}" ${quizState.topic===v?'selected':''}>${esc(l)}</option>`).join('');
 }
 
 function startQuiz() {
   if (quizState.timerInterval) clearInterval(quizState.timerInterval);
 
-  let pool = [];
-  if (quizState.source === 'flashcards' || quizState.source === 'mixed') {
-    if (!FLASHCARDS || !FLASHCARDS.length) buildFlashcards();
-    const fcs = (FLASHCARDS || []).filter(c => !quizState.topic || c.topicId === quizState.topic);
-    pool.push(...fcs.map(f => ({
-      type: 'flashcard',
-      id: f.id,
-      topicId: f.topicId,
-      title: f.topicTitle,
-      category: f.category,
-      question: f.question,
-      answer: f.answer
-    })));
-  }
+  let pool = (QUIZ_BANK && QUIZ_BANK.length) ? QUIZ_BANK.slice() : [];
 
-  if (quizState.source === 'questions' || quizState.source === 'mixed') {
-    const qs = (D ? D.questions : []).filter(q => !quizState.topic || q.topics.includes(quizState.topic));
-    pool.push(...qs.map(q => ({
-      type: 'question',
-      id: q.id,
-      topicId: q.topics[0] || '1.1',
-      title: `Question ${q.question} (${q.marks}m)`,
-      category: q.topics.map(t => `${t} ${T[t]?T[t].name:''}`).join(', '),
-      question: q.summary || `Past Paper Question ${q.question}`,
-      answer: q.note || 'See official WJEC mark scheme criteria below.',
-      image: q.image,
-      figures: q.figures,
-      markscheme: q.markscheme,
-      marks: q.marks
-    })));
+  if (quizState.topic) {
+    const topicFiltered = pool.filter(q => q.topic === quizState.topic || q.topic.startsWith(quizState.topic));
+    if (topicFiltered.length > 0) {
+      pool = topicFiltered;
+    }
   }
 
   if (!pool.length) {
-    showToast('No questions match the selected topic.');
+    showToast('No questions found for this topic.');
     return;
   }
 
   shuffle(pool);
   const selected = pool.slice(0, Math.min(quizState.questionCount, pool.length));
 
-  if (quizState.mode === 'mc') {
-    const allAnswers = (FLASHCARDS && FLASHCARDS.length ? FLASHCARDS : pool)
-      .map(item => cleanAnswerText(item.answer))
-      .filter(a => a && a.length > 2);
-
-    selected.forEach(item => {
-      const correct = cleanAnswerText(item.answer);
-      const others = allAnswers.filter(a => a !== correct);
-      shuffle(others);
-      const distractors = others.slice(0, 3);
-      while (distractors.length < 3) {
-        distractors.push('None of the above');
-      }
-      const choices = [correct, ...distractors];
-      shuffle(choices);
-      item.choices = choices;
-      item.correctIndex = choices.indexOf(correct);
-    });
-  }
+  // Ensure each question has shuffled choices and correctIndex
+  selected.forEach(item => {
+    const correctText = item.options[item.answer];
+    const shuffled = item.options.slice();
+    shuffle(shuffled);
+    item.choices = shuffled;
+    item.correctIndex = shuffled.indexOf(correctText);
+  });
 
   quizState.questions = selected;
   quizState.currentIdx = 0;
@@ -3882,9 +3848,7 @@ function setupQuizTimer() {
     if (quizState.timerRemaining <= 0) {
       clearInterval(quizState.timerInterval);
       QuizAudio.wrong();
-      if (quizState.mode === 'mc') {
-        quizState.selectedChoice = -1; // timed out
-      }
+      quizState.selectedChoice = -1; // timed out
       quizState.revealed = true;
       renderQuizGenerator();
       showToast('Time up!');
@@ -3898,7 +3862,7 @@ function renderQuizLive() {
 
   const total = quizState.questions.length;
   const isLast = quizState.currentIdx === total - 1;
-  const topicColor = colorOf(q.topicId);
+  const topicColor = colorOf(q.topic);
 
   const html = `
     <div class="teacher-hub-wrap">
@@ -3953,45 +3917,33 @@ function renderQuizLive() {
           <div>
             <div class="quiz-q-meta">
               <span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:${topicColor}"></span>
-              <span>Topic ${esc(q.topicId)} · ${esc(q.category || q.title)}</span>
+              <span>Topic ${esc(q.topic)} · ${esc(T[q.topic]?T[q.topic].name:'Geology')}</span>
             </div>
 
             <h2 class="quiz-q-title">${esc(q.question)}</h2>
 
-            ${q.image ? `
-              <div class="quiz-img-box">
-                <img src="${esc(q.image)}" alt="Question Diagram">
-              </div>
-            ` : ''}
-
-            ${quizState.mode === 'mc' ? `
-              <div class="quiz-mc-grid">
-                ${(q.choices || []).map((choice, i) => {
-                  const letters = ['A', 'B', 'C', 'D'];
-                  let btnClass = '';
-                  if (quizState.revealed) {
-                    if (i === q.correctIndex) btnClass = 'correct';
-                    else if (quizState.selectedChoice === i) btnClass = 'wrong';
-                  }
-                  return `
-                    <button type="button" class="quiz-mc-btn ${btnClass}" ${quizState.revealed ? 'disabled' : ''} onclick="selectQuizChoice(${i})">
-                      <span class="mc-letter">${letters[i]}</span>
-                      <span>${esc(choice)}</span>
-                    </button>
-                  `;
-                }).join('')}
-              </div>
-            ` : ''}
+            <!-- Direct Multiple Choice Options (A, B, C, D) -->
+            <div class="quiz-mc-grid">
+              ${(q.choices || []).map((choice, i) => {
+                const letters = ['A', 'B', 'C', 'D'];
+                let btnClass = '';
+                if (quizState.revealed) {
+                  if (i === q.correctIndex) btnClass = 'correct';
+                  else if (quizState.selectedChoice === i) btnClass = 'wrong';
+                }
+                return `
+                  <button type="button" class="quiz-mc-btn ${btnClass}" ${quizState.revealed ? 'disabled' : ''} onclick="selectQuizChoice(${i})">
+                    <span class="mc-letter">${letters[i]}</span>
+                    <span>${esc(choice)}</span>
+                  </button>
+                `;
+              }).join('')}
+            </div>
 
             ${quizState.revealed ? `
-              <div class="quiz-reveal-box">
-                <div class="quiz-reveal-title">Official WJEC Answer & Mark Scheme</div>
-                <div class="quiz-reveal-text">${q.answer}</div>
-                ${q.markscheme ? `
-                  <div style="margin-top:12px;text-align:center">
-                    <img src="${esc(q.markscheme)}" style="max-width:100%;max-height:260px;object-fit:contain;border:1px solid var(--border);border-radius:var(--radius)">
-                  </div>
-                ` : ''}
+              <div class="quiz-reveal-box" style="margin-top:16px">
+                <div class="quiz-reveal-title">Specification Rationale & Key Fact</div>
+                <div class="quiz-reveal-text">${esc(q.explanation)}</div>
 
                 ${quizState.mode === 'team' ? `
                   <div class="quiz-scoring-row">
@@ -3999,22 +3951,16 @@ function renderQuizLive() {
                     <button type="button" class="btn-minimal" onclick="adjustTeamScore(1, 1);nextQuizQuestion();">+1 ${esc(quizState.team1Name)}</button>
                     <button type="button" class="btn-minimal" onclick="adjustTeamScore(2, 1);nextQuizQuestion();">+1 ${esc(quizState.team2Name)}</button>
                     <button type="button" class="btn-minimal" onclick="adjustTeamScore(1, 1);adjustTeamScore(2, 1);nextQuizQuestion();">+1 Both Teams</button>
-                    <button type="button" class="btn-minimal" onclick="nextQuizQuestion();">No Points</button>
+                    <button type="button" class="btn-minimal" onclick="nextQuizQuestion();">Next Question →</button>
                   </div>
                 ` : ''}
               </div>
-            ` : (quizState.mode === 'team' ? `
-              <div style="text-align:center;margin-top:16px">
-                <button type="button" class="btn-gateway" style="max-width:320px;margin:0 auto" onclick="revealQuizAnswer()">
-                  👁️ Reveal Answer Key (Space)
-                </button>
-              </div>
-            ` : '')}
+            ` : ''}
           </div>
 
-          <div style="display:flex;justify-content:space-between;align-items:center;padding-top:16px;border-top:1px solid var(--border)">
+          <div style="display:flex;justify-content:space-between;align-items:center;padding-top:16px;border-top:1px solid var(--border);flex-wrap:wrap;gap:8px">
             <button type="button" class="btn-minimal" ${quizState.currentIdx===0?'disabled':''} onclick="prevQuizQuestion()">← Previous</button>
-            <span style="font-size:0.78rem;color:var(--muted)">Shortcuts: Space to reveal · 1 (+1 Team 1) · 2 (+1 Team 2) · → Next</span>
+            <span style="font-size:0.78rem;color:var(--muted)">Shortcuts: 1/A · 2/B · 3/C · 4/D · Space/Enter to advance</span>
             <button type="button" class="btn-minimal" style="font-weight:600;color:var(--ink)" onclick="nextQuizQuestion()">
               ${isLast ? 'Finish Quiz 🏁' : 'Next Question →'}
             </button>
@@ -4047,23 +3993,6 @@ function selectQuizChoice(idx) {
     showToast('Incorrect!');
   }
 
-  renderQuizLive();
-}
-
-function revealQuizAnswer() {
-  if (quizState.timerInterval) clearInterval(quizState.timerInterval);
-  quizState.revealed = true;
-  QuizAudio.play(ctx => {
-    const osc = ctx.createOscillator();
-    const g = ctx.createGain();
-    osc.frequency.setValueAtTime(440, ctx.currentTime);
-    g.gain.setValueAtTime(0.08, ctx.currentTime);
-    g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.15);
-    osc.connect(g);
-    g.connect(ctx.destination);
-    osc.start();
-    osc.stop(ctx.currentTime + 0.15);
-  });
   renderQuizLive();
 }
 
@@ -4132,7 +4061,7 @@ function renderQuizSummary() {
         <div class="quiz-summary-box">
           <div style="font-size:3rem">🎉</div>
           <div class="quiz-winner-badge">${winnerHtml}</div>
-          <p class="quiz-result-score">Quiz completed! ${quizState.questions.length} questions reviewed.</p>
+          <p class="quiz-result-score">Quiz completed! ${quizState.questions.length} multiple-choice questions reviewed.</p>
 
           <div style="display:flex;gap:12px;margin-top:10px;flex-wrap:wrap;justify-content:center">
             <button type="button" class="btn-print-primary" onclick="startQuiz()">🔄 Play Again</button>
@@ -4143,13 +4072,14 @@ function renderQuizSummary() {
         </div>
 
         <div style="border-top:1px solid var(--border);padding-top:20px">
-          <h3 style="font-size:1rem;margin:0 0 14px;color:var(--ink)">Questions Review</h3>
+          <h3 style="font-size:1rem;margin:0 0 14px;color:var(--ink)">Questions & Explanations Review</h3>
           <div style="display:flex;flex-direction:column;gap:12px">
             ${quizState.questions.map((q, i) => `
-              <div style="background:var(--surface-hover);padding:12px 16px;border-radius:var(--radius);border:1px solid var(--border)">
-                <div style="font-size:0.8rem;color:var(--muted);margin-bottom:4px">Q${i+1} · Topic ${esc(q.topicId)}</div>
-                <div style="font-weight:600;font-size:0.95rem;color:var(--ink);margin-bottom:6px">${esc(q.question)}</div>
-                <div style="font-size:0.85rem;color:#15803d"><b>Answer:</b> ${q.answer}</div>
+              <div style="background:var(--surface-hover);padding:14px 18px;border-radius:var(--radius);border:1px solid var(--border)">
+                <div style="font-size:0.8rem;color:var(--muted);margin-bottom:4px">Q${i+1} · Topic ${esc(q.topic)}</div>
+                <div style="font-weight:600;font-size:0.95rem;color:var(--ink);margin-bottom:8px">${esc(q.question)}</div>
+                <div style="font-size:0.88rem;color:#15803d;margin-bottom:4px"><b>Correct Answer:</b> ${esc(q.choices[q.correctIndex])}</div>
+                <div style="font-size:0.82rem;color:var(--ink-secondary)"><i>${esc(q.explanation)}</i></div>
               </div>
             `).join('')}
           </div>
@@ -4160,16 +4090,84 @@ function renderQuizSummary() {
   $('#app-view').innerHTML = html;
 }
 
-function printQuizHandout() {
-  const qs = quizState.questions.length ? quizState.questions : (FLASHCARDS || []).slice(0, 10);
-  executePrintWorksheet({
-    title: `SENOTS Classroom Quiz: ${quizState.topic ? 'Topic ' + quizState.topic : 'General Geology'}`,
-    subtitle: 'Name: ______________________ Date: ___________ Score: _____ / ' + qs.length,
-    questions: qs,
-    isQuiz: true
-  });
-}
+async function printQuizHandout() {
+  const questions = quizState.questions.length ? quizState.questions : (QUIZ_BANK || []).slice(0, 10);
+  let printContainer = $('#print-container');
+  if (!printContainer) {
+    printContainer = document.createElement('div');
+    printContainer.id = 'print-container';
+    document.body.appendChild(printContainer);
+  }
 
+  const dateStr = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+  const letters = ['A', 'B', 'C', 'D'];
+
+  const studentItems = questions.map((q, idx) => `
+    <article class="print-pack-q-item">
+      <div class="print-pack-q-head">
+        <h2 class="print-pack-q-title">Question ${idx + 1}</h2>
+        <span class="print-pack-q-marks">[1 mark]</span>
+      </div>
+      <div style="font-size:10.5pt;font-weight:600;margin:6pt 0 10pt;color:#111">${esc(q.question)}</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8pt;margin-bottom:8pt">
+        ${(q.choices || q.options).map((choice, i) => `
+          <div style="border:1pt solid #aaa;padding:6pt 10pt;border-radius:3pt;font-size:9.5pt">
+            <b>[${letters[i]}]</b> ${esc(choice)}
+          </div>
+        `).join('')}
+      </div>
+    </article>
+  `).join('');
+
+  const answerItems = questions.map((q, idx) => `
+    <div style="padding:6pt 0;border-bottom:1pt dotted #ccc">
+      <b>Q${idx + 1}: [${letters[q.correctIndex]}] ${esc(q.choices[q.correctIndex])}</b>
+      <div style="font-size:8.5pt;color:#444">${esc(q.explanation)}</div>
+    </div>
+  `).join('');
+
+  printContainer.innerHTML = `
+    <header class="print-pack-head">
+      <div class="print-pack-title-row">
+        <h1 class="print-pack-title">SENOTS Geology Multiple-Choice Quiz</h1>
+        <div class="print-pack-date">${dateStr}</div>
+      </div>
+      <div class="print-pack-meta">${questions.length} Questions · 1 mark each</div>
+    </header>
+
+    <table class="print-candidate-table">
+      <tr>
+        <td style="width:50%"><b>Candidate Name:</b></td>
+        <td style="width:25%"><b>Date:</b></td>
+        <td style="width:25%"><b>Class:</b></td>
+      </tr>
+      <tr>
+        <td colspan="2"><b>Score:</b> _______ / ${questions.length}</td>
+        <td><b>Percentage:</b> _______%</td>
+      </tr>
+    </table>
+
+    <main class="print-pack-list">
+      ${studentItems}
+    </main>
+
+    <div style="page-break-before:always;margin-top:24pt;padding-top:14pt">
+      <h2 style="font-size:14pt;border-bottom:2pt solid #111;padding-bottom:6pt;margin-bottom:12pt">TEACHER ANSWER KEY & SPECIFICATION RATIONALE</h2>
+      <div style="display:flex;flex-direction:column;gap:8pt">
+        ${answerItems}
+      </div>
+    </div>
+
+    <footer class="print-pack-footer">
+      WJEC Eduqas AS & A level Geology revision aid. Generated via SENOTS Teacher's Hub.
+    </footer>
+  `;
+
+  document.body.classList.add('is-printing-pack');
+  setTimeout(() => {
+    window.print();
+  }, 100);
+}
 /* ========================================================
    WORKSHEET & QUESTION GENERATOR IMPLEMENTATION
    ======================================================== */
@@ -4571,25 +4569,23 @@ window.addEventListener('keydown', e => {
   if (state.view !== 'teachers' || state.teacherTab !== 'quiz' || quizState.screen !== 'playing') return;
   if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') return;
 
-  if (e.key === ' ' || e.code === 'Space') {
+  const key = e.key.toLowerCase();
+  if (key === '1' || key === 'a') {
+    if (!quizState.revealed) selectQuizChoice(0);
+  } else if (key === '2' || key === 'b') {
+    if (!quizState.revealed) selectQuizChoice(1);
+  } else if (key === '3' || key === 'c') {
+    if (!quizState.revealed) selectQuizChoice(2);
+  } else if (key === '4' || key === 'd') {
+    if (!quizState.revealed) selectQuizChoice(3);
+  } else if (e.key === ' ' || e.code === 'Space' || e.key === 'Enter' || e.key === 'ArrowRight') {
     e.preventDefault();
-    if (!quizState.revealed) revealQuizAnswer();
-  } else if (e.key === 'ArrowRight') {
-    e.preventDefault();
-    nextQuizQuestion();
+    if (quizState.revealed) {
+      nextQuizQuestion();
+    }
   } else if (e.key === 'ArrowLeft') {
     e.preventDefault();
     prevQuizQuestion();
-  } else if (e.key === '1') {
-    if (quizState.mode === 'team') adjustTeamScore(1, 1);
-    else if (quizState.mode === 'mc' && !quizState.revealed) selectQuizChoice(0);
-  } else if (e.key === '2') {
-    if (quizState.mode === 'team') adjustTeamScore(2, 1);
-    else if (quizState.mode === 'mc' && !quizState.revealed) selectQuizChoice(1);
-  } else if (e.key === '3' && quizState.mode === 'mc' && !quizState.revealed) {
-    selectQuizChoice(2);
-  } else if (e.key === '4' && quizState.mode === 'mc' && !quizState.revealed) {
-    selectQuizChoice(3);
   }
 });
 
