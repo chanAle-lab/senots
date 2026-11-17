@@ -451,6 +451,18 @@
       "spec": "Geological Principles and Processes",
       "totalMarks": 90,
       "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2024-summer-c2",
+      "year": 2024,
+      "series": "Summer",
+      "date": "2024-05-20",
+      "code": "B480U20-1",
+      "unit": "AS Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "Foundation Geology",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
     }
   ],
   "questions": [
@@ -13590,6 +13602,561 @@
       "summary": "Explain how paleomagnetic data (measuring magnetic inclination of remanent magnetism in rocks) determines changes in continental latitude over time.",
       "image": "img/2024-summer-a2/q6d.jpg",
       "markscheme": "img/2024-summer-a2/ms-q6d.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q1a",
+      "paper": "2024-summer-c2",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Complete the blank boxes in Figure 1a showing the percentages of elements that make up the Earth's crust (iron and silicon).",
+      "image": "img/2024-summer-c2/q1a.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q1a.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q1bi",
+      "paper": "2024-summer-c2",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "1.1",
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Name a parent rock from which sedimentary rock B in Figure 1b could have been derived (e.g. granite, gneiss, schist, breccia, arkose).",
+      "image": "img/2024-summer-c2/q1bi.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q1bii",
+      "paper": "2024-summer-c2",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Compare the textures of sedimentary rocks A and B shown in the photomicrographs of Figure 1b (sorting, roundness, grain size, pore space/cement).",
+      "image": "img/2024-summer-c2/q1bii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q1ci",
+      "paper": "2024-summer-c2",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Explain the difference between porosity (% void space) and permeability (ability for fluid to flow through rock).",
+      "image": "img/2024-summer-c2/q1ci.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q1ci.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q1cii",
+      "paper": "2024-summer-c2",
+      "question": "1(c)(ii)",
+      "marks": 6,
+      "page": 5,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Describe and explain the factors affecting the porosity and permeability of a sedimentary rock, referring to Figure 1b (grain size, sorting, shape/roundness, cementation, compaction, pressure solution) [QER].",
+      "image": "img/2024-summer-c2/q1cii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q1cii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q2ai",
+      "paper": "2024-summer-c2",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "State the duration of the Mesozoic era using Figure 2 (252 - 66 = 186 Ma).",
+      "image": "img/2024-summer-c2/q2ai.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q2ai.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q2aii",
+      "paper": "2024-summer-c2",
+      "question": "2(a)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Explain how radiometric dating (half-life and parent-to-daughter isotope ratio) determines the numerical age of a rock.",
+      "image": "img/2024-summer-c2/q2aii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q2aii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q2b",
+      "paper": "2024-summer-c2",
+      "question": "2(b)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "State three key characteristics of a zone fossil (e.g. rapid evolution, widespread distribution, facies independence, easily preserved/recognised, abundant).",
+      "image": "img/2024-summer-c2/q2b.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q2b.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q2ci",
+      "paper": "2024-summer-c2",
+      "question": "2(c)(i)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Identify from Figure 2 the cephalopod group that went extinct at the end of the Triassic period (Ceratites).",
+      "image": "img/2024-summer-c2/q2ci.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q2ci.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q2cii",
+      "paper": "2024-summer-c2",
+      "question": "2(c)(ii)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Evaluate how useful the cephalopod groups in Figure 2 are for relative dating of rocks (stratigraphic ranges, number of families/species, overlap zones).",
+      "image": "img/2024-summer-c2/q2cii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q2cii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q3ai",
+      "paper": "2024-summer-c2",
+      "question": "3(a)(i)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Describe the correlation between mantle plume hot spots and plate boundaries shown in Figure 3a (no significant correlation, distributed both on boundaries and intraplate).",
+      "image": "img/2024-summer-c2/q3ai.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q3ai.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q3aii",
+      "paper": "2024-summer-c2",
+      "question": "3(a)(ii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "2.2",
+        "4.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Explain how magma forms at mantle plume hot spots using the geotherm and peridotite melting point curve in Figure 3b (thermal shift crossing the solidus / decompression melting).",
+      "image": "img/2024-summer-c2/q3aii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q3aii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q3bi",
+      "paper": "2024-summer-c2",
+      "question": "3(b)(i)",
+      "marks": 4,
+      "page": 10,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Explain how seismic tomography data in Figure 3c confirms a mantle plume beneath Hawaii (narrow column of lower seismic velocity from the core-mantle boundary due to super-heated mantle lowering rigidity).",
+      "image": "img/2024-summer-c2/q3bi.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q3bi.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q3bii",
+      "paper": "2024-summer-c2",
+      "question": "3(b)(ii)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the mean rate of Pacific plate movement over the past 60 Ma using Figure 3d (4750 km / 60 Ma = 79.2 km/Ma or 7.9 cm/yr).",
+      "image": "img/2024-summer-c2/q3bii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q3bii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q3biii",
+      "paper": "2024-summer-c2",
+      "question": "3(b)(iii)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Explain how seafloor magnetic anomalies and reversals are used to calculate the rate of plate movement.",
+      "image": "img/2024-summer-c2/q3biii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q3biii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q3c",
+      "paper": "2024-summer-c2",
+      "question": "3(c)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Evaluate the relative contributions of ridge push and slab pull driving mechanisms to plate motion.",
+      "image": "img/2024-summer-c2/q3c.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q3c.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q4ai",
+      "paper": "2024-summer-c2",
+      "question": "4(a)(i)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Draw an accurate geological field sketch of the boxed area in Figure 4a showing 2 antiforms, 2 synforms, and the fault location.",
+      "image": "img/2024-summer-c2/q4ai.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q4ai.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q4aii",
+      "paper": "2024-summer-c2",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Draw one fold axis on the sketch with the correct antiform or synform geological symbol.",
+      "image": "img/2024-summer-c2/q4aii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q4aii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q4b",
+      "paper": "2024-summer-c2",
+      "question": "4(b)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Evaluate the student statement that folds in Figure 4a are all asymmetrical and have angular hinge shapes (unequal limb lengths confirm asymmetry, but hinges are rounded not angular).",
+      "image": "img/2024-summer-c2/q4b.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q4b.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q4ci",
+      "paper": "2024-summer-c2",
+      "question": "4(c)(i)",
+      "marks": 2,
+      "page": 14,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Define the terms stress (force per unit area) and strain (deformation/change in shape resulting from stress).",
+      "image": "img/2024-summer-c2/q4ci.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q4ci.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q4cii",
+      "paper": "2024-summer-c2",
+      "question": "4(c)(ii)",
+      "marks": 6,
+      "page": 15,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Suggest how the deformational history in Figure 4a (folds and cutting fault) is explained by the stress-strain graph in Figure 4b (elastic, plastic folding, and brittle fracture) [QER].",
+      "image": "img/2024-summer-c2/q4cii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q4cii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q5ai",
+      "paper": "2024-summer-c2",
+      "question": "5(a)(i)",
+      "marks": 1,
+      "page": 16,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "State the fossil group represented by fossil T in Figure 5 (Trilobite).",
+      "image": "img/2024-summer-c2/q5ai.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q5ai.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q5aii",
+      "paper": "2024-summer-c2",
+      "question": "5(a)(ii)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Name morphological features X, Y, and Z of the trilobite (Cephalon, Thorax, Pygidium).",
+      "image": "img/2024-summer-c2/q5aii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q5aii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q5aiii",
+      "paper": "2024-summer-c2",
+      "question": "5(a)(iii)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Using the scale (x3), calculate the actual length of fossil T (12.7 cm / 3 = 4.2 cm or 42 mm).",
+      "image": "img/2024-summer-c2/q5aiii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q5aiii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q5b",
+      "paper": "2024-summer-c2",
+      "question": "5(b)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Evaluate the student statement that fossil T had a pelagic mode of life (dorsal eyes, cephalic fringe/shovel, small glabella, multiple pleurae indicate benthonic life).",
+      "image": "img/2024-summer-c2/q5b.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q5b.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q5c",
+      "paper": "2024-summer-c2",
+      "question": "5(c)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Explain how fossil T was preserved as a brassy yellow mineral (pyritisation: anaerobic bacterial sulfate reduction, molecule-by-molecule replacement).",
+      "image": "img/2024-summer-c2/q5c.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q5c.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q6ai",
+      "paper": "2024-summer-c2",
+      "question": "6(a)(i)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "2.2",
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "State the rock types most likely to form the lavas (basalt) and dykes (dolerite) of the oceanic crust.",
+      "image": "img/2024-summer-c2/q6ai.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q6ai.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q6aii",
+      "paper": "2024-summer-c2",
+      "question": "6(a)(ii)",
+      "marks": 1,
+      "page": 19,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Label on model 1 with arrow X the most likely crust-mantle boundary position (base of gabbro / top of peridotite at Moho).",
+      "image": "img/2024-summer-c2/q6aii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q6aii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q6aiii",
+      "paper": "2024-summer-c2",
+      "question": "6(a)(iii)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the percentage increase in P-wave velocity from surface to 6 km depth using Figure 6a ((6.2 - 2.0) / 2.0 * 100 = 210%).",
+      "image": "img/2024-summer-c2/q6aiii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q6aiii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q6aiv",
+      "paper": "2024-summer-c2",
+      "question": "6(a)(iv)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Explain why P-wave velocity increases through the oceanic crust (elastic rigidity and incompressibility increase with depth at a greater rate than density).",
+      "image": "img/2024-summer-c2/q6aiv.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q6aiv.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q6av",
+      "paper": "2024-summer-c2",
+      "question": "6(a)(v)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "2.1",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Describe and explain how the age and thickness of ocean sediments vary across an ocean basin (youngest/thinnest at mid-ocean ridge, thicker/older towards margins).",
+      "image": "img/2024-summer-c2/q6av.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q6av.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q6bi",
+      "paper": "2024-summer-c2",
+      "question": "6(b)(i)",
+      "marks": 1,
+      "page": 20,
+      "topics": [
+        "1.1",
+        "4.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify mineral W in the serpentinised peridotite photomicrograph of Figure 6b using the mineral data sheet (olivine or garnet).",
+      "image": "img/2024-summer-c2/q6bi.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q6bi.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q6bii",
+      "paper": "2024-summer-c2",
+      "question": "6(b)(ii)",
+      "marks": 1,
+      "page": 20,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Estimate from Figure 6a the P-wave velocity through peridotite that is 70% serpentinised (5.5 km/s).",
+      "image": "img/2024-summer-c2/q6bii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q6bii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q6biii",
+      "paper": "2024-summer-c2",
+      "question": "6(b)(iii)",
+      "marks": 1,
+      "page": 20,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Label on model 2 with arrow Y the most likely position of the crust-mantle boundary (top of peridotite / base of lavas).",
+      "image": "img/2024-summer-c2/q6biii.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q6biii.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q6biv",
+      "paper": "2024-summer-c2",
+      "question": "6(b)(iv)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Explain how model 2 challenges our understanding of the Moho (Moho as hydration/serpentinisation front rather than compositional crust-mantle boundary).",
+      "image": "img/2024-summer-c2/q6biv.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q6biv.jpg"
+    },
+    {
+      "id": "2024-summer-c2-q6bv",
+      "paper": "2024-summer-c2",
+      "question": "6(b)(v)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Describe how model 1 or model 2 could be tested and give a reason (deep ocean drilling such as JOIDES Resolution 360 to sample lithologies directly).",
+      "image": "img/2024-summer-c2/q6bv.jpg",
+      "markscheme": "img/2024-summer-c2/ms-q6bv.jpg"
     }
   ],
   "levels": [
