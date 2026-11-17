@@ -439,6 +439,18 @@
       "spec": "current",
       "totalMarks": 90,
       "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2024-summer-a2",
+      "year": 2024,
+      "series": "Summer",
+      "date": "June 2024",
+      "code": "A480U20-1",
+      "unit": "Component 2",
+      "level": "A",
+      "spec": "Geological Principles and Processes",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
     }
   ],
   "questions": [
@@ -12875,6 +12887,709 @@
         "img/2023-summer-a2/fig-q6c.jpg"
       ],
       "markscheme": "img/2023-summer-a2/ms-q6cii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q1ai",
+      "paper": "2024-summer-a2",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "State the fossil groups to which fossils A (trace fossil/burrow), B (brachiopod), and C (plant/leaf) belong.",
+      "image": "img/2024-summer-a2/q1ai.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q1ai.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q1aii",
+      "paper": "2024-summer-a2",
+      "question": "1(a)(ii)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Evaluate a student's conclusion that fossils preserved in the Jurassic limestone may not accurately record Jurassic marine life.",
+      "image": "img/2024-summer-a2/q1aii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q1aii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q1aiii",
+      "paper": "2024-summer-a2",
+      "question": "1(a)(iii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "2.1",
+        "3.1",
+        "3.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Explain the presence of extinct Permian trilobite fossils as derived fossils in a non-marine Jurassic breccia above an unconformity.",
+      "image": "img/2024-summer-a2/q1aiii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q1b",
+      "paper": "2024-summer-a2",
+      "question": "1(b)",
+      "marks": 6,
+      "page": 3,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Describe the three stages of fossilisation shown in Figure 1b: burial/soft parts decay, dissolution of calcite shell to form mould, and precipitation of quartz infill to form cast.",
+      "image": "img/2024-summer-a2/q1b.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q1b.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q2a",
+      "paper": "2024-summer-a2",
+      "question": "2(a)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "2.2",
+        "G1.1"
+      ],
+      "skills": [
+        "maths",
+        "geological-data"
+      ],
+      "summary": "Describe the melting point curve for wet peridotite between 0 km and 100 km depth in Figure 2b.",
+      "image": "img/2024-summer-a2/q2a.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q2a.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q2bi",
+      "paper": "2024-summer-a2",
+      "question": "2(b)(i)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "2.2",
+        "4.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Plot points and complete line V on Figure 2b showing temperature variation with depth beneath the volcano using isotherms from cross-section Figure 2a.",
+      "image": "img/2024-summer-a2/q2bi.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q2a.jpg",
+        "img/2024-summer-a2/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q2bi.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q2bii",
+      "paper": "2024-summer-a2",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "2.2",
+        "G1.1",
+        "4.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Explain why magma beneath the convergent boundary volcano must originate from wet peridotite (flux melting) rather than dry peridotite.",
+      "image": "img/2024-summer-a2/q2bii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q2a.jpg",
+        "img/2024-summer-a2/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q2bii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q2ci",
+      "paper": "2024-summer-a2",
+      "question": "2(c)(i)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "2.2",
+        "G1.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "State which photograph shows an enclave (Photograph C) and explain with reference to rounded shape, igneous composition, and included phenocrysts.",
+      "image": "img/2024-summer-a2/q2ci.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q2ci.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q2cii",
+      "paper": "2024-summer-a2",
+      "question": "2(c)(ii)",
+      "marks": 4,
+      "page": 8,
+      "topics": [
+        "2.2",
+        "G1.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Suggest reasons for the variation in erupted lava compositions from mafic to silicic (differentiation, crystal settling, magma mixing, assimilation of crust).",
+      "image": "img/2024-summer-a2/q2cii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q2a.jpg",
+        "img/2024-summer-a2/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q2cii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q3ai",
+      "paper": "2024-summer-a2",
+      "question": "3(a)(i)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Mark on polar equal-area stereonet Figure 3b the dip angle (45°) and dip direction (280°) of limestone bedding from Table 1.",
+      "image": "img/2024-summer-a2/q3ai.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q3a.jpg",
+        "img/2024-summer-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q3ai.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q3aii",
+      "paper": "2024-summer-a2",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the percentage of crustal shortening of the folded limestone surface between L and M given folded length 125m and horizontal distance 85m (32%).",
+      "image": "img/2024-summer-a2/q3aii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q3aii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q3aiii",
+      "paper": "2024-summer-a2",
+      "question": "3(a)(iii)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Explain the presence of intensely jointed zones with possible reverse faults in the folded limestone (brittle deformation, competent rock, fold hinge stress).",
+      "image": "img/2024-summer-a2/q3aiii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q3aiii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q3bi",
+      "paper": "2024-summer-a2",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Mark on stereonet Figure 3b a line showing the approximate trend of the fold axial plane trace of Fold F.",
+      "image": "img/2024-summer-a2/q3bi.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q3bi.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q3bii",
+      "paper": "2024-summer-a2",
+      "question": "3(b)(ii)",
+      "marks": 4,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Evaluate a student's conclusion that Fold F is an anticline, plunging, tight, with axial plane dipping ENE.",
+      "image": "img/2024-summer-a2/q3bii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q3a.jpg",
+        "img/2024-summer-a2/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q3bii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q3ci",
+      "paper": "2024-summer-a2",
+      "question": "3(c)(i)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Mark on geological map Figure 3c a line showing the axial plane trace of Fold F.",
+      "image": "img/2024-summer-a2/q3ci.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q3c.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q3ci.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q3cii",
+      "paper": "2024-summer-a2",
+      "question": "3(c)(ii)",
+      "marks": 4,
+      "page": 13,
+      "topics": [
+        "2.3",
+        "G4.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Evaluate the extent to which the distribution of mineral veins on Figure 3c is controlled by lithology (limestone host, neutralisation) and structure (joints, anticline hinge, faults).",
+      "image": "img/2024-summer-a2/q3cii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q3c.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q3cii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q4ai",
+      "paper": "2024-summer-a2",
+      "question": "4(a)(i)",
+      "marks": 2,
+      "page": 14,
+      "topics": [
+        "4.2",
+        "G3.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Describe the change in latitude of Australia (moved north to lower latitudes) and Antarctica (remained at same polar latitude) between 65 and 20 Ma.",
+      "image": "img/2024-summer-a2/q4ai.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q4ai.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q4aii",
+      "paper": "2024-summer-a2",
+      "question": "4(a)(ii)",
+      "marks": 4,
+      "page": 15,
+      "topics": [
+        "4.2",
+        "T5.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Identify and explain the two Wilson Cycle stages corresponding to the Tasmanian Passage at 65 Ma (young stage, narrow sea) and 20 Ma (mature stage, wider ocean).",
+      "image": "img/2024-summer-a2/q4aii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q4aii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q4bi",
+      "paper": "2024-summer-a2",
+      "question": "4(b)(i)",
+      "marks": 3,
+      "page": 16,
+      "topics": [
+        "G3.2",
+        "G3.3"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Evaluate a hypothesis that Antarctic ice sheet onset and growth was caused by CO2 and seawater temperature changes using graph Figure 4b.",
+      "image": "img/2024-summer-a2/q4bi.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q4bi.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q4bii",
+      "paper": "2024-summer-a2",
+      "question": "4(b)(ii)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "4.2",
+        "G3.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Explain the hypothesis that opening of Drake and Tasmanian Passages initiated Antarctic glaciation (thermal isolation by Antarctic Circumpolar Current).",
+      "image": "img/2024-summer-a2/q4bii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q4bii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q4c",
+      "paper": "2024-summer-a2",
+      "question": "4(c)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "G3.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Suggest why Antarctic Ice Sheet growth resulted in further climate cooling (albedo feedback, high reflectivity of ice, less solar absorption).",
+      "image": "img/2024-summer-a2/q4c.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q4c.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q5ai",
+      "paper": "2024-summer-a2",
+      "question": "5(a)(i)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the median grain size of the orthoquartzite from cumulative frequency graph Figure 5a in phi units (-0.4 to -0.5 phi) and mm (1.3 to 1.42 mm).",
+      "image": "img/2024-summer-a2/q5ai.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q5a.jpg",
+        "img/2024-summer-a2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q5ai.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q5aii",
+      "paper": "2024-summer-a2",
+      "question": "5(a)(ii)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the coefficient of sorting of the orthoquartzite using formula (phi84 - phi16)/2 (sorting = 0.35).",
+      "image": "img/2024-summer-a2/q5aii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q5aii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q5aiii",
+      "paper": "2024-summer-a2",
+      "question": "5(a)(iii)",
+      "marks": 1,
+      "page": 19,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "State the sorting descriptor for the orthoquartzite based on coefficient of sorting 0.35 (well sorted).",
+      "image": "img/2024-summer-a2/q5aiii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q5aiii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q5aiv",
+      "paper": "2024-summer-a2",
+      "question": "5(a)(iv)",
+      "marks": 3,
+      "page": 20,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "State the most likely depositional environment on Figure 5b for the orthoquartzite (Location B: sand dunes) and explain (wind transport, high maturity, well sorted).",
+      "image": "img/2024-summer-a2/q5aiv.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q5a.jpg",
+        "img/2024-summer-a2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q5aiv.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q5bi",
+      "paper": "2024-summer-a2",
+      "question": "5(b)(i)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete the cumulative frequency curve for the desert sedimentary rock on Figure 5d using data in Table 3.",
+      "image": "img/2024-summer-a2/q5bi.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q5c.jpg",
+        "img/2024-summer-a2/fig-q5d.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q5bi.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q5bii",
+      "paper": "2024-summer-a2",
+      "question": "5(b)(ii)",
+      "marks": 6,
+      "page": 22,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "geological-data",
+        "practical"
+      ],
+      "summary": "Explain evidence from Figure 5c and 5d that the rock was deposited in environment D (flood river sediment): mineralogy, texture, and sedimentary structures.",
+      "image": "img/2024-summer-a2/q5bii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q5b.jpg",
+        "img/2024-summer-a2/fig-q5c.jpg",
+        "img/2024-summer-a2/fig-q5d.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q5bii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q6ai",
+      "paper": "2024-summer-a2",
+      "question": "6(a)(i)",
+      "marks": 1,
+      "page": 24,
+      "topics": [
+        "4.2",
+        "T5.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Draw arrows in blank boxes on Figure 6a showing relative plate motion directions at ridge (diverging left and right).",
+      "image": "img/2024-summer-a2/q6ai.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q6ai.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q6aii",
+      "paper": "2024-summer-a2",
+      "question": "6(a)(ii)",
+      "marks": 2,
+      "page": 24,
+      "topics": [
+        "4.2",
+        "T5.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "State one force from Figure 6a that opposes plate motion (continental drag FCD, slab/overriding drag FSO, ocean drag FOD, or ridge resistance FRR) and explain.",
+      "image": "img/2024-summer-a2/q6aii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q6aii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q6bi",
+      "paper": "2024-summer-a2",
+      "question": "6(b)(i)",
+      "marks": 3,
+      "page": 25,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Explain Arthur Holmes' 1931 mantle convection hypothesis shown by dashed arrows on Figure 6a driving plate motion.",
+      "image": "img/2024-summer-a2/q6bi.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q6bi.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q6bii",
+      "paper": "2024-summer-a2",
+      "question": "6(b)(ii)",
+      "marks": 2,
+      "page": 25,
+      "topics": [
+        "4.2",
+        "T5.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Explain how slab pull force (FSP) drives plate motion (denser subducting oceanic lithosphere sinks under gravity, pulling the plate).",
+      "image": "img/2024-summer-a2/q6bii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q6bii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q6ci",
+      "paper": "2024-summer-a2",
+      "question": "6(c)(i)",
+      "marks": 1,
+      "page": 26,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Show from displacement-time graph Figure 6c that the northward plate velocity component is approximately 29 mm/yr ((600-0)/(2021-2000) = 28.6 mm/yr).",
+      "image": "img/2024-summer-a2/q6ci.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q6b.jpg",
+        "img/2024-summer-a2/fig-q6c.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q6ci.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q6cii",
+      "paper": "2024-summer-a2",
+      "question": "6(c)(ii)",
+      "marks": 2,
+      "page": 27,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the resultant velocity of the continental plate moving on a bearing of 055° with a northward component of 29 mm/yr using trigonometry (29 / cos(55°) = 50-51 mm/yr).",
+      "image": "img/2024-summer-a2/q6cii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q6cii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q6ciii",
+      "paper": "2024-summer-a2",
+      "question": "6(c)(iii)",
+      "marks": 2,
+      "page": 27,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Explain what constant resultant plate velocity implies about the driving and opposing forces (forces are balanced / in dynamic equilibrium).",
+      "image": "img/2024-summer-a2/q6ciii.jpg",
+      "figures": [
+        "img/2024-summer-a2/fig-q6b.jpg",
+        "img/2024-summer-a2/fig-q6c.jpg"
+      ],
+      "markscheme": "img/2024-summer-a2/ms-q6ciii.jpg"
+    },
+    {
+      "id": "2024-summer-a2-q6d",
+      "paper": "2024-summer-a2",
+      "question": "6(d)",
+      "marks": 2,
+      "page": 27,
+      "topics": [
+        "4.2",
+        "T4.2"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Explain how paleomagnetic data (measuring magnetic inclination of remanent magnetism in rocks) determines changes in continental latitude over time.",
+      "image": "img/2024-summer-a2/q6d.jpg",
+      "markscheme": "img/2024-summer-a2/ms-q6d.jpg"
     }
   ],
   "levels": [
