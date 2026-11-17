@@ -847,6 +847,66 @@
       "totalMarks": 15,
       "duration": "1 hour (Section A)",
       "level": "A2"
+    },
+    {
+      "id": "2018-summer-gl4",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-06-05",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting the Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "2 hours (Section A: 1 hour)",
+      "level": "A2"
+    },
+    {
+      "id": "2018-summer-gl5-u1",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-06-07",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2018-summer-gl5-u2",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-06-07",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2018-summer-gl5-u3",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-06-07",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2018-summer-gl5-u4",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-06-07",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
     }
   ],
   "questions": [
@@ -22411,6 +22471,985 @@
         "img/2017-summer-gl5-u4/fig-q1b.jpg"
       ],
       "markscheme": "img/2017-summer-gl5-u4/ms-q1d.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q1ai",
+      "paper": "2018-summer-gl4",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "Weathering",
+        "Igneous Petrology"
+      ],
+      "skills": [
+        "Rock Identification"
+      ],
+      "summary": "State the name of the unweathered coarse-grained igneous rock in Figure 1a (granite).",
+      "image": "img/2018-summer-gl4/q1ai.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q1ai.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q1aii",
+      "paper": "2018-summer-gl4",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Chemical Weathering",
+        "Mineral Products"
+      ],
+      "skills": [
+        "Data Extraction"
+      ],
+      "summary": "Name the two weathering products A and B formed by chemical weathering of the granite exposure (clay minerals, iron oxides).",
+      "image": "img/2018-summer-gl4/q1aii.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q1aii.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q1aiii",
+      "paper": "2018-summer-gl4",
+      "question": "1(a)(iii)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "Chemical Weathering",
+        "Hydrolysis",
+        "Oxidation"
+      ],
+      "skills": [
+        "Process Description"
+      ],
+      "summary": "Describe the chemical processes (hydrolysis, oxidation) and minerals involved in forming weathering products A and B.",
+      "image": "img/2018-summer-gl4/q1aiii.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q1aiv",
+      "paper": "2018-summer-gl4",
+      "question": "1(a)(iv)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Bowen's Reaction Series",
+        "Mineral Stability"
+      ],
+      "skills": [
+        "Explanation"
+      ],
+      "summary": "Explain why quartz is more resistant to chemical weathering than plagioclase feldspar with reference to Bowen's reaction series.",
+      "image": "img/2018-summer-gl4/q1aiv.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q1aiv.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q1bi",
+      "paper": "2018-summer-gl4",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Spheroidal Weathering",
+        "Corestones"
+      ],
+      "skills": [
+        "Measurement",
+        "Table Completion"
+      ],
+      "summary": "Complete Table 1 recording the width, length, and shape of blocks Y and Z in Figure 1b.",
+      "image": "img/2018-summer-gl4/q1bi.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q1bii",
+      "paper": "2018-summer-gl4",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Jointing",
+        "Spheroidal Weathering"
+      ],
+      "skills": [
+        "Explanation"
+      ],
+      "summary": "Explain the differences in both the size and shape of blocks Y and Z in terms of joint spacing and spheroidal weathering.",
+      "image": "img/2018-summer-gl4/q1bii.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q2ai",
+      "paper": "2018-summer-gl4",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "Metamorphic Phase Diagrams",
+        "Aluminosilicates"
+      ],
+      "skills": [
+        "Graph Reading"
+      ],
+      "summary": "State the pressure at which andalusite and sillimanite are both in equilibrium at 600°C from Figure 2a (0.25 GPa).",
+      "image": "img/2018-summer-gl4/q2ai.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q2ai.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q2aii",
+      "paper": "2018-summer-gl4",
+      "question": "2(a)(ii)",
+      "marks": 4,
+      "page": 6,
+      "topics": [
+        "Metamorphic P-T Paths",
+        "Aluminosilicates"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Table Completion"
+      ],
+      "summary": "Complete Table 2 with the maximum temperature and pressure along pathway 1 and the silicate minerals stable at those maxima.",
+      "image": "img/2018-summer-gl4/q2aii.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q2aii.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q2bi",
+      "paper": "2018-summer-gl4",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "Types of Metamorphism"
+      ],
+      "skills": [
+        "Classification"
+      ],
+      "summary": "State the type of metamorphism shown by the pressure/temperature conditions along pathway 1 (regional metamorphism).",
+      "image": "img/2018-summer-gl4/q2bi.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q2bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q2bii",
+      "paper": "2018-summer-gl4",
+      "question": "2(b)(ii)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "Rock Cycle",
+        "Plate Tectonics",
+        "Orogeny"
+      ],
+      "skills": [
+        "Process Description"
+      ],
+      "summary": "Describe the rock cycle processes and plate tectonics causing changes in metamorphic grade along pathway 1 (burial and uplift).",
+      "image": "img/2018-summer-gl4/q2bii.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q2bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q2ci",
+      "paper": "2018-summer-gl4",
+      "question": "2(c)(i)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Contact Metamorphism",
+        "Metamorphic Textures"
+      ],
+      "skills": [
+        "Comparative Analysis"
+      ],
+      "summary": "Explain how a metamorphic rock subjected to conditions along pathway 2 would differ from the rock in Figure 2b (foliation, minerals).",
+      "image": "img/2018-summer-gl4/q2ci.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q2a.jpg",
+        "img/2018-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q2ci.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q2cii",
+      "paper": "2018-summer-gl4",
+      "question": "2(c)(ii)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "Retrograde Metamorphism",
+        "Metamorphic Kinetics"
+      ],
+      "skills": [
+        "Explanation"
+      ],
+      "summary": "Explain why the metamorphic rock at point X contains both sillimanite and andalusite (retrograde recrystallisation kinetics).",
+      "image": "img/2018-summer-gl4/q2cii.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q2a.jpg",
+        "img/2018-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q2cii.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q3ai",
+      "paper": "2018-summer-gl4",
+      "question": "3(a)(i)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "Fold Geometry",
+        "Structural Geology"
+      ],
+      "skills": [
+        "Diagram Labelling"
+      ],
+      "summary": "On Figure 3a mark and label the fold axis (A) and the axial plane trace (APT).",
+      "image": "img/2018-summer-gl4/q3ai.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q3ai.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q3aii",
+      "paper": "2018-summer-gl4",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "Fold Outcrop Patterns",
+        "Faulting"
+      ],
+      "skills": [
+        "Geological Drawing"
+      ],
+      "summary": "Complete Figure 3a to show the probable outcrop of the volcanic ash deposit on the top surface north of the dip-slip fault.",
+      "image": "img/2018-summer-gl4/q3aii.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q3aii.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q3bi",
+      "paper": "2018-summer-gl4",
+      "question": "3(b)(i)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "Fault Throw",
+        "Stress Regimes",
+        "Fault Types"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Table Completion"
+      ],
+      "summary": "Complete Table 3 to describe the fault characteristics (throw = 15m, vertical stress = σ max, normal fault).",
+      "image": "img/2018-summer-gl4/q3bi.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q3bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q3bii",
+      "paper": "2018-summer-gl4",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "Fault Reactivation",
+        "Cross-Cutting Relationships"
+      ],
+      "skills": [
+        "Evaluation"
+      ],
+      "summary": "Evaluate the statement that the fault in Figure 3a has been reactivated (offsets dyke and beds by different amounts).",
+      "image": "img/2018-summer-gl4/q3bii.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q3bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q3c",
+      "paper": "2018-summer-gl4",
+      "question": "3(c)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Sedimentary Structures",
+        "Way-Up Criteria"
+      ],
+      "skills": [
+        "Evidence Interpretation"
+      ],
+      "summary": "Explain evidence from Figure 3b showing that the volcanic ash deposit gets younger towards the west (bomb sag).",
+      "image": "img/2018-summer-gl4/q3c.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q3a.jpg",
+        "img/2018-summer-gl4/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q3c.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q3d",
+      "paper": "2018-summer-gl4",
+      "question": "3(d)",
+      "marks": 4,
+      "page": 11,
+      "topics": [
+        "Fold Classification",
+        "Overturned Folds",
+        "Plunge"
+      ],
+      "skills": [
+        "Structural Evaluation"
+      ],
+      "summary": "Evaluate the statement 'The fold is a symmetrical anticline with a plunge to the north' using Figures 3a and 3b.",
+      "image": "img/2018-summer-gl4/q3d.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q3a.jpg",
+        "img/2018-summer-gl4/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q3d.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q4ai",
+      "paper": "2018-summer-gl4",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "Plate Tectonics",
+        "Hotspots"
+      ],
+      "skills": [
+        "Map Reading"
+      ],
+      "summary": "State the name of the tectonic plate beneath which the mantle plume is located today (African Plate).",
+      "image": "img/2018-summer-gl4/q4ai.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q4.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q4ai.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q4aii",
+      "paper": "2018-summer-gl4",
+      "question": "4(a)(ii)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "Hotspot Tracks",
+        "Plate Motion"
+      ],
+      "skills": [
+        "Evidence Identification"
+      ],
+      "summary": "State the evidence from Figure 4a that both the Indian and African plates have moved over a fixed mantle plume.",
+      "image": "img/2018-summer-gl4/q4aii.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q4.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q4aii.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q4aiii",
+      "paper": "2018-summer-gl4",
+      "question": "4(a)(iii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "Mantle Plumes",
+        "Decompression Melting"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Explain how a mantle plume produces basaltic magma beneath the lithosphere (decompression melting of peridotite).",
+      "image": "img/2018-summer-gl4/q4aiii.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q4.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q4bi",
+      "paper": "2018-summer-gl4",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "Volcanic Output",
+        "Eruption Rates"
+      ],
+      "skills": [
+        "Calculation"
+      ],
+      "summary": "Calculate the volume of basalt erupted from the plume at Réunion over the last 2 Ma (80,000 km³).",
+      "image": "img/2018-summer-gl4/q4bi.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q4.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q4bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q4bii",
+      "paper": "2018-summer-gl4",
+      "question": "4(b)(ii)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "Flood Basalts",
+        "Plume Head vs Tail"
+      ],
+      "skills": [
+        "Comparative Explanation"
+      ],
+      "summary": "Account for the large geographical extent of the Deccan Traps compared with Réunion using Figures 4a, 4b, and Table 4.",
+      "image": "img/2018-summer-gl4/q4bii.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q4.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q4bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl4-q4c",
+      "paper": "2018-summer-gl4",
+      "question": "4(c)",
+      "marks": 4,
+      "page": 14,
+      "topics": [
+        "Mass Extinctions",
+        "Environmental Impact of Volcanism"
+      ],
+      "skills": [
+        "Scientific Synthesis"
+      ],
+      "summary": "Explain how volcanism on the scale of the Deccan Traps could have contributed to the K-T mass extinction.",
+      "image": "img/2018-summer-gl4/q4c.jpg",
+      "figures": [
+        "img/2018-summer-gl4/fig-q4.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl4/ms-q4c.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u1-q1ai",
+      "paper": "2018-summer-gl5-u1",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "Turbidity Currents",
+        "Bathymetry"
+      ],
+      "skills": [
+        "Diagram Annotation"
+      ],
+      "summary": "Draw an arrow labelled T on Figure 1a to show the initial direction of travel of the 1929 Grand Banks turbidity current.",
+      "image": "img/2018-summer-gl5-u1/q1ai.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u1-q1aii",
+      "paper": "2018-summer-gl5-u1",
+      "question": "1(a)(ii)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "Turbidity Currents",
+        "Submarine Slumping"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Explain the origin of the turbidity current triggered by the 1929 Grand Banks earthquake.",
+      "image": "img/2018-summer-gl5-u1/q1aii.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u1-q1aiii",
+      "paper": "2018-summer-gl5-u1",
+      "question": "1(a)(iii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Turbidity Currents",
+        "Flow Velocity"
+      ],
+      "skills": [
+        "Calculation"
+      ],
+      "summary": "Calculate the mean speed of the turbidity current in km min⁻¹ between broken cables B and C from Figure 1a (1.21 km min⁻¹).",
+      "image": "img/2018-summer-gl5-u1/q1aiii.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u1/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u1-q1bi",
+      "paper": "2018-summer-gl5-u1",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Submarine Fans",
+        "Sedimentary Logs"
+      ],
+      "skills": [
+        "Comparative Analysis"
+      ],
+      "summary": "Describe two differences between the sedimentary logs at proximal location Y and distal location X on the submarine fan.",
+      "image": "img/2018-summer-gl5-u1/q1bi.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u1-q1bii",
+      "paper": "2018-summer-gl5-u1",
+      "question": "1(b)(ii)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "Turbidite Deposition",
+        "Flow Dynamics"
+      ],
+      "skills": [
+        "Physical Explanation"
+      ],
+      "summary": "Explain the physical processes that have caused the differences between sedimentary logs at X and Y.",
+      "image": "img/2018-summer-gl5-u1/q1bii.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u1-q1c",
+      "paper": "2018-summer-gl5-u1",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Hjulström Curve",
+        "Uniformitarianism",
+        "Palaeohydraulics"
+      ],
+      "skills": [
+        "Concept Application"
+      ],
+      "summary": "Explain how the Hjulström curve may be used to interpret current velocities and reconstruct depositional environments from sedimentary rocks.",
+      "image": "img/2018-summer-gl5-u1/q1c.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u1/ms-q1c.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u2-q1a",
+      "paper": "2018-summer-gl5-u2",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Layered Intrusions",
+        "Bushveld Complex"
+      ],
+      "skills": [
+        "Geological Description"
+      ],
+      "summary": "Describe the size and shape of the Bushveld Complex from Figure 1a (basin/lopolith, 450-470 km across).",
+      "image": "img/2018-summer-gl5-u2/q1a.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u2/ms-q1a.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u2-q1bi",
+      "paper": "2018-summer-gl5-u2",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Ore Concentration",
+        "Chromite Resources"
+      ],
+      "skills": [
+        "Calculation"
+      ],
+      "summary": "Calculate the concentration of chromite in the ore layer in ppm given an enrichment factor of 2,250 and crustal average of 160 ppm (360,000 ppm).",
+      "image": "img/2018-summer-gl5-u2/q1bi.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u2-q1bii",
+      "paper": "2018-summer-gl5-u2",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Magmatic Segregation",
+        "Gravity Settling"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Explain how magmatic segregation processes produce concentrated layers of chromite in the layered series.",
+      "image": "img/2018-summer-gl5-u2/q1bii.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u2-q1biii",
+      "paper": "2018-summer-gl5-u2",
+      "question": "1(b)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Layered Intrusions",
+        "Magma Pulses"
+      ],
+      "skills": [
+        "Mechanism Explanation"
+      ],
+      "summary": "Suggest a mechanism that accounts for the repeated occurrence of chromite-rich layers in the layered series.",
+      "image": "img/2018-summer-gl5-u2/q1biii.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u2/ms-q1biii.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u2-q1c",
+      "paper": "2018-summer-gl5-u2",
+      "question": "1(c)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Mining Environmental Impact",
+        "Planning Controls"
+      ],
+      "skills": [
+        "Environmental Analysis"
+      ],
+      "summary": "Describe an environmental problem caused by mining chromite and explain a planning control used to manage the problem.",
+      "image": "img/2018-summer-gl5-u2/q1c.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u2/ms-q1c.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u2-q1d",
+      "paper": "2018-summer-gl5-u2",
+      "question": "1(d)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "Geophysical Prospecting",
+        "Gravity Survey",
+        "Magnetic Survey"
+      ],
+      "skills": [
+        "Geophysical Evaluation"
+      ],
+      "summary": "Evaluate the use of geophysical prospecting techniques (gravity, magnetic, seismic) to locate chromite ore layers.",
+      "image": "img/2018-summer-gl5-u2/q1d.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u2/ms-q1d.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u3-q1ai",
+      "paper": "2018-summer-gl5-u3",
+      "question": "1(a)(i)",
+      "marks": 4,
+      "page": 2,
+      "topics": [
+        "Fold Plunge",
+        "Geological Maps",
+        "Variscan"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Diagram Annotation"
+      ],
+      "summary": "On Figure 1a draw axial plane traces and plunge directions for the anticline (AAPT, plunge WNW) and syncline (SAPT, plunge ESE).",
+      "image": "img/2018-summer-gl5-u3/q1ai.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u3/ms-q1ai.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u3-q1aii",
+      "paper": "2018-summer-gl5-u3",
+      "question": "1(a)(ii)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "Variscan Orogeny",
+        "Structural Trends"
+      ],
+      "skills": [
+        "Regional Synthesis"
+      ],
+      "summary": "Name the orogeny responsible for the fold structures in Figure 1a and give two reasons based on trend, stress, and age (Variscan).",
+      "image": "img/2018-summer-gl5-u3/q1aii.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u3/ms-q1aii.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u3-q1bi",
+      "paper": "2018-summer-gl5-u3",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Cyclothems",
+        "Sea Level Curves"
+      ],
+      "skills": [
+        "Data Extraction"
+      ],
+      "summary": "Describe the changes in relative sea level shown on Figure 1c in the lower 5 metres of the sedimentary log.",
+      "image": "img/2018-summer-gl5-u3/q1bi.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u3/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u3-q1bii",
+      "paper": "2018-summer-gl5-u3",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Glacio-Eustasy",
+        "Milankovitch Cycles"
+      ],
+      "skills": [
+        "Mechanism Explanation"
+      ],
+      "summary": "Explain a mechanism that accounts for the relative sea level fluctuations in Britain during the Carboniferous.",
+      "image": "img/2018-summer-gl5-u3/q1bii.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u3/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u3-q1ci",
+      "paper": "2018-summer-gl5-u3",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Sequence Stratigraphy",
+        "MFS",
+        "TS"
+      ],
+      "skills": [
+        "Diagram Annotation"
+      ],
+      "summary": "Draw labelled arrows on Figure 1b to show the position of a maximum flooding surface (MFS) and transgressive surface (TS).",
+      "image": "img/2018-summer-gl5-u3/q1ci.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u3/fig-q1bc.jpg",
+        "img/2018-summer-gl5-u3/tab-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u3/ms-q1ci.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u3-q1cii",
+      "paper": "2018-summer-gl5-u3",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Sequence Boundaries",
+        "Sedimentary Facies"
+      ],
+      "skills": [
+        "Evidence Identification"
+      ],
+      "summary": "State evidence from Figure 1b for locating a sequence boundary (SB) at 6.3 metres (fluvial channel arkose with rootlets erosive on marine siltstone).",
+      "image": "img/2018-summer-gl5-u3/q1cii.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u3/fig-q1bc.jpg",
+        "img/2018-summer-gl5-u3/tab-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u3/ms-q1cii.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u4-q1a",
+      "paper": "2018-summer-gl5-u4",
+      "question": "1(a)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "Rock Strength",
+        "Brittle-Ductile Transition"
+      ],
+      "skills": [
+        "Graph Reading",
+        "Table Completion"
+      ],
+      "summary": "Use Figure 1a to complete Table 1a (maximum strength, depth to brittle-ductile transition, brittle gradient).",
+      "image": "img/2018-summer-gl5-u4/q1a.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u4/ms-q1a.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u4-q1bi",
+      "paper": "2018-summer-gl5-u4",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Strain Rate",
+        "Rock Strength"
+      ],
+      "skills": [
+        "Graph Sketching"
+      ],
+      "summary": "Sketch a strength profile on Figure 1a for quartz deformed at a strain rate 100 times slower.",
+      "image": "img/2018-summer-gl5-u4/q1bi.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u4-q1bii",
+      "paper": "2018-summer-gl5-u4",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "Strain Rate",
+        "Calculations"
+      ],
+      "skills": [
+        "Calculation"
+      ],
+      "summary": "Calculate the strain rate at which the quartz is now deformed when compressed 100 times slower (10⁻¹⁵ s⁻¹).",
+      "image": "img/2018-summer-gl5-u4/q1bii.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u4-q1ci",
+      "paper": "2018-summer-gl5-u4",
+      "question": "1(c)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Earthquake Distribution",
+        "Himalaya Tectonics"
+      ],
+      "skills": [
+        "Cross-Section Interpretation",
+        "Table Completion"
+      ],
+      "summary": "Complete Table 1b to describe the distribution of earthquakes beneath the Lesser, Higher, and Tethyan Himalaya.",
+      "image": "img/2018-summer-gl5-u4/q1ci.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u4/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u4/ms-q1ci.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u4-q1cii",
+      "paper": "2018-summer-gl5-u4",
+      "question": "1(c)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Continental Collision",
+        "Seismogenesis"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Explain why earthquakes occur in the Himalaya using Figure 1b and tectonic knowledge (continent-continent collision, thrust faulting).",
+      "image": "img/2018-summer-gl5-u4/q1cii.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u4/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u4/ms-q1cii.jpg"
+    },
+    {
+      "id": "2018-summer-gl5-u4-q1ciii",
+      "paper": "2018-summer-gl5-u4",
+      "question": "1(c)(iii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Lithospheric Strength Profiles",
+        "Earthquake Foci"
+      ],
+      "skills": [
+        "Model Evaluation"
+      ],
+      "summary": "Select and explain the area where earthquake foci best match the bimodal strength model in Figure 1c (Tethyan Himalaya).",
+      "image": "img/2018-summer-gl5-u4/q1ciii.jpg",
+      "figures": [
+        "img/2018-summer-gl5-u4/fig-q1bc.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl5-u4/ms-q1ciii.jpg"
     }
   ],
   "levels": [
