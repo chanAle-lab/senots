@@ -463,6 +463,18 @@
       "spec": "Foundation Geology",
       "totalMarks": 90,
       "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2025-summer-c2",
+      "year": 2025,
+      "series": "Summer",
+      "date": "2025-05-19",
+      "code": "B480U20-1",
+      "unit": "AS Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "Foundation Geology",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
     }
   ],
   "questions": [
@@ -14157,6 +14169,595 @@
       "summary": "Describe how model 1 or model 2 could be tested and give a reason (deep ocean drilling such as JOIDES Resolution 360 to sample lithologies directly).",
       "image": "img/2024-summer-c2/q6bv.jpg",
       "markscheme": "img/2024-summer-c2/ms-q6bv.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q1ai",
+      "paper": "2025-summer-c2",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Name morphological feature X on bivalve fossil A in Figure 1a (muscle scar / adductor muscle scar).",
+      "image": "img/2025-summer-c2/q1ai.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q1ai.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q1aii",
+      "paper": "2025-summer-c2",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Name the fossil group represented by fossil A in Figure 1a (Bivalve).",
+      "image": "img/2025-summer-c2/q1aii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q1aii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q1bi",
+      "paper": "2025-summer-c2",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the pallial sinus index for fossil A using Figure 1a and 1b (PS length 1.5 cm / shell length 5.0 cm = 0.30).",
+      "image": "img/2025-summer-c2/q1bi.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q1bii",
+      "paper": "2025-summer-c2",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Plot the calculated pallial sinus index data point P on Figure 1b.",
+      "image": "img/2025-summer-c2/q1bii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q1biii",
+      "paper": "2025-summer-c2",
+      "question": "1(b)(iii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Explain how one morphological feature of fossil A (pallial sinus, streamlined shape, smooth shell) supports its inferred burrowing mode of life.",
+      "image": "img/2025-summer-c2/q1biii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q1biii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q1ci",
+      "paper": "2025-summer-c2",
+      "question": "1(c)(i)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "State whether the fossil assemblage in Figure 1c is a life or death assemblage and give two supporting reasons (complete articulated shells, unimodal/continuous size distribution).",
+      "image": "img/2025-summer-c2/q1ci.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q1ci.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q1cii",
+      "paper": "2025-summer-c2",
+      "question": "1(c)(ii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Explain the fossilisation processes that replaced the calcite shell of fossil B with silica/quartz (silicification: pore fluids, dissolution, replacement).",
+      "image": "img/2025-summer-c2/q1cii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q1cii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q2a",
+      "paper": "2025-summer-c2",
+      "question": "2(a)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "State the range in percentage gas content for magmas with 70% silica from Figure 2a (approx 1.5%).",
+      "image": "img/2025-summer-c2/q2a.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q2a.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q2bi",
+      "paper": "2025-summer-c2",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Identify the igneous rock shown in Figure 2b (50% silica, 0.2 mm crystals -> Basalt).",
+      "image": "img/2025-summer-c2/q2bi.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q2bi.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q2bii",
+      "paper": "2025-summer-c2",
+      "question": "2(b)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "State the rock texture indicated by features Y in Figure 2b (vesicular) and explain how gas bubbles exsolve and get preserved during rapid cooling.",
+      "image": "img/2025-summer-c2/q2bii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q2bii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q2ci",
+      "paper": "2025-summer-c2",
+      "question": "2(c)(i)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete Table 1 with the magma types for Mauna Loa (mafic) and Mount St Helens (intermediate).",
+      "image": "img/2025-summer-c2/q2ci.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q2ci.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q2cii",
+      "paper": "2025-summer-c2",
+      "question": "2(c)(ii)",
+      "marks": 4,
+      "page": 9,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain how magma composition and viscosity produce volcanoes of differing shape and width (Mauna Loa shield vs Mount St Helens stratovolcano).",
+      "image": "img/2025-summer-c2/q2cii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q2cii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q2d",
+      "paper": "2025-summer-c2",
+      "question": "2(d)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Evaluate the usefulness of monitoring volcanic gas emissions for predicting volcanic eruptions.",
+      "image": "img/2025-summer-c2/q2d.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q2d.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q3a",
+      "paper": "2025-summer-c2",
+      "question": "3(a)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "Complete Table 2 matching the Goldschmidt classification groups (atmophile, lithophile, chalcophile, siderophile) to their descriptions.",
+      "image": "img/2025-summer-c2/q3a.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q3a.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q3bi",
+      "paper": "2025-summer-c2",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete Table 3 by adding the percentages of iron (30-34%) and silicon (13-17%) for the Allende meteorite.",
+      "image": "img/2025-summer-c2/q3bi.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q3bi.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q3bii",
+      "paper": "2025-summer-c2",
+      "question": "3(b)(ii)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "Explain similarities in composition between the whole Earth and Allende meteorite and differences with the Earth's crust (planetary differentiation).",
+      "image": "img/2025-summer-c2/q3bii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q3bii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q3ci",
+      "paper": "2025-summer-c2",
+      "question": "3(c)(i)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify mineral M in the mantle xenolith in Figure 3b using the mineral data sheet (Olivine).",
+      "image": "img/2025-summer-c2/q3ci.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q3ci.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q3cii",
+      "paper": "2025-summer-c2",
+      "question": "3(c)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain how the mantle peridotite xenolith was incorporated into magma and brought to the surface without complete melting.",
+      "image": "img/2025-summer-c2/q3cii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q3cii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q3di",
+      "paper": "2025-summer-c2",
+      "question": "3(d)(i)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "State which isochron sample (Q or R) represents the Allende meteorite and explain why (sample Q: steeper slope reflects greater age and decay).",
+      "image": "img/2025-summer-c2/q3di.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q3di.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q3dii",
+      "paper": "2025-summer-c2",
+      "question": "3(d)(ii)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Define what is meant by the term radioactive half-life.",
+      "image": "img/2025-summer-c2/q3dii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q3dii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q3diii",
+      "paper": "2025-summer-c2",
+      "question": "3(d)(iii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Explain why Samarium-147 is suitable for dating the Allende meteorite rather than Carbon-14 (half-life timescale comparison).",
+      "image": "img/2025-summer-c2/q3diii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q3diii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q3e",
+      "paper": "2025-summer-c2",
+      "question": "3(e)",
+      "marks": 4,
+      "page": 13,
+      "topics": [
+        "1.1",
+        "4.1"
+      ],
+      "skills": [
+        "geological-data"
+      ],
+      "summary": "Evaluate the statement that mantle xenoliths are more useful than meteorites for understanding the composition of the whole Earth.",
+      "image": "img/2025-summer-c2/q3e.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q3e.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q4ai",
+      "paper": "2025-summer-c2",
+      "question": "4(a)(i)",
+      "marks": 4,
+      "page": 15,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the sedimentary texture of bed C shown in Figure 4b (clastic, coarse clasts, sub-angular/sub-rounded, poor sorting, finer matrix).",
+      "image": "img/2025-summer-c2/q4ai.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q4ai.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q4aii",
+      "paper": "2025-summer-c2",
+      "question": "4(a)(ii)",
+      "marks": 1,
+      "page": 15,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete Figure 4a by drawing bed C into the graphic log (>2mm coarse gravel width).",
+      "image": "img/2025-summer-c2/q4aii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q4aii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q4bi",
+      "paper": "2025-summer-c2",
+      "question": "4(b)(i)",
+      "marks": 1,
+      "page": 16,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "State the sediment transport mode in zone W on Figure 4c (Saltation).",
+      "image": "img/2025-summer-c2/q4bi.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q4bi.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q4bii",
+      "paper": "2025-summer-c2",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete Table 5 using Figure 4b and 4c (maximum length of clast Z: 10 cm; minimum velocity needed: 10 m/s).",
+      "image": "img/2025-summer-c2/q4bii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q4bii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q4biii",
+      "paper": "2025-summer-c2",
+      "question": "4(b)(iii)",
+      "marks": 3,
+      "page": 16,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Evaluate the statement that bed C formed in a high energy environment where traction was the dominant mode of transport.",
+      "image": "img/2025-summer-c2/q4biii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q4biii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q4c",
+      "paper": "2025-summer-c2",
+      "question": "4(c)",
+      "marks": 6,
+      "page": 16,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe and explain the environments of deposition represented in graphic log Figure 4a (playa lake, dune/channel, wadi/alluvial fan flash flood) [QER].",
+      "image": "img/2025-summer-c2/q4c.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q4c.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q5a",
+      "paper": "2025-summer-c2",
+      "question": "5(a)",
+      "marks": 3,
+      "page": 18,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the relationship between global temperature change and extinction rate shown in Figure 5a.",
+      "image": "img/2025-summer-c2/q5a.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q5a.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q5bi",
+      "paper": "2025-summer-c2",
+      "question": "5(b)(i)",
+      "marks": 1,
+      "page": 19,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Name the two geological periods separated by the mass extinction peak at point P in Figure 5b (Permian and Triassic).",
+      "image": "img/2025-summer-c2/q5bi.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q5bi.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q5bii",
+      "paper": "2025-summer-c2",
+      "question": "5(b)(ii)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Explain why event P is classified as a mass extinction (rapid extinction of diverse marine and terrestrial taxa on a global scale).",
+      "image": "img/2025-summer-c2/q5bii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q5bii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q5ci",
+      "paper": "2025-summer-c2",
+      "question": "5(c)(i)",
+      "marks": 3,
+      "page": 20,
+      "topics": [
+        "2.2",
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Explain how decompression partial melting occurs in the head of a rising mantle plume as shown in Figure 5c.",
+      "image": "img/2025-summer-c2/q5ci.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q5ci.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q5cii",
+      "paper": "2025-summer-c2",
+      "question": "5(c)(ii)",
+      "marks": 2,
+      "page": 20,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [],
+      "summary": "Suggest reasons why the head of the mantle plume spreads laterally upon impinging on the base of the lithosphere.",
+      "image": "img/2025-summer-c2/q5cii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q5cii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q6ai",
+      "paper": "2025-summer-c2",
+      "question": "6(a)(i)",
+      "marks": 3,
+      "page": 22,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the metamorphic texture of rock unit D in Figure 6b (crystalline, foliated/schistosity, porphyroblasts).",
+      "image": "img/2025-summer-c2/q6ai.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q6ai.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q6aii",
+      "paper": "2025-summer-c2",
+      "question": "6(a)(ii)",
+      "marks": 1,
+      "page": 22,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Name the metamorphic rock type forming rock unit D (Schist).",
+      "image": "img/2025-summer-c2/q6aii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q6aii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q6bi",
+      "paper": "2025-summer-c2",
+      "question": "6(b)(i)",
+      "marks": 4,
+      "page": 23,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Draw the texture of the Brixner Granite in Figure 6c (coarse, equicrystalline, interlocking anhedral crystals) with an appropriate scale.",
+      "image": "img/2025-summer-c2/q6bi.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q6bi.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q6bii",
+      "paper": "2025-summer-c2",
+      "question": "6(b)(ii)",
+      "marks": 2,
+      "page": 23,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain what the coarse equicrystalline texture of the granite indicates about its magmatic cooling history (slow steady cooling at depth).",
+      "image": "img/2025-summer-c2/q6bii.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q6bii.jpg"
+    },
+    {
+      "id": "2025-summer-c2-q6c",
+      "paper": "2025-summer-c2",
+      "question": "6(c)",
+      "marks": 6,
+      "page": 24,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Evaluate the statement that rocks north of the Brixner Granite are metamorphic rocks formed by contact metamorphism showing increasing grade northwards [QER].",
+      "image": "img/2025-summer-c2/q6c.jpg",
+      "markscheme": "img/2025-summer-c2/ms-q6c.jpg"
     }
   ],
   "levels": [
