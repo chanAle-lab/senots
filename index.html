@@ -527,6 +527,119 @@ body {
   background: rgba(22, 163, 74, 0.08);
 }
 
+.q-select-chk-label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+.q-select-chk {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: var(--ink);
+  margin: 0;
+}
+.q-card.is-selected {
+  border-color: var(--ink);
+  box-shadow: 0 0 0 1px var(--ink);
+}
+
+/* Floating Selection Dock */
+.selection-dock {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(0);
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.16);
+  border-radius: var(--radius-lg);
+  padding: 10px 18px;
+  z-index: 95;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  max-width: calc(100vw - 32px);
+  box-sizing: border-box;
+}
+.selection-dock.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-50%) translateY(24px);
+}
+.selection-dock-info {
+  font-size: 0.85rem;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.selection-dock-info b {
+  font-weight: 600;
+}
+.selection-dock-opts {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.8rem;
+  color: var(--ink-secondary);
+  border-left: 1px solid var(--border);
+  padding-left: 12px;
+  white-space: nowrap;
+}
+.selection-dock-opts label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.selection-dock-opts input[type="checkbox"] {
+  accent-color: var(--ink);
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+}
+.selection-dock-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-left: 1px solid var(--border);
+  padding-left: 12px;
+  white-space: nowrap;
+}
+.btn-print-primary {
+  background: var(--ink);
+  color: var(--surface);
+  border: 1px solid var(--ink);
+  border-radius: var(--radius);
+  padding: 6px 14px;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: opacity 0.15s;
+}
+.btn-print-primary:hover {
+  opacity: 0.88;
+}
+@media (max-width: 820px) {
+  .selection-dock {
+    bottom: 12px;
+    padding: 10px 14px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .selection-dock-opts, .selection-dock-actions {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
 .q-citation {
   font-size: 0.8rem;
   color: var(--muted);
@@ -1018,6 +1131,195 @@ footer {
   .split-view { grid-template-columns: 1fr; height: auto; }
   .split-pane { height: 45vh; }
 }
+
+/* ========================================================
+   Print & PDF Export Stylesheet (A4 Layout)
+   ======================================================== */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm 12mm 12mm 12mm;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #111111 !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    font-size: 10pt !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* When printing custom question pack */
+  body.is-printing-pack #lock-screen,
+  body.is-printing-pack #app-root,
+  body.is-printing-pack .modal-overlay,
+  body.is-printing-pack .toast,
+  body.is-printing-pack .selection-dock {
+    display: none !important;
+  }
+
+  #print-container {
+    display: none;
+  }
+
+  body.is-printing-pack #print-container {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  /* Default print cleanup when printing normal page */
+  body:not(.is-printing-pack) .site-header,
+  body:not(.is-printing-pack) .filter-panel,
+  body:not(.is-printing-pack) .status-bar,
+  body:not(.is-printing-pack) .selection-dock,
+  body:not(.is-printing-pack) .q-actions,
+  body:not(.is-printing-pack) .q-footer,
+  body:not(.is-printing-pack) .btn-compare-link,
+  body:not(.is-printing-pack) .sheet-topic-bar,
+  body:not(.is-printing-pack) .flashcard-toolbar,
+  body:not(.is-printing-pack) .flashcard-footer-nav,
+  body:not(.is-printing-pack) .flashcard-shortcuts-tip,
+  body:not(.is-printing-pack) .modal-overlay,
+  body:not(.is-printing-pack) .toast,
+  body:not(.is-printing-pack) #lock-screen,
+  body:not(.is-printing-pack) .btn-minimal,
+  body:not(.is-printing-pack) .q-select-chk-label,
+  body:not(.is-printing-pack) footer {
+    display: none !important;
+  }
+
+  body:not(.is-printing-pack) .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  body:not(.is-printing-pack) .sheet-card {
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+
+  body:not(.is-printing-pack) .sheet-section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Custom Print Pack Components */
+  .print-pack-head {
+    border-bottom: 2pt solid #111;
+    padding-bottom: 8pt;
+    margin-bottom: 18pt;
+  }
+  .print-pack-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .print-pack-title {
+    font-size: 15pt;
+    font-weight: 700;
+    margin: 0;
+    color: #111;
+  }
+  .print-pack-date {
+    font-size: 9pt;
+    color: #555;
+  }
+  .print-pack-meta {
+    font-size: 9pt;
+    color: #333;
+    margin-top: 5pt;
+    line-height: 1.45;
+  }
+  .print-pack-q-item {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 22pt;
+    padding-bottom: 16pt;
+    border-bottom: 1pt solid #ccc;
+  }
+  .print-pack-q-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3pt;
+  }
+  .print-pack-q-title {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #111;
+    margin: 0;
+  }
+  .print-pack-q-marks {
+    font-size: 9pt;
+    font-weight: 700;
+    border: 1pt solid #222;
+    padding: 1pt 5pt;
+    border-radius: 2pt;
+  }
+  .print-pack-q-citation {
+    font-size: 8.5pt;
+    color: #555;
+    margin-bottom: 4pt;
+  }
+  .print-pack-q-summary {
+    font-size: 9pt;
+    color: #222;
+    margin-bottom: 8pt;
+  }
+  .print-pack-img-block {
+    text-align: center;
+    margin: 6pt 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .print-pack-img-block img {
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 225mm;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+  .print-pack-fig-label {
+    font-size: 8.5pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #444;
+    text-align: left;
+    margin: 8pt 0 4pt;
+  }
+  .print-pack-ms-block {
+    margin-top: 10pt;
+    padding-top: 8pt;
+    border-top: 1pt dashed #888;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .print-pack-ms-title {
+    font-size: 8.5pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #15803d;
+    margin-bottom: 4pt;
+  }
+  .print-pack-footer {
+    font-size: 8pt;
+    color: #666;
+    text-align: center;
+    margin-top: 24pt;
+    padding-top: 8pt;
+    border-top: 1pt solid #ccc;
+  }
+}
 </style>
 </head>
 <body>
@@ -1106,8 +1408,11 @@ footer {
 
     <!-- Results Status Bar -->
     <div class="status-bar" id="status-bar">
-      <span id="results-count-msg">Loading...</span>
-      <span id="results-active-tag"></span>
+      <div>
+        <span id="results-count-msg">Loading...</span>
+        <span id="results-active-tag"></span>
+      </div>
+      <div id="results-selection-actions" style="display:none;align-items:center;gap:6px"></div>
     </div>
 
     <!-- Active View Mount -->
@@ -1117,6 +1422,29 @@ footer {
       WJEC Eduqas AS & A level Geology revision aid. Exam papers, figures and mark schemes © WJEC CBAC Ltd.
     </footer>
   </main>
+
+  <!-- Floating Selection Dock for Print / Export -->
+  <div id="selection-dock" class="selection-dock hidden" role="region" aria-label="Selected questions toolbar">
+    <div class="selection-dock-info">
+      <span id="sel-count-txt"><b>0</b> questions selected</span> · <span id="sel-marks-txt">0m</span>
+    </div>
+    <div class="selection-dock-opts">
+      <label title="Include official WJEC mark schemes">
+        <input type="checkbox" id="sel-dock-ms">
+        <span>Include mark schemes</span>
+      </label>
+      <label title="Include resource diagrams & photos">
+        <input type="checkbox" id="sel-dock-fig" checked>
+        <span>Include figures</span>
+      </label>
+    </div>
+    <div class="selection-dock-actions">
+      <button type="button" class="btn-minimal" id="btn-dock-clear" onclick="clearSelection()" title="Clear selected questions">Clear</button>
+      <button type="button" class="btn-print-primary" id="btn-dock-print" onclick="printSelectedQuestions()" title="Print or save selected questions to PDF">
+        Export PDF / Print
+      </button>
+    </div>
+  </div>
 </div>
 
 <!-- Lightbox Modal -->
@@ -1136,6 +1464,9 @@ footer {
 
 <!-- Toast -->
 <div class="toast" id="toast"></div>
+
+<!-- Dedicated Print & PDF Export Mount -->
+<div id="print-container"></div>
 
 <script>
 /* ========================================================
@@ -1262,6 +1593,239 @@ let state = {
 
 let mastered = new Set(JSON.parse(localStorage.getItem('senots_mastered') || '[]'));
 let bookmarked = new Set(JSON.parse(localStorage.getItem('senots_bookmarked') || '[]'));
+let selectedQuestions = new Set();
+
+function toggleSelectQuestion(id, checked) {
+  if (checked) {
+    selectedQuestions.add(id);
+  } else {
+    selectedQuestions.delete(id);
+  }
+  const card = $(`#q-${id}`);
+  if (card) {
+    card.classList.toggle('is-selected', checked);
+    const chk = card.querySelector('.q-select-chk');
+    if (chk) chk.checked = checked;
+  }
+  updateSelectionDock();
+  updateStatusSelectionInfo();
+}
+
+function selectAllFiltered() {
+  const list = filtered();
+  list.forEach(q => {
+    selectedQuestions.add(q.id);
+    const card = $(`#q-${q.id}`);
+    if (card) {
+      card.classList.add('is-selected');
+      const chk = card.querySelector('.q-select-chk');
+      if (chk) chk.checked = true;
+    }
+  });
+  updateSelectionDock();
+  updateStatusSelectionInfo();
+  showToast(`Selected ${list.length} questions`);
+}
+
+function clearSelection() {
+  selectedQuestions.clear();
+  $$('.q-card.is-selected').forEach(c => c.classList.remove('is-selected'));
+  $$('.q-select-chk').forEach(c => c.checked = false);
+  updateSelectionDock();
+  updateStatusSelectionInfo();
+  showToast('Selection cleared');
+}
+
+function updateSelectionDock() {
+  const dock = $('#selection-dock');
+  if (!dock) return;
+  const count = selectedQuestions.size;
+  if (count === 0 || state.view !== 'cards') {
+    dock.classList.add('hidden');
+    return;
+  }
+  dock.classList.remove('hidden');
+
+  let marks = 0;
+  if (D && D.questions) {
+    D.questions.forEach(q => {
+      if (selectedQuestions.has(q.id)) marks += q.marks;
+    });
+  }
+
+  $('#sel-count-txt').innerHTML = `<b>${count}</b> ${count === 1 ? 'question' : 'questions'} selected`;
+  $('#sel-marks-txt').textContent = `${marks}m`;
+  $('#btn-dock-print').textContent = `Export PDF / Print (${count})`;
+}
+
+function updateStatusSelectionInfo() {
+  const container = $('#results-selection-actions');
+  if (!container) return;
+  if (state.view !== 'cards') {
+    container.style.display = 'none';
+    return;
+  }
+  container.style.display = 'inline-flex';
+  const list = filtered();
+  const count = selectedQuestions.size;
+  if (count === 0) {
+    container.innerHTML = `<button type="button" class="btn-minimal" style="padding:2px 8px;font-size:0.75rem" onclick="selectAllFiltered()">Select All (${list.length})</button>`;
+  } else {
+    container.innerHTML = `
+      <span style="font-size:0.78rem;color:var(--ink);font-weight:600">${count} selected</span>
+      <button type="button" class="btn-minimal" style="padding:2px 8px;font-size:0.75rem" onclick="selectAllFiltered()">Select All (${list.length})</button>
+      <button type="button" class="btn-minimal" style="padding:2px 8px;font-size:0.75rem" onclick="clearSelection()">Clear</button>
+      <button type="button" class="btn-minimal" style="padding:2px 8px;font-size:0.75rem;font-weight:600;color:var(--ink)" onclick="printSelectedQuestions()">Print / PDF</button>
+    `;
+  }
+}
+
+function printSingleQuestion(id) {
+  const q = D.questions.find(x => x.id === id);
+  if (!q) return;
+  const includeMS = $('#sel-dock-ms') && $('#sel-dock-ms').checked;
+  const withMS = includeMS || (q.markscheme && confirm('Include mark scheme in this print / PDF export?\n\n• OK: Question and Mark Scheme\n• Cancel: Question only'));
+  executePrintQuestions([q], {
+    title: `Question ${q.question} (${q.marks}m)`,
+    includeMS: withMS,
+    includeFigures: true
+  });
+}
+
+function printSelectedQuestions() {
+  if (!selectedQuestions.size) {
+    showToast('No questions selected. Use checkboxes to select questions first.');
+    return;
+  }
+  const qs = D.questions.filter(q => selectedQuestions.has(q.id));
+  const includeMS = $('#sel-dock-ms') ? $('#sel-dock-ms').checked : false;
+  const includeFig = $('#sel-dock-fig') ? $('#sel-dock-fig').checked : true;
+  executePrintQuestions(qs, {
+    title: 'Selected Questions Pack',
+    includeMS: includeMS,
+    includeFigures: includeFig
+  });
+}
+
+function printCurrentCheatsheet() {
+  window.print();
+}
+
+async function executePrintQuestions(questions, options = {}) {
+  if (!questions || !questions.length) {
+    showToast('No questions to print.');
+    return;
+  }
+
+  const includeMS = !!options.includeMS;
+  const includeFigures = options.includeFigures !== false;
+  const title = options.title || 'Custom Question Pack';
+
+  let printContainer = $('#print-container');
+  if (!printContainer) {
+    printContainer = document.createElement('div');
+    printContainer.id = 'print-container';
+    document.body.appendChild(printContainer);
+  }
+
+  const totalMarks = questions.reduce((sum, q) => sum + q.marks, 0);
+  const topicSet = new Set();
+  questions.forEach(q => (q.topics || []).forEach(t => topicSet.add(t)));
+  const topicsSummary = Array.from(topicSet).map(t => `${t} ${T[t] ? T[t].name : ''}`).join(', ');
+  const dateStr = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+
+  let itemsHtml = questions.map(q => {
+    const p = D.P[q.paper] || {};
+    const qTopics = (q.topics || []).map(t => `${t} ${T[t] ? T[t].name : ''}`).join(' · ');
+    const qSkills = (q.skills || []).map(s => S[s] ? S[s].name : s).join(' · ');
+
+    let figHtml = '';
+    if (includeFigures && q.figures && q.figures.length) {
+      figHtml = q.figures.map(f => `
+        <div class="print-pack-img-block">
+          <div class="print-pack-fig-label">Resource: ${esc(figLabel(f))}</div>
+          <img src="${esc(f)}" alt="${esc(figLabel(f))}">
+        </div>
+      `).join('');
+    }
+
+    let msHtml = '';
+    if (includeMS && q.markscheme) {
+      msHtml = `
+        <div class="print-pack-ms-block">
+          <div class="print-pack-ms-title">Mark Scheme — Question ${esc(q.question)}</div>
+          <div class="print-pack-img-block">
+            <img src="${esc(q.markscheme)}" alt="Mark Scheme Question ${esc(q.question)}">
+          </div>
+        </div>
+      `;
+    }
+
+    return `
+      <article class="print-pack-q-item">
+        <div class="print-pack-q-head">
+          <h2 class="print-pack-q-title">Question ${esc(q.question)}</h2>
+          <span class="print-pack-q-marks">${q.marks} ${q.marks === 1 ? 'mark' : 'marks'}</span>
+        </div>
+        <div class="print-pack-q-citation">${esc(p.series || '')} ${p.year || ''} · ${esc(p.unit || '')} (${esc(p.code || '')}) · Page ${q.page || ''}</div>
+        ${qTopics ? `<div class="print-pack-q-citation">Topics: ${esc(qTopics)}${qSkills ? ' | Skills: ' + esc(qSkills) : ''}</div>` : ''}
+        ${q.summary ? `<div class="print-pack-q-summary">${esc(q.summary)}</div>` : ''}
+
+        <div class="print-pack-img-block">
+          <img src="${esc(q.image)}" alt="Question ${esc(q.question)}">
+        </div>
+
+        ${figHtml}
+        ${msHtml}
+      </article>
+    `;
+  }).join('');
+
+  printContainer.innerHTML = `
+    <header class="print-pack-head">
+      <div class="print-pack-title-row">
+        <h1 class="print-pack-title">SENOTS Geology — ${esc(title)}</h1>
+        <div class="print-pack-date">${dateStr}</div>
+      </div>
+      <div class="print-pack-meta">
+        ${questions.length} ${questions.length === 1 ? 'question' : 'questions'} · 
+        ${totalMarks} total marks
+        ${topicsSummary ? `<br>Topics: ${esc(topicsSummary)}` : ''}
+      </div>
+    </header>
+    <main class="print-pack-list">
+      ${itemsHtml}
+    </main>
+    <footer class="print-pack-footer">
+      WJEC Eduqas AS & A level Geology revision aid. Exam papers, figures and mark schemes © WJEC CBAC Ltd. Generated via SENOTS.
+    </footer>
+  `;
+
+  showToast('Preparing PDF / print preview...');
+
+  const imgs = Array.from(printContainer.querySelectorAll('img'));
+  await Promise.all(imgs.map(img => {
+    if (img.complete && img.naturalWidth > 0) return Promise.resolve();
+    return new Promise(resolve => {
+      img.onload = img.onerror = resolve;
+      if (img.decode) {
+        img.decode().then(resolve).catch(resolve);
+      }
+    });
+  }));
+
+  document.body.classList.add('is-printing-pack');
+
+  setTimeout(() => {
+    window.print();
+  }, 100);
+}
+
+window.addEventListener('afterprint', () => {
+  document.body.classList.remove('is-printing-pack');
+  const printContainer = $('#print-container');
+  if (printContainer) printContainer.innerHTML = '';
+});
 
 function saveMastered() {
   localStorage.setItem('senots_mastered', JSON.stringify([...mastered]));
@@ -1536,6 +2100,8 @@ function render() {
       renderCards(list);
     }
   }
+  updateSelectionDock();
+  updateStatusSelectionInfo();
 }
 
 /* ========================================================
@@ -1603,18 +2169,23 @@ function renderCard(x) {
   const p = D.P[x.paper];
   const isMastered = mastered.has(x.id);
   const isBookmarked = bookmarked.has(x.id);
+  const isSelected = selectedQuestions.has(x.id);
 
   const tags = x.topics.map(t => `<a class="q-tag" href="#view=cards&topic=${t}">${esc(t)} ${esc(T[t] ? T[t].name : '')}</a>`).join('')
     + x.skills.map(s => `<span class="q-tag">${esc(S[s] ? S[s].name : s)}</span>`).join('');
 
   return `
-    <article class="q-card" id="q-${x.id}">
+    <article class="q-card ${isSelected ? 'is-selected' : ''}" id="q-${x.id}">
       <div class="q-card-header">
         <div class="q-title-wrap">
+          <label class="q-select-chk-label" title="Select for export / print">
+            <input type="checkbox" class="q-select-chk" data-qid="${x.id}" ${isSelected ? 'checked' : ''} onchange="toggleSelectQuestion('${x.id}', this.checked)">
+          </label>
           <h2 class="q-title">Question ${esc(x.question)}</h2>
           <span class="q-mark">${x.marks} ${x.marks === 1 ? 'mark' : 'marks'}</span>
         </div>
         <div class="q-actions">
+          <button type="button" class="btn-q-action" onclick="printSingleQuestion('${x.id}')" title="Print or save as PDF">Print / PDF</button>
           <button type="button" class="btn-q-action ${isBookmarked ? 'active-star' : ''}" onclick="toggleBookmark('${x.id}', this)">
             ${isBookmarked ? 'Bookmarked' : 'Bookmark'}
           </button>
@@ -2158,9 +2729,14 @@ function renderCheatsheets() {
             <h2 class="sheet-title">${esc(current.title)}</h2>
             <div class="sheet-spec"><b>Specification:</b> ${esc(current.spec)}</div>
           </div>
-          <button type="button" class="btn-minimal" onclick="startPracticeForTopic('${activeSheetTopic}')">
-            Practice flashcards for this topic →
-          </button>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button type="button" class="btn-minimal" onclick="printCurrentCheatsheet()" title="Print or export cheatsheet to PDF">
+              Print / PDF
+            </button>
+            <button type="button" class="btn-minimal" onclick="startPracticeForTopic('${activeSheetTopic}')">
+              Practice flashcards for this topic →
+            </button>
+          </div>
         </div>
         ${sectionsHtml}
       </article>
