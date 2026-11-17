@@ -907,6 +907,54 @@
       "totalMarks": 15,
       "duration": "1 hour (Section A)",
       "level": "A2"
+    },
+    {
+      "id": "2019-summer-gl4",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-04",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting the Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "2 hours (Section A: 1 hour)",
+      "level": "A2"
+    },
+    {
+      "id": "2019-summer-gl5-u1",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-06",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2019-summer-gl5-u2",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-06",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2019-summer-gl5-u4",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-06",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
     }
   ],
   "questions": [
@@ -23450,6 +23498,979 @@
         "img/2018-summer-gl5-u4/fig-q1bc.jpg"
       ],
       "markscheme": "img/2018-summer-gl5-u4/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q1ai",
+      "paper": "2019-summer-gl4",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Igneous Intrusions",
+        "Sills",
+        "Chilled Margins"
+      ],
+      "skills": [
+        "Diagram Labelling"
+      ],
+      "summary": "In box A on Figure 1a, mark and label the top and bottom margins of the sill.",
+      "image": "img/2019-summer-gl4/q1ai.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q1ai.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q1aii",
+      "paper": "2019-summer-gl4",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Thermal Metamorphism",
+        "Hornfels"
+      ],
+      "skills": [
+        "Diagram Labelling"
+      ],
+      "summary": "Mark and label a possible location for the rock type hornfels using arrow H on Figure 1a.",
+      "image": "img/2019-summer-gl4/q1aii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q1aii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q1bi",
+      "paper": "2019-summer-gl4",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Igneous Textures",
+        "Cooling Rates",
+        "Crystal Size"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Describe and explain the variation in crystal size within the sill shown in Figure 1a.",
+      "image": "img/2019-summer-gl4/q1bi.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q1bii",
+      "paper": "2019-summer-gl4",
+      "question": "1(b)(ii)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "Fractional Crystallisation",
+        "Gravity Differentiation",
+        "Olivine"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Explain the variation in mineral content within the sill (gravity settling of dense early-formed olivine).",
+      "image": "img/2019-summer-gl4/q1bii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q1ci",
+      "paper": "2019-summer-gl4",
+      "question": "1(c)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Columnar Jointing",
+        "Igneous Structures"
+      ],
+      "skills": [
+        "Structure Identification",
+        "Process Description"
+      ],
+      "summary": "Identify the structures within the sill in Figure 1b and explain their origin (columnar joints, thermal contraction).",
+      "image": "img/2019-summer-gl4/q1ci.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q1ci.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q1cii",
+      "paper": "2019-summer-gl4",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Sills vs Lava Flows",
+        "Jointing"
+      ],
+      "skills": [
+        "Evaluation"
+      ],
+      "summary": "Evaluate the use of columnar jointing in confirming that the igneous body is a sill rather than a lava flow.",
+      "image": "img/2019-summer-gl4/q1cii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q1cii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q2ai",
+      "paper": "2019-summer-gl4",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Trilobite Morphology",
+        "Palaeontology"
+      ],
+      "skills": [
+        "Evaluation"
+      ],
+      "summary": "Evaluate a student's description of trilobite A (absence of genal spines, pygidium smaller than cephalon).",
+      "image": "img/2019-summer-gl4/q2ai.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q2ai.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q2aii",
+      "paper": "2019-summer-gl4",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Trilobite Morphology",
+        "Exoskeleton Anatomy"
+      ],
+      "skills": [
+        "Comparative Analysis"
+      ],
+      "summary": "State two differences between the segments of the thorax and the pygidium of trilobite A (articulated vs fused).",
+      "image": "img/2019-summer-gl4/q2aii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q2aii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q2b",
+      "paper": "2019-summer-gl4",
+      "question": "2(b)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Mode of Life",
+        "Functional Morphology",
+        "Trilobites"
+      ],
+      "skills": [
+        "Evidence Identification"
+      ],
+      "summary": "Suggest a possible former mode of life for trilobite B using two pieces of morphological evidence (nektonic swimmer; large eyes, streamlined body).",
+      "image": "img/2019-summer-gl4/q2b.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q2b.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q2ci",
+      "paper": "2019-summer-gl4",
+      "question": "2(c)(i)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "Biometrics",
+        "Scattergraphs"
+      ],
+      "skills": [
+        "Measurement",
+        "Graph Plotting"
+      ],
+      "summary": "Measure the maximum width and length of the pygidium of trilobite A in Figure 2a and plot on Figure 2b (20mm × 30mm).",
+      "image": "img/2019-summer-gl4/q2ci.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q2a.jpg",
+        "img/2019-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q2ci.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q2cii",
+      "paper": "2019-summer-gl4",
+      "question": "2(c)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Biometrics",
+        "Ontogeny"
+      ],
+      "skills": [
+        "Data Description"
+      ],
+      "summary": "Describe the distribution of data on Figure 2b (strong positive correlation, discrete clusters).",
+      "image": "img/2019-summer-gl4/q2cii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q2cii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q2ciii",
+      "paper": "2019-summer-gl4",
+      "question": "2(c)(iii)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "Fossil Assemblages",
+        "Moulting",
+        "Ontogeny"
+      ],
+      "skills": [
+        "Hypothesis Evaluation"
+      ],
+      "summary": "Suggest, giving reasons, which conclusion in Table 2 (X, Y or Z) is the most likely explanation for Figure 2b (Y: life assemblage / moulting).",
+      "image": "img/2019-summer-gl4/q2ciii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q2b.jpg",
+        "img/2019-summer-gl4/tab-q2.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q2ciii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q2d",
+      "paper": "2019-summer-gl4",
+      "question": "2(d)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "Uniformitarianism",
+        "Morphology and Mode of Life"
+      ],
+      "skills": [
+        "Scientific Explanation"
+      ],
+      "summary": "Explain why there are fewer problems in accurately relating morphology to mode of life in bivalves and brachiopods than in trilobites (living relatives).",
+      "image": "img/2019-summer-gl4/q2d.jpg",
+      "figures": [],
+      "markscheme": "img/2019-summer-gl4/ms-q2d.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q3ai",
+      "paper": "2019-summer-gl4",
+      "question": "3(a)(i)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "Fold Geometry",
+        "Structural Elements"
+      ],
+      "skills": [
+        "Table Completion"
+      ],
+      "summary": "Complete Table 3 to describe the fold elements of the major fold in Figure 3a (antiform, strike N-S).",
+      "image": "img/2019-summer-gl4/q3ai.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q3ai.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q3aii",
+      "paper": "2019-summer-gl4",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Competent vs Incompetent Folding",
+        "Minor Folds"
+      ],
+      "skills": [
+        "Comparative Analysis"
+      ],
+      "summary": "Describe how wavelength and symmetry of the minor folds in shale differ from the fold in sandstone (shorter wavelength, asymmetrical).",
+      "image": "img/2019-summer-gl4/q3aii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q3aii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q3aiii",
+      "paper": "2019-summer-gl4",
+      "question": "3(a)(iii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "Rheology",
+        "Ductile vs Elastic Behaviour",
+        "Folding"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Explain the difference in the way shale and sandstone responded to stress during folding (incompetent ductile vs competent elastic-brittle).",
+      "image": "img/2019-summer-gl4/q3aiii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q3aiii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q3bi",
+      "paper": "2019-summer-gl4",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "Dykes",
+        "Fault Outcrops"
+      ],
+      "skills": [
+        "Geological Drawing"
+      ],
+      "summary": "Complete Figure 3a north of the fault outcrop by sketching the outcrop of the dolerite dyke on the top surface.",
+      "image": "img/2019-summer-gl4/q3bi.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q3bi.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q3bii",
+      "paper": "2019-summer-gl4",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Fold Outcrop Patterns",
+        "Fault Displacement"
+      ],
+      "skills": [
+        "Geological Drawing"
+      ],
+      "summary": "Complete Figure 3a north of the fault outcrop by sketching the probable outcrop of the shale on the top surface.",
+      "image": "img/2019-summer-gl4/q3bii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q3bii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q3ci",
+      "paper": "2019-summer-gl4",
+      "question": "3(c)(i)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "Fault Plane Features",
+        "Slickensides"
+      ],
+      "skills": [
+        "Structure Identification"
+      ],
+      "summary": "Name the structures exposed on the fault plane in Figure 3b (slickensides / fault striations).",
+      "image": "img/2019-summer-gl4/q3ci.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q3ci.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q3cii",
+      "paper": "2019-summer-gl4",
+      "question": "3(c)(ii)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "Fault Slip Indicators",
+        "Slickensides"
+      ],
+      "skills": [
+        "Critical Assessment"
+      ],
+      "summary": "Critically assess the use of slickensides in determining fault movement in the field (orientation, sense of slip, reactivation limitations).",
+      "image": "img/2019-summer-gl4/q3cii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q3cii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q4ai",
+      "paper": "2019-summer-gl4",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "Geological Timescale",
+        "Palaeozoic"
+      ],
+      "skills": [
+        "Diagram Labelling"
+      ],
+      "summary": "In box X on Figure 4a mark and label the extent of the Palaeozoic era.",
+      "image": "img/2019-summer-gl4/q4ai.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q4ai.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q4aii",
+      "paper": "2019-summer-gl4",
+      "question": "4(a)(ii)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "Sepkoski Evolutionary Faunas"
+      ],
+      "skills": [
+        "Data Extraction"
+      ],
+      "summary": "State the most abundant Phanerozoic fauna that existed during the Silurian (Palaeozoic fauna).",
+      "image": "img/2019-summer-gl4/q4aii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q4aii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q4aiii",
+      "paper": "2019-summer-gl4",
+      "question": "4(a)(iii)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "Faunal Turnover",
+        "Mass Extinctions"
+      ],
+      "skills": [
+        "Graph Interpretation"
+      ],
+      "summary": "Describe the changes in relative abundance of Phanerozoic faunas between end-Ordovician and end-Cretaceous (K/T) extinctions.",
+      "image": "img/2019-summer-gl4/q4aiii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q4bi",
+      "paper": "2019-summer-gl4",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "K-T Mass Extinction",
+        "Diversity Loss"
+      ],
+      "skills": [
+        "Calculation"
+      ],
+      "summary": "Calculate the percentage of faunal families that became extinct during the end-Cretaceous mass extinction (14%).",
+      "image": "img/2019-summer-gl4/q4bi.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q4bi.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q4bii",
+      "paper": "2019-summer-gl4",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "K-T Boundary",
+        "Faunal Groups"
+      ],
+      "skills": [
+        "Knowledge Recall"
+      ],
+      "summary": "State two examples of faunal groups that became extinct at the K/T boundary (dinosaurs, ammonites).",
+      "image": "img/2019-summer-gl4/q4bii.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q4bii.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q4c",
+      "paper": "2019-summer-gl4",
+      "question": "4(c)",
+      "marks": 4,
+      "page": 13,
+      "topics": [
+        "Mass Extinction Hypotheses",
+        "Bolide Impact",
+        "Volcanism"
+      ],
+      "skills": [
+        "Comparative Description"
+      ],
+      "summary": "Describe two contrasting hypotheses put forward to account for mass extinctions in Figure 4a (bolide impact, flood basalt volcanism).",
+      "image": "img/2019-summer-gl4/q4c.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q4c.jpg"
+    },
+    {
+      "id": "2019-summer-gl4-q4d",
+      "paper": "2019-summer-gl4",
+      "question": "4(d)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "Fossil Record Bias",
+        "Sepkoski Graph Limitations"
+      ],
+      "skills": [
+        "Critical Evaluation"
+      ],
+      "summary": "Explain the limitations of using the Sepkoski graph for drawing meaningful conclusions about the diversity of life in the geological record.",
+      "image": "img/2019-summer-gl4/q4d.jpg",
+      "figures": [
+        "img/2019-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl4/ms-q4d.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u1-q1ai",
+      "paper": "2019-summer-gl5-u1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Fjords and Rias",
+        "Geomorphology"
+      ],
+      "skills": [
+        "Comparative Analysis"
+      ],
+      "summary": "Describe two ways in which the drowned valleys of Loch Morar and Milford Haven differ (plan shape, cross-section profile, depth).",
+      "image": "img/2019-summer-gl5-u1/q1ai.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u1-q1aii",
+      "paper": "2019-summer-gl5-u1",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Glacial vs Fluvial Erosion",
+        "Fjords vs Rias"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Give reasons for the differences identified between Loch Morar and Milford Haven (glacial fjord vs fluvial ria).",
+      "image": "img/2019-summer-gl5-u1/q1aii.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u1-q1b",
+      "paper": "2019-summer-gl5-u1",
+      "question": "1(b)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Glacio-Eustasy",
+        "Sea Level Changes"
+      ],
+      "skills": [
+        "Process Description"
+      ],
+      "summary": "Describe how worldwide sea level changes in response to variations in the volume of continental ice sheets.",
+      "image": "img/2019-summer-gl5-u1/q1b.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u1/ms-q1b.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u1-q1ci",
+      "paper": "2019-summer-gl5-u1",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Relative Sea Level",
+        "Sea Level Rates"
+      ],
+      "skills": [
+        "Calculation"
+      ],
+      "summary": "Calculate the rate of sea level rise at Loch Morar between 8000 and 6000 years BP from Figure 1d (0.005 m yr⁻¹).",
+      "image": "img/2019-summer-gl5-u1/q1ci.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u1-q1cii",
+      "paper": "2019-summer-gl5-u1",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Eustasy vs Isostasy",
+        "Sea Level Rise Rates"
+      ],
+      "skills": [
+        "Explanation"
+      ],
+      "summary": "Explain why the rate of sea level rise at Milford Haven between 8000 and 6000 BP was greater than at Loch Morar (isostatic rebound reduction).",
+      "image": "img/2019-summer-gl5-u1/q1cii.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u1/fig-q1a.jpg",
+        "img/2019-summer-gl5-u1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u1-q1di",
+      "paper": "2019-summer-gl5-u1",
+      "question": "1(d)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Holocene Sea Level Curves"
+      ],
+      "skills": [
+        "Data Extraction"
+      ],
+      "summary": "Describe the changes in relative sea level at Loch Morar and Milford Haven between 6000 years BP and the present.",
+      "image": "img/2019-summer-gl5-u1/q1di.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u1/ms-q1di.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u1-q1dii",
+      "paper": "2019-summer-gl5-u1",
+      "question": "1(d)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Glacio-Isostatic Rebound",
+        "Forebulge Collapse"
+      ],
+      "skills": [
+        "Mechanistic Explanation"
+      ],
+      "summary": "Explain the difference in relative sea level change between 6000 BP and present at Loch Morar and Milford Haven (rebound vs forebulge collapse).",
+      "image": "img/2019-summer-gl5-u1/q1dii.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u1/fig-q1a.jpg",
+        "img/2019-summer-gl5-u1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u1/ms-q1dii.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u2-q1a",
+      "paper": "2019-summer-gl5-u2",
+      "question": "1(a)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Gas Window",
+        "Hydrocarbon Formation"
+      ],
+      "skills": [
+        "Graph Reading"
+      ],
+      "summary": "State the maximum depth at which gas formation takes place using Figure 1a (5150 m).",
+      "image": "img/2019-summer-gl5-u2/q1a.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u2/ms-q1a.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u2-q1bi",
+      "paper": "2019-summer-gl5-u2",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Hydrocarbon Reserves",
+        "Volume Calculations"
+      ],
+      "skills": [
+        "Calculation"
+      ],
+      "summary": "Calculate the total volume of hydrocarbons that have accumulated in the Brent field from Figure 1b (8.74 × 10¹⁰ m³).",
+      "image": "img/2019-summer-gl5-u2/q1bi.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u2-q1bii",
+      "paper": "2019-summer-gl5-u2",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Petroleum System",
+        "Migration",
+        "Hydrocarbon Traps"
+      ],
+      "skills": [
+        "Process Description"
+      ],
+      "summary": "Explain how hydrocarbons have accumulated within the Brent hydrocarbon field (source, migration, reservoir, cap rock, trap).",
+      "image": "img/2019-summer-gl5-u2/q1bii.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u2-q1biii",
+      "paper": "2019-summer-gl5-u2",
+      "question": "1(b)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Oil Recovery Factor",
+        "Reservoir Geology"
+      ],
+      "skills": [
+        "Geological Explanation"
+      ],
+      "summary": "Explain one geological reason why wells in the Brent field recover only between 33% and 56% of stored oil (permeability variations, fault compartmentalisation).",
+      "image": "img/2019-summer-gl5-u2/q1biii.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u2/ms-q1biii.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u2-q1ci",
+      "paper": "2019-summer-gl5-u2",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Oil Window",
+        "Kerogen Maturation"
+      ],
+      "skills": [
+        "Synthesis"
+      ],
+      "summary": "Suggest why oil and gas both occur in the Brent hydrocarbon field using Figures 1a and 1b (marine kerogen, overlapping thermal window).",
+      "image": "img/2019-summer-gl5-u2/q1ci.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u2/ms-q1ci.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u2-q1cii",
+      "paper": "2019-summer-gl5-u2",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Gas Generation",
+        "Coal Source Rock"
+      ],
+      "skills": [
+        "Cross-Section Interpretation"
+      ],
+      "summary": "Explain why only gas occurs in the Leman hydrocarbon field using Figure 1c only (Carboniferous coal source rock / deep burial cracking).",
+      "image": "img/2019-summer-gl5-u2/q1cii.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u2/ms-q1cii.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u2-q1d",
+      "paper": "2019-summer-gl5-u2",
+      "question": "1(d)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Carbon Capture and Storage",
+        "Permian Reservoirs"
+      ],
+      "skills": [
+        "Critical Evaluation"
+      ],
+      "summary": "Critically evaluate the use of Permian rocks in the Leman field as a possible CO2 repository for carbon sequestration using Figure 1c.",
+      "image": "img/2019-summer-gl5-u2/q1d.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u2/ms-q1d.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u4-q1ai",
+      "paper": "2019-summer-gl5-u4",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "Palaeomagnetism",
+        "Normal Polarity"
+      ],
+      "skills": [
+        "Definition"
+      ],
+      "summary": "Explain what is meant by the term normal polarity.",
+      "image": "img/2019-summer-gl5-u4/q1ai.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u4/ms-q1ai.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u4-q1aii",
+      "paper": "2019-summer-gl5-u4",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "Geomagnetic Reversals",
+        "Polarity Timescale"
+      ],
+      "skills": [
+        "Diagram Annotation"
+      ],
+      "summary": "Mark in Box X on Figure 1a, with an arrow labelled R, a period of time showing reversed polarity.",
+      "image": "img/2019-summer-gl5-u4/q1aii.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u4/ms-q1aii.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u4-q1aiii",
+      "paper": "2019-summer-gl5-u4",
+      "question": "1(a)(iii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Seafloor Spreading Rates",
+        "South Pacific"
+      ],
+      "skills": [
+        "Graph Plotting"
+      ],
+      "summary": "Draw a line on Figure 1a to show the spreading rate for the South Pacific Ocean (2.5 times South Atlantic rate) for the past 2 Ma.",
+      "image": "img/2019-summer-gl5-u4/q1aiii.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u4/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u4-q1aiv",
+      "paper": "2019-summer-gl5-u4",
+      "question": "1(a)(iv)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Geomagnetic Reversal Frequency",
+        "Calculations"
+      ],
+      "skills": [
+        "Calculation"
+      ],
+      "summary": "Calculate the mean time between geomagnetic polarity reversals over the past 4 Ma from Figure 1a (0.4 Ma).",
+      "image": "img/2019-summer-gl5-u4/q1aiv.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u4/ms-q1aiv.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u4-q1av",
+      "paper": "2019-summer-gl5-u4",
+      "question": "1(a)(v)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Palaeomagnetism",
+        "Radiometric Dating",
+        "Continental Basalts"
+      ],
+      "skills": [
+        "Methodology Explanation"
+      ],
+      "summary": "Explain how the geomagnetic polarity time scale can be determined from continental rocks (TRM in basalts, radiometric dating).",
+      "image": "img/2019-summer-gl5-u4/q1av.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u4/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u4/ms-q1av.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u4-q1bi",
+      "paper": "2019-summer-gl5-u4",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Oceanic Crust Age",
+        "Pacific Ocean"
+      ],
+      "skills": [
+        "Map Annotation"
+      ],
+      "summary": "Mark on Figure 1b the most likely position in the Pacific Ocean of the youngest crust (arrow Y) and oldest crust (arrow O).",
+      "image": "img/2019-summer-gl5-u4/q1bi.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2019-summer-gl5-u4-q1bii",
+      "paper": "2019-summer-gl5-u4",
+      "question": "1(b)(ii)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "Wilson Cycle",
+        "Ocean Basin Evolution",
+        "Plate Tectonics"
+      ],
+      "skills": [
+        "Evaluation"
+      ],
+      "summary": "Evaluate the statement 'The Atlantic Ocean shows the most advanced stage in ocean basin development' using Figures 1a and 1b.",
+      "image": "img/2019-summer-gl5-u4/q1bii.jpg",
+      "figures": [
+        "img/2019-summer-gl5-u4/fig-q1a.jpg",
+        "img/2019-summer-gl5-u4/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl5-u4/ms-q1bii.jpg"
     }
   ],
   "levels": [
