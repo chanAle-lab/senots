@@ -619,6 +619,54 @@
       "totalMarks": 15,
       "duration": "1 hour",
       "level": "A"
+    },
+    {
+      "id": "2014-summer-gl4",
+      "year": 2014,
+      "series": "Summer",
+      "date": "2014-06-02",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting The Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "2 hours (Section A: 1 hour)",
+      "level": "A2"
+    },
+    {
+      "id": "2014-summer-gl5-u1",
+      "year": 2014,
+      "series": "Summer",
+      "date": "2014-06-10",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2014-summer-gl5-u2",
+      "year": 2014,
+      "series": "Summer",
+      "date": "2014-06-10",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2014-summer-gl5-u3",
+      "year": 2014,
+      "series": "Summer",
+      "date": "2014-06-10",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
     }
   ],
   "questions": [
@@ -18238,6 +18286,945 @@
         "img/2013-summer-gl5-u4/fig-q1a.jpg"
       ],
       "markscheme": "img/2013-summer-gl5-u4/ms-q1e.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q1ai",
+      "paper": "2014-summer-gl4",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Palaeontology",
+        "Brachiopods",
+        "Morphology"
+      ],
+      "skills": [
+        "Functional Morphology",
+        "Explanation"
+      ],
+      "summary": "Explain how the productid brachiopod opened and closed its valves using adductor and diductor muscles.",
+      "image": "img/2014-summer-gl4/q1ai.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q1.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q1ai.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q1aii",
+      "paper": "2014-summer-gl4",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Palaeontology",
+        "Brachiopods",
+        "Ecology"
+      ],
+      "skills": [
+        "Morphological Interpretation",
+        "Mode of Life"
+      ],
+      "summary": "Describe the probable benthic mode of life of the productid brachiopod with reference to its morphology and spines.",
+      "image": "img/2014-summer-gl4/q1aii.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q1.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q1aii.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q1bi",
+      "paper": "2014-summer-gl4",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Palaeontology",
+        "Corals"
+      ],
+      "skills": [
+        "Fossil Identification"
+      ],
+      "summary": "State the fossil group (coral) to which fossil X belongs.",
+      "image": "img/2014-summer-gl4/q1bi.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q1bi.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q1bii",
+      "paper": "2014-summer-gl4",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Structural Geology",
+        "Sedimentology"
+      ],
+      "skills": [
+        "Measurement",
+        "Dip Measurement"
+      ],
+      "summary": "Measure and record the dip angle of the limestone in Figure 1c.",
+      "image": "img/2014-summer-gl4/q1bii.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q1biii",
+      "paper": "2014-summer-gl4",
+      "question": "1(b)(iii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Sedimentary Environments",
+        "Reefs",
+        "Geopetal Structures"
+      ],
+      "skills": [
+        "Data Analysis",
+        "Environmental Interpretation"
+      ],
+      "summary": "Explain how Figure 1c supports the hypothesis of limestone deposition on a slope in a high energy coral reef environment.",
+      "image": "img/2014-summer-gl4/q1biii.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q1biii.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q1ci",
+      "paper": "2014-summer-gl4",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Palaeoecology",
+        "Biogeography",
+        "Brachiopods"
+      ],
+      "skills": [
+        "Data Description",
+        "Graph Analysis"
+      ],
+      "summary": "Describe the worldwide latitudinal distribution pattern of living brachiopods in Figure 1d.",
+      "image": "img/2014-summer-gl4/q1ci.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q1ci.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q1cii",
+      "paper": "2014-summer-gl4",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Palaeoecology",
+        "Environmental Controls"
+      ],
+      "skills": [
+        "Reasoning",
+        "Scientific Evaluation"
+      ],
+      "summary": "Suggest and explain which factor is likely to have the most influence on living brachiopod distribution.",
+      "image": "img/2014-summer-gl4/q1cii.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q1cii.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q1d",
+      "paper": "2014-summer-gl4",
+      "question": "1(d)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Palaeoclimatology",
+        "Carbonates"
+      ],
+      "skills": [
+        "Inference",
+        "Justification"
+      ],
+      "summary": "Suggest in which climatic zone the reef limestone was deposited and explain your reasoning.",
+      "image": "img/2014-summer-gl4/q1d.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q1c.jpg",
+        "img/2014-summer-gl4/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q1d.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q2a",
+      "paper": "2014-summer-gl4",
+      "question": "2(a)",
+      "marks": 5,
+      "page": 5,
+      "topics": [
+        "Igneous Petrology",
+        "Phase Equilibria",
+        "Plagioclase"
+      ],
+      "skills": [
+        "Phase Diagram Interpretation",
+        "Quantitative Analysis"
+      ],
+      "summary": "Complete the table to show the crystallisation characteristics of melt P (65% An) during equilibrium cooling.",
+      "image": "img/2014-summer-gl4/q2a.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q2a.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q2bi",
+      "paper": "2014-summer-gl4",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "Igneous Petrology",
+        "Layered Intrusions",
+        "Skaergaard"
+      ],
+      "skills": [
+        "Data Description",
+        "Trend Analysis"
+      ],
+      "summary": "Describe the change in plagioclase composition through the height of the Skaergaard Intrusion.",
+      "image": "img/2014-summer-gl4/q2bi.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q2bc.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q2bi.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q2bii",
+      "paper": "2014-summer-gl4",
+      "question": "2(b)(ii)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "Igneous Petrology",
+        "Fractional Crystallisation"
+      ],
+      "skills": [
+        "Process Explanation",
+        "Theoretical Application"
+      ],
+      "summary": "Account for the plagioclase compositional variation through the intrusion with reference to Figure 2a.",
+      "image": "img/2014-summer-gl4/q2bii.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q2a.jpg",
+        "img/2014-summer-gl4/fig-q2bc.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q2bii.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q2biii",
+      "paper": "2014-summer-gl4",
+      "question": "2(b)(iii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Igneous Petrology",
+        "Magma Contamination",
+        "Xenoliths"
+      ],
+      "skills": [
+        "Comparative Evaluation",
+        "Geochemical Reasoning"
+      ],
+      "summary": "Suggest and explain which country rock would cause the greatest compositional change when contaminating magma.",
+      "image": "img/2014-summer-gl4/q2biii.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q2biii.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q2c",
+      "paper": "2014-summer-gl4",
+      "question": "2(c)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Igneous Petrology",
+        "Cumulate Layering",
+        "Gravity Settling"
+      ],
+      "skills": [
+        "Causal Explanation",
+        "Image Interpretation"
+      ],
+      "summary": "Account for the alternating mineral layering of olivine/augite and plagioclase with reference to relative densities.",
+      "image": "img/2014-summer-gl4/q2c.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q2d.jpg",
+        "img/2014-summer-gl4/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q2c.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q3a",
+      "paper": "2014-summer-gl4",
+      "question": "3(a)",
+      "marks": 8,
+      "page": 9,
+      "topics": [
+        "Field Geology",
+        "Geological Cross-Sections",
+        "Stratigraphy"
+      ],
+      "skills": [
+        "Geological Sketching",
+        "Cross-Section Completion"
+      ],
+      "summary": "Complete the coastal cliff section in Figure 3 from descriptions in Table 3.",
+      "image": "img/2014-summer-gl4/q3a.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q3.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q3a.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q3bi",
+      "paper": "2014-summer-gl4",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Structural Geology",
+        "Faults"
+      ],
+      "skills": [
+        "Evidence Evaluation",
+        "Critical Thinking"
+      ],
+      "summary": "Evaluate the student statement of 'a fault, dipping west' using evidence from the cliff section.",
+      "image": "img/2014-summer-gl4/q3bi.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q3.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q3bi.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q3bii",
+      "paper": "2014-summer-gl4",
+      "question": "3(b)(ii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "Structural Geology",
+        "Fault Movement"
+      ],
+      "skills": [
+        "Geometric Reasoning",
+        "Evaluation"
+      ],
+      "summary": "Evaluate the student statement of 'showing normal movement' with reference to stratigraphic offset and slickensides.",
+      "image": "img/2014-summer-gl4/q3bii.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q3.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q3bii.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q3biii",
+      "paper": "2014-summer-gl4",
+      "question": "3(b)(iii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Structural Geology",
+        "Fault Reactivation"
+      ],
+      "skills": [
+        "Kinematic Analysis",
+        "Structural Evolution"
+      ],
+      "summary": "Evaluate the student statement that the fault had been reactivated using slickenside and mineralisation evidence.",
+      "image": "img/2014-summer-gl4/q3biii.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q3.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q3biii.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q4a",
+      "paper": "2014-summer-gl4",
+      "question": "4(a)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Palaeobotany",
+        "Fossil Leaves",
+        "Morphology"
+      ],
+      "skills": [
+        "Observation",
+        "Comparison"
+      ],
+      "summary": "Describe two differences in the shapes of leaves X and Y.",
+      "image": "img/2014-summer-gl4/q4a.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q4a.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q4bi",
+      "paper": "2014-summer-gl4",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Palaeoclimatology",
+        "Leaf Margin Analysis"
+      ],
+      "skills": [
+        "Correlation Analysis",
+        "Data Interpretation"
+      ],
+      "summary": "Describe the correlation between mean annual temperature and smooth leaf margin percentage in Figure 4b.",
+      "image": "img/2014-summer-gl4/q4bi.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q4bi.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q4bii",
+      "paper": "2014-summer-gl4",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Palaeoclimatology",
+        "Proxies"
+      ],
+      "skills": [
+        "Deduction",
+        "Explanation"
+      ],
+      "summary": "Identify which fossil leaf (X or Y) best represents the dominant leaf shape at point P and explain your answer.",
+      "image": "img/2014-summer-gl4/q4bii.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q4a.jpg",
+        "img/2014-summer-gl4/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q4bii.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q4ci",
+      "paper": "2014-summer-gl4",
+      "question": "4(c)(i)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "Palaeoclimatology",
+        "Cenozoic Climate"
+      ],
+      "skills": [
+        "Graphical Representation",
+        "Best Fit"
+      ],
+      "summary": "Mark in a line of best fit for the continental leaf shape data in Figure 4c.",
+      "image": "img/2014-summer-gl4/q4ci.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q4cd.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q4ci.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q4cii",
+      "paper": "2014-summer-gl4",
+      "question": "4(c)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "Palaeoclimatology",
+        "Cenozoic Climate Change"
+      ],
+      "skills": [
+        "Trend Description"
+      ],
+      "summary": "Describe the changes in mean annual temperature during the last 60 million years shown in Figure 4c.",
+      "image": "img/2014-summer-gl4/q4cii.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q4cd.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q4cii.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q4ciii",
+      "paper": "2014-summer-gl4",
+      "question": "4(c)(iii)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "Oxygen Isotopes",
+        "Palaeoclimatology",
+        "Ocean Sediments"
+      ],
+      "skills": [
+        "Isotope Fractionation",
+        "Scientific Explanation"
+      ],
+      "summary": "Explain the overall increase in delta 18O in deep ocean sediments over the last 60 Ma with reference to ice sheets.",
+      "image": "img/2014-summer-gl4/q4ciii.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q4cd.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q4ciii.jpg"
+    },
+    {
+      "id": "2014-summer-gl4-q4d",
+      "paper": "2014-summer-gl4",
+      "question": "4(d)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "Palaeoclimate Proxies",
+        "Taphonomy",
+        "Sedimentary Records"
+      ],
+      "skills": [
+        "Comparative Evaluation",
+        "Critical Thinking"
+      ],
+      "summary": "Suggest why the continental temperature record from leaf shapes may be less reliable than deep ocean sediment records.",
+      "image": "img/2014-summer-gl4/q4d.jpg",
+      "figures": [
+        "img/2014-summer-gl4/fig-q4cd.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl4/ms-q4d.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u1-q1ai",
+      "paper": "2014-summer-gl5-u1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Quaternary",
+        "Glacial Cycles",
+        "Ice Cores"
+      ],
+      "skills": [
+        "Data Interpretation",
+        "Diagram Shading"
+      ],
+      "summary": "Shade in box X to show the extent of the last glacial episode from ~115 ka to ~12 ka BP.",
+      "image": "img/2014-summer-gl5-u1/q1ai.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u1/fig-q1bcd.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u1-q1aii",
+      "paper": "2014-summer-gl5-u1",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Quaternary",
+        "Oxygen Isotopes",
+        "Palaeotemperature"
+      ],
+      "skills": [
+        "Correlation Analysis"
+      ],
+      "summary": "Describe the direct relationship between ice core oxygen isotope ratio and inferred temperature.",
+      "image": "img/2014-summer-gl5-u1/q1aii.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u1/fig-q1bcd.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u1-q1bi",
+      "paper": "2014-summer-gl5-u1",
+      "question": "1(b)(i)",
+      "marks": 6,
+      "page": 4,
+      "topics": [
+        "Palynology",
+        "Pollen Analysis",
+        "Quaternary Environments"
+      ],
+      "skills": [
+        "Environmental Reconstruction",
+        "Data Synthesis"
+      ],
+      "summary": "Describe the general vegetation type and suggest the climate in Zones 1 and 3 using pollen data and plant traits.",
+      "image": "img/2014-summer-gl5-u1/q1bi.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u1-q1bii",
+      "paper": "2014-summer-gl5-u1",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "Quaternary",
+        "Climate Change"
+      ],
+      "skills": [
+        "Trend Interpretation"
+      ],
+      "summary": "Describe the global climate cooling indicated by pollen changes from Zone 1 to Zone 3.",
+      "image": "img/2014-summer-gl5-u1/q1bii.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u1-q1biii",
+      "paper": "2014-summer-gl5-u1",
+      "question": "1(b)(iii)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "Quaternary",
+        "Millennial Climate Cycles"
+      ],
+      "skills": [
+        "Pattern Recognition"
+      ],
+      "summary": "Describe how short-term cyclic fluctuations (Dansgaard-Oeschger events) are superimposed on glacial stages.",
+      "image": "img/2014-summer-gl5-u1/q1biii.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u1/fig-q1bcd.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u1/ms-q1biii.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u1-q1biv",
+      "paper": "2014-summer-gl5-u1",
+      "question": "1(b)(iv)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "Climate Forcing",
+        "Greenhouse Gases",
+        "Milankovitch Cycles"
+      ],
+      "skills": [
+        "Evaluation",
+        "Causal Analysis"
+      ],
+      "summary": "Evaluate whether climatic fluctuations in the last 150,000 years were caused by atmospheric CO2 changes.",
+      "image": "img/2014-summer-gl5-u1/q1biv.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u1/fig-q1bcd.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u1/ms-q1biv.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u2-q1a",
+      "paper": "2014-summer-gl5-u2",
+      "question": "1(a)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "Energy Resources",
+        "Coal Ranks"
+      ],
+      "skills": [
+        "Recall",
+        "Classification"
+      ],
+      "summary": "Complete Figure 1a by inserting the missing coal rank (lignite).",
+      "image": "img/2014-summer-gl5-u2/q1a.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u2/ms-q1a.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u2-q1bi",
+      "paper": "2014-summer-gl5-u2",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Coal Geology",
+        "Geochemistry"
+      ],
+      "skills": [
+        "Data Description"
+      ],
+      "summary": "Describe the changes in elemental composition of coal with increasing rank from Figure 1b.",
+      "image": "img/2014-summer-gl5-u2/q1bi.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u2-q1bii",
+      "paper": "2014-summer-gl5-u2",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Mineral Economics",
+        "Coal"
+      ],
+      "skills": [
+        "Economic Analysis",
+        "Trend Identification"
+      ],
+      "summary": "Describe the relationship between the price and rank of coal in Figure 1a including anomalies.",
+      "image": "img/2014-summer-gl5-u2/q1bii.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u2-q1biii",
+      "paper": "2014-summer-gl5-u2",
+      "question": "1(b)(iii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Coal Quality",
+        "Calorific Value",
+        "Volatiles"
+      ],
+      "skills": [
+        "Reasoning",
+        "Synthesis"
+      ],
+      "summary": "Give reasons for the relationship between coal price and rank with reference to energy value, volatiles, and end-uses.",
+      "image": "img/2014-summer-gl5-u2/q1biii.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u2/fig-q1.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u2/ms-q1biii.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u2-q1ci",
+      "paper": "2014-summer-gl5-u2",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Coalfield Geology",
+        "Coal Rank Variations"
+      ],
+      "skills": [
+        "Spatial Analysis",
+        "Map Interpretation"
+      ],
+      "summary": "Describe the pattern of changing coal rank within the coalfield in Figure 1d.",
+      "image": "img/2014-summer-gl5-u2/q1ci.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u2/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u2/ms-q1ci.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u2-q1cii",
+      "paper": "2014-summer-gl5-u2",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Structural Geology",
+        "Metamorphism of Coal"
+      ],
+      "skills": [
+        "Geological Inference"
+      ],
+      "summary": "Suggest possible reasons (synclinal burial depth or igneous intrusion) for the distribution of coal ranks.",
+      "image": "img/2014-summer-gl5-u2/q1cii.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u2/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u2/ms-q1cii.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u2-q1di",
+      "paper": "2014-summer-gl5-u2",
+      "question": "1(d)(i)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "Environmental Geology",
+        "Mining Impacts"
+      ],
+      "skills": [
+        "Identification"
+      ],
+      "summary": "State one way in which resource extraction interferes with the surface or subsurface environment.",
+      "image": "img/2014-summer-gl5-u2/q1di.jpg",
+      "figures": [],
+      "markscheme": "img/2014-summer-gl5-u2/ms-q1di.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u2-q1dii",
+      "paper": "2014-summer-gl5-u2",
+      "question": "1(d)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Environmental Geology",
+        "Remediation",
+        "Mitigation"
+      ],
+      "skills": [
+        "Problem Solving",
+        "Environmental Management"
+      ],
+      "summary": "Explain how the adverse environmental effects identified in (d)(i) can be minimised or mitigated.",
+      "image": "img/2014-summer-gl5-u2/q1dii.jpg",
+      "figures": [],
+      "markscheme": "img/2014-summer-gl5-u2/ms-q1dii.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u3-q1ai",
+      "paper": "2014-summer-gl5-u3",
+      "question": "1(a)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Sedimentary Petrology",
+        "Sandstone Texture",
+        "Sedimentology"
+      ],
+      "skills": [
+        "Petrographic Description",
+        "Microscopic Analysis"
+      ],
+      "summary": "Describe the texture (sorting, roundness, sphericity, framework) of quartz sandstone X from Figure 1b.",
+      "image": "img/2014-summer-gl5-u3/q1ai.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u3/fig-q1bc.jpg",
+        "img/2014-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u3/ms-q1ai.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u3-q1aii",
+      "paper": "2014-summer-gl5-u3",
+      "question": "1(a)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Sedimentary Environments",
+        "Palaeoenvironments",
+        "Torridonian/Desert"
+      ],
+      "skills": [
+        "Environmental Interpretation",
+        "Evidence Justification"
+      ],
+      "summary": "Suggest with reasons the environment of deposition of quartz sandstone X using textural and sedimentary structure data.",
+      "image": "img/2014-summer-gl5-u3/q1aii.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u3/fig-q1.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u3/ms-q1aii.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u3-q1bi",
+      "paper": "2014-summer-gl5-u3",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Palaeontology",
+        "Trace Fossils",
+        "Pipe Rock"
+      ],
+      "skills": [
+        "Fossil Identification"
+      ],
+      "summary": "Name the trace fossils (Skolithos / Pipe Rock) shown in Figures 1d and 1e.",
+      "image": "img/2014-summer-gl5-u3/q1bi.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u3/fig-q1de.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u3-q1bii",
+      "paper": "2014-summer-gl5-u3",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Trace Fossils",
+        "Burrow Morphology"
+      ],
+      "skills": [
+        "Visual Description"
+      ],
+      "summary": "Describe the vertical tubes and circular surface openings shown in Figures 1d and 1e.",
+      "image": "img/2014-summer-gl5-u3/q1bii.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u3/fig-q1de.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u3-q1ci",
+      "paper": "2014-summer-gl5-u3",
+      "question": "1(c)(i)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Structural Geology",
+        "Moine Thrust",
+        "Fault Rocks"
+      ],
+      "skills": [
+        "Structural Interpretation",
+        "Fault Identification"
+      ],
+      "summary": "Describe and explain the evidence (older over younger, gentle dip, fault breccia) that the boundary is a thrust fault.",
+      "image": "img/2014-summer-gl5-u3/q1ci.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u3/fig-q1f.jpg",
+        "img/2014-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u3/ms-q1ci.jpg"
+    },
+    {
+      "id": "2014-summer-gl5-u3-q1cii",
+      "paper": "2014-summer-gl5-u3",
+      "question": "1(c)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "British Geology",
+        "Orogenies",
+        "Caledonian Orogeny"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Tectonic History"
+      ],
+      "summary": "Evaluate the statement that the thrust fault formed during the Alpine Orogeny rather than the Caledonian Orogeny.",
+      "image": "img/2014-summer-gl5-u3/q1cii.jpg",
+      "figures": [
+        "img/2014-summer-gl5-u3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2014-summer-gl5-u3/ms-q1cii.jpg"
     }
   ],
   "levels": [
