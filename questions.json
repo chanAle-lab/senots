@@ -1087,6 +1087,42 @@
       "spec": "legacy",
       "totalMarks": 25,
       "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2018-summer-c1",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-05-14",
+      "code": "B480U10-1",
+      "unit": "Component 1: Geological Enquiries",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 60,
+      "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2018-summer-c2",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-05-18",
+      "code": "B480U20-1",
+      "unit": "Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2018-summer-gl3",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-05-18",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
     }
   ],
   "questions": [
@@ -35772,6 +35808,1382 @@
         "img/2019-summer-gl3/fig-q2a.jpg"
       ],
       "markscheme": "img/2019-summer-gl3/ms-q2cii.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q1a",
+      "paper": "2018-summer-c1",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Pluton Geometry",
+        "Geological Maps",
+        "Igneous Petrology"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Field Evidence"
+      ],
+      "summary": "Give one piece of map evidence and one specimen evidence to support Rock Unit D forming a pluton.",
+      "image": "img/2018-summer-c1/q1a.jpg",
+      "figures": [
+        "img/2018-summer-c1/map1.jpg",
+        "img/2018-summer-c1/fig-spec-d.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q1a.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q1b",
+      "paper": "2018-summer-c1",
+      "question": "1(b)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Mineral Exploration",
+        "Petrology"
+      ],
+      "skills": [
+        "Data Reading",
+        "Morphology"
+      ],
+      "summary": "State the mineral property highlighted by red lines in Photograph 1 and name Mineral J.",
+      "image": "img/2018-summer-c1/q1b.jpg",
+      "figures": [
+        "img/2018-summer-c1/fig-photo1.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q1b.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q1c",
+      "paper": "2018-summer-c1",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Igneous Petrology",
+        "Petrology"
+      ],
+      "skills": [
+        "Data Analysis",
+        "Scientific Explanation"
+      ],
+      "summary": "Name the rock forming Specimen D (gabbro) and give two reasons based on texture and composition.",
+      "image": "img/2018-summer-c1/q1c.jpg",
+      "figures": [
+        "img/2018-summer-c1/fig-photo1.jpg",
+        "img/2018-summer-c1/fig-spec-d.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q1c.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q2a",
+      "paper": "2018-summer-c1",
+      "question": "2(a)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Sedimentary Textures",
+        "Sandstone Texture"
+      ],
+      "skills": [
+        "Drawing",
+        "Graphical Construction"
+      ],
+      "summary": "Complete Figure 2 by drawing the texture of Specimen C (arkosic sandstone) to the scale provided.",
+      "image": "img/2018-summer-c1/q2a.jpg",
+      "figures": [
+        "img/2018-summer-c1/fig-spec-c.jpg",
+        "img/2018-summer-c1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q2a.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q2b",
+      "paper": "2018-summer-c1",
+      "question": "2(b)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Fluvial Environments",
+        "Sedimentary Textures",
+        "Sedimentary Environments"
+      ],
+      "skills": [
+        "Palaeoenvironmental Interpretation",
+        "Scientific Explanation"
+      ],
+      "summary": "Explain three pieces of evidence for Specimen C being deposited in a fluvial environment.",
+      "image": "img/2018-summer-c1/q2b.jpg",
+      "figures": [
+        "img/2018-summer-c1/fig-spec-c.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q2b.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q2c",
+      "paper": "2018-summer-c1",
+      "question": "2(c)",
+      "marks": 6,
+      "page": 5,
+      "topics": [
+        "Cross-Cutting Relationships",
+        "Weathering",
+        "Sedimentary Petrology"
+      ],
+      "skills": [
+        "QER",
+        "Extended Response",
+        "Evaluation"
+      ],
+      "summary": "Evaluate the statement that Rock Unit C is a sedimentary rock formed from weathering/erosion of Rock Unit D.",
+      "image": "img/2018-summer-c1/q2c.jpg",
+      "figures": [
+        "img/2018-summer-c1/map1.jpg",
+        "img/2018-summer-c1/fig-spec-c.jpg",
+        "img/2018-summer-c1/fig-spec-d.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q2c.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q3a",
+      "paper": "2018-summer-c1",
+      "question": "3(a)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "Calculations",
+        "Mineral Exploration"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Geological Methods"
+      ],
+      "summary": "Calculate the density of the mineral using data from Figure 3 (mass 21.2g, volume 8cm3).",
+      "image": "img/2018-summer-c1/q3a.jpg",
+      "figures": [
+        "img/2018-summer-c1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q3a.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q3b",
+      "paper": "2018-summer-c1",
+      "question": "3(b)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "Field Skills",
+        "Calculations"
+      ],
+      "skills": [
+        "Evaluation",
+        "Practical"
+      ],
+      "summary": "Suggest two steps the student should take to minimise experimental errors in measuring density.",
+      "image": "img/2018-summer-c1/q3b.jpg",
+      "figures": [
+        "img/2018-summer-c1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q3b.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q3c",
+      "paper": "2018-summer-c1",
+      "question": "3(c)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Mineral Exploration",
+        "Petrology"
+      ],
+      "skills": [
+        "Field Skills",
+        "Data Analysis"
+      ],
+      "summary": "Complete Table 3 by describing a diagnostic test, stating the result, and naming Specimen H (Quartz).",
+      "image": "img/2018-summer-c1/q3c.jpg",
+      "figures": [
+        "img/2018-summer-c1/map1.jpg",
+        "img/2018-summer-c1/fig-spec-h.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q3c.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q4ai",
+      "paper": "2018-summer-c1",
+      "question": "4(a)(i)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "Ammonites",
+        "Fossil Morphology"
+      ],
+      "skills": [
+        "Drawing",
+        "Graphical Construction"
+      ],
+      "summary": "Complete Figure 4 by drawing Specimen A (ammonite) to the scale provided.",
+      "image": "img/2018-summer-c1/q4ai.jpg",
+      "figures": [
+        "img/2018-summer-c1/fig-spec-a.jpg",
+        "img/2018-summer-c1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q4ai.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q4aii",
+      "paper": "2018-summer-c1",
+      "question": "4(a)(ii)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "Ammonites",
+        "Fossil Morphology"
+      ],
+      "skills": [
+        "Morphology",
+        "Drawing"
+      ],
+      "summary": "Label one suture line on your drawing of Specimen A.",
+      "image": "img/2018-summer-c1/q4aii.jpg",
+      "figures": [
+        "img/2018-summer-c1/fig-spec-a.jpg",
+        "img/2018-summer-c1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q4aii.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q4b",
+      "paper": "2018-summer-c1",
+      "question": "4(b)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "Relative Dating",
+        "Cross-Cutting Relationships",
+        "Biostratigraphy"
+      ],
+      "skills": [
+        "Data Analysis",
+        "Geochronology"
+      ],
+      "summary": "State relative age of Rock Units A and D in Table 4a and state evidence from Map 1 and Specimen A in Table 4b.",
+      "image": "img/2018-summer-c1/q4b.jpg",
+      "figures": [
+        "img/2018-summer-c1/map1.jpg",
+        "img/2018-summer-c1/fig-spec-a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q4b.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q5a",
+      "paper": "2018-summer-c1",
+      "question": "5(a)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "Geological Maps",
+        "Field Skills"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Data Reading"
+      ],
+      "summary": "State which locality statement correctly describes Photograph 2 (Locality II facing NW).",
+      "image": "img/2018-summer-c1/q5a.jpg",
+      "figures": [
+        "img/2018-summer-c1/fig-q5.jpg",
+        "img/2018-summer-c1/fig-photo2.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q5a.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q5b",
+      "paper": "2018-summer-c1",
+      "question": "5(b)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Unconformities",
+        "Field Geology"
+      ],
+      "skills": [
+        "Field Evidence",
+        "Scientific Explanation"
+      ],
+      "summary": "Describe two pieces of field evidence other than dip/strike supporting interpretation of an unconformity.",
+      "image": "img/2018-summer-c1/q5b.jpg",
+      "figures": [
+        "img/2018-summer-c1/fig-photo2.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q5b.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q6a",
+      "paper": "2018-summer-c1",
+      "question": "6(a)",
+      "marks": 5,
+      "page": 10,
+      "topics": [
+        "Fault Outcrops",
+        "Fault Types",
+        "Structural Geology"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Structural Interpretation"
+      ],
+      "summary": "Complete Table 6 to compare outcrop pattern, dip, and fault type of Fault F1 and Fault F2.",
+      "image": "img/2018-summer-c1/q6a.jpg",
+      "figures": [
+        "img/2018-summer-c1/map1.jpg",
+        "img/2018-summer-c1/tab-q6.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q6a.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q6b",
+      "paper": "2018-summer-c1",
+      "question": "6(b)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "Dykes",
+        "Structural Control"
+      ],
+      "skills": [
+        "Data Reading",
+        "Geological Reasoning"
+      ],
+      "summary": "Measure change in trend of Rock Unit D in degrees at Locality V and suggest the most likely reason.",
+      "image": "img/2018-summer-c1/q6b.jpg",
+      "figures": [
+        "img/2018-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q6b.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q7",
+      "paper": "2018-summer-c1",
+      "question": "7",
+      "marks": 13,
+      "page": 11,
+      "topics": [
+        "Geological Cross-Sections",
+        "Geological Maps",
+        "Structural Geology"
+      ],
+      "skills": [
+        "Cross-Section Interpretation",
+        "Graphical Construction"
+      ],
+      "summary": "Complete the sketch of the geological cross-section along the line X-Y using Map 1.",
+      "image": "img/2018-summer-c1/q7.jpg",
+      "figures": [
+        "img/2018-summer-c1/map1.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q7.jpg"
+    },
+    {
+      "id": "2018-summer-c1-q8",
+      "paper": "2018-summer-c1",
+      "question": "8",
+      "marks": 4,
+      "page": 12,
+      "topics": [
+        "Sedimentary Structures",
+        "Turbidites",
+        "Palaeocurrents"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Palaeoenvironmental Interpretation"
+      ],
+      "summary": "Name the flute cast structure in Photograph 3, explain how it formed, and how it determines palaeocurrent direction.",
+      "image": "img/2018-summer-c1/q8.jpg",
+      "figures": [
+        "img/2018-summer-c1/fig-photo3.jpg"
+      ],
+      "markscheme": "img/2018-summer-c1/ms-q8.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q1ai",
+      "paper": "2018-summer-c2",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "Graptolites",
+        "Palaeontology",
+        "Morphology"
+      ],
+      "skills": [
+        "Anatomical Identification"
+      ],
+      "summary": "Name morphological feature A on the graptolite stipe.",
+      "image": "img/2018-summer-c2/q1ai.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q1ai.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q1aii",
+      "paper": "2018-summer-c2",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Graptolites",
+        "Morphometrics"
+      ],
+      "skills": [
+        "Scale Calculation",
+        "Measuring"
+      ],
+      "summary": "Calculate the true length of the graptolite stipe in mm.",
+      "image": "img/2018-summer-c2/q1aii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q1aii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q1bi",
+      "paper": "2018-summer-c2",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Graptolites",
+        "Evolution",
+        "Biostratigraphy"
+      ],
+      "skills": [
+        "Fossil Identification"
+      ],
+      "summary": "Identify graptolite genus B from Figure 1b.",
+      "image": "img/2018-summer-c2/q1bi.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q1bi.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q1bii",
+      "paper": "2018-summer-c2",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Graptolites",
+        "Evolution",
+        "Geological Time"
+      ],
+      "skills": [
+        "Stratigraphic Correlation"
+      ],
+      "summary": "State the geological time period/epoch when graptolite B became extinct.",
+      "image": "img/2018-summer-c2/q1bii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q1bii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q1ci",
+      "paper": "2018-summer-c2",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Graptolites",
+        "Morphology",
+        "Evolution"
+      ],
+      "skills": [
+        "Comparative Analysis"
+      ],
+      "summary": "State two morphological differences between Didymograptus and Dicellograptus.",
+      "image": "img/2018-summer-c2/q1ci.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q1ci.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q1cii",
+      "paper": "2018-summer-c2",
+      "question": "1(c)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Biostratigraphy",
+        "Zone Fossils",
+        "Graptolites"
+      ],
+      "skills": [
+        "Fossil Evaluation"
+      ],
+      "summary": "Explain three characteristics of graptolites that make them useful zone fossils.",
+      "image": "img/2018-summer-c2/q1cii.jpg",
+      "figures": [],
+      "markscheme": "img/2018-summer-c2/ms-q1cii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q1di",
+      "paper": "2018-summer-c2",
+      "question": "1(d)(i)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "Fossil Preservation",
+        "Mineralogy",
+        "Diagenesis"
+      ],
+      "skills": [
+        "Fossil Identification"
+      ],
+      "summary": "Name the mineral replacing the graptolite fossils in Figure 1c.",
+      "image": "img/2018-summer-c2/q1di.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q1di.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q1dii",
+      "paper": "2018-summer-c2",
+      "question": "1(d)(ii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Taphonomy",
+        "Death Assemblages",
+        "Palaeoecology"
+      ],
+      "skills": [
+        "Fossil Interpretation"
+      ],
+      "summary": "Explain three pieces of evidence suggesting the bedding plane shows a death assemblage.",
+      "image": "img/2018-summer-c2/q1dii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q1dii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q2ai",
+      "paper": "2018-summer-c2",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "Geochemistry",
+        "Earth Structure",
+        "Crustal Composition"
+      ],
+      "skills": [
+        "Data Calculation"
+      ],
+      "summary": "Calculate the total percentage of the Earth's crust made up of the three most abundant elements.",
+      "image": "img/2018-summer-c2/q2ai.jpg",
+      "figures": [
+        "img/2018-summer-c2/tab-q2.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q2ai.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q2aii",
+      "paper": "2018-summer-c2",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "Goldschmidt Classification",
+        "Geochemistry"
+      ],
+      "skills": [
+        "Classification Matching"
+      ],
+      "summary": "Match the Goldschmidt geochemical classifications with parts of the Earth.",
+      "image": "img/2018-summer-c2/q2aii.jpg",
+      "figures": [
+        "img/2018-summer-c2/tab-q2.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q2aii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q2bi",
+      "paper": "2018-summer-c2",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "Igneous Petrology",
+        "Mineral Modal Analysis"
+      ],
+      "skills": [
+        "Percentage Estimation"
+      ],
+      "summary": "Estimate the modal percentage of pinkish orthoclase feldspar in the granite.",
+      "image": "img/2018-summer-c2/q2bi.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q2bi.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q2bii",
+      "paper": "2018-summer-c2",
+      "question": "2(b)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Igneous Petrology",
+        "Crystallisation",
+        "Bowen Reaction Series"
+      ],
+      "skills": [
+        "Textural Interpretation"
+      ],
+      "summary": "Identify the first mineral to crystallise and provide two reasons.",
+      "image": "img/2018-summer-c2/q2bii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q2bii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q2biii",
+      "paper": "2018-summer-c2",
+      "question": "2(b)(iii)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "Igneous Rocks",
+        "Basalt"
+      ],
+      "skills": [
+        "Rock Identification"
+      ],
+      "summary": "Name fine-grained mafic rock feature D in Figure 2c.",
+      "image": "img/2018-summer-c2/q2biii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q2biii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q2biv",
+      "paper": "2018-summer-c2",
+      "question": "2(b)(iv)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "Igneous Structures",
+        "Xenoliths",
+        "Magma Mixing"
+      ],
+      "skills": [
+        "Geological Reasoning"
+      ],
+      "summary": "Name geological feature D and explain its origin in the granite.",
+      "image": "img/2018-summer-c2/q2biv.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q2biv.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q3ai",
+      "paper": "2018-summer-c2",
+      "question": "3(a)(i)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "Palaeomagnetism",
+        "Plate Tectonics",
+        "Palaeolatitude"
+      ],
+      "skills": [
+        "Graph Plotting"
+      ],
+      "summary": "Plot the palaeolatitude of the UK against geological time on Figure 3a.",
+      "image": "img/2018-summer-c2/q3ai.jpg",
+      "figures": [
+        "img/2018-summer-c2/tab-q3a.jpg",
+        "img/2018-summer-c2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q3ai.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q3aii",
+      "paper": "2018-summer-c2",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "Palaeolatitude",
+        "Continental Drift"
+      ],
+      "skills": [
+        "Trend Description"
+      ],
+      "summary": "Describe the general pattern of change in the palaeolatitude of the UK from 500 Ma to 65 Ma.",
+      "image": "img/2018-summer-c2/q3aii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q3aii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q3aiii",
+      "paper": "2018-summer-c2",
+      "question": "3(a)(iii)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "Palaeolatitude",
+        "Plate Velocity"
+      ],
+      "skills": [
+        "Rate Calculation"
+      ],
+      "summary": "Calculate the mean rate of change in palaeolatitude between 280 Ma and 65 Ma in degrees per 10 million years.",
+      "image": "img/2018-summer-c2/q3aiii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q3aiii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q3b",
+      "paper": "2018-summer-c2",
+      "question": "3(b)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Palaeomagnetism",
+        "Remanent Magnetism"
+      ],
+      "skills": [
+        "Scientific Evaluation"
+      ],
+      "summary": "Explain what remnant magnetic inclination reveals about the palaeolongitude of the UK.",
+      "image": "img/2018-summer-c2/q3b.jpg",
+      "figures": [],
+      "markscheme": "img/2018-summer-c2/ms-q3b.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q3c",
+      "paper": "2018-summer-c2",
+      "question": "3(c)",
+      "marks": 4,
+      "page": 11,
+      "topics": [
+        "Palaeoclimatology",
+        "Sedimentary Environments",
+        "Palaeolatitude"
+      ],
+      "skills": [
+        "Evidence Synthesis"
+      ],
+      "summary": "Evaluate how sedimentary rock evidence in Table 3b supports the palaeolatitude curve.",
+      "image": "img/2018-summer-c2/q3c.jpg",
+      "figures": [
+        "img/2018-summer-c2/tab-q3b.jpg",
+        "img/2018-summer-c2/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q3c.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q4ai",
+      "paper": "2018-summer-c2",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "Plate Tectonics",
+        "Plate Boundaries"
+      ],
+      "skills": [
+        "Classification"
+      ],
+      "summary": "Identify the type of plate margin shown in Figure 4a.",
+      "image": "img/2018-summer-c2/q4ai.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q4ai.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q4aii",
+      "paper": "2018-summer-c2",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "Seafloor Spreading",
+        "Magnetic Anomalies"
+      ],
+      "skills": [
+        "Data Reading"
+      ],
+      "summary": "Determine the ages of oceanic crust at locations K and L from Figure 4a.",
+      "image": "img/2018-summer-c2/q4aii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q4aii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q4aiii",
+      "paper": "2018-summer-c2",
+      "question": "4(a)(iii)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "Magnetic Anomalies",
+        "Seafloor Spreading"
+      ],
+      "skills": [
+        "Pattern Recognition"
+      ],
+      "summary": "Describe three characteristics of the magnetic anomaly pattern across the ocean ridge.",
+      "image": "img/2018-summer-c2/q4aiii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q4bi",
+      "paper": "2018-summer-c2",
+      "question": "4(b)(i)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "Geomagnetic Reversals",
+        "Palaeomagnetism"
+      ],
+      "skills": [
+        "Graph Reading"
+      ],
+      "summary": "State the number of magnetic polarity reversals in the last 2 million years.",
+      "image": "img/2018-summer-c2/q4bi.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q4bi.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q4bii",
+      "paper": "2018-summer-c2",
+      "question": "4(b)(ii)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "Geomagnetic Reversals",
+        "Mathematical Geology"
+      ],
+      "skills": [
+        "Mean Calculation"
+      ],
+      "summary": "Calculate the mean time between magnetic reversals during the last 2 million years.",
+      "image": "img/2018-summer-c2/q4bii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q4bii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q4biii",
+      "paper": "2018-summer-c2",
+      "question": "4(b)(iii)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "Remanent Magnetism",
+        "Curie Point",
+        "Oceanic Basalt"
+      ],
+      "skills": [
+        "Geological Processes"
+      ],
+      "summary": "Explain how the magnetic record is preserved in oceanic crust.",
+      "image": "img/2018-summer-c2/q4biii.jpg",
+      "figures": [],
+      "markscheme": "img/2018-summer-c2/ms-q4biii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q4c",
+      "paper": "2018-summer-c2",
+      "question": "4(c)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "Transform Faults",
+        "Earthquakes",
+        "Seismology"
+      ],
+      "skills": [
+        "Causal Explanation"
+      ],
+      "summary": "Explain the cause of the shallow-focus earthquake at location X on Figure 4a.",
+      "image": "img/2018-summer-c2/q4c.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q4c.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q4d",
+      "paper": "2018-summer-c2",
+      "question": "4(d)",
+      "marks": 6,
+      "page": 14,
+      "topics": [
+        "Oceanic Lithosphere",
+        "Ophiolites",
+        "Igneous Petrology"
+      ],
+      "skills": [
+        "Extended Response",
+        "Structure Synthesis"
+      ],
+      "summary": "Describe and explain the layered structure and mafic composition of oceanic lithosphere.",
+      "image": "img/2018-summer-c2/q4d.jpg",
+      "figures": [],
+      "markscheme": "img/2018-summer-c2/ms-q4d.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q5ai",
+      "paper": "2018-summer-c2",
+      "question": "5(a)(i)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "Mechanical Weathering",
+        "Arid Environments",
+        "Exfoliation"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Name the weathering process forming the scree in Figure 5a and explain how it operates.",
+      "image": "img/2018-summer-c2/q5ai.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q5a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q5ai.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q5bi",
+      "paper": "2018-summer-c2",
+      "question": "5(b)(i)",
+      "marks": 3,
+      "page": 16,
+      "topics": [
+        "Sedimentary Petrology",
+        "Breccia",
+        "Grain Size"
+      ],
+      "skills": [
+        "Textural Analysis"
+      ],
+      "summary": "Describe three textural characteristics of the sediment shown in Figure 5b.",
+      "image": "img/2018-summer-c2/q5bi.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q5bi.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q5bii",
+      "paper": "2018-summer-c2",
+      "question": "5(b)(ii)",
+      "marks": 3,
+      "page": 16,
+      "topics": [
+        "Alluvial Fans",
+        "Arid Depositional Environments"
+      ],
+      "skills": [
+        "Landform Identification"
+      ],
+      "summary": "Identify the depositional landform in Figure 5b and explain your reasoning using sediment textures.",
+      "image": "img/2018-summer-c2/q5bii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q5bii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q5c",
+      "paper": "2018-summer-c2",
+      "question": "5(c)",
+      "marks": 6,
+      "page": 17,
+      "topics": [
+        "Sedimentary Transport",
+        "Aeolian Processes",
+        "Fluvial Processes"
+      ],
+      "skills": [
+        "Extended Response",
+        "Comparative Evaluation"
+      ],
+      "summary": "Evaluate the relative effectiveness of wind and water in sorting and rounding sedimentary particles in hot desert environments.",
+      "image": "img/2018-summer-c2/q5c.jpg",
+      "figures": [],
+      "markscheme": "img/2018-summer-c2/ms-q5c.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q6ai",
+      "paper": "2018-summer-c2",
+      "question": "6(a)(i)",
+      "marks": 1,
+      "page": 18,
+      "topics": [
+        "Metamorphic Petrology",
+        "Regional Metamorphism",
+        "Schist"
+      ],
+      "skills": [
+        "Rock Identification"
+      ],
+      "summary": "Name metamorphic rock P shown in borehole Q.",
+      "image": "img/2018-summer-c2/q6ai.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q6a.jpg",
+        "img/2018-summer-c2/tab-q6.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q6ai.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q6aii",
+      "paper": "2018-summer-c2",
+      "question": "6(a)(ii)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "Structural Geology",
+        "Faults",
+        "Dip and Strike"
+      ],
+      "skills": [
+        "Measurement",
+        "Map Reading"
+      ],
+      "summary": "Determine the angle and direction of dip of fault F from Figure 6a.",
+      "image": "img/2018-summer-c2/q6aii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q6aii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q6bi",
+      "paper": "2018-summer-c2",
+      "question": "6(b)(i)",
+      "marks": 3,
+      "page": 18,
+      "topics": [
+        "Igneous Intrusions",
+        "Dykes",
+        "Concordant vs Discordant"
+      ],
+      "skills": [
+        "Structural Identification"
+      ],
+      "summary": "Identify the geological structure of rock unit T and describe its geometry and relationship to host rocks.",
+      "image": "img/2018-summer-c2/q6bi.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q6bi.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q6bii",
+      "paper": "2018-summer-c2",
+      "question": "6(b)(ii)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "Apparent vs True Thickness",
+        "Trigonometry in Geology"
+      ],
+      "skills": [
+        "Trigonometric Calculation"
+      ],
+      "summary": "Calculate the true thickness of rock unit T penetrated in borehole Q.",
+      "image": "img/2018-summer-c2/q6bii.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q6a.jpg",
+        "img/2018-summer-c2/tab-q6.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q6bii.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q6c",
+      "paper": "2018-summer-c2",
+      "question": "6(c)",
+      "marks": 4,
+      "page": 19,
+      "topics": [
+        "Folds",
+        "Structural Geology",
+        "Fold Classification"
+      ],
+      "skills": [
+        "Fold Analysis"
+      ],
+      "summary": "Describe four characteristics of the folding in the sedimentary rocks below fault F.",
+      "image": "img/2018-summer-c2/q6c.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q6c.jpg"
+    },
+    {
+      "id": "2018-summer-c2-q6d",
+      "paper": "2018-summer-c2",
+      "question": "6(d)",
+      "marks": 4,
+      "page": 19,
+      "topics": [
+        "Thrust Faults",
+        "Fault Mechanics",
+        "Relative Dating"
+      ],
+      "skills": [
+        "Critical Evaluation"
+      ],
+      "summary": "Critically evaluate a student's conclusion that fault F is a normal fault.",
+      "image": "img/2018-summer-c2/q6d.jpg",
+      "figures": [
+        "img/2018-summer-c2/fig-q6a.jpg",
+        "img/2018-summer-c2/tab-q6.jpg"
+      ],
+      "markscheme": "img/2018-summer-c2/ms-q6d.jpg"
+    },
+    {
+      "id": "2018-summer-gl3-q1ai",
+      "paper": "2018-summer-gl3",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Geological Hazards",
+        "Volcanology",
+        "Calderas",
+        "Seismology"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Spatial Distribution"
+      ],
+      "summary": "Describe the distribution of earthquake epicentres associated with the caldera.",
+      "image": "img/2018-summer-gl3/q1ai.jpg",
+      "figures": [
+        "img/2018-summer-gl3/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl3/ms-q1ai.jpg"
+    },
+    {
+      "id": "2018-summer-gl3-q1aii",
+      "paper": "2018-summer-gl3",
+      "question": "1(a)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Geological Hazards",
+        "Tsunami",
+        "Volcanology"
+      ],
+      "skills": [
+        "Risk Assessment",
+        "Hazard Analysis"
+      ],
+      "summary": "Explain why town A might be at risk from tsunami hazards.",
+      "image": "img/2018-summer-gl3/q1aii.jpg",
+      "figures": [
+        "img/2018-summer-gl3/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl3/ms-q1aii.jpg"
+    },
+    {
+      "id": "2018-summer-gl3-q1bi",
+      "paper": "2018-summer-gl3",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Volcano Monitoring",
+        "Ground Deformation",
+        "Tiltmeters"
+      ],
+      "skills": [
+        "Data Measurement",
+        "Vector Analysis"
+      ],
+      "summary": "Measure and record the amount and direction of tilt at location X on Figure 1.",
+      "image": "img/2018-summer-gl3/q1bi.jpg",
+      "figures": [
+        "img/2018-summer-gl3/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl3-q1bii",
+      "paper": "2018-summer-gl3",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Volcano Monitoring",
+        "Ground Deformation",
+        "Calderas"
+      ],
+      "skills": [
+        "Pattern Recognition"
+      ],
+      "summary": "Describe the general pattern of tilt on Figure 1.",
+      "image": "img/2018-summer-gl3/q1bii.jpg",
+      "figures": [
+        "img/2018-summer-gl3/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl3-q1c",
+      "paper": "2018-summer-gl3",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Volcano Monitoring",
+        "Volcanic Hazards",
+        "Magma Chambers"
+      ],
+      "skills": [
+        "Evidence Synthesis",
+        "Hazard Evaluation"
+      ],
+      "summary": "Explain why the region shown on the map was considered to be at risk from a major volcanic event between 1977 and 1984.",
+      "image": "img/2018-summer-gl3/q1c.jpg",
+      "figures": [
+        "img/2018-summer-gl3/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl3/ms-q1c.jpg"
+    },
+    {
+      "id": "2018-summer-gl3-q2ai",
+      "paper": "2018-summer-gl3",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Hydrogeology",
+        "Groundwater Flow",
+        "Darcy Law"
+      ],
+      "skills": [
+        "Formula Calculation"
+      ],
+      "summary": "Calculate the velocity of groundwater flow between the two boreholes in Figure 2a.",
+      "image": "img/2018-summer-gl3/q2ai.jpg",
+      "figures": [
+        "img/2018-summer-gl3/fig-q2a.jpg",
+        "img/2018-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl3/ms-q2ai.jpg"
+    },
+    {
+      "id": "2018-summer-gl3-q2aii",
+      "paper": "2018-summer-gl3",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Hydrogeology",
+        "Permeability",
+        "Sedimentary Textures"
+      ],
+      "skills": [
+        "Scientific Reasoning",
+        "Comparative Analysis"
+      ],
+      "summary": "State one difference in rock texture from Figure 2b that would decrease groundwater flow velocity and explain your answer.",
+      "image": "img/2018-summer-gl3/q2aii.jpg",
+      "figures": [
+        "img/2018-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl3/ms-q2aii.jpg"
+    },
+    {
+      "id": "2018-summer-gl3-q2bi",
+      "paper": "2018-summer-gl3",
+      "question": "2(b)(i)",
+      "marks": 4,
+      "page": 5,
+      "topics": [
+        "Hydrogeology",
+        "Cone of Depression",
+        "Water Table"
+      ],
+      "skills": [
+        "Graph Interpretation",
+        "Process Explanation"
+      ],
+      "summary": "Describe and explain the changes in the depth to the water table during pumping and recovery periods.",
+      "image": "img/2018-summer-gl3/q2bi.jpg",
+      "figures": [
+        "img/2018-summer-gl3/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl3/ms-q2bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl3-q2bii",
+      "paper": "2018-summer-gl3",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Hydrogeology",
+        "Aquifer Recharge",
+        "Water Table"
+      ],
+      "skills": [
+        "Deductive Reasoning"
+      ],
+      "summary": "Suggest two reasons why the regional trend of the water table continues to fall after recovery.",
+      "image": "img/2018-summer-gl3/q2bii.jpg",
+      "figures": [
+        "img/2018-summer-gl3/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl3/ms-q2bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl3-q2c",
+      "paper": "2018-summer-gl3",
+      "question": "2(c)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "Hydrogeology",
+        "Geological Hazards",
+        "Ground Subsidence"
+      ],
+      "skills": [
+        "Cause and Effect",
+        "Geological Mechanics"
+      ],
+      "summary": "Explain how land subsidence can result from long-term lowering of the water table.",
+      "image": "img/2018-summer-gl3/q2c.jpg",
+      "figures": [],
+      "markscheme": "img/2018-summer-gl3/ms-q2c.jpg"
     }
   ],
   "levels": [
