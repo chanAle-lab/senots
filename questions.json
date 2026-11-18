@@ -955,6 +955,18 @@
       "totalMarks": 15,
       "duration": "1 hour (Section A)",
       "level": "A2"
+    },
+    {
+      "id": "2025-summer-a3",
+      "year": 2025,
+      "series": "Summer",
+      "date": "2025-06-19",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours"
     }
   ],
   "questions": [
@@ -24471,6 +24483,1358 @@
         "img/2019-summer-gl5-u4/fig-q1b.jpg"
       ],
       "markscheme": "img/2019-summer-gl5-u4/ms-q1bii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q1ai",
+      "paper": "2025-summer-a3",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Environmental Management",
+        "Scientific Explanation"
+      ],
+      "summary": "Explain why high-level radioactive waste must not be disposed of in a landfill site for domestic waste (contamination, ionising radiation, cancer risk).",
+      "image": "img/2025-summer-a3/q1ai.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q1ai.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q1aii",
+      "paper": "2025-summer-a3",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "T1.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Spatial Description",
+        "Map Reading"
+      ],
+      "summary": "Describe the distribution of the lowland areas in Britain with crystalline rocks (A) for a potential geological disposal facility (coastal areas, Scotland, Outer Hebrides, Anglesey).",
+      "image": "img/2025-summer-a3/q1aii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q1aii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q1bi",
+      "paper": "2025-summer-a3",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Diagram Annotation",
+        "Hydrogeology"
+      ],
+      "summary": "Mark on cross-section B in Figure 1b an arrow (F) showing groundwater flow direction in coarse-grained sedimentary rocks (arrow to the left).",
+      "image": "img/2025-summer-a3/q1bi.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q1bii",
+      "paper": "2025-summer-a3",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "maths",
+        "Calculation",
+        "Quantitative Analysis"
+      ],
+      "summary": "Calculate hydraulic conductivity (k) of fine-grained sedimentary rocks using Darcy's Law from flow rate, head difference (100 m) and distance (50,000 m) (k = 10^-9 m s^-1).",
+      "image": "img/2025-summer-a3/q1bii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q1ci",
+      "paper": "2025-summer-a3",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Geological Deduction",
+        "Engineering and the Environment"
+      ],
+      "summary": "Give two geological reasons why cross-section A (crystalline rocks) is suitable for a geological disposal facility (lowest permeability, flow confined to faults, competence, erosion resistance).",
+      "image": "img/2025-summer-a3/q1ci.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q1a.jpg",
+        "img/2025-summer-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q1ci.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q1cii",
+      "paper": "2025-summer-a3",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Geological Deduction",
+        "Engineering and the Environment"
+      ],
+      "summary": "Give two geological reasons why cross-section B (sedimentary rocks) is suitable for a geological disposal facility (unfaulted, low permeability fine sediment, easier excavation, downward/away flow).",
+      "image": "img/2025-summer-a3/q1cii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q1a.jpg",
+        "img/2025-summer-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q1cii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q1di",
+      "paper": "2025-summer-a3",
+      "question": "1(d)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "T1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Risk Assessment"
+      ],
+      "summary": "Describe the level and distribution of risk from seismic hazards in Britain from the 475-year return period intensity map (low/minor risk, greater in west than east).",
+      "image": "img/2025-summer-a3/q1di.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q1di.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q1dii",
+      "paper": "2025-summer-a3",
+      "question": "1(d)(ii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "T1.2",
+        "T1.3"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Geohazards"
+      ],
+      "summary": "Evaluate the statement that a geological disposal facility must be engineered to resist seismic hazards with reference to 475-year return periods, long containment times, and fault reactivation.",
+      "image": "img/2025-summer-a3/q1dii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q1a.jpg",
+        "img/2025-summer-a3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q1dii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q2ai",
+      "paper": "2025-summer-a3",
+      "question": "2(a)(i)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Geological Explanation",
+        "Mass Movement"
+      ],
+      "summary": "Suggest how a submarine mass movement such as the Storegga Slide could be caused (loose sediment, steep continental slope, earthquake/storm trigger, reduction of basic friction angle).",
+      "image": "img/2025-summer-a3/q2ai.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q2ai.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q2aii",
+      "paper": "2025-summer-a3",
+      "question": "2(a)(ii)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Mechanism Explanation"
+      ],
+      "summary": "Suggest how a submarine mass movement can generate a tsunami (water column displacement).",
+      "image": "img/2025-summer-a3/q2aii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q2aii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q2bi",
+      "paper": "2025-summer-a3",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "2.1",
+        "T1.1"
+      ],
+      "skills": [
+        "Sedimentological Description",
+        "Textural Analysis"
+      ],
+      "summary": "Describe the texture of the Storegga deposit shown in the sediment core at Garth (upward fining, very coarse gravel clasts at base to clay, poorly sorted).",
+      "image": "img/2025-summer-a3/q2bi.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q2b.jpg",
+        "img/2025-summer-a3/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q2bi.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q2bii",
+      "paper": "2025-summer-a3",
+      "question": "2(b)(ii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "2.1",
+        "T1.1"
+      ],
+      "skills": [
+        "Evidence Interpretation",
+        "Tsunami Geology"
+      ],
+      "summary": "Explain why the Storegga deposit is interpreted as a tsunami deposit (erosive base, high energy decreasing rapidly, marine shells and sediment inland above high tide and above terrestrial peat).",
+      "image": "img/2025-summer-a3/q2bii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q2b.jpg",
+        "img/2025-summer-a3/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q2bii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q2biii",
+      "paper": "2025-summer-a3",
+      "question": "2(b)(iii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Geomorphological Deduction",
+        "Spatial Reasoning"
+      ],
+      "summary": "Suggest why the location of Garth made it particularly vulnerable to the Storegga tsunami (bay opens to NE facing slide direction, narrowing inlet funnels wave, low-lying coastal setting).",
+      "image": "img/2025-summer-a3/q2biii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q2a.jpg",
+        "img/2025-summer-a3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q2biii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q2c",
+      "paper": "2025-summer-a3",
+      "question": "2(c)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "T1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Hazard Assessment"
+      ],
+      "summary": "Evaluate the current level of risk from tsunamis in Shetland (precedent exists, steep slopes and Icelandic volcanism remain, but events are rare, passive margin lacks subduction, monitoring possible).",
+      "image": "img/2025-summer-a3/q2c.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q2a.jpg",
+        "img/2025-summer-a3/fig-q2b.jpg",
+        "img/2025-summer-a3/fig-q2c.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q2c.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q3ai",
+      "paper": "2025-summer-a3",
+      "question": "3(a)(i)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "2.2",
+        "T2.1"
+      ],
+      "skills": [
+        "Map Reading",
+        "Rock Identification"
+      ],
+      "summary": "State the rock type cropping out at grid reference GR 605765 on the Ludlow sheet (Dolerite).",
+      "image": "img/2025-summer-a3/q3ai.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q3ai.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q3aii",
+      "paper": "2025-summer-a3",
+      "question": "3(a)(ii)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Geological Drawing",
+        "Map Interpretation"
+      ],
+      "summary": "Draw and label map evidence in box A for the unconformity between the Cornbrook Sandstone Formation (CoS) and Lower and Middle Coal Measures (LMC).",
+      "image": "img/2025-summer-a3/q3aii.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q3aii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q3aiii",
+      "paper": "2025-summer-a3",
+      "question": "3(a)(iii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "3.2",
+        "T2.1"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Stratigraphy"
+      ],
+      "summary": "Evaluate the student's relative age table in box B (Head is superficial/Quaternary and youngest; BFL is Devonian and older than Silurian Rg based on east dip and succession).",
+      "image": "img/2025-summer-a3/q3aiii.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg",
+        "img/2025-summer-a3/tab-q3.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q3aiii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q3bi",
+      "paper": "2025-summer-a3",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "G4.1",
+        "T2.2"
+      ],
+      "skills": [
+        "Map Reading",
+        "Mining Geology"
+      ],
+      "summary": "State the name of the only coal seam penetrated by the abandoned vertical mineshaft at GR 581757 (Gutter Coal / Gu).",
+      "image": "img/2025-summer-a3/q3bi.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q3bi.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q3bii",
+      "paper": "2025-summer-a3",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Structural Reasoning",
+        "Subsurface Deduction"
+      ],
+      "summary": "Explain why no other coal seams are penetrated by the vertical shaft at GR 581757 (coal seams dip southeast; shaft is located north of the younger seams).",
+      "image": "img/2025-summer-a3/q3bii.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q3bii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q3ci",
+      "paper": "2025-summer-a3",
+      "question": "3(c)(i)",
+      "marks": 4,
+      "page": 11,
+      "topics": [
+        "2.2",
+        "T2.1"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Igneous Petrology"
+      ],
+      "summary": "Explain how map evidence supports either a sill (medium cooling dolerite, locally concordant, lack of large aureole) or pluton (circular/oval outline, large size, discordant contacts).",
+      "image": "img/2025-summer-a3/q3ci.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q3ci.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q3cii",
+      "paper": "2025-summer-a3",
+      "question": "3(c)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "2.2",
+        "3.2"
+      ],
+      "skills": [
+        "Field Observation Description",
+        "Relative Dating"
+      ],
+      "summary": "State field evidence to confirm the dolerite sill is younger than overlying LMC at GR 595760 (xenoliths of LMC in dolerite, baked margin/recrystallisation of LMC, cross-cutting dolerite offshoots).",
+      "image": "img/2025-summer-a3/q3cii.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q3cii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q4ai",
+      "paper": "2025-summer-a3",
+      "question": "4(a)(i)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Structural Geomorphology",
+        "Rule of V's"
+      ],
+      "summary": "Explain the presence of the V-shape in the Bishops Frome Limestone (BFL) at GR 575769 (outcrop crosses a valley; beds V in the direction of true dip).",
+      "image": "img/2025-summer-a3/q4ai.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg",
+        "img/2025-summer-a3/fig-q4.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q4ai.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q4aii",
+      "paper": "2025-summer-a3",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Diagram Annotation",
+        "Structural Analysis"
+      ],
+      "summary": "Draw the synform symbol on the axial plane trace in Figure 4 and indicate the plunge direction (plunging northeast).",
+      "image": "img/2025-summer-a3/q4aii.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg",
+        "img/2025-summer-a3/fig-q4.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q4aii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q4aiii",
+      "paper": "2025-summer-a3",
+      "question": "4(a)(iii)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Structural Reasoning",
+        "Geomorphological Deduction"
+      ],
+      "summary": "Explain why younger dolerite sill at GR 605765 is surrounded by older rocks (resistant crystalline dolerite preserved in synform core while surrounding less resistant rocks eroded).",
+      "image": "img/2025-summer-a3/q4aiii.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg",
+        "img/2025-summer-a3/fig-q4.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q4bi",
+      "paper": "2025-summer-a3",
+      "question": "4(b)(i)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Fault Identification",
+        "Kinematic Analysis"
+      ],
+      "summary": "Identify the fault type at GR 599751 and give map evidence (normal fault; downthrown tick on NNW side; hanging wall downthrown in direction of fault dip).",
+      "image": "img/2025-summer-a3/q4bi.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg",
+        "img/2025-summer-a3/fig-q4.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q4bi.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q4bii",
+      "paper": "2025-summer-a3",
+      "question": "4(b)(ii)",
+      "marks": 4,
+      "page": 13,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Tectonic History"
+      ],
+      "summary": "Evaluate statement that fault and fold formed together with same principal stress (incorrect: normal fault is extensional with vertical sigma 1, fold is compressional with horizontal sigma 1; fault cuts fold).",
+      "image": "img/2025-summer-a3/q4bii.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg",
+        "img/2025-summer-a3/fig-q4.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q4bii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q5ai",
+      "paper": "2025-summer-a3",
+      "question": "5(a)(i)",
+      "marks": 1,
+      "page": 14,
+      "topics": [
+        "G4.1"
+      ],
+      "skills": [
+        "Definition",
+        "Industrial Minerals"
+      ],
+      "summary": "State the geological meaning of the term aggregate (crushed rock, gravel or sand used in construction).",
+      "image": "img/2025-summer-a3/q5ai.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q5ai.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q5aii",
+      "paper": "2025-summer-a3",
+      "question": "5(a)(ii)",
+      "marks": 4,
+      "page": 14,
+      "topics": [
+        "G4.3"
+      ],
+      "skills": [
+        "Geophysical Explanation",
+        "Prospecting Techniques"
+      ],
+      "summary": "Describe two prospecting techniques to explore for iron ore prior to drilling (magnetic for local magnetic field distortions, gravity for positive density anomalies, electrical resistivity, seismic).",
+      "image": "img/2025-summer-a3/q5aii.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q5aii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q5bi",
+      "paper": "2025-summer-a3",
+      "question": "5(b)(i)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "T2.2"
+      ],
+      "skills": [
+        "maths",
+        "Calculation",
+        "Cross-Section Analysis"
+      ],
+      "summary": "Show that cross-sectional area of rock to be removed in Figure 5b is approx 48,000 m2 (width = 750 m, depth = 128 m; 750 x 128 / 2 = 48,000 m2).",
+      "image": "img/2025-summer-a3/q5bi.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q5a.jpg",
+        "img/2025-summer-a3/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q5bi.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q5bii",
+      "paper": "2025-summer-a3",
+      "question": "5(b)(ii)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "T2.2"
+      ],
+      "skills": [
+        "maths",
+        "Calculation",
+        "Quarrying Volumes"
+      ],
+      "summary": "Calculate total volume of dolerite to be removed using length between X and Y (length ~ 825 m; 48,000 x 825 = 39,600,000 m3).",
+      "image": "img/2025-summer-a3/q5bii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q5a.jpg",
+        "img/2025-summer-a3/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q5bii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q5c",
+      "paper": "2025-summer-a3",
+      "question": "5(c)",
+      "marks": 3,
+      "page": 16,
+      "topics": [
+        "T1.3",
+        "G4.1"
+      ],
+      "skills": [
+        "Geochemical Reasoning",
+        "Acid Mine Drainage"
+      ],
+      "summary": "Explain the origin of pollution at the spring in Figure 5c with pH 4.2 (oxidation of exposed pyrite producing sulfuric acid and orange iron hydroxide precipitate).",
+      "image": "img/2025-summer-a3/q5c.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q5c.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q5c.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q5d",
+      "paper": "2025-summer-a3",
+      "question": "5(d)",
+      "marks": 4,
+      "page": 16,
+      "topics": [
+        "T1.3",
+        "T2.2"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Landfill Engineering"
+      ],
+      "summary": "Evaluate geological suitability of extended quarry as a domestic landfill site (impermeable dolerite bedrock and synform retain leachate, but cooling joints, faults, and mineshafts risk leakage).",
+      "image": "img/2025-summer-a3/q5d.jpg",
+      "figures": [
+        "img/2025-summer-a3/map1.jpg",
+        "img/2025-summer-a3/fig-q5a.jpg",
+        "img/2025-summer-a3/fig-q5b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q5d.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q6a",
+      "paper": "2025-summer-a3",
+      "question": "6(a)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "T3.2"
+      ],
+      "skills": [
+        "Evidence Interpretation",
+        "Quaternary Chronology"
+      ],
+      "summary": "Explain evidence for a significant time gap between peat and clastic sediments at Whittlesey (weathered sediment below peat shows subaerial exposure / unconformity, periglacial ice wedge cast).",
+      "image": "img/2025-summer-a3/q6a.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q6.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q6a.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q6bi",
+      "paper": "2025-summer-a3",
+      "question": "6(b)(i)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "T3.3"
+      ],
+      "skills": [
+        "Fossil Utility Explanation",
+        "Palaeoecology"
+      ],
+      "summary": "Explain why beetles are effective fossils in Quaternary palaeoenvironmental reconstruction (rapid climatic sensitivity, stenothermic environmental tracking, morphological stasis/modern analogues).",
+      "image": "img/2025-summer-a3/q6bi.jpg",
+      "figures": [
+        "img/2025-summer-a3/tab-q6.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q6bi.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q6bii",
+      "paper": "2025-summer-a3",
+      "question": "6(b)(ii)",
+      "marks": 4,
+      "page": 19,
+      "topics": [
+        "T3.2",
+        "T3.3"
+      ],
+      "skills": [
+        "Evidence Deduction",
+        "Palaeoenvironmental Interpretation"
+      ],
+      "summary": "Explain evidence that Whittlesey clastics formed in a fast river during an interglacial (coarse rounded gravel pebbles, channel fills, fluvial beetle habitats, southern European warm beetle taxa).",
+      "image": "img/2025-summer-a3/q6bii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q6.jpg",
+        "img/2025-summer-a3/tab-q6.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q6bii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q6biii",
+      "paper": "2025-summer-a3",
+      "question": "6(b)(iii)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "T3.3"
+      ],
+      "skills": [
+        "Methodology Explanation",
+        "Knowledge Recall"
+      ],
+      "summary": "Explain one other piece of evidence to support the fluvial or interglacial interpretation (pollen analysis for warm temperate flora, vertebrate fossil adaptations, sedimentary structures).",
+      "image": "img/2025-summer-a3/q6biii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q6.jpg",
+        "img/2025-summer-a3/tab-q6.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q6biii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q7a",
+      "paper": "2025-summer-a3",
+      "question": "7(a)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "T3.1"
+      ],
+      "skills": [
+        "Comparative Description",
+        "Climatology"
+      ],
+      "summary": "Describe differences in present-day climate south vs north of the Himalayas (wetter and hotter south of Himalaya; cooler and significantly drier rain shadow to north).",
+      "image": "img/2025-summer-a3/q7a.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q7a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q7a.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q7bi",
+      "paper": "2025-summer-a3",
+      "question": "7(b)(i)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "T3.3"
+      ],
+      "skills": [
+        "Isotope Fractionation",
+        "Scientific Explanation"
+      ],
+      "summary": "Explain how oxygen isotopes in marine microfossil shells provide climate evidence (evaporation preferentially removes 16O locked in continental ice, leaving enriched 18O in seawater and shells).",
+      "image": "img/2025-summer-a3/q7bi.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q7b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q7bi.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q7bii",
+      "paper": "2025-summer-a3",
+      "question": "7(b)(ii)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "G3.3",
+        "T3.1"
+      ],
+      "skills": [
+        "Trend Description",
+        "Palaeoclimate"
+      ],
+      "summary": "Describe global climate change over the last 50 Ma shown by marine 18O (overall cooling trend, non-linear fluctuating pattern, increasing aridity).",
+      "image": "img/2025-summer-a3/q7bii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q7b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q7bii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q7biii",
+      "paper": "2025-summer-a3",
+      "question": "7(b)(iii)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "G3.2",
+        "T3.1"
+      ],
+      "skills": [
+        "Causal Explanation",
+        "Tectonic Weathering"
+      ],
+      "summary": "Explain how Himalayan and Tibetan Plateau uplift contributed to global cooling (enhanced silicate chemical weathering drawing down CO2, disruption of jet stream and atmospheric moisture circulation).",
+      "image": "img/2025-summer-a3/q7biii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q7a.jpg",
+        "img/2025-summer-a3/fig-q7b.jpg",
+        "img/2025-summer-a3/fig-q7c.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q7biii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q7ci",
+      "paper": "2025-summer-a3",
+      "question": "7(c)(i)",
+      "marks": 3,
+      "page": 22,
+      "topics": [
+        "G3.2",
+        "T3.1"
+      ],
+      "skills": [
+        "Correlation Analysis",
+        "Data Interpretation"
+      ],
+      "summary": "Describe correlation between Tibetan Plateau height and global climate change (weak/partial correlation; cooling accompanies early rapid uplift, but continuous uplift doesn't match later climate fluctuations).",
+      "image": "img/2025-summer-a3/q7ci.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q7b.jpg",
+        "img/2025-summer-a3/fig-q7c.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q7ci.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q7cii",
+      "paper": "2025-summer-a3",
+      "question": "7(c)(ii)",
+      "marks": 3,
+      "page": 22,
+      "topics": [
+        "G3.2",
+        "T3.1"
+      ],
+      "skills": [
+        "Critical Assessment",
+        "Global Tectonics"
+      ],
+      "summary": "Evaluate statement that Himalayan uplift was the only tectonic climate influence (not true; continental drift opened Drake Passage isolating Antarctica, closed Isthmus of Panama).",
+      "image": "img/2025-summer-a3/q7cii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q7b.jpg",
+        "img/2025-summer-a3/fig-q7c.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q7cii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q8",
+      "paper": "2025-summer-a3",
+      "question": "8",
+      "marks": 6,
+      "page": 23,
+      "topics": [
+        "T3.1",
+        "T3.2"
+      ],
+      "skills": [
+        "Scientific Synthesis",
+        "Extended Response",
+        "QER"
+      ],
+      "summary": "Explain the link between continental ice sheets and sea levels: global eustatic changes via ice volume and thermal expansion vs localized isostatic crustal depression and rebound.",
+      "image": "img/2025-summer-a3/q8.jpg",
+      "figures": [],
+      "markscheme": "img/2025-summer-a3/ms-q8.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q9a",
+      "paper": "2025-summer-a3",
+      "question": "9(a)",
+      "marks": 2,
+      "page": 25,
+      "topics": [
+        "T4.1"
+      ],
+      "skills": [
+        "Stratigraphic Synthesis",
+        "Map Description"
+      ],
+      "summary": "Describe rock age range and distribution from Langholm to London (Silurian to Palaeogene/Neogene/Cenozoic; rocks young progressively from northwest to southeast).",
+      "image": "img/2025-summer-a3/q9a.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q9a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q9a.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q9bi",
+      "paper": "2025-summer-a3",
+      "question": "9(b)(i)",
+      "marks": 2,
+      "page": 25,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "Stereonet Interpretation",
+        "Fold Analysis"
+      ],
+      "summary": "Describe two differences in folds between southern Scotland and SE England from stereonets (axial orientation NE-SW vs E-W, steeper dips and tighter interlimb angles in Scotland vs gentle open folds in England).",
+      "image": "img/2025-summer-a3/q9bi.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q9b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q9bi.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q9bii",
+      "paper": "2025-summer-a3",
+      "question": "9(b)(ii)",
+      "marks": 3,
+      "page": 26,
+      "topics": [
+        "G2",
+        "T4.1"
+      ],
+      "skills": [
+        "Tectonic Synthesis",
+        "Orogenic Comparison"
+      ],
+      "summary": "Explain reasons for fold differences between southern Scotland and SE England (Scotland at core of Caledonian orogeny with NW-SE stress; SE England on distal periphery of Alpine orogeny with N-S stress).",
+      "image": "img/2025-summer-a3/q9bii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q9a.jpg",
+        "img/2025-summer-a3/fig-q9b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q9bii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q9c",
+      "paper": "2025-summer-a3",
+      "question": "9(c)",
+      "marks": 3,
+      "page": 26,
+      "topics": [
+        "2.2",
+        "T4.1"
+      ],
+      "skills": [
+        "Petrogenetic Explanation",
+        "Subduction Zones"
+      ],
+      "summary": "Explain why folded rocks of southern Scotland have granitic plutons while SE England does not (Caledonian subduction and Iapetus closure caused crustal thickening and partial melting; SE England lacked subduction).",
+      "image": "img/2025-summer-a3/q9c.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q9a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q9c.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q10ai",
+      "paper": "2025-summer-a3",
+      "question": "10(a)(i)",
+      "marks": 3,
+      "page": 29,
+      "topics": [
+        "2.1",
+        "T4.3"
+      ],
+      "skills": [
+        "Sedimentological Description",
+        "Facies Variation"
+      ],
+      "summary": "Describe three changes in Devonian rocks from south to north A to D (grain size coarsens, more clastic, limestone only in south at A, conglomerate and cross-bedded sandstone increase northward).",
+      "image": "img/2025-summer-a3/q10ai.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q10a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q10ai.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q10aii",
+      "paper": "2025-summer-a3",
+      "question": "10(a)(ii)",
+      "marks": 3,
+      "page": 29,
+      "topics": [
+        "2.1",
+        "T4.3"
+      ],
+      "skills": [
+        "Palaeogeographic Explanation",
+        "Facies Models"
+      ],
+      "summary": "Explain why south-to-north Devonian facies changes occur (Caledonian highland source in north with high energy rivers, grading southward into distal lowlands and shallow marine sea in south).",
+      "image": "img/2025-summer-a3/q10aii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q10a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q10aii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q10b",
+      "paper": "2025-summer-a3",
+      "question": "10(b)",
+      "marks": 3,
+      "page": 30,
+      "topics": [
+        "2.1",
+        "T4.3"
+      ],
+      "skills": [
+        "Textural Description",
+        "Rock Interpretation"
+      ],
+      "summary": "Describe the texture of the sedimentary rock in Figure 10b (coarse pebble clasts up to 10 cm, sub-rounded to rounded, poorly sorted, finer sandy matrix with haematite cement).",
+      "image": "img/2025-summer-a3/q10b.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q10b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q10b.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q10ci",
+      "paper": "2025-summer-a3",
+      "question": "10(c)(i)",
+      "marks": 3,
+      "page": 31,
+      "topics": [
+        "T4.2",
+        "T4.3"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Palaeoclimate"
+      ],
+      "summary": "Evaluate statement that Devonian rocks were deposited 15-20°S (highly likely: peak red bed desert and coral limestone deposition at arid trade wind belts; cannot distinguish north vs south from facies alone).",
+      "image": "img/2025-summer-a3/q10ci.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q10a.jpg",
+        "img/2025-summer-a3/fig-q10b.jpg",
+        "img/2025-summer-a3/fig-q10c.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q10ci.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q10cii",
+      "paper": "2025-summer-a3",
+      "question": "10(c)(ii)",
+      "marks": 2,
+      "page": 31,
+      "topics": [
+        "T4.2"
+      ],
+      "skills": [
+        "Geophysical Method Explanation",
+        "Palaeolatitude"
+      ],
+      "summary": "Explain one other method to determine Devonian palaeolatitude (palaeomagnetic inclination in cooling iron-bearing minerals, latitudinally restricted diagnostic fossils like colonial rugose corals).",
+      "image": "img/2025-summer-a3/q10cii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q10a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q10cii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q11",
+      "paper": "2025-summer-a3",
+      "question": "11",
+      "marks": 6,
+      "page": 32,
+      "topics": [
+        "T4.1",
+        "T5.2"
+      ],
+      "skills": [
+        "Scientific Synthesis",
+        "Extended Response",
+        "QER"
+      ],
+      "summary": "Explain how Britain's geology provides evidence for the opening of the North Atlantic: Palaeogene igneous province (NW-SE dyke swarms, plutons, flood basalts) and North Sea rifting/subsidence.",
+      "image": "img/2025-summer-a3/q11.jpg",
+      "figures": [],
+      "markscheme": "img/2025-summer-a3/ms-q11.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q12a",
+      "paper": "2025-summer-a3",
+      "question": "12(a)",
+      "marks": 3,
+      "page": 35,
+      "topics": [
+        "T5.1"
+      ],
+      "skills": [
+        "Data Description",
+        "Heat Flow"
+      ],
+      "summary": "Describe global heat flow variations in Figure 12a (highest heat flow >200 mW m^-2 along oceanic ridges, decreasing with distance; South Pacific has broader high heat flow than South Atlantic).",
+      "image": "img/2025-summer-a3/q12a.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q12a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q12a.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q12bi",
+      "paper": "2025-summer-a3",
+      "question": "12(b)(i)",
+      "marks": 2,
+      "page": 35,
+      "topics": [
+        "T5.1",
+        "T5.2"
+      ],
+      "skills": [
+        "Comparative Deduction",
+        "Spreading Rates"
+      ],
+      "summary": "State which ocean spreads faster and give evidence (South Pacific spreads faster; wider age bands of oceanic crust formed over the same time period).",
+      "image": "img/2025-summer-a3/q12bi.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q12b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q12bi.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q12bii",
+      "paper": "2025-summer-a3",
+      "question": "12(b)(ii)",
+      "marks": 2,
+      "page": 35,
+      "topics": [
+        "T5.1",
+        "T5.2"
+      ],
+      "skills": [
+        "Causal Explanation",
+        "Thermal Structure"
+      ],
+      "summary": "Explain heat flow differences between South Pacific and South Atlantic (faster spreading in Pacific creates a wider area of young, hot, thin lithosphere allowing greater conductive heat loss).",
+      "image": "img/2025-summer-a3/q12bii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q12a.jpg",
+        "img/2025-summer-a3/fig-q12b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q12bii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q12ci",
+      "paper": "2025-summer-a3",
+      "question": "12(c)(i)",
+      "marks": 3,
+      "page": 35,
+      "topics": [
+        "T5.2"
+      ],
+      "skills": [
+        "Sedimentary Process Explanation",
+        "Ocean Basins"
+      ],
+      "summary": "Describe and explain sediment thickness variation across ocean basins (thinnest/absent at mid-ocean ridge, thickening away from ridge with crustal age and proximity to continental terrigenous input).",
+      "image": "img/2025-summer-a3/q12ci.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q12b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q12ci.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q12cii",
+      "paper": "2025-summer-a3",
+      "question": "12(c)(ii)",
+      "marks": 2,
+      "page": 35,
+      "topics": [
+        "T5.1",
+        "T5.2"
+      ],
+      "skills": [
+        "Physical Reasoning",
+        "Thermal Insulation"
+      ],
+      "summary": "Suggest how sediment thickness variation affects heat flow (thick sediment acts as a thermal insulator reducing conductive heat loss, but pore fluids can facilitate convective circulation).",
+      "image": "img/2025-summer-a3/q12cii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q12a.jpg",
+        "img/2025-summer-a3/fig-q12b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q12cii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q13ai",
+      "paper": "2025-summer-a3",
+      "question": "13(a)(i)",
+      "marks": 2,
+      "page": 36,
+      "topics": [
+        "T5.2",
+        "T5.3"
+      ],
+      "skills": [
+        "Diagram Analysis",
+        "Ophiolite Distribution"
+      ],
+      "summary": "Describe the location of rock sequence X in Figure 13a (incorporated on either flank/margin of the orogenic belt, bounded by major thrust faults).",
+      "image": "img/2025-summer-a3/q13ai.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q13a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q13ai.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q13aii",
+      "paper": "2025-summer-a3",
+      "question": "13(a)(ii)",
+      "marks": 2,
+      "page": 36,
+      "topics": [
+        "T5.2",
+        "T5.3"
+      ],
+      "skills": [
+        "Tectonic Synthesis",
+        "Obduction"
+      ],
+      "summary": "Explain why ophiolite sequence X is found in an orogenic belt (obduction and tectonic sliver accretion of oceanic lithosphere onto continental margin during collision).",
+      "image": "img/2025-summer-a3/q13aii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q13a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q13aii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q13bi",
+      "paper": "2025-summer-a3",
+      "question": "13(b)(i)",
+      "marks": 3,
+      "page": 37,
+      "topics": [
+        "4.1",
+        "T5.3"
+      ],
+      "skills": [
+        "Isostatic Mechanism Explanation",
+        "Delamination"
+      ],
+      "summary": "Explain why isostatic uplift occurs following delamination (loss of dense lower lithospheric mantle root replaced by buoyant hot asthenosphere, restoring isostatic equilibrium).",
+      "image": "img/2025-summer-a3/q13bi.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q13a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q13bi.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q13bii",
+      "paper": "2025-summer-a3",
+      "question": "13(b)(ii)",
+      "marks": 2,
+      "page": 37,
+      "topics": [
+        "G2",
+        "T5.3"
+      ],
+      "skills": [
+        "Structural Reasoning",
+        "Gravitational Collapse"
+      ],
+      "summary": "Explain the presence of normal faults in an orogenic belt (gravitational collapse of overthickened crust, relaxation of horizontal compression, vertical maximum principal stress).",
+      "image": "img/2025-summer-a3/q13bii.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q13a.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q13bii.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q13c",
+      "paper": "2025-summer-a3",
+      "question": "13(c)",
+      "marks": 3,
+      "page": 38,
+      "topics": [
+        "4.1",
+        "T5.3"
+      ],
+      "skills": [
+        "Data Interpretation",
+        "Hypsographic Curve"
+      ],
+      "summary": "Explain why Earth surface elevation >4 km is only 0.5% (confined to narrow active collisional zones, limited by isostatic balance, gravitational collapse, and accelerated erosion rates).",
+      "image": "img/2025-summer-a3/q13c.jpg",
+      "figures": [
+        "img/2025-summer-a3/fig-q13b.jpg"
+      ],
+      "markscheme": "img/2025-summer-a3/ms-q13c.jpg"
+    },
+    {
+      "id": "2025-summer-a3-q14",
+      "paper": "2025-summer-a3",
+      "question": "14",
+      "marks": 6,
+      "page": 39,
+      "topics": [
+        "4.2",
+        "T4.2",
+        "T5.2"
+      ],
+      "skills": [
+        "Scientific Synthesis",
+        "Extended Response",
+        "QER"
+      ],
+      "summary": "Explain geological and palaeomagnetic evidence used to reconstruct supercontinents: palaeomagnetic inclination/polar wander, seafloor magnetic stripes, orogenic belt continuity, continental shelf geometric fit, and fossil distribution.",
+      "image": "img/2025-summer-a3/q14.jpg",
+      "figures": [],
+      "markscheme": "img/2025-summer-a3/ms-q14.jpg"
     }
   ],
   "levels": [
