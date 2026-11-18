@@ -1015,6 +1015,18 @@
       "spec": "current",
       "totalMarks": 105,
       "duration": "2 hours"
+    },
+    {
+      "id": "2020-autumn-c1",
+      "year": 2020,
+      "series": "Autumn",
+      "date": "2020-10-06",
+      "code": "B480U10-1",
+      "unit": "AS Component 1: Geological Enquiries",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 60,
+      "duration": "1 hour 30 minutes"
     }
   ],
   "questions": [
@@ -31184,6 +31196,452 @@
       "image": "img/2021-autumn-a3/q15.jpg",
       "figures": [],
       "markscheme": "img/2021-autumn-a3/ms-q15.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q1ai",
+      "paper": "2020-autumn-c1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Textural Description",
+        "Sedimentology"
+      ],
+      "summary": "Describe the texture of Rock Unit B (oolitic limestone) using Photograph 1.",
+      "image": "img/2020-autumn-c1/q1ai.jpg",
+      "figures": [
+        "img/2020-autumn-c1/photo1.jpg",
+        "img/2020-autumn-c1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q1aii",
+      "paper": "2020-autumn-c1",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Calculation",
+        "Mathematical Skills",
+        "Data Extraction"
+      ],
+      "summary": "Calculate the actual length of grain A between P and Q in Photograph 1 showing your working.",
+      "image": "img/2020-autumn-c1/q1aii.jpg",
+      "figures": [
+        "img/2020-autumn-c1/photo1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q1b",
+      "paper": "2020-autumn-c1",
+      "question": "1(b)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Sedimentary Processes",
+        "Diagenesis",
+        "Scientific Reasoning"
+      ],
+      "summary": "Describe and explain the evidence that Rock Unit B has undergone diagenesis.",
+      "image": "img/2020-autumn-c1/q1b.jpg",
+      "figures": [
+        "img/2020-autumn-c1/photo1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q1b.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q2ai",
+      "paper": "2020-autumn-c1",
+      "question": "2(a)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "2.1",
+        "Field Skills"
+      ],
+      "skills": [
+        "Geological Drawing",
+        "Field Skills",
+        "Sedimentary Petrology"
+      ],
+      "summary": "Complete Figure 2 by drawing the texture of Specimen C to the scale provided (x2).",
+      "image": "img/2020-autumn-c1/q2ai.jpg",
+      "figures": [
+        "img/2020-autumn-c1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q2ai.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q2aii",
+      "paper": "2020-autumn-c1",
+      "question": "2(a)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Rock Identification",
+        "Sedimentary Petrology"
+      ],
+      "summary": "State the name of Specimen C (Conglomerate).",
+      "image": "img/2020-autumn-c1/q2aii.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-c1/ms-q2aii.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q2b",
+      "paper": "2020-autumn-c1",
+      "question": "2(b)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Sedimentary Processes",
+        "Palaeoenvironmental Interpretation",
+        "Scientific Reasoning"
+      ],
+      "summary": "Describe the energy level during transportation of the clasts of Specimen C, giving two reasons for your answer.",
+      "image": "img/2020-autumn-c1/q2b.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-c1/ms-q2b.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q3ai",
+      "paper": "2020-autumn-c1",
+      "question": "3(a)(i)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "2.1",
+        "Field Skills"
+      ],
+      "skills": [
+        "Geological Drawing",
+        "Fossil Identification",
+        "Field Skills"
+      ],
+      "summary": "Draw in Figure 3 a coral from Specimen H to the scale provided.",
+      "image": "img/2020-autumn-c1/q3ai.jpg",
+      "figures": [
+        "img/2020-autumn-c1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q3ai.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q3aii",
+      "paper": "2020-autumn-c1",
+      "question": "3(a)(ii)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Diagram Annotation",
+        "Fossil Identification"
+      ],
+      "summary": "Label one of the septa on your drawing in Figure 3.",
+      "image": "img/2020-autumn-c1/q3aii.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-c1/ms-q3aii.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q3b",
+      "paper": "2020-autumn-c1",
+      "question": "3(b)",
+      "marks": 6,
+      "page": 4,
+      "topics": [
+        "2.1",
+        "Stratigraphy"
+      ],
+      "skills": [
+        "QER",
+        "QER Extended Response",
+        "Palaeoenvironmental Interpretation",
+        "Relative Dating"
+      ],
+      "summary": "Evaluate the student's statement that Specimen H and Rock Unit B were formed in a shallow marine environment and at the same time (QER).",
+      "image": "img/2020-autumn-c1/q3b.jpg",
+      "figures": [
+        "img/2020-autumn-c1/photo1.jpg",
+        "img/2020-autumn-c1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q3b.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q4ai",
+      "paper": "2020-autumn-c1",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Rock Identification",
+        "Igneous Petrology"
+      ],
+      "summary": "State the name of the igneous structures shown in Photograph 2 (Columnar Jointing).",
+      "image": "img/2020-autumn-c1/q4ai.jpg",
+      "figures": [
+        "img/2020-autumn-c1/photo2.jpg",
+        "img/2020-autumn-c1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q4ai.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q4aii",
+      "paper": "2020-autumn-c1",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Calculation",
+        "Mathematical Skills",
+        "Data Extraction"
+      ],
+      "summary": "Calculate the mean width of the three structures, X, Y and Z, indicated in Photograph 2 showing your working.",
+      "image": "img/2020-autumn-c1/q4aii.jpg",
+      "figures": [
+        "img/2020-autumn-c1/photo2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q4aii.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q4aiii",
+      "paper": "2020-autumn-c1",
+      "question": "4(a)(iii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "2.2",
+        "Field Skills"
+      ],
+      "skills": [
+        "Geological Drawing",
+        "Field Skills"
+      ],
+      "summary": "Draw a sketch of Photograph 2 in Figure 4a using the scale provided.",
+      "image": "img/2020-autumn-c1/q4aiii.jpg",
+      "figures": [
+        "img/2020-autumn-c1/photo2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q4aiv",
+      "paper": "2020-autumn-c1",
+      "question": "4(a)(iv)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Diagram Annotation",
+        "Petrogenetic Explanation",
+        "Mechanisms"
+      ],
+      "summary": "Annotate your sketch to explain how the igneous structures in Photograph 2 formed.",
+      "image": "img/2020-autumn-c1/q4aiv.jpg",
+      "figures": [
+        "img/2020-autumn-c1/photo2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q4aiv.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q4bi",
+      "paper": "2020-autumn-c1",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Textural Analysis",
+        "Field Skills",
+        "Rock Identification"
+      ],
+      "summary": "State two pieces of evidence from Specimen D only that enable Specimen D to be identified.",
+      "image": "img/2020-autumn-c1/q4bi.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-c1/ms-q4bi.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q4bii",
+      "paper": "2020-autumn-c1",
+      "question": "4(b)(ii)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Rock Identification",
+        "Igneous Petrology"
+      ],
+      "summary": "State the name of Specimen D (Basalt).",
+      "image": "img/2020-autumn-c1/q4bii.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-c1/ms-q4bii.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q4c",
+      "paper": "2020-autumn-c1",
+      "question": "4(c)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Map Reading",
+        "Map Interpretation",
+        "Field Evidence",
+        "Navigation"
+      ],
+      "summary": "Using Map 2 give a six-figure grid reference for the location of the exposure shown in Figure 4b and explain your answer.",
+      "image": "img/2020-autumn-c1/q4c.jpg",
+      "figures": [
+        "img/2020-autumn-c1/map1.jpg",
+        "img/2020-autumn-c1/map2.jpg",
+        "img/2020-autumn-c1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q4c.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q5a",
+      "paper": "2020-autumn-c1",
+      "question": "5(a)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Rock Identification",
+        "Map Interpretation",
+        "Metamorphic Petrology"
+      ],
+      "summary": "State one piece of evidence from Map 1 and one piece of evidence from Specimen G supporting the identification of gneiss.",
+      "image": "img/2020-autumn-c1/q5a.jpg",
+      "figures": [
+        "img/2020-autumn-c1/map1.jpg",
+        "img/2020-autumn-c1/map3.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q5a.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q5b",
+      "paper": "2020-autumn-c1",
+      "question": "5(b)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "Stratigraphy",
+        "3.1"
+      ],
+      "skills": [
+        "Relative Dating",
+        "Fold Analysis",
+        "Critical Evaluation"
+      ],
+      "summary": "Evaluate the student's relative age sequence of the rock units (G, F, B, C) on Map 3.",
+      "image": "img/2020-autumn-c1/q5b.jpg",
+      "figures": [
+        "img/2020-autumn-c1/map1.jpg",
+        "img/2020-autumn-c1/map3.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q5b.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q6a",
+      "paper": "2020-autumn-c1",
+      "question": "6(a)",
+      "marks": 4,
+      "page": 12,
+      "topics": [
+        "3.2",
+        "T2.1"
+      ],
+      "skills": [
+        "Fault Identification",
+        "Fault Analysis",
+        "Map Interpretation"
+      ],
+      "summary": "Complete Table 6 to compare faults F1, F2 and F3 on Map 1.",
+      "image": "img/2020-autumn-c1/q6a.jpg",
+      "figures": [
+        "img/2020-autumn-c1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q6a.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q6b",
+      "paper": "2020-autumn-c1",
+      "question": "6(b)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "3.2",
+        "Stratigraphy"
+      ],
+      "skills": [
+        "Relative Dating",
+        "Cross-Cutting Relationships"
+      ],
+      "summary": "Select which statement is correct regarding the relative ages of F1, F2, F3, Rock Unit A, and the unconformity.",
+      "image": "img/2020-autumn-c1/q6b.jpg",
+      "figures": [
+        "img/2020-autumn-c1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q6b.jpg"
+    },
+    {
+      "id": "2020-autumn-c1-q7",
+      "paper": "2020-autumn-c1",
+      "question": "7",
+      "marks": 13,
+      "page": 13,
+      "topics": [
+        "T2.1",
+        "3.1",
+        "3.2",
+        "2.3"
+      ],
+      "skills": [
+        "Cross-Section Interpretation",
+        "Geological Drawing",
+        "Map Interpretation",
+        "Structural Geology"
+      ],
+      "summary": "Complete the sketch of the geological cross-section along line X-Y on Map 1 using the provided topographic profile.",
+      "image": "img/2020-autumn-c1/q7.jpg",
+      "figures": [
+        "img/2020-autumn-c1/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-c1/ms-q7.jpg"
     }
   ],
   "levels": [
