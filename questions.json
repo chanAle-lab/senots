@@ -967,6 +967,18 @@
       "spec": "current",
       "totalMarks": 105,
       "duration": "2 hours"
+    },
+    {
+      "id": "2024-summer-a3",
+      "year": 2024,
+      "series": "Summer",
+      "date": "2024-06-17",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours"
     }
   ],
   "questions": [
@@ -25835,6 +25847,1299 @@
       "image": "img/2025-summer-a3/q14.jpg",
       "figures": [],
       "markscheme": "img/2025-summer-a3/ms-q14.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q1a",
+      "paper": "2024-summer-a3",
+      "question": "1(a)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Data Analysis",
+        "Scientific Explanation"
+      ],
+      "summary": "Explain why a magnitude 7.2 earthquake occurred on the Enriquillo-Plantain Garden fault zone (transform/conservative boundary, Caribbean/North American plates, shear stress accumulation/release).",
+      "image": "img/2024-summer-a3/q1a.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q1a.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q1bi",
+      "paper": "2024-summer-a3",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Data Interpretation"
+      ],
+      "summary": "Determine the maximum Mercalli intensity value shown in Figure 1b.",
+      "image": "img/2024-summer-a3/q1bi.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q1bii",
+      "paper": "2024-summer-a3",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Data Analysis"
+      ],
+      "summary": "Describe how shaking intensity changes with distance from the earthquake epicentre in Figure 1b.",
+      "image": "img/2024-summer-a3/q1bii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q1biii",
+      "paper": "2024-summer-a3",
+      "question": "1(b)(iii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Scientific Explanation"
+      ],
+      "summary": "Explain anomalous high Mercalli intensity values recorded far from the epicentre (alluvium/unconsolidated sediment amplification, liquefaction, building quality).",
+      "image": "img/2024-summer-a3/q1biii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q1biii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q1c",
+      "paper": "2024-summer-a3",
+      "question": "1(c)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Evaluation",
+        "Hazard Assessment"
+      ],
+      "summary": "Explain why measuring earthquake intensity using the Mercalli scale is considered subjective.",
+      "image": "img/2024-summer-a3/q1c.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a3/ms-q1c.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q1d",
+      "paper": "2024-summer-a3",
+      "question": "1(d)",
+      "marks": 4,
+      "page": 5,
+      "topics": [
+        "T1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "Risk Management",
+        "Hazard Mitigation"
+      ],
+      "summary": "Evaluate strategies used in earthquake-prone regions to reduce risk to human populations (hazard mapping, building codes, early warning systems, education).",
+      "image": "img/2024-summer-a3/q1d.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a3/ms-q1d.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q2ai",
+      "paper": "2024-summer-a3",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Data Interpretation"
+      ],
+      "summary": "Identify two geohazards associated with historical underground limestone quarrying in the Bath area from Figure 2a and 2b.",
+      "image": "img/2024-summer-a3/q2ai.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q2a.jpg",
+        "img/2024-summer-a3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q2ai.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q2aii",
+      "paper": "2024-summer-a3",
+      "question": "2(a)(ii)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Scientific Explanation"
+      ],
+      "summary": "Explain the mechanisms leading to pillar collapse and roof fall in abandoned underground limestone mines (weathering, jointing, stress concentration, water saturation).",
+      "image": "img/2024-summer-a3/q2aii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q2a.jpg",
+        "img/2024-summer-a3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q2aii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q2bi",
+      "paper": "2024-summer-a3",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Data Analysis"
+      ],
+      "summary": "State the primary purpose of grouting/foamed concrete infill in abandoned pillar and stall mines.",
+      "image": "img/2024-summer-a3/q2bi.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a3/ms-q2bi.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q2bii",
+      "paper": "2024-summer-a3",
+      "question": "2(b)(ii)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Mathematical Calculation"
+      ],
+      "summary": "Calculate the void volume of stone removed from an underground chamber of given dimensions.",
+      "image": "img/2024-summer-a3/q2bii.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a3/ms-q2bii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q2biii",
+      "paper": "2024-summer-a3",
+      "question": "2(b)(iii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Mathematical Calculation"
+      ],
+      "summary": "Calculate the volume of foamed concrete required to infill the workings given extraction percentage and bulk reduction.",
+      "image": "img/2024-summer-a3/q2biii.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a3/ms-q2biii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q2biv",
+      "paper": "2024-summer-a3",
+      "question": "2(b)(iv)",
+      "marks": 4,
+      "page": 10,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Evaluation",
+        "Geotechnical Engineering"
+      ],
+      "summary": "Evaluate environmental and financial impacts of infilling abandoned underground mines with foamed concrete versus leaving them unmitigated.",
+      "image": "img/2024-summer-a3/q2biv.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a3/ms-q2biv.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q3a",
+      "paper": "2024-summer-a3",
+      "question": "3(a)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Map Interpretation"
+      ],
+      "summary": "Describe the outcrop pattern and width of the Gawthwaite Formation (Gte) between GR 272 872 and GR 280 872.",
+      "image": "img/2024-summer-a3/q3a.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q3a.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q3bi",
+      "paper": "2024-summer-a3",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Map Interpretation"
+      ],
+      "summary": "Determine the dip direction and dip angle of strata in the Gawthwaite Formation at GR 272 872.",
+      "image": "img/2024-summer-a3/q3bi.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q3bi.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q3bii",
+      "paper": "2024-summer-a3",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Geological Thickness"
+      ],
+      "summary": "Calculate the true thickness of the Gawthwaite Formation at GR 272 872 using outcrop width and dip angle.",
+      "image": "img/2024-summer-a3/q3bii.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q3bii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q3biii",
+      "paper": "2024-summer-a3",
+      "question": "3(b)(iii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Geological Reasoning"
+      ],
+      "summary": "Suggest two geological reasons for variations in the apparent outcrop width of the Gawthwaite Formation along strike (topography, fold limbs, faulting, facies change).",
+      "image": "img/2024-summer-a3/q3biii.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q3biii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q4ai",
+      "paper": "2024-summer-a3",
+      "question": "4(a)(i)",
+      "marks": 4,
+      "page": 14,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Diagram Interpretation",
+        "Structural Geology"
+      ],
+      "summary": "Describe and explain the variation in orientation of slaty cleavage (cleavage refraction) across the sandstone and siltstone beds in Figure 4a.",
+      "image": "img/2024-summer-a3/q4ai.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg",
+        "img/2024-summer-a3/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q4ai.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q4aii",
+      "paper": "2024-summer-a3",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "Structural Geology"
+      ],
+      "summary": "Explain the relationship between the orientation of slaty cleavage and the principal compressive stress direction.",
+      "image": "img/2024-summer-a3/q4aii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q4aii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q4bi",
+      "paper": "2024-summer-a3",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Data Plotting",
+        "Rose Diagram"
+      ],
+      "summary": "Plot the data for cleavage strike orientation from Table 4b onto the rose diagram in Figure 4b.",
+      "image": "img/2024-summer-a3/q4bi.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg",
+        "img/2024-summer-a3/tab-q4b.jpg",
+        "img/2024-summer-a3/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q4bi.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q4bii",
+      "paper": "2024-summer-a3",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Data Interpretation"
+      ],
+      "summary": "State the modal strike direction of cleavage shown in Figure 4b and identify the trend of major fold axes in the area.",
+      "image": "img/2024-summer-a3/q4bii.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg",
+        "img/2024-summer-a3/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q4bii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q4biii",
+      "paper": "2024-summer-a3",
+      "question": "4(b)(iii)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Structural Geology",
+        "Synthesis"
+      ],
+      "summary": "Explain how the relationship between cleavage orientation and fold axis trend confirms axial planar cleavage in the Ulverston area.",
+      "image": "img/2024-summer-a3/q4biii.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg",
+        "img/2024-summer-a3/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q4biii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q5ai",
+      "paper": "2024-summer-a3",
+      "question": "5(a)(i)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Map Interpretation"
+      ],
+      "summary": "State the strike direction and displacement distance of the Kirkby Fault between GR 225 873 and GR 238 880.",
+      "image": "img/2024-summer-a3/q5ai.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q5ai.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q5aii",
+      "paper": "2024-summer-a3",
+      "question": "5(a)(ii)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Structural Geology"
+      ],
+      "summary": "Determine the sense of slip (sinistral strike-slip) along the Kirkby Fault citing geological map evidence.",
+      "image": "img/2024-summer-a3/q5aii.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q5aii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q5aiii",
+      "paper": "2024-summer-a3",
+      "question": "5(a)(iii)",
+      "marks": 1,
+      "page": 18,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Structural Geology"
+      ],
+      "summary": "State the type of fault indicated by the apparent horizontal offset of vertical/steeply dipping beds.",
+      "image": "img/2024-summer-a3/q5aiii.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q5aiii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q5b",
+      "paper": "2024-summer-a3",
+      "question": "5(b)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "Structural Geology",
+        "Field Evidence"
+      ],
+      "summary": "Explain how field evidence (slickenlines, fault gouge, drag folds) could demonstrate reactivation or multi-phase movement along a fault.",
+      "image": "img/2024-summer-a3/q5b.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q5b.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q5c",
+      "paper": "2024-summer-a3",
+      "question": "5(c)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "Stress Analysis",
+        "Structural Geology"
+      ],
+      "summary": "Deduce the orientation of maximum (sigma1) and minimum (sigma3) principal compressive stresses responsible for sinistral strike-slip faulting striking NE-SW.",
+      "image": "img/2024-summer-a3/q5c.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q5c.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q6a",
+      "paper": "2024-summer-a3",
+      "question": "6(a)",
+      "marks": 2,
+      "page": 20,
+      "topics": [
+        "2.2",
+        "T2.1"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Igneous Petrology"
+      ],
+      "summary": "Describe the form and outcrop geometry of the microgranite intrusion at GR 293 881 shown in Figure 6.",
+      "image": "img/2024-summer-a3/q6a.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg",
+        "img/2024-summer-a3/fig-q6.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q6a.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q6b",
+      "paper": "2024-summer-a3",
+      "question": "6(b)",
+      "marks": 3,
+      "page": 20,
+      "topics": [
+        "2.2",
+        "3.2"
+      ],
+      "skills": [
+        "Relative Dating",
+        "Cross-Cutting Relationships"
+      ],
+      "summary": "Determine the relative age of the microgranite intrusion with respect to folding, cleavage development, and faulting, providing map evidence.",
+      "image": "img/2024-summer-a3/q6b.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg",
+        "img/2024-summer-a3/fig-q6.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q6b.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q7ai",
+      "paper": "2024-summer-a3",
+      "question": "7(a)(i)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "2.1",
+        "T2.1"
+      ],
+      "skills": [
+        "Sedimentary Structures"
+      ],
+      "summary": "Identify the sedimentary structures (flute casts) shown on the bedding plane in Figure 7 and state the palaeocurrent direction.",
+      "image": "img/2024-summer-a3/q7ai.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg",
+        "img/2024-summer-a3/fig-q7.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q7ai.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q7aii",
+      "paper": "2024-summer-a3",
+      "question": "7(a)(ii)",
+      "marks": 4,
+      "page": 21,
+      "topics": [
+        "2.1",
+        "2.3"
+      ],
+      "skills": [
+        "Way-Up Evidence",
+        "Structural Interpretation"
+      ],
+      "summary": "Explain how flute casts provide way-up evidence and determine whether the beds at GR 295 918 are right-way-up or overturned.",
+      "image": "img/2024-summer-a3/q7aii.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg",
+        "img/2024-summer-a3/fig-q7.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q7aii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q7b",
+      "paper": "2024-summer-a3",
+      "question": "7(b)",
+      "marks": 4,
+      "page": 22,
+      "topics": [
+        "2.1",
+        "T4.3"
+      ],
+      "skills": [
+        "Sedimentary Processes",
+        "Turbidites"
+      ],
+      "summary": "Explain the mechanism of turbidite deposition responsible for generating sole markings and graded bedding in the Coniston Group.",
+      "image": "img/2024-summer-a3/q7b.jpg",
+      "figures": [
+        "img/2024-summer-a3/map1.jpg",
+        "img/2024-summer-a3/fig-q7.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q7b.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q8a",
+      "paper": "2024-summer-a3",
+      "question": "8(a)",
+      "marks": 2,
+      "page": 24,
+      "topics": [
+        "T3.2"
+      ],
+      "skills": [
+        "Data Interpretation"
+      ],
+      "summary": "State the evidence from Figure 8a indicating past glacial action and sea-level change in the coastal section.",
+      "image": "img/2024-summer-a3/q8a.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q8a.jpg",
+        "img/2024-summer-a3/fig-q8b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q8a.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q8bi",
+      "paper": "2024-summer-a3",
+      "question": "8(b)(i)",
+      "marks": 1,
+      "page": 24,
+      "topics": [
+        "T3.2"
+      ],
+      "skills": [
+        "Geomorphology"
+      ],
+      "summary": "Name feature X (raised beach / fossil wave-cut platform) in Figure 8b.",
+      "image": "img/2024-summer-a3/q8bi.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q8a.jpg",
+        "img/2024-summer-a3/fig-q8b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q8bi.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q8bii",
+      "paper": "2024-summer-a3",
+      "question": "8(b)(ii)",
+      "marks": 2,
+      "page": 24,
+      "topics": [
+        "T3.2"
+      ],
+      "skills": [
+        "Scientific Explanation"
+      ],
+      "summary": "Explain the origin of raised beaches in terms of post-glacial isostatic rebound and eustatic sea-level change.",
+      "image": "img/2024-summer-a3/q8bii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q8b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q8bii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q8ci",
+      "paper": "2024-summer-a3",
+      "question": "8(c)(i)",
+      "marks": 3,
+      "page": 25,
+      "topics": [
+        "3.2",
+        "T3.3"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Radiometric Dating"
+      ],
+      "summary": "Calculate the radiometric age of the basalt lava flow in Figure 8c using given 40K and 40Ar isotope data (0.1488 Ma).",
+      "image": "img/2024-summer-a3/q8ci.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q8c.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q8ci.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q8cii",
+      "paper": "2024-summer-a3",
+      "question": "8(c)(ii)",
+      "marks": 2,
+      "page": 25,
+      "topics": [
+        "3.2",
+        "T3.3"
+      ],
+      "skills": [
+        "Radiometric Dating",
+        "Evaluation"
+      ],
+      "summary": "Explain one limitation or assumption of potassium-argon dating when applied to young Quaternary volcanic rocks.",
+      "image": "img/2024-summer-a3/q8cii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q8c.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q8cii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q8di",
+      "paper": "2024-summer-a3",
+      "question": "8(d)(i)",
+      "marks": 1,
+      "page": 26,
+      "topics": [
+        "T3.2"
+      ],
+      "skills": [
+        "Coastal Geomorphology"
+      ],
+      "summary": "Identify the coastal landform type illustrated (ria / drowned river valley).",
+      "image": "img/2024-summer-a3/q8di.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a3/ms-q8di.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q8dii",
+      "paper": "2024-summer-a3",
+      "question": "8(d)(ii)",
+      "marks": 3,
+      "page": 26,
+      "topics": [
+        "T3.1",
+        "T3.2"
+      ],
+      "skills": [
+        "Scientific Explanation"
+      ],
+      "summary": "Explain the formation of rias in response to post-glacial eustatic sea-level rise submerging unglaciated river valleys.",
+      "image": "img/2024-summer-a3/q8dii.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a3/ms-q8dii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q9ai",
+      "paper": "2024-summer-a3",
+      "question": "9(a)(i)",
+      "marks": 2,
+      "page": 28,
+      "topics": [
+        "T3.3"
+      ],
+      "skills": [
+        "Data Analysis"
+      ],
+      "summary": "Describe the trend in hominin brain volume over the past 3 million years shown in Figure 9.",
+      "image": "img/2024-summer-a3/q9ai.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q9.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q9ai.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q9aii",
+      "paper": "2024-summer-a3",
+      "question": "9(a)(ii)",
+      "marks": 2,
+      "page": 28,
+      "topics": [
+        "T3.1"
+      ],
+      "skills": [
+        "Palaeoclimate"
+      ],
+      "summary": "Identify the orbital cycle (Milankovitch eccentricity ~100 ka) linked to major Quaternary climatic fluctuations in Figure 9.",
+      "image": "img/2024-summer-a3/q9aii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q9.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q9aii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q9aiii",
+      "paper": "2024-summer-a3",
+      "question": "9(a)(iii)",
+      "marks": 3,
+      "page": 28,
+      "topics": [
+        "T3.3"
+      ],
+      "skills": [
+        "Scientific Synthesis"
+      ],
+      "summary": "Explain how rapid climate fluctuations and habitat variability in East Africa drove hominin evolutionary adaptations.",
+      "image": "img/2024-summer-a3/q9aiii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q9.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q9aiii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q9b",
+      "paper": "2024-summer-a3",
+      "question": "9(b)",
+      "marks": 3,
+      "page": 29,
+      "topics": [
+        "T3.1"
+      ],
+      "skills": [
+        "Palaeoclimate",
+        "Mechanisms"
+      ],
+      "summary": "Explain how changes in Earth orbital parameters (eccentricity, obliquity, precession) trigger glacial-interglacial transitions.",
+      "image": "img/2024-summer-a3/q9b.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a3/ms-q9b.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q10",
+      "paper": "2024-summer-a3",
+      "question": "10",
+      "marks": 6,
+      "page": 30,
+      "topics": [
+        "T3.3"
+      ],
+      "skills": [
+        "Scientific Synthesis",
+        "Extended Response",
+        "QER"
+      ],
+      "summary": "Evaluate the use of fossil evidence (pollen, invertebrates, vertebrates) in reconstructing past Quaternary climates and environments.",
+      "image": "img/2024-summer-a3/q10.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a3/ms-q10.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q11ai",
+      "paper": "2024-summer-a3",
+      "question": "11(a)(i)",
+      "marks": 2,
+      "page": 32,
+      "topics": [
+        "2.1",
+        "T4.1"
+      ],
+      "skills": [
+        "Sedimentary Petrology"
+      ],
+      "summary": "Describe the texture and composition of the Port Askaig diamictite (Rock J) shown in Figure 11a.",
+      "image": "img/2024-summer-a3/q11ai.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q11a.jpg",
+        "img/2024-summer-a3/fig-q11b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q11ai.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q11aii",
+      "paper": "2024-summer-a3",
+      "question": "11(a)(ii)",
+      "marks": 2,
+      "page": 32,
+      "topics": [
+        "2.1",
+        "T4.1"
+      ],
+      "skills": [
+        "Palaeoenvironmental Interpretation"
+      ],
+      "summary": "Explain the origin of the outsized clasts (dropstones) and laminated siltstone matrix in Rock J as glaciomarine deposits.",
+      "image": "img/2024-summer-a3/q11aii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q11aii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q11bi",
+      "paper": "2024-summer-a3",
+      "question": "11(b)(i)",
+      "marks": 3,
+      "page": 32,
+      "topics": [
+        "T4.1"
+      ],
+      "skills": [
+        "Palaeoclimatology"
+      ],
+      "summary": "Explain the significance of Neoproterozoic cap carbonates directly overlying glacial diamictites in supporting the Snowball Earth hypothesis.",
+      "image": "img/2024-summer-a3/q11bi.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q11a.jpg",
+        "img/2024-summer-a3/fig-q11b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q11bi.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q11bii",
+      "paper": "2024-summer-a3",
+      "question": "11(b)(ii)",
+      "marks": 2,
+      "page": 33,
+      "topics": [
+        "T4.1"
+      ],
+      "skills": [
+        "Geological Reasoning"
+      ],
+      "summary": "Explain how rapid post-glacial greenhouse warming facilitated rapid precipitation of cap dolostones/limestones.",
+      "image": "img/2024-summer-a3/q11bii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q11b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q11bii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q11ci",
+      "paper": "2024-summer-a3",
+      "question": "11(c)(i)",
+      "marks": 3,
+      "page": 33,
+      "topics": [
+        "3.2",
+        "T4.1"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Geochronology"
+      ],
+      "summary": "Calculate the radiometric age of the dolerite dyke cutting the Dalradian succession using given isotope data (57.7 Ma).",
+      "image": "img/2024-summer-a3/q11ci.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q11c.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q11ci.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q11cii",
+      "paper": "2024-summer-a3",
+      "question": "11(c)(ii)",
+      "marks": 2,
+      "page": 33,
+      "topics": [
+        "T4.1",
+        "T5.2"
+      ],
+      "skills": [
+        "Plate Tectonics",
+        "British Geology"
+      ],
+      "summary": "Relate the age and igneous activity of the dolerite dyke swarm to the opening of the North Atlantic Ocean and Iceland mantle plume.",
+      "image": "img/2024-summer-a3/q11cii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q11c.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q11cii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q12ai",
+      "paper": "2024-summer-a3",
+      "question": "12(a)(i)",
+      "marks": 1,
+      "page": 36,
+      "topics": [
+        "3.2",
+        "T4.1"
+      ],
+      "skills": [
+        "Geochronology"
+      ],
+      "summary": "Identify the geological period during which the older Ordovician granites were emplaced in northern England.",
+      "image": "img/2024-summer-a3/q12ai.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q12.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q12ai.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q12aii",
+      "paper": "2024-summer-a3",
+      "question": "12(a)(ii)",
+      "marks": 3,
+      "page": 36,
+      "topics": [
+        "2.3",
+        "T4.1"
+      ],
+      "skills": [
+        "Structural Geology",
+        "Map Interpretation"
+      ],
+      "summary": "Explain the structural relationship between granitic plutons and the Causey Pike Fault shown in Figure 12.",
+      "image": "img/2024-summer-a3/q12aii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q12.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q12aii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q12bi",
+      "paper": "2024-summer-a3",
+      "question": "12(b)(i)",
+      "marks": 3,
+      "page": 37,
+      "topics": [
+        "G4.3"
+      ],
+      "skills": [
+        "Geophysical Interpretation"
+      ],
+      "summary": "Explain how negative Bouguer gravity anomalies provide evidence for the subterranean extent and shape of granitic batholiths.",
+      "image": "img/2024-summer-a3/q12bi.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q12.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q12bi.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q12bii",
+      "paper": "2024-summer-a3",
+      "question": "12(b)(ii)",
+      "marks": 3,
+      "page": 37,
+      "topics": [
+        "2.2",
+        "T4.1"
+      ],
+      "skills": [
+        "Igneous Petrology",
+        "Tectonic Evolution"
+      ],
+      "summary": "Contrast the tectonic origin and magma source of the subduction-related Ordovician granites with post-collisional Devonian granites.",
+      "image": "img/2024-summer-a3/q12bii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q12.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q12bii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q13",
+      "paper": "2024-summer-a3",
+      "question": "13",
+      "marks": 6,
+      "page": 38,
+      "topics": [
+        "T4.1",
+        "T4.3"
+      ],
+      "skills": [
+        "Scientific Synthesis",
+        "Extended Response",
+        "QER"
+      ],
+      "summary": "Evaluate sedimentary and fossil evidence from the British Mesozoic (Triassic desert, Jurassic warm shallow seas, Cretaceous chalk) showing changing sea levels and palaeoenvironments.",
+      "image": "img/2024-summer-a3/q13.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a3/ms-q13.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q14ai",
+      "paper": "2024-summer-a3",
+      "question": "14(a)(i)",
+      "marks": 1,
+      "page": 40,
+      "topics": [
+        "T5.1",
+        "T5.2"
+      ],
+      "skills": [
+        "Plate Tectonics"
+      ],
+      "summary": "Identify the tectonic feature represented by the Tristan da Cunha island chain and Walvis Ridge.",
+      "image": "img/2024-summer-a3/q14ai.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q14a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q14ai.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q14aii",
+      "paper": "2024-summer-a3",
+      "question": "14(a)(ii)",
+      "marks": 3,
+      "page": 40,
+      "topics": [
+        "3.2",
+        "T5.1"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Geochronology"
+      ],
+      "summary": "Calculate the radiometric age of volcanic rock from the Walvis Ridge given potassium-argon isotope measurements (83.7 Ma).",
+      "image": "img/2024-summer-a3/q14aii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q14a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q14aii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q14b",
+      "paper": "2024-summer-a3",
+      "question": "14(b)",
+      "marks": 2,
+      "page": 41,
+      "topics": [
+        "4.2",
+        "T5.2"
+      ],
+      "skills": [
+        "Plate Motion Calculation"
+      ],
+      "summary": "Calculate the average rate of African Plate motion over the Tristan hotspot in mm per year given distance and age data (27 mm/yr).",
+      "image": "img/2024-summer-a3/q14b.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q14a.jpg",
+        "img/2024-summer-a3/fig-q14b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q14b.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q14ci",
+      "paper": "2024-summer-a3",
+      "question": "14(c)(i)",
+      "marks": 3,
+      "page": 41,
+      "topics": [
+        "T5.1"
+      ],
+      "skills": [
+        "Data Evaluation"
+      ],
+      "summary": "Evaluate evidence from volcanic age progression along the Walvis Ridge supporting the mantle plume hypothesis.",
+      "image": "img/2024-summer-a3/q14ci.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q14a.jpg",
+        "img/2024-summer-a3/fig-q14b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q14ci.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q14cii",
+      "paper": "2024-summer-a3",
+      "question": "14(c)(ii)",
+      "marks": 3,
+      "page": 41,
+      "topics": [
+        "T5.1"
+      ],
+      "skills": [
+        "Tectonic Evaluation"
+      ],
+      "summary": "Discuss alternative non-plume hypotheses (propagating fractures, plate boundary stress reorganisation) for aseismic volcanic ridge formation.",
+      "image": "img/2024-summer-a3/q14cii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q14a.jpg",
+        "img/2024-summer-a3/fig-q14b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q14cii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q15ai",
+      "paper": "2024-summer-a3",
+      "question": "15(a)(i)",
+      "marks": 2,
+      "page": 44,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Data Analysis",
+        "Seismology"
+      ],
+      "summary": "Determine the depth of the seismic discontinuity (Moho at 35 km) from the seismic profile in Figure 15a.",
+      "image": "img/2024-summer-a3/q15ai.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q15a.jpg",
+        "img/2024-summer-a3/fig-q15b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q15ai.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q15aii",
+      "paper": "2024-summer-a3",
+      "question": "15(a)(ii)",
+      "marks": 3,
+      "page": 44,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Seismology",
+        "Wave Propagation"
+      ],
+      "summary": "Identify and describe the three seismic wave pathways (direct crustal P1, reflected P2, critically refracted P3) illustrated in Figure 15a.",
+      "image": "img/2024-summer-a3/q15aii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q15a.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q15aii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q15bi",
+      "paper": "2024-summer-a3",
+      "question": "15(b)(i)",
+      "marks": 2,
+      "page": 45,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Seismology",
+        "Travel-Time Graphs"
+      ],
+      "summary": "Calculate the apparent seismic velocity of P-waves in the upper crust from the travel-time curve in Figure 15b (6.0 km/s).",
+      "image": "img/2024-summer-a3/q15bi.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q15b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q15bi.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q15bii",
+      "paper": "2024-summer-a3",
+      "question": "15(b)(ii)",
+      "marks": 2,
+      "page": 45,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Seismology",
+        "Travel-Time Graphs"
+      ],
+      "summary": "Calculate the seismic velocity of refracted P-waves traveling through the upper mantle beneath the Moho (8.0 km/s).",
+      "image": "img/2024-summer-a3/q15bii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q15b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q15bii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q15biii",
+      "paper": "2024-summer-a3",
+      "question": "15(b)(iii)",
+      "marks": 3,
+      "page": 45,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Seismic Physics"
+      ],
+      "summary": "Explain why critically refracted waves (P3) arrive before direct waves (P1) beyond the cross-over distance despite taking a longer path.",
+      "image": "img/2024-summer-a3/q15biii.jpg",
+      "figures": [
+        "img/2024-summer-a3/fig-q15a.jpg",
+        "img/2024-summer-a3/fig-q15b.jpg"
+      ],
+      "markscheme": "img/2024-summer-a3/ms-q15biii.jpg"
+    },
+    {
+      "id": "2024-summer-a3-q16",
+      "paper": "2024-summer-a3",
+      "question": "16",
+      "marks": 6,
+      "page": 46,
+      "topics": [
+        "4.1",
+        "T5.3"
+      ],
+      "skills": [
+        "Scientific Synthesis",
+        "Extended Response",
+        "QER"
+      ],
+      "summary": "Explain the origin and structural evolution of foreland basins resulting from lithospheric loading, flexural subsidence, and fold-and-thrust belt propagation.",
+      "image": "img/2024-summer-a3/q16.jpg",
+      "figures": [],
+      "markscheme": "img/2024-summer-a3/ms-q16.jpg"
     }
   ],
   "levels": [
