@@ -1231,6 +1231,54 @@
       "totalMarks": 15,
       "duration": "1 hour (Section A)",
       "level": "A2"
+    },
+    {
+      "id": "2013-winter-gl1",
+      "year": 2013,
+      "series": "Winter",
+      "date": "2013-01-15",
+      "code": "1211/01",
+      "unit": "GL1: Foundation Unit",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour"
+    },
+    {
+      "id": "2013-summer-gl1",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-05-16",
+      "code": "1211/01",
+      "unit": "GL1: Foundation Unit",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour"
+    },
+    {
+      "id": "2013-winter-gl3",
+      "year": 2013,
+      "series": "Winter",
+      "date": "2013-01-23",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2013-summer-gl3",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-05-22",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
     }
   ],
   "questions": [
@@ -40426,6 +40474,1765 @@
         "img/2014-summer-gl5-u4/fig-q1c.jpg"
       ],
       "markscheme": "img/2014-summer-gl5-u4/ms-q1cii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q1ai",
+      "paper": "2013-winter-gl1",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Plate Boundaries",
+        "Kermadec Trench",
+        "Convergent Margins"
+      ],
+      "skills": [
+        "Feature Classification"
+      ],
+      "summary": "State the type of plate boundary at locality A on Figure 1a.",
+      "image": "img/2013-winter-gl1/q1ai.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q1aii",
+      "paper": "2013-winter-gl1",
+      "question": "1(a)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Taupo Volcanic Zone",
+        "Andesitic Magma",
+        "Subduction Zones"
+      ],
+      "skills": [
+        "Magmatic Petrogenesis",
+        "Causal Explanation"
+      ],
+      "summary": "Explain the origin of andesitic magma generated beneath the Taupo Volcanic Zone.",
+      "image": "img/2013-winter-gl1/q1aii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q1bi",
+      "paper": "2013-winter-gl1",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Alpine Fault",
+        "Strike-Slip Faults",
+        "Dextral Motion"
+      ],
+      "skills": [
+        "Vector Drawing",
+        "Tectonic Map Interpretation"
+      ],
+      "summary": "Draw arrows on Figure 1a to show relative dextral movement either side of the Alpine Fault.",
+      "image": "img/2013-winter-gl1/q1bi.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q1bii",
+      "paper": "2013-winter-gl1",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Orogeny",
+        "Tectonic Uplift vs Erosion",
+        "Southern Alps"
+      ],
+      "skills": [
+        "Geodynamic Explanation",
+        "Physical Reasoning"
+      ],
+      "summary": "Explain why the Southern Alps are not increasing in height despite 7-10 mm annual tectonic uplift.",
+      "image": "img/2013-winter-gl1/q1bii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q1ci",
+      "paper": "2013-winter-gl1",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Benioff Zone",
+        "Subduction Seismicity",
+        "Earthquake Foci"
+      ],
+      "skills": [
+        "Diagram Annotation",
+        "Spatial Representation"
+      ],
+      "summary": "Mark with crosses on Figure 1b the likely location of earthquake foci down to 700 km.",
+      "image": "img/2013-winter-gl1/q1ci.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q1cii",
+      "paper": "2013-winter-gl1",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Wadati-Benioff Zone",
+        "Subducting Slab",
+        "Brittle Deformation"
+      ],
+      "skills": [
+        "Seismological Explanation",
+        "Cross-Section Interpretation"
+      ],
+      "summary": "Explain the distribution of earthquake foci shown on Figure 1b.",
+      "image": "img/2013-winter-gl1/q1cii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q1ciii",
+      "paper": "2013-winter-gl1",
+      "question": "1(c)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Deep Earthquakes Limit",
+        "Ductile Flow",
+        "Mantle Rheology"
+      ],
+      "skills": [
+        "Physical Explanation",
+        "Thermal Principles"
+      ],
+      "summary": "Explain why no earthquake foci occur deeper than 700 km.",
+      "image": "img/2013-winter-gl1/q1ciii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q1civ",
+      "paper": "2013-winter-gl1",
+      "question": "1(c)(iv)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Subduction Polarity Reversal",
+        "Puysegur Trench",
+        "New Zealand Tectonics"
+      ],
+      "skills": [
+        "Comparative Description",
+        "Geodynamic Synthesis"
+      ],
+      "summary": "Describe and explain how earthquake foci at locality D differ from locality A using evidence from Figure 1a.",
+      "image": "img/2013-winter-gl1/q1civ.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q1civ.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q2ai",
+      "paper": "2013-winter-gl1",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Fault Classification",
+        "Normal Faults",
+        "Dip-Slip"
+      ],
+      "skills": [
+        "Structural Analysis",
+        "Geological Justification"
+      ],
+      "summary": "Identify the type of fault shown in Figure 2a and give a reason for your answer.",
+      "image": "img/2013-winter-gl1/q2ai.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q2ai.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q2aii",
+      "paper": "2013-winter-gl1",
+      "question": "2(a)(ii)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "Folds",
+        "Axial Plane Trace",
+        "Structural Geology"
+      ],
+      "skills": [
+        "Diagram Annotation",
+        "Feature Drawing"
+      ],
+      "summary": "Draw and label on Figure 2a the axial plane trace of a fold.",
+      "image": "img/2013-winter-gl1/q2aii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q2aii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q2aiii",
+      "paper": "2013-winter-gl1",
+      "question": "2(a)(iii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Relative Age",
+        "Cross-Cutting Relationships",
+        "Granite Intrusions"
+      ],
+      "skills": [
+        "Evidence Description",
+        "Chronological Deduction"
+      ],
+      "summary": "Describe evidence on Figure 2a indicating the granite is younger than the surrounding rocks.",
+      "image": "img/2013-winter-gl1/q2aiii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q2aiii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q2bi",
+      "paper": "2013-winter-gl1",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "Metamorphic Aureoles",
+        "Isotherms",
+        "Thermal Profiles"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Temperature Deduction"
+      ],
+      "summary": "Record the temperatures represented by isotherms to the south of the granite in Figure 2a.",
+      "image": "img/2013-winter-gl1/q2bi.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q2bi.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q2bii",
+      "paper": "2013-winter-gl1",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Metaquartzite",
+        "Contact Metamorphism",
+        "Thermal Aureoles"
+      ],
+      "skills": [
+        "Diagram Shading",
+        "Metamorphic Mapping"
+      ],
+      "summary": "Shade in the area on Figure 2a where metaquartzite is located.",
+      "image": "img/2013-winter-gl1/q2bii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q2bii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q2ci",
+      "paper": "2013-winter-gl1",
+      "question": "2(c)(i)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Chiastolite Slate",
+        "Porphyroblastic Texture",
+        "Metamorphic Rocks"
+      ],
+      "skills": [
+        "Textural Description",
+        "Hand Specimen Analysis"
+      ],
+      "summary": "Describe the texture of crystalline rock E in Figure 2b collected from locality E in Figure 2a.",
+      "image": "img/2013-winter-gl1/q2ci.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q2ci.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q2cii",
+      "paper": "2013-winter-gl1",
+      "question": "2(c)(ii)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "Thermal Metamorphism",
+        "Hornfelsing",
+        "Chiastolite Growth"
+      ],
+      "skills": [
+        "Petrogenetic Explanation",
+        "Process Synthesis"
+      ],
+      "summary": "With reference to Figure 2a explain the origin of the texture of rock E.",
+      "image": "img/2013-winter-gl1/q2cii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q2a.jpg",
+        "img/2013-winter-gl1/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q2cii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q3ai",
+      "paper": "2013-winter-gl1",
+      "question": "3(a)(i)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Palaeocurrents",
+        "Cross-Bedding",
+        "Sedimentary Structures"
+      ],
+      "skills": [
+        "Current Direction Deduction",
+        "Structural Reasoning"
+      ],
+      "summary": "State the current flow direction from cross-bedding in Figure 3a with reasons.",
+      "image": "img/2013-winter-gl1/q3ai.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q3ai.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q3aii",
+      "paper": "2013-winter-gl1",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Fluvial vs Aeolian",
+        "Sediment Sorting",
+        "Grain Roundness"
+      ],
+      "skills": [
+        "Environmental Discrimination",
+        "Textural Evidence"
+      ],
+      "summary": "State whether the cross-bedded sand current was aeolian or fluvial with reasons.",
+      "image": "img/2013-winter-gl1/q3aii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q3aii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q3bi",
+      "paper": "2013-winter-gl1",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "Calcite",
+        "Fossil Mineralogy",
+        "Mineral Data Sheet"
+      ],
+      "skills": [
+        "Mineral Identification",
+        "Physical Properties"
+      ],
+      "summary": "Identify mineral P from which fossil G is partly composed using the Mineral Data Sheet.",
+      "image": "img/2013-winter-gl1/q3bi.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q3bi.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q3bii",
+      "paper": "2013-winter-gl1",
+      "question": "3(b)(ii)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "Ammonite Morphology",
+        "Suture Lines",
+        "Cephalopods"
+      ],
+      "skills": [
+        "Feature Identification"
+      ],
+      "summary": "Identify feature Y on fossil G in Figure 3b.",
+      "image": "img/2013-winter-gl1/q3bii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q3bii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q3biii",
+      "paper": "2013-winter-gl1",
+      "question": "3(b)(iii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Ammonites",
+        "Suture Types",
+        "Cephalopod Evolution"
+      ],
+      "skills": [
+        "Taxonomic Group Identification",
+        "Diagnostic Reasoning"
+      ],
+      "summary": "Identify the fossil group (goniatite, ceratite or ammonite) to which fossil G belongs with reasons.",
+      "image": "img/2013-winter-gl1/q3biii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q3biii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q3ci",
+      "paper": "2013-winter-gl1",
+      "question": "3(c)(i)",
+      "marks": 1,
+      "page": 10,
+      "topics": [
+        "Radiocarbon Dating",
+        "Carbon-14 Equilibrium",
+        "Living Organisms"
+      ],
+      "skills": [
+        "Isotopic Equilibrium Explanation"
+      ],
+      "summary": "Explain why the ratio of 14C to non-radioactive carbon remains constant in living organisms.",
+      "image": "img/2013-winter-gl1/q3ci.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-tab3a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q3ci.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q3cii",
+      "paper": "2013-winter-gl1",
+      "question": "3(c)(ii)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "Radioactive Decay",
+        "Half-Life",
+        "Carbon-14 Decay"
+      ],
+      "skills": [
+        "Causal Explanation",
+        "Geochronological Principles"
+      ],
+      "summary": "Explain why the ratio of 14C to non-radioactive carbon declines in a fossil over time.",
+      "image": "img/2013-winter-gl1/q3cii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-tab3a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q3cii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q3ciii",
+      "paper": "2013-winter-gl1",
+      "question": "3(c)(iii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "Half-Life Calculation",
+        "Radiometric Age",
+        "Carbon-14"
+      ],
+      "skills": [
+        "Numerical Calculation",
+        "Working Presentation"
+      ],
+      "summary": "Calculate the age of plant fossils containing 1/4 proportion of 14C with half-life 5730 years.",
+      "image": "img/2013-winter-gl1/q3ciii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-tab3a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q3ciii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q3civ",
+      "paper": "2013-winter-gl1",
+      "question": "3(c)(iv)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Radiocarbon Dating Limits",
+        "Quaternary Sediments",
+        "Mesozoic Fossils"
+      ],
+      "skills": [
+        "Table Completion",
+        "Applicability Evaluation"
+      ],
+      "summary": "Complete Table 3b to evaluate suitability of 14C dating for sand/gravel layers and fossil G.",
+      "image": "img/2013-winter-gl1/q3civ.jpg",
+      "figures": [
+        "img/2013-winter-gl1/tab-q3civ.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q3civ.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q4a",
+      "paper": "2013-winter-gl1",
+      "question": "4(a)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "Dolerite Dykes",
+        "Discordant Intrusions",
+        "Igneous Structures"
+      ],
+      "skills": [
+        "Igneous Body Identification"
+      ],
+      "summary": "Identify the type of igneous body formed by the dolerite on Figure 4a.",
+      "image": "img/2013-winter-gl1/q4a.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q4a.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q4bi",
+      "paper": "2013-winter-gl1",
+      "question": "4(b)(i)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "Relative Dating",
+        "Precambrian vs Tertiary",
+        "Isle of Skye"
+      ],
+      "skills": [
+        "Chronological Extraction",
+        "Map Key Reading"
+      ],
+      "summary": "State the relative age of the gneiss compared with the silicic pluton in Figure 4a with reasons.",
+      "image": "img/2013-winter-gl1/q4bi.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q4bi.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q4bii",
+      "paper": "2013-winter-gl1",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "Cross-Cutting Relationships",
+        "Stratigraphic Principles",
+        "Relative Age"
+      ],
+      "skills": [
+        "Principle Explanation",
+        "Map Example Application"
+      ],
+      "summary": "Explain the law of cross-cutting relationships using one example from Figure 4a.",
+      "image": "img/2013-winter-gl1/q4bii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q4bii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q4ci",
+      "paper": "2013-winter-gl1",
+      "question": "4(c)(i)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "Ophitic Texture",
+        "Dolerite",
+        "Thin Section Petrology"
+      ],
+      "skills": [
+        "Photomicrograph Description",
+        "Textural Analysis"
+      ],
+      "summary": "Describe the texture of rock H in Figure 4b.",
+      "image": "img/2013-winter-gl1/q4ci.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q4ci.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q4cii",
+      "paper": "2013-winter-gl1",
+      "question": "4(c)(ii)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "Plagioclase Feldspar",
+        "Mineral Identification",
+        "Mineral Data Sheet"
+      ],
+      "skills": [
+        "Diagnostic Identification",
+        "Mineral Data Sheet Use"
+      ],
+      "summary": "Identify mineral X in Figure 4b using the Mineral Data Sheet.",
+      "image": "img/2013-winter-gl1/q4cii.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q4cii.jpg"
+    },
+    {
+      "id": "2013-winter-gl1-q4d",
+      "paper": "2013-winter-gl1",
+      "question": "4(d)",
+      "marks": 4,
+      "page": 13,
+      "topics": [
+        "Dolerite Dykes",
+        "Hypabyssal Rocks",
+        "Rock Classification"
+      ],
+      "skills": [
+        "Unit Matching",
+        "Diagnostic Synthesis"
+      ],
+      "summary": "Indicate by ticking one box in Figure 4a the most likely rock formation represented by rock H with reasons.",
+      "image": "img/2013-winter-gl1/q4d.jpg",
+      "figures": [
+        "img/2013-winter-gl1/fig-q4a.jpg",
+        "img/2013-winter-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl1/ms-q4d.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q1ai",
+      "paper": "2013-summer-gl1",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "Trilobites",
+        "Graptolites",
+        "Palaeozoic Diversity"
+      ],
+      "skills": [
+        "Graph Reading",
+        "Period Identification"
+      ],
+      "summary": "State the geological period during which both trilobites and graptolites began to decline.",
+      "image": "img/2013-summer-gl1/q1ai.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q1aii",
+      "paper": "2013-summer-gl1",
+      "question": "1(a)(ii)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "Graptolite Evolution",
+        "First Appearance",
+        "Extinction"
+      ],
+      "skills": [
+        "Evolutionary History Description",
+        "Stratigraphic Range"
+      ],
+      "summary": "Describe the geological history of graptolites regarding appearance, maximum diversity and extinction.",
+      "image": "img/2013-summer-gl1/q1aii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q1aiii",
+      "paper": "2013-summer-gl1",
+      "question": "1(a)(iii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "Trilobites vs Graptolites",
+        "Comparative Diversity",
+        "Fossil Records"
+      ],
+      "skills": [
+        "Comparative Analysis",
+        "Graph Interpretation"
+      ],
+      "summary": "State two differences between the geological histories of trilobites and graptolites.",
+      "image": "img/2013-summer-gl1/q1aiii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q1aiv",
+      "paper": "2013-summer-gl1",
+      "question": "1(a)(iv)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Zone Fossils",
+        "Index Fossils",
+        "Graptolite Biostratigraphy"
+      ],
+      "skills": [
+        "Diagnostic Criteria",
+        "Biostratigraphical Principles"
+      ],
+      "summary": "Describe two characteristics of graptolites that make them good zone fossils.",
+      "image": "img/2013-summer-gl1/q1aiv.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q1aiv.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q1bi",
+      "paper": "2013-summer-gl1",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Trilobite Anatomy",
+        "Pygidium",
+        "Arthropod Morphology"
+      ],
+      "skills": [
+        "Morphological Identification"
+      ],
+      "summary": "Name the part of the trilobite preserved in Figure 1b.",
+      "image": "img/2013-summer-gl1/q1bi.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q1bii",
+      "paper": "2013-summer-gl1",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Pyrite",
+        "Fossil Preservation",
+        "Mineral Data Sheet"
+      ],
+      "skills": [
+        "Mineral Identification",
+        "Physical Properties"
+      ],
+      "summary": "Identify mineral A from the Mineral Data Sheet composing the trilobite fossils.",
+      "image": "img/2013-summer-gl1/q1bii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q1biii",
+      "paper": "2013-summer-gl1",
+      "question": "1(b)(iii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Pyritisation",
+        "Fossilisation Processes",
+        "Taphonomy"
+      ],
+      "skills": [
+        "Process Description",
+        "Chemical Taphonomy"
+      ],
+      "summary": "Name and describe the process by which the trilobites in Figure 1b have been fossilised.",
+      "image": "img/2013-summer-gl1/q1biii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q1biii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q1biv",
+      "paper": "2013-summer-gl1",
+      "question": "1(b)(iv)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Life and Death Assemblages",
+        "Moulting",
+        "Palaeoecology"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Taphonomic Reasoning"
+      ],
+      "summary": "Critically evaluate the student's conclusion that the trilobites in Figure 1b represent a life assemblage.",
+      "image": "img/2013-summer-gl1/q1biv.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q1biv.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q2ai",
+      "paper": "2013-summer-gl1",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "Metamorphic Rocks",
+        "Gneiss",
+        "Orogenic Belts"
+      ],
+      "skills": [
+        "Rock Identification"
+      ],
+      "summary": "Name one metamorphic rock shown in Figure 2.",
+      "image": "img/2013-summer-gl1/q2ai.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q2ai.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q2aii",
+      "paper": "2013-summer-gl1",
+      "question": "2(a)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Fold Geometry",
+        "Overturned Folds",
+        "Asymmetric Folds"
+      ],
+      "skills": [
+        "Structural Analysis",
+        "Option Selection"
+      ],
+      "summary": "Tick three statements that most accurately describe the folding below the fault in Figure 2.",
+      "image": "img/2013-summer-gl1/q2aii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q2aii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q2bi",
+      "paper": "2013-summer-gl1",
+      "question": "2(b)(i)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Thrust Faults",
+        "Low-Angle Reverse Faults",
+        "Compressional Tectonics"
+      ],
+      "skills": [
+        "Structural Identification",
+        "Evidence Explanation"
+      ],
+      "summary": "Name the type of fault shown in Figure 2, giving two reasons to explain your answer.",
+      "image": "img/2013-summer-gl1/q2bi.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q2bi.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q2bii",
+      "paper": "2013-summer-gl1",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Fault Evidence",
+        "Slickensides",
+        "Fault Breccia"
+      ],
+      "skills": [
+        "Field Observation Description"
+      ],
+      "summary": "Describe one piece of evidence you would look for in the field to confirm the fault in Figure 2.",
+      "image": "img/2013-summer-gl1/q2bii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q2bii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q2c",
+      "paper": "2013-summer-gl1",
+      "question": "2(c)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Angular Unconformity",
+        "Stratigraphic Hiatus",
+        "Conglomerate"
+      ],
+      "skills": [
+        "Cross-Section Interpretation",
+        "Stratigraphic Synthesis"
+      ],
+      "summary": "Explain evidence that boundary B separates rock units of very different ages.",
+      "image": "img/2013-summer-gl1/q2c.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q2c.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q2d",
+      "paper": "2013-summer-gl1",
+      "question": "2(d)",
+      "marks": 4,
+      "page": 5,
+      "topics": [
+        "Relative Dating",
+        "Cross-Cutting Intrusions",
+        "Thrust Sheet Age"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Chronological Deduction"
+      ],
+      "summary": "Critically evaluate the student's conclusion that gneiss and dolerite were the youngest rocks.",
+      "image": "img/2013-summer-gl1/q2d.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q2d.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q3ai",
+      "paper": "2013-summer-gl1",
+      "question": "3(a)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Mid-Ocean Ridges",
+        "Ocean Trenches",
+        "Tectonic Map Symbols"
+      ],
+      "skills": [
+        "Map Annotation",
+        "Tectonic Feature Matching"
+      ],
+      "summary": "Mark on Figure 3a using symbols from key the most likely position of an ocean ridge and ocean trench.",
+      "image": "img/2013-summer-gl1/q3ai.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q3ai.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q3aii",
+      "paper": "2013-summer-gl1",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Seafloor Spreading",
+        "Ocean Floor Age",
+        "Pacific Crust"
+      ],
+      "skills": [
+        "Map Trend Description",
+        "Spatial Pattern Analysis"
+      ],
+      "summary": "Describe how the age of the Pacific Ocean floor varies along line A-B-C on Figure 3a.",
+      "image": "img/2013-summer-gl1/q3aii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q3aii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q3bi",
+      "paper": "2013-summer-gl1",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Spreading Rate Calculation",
+        "Seafloor Spreading",
+        "Plate Velocity"
+      ],
+      "skills": [
+        "Rate Calculation",
+        "Working Presentation"
+      ],
+      "summary": "Calculate the average rate of spreading in cm yr-1 from the divergent boundary over the last 30 Ma.",
+      "image": "img/2013-summer-gl1/q3bi.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q3bi.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q3bii",
+      "paper": "2013-summer-gl1",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Spreading Rate Variation",
+        "Plate Kinematics",
+        "Seafloor Age Graphs"
+      ],
+      "skills": [
+        "Graph Gradient Analysis",
+        "Temporal Change Description"
+      ],
+      "summary": "Describe how the rate of spreading has changed over the last 42 million years on Figure 3b.",
+      "image": "img/2013-summer-gl1/q3bii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q3bii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q3biii",
+      "paper": "2013-summer-gl1",
+      "question": "3(b)(iii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Magnetic Anomalies",
+        "Palaeomagnetism",
+        "Ocean Crust Dating"
+      ],
+      "skills": [
+        "Method Description",
+        "Geophysical Dating"
+      ],
+      "summary": "Outline one other method that could be used to date oceanic lithosphere besides microfossils.",
+      "image": "img/2013-summer-gl1/q3biii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q3biii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q3c",
+      "paper": "2013-summer-gl1",
+      "question": "3(c)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Andesitic Magma Generation",
+        "South American Subduction",
+        "Continental Arc Volcanism"
+      ],
+      "skills": [
+        "Magmatic Petrogenesis",
+        "Geodynamic Explanation"
+      ],
+      "summary": "Describe and explain the origin of andesitic magma beneath volcanoes along western South America.",
+      "image": "img/2013-summer-gl1/q3c.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q3c.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q4ai",
+      "paper": "2013-summer-gl1",
+      "question": "4(a)(i)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "Granite Tors",
+        "Joint Patterns",
+        "Dartmoor Granite"
+      ],
+      "skills": [
+        "Visual Description",
+        "Joint System Characterization"
+      ],
+      "summary": "Describe the pattern of joints shown in the Dartmoor granite tor in Figure 4a.",
+      "image": "img/2013-summer-gl1/q4ai.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q4ai.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q4aii",
+      "paper": "2013-summer-gl1",
+      "question": "4(a)(ii)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "Joint Formation",
+        "Pressure Release",
+        "Thermal Contraction"
+      ],
+      "skills": [
+        "Causal Suggestion"
+      ],
+      "summary": "Suggest one possible way in which the joints may have formed in Figure 4a.",
+      "image": "img/2013-summer-gl1/q4aii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q4aii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q4aiii",
+      "paper": "2013-summer-gl1",
+      "question": "4(a)(iii)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "Freeze-Thaw Weathering",
+        "Frost Shattering",
+        "Periglacial Tors"
+      ],
+      "skills": [
+        "Process Description",
+        "Weathering Mechanics"
+      ],
+      "summary": "Name and describe one process responsible for loose angular rock blocks at the base of the exposure.",
+      "image": "img/2013-summer-gl1/q4aiii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q4bi",
+      "paper": "2013-summer-gl1",
+      "question": "4(b)(i)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "Quartz",
+        "Granite Minerals",
+        "Mineral Data Sheet"
+      ],
+      "skills": [
+        "Mineral Identification",
+        "Physical Diagnostic Properties"
+      ],
+      "summary": "Using the Mineral Data Sheet, identify mineral B in the sediment photograph Figure 4b.",
+      "image": "img/2013-summer-gl1/q4bi.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q4bi.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q4bii",
+      "paper": "2013-summer-gl1",
+      "question": "4(b)(ii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "Sediment Texture",
+        "Grain Size",
+        "Roundness and Sorting"
+      ],
+      "skills": [
+        "Textural Description",
+        "Sedimentological Characterization"
+      ],
+      "summary": "Describe the size, shape and sorting of the sediment shown in Figure 4b.",
+      "image": "img/2013-summer-gl1/q4bii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q4bii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q4biii",
+      "paper": "2013-summer-gl1",
+      "question": "4(b)(iii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Chemical Weathering",
+        "Hydrolysis of Feldspar",
+        "Mineral Stability"
+      ],
+      "skills": [
+        "Comparative Mineralogy",
+        "Causal Explanation"
+      ],
+      "summary": "Suggest reasons to account for mineral content differences between granite and sediment in Table 4c.",
+      "image": "img/2013-summer-gl1/q4biii.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q4biii.jpg"
+    },
+    {
+      "id": "2013-summer-gl1-q4biv",
+      "paper": "2013-summer-gl1",
+      "question": "4(b)(iv)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "Aeolian vs Periglacial Grus",
+        "Sedimentary Textures",
+        "Grain Rounding"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Textural Synthesis"
+      ],
+      "summary": "Critically evaluate the student's conclusion that the sediment in Figure 4b formed by aeolian processes.",
+      "image": "img/2013-summer-gl1/q4biv.jpg",
+      "figures": [
+        "img/2013-summer-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl1/ms-q4biv.jpg"
+    },
+    {
+      "id": "2013-winter-gl3-q1ai",
+      "paper": "2013-winter-gl3",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Mining Subsidence",
+        "Coal Extraction",
+        "Strata Collapse"
+      ],
+      "skills": [
+        "Causal Explanation",
+        "Geomechanical Principles"
+      ],
+      "summary": "Explain why coal mining can result in subsidence at the surface along transect A-A'.",
+      "image": "img/2013-winter-gl3/q1ai.jpg",
+      "figures": [
+        "img/2013-winter-gl3/fig-q1a.jpg",
+        "img/2013-winter-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl3/ms-q1ai.jpg"
+    },
+    {
+      "id": "2013-winter-gl3-q1aii",
+      "paper": "2013-winter-gl3",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Subsidence Rates",
+        "Graph Extraction",
+        "Rate Calculation"
+      ],
+      "skills": [
+        "Numerical Calculation",
+        "Working Presentation"
+      ],
+      "summary": "Calculate the maximum rate of subsidence along transect A-A' over the two year period.",
+      "image": "img/2013-winter-gl3/q1aii.jpg",
+      "figures": [
+        "img/2013-winter-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl3/ms-q1aii.jpg"
+    },
+    {
+      "id": "2013-winter-gl3-q1b",
+      "paper": "2013-winter-gl3",
+      "question": "1(b)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Fault Reactivation",
+        "Subsidence Profiles",
+        "Coal Mining"
+      ],
+      "skills": [
+        "Comparative Description",
+        "Structural Explanation"
+      ],
+      "summary": "Compare transect B-B' with transect A-A' and explain the difference in subsidence.",
+      "image": "img/2013-winter-gl3/q1b.jpg",
+      "figures": [
+        "img/2013-winter-gl3/fig-q1a.jpg",
+        "img/2013-winter-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl3/ms-q1b.jpg"
+    },
+    {
+      "id": "2013-winter-gl3-q1c",
+      "paper": "2013-winter-gl3",
+      "question": "1(c)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Mining-Induced Seismicity",
+        "Low Magnitude Earthquakes",
+        "Pillar Collapse"
+      ],
+      "skills": [
+        "Seismic Triggering Explanation"
+      ],
+      "summary": "Suggest why earthquakes of low magnitude (<3) occur in coal mining areas.",
+      "image": "img/2013-winter-gl3/q1c.jpg",
+      "figures": [
+        "img/2013-winter-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl3/ms-q1c.jpg"
+    },
+    {
+      "id": "2013-winter-gl3-q1d",
+      "paper": "2013-winter-gl3",
+      "question": "1(d)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Acid Mine Drainage",
+        "Groundwater Contamination",
+        "Environmental Geology"
+      ],
+      "skills": [
+        "Pollution Pathway Explanation",
+        "Geochemical Synthesis"
+      ],
+      "summary": "Using your knowledge, explain how mining can lead to surface and/or groundwater pollution.",
+      "image": "img/2013-winter-gl3/q1d.jpg",
+      "figures": [
+        "img/2013-winter-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl3/ms-q1d.jpg"
+    },
+    {
+      "id": "2013-winter-gl3-q2ai",
+      "paper": "2013-winter-gl3",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "Water Table",
+        "Zone of Saturation",
+        "Hydrogeology"
+      ],
+      "skills": [
+        "Definition"
+      ],
+      "summary": "Define what is meant by the term water table.",
+      "image": "img/2013-winter-gl3/q2ai.jpg",
+      "figures": [
+        "img/2013-winter-gl3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl3/ms-q2ai.jpg"
+    },
+    {
+      "id": "2013-winter-gl3-q2aii",
+      "paper": "2013-winter-gl3",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Water Table Mapping",
+        "Springs and Ponds",
+        "Cross-Section Interpretation"
+      ],
+      "skills": [
+        "Diagram Completion",
+        "Hydrogeological Tracing"
+      ],
+      "summary": "Using evidence from Figure 2, complete water table P on Figure 2.",
+      "image": "img/2013-winter-gl3/q2aii.jpg",
+      "figures": [
+        "img/2013-winter-gl3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl3/ms-q2aii.jpg"
+    },
+    {
+      "id": "2013-winter-gl3-q2aiii",
+      "paper": "2013-winter-gl3",
+      "question": "2(a)(iii)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "Factor of Safety",
+        "Slope Stability",
+        "Groundwater Rise"
+      ],
+      "skills": [
+        "Relationship Description",
+        "Table Interpretation"
+      ],
+      "summary": "Describe the relationship between a rise in water table level and the Factor of Safety.",
+      "image": "img/2013-winter-gl3/q2aiii.jpg",
+      "figures": [
+        "img/2013-winter-gl3/fig-tab2ab.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl3/ms-q2aiii.jpg"
+    },
+    {
+      "id": "2013-winter-gl3-q2aiv",
+      "paper": "2013-winter-gl3",
+      "question": "2(a)(iv)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "Factor of Safety Threshold",
+        "Unsafe Slopes",
+        "Water Table Critical Rise"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Threshold Identification"
+      ],
+      "summary": "State the minimum rise in water tables P and Q for the slope to be considered unsafe (FoS < 1).",
+      "image": "img/2013-winter-gl3/q2aiv.jpg",
+      "figures": [
+        "img/2013-winter-gl3/fig-tab2ab.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl3/ms-q2aiv.jpg"
+    },
+    {
+      "id": "2013-winter-gl3-q2av",
+      "paper": "2013-winter-gl3",
+      "question": "2(a)(v)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Pore Water Pressure",
+        "Effective Stress",
+        "Mass Movement"
+      ],
+      "skills": [
+        "Mechanistic Explanation",
+        "Slope Stability Principles"
+      ],
+      "summary": "Explain how a rise in water tables could lead to mass movement.",
+      "image": "img/2013-winter-gl3/q2av.jpg",
+      "figures": [
+        "img/2013-winter-gl3/fig-q2.jpg",
+        "img/2013-winter-gl3/fig-tab2ab.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl3/ms-q2av.jpg"
+    },
+    {
+      "id": "2013-winter-gl3-q2b",
+      "paper": "2013-winter-gl3",
+      "question": "2(b)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Slip Planes",
+        "Shale Weakness",
+        "Lithological Controls"
+      ],
+      "skills": [
+        "Comparative Geological Explanation"
+      ],
+      "summary": "Explain why the geology will result in greater movement along slip plane B than slip plane A.",
+      "image": "img/2013-winter-gl3/q2b.jpg",
+      "figures": [
+        "img/2013-winter-gl3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl3/ms-q2b.jpg"
+    },
+    {
+      "id": "2013-winter-gl3-q2c",
+      "paper": "2013-winter-gl3",
+      "question": "2(c)",
+      "marks": 4,
+      "page": 5,
+      "topics": [
+        "Slope Remediation",
+        "Drains",
+        "Concrete Barriers"
+      ],
+      "skills": [
+        "Engineering Mitigation Description",
+        "Functional Synthesis"
+      ],
+      "summary": "Describe how drains and a concrete barrier are used to stabilise the coastal slope in Figure 2.",
+      "image": "img/2013-winter-gl3/q2c.jpg",
+      "figures": [
+        "img/2013-winter-gl3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2013-winter-gl3/ms-q2c.jpg"
+    },
+    {
+      "id": "2013-summer-gl3-q1ai",
+      "paper": "2013-summer-gl3",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Volcanic Lakes",
+        "Lake Nyos",
+        "Bathymetry Estimation"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Geological Cross-Sections"
+      ],
+      "summary": "Estimate the maximum depth of Lake Nyos on Figure 1a.",
+      "image": "img/2013-summer-gl3/q1ai.jpg",
+      "figures": [
+        "img/2013-summer-gl3/fig-q1ab.jpg",
+        "img/2013-summer-gl3/fig-tab1.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl3/ms-q1ai.jpg"
+    },
+    {
+      "id": "2013-summer-gl3-q1aii",
+      "paper": "2013-summer-gl3",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Volcanic Landforms",
+        "Lake Nyos",
+        "Volcanic Breccia"
+      ],
+      "skills": [
+        "Evidence Identification",
+        "Geological Interpretation"
+      ],
+      "summary": "State two pieces of evidence that indicate Lake Nyos is a volcanic lake.",
+      "image": "img/2013-summer-gl3/q1aii.jpg",
+      "figures": [
+        "img/2013-summer-gl3/fig-q1ab.jpg",
+        "img/2013-summer-gl3/fig-tab1.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl3/ms-q1aii.jpg"
+    },
+    {
+      "id": "2013-summer-gl3-q1bi",
+      "paper": "2013-summer-gl3",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Volcanic Hazards",
+        "Gas Trapping",
+        "Lake Stratification"
+      ],
+      "skills": [
+        "Physical Process Explanation",
+        "Hydrostatic Pressure"
+      ],
+      "summary": "Explain how carbon dioxide gas might become trapped in the deep waters of Lake Nyos.",
+      "image": "img/2013-summer-gl3/q1bi.jpg",
+      "figures": [
+        "img/2013-summer-gl3/fig-q1ab.jpg",
+        "img/2013-summer-gl3/fig-tab1.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2013-summer-gl3-q1bii",
+      "paper": "2013-summer-gl3",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Limnic Eruptions",
+        "Degassing Mechanisms",
+        "Landslide Triggers"
+      ],
+      "skills": [
+        "Causal Explanation",
+        "Phase Change & Effervescence"
+      ],
+      "summary": "Explain how a landslide into Lake Nyos may have resulted in the release of carbon dioxide gas at the surface.",
+      "image": "img/2013-summer-gl3/q1bii.jpg",
+      "figures": [
+        "img/2013-summer-gl3/fig-q1ab.jpg",
+        "img/2013-summer-gl3/fig-tab1.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2013-summer-gl3-q1biii",
+      "paper": "2013-summer-gl3",
+      "question": "1(b)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Toxic Gas Hazards",
+        "Carbon Dioxide",
+        "Asphyxiation Risk"
+      ],
+      "skills": [
+        "Hazard Analysis",
+        "Gas Properties Evaluation"
+      ],
+      "summary": "Explain how the properties of carbon dioxide made the gas extremely dangerous in this situation.",
+      "image": "img/2013-summer-gl3/q1biii.jpg",
+      "figures": [
+        "img/2013-summer-gl3/fig-q1ab.jpg",
+        "img/2013-summer-gl3/fig-tab1.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl3/ms-q1biii.jpg"
+    },
+    {
+      "id": "2013-summer-gl3-q1c",
+      "paper": "2013-summer-gl3",
+      "question": "1(c)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "Dam Failure",
+        "Internal Erosion",
+        "Geohazards Risk Assessment"
+      ],
+      "skills": [
+        "Synthesis & Evaluation",
+        "Geological Hazard Appraisal"
+      ],
+      "summary": "Explain why there is a fear that the rock dam may collapse in the near future causing further risk to life and property.",
+      "image": "img/2013-summer-gl3/q1c.jpg",
+      "figures": [
+        "img/2013-summer-gl3/fig-q1ab.jpg",
+        "img/2013-summer-gl3/fig-tab1.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl3/ms-q1c.jpg"
+    },
+    {
+      "id": "2013-summer-gl3-q2ai",
+      "paper": "2013-summer-gl3",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Rock Properties",
+        "Porosity Definition"
+      ],
+      "skills": [
+        "Scientific Definition",
+        "Quantitative Formulation"
+      ],
+      "summary": "Define porosity.",
+      "image": "img/2013-summer-gl3/q2ai.jpg",
+      "figures": [
+        "img/2013-summer-gl3/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl3/ms-q2ai.jpg"
+    },
+    {
+      "id": "2013-summer-gl3-q2aii",
+      "paper": "2013-summer-gl3",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Permeability vs Porosity",
+        "Shale Microtexture",
+        "Fluid Flow"
+      ],
+      "skills": [
+        "Comparative Analysis",
+        "Textural Interpretation"
+      ],
+      "summary": "Explain why the flow rate of fluids through shale is significantly lower than through sandstone despite comparable porosities.",
+      "image": "img/2013-summer-gl3/q2aii.jpg",
+      "figures": [
+        "img/2013-summer-gl3/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl3/ms-q2aii.jpg"
+    },
+    {
+      "id": "2013-summer-gl3-q2b",
+      "paper": "2013-summer-gl3",
+      "question": "2(b)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Hydraulic Fracturing",
+        "Proppants",
+        "Shale Gas Extraction"
+      ],
+      "skills": [
+        "Technical Process Explanation",
+        "Diagram Interpretation"
+      ],
+      "summary": "Explain how the fracturing fluid (water and sand) is used in the extraction of natural gas from shale.",
+      "image": "img/2013-summer-gl3/q2b.jpg",
+      "figures": [
+        "img/2013-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl3/ms-q2b.jpg"
+    },
+    {
+      "id": "2013-summer-gl3-q2ci",
+      "paper": "2013-summer-gl3",
+      "question": "2(c)(i)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "Induced Seismicity",
+        "Fault Reactivation",
+        "Pore Fluid Pressure"
+      ],
+      "skills": [
+        "Mechanistic Explanation",
+        "Stress & Friction Mechanics"
+      ],
+      "summary": "Explain how the fracking process may have been responsible for triggering the earthquake events in Blackpool.",
+      "image": "img/2013-summer-gl3/q2ci.jpg",
+      "figures": [
+        "img/2013-summer-gl3/fig-tab2.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl3/ms-q2ci.jpg"
+    },
+    {
+      "id": "2013-summer-gl3-q2cii",
+      "paper": "2013-summer-gl3",
+      "question": "2(c)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "Earthquake Magnitude",
+        "Damage Assessment",
+        "Structural Impact"
+      ],
+      "skills": [
+        "Evaluative Description",
+        "Risk Assessment"
+      ],
+      "summary": "Describe and explain the likely level of damage caused by these earthquakes on built structures in the Blackpool area.",
+      "image": "img/2013-summer-gl3/q2cii.jpg",
+      "figures": [
+        "img/2013-summer-gl3/fig-tab2.jpg"
+      ],
+      "markscheme": "img/2013-summer-gl3/ms-q2cii.jpg"
     }
   ],
   "levels": [
