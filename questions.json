@@ -1279,6 +1279,30 @@
       "spec": "legacy",
       "totalMarks": 25,
       "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2012-summer-gl3",
+      "year": 2012,
+      "series": "Summer",
+      "date": "2012-05-23",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2012-winter-gl3",
+      "year": 2012,
+      "series": "Winter",
+      "date": "2012-01-19",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
     }
   ],
   "questions": [
@@ -42233,6 +42257,532 @@
         "img/2013-summer-gl3/fig-tab2.jpg"
       ],
       "markscheme": "img/2013-summer-gl3/ms-q2cii.jpg"
+    },
+    {
+      "id": "2012-summer-gl3-q1a",
+      "paper": "2012-summer-gl3",
+      "question": "1(a)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Calderas",
+        "Volcanic Uplift",
+        "Ground Deformation"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Prediction"
+      ],
+      "summary": "Mark with an arrow (labelled X) the point on Figure 1a where maximum uplift might be predicted.",
+      "image": "img/2012-summer-gl3/q1a.jpg",
+      "figures": [
+        "img/2012-summer-gl3/fig-q1a.jpg",
+        "img/2012-summer-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl3/ms-q1a.jpg"
+    },
+    {
+      "id": "2012-summer-gl3-q1bi",
+      "paper": "2012-summer-gl3",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Bradyseism",
+        "Ground Deformation",
+        "Data Extraction"
+      ],
+      "skills": [
+        "Graph Reading",
+        "Table Completion"
+      ],
+      "summary": "Describe the change in height at Pozzuoli between 1970 and 1995 by completing Table 1.",
+      "image": "img/2012-summer-gl3/q1bi.jpg",
+      "figures": [
+        "img/2012-summer-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2012-summer-gl3-q1bii",
+      "paper": "2012-summer-gl3",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Ground Uplift Rates",
+        "Numerical Calculation"
+      ],
+      "skills": [
+        "Rate Calculation",
+        "Working Presentation"
+      ],
+      "summary": "Calculate the mean rate of uplift in the 1095 days between point A and point B in mm day-1.",
+      "image": "img/2012-summer-gl3/q1bii.jpg",
+      "figures": [
+        "img/2012-summer-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2012-summer-gl3-q1ci",
+      "paper": "2012-summer-gl3",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Volcanic Seismicity",
+        "Earthquake Swarms"
+      ],
+      "skills": [
+        "Trend Description",
+        "Time Series Analysis"
+      ],
+      "summary": "Describe the change in monthly earthquake numbers between 1970 and 1995.",
+      "image": "img/2012-summer-gl3/q1ci.jpg",
+      "figures": [
+        "img/2012-summer-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl3/ms-q1ci.jpg"
+    },
+    {
+      "id": "2012-summer-gl3-q1cii",
+      "paper": "2012-summer-gl3",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Co-seismic Deformation",
+        "Earthquake-Uplift Correlation"
+      ],
+      "skills": [
+        "Correlation Analysis",
+        "Geophysical Synthesis"
+      ],
+      "summary": "Describe the correlation between earthquakes and uplift in Pozzuoli.",
+      "image": "img/2012-summer-gl3/q1cii.jpg",
+      "figures": [
+        "img/2012-summer-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl3/ms-q1cii.jpg"
+    },
+    {
+      "id": "2012-summer-gl3-q1d",
+      "paper": "2012-summer-gl3",
+      "question": "1(d)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Volcanic Hazard Risk",
+        "Magma Intrusion",
+        "Precursory Activity"
+      ],
+      "skills": [
+        "Causal Explanation",
+        "Geological Hazard Appraisal"
+      ],
+      "summary": "Explain why the Pozzuoli region was considered to be at risk from a volcanic eruption between 1970 and 1985.",
+      "image": "img/2012-summer-gl3/q1d.jpg",
+      "figures": [
+        "img/2012-summer-gl3/fig-q1a.jpg",
+        "img/2012-summer-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl3/ms-q1d.jpg"
+    },
+    {
+      "id": "2012-summer-gl3-q2ai",
+      "paper": "2012-summer-gl3",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Earthquake Magnitude",
+        "Richter Scale"
+      ],
+      "skills": [
+        "Scientific Definition",
+        "Measurement Principles"
+      ],
+      "summary": "Describe two characteristics of the Richter scale.",
+      "image": "img/2012-summer-gl3/q2ai.jpg",
+      "figures": [
+        "img/2012-summer-gl3/fig-tab2.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl3/ms-q2ai.jpg"
+    },
+    {
+      "id": "2012-summer-gl3-q2aii",
+      "paper": "2012-summer-gl3",
+      "question": "2(a)(ii)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "Earthquake Focus",
+        "Fault Geometry"
+      ],
+      "skills": [
+        "Diagram Annotation",
+        "Spatial Interpretation"
+      ],
+      "summary": "Mark on Figure 2 with a star labelled F (*F) the probable focus of the Bam earthquake.",
+      "image": "img/2012-summer-gl3/q2aii.jpg",
+      "figures": [
+        "img/2012-summer-gl3/fig-q2.jpg",
+        "img/2012-summer-gl3/fig-tab2.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl3/ms-q2aii.jpg"
+    },
+    {
+      "id": "2012-summer-gl3-q2aiii",
+      "paper": "2012-summer-gl3",
+      "question": "2(a)(iii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Earthquake Damage",
+        "Vulnerability Factors",
+        "Building Failure"
+      ],
+      "skills": [
+        "Data Synthesis",
+        "Vulnerability Assessment"
+      ],
+      "summary": "Explain three pieces of evidence from the data that indicate why the Bam earthquake was so destructive.",
+      "image": "img/2012-summer-gl3/q2aiii.jpg",
+      "figures": [
+        "img/2012-summer-gl3/fig-q2.jpg",
+        "img/2012-summer-gl3/fig-tab2.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl3/ms-q2aiii.jpg"
+    },
+    {
+      "id": "2012-summer-gl3-q2b",
+      "paper": "2012-summer-gl3",
+      "question": "2(b)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Hydrogeology",
+        "Aquifer Properties",
+        "Sands & Gravels"
+      ],
+      "skills": [
+        "Sedimentary Properties",
+        "Hydrological Evaluation"
+      ],
+      "summary": "Describe two likely characteristics of river sands and gravels that make them suitable as an aquifer.",
+      "image": "img/2012-summer-gl3/q2b.jpg",
+      "figures": [
+        "img/2012-summer-gl3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl3/ms-q2b.jpg"
+    },
+    {
+      "id": "2012-summer-gl3-q2ci",
+      "paper": "2012-summer-gl3",
+      "question": "2(c)(i)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "Structural Geology",
+        "Fold Classification"
+      ],
+      "skills": [
+        "Structure Identification"
+      ],
+      "summary": "Name the type of fold structure (labelled fold F).",
+      "image": "img/2012-summer-gl3/q2ci.jpg",
+      "figures": [
+        "img/2012-summer-gl3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl3/ms-q2ci.jpg"
+    },
+    {
+      "id": "2012-summer-gl3-q2cii",
+      "paper": "2012-summer-gl3",
+      "question": "2(c)(ii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Groundwater Traps",
+        "Structural Trapping",
+        "Aquicludes"
+      ],
+      "skills": [
+        "Hydrogeological Explanation",
+        "Cross-Section Synthesis"
+      ],
+      "summary": "Explain how the local geology has provided favourable conditions for groundwater storage.",
+      "image": "img/2012-summer-gl3/q2cii.jpg",
+      "figures": [
+        "img/2012-summer-gl3/fig-q2.jpg",
+        "img/2012-summer-gl3/fig-tab2.jpg"
+      ],
+      "markscheme": "img/2012-summer-gl3/ms-q2cii.jpg"
+    },
+    {
+      "id": "2012-winter-gl3-q1a",
+      "paper": "2012-winter-gl3",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Explosive Volcanism",
+        "Caldera Formation",
+        "Pyroclastic Hazards"
+      ],
+      "skills": [
+        "Evidence Identification",
+        "Hazard Map Analysis"
+      ],
+      "summary": "Describe the evidence that past eruptions on Nisyros have been explosive.",
+      "image": "img/2012-winter-gl3/q1a.jpg",
+      "figures": [
+        "img/2012-winter-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-winter-gl3/ms-q1a.jpg"
+    },
+    {
+      "id": "2012-winter-gl3-q1b",
+      "paper": "2012-winter-gl3",
+      "question": "1(b)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Pyroclastic Flows",
+        "Lahars",
+        "Topographic Controls"
+      ],
+      "skills": [
+        "Spatial Flow Description",
+        "Physical Process Explanation"
+      ],
+      "summary": "Describe and explain the predicted direction of pyroclastic flows and lahars.",
+      "image": "img/2012-winter-gl3/q1b.jpg",
+      "figures": [
+        "img/2012-winter-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-winter-gl3/ms-q1b.jpg"
+    },
+    {
+      "id": "2012-winter-gl3-q1ci",
+      "paper": "2012-winter-gl3",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Volcanic Ash Dispersion",
+        "Wind Profile Data"
+      ],
+      "skills": [
+        "Graph Reading",
+        "Data Extraction"
+      ],
+      "summary": "State the mean wind speed on Nisyros at a height of 6 km.",
+      "image": "img/2012-winter-gl3/q1ci.jpg",
+      "figures": [
+        "img/2012-winter-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-winter-gl3/ms-q1ci.jpg"
+    },
+    {
+      "id": "2012-winter-gl3-q1cii",
+      "paper": "2012-winter-gl3",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Eruption Plumes",
+        "Atmospheric Dispersion",
+        "Stratospheric Winds"
+      ],
+      "skills": [
+        "Atmospheric Mechanics",
+        "Comparative Explanation"
+      ],
+      "summary": "Explain why the ash from a large eruption (>12 km high) is likely to travel further than the ash cloud from a smaller eruption.",
+      "image": "img/2012-winter-gl3/q1cii.jpg",
+      "figures": [
+        "img/2012-winter-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-winter-gl3/ms-q1cii.jpg"
+    },
+    {
+      "id": "2012-winter-gl3-q1ciii",
+      "paper": "2012-winter-gl3",
+      "question": "1(c)(iii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Ash Trajectory",
+        "Wind Vector Interpretation"
+      ],
+      "skills": [
+        "Directional Mapping",
+        "Data Application"
+      ],
+      "summary": "Draw an arrow in the box in Figure 1a to show the most likely direction towards which a 12 km ash cloud would be blown.",
+      "image": "img/2012-winter-gl3/q1ciii.jpg",
+      "figures": [
+        "img/2012-winter-gl3/fig-q1a.jpg",
+        "img/2012-winter-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2012-winter-gl3/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2012-winter-gl3-q1d",
+      "paper": "2012-winter-gl3",
+      "question": "1(d)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Tephra Loading",
+        "Structural Vulnerability",
+        "Flat Roof Collapse"
+      ],
+      "skills": [
+        "Hazard Vulnerability Analysis",
+        "Engineering Geology"
+      ],
+      "summary": "Explain how flat house roofs increase the risk to life and property during an eruption.",
+      "image": "img/2012-winter-gl3/q1d.jpg",
+      "figures": [
+        "img/2012-winter-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-winter-gl3/ms-q1d.jpg"
+    },
+    {
+      "id": "2012-winter-gl3-q1e",
+      "paper": "2012-winter-gl3",
+      "question": "1(e)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Sector Collapse",
+        "Debris Avalanches",
+        "Volcanogenic Tsunamis"
+      ],
+      "skills": [
+        "Secondary Hazard Synthesis",
+        "Geological Risk Assessment"
+      ],
+      "summary": "Explain how debris avalanches caused by sector collapse might trigger additional hazards for the inhabitants of Nisyros.",
+      "image": "img/2012-winter-gl3/q1e.jpg",
+      "figures": [
+        "img/2012-winter-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2012-winter-gl3/ms-q1e.jpg"
+    },
+    {
+      "id": "2012-winter-gl3-q2a",
+      "paper": "2012-winter-gl3",
+      "question": "2(a)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Fault Classification",
+        "Normal Faulting",
+        "Mam Tor Landslide"
+      ],
+      "skills": [
+        "Structural Identification",
+        "Evidence Justification"
+      ],
+      "summary": "State the type of fault represented by fault A in Figure 2a and explain your answer.",
+      "image": "img/2012-winter-gl3/q2a.jpg",
+      "figures": [
+        "img/2012-winter-gl3/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2012-winter-gl3/ms-q2a.jpg"
+    },
+    {
+      "id": "2012-winter-gl3-q2bi",
+      "paper": "2012-winter-gl3",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Landslide Kinematics",
+        "Displacement Rate"
+      ],
+      "skills": [
+        "Numerical Calculation",
+        "Graph Reading"
+      ],
+      "summary": "Calculate the rate of change in height of monitoring station P in cm yr-1 from start of 1994 to start of 1996.",
+      "image": "img/2012-winter-gl3/q2bi.jpg",
+      "figures": [
+        "img/2012-winter-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2012-winter-gl3/ms-q2bi.jpg"
+    },
+    {
+      "id": "2012-winter-gl3-q2bii",
+      "paper": "2012-winter-gl3",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Rainfall Thresholds",
+        "Landslide Reactivation",
+        "Pore Pressure"
+      ],
+      "skills": [
+        "Correlation Analysis",
+        "Threshold Identification"
+      ],
+      "summary": "Describe the correlation between rates of change in height of station P during years above 210 mm winter rainfall compared to below.",
+      "image": "img/2012-winter-gl3/q2bii.jpg",
+      "figures": [
+        "img/2012-winter-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2012-winter-gl3/ms-q2bii.jpg"
+    },
+    {
+      "id": "2012-winter-gl3-q2c",
+      "paper": "2012-winter-gl3",
+      "question": "2(c)",
+      "marks": 4,
+      "page": 5,
+      "topics": [
+        "Slope Failure Mechanisms",
+        "Pore Water Pressure",
+        "Lithological Contrast"
+      ],
+      "skills": [
+        "Mechanistic Explanation",
+        "Slope Stability Principles"
+      ],
+      "summary": "Using Figure 2a and Figure 2b, explain two possible mechanisms or triggers for the movement on the Mam Tor landslide.",
+      "image": "img/2012-winter-gl3/q2c.jpg",
+      "figures": [
+        "img/2012-winter-gl3/fig-q2a.jpg",
+        "img/2012-winter-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2012-winter-gl3/ms-q2c.jpg"
+    },
+    {
+      "id": "2012-winter-gl3-q2d",
+      "paper": "2012-winter-gl3",
+      "question": "2(d)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Geotechnical Monitoring",
+        "Inclinometers",
+        "Remote Sensing"
+      ],
+      "skills": [
+        "Instrumentation Description",
+        "Monitoring Strategy"
+      ],
+      "summary": "Describe one additional technique that might be used to monitor the Mam Tor landslide.",
+      "image": "img/2012-winter-gl3/q2d.jpg",
+      "figures": [
+        "img/2012-winter-gl3/fig-q2a.jpg",
+        "img/2012-winter-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2012-winter-gl3/ms-q2d.jpg"
     }
   ],
   "levels": [
