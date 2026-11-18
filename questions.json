@@ -991,6 +991,18 @@
       "spec": "current",
       "totalMarks": 105,
       "duration": "2 hours"
+    },
+    {
+      "id": "2022-summer-a3",
+      "year": 2022,
+      "series": "Summer",
+      "date": "2022-06-21",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours"
     }
   ],
   "questions": [
@@ -28479,6 +28491,1248 @@
       "image": "img/2023-summer-a3/q15.jpg",
       "figures": [],
       "markscheme": "img/2023-summer-a3/ms-q15.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q1ai",
+      "paper": "2022-summer-a3",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Mathematical Skills"
+      ],
+      "summary": "Determine the distance in kilometres from the epicentre of the 1985 earthquake to Mexico City using Figure 1a.",
+      "image": "img/2022-summer-a3/q1ai.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q1ai.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q1aii",
+      "paper": "2022-summer-a3",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Mathematical Calculation"
+      ],
+      "summary": "Calculate the time in seconds that surface seismic waves took to reach Mexico City from the 1985 epicentre at 3.9 km s⁻¹.",
+      "image": "img/2022-summer-a3/q1aii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q1aii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q1aiii",
+      "paper": "2022-summer-a3",
+      "question": "1(a)(iii)",
+      "marks": 3,
+      "page": 2,
+      "topics": [
+        "T1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Geological Hazard Analysis"
+      ],
+      "summary": "With reference to Figure 1a only, explain why Mexico City is at risk from seismic hazards (subduction plate boundary, lakebed sediments, amplification, liquefaction).",
+      "image": "img/2022-summer-a3/q1aiii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q1bi",
+      "paper": "2022-summer-a3",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Data Analysis",
+        "Seismic Trace Interpretation"
+      ],
+      "summary": "Describe the differences in seismic traces between solid bedrock close to Mexico City and location A on Tacubaya Clay in Figure 1b (amplitude, duration, frequency).",
+      "image": "img/2022-summer-a3/q1bi.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q1bii",
+      "paper": "2022-summer-a3",
+      "question": "1(b)(ii)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "T1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "Data Analysis",
+        "Scientific Explanation"
+      ],
+      "summary": "Describe and explain the relationship between the thickness of the Tacubaya Clay and the mean number of damaged buildings in Figure 1b (positive correlation, liquefaction, ground shaking amplification).",
+      "image": "img/2022-summer-a3/q1bii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q1c",
+      "paper": "2022-summer-a3",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "T1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "Evaluation",
+        "Geological Hazard Analysis"
+      ],
+      "summary": "Evaluate the statement that clay thickness was not the only factor affecting building damage, using evidence from Mexico City (building height, resonance, building quality/design, foundations).",
+      "image": "img/2022-summer-a3/q1c.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q1b.jpg",
+        "img/2022-summer-a3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q1c.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q2ai",
+      "paper": "2022-summer-a3",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Scientific Knowledge"
+      ],
+      "summary": "State one risk to the local population created by the concentration of radon gas (lung cancer / respiratory disease).",
+      "image": "img/2022-summer-a3/q2ai.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q2ai.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q2aii",
+      "paper": "2022-summer-a3",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Scientific Explanation"
+      ],
+      "summary": "Suggest the most likely geological origin of the radon gas detected in Figure 2 (radioactive decay of uranium in granite).",
+      "image": "img/2022-summer-a3/q2aii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q2aii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q2bi",
+      "paper": "2022-summer-a3",
+      "question": "2(b)(i)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Darcy's Law Application"
+      ],
+      "summary": "Calculate the hydraulic conductivity (k) of the sandstone using Darcy's Law and data from boreholes 1 and 2 in Figure 2.",
+      "image": "img/2022-summer-a3/q2bi.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q2bi.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q2bii",
+      "paper": "2022-summer-a3",
+      "question": "2(b)(ii)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Cross-Section Interpretation"
+      ],
+      "summary": "Explain the geological reasons for the differences in radon gas measurements at locations X, Y, and Z in Figure 2 (solubility, permeability of sandstone vs clay, fault conduit).",
+      "image": "img/2022-summer-a3/q2bii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q2bii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q2ci",
+      "paper": "2022-summer-a3",
+      "question": "2(c)(i)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "T1.1",
+        "T1.3"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Earthquake Monitoring"
+      ],
+      "summary": "Explain how radon gas measurements might be used to monitor earthquake activity along the fault (stress dilatancy opening microfractures releasing radon).",
+      "image": "img/2022-summer-a3/q2ci.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q2ci.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q2cii",
+      "paper": "2022-summer-a3",
+      "question": "2(c)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Earthquake Prediction"
+      ],
+      "summary": "Explain one other monitoring method that could be used to attempt to predict seismic hazards (ground levelling/GPS, tiltmeter/strainmeter, foreshocks, resistivity, groundwater).",
+      "image": "img/2022-summer-a3/q2cii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q2cii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q3a",
+      "paper": "2022-summer-a3",
+      "question": "3(a)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Map Interpretation"
+      ],
+      "summary": "Complete Table 3 stating the superficial deposits found at GR 303570 (Alluvium, river deposition) and GR 330555 (Head).",
+      "image": "img/2022-summer-a3/q3a.jpg",
+      "figures": [
+        "img/2022-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q3a.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q3b",
+      "paper": "2022-summer-a3",
+      "question": "3(b)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Stratigraphical Principles",
+        "Relative Dating"
+      ],
+      "summary": "Complete Table 4 ordering events from box H in order of relative age: Ashover Grit (oldest), Head, Landslide (youngest).",
+      "image": "img/2022-summer-a3/q3b.jpg",
+      "figures": [
+        "img/2022-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q3b.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q4a",
+      "paper": "2022-summer-a3",
+      "question": "4(a)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "G2"
+      ],
+      "skills": [
+        "Field Skills",
+        "Navigation"
+      ],
+      "summary": "Explain how a student might locate the position of the rock fragment in the field using traditional navigation and basic survey skills without GPS (compass bearings, pacing, triangulation).",
+      "image": "img/2022-summer-a3/q4a.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q4.jpg",
+        "img/2022-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q4a.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q4bi",
+      "paper": "2022-summer-a3",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "G4.3"
+      ],
+      "skills": [
+        "Fossil Identification"
+      ],
+      "summary": "State the fossil group within the limestone fragment in Figure 4 (coral) and give one reason (septa, radial structure).",
+      "image": "img/2022-summer-a3/q4bi.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q4.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q4bi.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q4bii",
+      "paper": "2022-summer-a3",
+      "question": "4(b)(ii)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "G4.3"
+      ],
+      "skills": [
+        "Palaeoenvironmental Analysis"
+      ],
+      "summary": "Describe the environment of deposition indicated by the coral fossils (warm 25-29°C, shallow marine 1-10m, clear, aerated/turbulent water).",
+      "image": "img/2022-summer-a3/q4bii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q4.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q4bii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q4biii",
+      "paper": "2022-summer-a3",
+      "question": "4(b)(iii)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "T2.1",
+        "G4.3"
+      ],
+      "skills": [
+        "Scientific Reasoning",
+        "Palaeoenvironmental Analysis"
+      ],
+      "summary": "Explain the apparent contradiction of warm marine coral fossils appearing in the cold periglacial terrestrial Head deposit (derived fossil from older limestone).",
+      "image": "img/2022-summer-a3/q4biii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q4.jpg",
+        "img/2022-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q4biii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q5ai",
+      "paper": "2022-summer-a3",
+      "question": "5(a)(i)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Structural Geology"
+      ],
+      "summary": "Complete Table 5 stating evidence from the map for fold P being an antiform, anticline, and plunging to N/NNE.",
+      "image": "img/2022-summer-a3/q5ai.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-5a.jpg",
+        "img/2022-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q5ai.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q5aii",
+      "paper": "2022-summer-a3",
+      "question": "5(a)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Structural Geology"
+      ],
+      "summary": "Indicate the direction of plunge of fold Q in the two blank boxes on Figure 5a using the key symbol (SSW in top box, NNW in bottom box).",
+      "image": "img/2022-summer-a3/q5aii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-5a.jpg",
+        "img/2022-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q5aii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q5aiii",
+      "paper": "2022-summer-a3",
+      "question": "5(a)(iii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Evaluation",
+        "Structural Measurement"
+      ],
+      "summary": "Evaluate a student's conclusion that plunging folds P and Q have a wavelength of approximately 0.75 km (measured only crest to trough / half-wavelength; true wavelength 1.2-1.7 km).",
+      "image": "img/2022-summer-a3/q5aiii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-5a.jpg",
+        "img/2022-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q5aiii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q5bi",
+      "paper": "2022-summer-a3",
+      "question": "5(b)(i)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Cross-Section Analysis",
+        "Structural Geology"
+      ],
+      "summary": "State and justify which sketch cross-section (W, X, Y or Z) in Figure 5b represents line of section S-T on the map (X: normal fault SW, reverse fault NE).",
+      "image": "img/2022-summer-a3/q5bi.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-5b.jpg",
+        "img/2022-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q5bi.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q5bii",
+      "paper": "2022-summer-a3",
+      "question": "5(b)(ii)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Evaluation",
+        "Stress Analysis"
+      ],
+      "summary": "Evaluate conclusions that faults formed by compression but with different principal stress directions to the major folds (reverse fault compression, normal fault tension, fault strikes perpendicular to fold axis).",
+      "image": "img/2022-summer-a3/q5bii.jpg",
+      "figures": [
+        "img/2022-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q5bii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q6ai",
+      "paper": "2022-summer-a3",
+      "question": "6(a)(i)",
+      "marks": 1,
+      "page": 15,
+      "topics": [
+        "T1.2",
+        "G2"
+      ],
+      "skills": [
+        "Data Plotting",
+        "Rose Diagram"
+      ],
+      "summary": "Complete Figure 6 by plotting the observed frequency (14) of landslide orientations to the North shown in Table 6.",
+      "image": "img/2022-summer-a3/q6ai.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q6.jpg",
+        "img/2022-summer-a3/tab-q6.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q6ai.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q6aii",
+      "paper": "2022-summer-a3",
+      "question": "6(a)(ii)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "G2"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Statistical Testing"
+      ],
+      "summary": "Complete the blank cells in Table 6 for landslide orientations to the South (O-E = -7, (O-E)² = 49, (O-E)²/E = 3.50).",
+      "image": "img/2022-summer-a3/q6aii.jpg",
+      "figures": [
+        "img/2022-summer-a3/tab-q6.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q6aii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q6aiii",
+      "paper": "2022-summer-a3",
+      "question": "6(a)(iii)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "G2"
+      ],
+      "skills": [
+        "Statistical Interpretation"
+      ],
+      "summary": "Using Table 7, explain why the chi-squared value of 19 allows the null hypothesis to be rejected at the 0.01 confidence level (greater than critical value 18.48 for 7 DF).",
+      "image": "img/2022-summer-a3/q6aiii.jpg",
+      "figures": [
+        "img/2022-summer-a3/tab-q6.jpg",
+        "img/2022-summer-a3/tab-q6-crit.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q6aiii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q6aiv",
+      "paper": "2022-summer-a3",
+      "question": "6(a)(iv)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "G2"
+      ],
+      "skills": [
+        "Statistical Evaluation"
+      ],
+      "summary": "Explain why it was important to test data in the rose diagram statistically before drawing conclusions (subjective vs objective view, quantifying likelihood of chance occurrence, anomalies).",
+      "image": "img/2022-summer-a3/q6aiv.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q6.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q6aiv.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q6b",
+      "paper": "2022-summer-a3",
+      "question": "6(b)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "T1.2"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Geomorphological Processes"
+      ],
+      "summary": "Explain how freeze-thaw processes contribute to mass movement on slopes (9% volume expansion, repeated cycles widening cracks, weakening rock above critical angle, downslope transport).",
+      "image": "img/2022-summer-a3/q6b.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a3/ms-q6b.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q6c",
+      "paper": "2022-summer-a3",
+      "question": "6(c)",
+      "marks": 6,
+      "page": 16,
+      "topics": [
+        "T1.2",
+        "T2.1"
+      ],
+      "skills": [
+        "Evaluation",
+        "Geological Hazard Analysis",
+        "Map Interpretation"
+      ],
+      "summary": "Evaluate report conclusions on landslides A, B, and C regarding dip angle/direction, bedrock type (permeable ASG over weak Bowland Shale), river undercutting, and superficial Head deposits.",
+      "image": "img/2022-summer-a3/q6c.jpg",
+      "figures": [
+        "img/2022-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q6c.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q7ai",
+      "paper": "2022-summer-a3",
+      "question": "7(a)(i)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Data Description"
+      ],
+      "summary": "Describe the change in Antarctic sea surface temperature over the last 40 Ma in Figure 7a (overall cooling, non-linear fluctuations, quantified change).",
+      "image": "img/2022-summer-a3/q7ai.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q7a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q7ai.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q7aii",
+      "paper": "2022-summer-a3",
+      "question": "7(a)(ii)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Palaeoclimatology"
+      ],
+      "summary": "Explain how oxygen isotope evidence from oceanic sediments is used to reconstruct sea surface temperatures (foraminifera calcite ¹⁸O:¹⁶O ratio proxy).",
+      "image": "img/2022-summer-a3/q7aii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q7a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q7aii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q7bi",
+      "paper": "2022-summer-a3",
+      "question": "7(b)(i)",
+      "marks": 3,
+      "page": 20,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Palaeogeography"
+      ],
+      "summary": "Describe how changing continental positions since the Palaeogene altered oceanic circulation in Figures 7b and 7c (Drake Passage opening, Panama isthmus closure, Atlantic widening).",
+      "image": "img/2022-summer-a3/q7bi.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q7bc.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q7bi.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q7bii",
+      "paper": "2022-summer-a3",
+      "question": "7(b)(ii)",
+      "marks": 2,
+      "page": 20,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Palaeoclimatology"
+      ],
+      "summary": "Explain how oceanic circulation changes led to the cooling of Antarctic sea surface temperatures (thermal isolation by Antarctic Circumpolar Current, blocking tropical warm water).",
+      "image": "img/2022-summer-a3/q7bii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q7a.jpg",
+        "img/2022-summer-a3/fig-q7bc.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q7bii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q7biii",
+      "paper": "2022-summer-a3",
+      "question": "7(b)(iii)",
+      "marks": 3,
+      "page": 21,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Scientific Reasoning",
+        "Oceanic Circulation"
+      ],
+      "summary": "Suggest how oceanic circulation changes affected sea surface temperatures around Britain (warming from Gulf Stream / North Atlantic Drift due to Panama closure and North Atlantic opening).",
+      "image": "img/2022-summer-a3/q7biii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q7bc.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q7biii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q8a",
+      "paper": "2022-summer-a3",
+      "question": "8(a)",
+      "marks": 1,
+      "page": 22,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Scientific Reasoning"
+      ],
+      "summary": "Suggest one reason why no pollen was found at a depth of 6 metres in the Brecon Beacons site (site covered with glacial ice, absence of vegetation).",
+      "image": "img/2022-summer-a3/q8a.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q8.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q8a.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q8bi",
+      "paper": "2022-summer-a3",
+      "question": "8(b)(i)",
+      "marks": 2,
+      "page": 23,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Data Interpretation",
+        "Palynology"
+      ],
+      "summary": "State how Figure 8 supports juniper being a pioneer species on bare ground (peak at base above glacial clay, rapid decline as forest establishes).",
+      "image": "img/2022-summer-a3/q8bi.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q8.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q8bi.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q8bii",
+      "paper": "2022-summer-a3",
+      "question": "8(b)(ii)",
+      "marks": 3,
+      "page": 23,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Data Description",
+        "Palynology"
+      ],
+      "summary": "Describe changes in tree pollen in pollen zones 2, 3, and 4 in Figure 8 (disappearance of juniper, high birch in 2/3 declining in 4, rise in hazel, oak/pine).",
+      "image": "img/2022-summer-a3/q8bii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q8.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q8bii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q8biii",
+      "paper": "2022-summer-a3",
+      "question": "8(b)(iii)",
+      "marks": 2,
+      "page": 23,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Palaeoecology"
+      ],
+      "summary": "Suggest why the abundance of oak and alder changes in pollen zones 5, 6, and 7 (climatic warming, mature canopy forest, alder outcompeting on wet ground).",
+      "image": "img/2022-summer-a3/q8biii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q8.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q8biii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q8c",
+      "paper": "2022-summer-a3",
+      "question": "8(c)",
+      "marks": 4,
+      "page": 23,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Evaluation",
+        "Palaeoclimatology"
+      ],
+      "summary": "Evaluate the statement that pollen analysis provides more complete evidence of climatic fluctuations than vertebrate fossils (pollen abundance, continuous record vs rare vertebrate snapshots).",
+      "image": "img/2022-summer-a3/q8c.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q8.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q8c.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q9",
+      "paper": "2022-summer-a3",
+      "question": "9",
+      "marks": 6,
+      "page": 24,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "QER Extended Response",
+        "Geochronology"
+      ],
+      "summary": "Explain the limitations of dating deposits and events during the Quaternary of Britain (radiocarbon half-life/contamination, varves, dendrochronology, tephra isochrons, K-Ar uncertainty).",
+      "image": "img/2022-summer-a3/q9.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a3/ms-q9.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q10a",
+      "paper": "2022-summer-a3",
+      "question": "10(a)",
+      "marks": 2,
+      "page": 26,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "Geophysical Exploration",
+        "Seismic Interpretation"
+      ],
+      "summary": "Explain what is meant by 'two-way travel time' in seismic reflection profiling (time down to reflector and back to hydrophone, depth calculation).",
+      "image": "img/2022-summer-a3/q10a.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q10a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q10a.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q10bi",
+      "paper": "2022-summer-a3",
+      "question": "10(b)(i)",
+      "marks": 2,
+      "page": 26,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "Sedimentology",
+        "Palaeogeography"
+      ],
+      "summary": "Explain how thick deposits of salt were laid down in the British area during the Triassic (arid desert trade wind latitude, restricted marine basins, evaporation).",
+      "image": "img/2022-summer-a3/q10bi.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q10b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q10bi.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q10bii",
+      "paper": "2022-summer-a3",
+      "question": "10(b)(ii)",
+      "marks": 2,
+      "page": 27,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "Structural Geology",
+        "Halokinesis"
+      ],
+      "summary": "Explain why Middle Triassic rocks cut across younger rocks in Figure 10b (salt diapirism / dome, low density salt rising buoyantly along faults).",
+      "image": "img/2022-summer-a3/q10bii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q10b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q10bii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q10ci",
+      "paper": "2022-summer-a3",
+      "question": "10(c)(i)",
+      "marks": 2,
+      "page": 27,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "Tectonic Analysis",
+        "Structural Geology"
+      ],
+      "summary": "State the type of stress in Figure 10b (tension) and explain reasons (rifting of North Atlantic, normal faults, grabens/horsts, crustal extension).",
+      "image": "img/2022-summer-a3/q10ci.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q10b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q10ci.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q10cii",
+      "paper": "2022-summer-a3",
+      "question": "10(c)(ii)",
+      "marks": 3,
+      "page": 27,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "Evaluation",
+        "Basin Analysis"
+      ],
+      "summary": "Evaluate the statement that the North Sea area continued to subside after tectonic stress ceased (Palaeogene thickening in basin centre, post-rift thermal subsidence, lack of fault displacement).",
+      "image": "img/2022-summer-a3/q10cii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q10b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q10cii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q11a",
+      "paper": "2022-summer-a3",
+      "question": "11(a)",
+      "marks": 2,
+      "page": 29,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Stratigraphy"
+      ],
+      "summary": "State the boundary type between Ordovician and Silurian rocks from A to B in Figure 11a (unconformity) and give one reason (Silurian cuts across bedding/faults).",
+      "image": "img/2022-summer-a3/q11a.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q11a.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q11bi",
+      "paper": "2022-summer-a3",
+      "question": "11(b)(i)",
+      "marks": 3,
+      "page": 29,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "Fossil Identification",
+        "Graptolite Evolution"
+      ],
+      "summary": "State which fossil (J, K or L) in Figure 11b is Glyptograptus (K) and give two reasons (fewest stipes, biserial, scandent, younger Silurian form).",
+      "image": "img/2022-summer-a3/q11bi.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q11a.jpg",
+        "img/2022-summer-a3/fig-q11b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q11bi.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q11bii",
+      "paper": "2022-summer-a3",
+      "question": "11(b)(ii)",
+      "marks": 3,
+      "page": 29,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "Palaeoenvironmental Analysis"
+      ],
+      "summary": "Describe the sedimentary environment during the Ordovician indicated by the rocks and fossils (quiet/low-energy deep marine, anoxic black shale, pelagic graptolites in Iapetus).",
+      "image": "img/2022-summer-a3/q11bii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q11a.jpg",
+        "img/2022-summer-a3/fig-q11b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q11bii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q11ci",
+      "paper": "2022-summer-a3",
+      "question": "11(c)(i)",
+      "marks": 2,
+      "page": 30,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Structural Geology"
+      ],
+      "summary": "Mark in box Z on Figure 11a the axial plane trace of one fold using the key symbol, and justify (anticline with older rocks in core or syncline with younger rocks in core).",
+      "image": "img/2022-summer-a3/q11ci.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q11ci.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q11cii",
+      "paper": "2022-summer-a3",
+      "question": "11(c)(ii)",
+      "marks": 3,
+      "page": 30,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "Evaluation",
+        "Orogenic Analysis"
+      ],
+      "summary": "Evaluate the student's statement that rocks of the Builth Wells Inlier were deformed during the Caledonian Orogeny (NE-SW fold/fault trends, Ordovician age, pre-Silurian deformation).",
+      "image": "img/2022-summer-a3/q11cii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q11cii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q12",
+      "paper": "2022-summer-a3",
+      "question": "12",
+      "marks": 6,
+      "page": 31,
+      "topics": [
+        "3.1",
+        "3.2"
+      ],
+      "skills": [
+        "QER Extended Response",
+        "Palaeomagnetism"
+      ],
+      "summary": "Explain how palaeomagnetic data in British rocks provides evidence for changes in latitude over time (Curie point, remanent magnetism, inclination vs latitude, APW curves).",
+      "image": "img/2022-summer-a3/q12.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a3/ms-q12.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q13a",
+      "paper": "2022-summer-a3",
+      "question": "13(a)",
+      "marks": 3,
+      "page": 33,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Tectonic Analysis"
+      ],
+      "summary": "Describe the age distribution of orogenic belts in continental North America in Figure 13a (oldest craton in centre, younger peripheral linear belts, concentric pattern).",
+      "image": "img/2022-summer-a3/q13a.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q13a.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q13a.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q13b",
+      "paper": "2022-summer-a3",
+      "question": "13(b)",
+      "marks": 2,
+      "page": 33,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Petrology",
+        "Tectonic Interpretation"
+      ],
+      "summary": "State the name for sequence Z in Figure 13b (ophiolite suite) and describe its origin (obducted oceanic crust and upper mantle).",
+      "image": "img/2022-summer-a3/q13b.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q13b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q13b.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q13c",
+      "paper": "2022-summer-a3",
+      "question": "13(c)",
+      "marks": 3,
+      "page": 33,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Volcanology",
+        "Large Igneous Provinces"
+      ],
+      "summary": "State evidence that Columbia River Basalt is a large igneous province (LIP) from a mantle plume (huge volume, short eruption duration, high flow rate, mantle melt).",
+      "image": "img/2022-summer-a3/q13c.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q13b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q13c.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q13d",
+      "paper": "2022-summer-a3",
+      "question": "13(d)",
+      "marks": 4,
+      "page": 33,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Crustal Evolution"
+      ],
+      "summary": "Explain how subduction and accretionary processes in Figure 13b contributed to the age distribution of North America (accretion of terranes, crustal shortening, Wilson Cycle, preservation of buoyant crust).",
+      "image": "img/2022-summer-a3/q13d.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q13a.jpg",
+        "img/2022-summer-a3/fig-q13b.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q13d.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q14ai",
+      "paper": "2022-summer-a3",
+      "question": "14(a)(i)",
+      "marks": 1,
+      "page": 34,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "Data Reading"
+      ],
+      "summary": "State the approximate thickness of continental crust in Figure 14a (~45 km, range 40-50 km).",
+      "image": "img/2022-summer-a3/q14ai.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q14ab.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q14ai.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q14aii",
+      "paper": "2022-summer-a3",
+      "question": "14(a)(ii)",
+      "marks": 2,
+      "page": 34,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "Scientific Deduction"
+      ],
+      "summary": "State two pieces of evidence in Figure 14a confirming crust is continental not oceanic (thick crust ~45 km, dry granite solidus curve).",
+      "image": "img/2022-summer-a3/q14aii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q14ab.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q14aii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q14bi",
+      "paper": "2022-summer-a3",
+      "question": "14(b)(i)",
+      "marks": 1,
+      "page": 34,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Phase Diagrams"
+      ],
+      "summary": "Explain why partial melting does not occur under the conditions in Figure 14a (geotherm does not intersect granite or peridotite solidus curves).",
+      "image": "img/2022-summer-a3/q14bi.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q14ab.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q14bi.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q14bii",
+      "paper": "2022-summer-a3",
+      "question": "14(b)(ii)",
+      "marks": 2,
+      "page": 34,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "Diagram Analysis",
+        "Partial Melting"
+      ],
+      "summary": "Shade on Figure 14b where partially molten material will be generated (where geotherm exceeds solidus in crust and asthenospheric mantle).",
+      "image": "img/2022-summer-a3/q14bii.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q14ab.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q14bii.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q14c",
+      "paper": "2022-summer-a3",
+      "question": "14(c)",
+      "marks": 3,
+      "page": 35,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Delamination"
+      ],
+      "summary": "Explain how delamination thins the continental lithosphere beneath the orogenic belt in Figure 14c (dense root detaches, sinks into mantle, replaced by upwelling asthenosphere).",
+      "image": "img/2022-summer-a3/q14c.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q14c.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q14c.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q14d",
+      "paper": "2022-summer-a3",
+      "question": "14(d)",
+      "marks": 3,
+      "page": 35,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Magmatism"
+      ],
+      "summary": "Describe the pattern of pluton ages in Figure 14c and explain (ages decrease inwards 445 Ma to 415 Ma, delamination propagates inward causing progressive decompression and crustal melting).",
+      "image": "img/2022-summer-a3/q14d.jpg",
+      "figures": [
+        "img/2022-summer-a3/fig-q14c.jpg"
+      ],
+      "markscheme": "img/2022-summer-a3/ms-q14d.jpg"
+    },
+    {
+      "id": "2022-summer-a3-q15",
+      "paper": "2022-summer-a3",
+      "question": "15",
+      "marks": 6,
+      "page": 36,
+      "topics": [
+        "4.3"
+      ],
+      "skills": [
+        "QER Extended Response",
+        "Plate Tectonics",
+        "Geomagnetism"
+      ],
+      "summary": "Explain how magnetic anomalies are used to calculate the direction and rate at which an ocean basin is widening (Curie temperature, TRM, polarity reversals, spreading rate calculation).",
+      "image": "img/2022-summer-a3/q15.jpg",
+      "figures": [],
+      "markscheme": "img/2022-summer-a3/ms-q15.jpg"
     }
   ],
   "levels": [
