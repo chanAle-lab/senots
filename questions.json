@@ -1027,6 +1027,18 @@
       "spec": "current",
       "totalMarks": 60,
       "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2020-autumn-a3",
+      "year": 2020,
+      "series": "Autumn",
+      "date": "2020-10-19",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours"
     }
   ],
   "questions": [
@@ -31642,6 +31654,1307 @@
         "img/2020-autumn-c1/map1.jpg"
       ],
       "markscheme": "img/2020-autumn-c1/ms-q7.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q1a",
+      "paper": "2020-autumn-a3",
+      "question": "1(a)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Map Interpretation"
+      ],
+      "summary": "Mark on Figure 1 a likely location for the epicentre (E->) of the 1979 earthquake.",
+      "image": "img/2020-autumn-a3/q1a.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q1a.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q1bi",
+      "paper": "2020-autumn-a3",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Data Description",
+        "Isoseismal Analysis"
+      ],
+      "summary": "Describe the pattern of intensity shown by the EMS isoseismal lines on Figure 1.",
+      "image": "img/2020-autumn-a3/q1bi.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q1bii",
+      "paper": "2020-autumn-a3",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Geological Hazard Analysis"
+      ],
+      "summary": "Suggest one possible geological reason for the anomalous earthquake intensity in the Glasgow area.",
+      "image": "img/2020-autumn-a3/q1bii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q1c",
+      "paper": "2020-autumn-a3",
+      "question": "1(c)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Scientific Knowledge",
+        "Earthquake Prediction"
+      ],
+      "summary": "Explain two ways in which earthquakes might be forecast by monitoring seismic activity.",
+      "image": "img/2020-autumn-a3/q1c.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q1c.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q1di",
+      "paper": "2020-autumn-a3",
+      "question": "1(d)(i)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Seismic Moment"
+      ],
+      "summary": "Calculate the Moment Magnitude (MW) using the equation MW = 2/3 log10(M0) - 10.7 given M0 = 10^23 dyne-cm.",
+      "image": "img/2020-autumn-a3/q1di.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q1di.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q1dii",
+      "paper": "2020-autumn-a3",
+      "question": "1(d)(ii)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "T1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "Risk Management",
+        "Hazard Management"
+      ],
+      "summary": "Explain how the destructive effects of a British earthquake of this magnitude and intensity might be managed.",
+      "image": "img/2020-autumn-a3/q1dii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q1dii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q2ai",
+      "paper": "2020-autumn-a3",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "T1.2"
+      ],
+      "skills": [
+        "Cross-Section Interpretation",
+        "Structural Geology"
+      ],
+      "summary": "Describe the geological structure of the Maerdy Colliery waste tip area shown in Figure 2a.",
+      "image": "img/2020-autumn-a3/q2ai.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q2ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q2aii",
+      "paper": "2020-autumn-a3",
+      "question": "2(a)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "T1.2"
+      ],
+      "skills": [
+        "Slope Stability Analysis",
+        "Geotechnical Geology"
+      ],
+      "summary": "State how the geology of this area contributed to the low stability of the slope in this valley prior to mining.",
+      "image": "img/2020-autumn-a3/q2aii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q2aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q2b",
+      "paper": "2020-autumn-a3",
+      "question": "2(b)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "T1.2",
+        "T1.3"
+      ],
+      "skills": [
+        "Anthropogenic Impact",
+        "Slope Failure"
+      ],
+      "summary": "Explain how human activities before remediation have further reduced the stability of the slope.",
+      "image": "img/2020-autumn-a3/q2b.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q2b.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q2c",
+      "paper": "2020-autumn-a3",
+      "question": "2(c)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "T1.2",
+        "T1.3"
+      ],
+      "skills": [
+        "Engineering Remediation",
+        "Slope Stabilisation"
+      ],
+      "summary": "State two remediation measures used to stabilise the slope and explain how each measure reduces instability.",
+      "image": "img/2020-autumn-a3/q2c.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q2c.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q2d",
+      "paper": "2020-autumn-a3",
+      "question": "2(d)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "T1.2",
+        "T1.3"
+      ],
+      "skills": [
+        "Hydrogeological Hazard",
+        "Piezometric Analysis"
+      ],
+      "summary": "Describe one geohazard indicated by the piezometric surface around the proposed factory site on Figure 2b.",
+      "image": "img/2020-autumn-a3/q2d.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q2d.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q3a",
+      "paper": "2020-autumn-a3",
+      "question": "3(a)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "T2.1",
+        "T2.2"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Unconformity Identification"
+      ],
+      "summary": "Explain the evidence from the geological map that shows the presence of an unconformity in box A.",
+      "image": "img/2020-autumn-a3/q3a.jpg",
+      "figures": [
+        "img/2020-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q3a.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q3bi",
+      "paper": "2020-autumn-a3",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Sedimentary Texture",
+        "Sedimentology"
+      ],
+      "summary": "Complete the table in Figure 3b to describe the texture of the Dolomitic Conglomerate (DCg) in facies Y.",
+      "image": "img/2020-autumn-a3/q3bi.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q3ab.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q3bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q3bii",
+      "paper": "2020-autumn-a3",
+      "question": "3(b)(ii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "T2.1",
+        "T2.2"
+      ],
+      "skills": [
+        "Palaeogeography",
+        "Map Interpretation"
+      ],
+      "summary": "Explain the evidence from the geological map and Figure 3a that shows facies Y represents scree deposits on steep slopes.",
+      "image": "img/2020-autumn-a3/q3bii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q3ab.jpg",
+        "img/2020-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q3bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q3ci",
+      "paper": "2020-autumn-a3",
+      "question": "3(c)(i)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Mathematical Skills",
+        "Statistical Ranking"
+      ],
+      "summary": "Complete Table 2 by entering the missing ranks for the whole data set for clast roundness.",
+      "image": "img/2020-autumn-a3/q3ci.jpg",
+      "figures": [
+        "img/2020-autumn-a3/tab-q3.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q3ci.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q3cii",
+      "paper": "2020-autumn-a3",
+      "question": "3(c)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Statistical Calculation",
+        "Mann-Whitney U Test"
+      ],
+      "summary": "Using the formula in Table 2, calculate the Mann-Whitney score (Ux) for facies X.",
+      "image": "img/2020-autumn-a3/q3cii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/tab-q3.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q3cii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q3ciii",
+      "paper": "2020-autumn-a3",
+      "question": "3(c)(iii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Statistical Interpretation",
+        "Hypothesis Testing"
+      ],
+      "summary": "Evaluate the null hypothesis (H0) at a significance level of 0.05 using the Mann-Whitney U test result.",
+      "image": "img/2020-autumn-a3/q3ciii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/tab-q3.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q3ciii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q3d",
+      "paper": "2020-autumn-a3",
+      "question": "3(d)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "T2.1",
+        "T2.2"
+      ],
+      "skills": [
+        "Sedimentology",
+        "Depositional Processes"
+      ],
+      "summary": "Explain how the two facies (X and Y) formed despite originating in the same environment.",
+      "image": "img/2020-autumn-a3/q3d.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q3ab.jpg",
+        "img/2020-autumn-a3/tab-q3.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q3d.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q4ai",
+      "paper": "2020-autumn-a3",
+      "question": "4(a)(i)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "T2.1",
+        "T2.2"
+      ],
+      "skills": [
+        "Map Reading",
+        "Fault Displacement"
+      ],
+      "summary": "State two pieces of evidence from the geological map to support the statement that the Stock Hill Fault is downthrown to the west.",
+      "image": "img/2020-autumn-a3/q4ai.jpg",
+      "figures": [
+        "img/2020-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q4ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q4aii",
+      "paper": "2020-autumn-a3",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "T2.1",
+        "T2.2"
+      ],
+      "skills": [
+        "Stratigraphic Throw Calculation",
+        "Mathematical Skills"
+      ],
+      "summary": "Using the generalised geological column, calculate the throw of the Biddle Fault near GR 570478.",
+      "image": "img/2020-autumn-a3/q4aii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q4aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q4b",
+      "paper": "2020-autumn-a3",
+      "question": "4(b)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "T2.1",
+        "T2.2"
+      ],
+      "skills": [
+        "Fault Reactivation",
+        "Relative Dating"
+      ],
+      "summary": "Explain the evidence from the geological map that shows the Biddle Fault was reactivated post-Triassic.",
+      "image": "img/2020-autumn-a3/q4b.jpg",
+      "figures": [
+        "img/2020-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q4b.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q5a",
+      "paper": "2020-autumn-a3",
+      "question": "5(a)",
+      "marks": 1,
+      "page": 14,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Mineral Resources",
+        "Map Reading"
+      ],
+      "summary": "Name one metal found in mineral veins in this region from the geological map.",
+      "image": "img/2020-autumn-a3/q5a.jpg",
+      "figures": [
+        "img/2020-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q5a.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q5bi",
+      "paper": "2020-autumn-a3",
+      "question": "5(b)(i)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Data Tallying",
+        "Structural Measurement"
+      ],
+      "summary": "Calculate the totals for the orientation data set in Table 3 after adding the unrecorded veins.",
+      "image": "img/2020-autumn-a3/q5bi.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q5.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q5bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q5bii",
+      "paper": "2020-autumn-a3",
+      "question": "5(b)(ii)",
+      "marks": 3,
+      "page": 15,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Data Plotting",
+        "Rose Diagram"
+      ],
+      "summary": "Complete the rose diagram (Figure 5) to show the orientations of the mineral veins using the completed data set.",
+      "image": "img/2020-autumn-a3/q5bii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q5.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q5bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q5biii",
+      "paper": "2020-autumn-a3",
+      "question": "5(b)(iii)",
+      "marks": 4,
+      "page": 15,
+      "topics": [
+        "T2.1",
+        "T2.2"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Structural Geology"
+      ],
+      "summary": "Evaluate a student's conclusion about mineral vein host rocks, fold limb distribution, and orientation parallel to fold axis.",
+      "image": "img/2020-autumn-a3/q5biii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q5.jpg",
+        "img/2020-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q5biii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q6ai",
+      "paper": "2020-autumn-a3",
+      "question": "6(a)(i)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "T1.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Hydrogeology",
+        "Primary Porosity"
+      ],
+      "summary": "Suggest how the texture of Carboniferous Limestone might result in a low primary porosity.",
+      "image": "img/2020-autumn-a3/q6ai.jpg",
+      "figures": [
+        "img/2020-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q6ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q6aii",
+      "paper": "2020-autumn-a3",
+      "question": "6(a)(ii)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "T1.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Karst Hydrogeology",
+        "Secondary Permeability"
+      ],
+      "summary": "Suggest why the relative permeability of Carboniferous Limestone is very high.",
+      "image": "img/2020-autumn-a3/q6aii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q6.jpg",
+        "img/2020-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q6aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q6bi",
+      "paper": "2020-autumn-a3",
+      "question": "6(b)(i)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Velocity Calculation",
+        "Mathematical Skills"
+      ],
+      "summary": "Calculate the mean velocity of water flow between Swildon's Hole and Wookey Hole in metres per hour.",
+      "image": "img/2020-autumn-a3/q6bi.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q6.jpg",
+        "img/2020-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q6bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q6bii",
+      "paper": "2020-autumn-a3",
+      "question": "6(b)(ii)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Groundwater Flow Factors",
+        "Hydrogeology"
+      ],
+      "summary": "State two factors, other than permeability, that might affect the velocity of water flow through this limestone.",
+      "image": "img/2020-autumn-a3/q6bii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q6.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q6bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q6c",
+      "paper": "2020-autumn-a3",
+      "question": "6(c)",
+      "marks": 4,
+      "page": 17,
+      "topics": [
+        "T1.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Pollution Risk Assessment",
+        "Aquifer Vulnerability"
+      ],
+      "summary": "Evaluate the risk of pollution at Wookey Hole from mineral veins compared to contaminated ground in quarries.",
+      "image": "img/2020-autumn-a3/q6c.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q6.jpg",
+        "img/2020-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q6c.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q7ai",
+      "paper": "2020-autumn-a3",
+      "question": "7(a)(i)",
+      "marks": 2,
+      "page": 18,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Data Description",
+        "Isotherm Comparison"
+      ],
+      "summary": "Describe two differences in the position of the North Atlantic summer surface 8°C isotherm between 18ka and the present day.",
+      "image": "img/2020-autumn-a3/q7ai.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q7ab.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q7ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q7aii",
+      "paper": "2020-autumn-a3",
+      "question": "7(a)(ii)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Palaeoclimatology",
+        "Ocean-Atmosphere Interaction"
+      ],
+      "summary": "Explain the effect of this change in ocean temperatures on the climate of Britain.",
+      "image": "img/2020-autumn-a3/q7aii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q7ab.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q7aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q7bi",
+      "paper": "2020-autumn-a3",
+      "question": "7(b)(i)",
+      "marks": 1,
+      "page": 19,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Graph Interpretation",
+        "Palaeoclimate Proxy"
+      ],
+      "summary": "State one difference between the changes in temperature in North America and north-west Europe between 18ka and 9.5ka.",
+      "image": "img/2020-autumn-a3/q7bi.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q7c.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q7bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q7bii",
+      "paper": "2020-autumn-a3",
+      "question": "7(b)(ii)",
+      "marks": 1,
+      "page": 19,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Chronostratigraphy",
+        "Glacial Readvance"
+      ],
+      "summary": "State the age of a period of glacial readvance across the Northern Hemisphere shown by both graphs (Younger Dryas).",
+      "image": "img/2020-autumn-a3/q7bii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q7c.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q7bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q7biii",
+      "paper": "2020-autumn-a3",
+      "question": "7(b)(iii)",
+      "marks": 4,
+      "page": 20,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "Glacial Geomorphology",
+        "Sedimentology"
+      ],
+      "summary": "Explain two glacial deposits that could indicate the occurrence of a glacial readvance.",
+      "image": "img/2020-autumn-a3/q7biii.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a3/ms-q7biii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q8ai",
+      "paper": "2020-autumn-a3",
+      "question": "8(a)(i)",
+      "marks": 1,
+      "page": 23,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Hominin Evolution",
+        "Palaeoanthropology"
+      ],
+      "summary": "State the name of the hominin species that existed at the time the lower beds in Figure 8a were deposited (Homo erectus).",
+      "image": "img/2020-autumn-a3/q8ai.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q8.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q8ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q8aii",
+      "paper": "2020-autumn-a3",
+      "question": "8(a)(ii)",
+      "marks": 2,
+      "page": 23,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Palaeoenvironmental Reconstruction",
+        "Sedimentology"
+      ],
+      "summary": "Describe the environmental changes suggested by the stratigraphic sequence in Figure 8a.",
+      "image": "img/2020-autumn-a3/q8aii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q8.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q8aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q8bi",
+      "paper": "2020-autumn-a3",
+      "question": "8(b)(i)",
+      "marks": 3,
+      "page": 23,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "Geochronology",
+        "Potassium-Argon Dating"
+      ],
+      "summary": "Calculate the radiometric age of volcanic ash A using the K-Ar radiometric decay equation.",
+      "image": "img/2020-autumn-a3/q8bi.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q8.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q8bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q8bii",
+      "paper": "2020-autumn-a3",
+      "question": "8(b)(ii)",
+      "marks": 3,
+      "page": 23,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "Evaluation of Dating Techniques",
+        "Radiocarbon vs K-Ar"
+      ],
+      "summary": "Evaluate the statement that dating a volcanic ash layer is more effective than radiocarbon (14C) dating for hominin evolution.",
+      "image": "img/2020-autumn-a3/q8bii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q8.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q8bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q8ci",
+      "paper": "2020-autumn-a3",
+      "question": "8(c)(i)",
+      "marks": 2,
+      "page": 24,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Data Description",
+        "Graph Analysis"
+      ],
+      "summary": "Describe the change in hominin brain size over the last 3.5 Ma shown in Figure 8b.",
+      "image": "img/2020-autumn-a3/q8ci.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q8.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q8ci.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q8cii",
+      "paper": "2020-autumn-a3",
+      "question": "8(c)(ii)",
+      "marks": 3,
+      "page": 24,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Evolutionary Adaptation",
+        "Climate Driving Mechanisms"
+      ],
+      "summary": "Explain why human brain size has evolved in response to climatic change over the past 2.0 Ma.",
+      "image": "img/2020-autumn-a3/q8cii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q8.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q8cii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q09",
+      "paper": "2020-autumn-a3",
+      "question": "9",
+      "marks": 6,
+      "page": 25,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "QER",
+        "QER Extended Response",
+        "Milankovitch Cycles",
+        "Orbital Forcing"
+      ],
+      "summary": "Explain why Milankovitch cycles are regarded as a contributory cause of climatic fluctuations during the Quaternary (QER).",
+      "image": "img/2020-autumn-a3/q9.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a3/ms-q9.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q10a",
+      "paper": "2020-autumn-a3",
+      "question": "10(a)",
+      "marks": 2,
+      "page": 27,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "Fault Description",
+        "Structural Analysis"
+      ],
+      "summary": "Describe Fault F1 on Figure 10a at Caswell Bay (dip-slip, reverse fault).",
+      "image": "img/2020-autumn-a3/q10a.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q10a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q10a.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q10bi",
+      "paper": "2020-autumn-a3",
+      "question": "10(b)(i)",
+      "marks": 2,
+      "page": 27,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "Fold Geometry Calculation",
+        "Mathematical Skills"
+      ],
+      "summary": "Calculate the interlimb angle of the fold shown in box A on Figure 10a using data from Table 4.",
+      "image": "img/2020-autumn-a3/q10bi.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q10a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q10bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q10bii",
+      "paper": "2020-autumn-a3",
+      "question": "10(b)(ii)",
+      "marks": 2,
+      "page": 27,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "Fold Plunge Analysis",
+        "Strike Interpretation"
+      ],
+      "summary": "Explain why the data in Table 4 provides evidence that the fold in box A is not a plunging fold.",
+      "image": "img/2020-autumn-a3/q10bii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q10a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q10bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q10biii",
+      "paper": "2020-autumn-a3",
+      "question": "10(b)(iii)",
+      "marks": 3,
+      "page": 28,
+      "topics": [
+        "3.1",
+        "3.2"
+      ],
+      "skills": [
+        "British Orogenies",
+        "Variscan Orogeny"
+      ],
+      "summary": "Suggest, giving your reasons, the orogenic event most likely to have been responsible for the folding and faulting at Caswell Bay.",
+      "image": "img/2020-autumn-a3/q10biii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q10a.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q10biii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q10c",
+      "paper": "2020-autumn-a3",
+      "question": "10(c)",
+      "marks": 3,
+      "page": 28,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "Sedimentary Logging",
+        "Transgression-Regression"
+      ],
+      "summary": "Explain the evidence from Figure 10b indicating a marine transgression followed by a regression occurred during the Carboniferous.",
+      "image": "img/2020-autumn-a3/q10c.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q10b.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q10c.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q11ai",
+      "paper": "2020-autumn-a3",
+      "question": "11(a)(i)",
+      "marks": 2,
+      "page": 30,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "Relative Dating",
+        "Igneous Cross-Cutting"
+      ],
+      "summary": "Describe the relative age of the granite compared to the gabbro and basalt/dolerite dykes on Skye.",
+      "image": "img/2020-autumn-a3/q11ai.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q11.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q11ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q11aii",
+      "paper": "2020-autumn-a3",
+      "question": "11(a)(ii)",
+      "marks": 3,
+      "page": 31,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "Geochronology",
+        "Potassium-Argon Dating"
+      ],
+      "summary": "Calculate the radiometric age of the Skye granite sample using the K-Ar radiometric equation.",
+      "image": "img/2020-autumn-a3/q11aii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q11.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q11aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q11b",
+      "paper": "2020-autumn-a3",
+      "question": "11(b)",
+      "marks": 4,
+      "page": 31,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "Plate Tectonics",
+        "British Igneous Province"
+      ],
+      "summary": "Explain two pieces of evidence from the geology of the Isle of Skye that show it was associated with a divergent plate margin.",
+      "image": "img/2020-autumn-a3/q11b.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q11.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q11b.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q11c",
+      "paper": "2020-autumn-a3",
+      "question": "11(c)",
+      "marks": 3,
+      "page": 31,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "Igneous Petrogenesis",
+        "Magmatic Differentiation"
+      ],
+      "summary": "Explain how granitic magma may have formed in this divergent setting despite other rocks being basaltic/gabbroic.",
+      "image": "img/2020-autumn-a3/q11c.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q11.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q11c.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q12",
+      "paper": "2020-autumn-a3",
+      "question": "12",
+      "marks": 6,
+      "page": 32,
+      "topics": [
+        "3.1",
+        "3.2"
+      ],
+      "skills": [
+        "QER",
+        "QER Extended Response",
+        "Snowball Earth",
+        "Neoproterozoic Glaciation"
+      ],
+      "summary": "Explain how geological evidence supports the hypothesis of extreme global glaciation (Snowball Earth) in the Neoproterozoic (QER).",
+      "image": "img/2020-autumn-a3/q12.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a3/ms-q12.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q13ai",
+      "paper": "2020-autumn-a3",
+      "question": "13(a)(i)",
+      "marks": 2,
+      "page": 34,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Graph Description",
+        "Seafloor Bathymetry"
+      ],
+      "summary": "Describe the relationship between relative depth to the ocean floor and age shown in Figure 13.",
+      "image": "img/2020-autumn-a3/q13ai.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q13.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q13ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q13aii",
+      "paper": "2020-autumn-a3",
+      "question": "13(a)(ii)",
+      "marks": 3,
+      "page": 35,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Thermal Subsidence"
+      ],
+      "summary": "Calculate the depth to the ocean floor at 1600 km (age 40 Ma) from the Mid-Atlantic Ridge using the depth-age equation.",
+      "image": "img/2020-autumn-a3/q13aii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q13.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q13aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q13bi",
+      "paper": "2020-autumn-a3",
+      "question": "13(b)(i)",
+      "marks": 2,
+      "page": 35,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Data Support Analysis",
+        "Comparative Bathymetry"
+      ],
+      "summary": "Explain how the data in Figure 13 supports the statement that ocean floor of similar age occurs at similar depths.",
+      "image": "img/2020-autumn-a3/q13bi.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q13.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q13bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q13bii",
+      "paper": "2020-autumn-a3",
+      "question": "13(b)(ii)",
+      "marks": 3,
+      "page": 35,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Isostasy",
+        "Thermal Contraction"
+      ],
+      "summary": "Explain why ocean floors of similar age occur at a similar depth (cooling, density increase, isostatic equilibrium).",
+      "image": "img/2020-autumn-a3/q13bii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q13.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q13bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q13c",
+      "paper": "2020-autumn-a3",
+      "question": "13(c)",
+      "marks": 2,
+      "page": 35,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Geophysical Exploration",
+        "Marine Magnetic Anomalies"
+      ],
+      "summary": "Suggest how the age of the ocean crust might have been determined remotely without direct sampling or depth data.",
+      "image": "img/2020-autumn-a3/q13c.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q13.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q13c.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q14ai",
+      "paper": "2020-autumn-a3",
+      "question": "14(a)(i)",
+      "marks": 1,
+      "page": 36,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "Diagram Annotation",
+        "Moho Identification"
+      ],
+      "summary": "Mark the position of the Mohorovičić discontinuity (Moho) on Figure 14a with an arrow labelled (->M).",
+      "image": "img/2020-autumn-a3/q14ai.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q14.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q14ai.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q14aii",
+      "paper": "2020-autumn-a3",
+      "question": "14(a)(ii)",
+      "marks": 2,
+      "page": 36,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "Ocean Ridge Sedimentation",
+        "Scientific Reasoning"
+      ],
+      "summary": "Explain why seismic layer 1 is thin or absent at the axis of an ocean ridge.",
+      "image": "img/2020-autumn-a3/q14aii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q14.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q14aii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q14aiii",
+      "paper": "2020-autumn-a3",
+      "question": "14(a)(iii)",
+      "marks": 3,
+      "page": 37,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "Seismic Velocity Formula",
+        "Elastic Moduli"
+      ],
+      "summary": "Explain the increase in P-wave velocities from layer 1 to layer 3 using the formula relating Vp to moduli and density.",
+      "image": "img/2020-autumn-a3/q14aiii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q14.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q14aiii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q14aiv",
+      "paper": "2020-autumn-a3",
+      "question": "14(a)(iv)",
+      "marks": 1,
+      "page": 37,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "Field Evidence",
+        "Oceanic Crust Composition"
+      ],
+      "summary": "State one piece of field evidence supporting the composition of the layers in model 1 (ophiolites/drilling/xenoliths).",
+      "image": "img/2020-autumn-a3/q14aiv.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q14.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q14aiv.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q14bi",
+      "paper": "2020-autumn-a3",
+      "question": "14(b)(i)",
+      "marks": 2,
+      "page": 37,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Model Comparison"
+      ],
+      "summary": "Complete Table 6 stating the rock type in model 1 and % serpentinisation in model 2 corresponding to Vp = 6.0 km/s.",
+      "image": "img/2020-autumn-a3/q14bi.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q14.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q14bi.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q14bii",
+      "paper": "2020-autumn-a3",
+      "question": "14(b)(ii)",
+      "marks": 3,
+      "page": 37,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "Scientific Model Evaluation",
+        "Moho Interpretation"
+      ],
+      "summary": "Explain how model 2 challenges our understanding of the geological nature of the Moho in model 1.",
+      "image": "img/2020-autumn-a3/q14bii.jpg",
+      "figures": [
+        "img/2020-autumn-a3/fig-q14.jpg"
+      ],
+      "markscheme": "img/2020-autumn-a3/ms-q14bii.jpg"
+    },
+    {
+      "id": "2020-autumn-a3-q15",
+      "paper": "2020-autumn-a3",
+      "question": "15",
+      "marks": 6,
+      "page": 38,
+      "topics": [
+        "4.3"
+      ],
+      "skills": [
+        "QER",
+        "QER Extended Response",
+        "Orogenic Structures",
+        "Compressional Tectonics"
+      ],
+      "summary": "Explain the role of compressional tectonic stresses in the formation of large-scale deformational structures in orogenic belts (QER).",
+      "image": "img/2020-autumn-a3/q15.jpg",
+      "figures": [],
+      "markscheme": "img/2020-autumn-a3/ms-q15.jpg"
     }
   ],
   "levels": [
