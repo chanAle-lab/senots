@@ -1725,7 +1725,7 @@ footer {
 @media print {
   @page {
     size: A4 portrait;
-    margin: 12mm 12mm 12mm 12mm;
+    margin: 0;
   }
 
   html, body {
@@ -1756,7 +1756,8 @@ footer {
   body.is-printing-pack #print-container {
     display: block !important;
     width: 100% !important;
-    margin: 0 auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   /* Default print cleanup when printing normal page */
@@ -1816,9 +1817,9 @@ footer {
   }
 
   .print-pack-q-item {
-    page-break-inside: avoid;
-    break-inside: avoid;
-    margin: 0 0 16pt 0 !important;
+    page-break-inside: auto;
+    break-inside: auto;
+    margin: 0 !important;
     padding: 0 !important;
     border: none !important;
     box-shadow: none !important;
@@ -1826,17 +1827,19 @@ footer {
 
   .print-pack-img-block {
     text-align: center;
-    margin: 4pt 0 !important;
-    padding: 0 !important;
-    page-break-inside: avoid;
-    break-inside: avoid;
+    margin: 0 auto !important;
+    padding: 6mm 8mm !important;
+    box-sizing: border-box !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    width: 100% !important;
   }
 
   .print-pack-img-block img {
     max-width: 100% !important;
     width: 100% !important;
     height: auto !important;
-    max-height: 270mm;
+    max-height: 280mm !important;
     display: block;
     margin: 0 auto;
     object-fit: contain;
