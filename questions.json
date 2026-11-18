@@ -1135,6 +1135,18 @@
       "spec": "legacy",
       "totalMarks": 25,
       "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2016-summer-gl3",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-05-23",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
     }
   ],
   "questions": [
@@ -37400,6 +37412,269 @@
         "img/2017-summer-gl3/fig-q2b.jpg"
       ],
       "markscheme": "img/2017-summer-gl3/ms-q2cii.jpg"
+    },
+    {
+      "id": "2016-summer-gl3-q1ai",
+      "paper": "2016-summer-gl3",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Igneous Intrusions",
+        "Dykes",
+        "Concordant vs Discordant"
+      ],
+      "skills": [
+        "Structural Identification",
+        "Reasoning"
+      ],
+      "summary": "State the type of igneous body represented by structure X in Figure 1a and give one reason.",
+      "image": "img/2016-summer-gl3/q1ai.jpg",
+      "figures": [
+        "img/2016-summer-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl3/ms-q1ai.jpg"
+    },
+    {
+      "id": "2016-summer-gl3-q1aii",
+      "paper": "2016-summer-gl3",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Hydrogeology",
+        "Water Table",
+        "Igneous Barriers"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Causal Reasoning"
+      ],
+      "summary": "Explain why the fresh water table is at different heights on either side of structure X.",
+      "image": "img/2016-summer-gl3/q1aii.jpg",
+      "figures": [
+        "img/2016-summer-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl3/ms-q1aii.jpg"
+    },
+    {
+      "id": "2016-summer-gl3-q1aiii",
+      "paper": "2016-summer-gl3",
+      "question": "1(a)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Hydrogeology",
+        "Cone of Depression",
+        "Wells"
+      ],
+      "skills": [
+        "Diagram Drawing",
+        "Water Table Mapping"
+      ],
+      "summary": "Draw a line on Figure 1a to show the continuation of the fresh water table.",
+      "image": "img/2016-summer-gl3/q1aiii.jpg",
+      "figures": [
+        "img/2016-summer-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl3/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2016-summer-gl3-q1bi",
+      "paper": "2016-summer-gl3",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Volcanic Ash",
+        "Pyroclastic Rocks",
+        "Sedimentary Textures"
+      ],
+      "skills": [
+        "Textural Description"
+      ],
+      "summary": "Describe the texture of the volcanic ash in Figure 1b.",
+      "image": "img/2016-summer-gl3/q1bi.jpg",
+      "figures": [
+        "img/2016-summer-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2016-summer-gl3-q1bii",
+      "paper": "2016-summer-gl3",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Hydrogeology",
+        "Aquifers",
+        "Porosity and Permeability"
+      ],
+      "skills": [
+        "Scientific Explanation"
+      ],
+      "summary": "Explain why the volcanic ash makes a good aquifer.",
+      "image": "img/2016-summer-gl3/q1bii.jpg",
+      "figures": [
+        "img/2016-summer-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2016-summer-gl3-q1c",
+      "paper": "2016-summer-gl3",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Hydrogeology",
+        "Over-extraction",
+        "Saline Intrusion",
+        "Subsidence"
+      ],
+      "skills": [
+        "Environmental Evaluation",
+        "Hazard Prediction"
+      ],
+      "summary": "Explain why the over-extraction of fresh water in Figure 1a might lead to a future water supply problem.",
+      "image": "img/2016-summer-gl3/q1c.jpg",
+      "figures": [
+        "img/2016-summer-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl3/ms-q1c.jpg"
+    },
+    {
+      "id": "2016-summer-gl3-q2ai",
+      "paper": "2016-summer-gl3",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "Earthquakes",
+        "Seismology",
+        "Epicentre"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Spatial Location"
+      ],
+      "summary": "Mark the most likely position of the earthquake epicentre on Figure 2a.",
+      "image": "img/2016-summer-gl3/q2ai.jpg",
+      "figures": [
+        "img/2016-summer-gl3/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl3/ms-q2ai.jpg"
+    },
+    {
+      "id": "2016-summer-gl3-q2aii",
+      "paper": "2016-summer-gl3",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "Earthquakes",
+        "Isoseismal Lines",
+        "Mercalli Scale"
+      ],
+      "skills": [
+        "Contour Drawing",
+        "Map Completion"
+      ],
+      "summary": "Complete Figure 2a by drawing in the isoseismal line for Mercalli intensity VI.",
+      "image": "img/2016-summer-gl3/q2aii.jpg",
+      "figures": [
+        "img/2016-summer-gl3/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl3/ms-q2aii.jpg"
+    },
+    {
+      "id": "2016-summer-gl3-q2b",
+      "paper": "2016-summer-gl3",
+      "question": "2(b)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Mercalli Scale",
+        "Earthquake Intensity",
+        "Seismic Hazards"
+      ],
+      "skills": [
+        "Classification Matching"
+      ],
+      "summary": "Complete the chart by assigning the correct Mercalli intensity value to each description.",
+      "image": "img/2016-summer-gl3/q2b.jpg",
+      "figures": [],
+      "markscheme": "img/2016-summer-gl3/ms-q2b.jpg"
+    },
+    {
+      "id": "2016-summer-gl3-q2ci",
+      "paper": "2016-summer-gl3",
+      "question": "2(c)(i)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Earthquakes",
+        "Seismic Attenuation",
+        "Mercalli Scale"
+      ],
+      "skills": [
+        "Graph Interpretation",
+        "Trend Description"
+      ],
+      "summary": "Describe and explain the relationship between Mercalli intensity and distance shown in Figure 2b.",
+      "image": "img/2016-summer-gl3/q2ci.jpg",
+      "figures": [
+        "img/2016-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl3/ms-q2ci.jpg"
+    },
+    {
+      "id": "2016-summer-gl3-q2cii",
+      "paper": "2016-summer-gl3",
+      "question": "2(c)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "Earthquakes",
+        "Seismic Profiles",
+        "Intensity Variation"
+      ],
+      "skills": [
+        "Data Plotting",
+        "Graph Drawing"
+      ],
+      "summary": "Draw a line on Figure 2b showing observed Mercalli intensity along transect P–Q.",
+      "image": "img/2016-summer-gl3/q2cii.jpg",
+      "figures": [
+        "img/2016-summer-gl3/fig-q2a.jpg",
+        "img/2016-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl3/ms-q2cii.jpg"
+    },
+    {
+      "id": "2016-summer-gl3-q2ciii",
+      "paper": "2016-summer-gl3",
+      "question": "2(c)(iii)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "Earthquake Hazards",
+        "Ground Amplification",
+        "Liquefaction",
+        "Building Vulnerability"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Geological Reasoning"
+      ],
+      "summary": "Explain why Mercalli values do not always follow the expected relationship with distance.",
+      "image": "img/2016-summer-gl3/q2ciii.jpg",
+      "figures": [
+        "img/2016-summer-gl3/fig-q2a.jpg",
+        "img/2016-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl3/ms-q2ciii.jpg"
     }
   ],
   "levels": [
