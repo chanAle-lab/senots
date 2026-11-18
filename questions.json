@@ -1123,6 +1123,18 @@
       "spec": "legacy",
       "totalMarks": 25,
       "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2017-summer-gl3",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-05-22",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
     }
   ],
   "questions": [
@@ -37184,6 +37196,210 @@
       "image": "img/2018-summer-gl3/q2c.jpg",
       "figures": [],
       "markscheme": "img/2018-summer-gl3/ms-q2c.jpg"
+    },
+    {
+      "id": "2017-summer-gl3-q1ai",
+      "paper": "2017-summer-gl3",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Volcano Monitoring",
+        "Earthquakes",
+        "Seismology",
+        "Mauna Loa"
+      ],
+      "skills": [
+        "Trend Description",
+        "Graph Interpretation"
+      ],
+      "summary": "Describe the pattern of earthquake frequency on Mauna Loa shown in Figure 1a.",
+      "image": "img/2017-summer-gl3/q1ai.jpg",
+      "figures": [
+        "img/2017-summer-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl3/ms-q1ai.jpg"
+    },
+    {
+      "id": "2017-summer-gl3-q1aii",
+      "paper": "2017-summer-gl3",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Volcano Monitoring",
+        "Ground Deformation",
+        "Calderas"
+      ],
+      "skills": [
+        "Correlation Analysis",
+        "Data Comparison"
+      ],
+      "summary": "Describe the relationship between earthquake frequency and caldera width change at Mauna Loa.",
+      "image": "img/2017-summer-gl3/q1aii.jpg",
+      "figures": [
+        "img/2017-summer-gl3/fig-q1a.jpg",
+        "img/2017-summer-gl3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl3/ms-q1aii.jpg"
+    },
+    {
+      "id": "2017-summer-gl3-q1bi",
+      "paper": "2017-summer-gl3",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Volcano Monitoring",
+        "Calderas",
+        "Eruption Cycle"
+      ],
+      "skills": [
+        "Graph Completion",
+        "Model Application"
+      ],
+      "summary": "Complete the graph in Figure 1d to show caldera width changes during a typical eruption cycle.",
+      "image": "img/2017-summer-gl3/q1bi.jpg",
+      "figures": [
+        "img/2017-summer-gl3/fig-q1c.jpg",
+        "img/2017-summer-gl3/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2017-summer-gl3-q1bii",
+      "paper": "2017-summer-gl3",
+      "question": "1(b)(ii)",
+      "marks": 4,
+      "page": 5,
+      "topics": [
+        "Volcano Monitoring",
+        "Eruption Prediction",
+        "Geological Hazards"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Data Synthesis"
+      ],
+      "summary": "Evaluate the use of earthquake frequency and caldera inflation data in predicting eruption timing.",
+      "image": "img/2017-summer-gl3/q1bii.jpg",
+      "figures": [
+        "img/2017-summer-gl3/fig-q1a.jpg",
+        "img/2017-summer-gl3/fig-q1b.jpg",
+        "img/2017-summer-gl3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2017-summer-gl3-q1biii",
+      "paper": "2017-summer-gl3",
+      "question": "1(b)(iii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Volcanic Gases",
+        "Volcano Monitoring",
+        "Geochemistry"
+      ],
+      "skills": [
+        "Process Explanation",
+        "Hazard Prediction"
+      ],
+      "summary": "Explain how monitoring gas emissions could provide additional information for predicting eruptions.",
+      "image": "img/2017-summer-gl3/q1biii.jpg",
+      "figures": [
+        "img/2017-summer-gl3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl3/ms-q1biii.jpg"
+    },
+    {
+      "id": "2017-summer-gl3-q2a",
+      "paper": "2017-summer-gl3",
+      "question": "2(a)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "Rock Mechanics",
+        "Weathering",
+        "Engineering Geology"
+      ],
+      "skills": [
+        "Data Comparison",
+        "Scientific Explanation"
+      ],
+      "summary": "Describe and explain the difference in rock strength between weathered and unweathered sandstone.",
+      "image": "img/2017-summer-gl3/q2a.jpg",
+      "figures": [
+        "img/2017-summer-gl3/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl3/ms-q2a.jpg"
+    },
+    {
+      "id": "2017-summer-gl3-q2b",
+      "paper": "2017-summer-gl3",
+      "question": "2(b)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Coastal Engineering",
+        "Longshore Drift",
+        "Coastal Erosion"
+      ],
+      "skills": [
+        "Causal Explanation",
+        "Geomorphology"
+      ],
+      "summary": "Explain why the presence of the breakwater has put the stability of the railway line at Middle Beach at risk.",
+      "image": "img/2017-summer-gl3/q2b.jpg",
+      "figures": [
+        "img/2017-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl3/ms-q2b.jpg"
+    },
+    {
+      "id": "2017-summer-gl3-q2ci",
+      "paper": "2017-summer-gl3",
+      "question": "2(c)(i)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "Mass Movement",
+        "Slope Stability",
+        "Engineering Geology"
+      ],
+      "skills": [
+        "Risk Assessment",
+        "Comparative Analysis"
+      ],
+      "summary": "Compare the risk of mass movement to the railway line at locations A and B.",
+      "image": "img/2017-summer-gl3/q2ci.jpg",
+      "figures": [
+        "img/2017-summer-gl3/fig-q2a.jpg",
+        "img/2017-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl3/ms-q2ci.jpg"
+    },
+    {
+      "id": "2017-summer-gl3-q2cii",
+      "paper": "2017-summer-gl3",
+      "question": "2(c)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Slope Stabilisation",
+        "Engineering Geology",
+        "Geotechnical Engineering"
+      ],
+      "skills": [
+        "Engineering Solution",
+        "Application"
+      ],
+      "summary": "Describe and explain one method that could be used on the cliff face to stabilise the slope at location A or B.",
+      "image": "img/2017-summer-gl3/q2cii.jpg",
+      "figures": [
+        "img/2017-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl3/ms-q2cii.jpg"
     }
   ],
   "levels": [
