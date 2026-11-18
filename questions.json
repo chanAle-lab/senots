@@ -1003,6 +1003,18 @@
       "spec": "current",
       "totalMarks": 105,
       "duration": "2 hours"
+    },
+    {
+      "id": "2021-autumn-a3",
+      "year": 2021,
+      "series": "Autumn",
+      "date": "2021-10-18",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours"
     }
   ],
   "questions": [
@@ -29733,6 +29745,1445 @@
       "image": "img/2022-summer-a3/q15.jpg",
       "figures": [],
       "markscheme": "img/2022-summer-a3/ms-q15.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q1ai",
+      "paper": "2021-autumn-a3",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "T1.1",
+        "T1.3"
+      ],
+      "skills": [
+        "Data Description",
+        "Trend Description",
+        "Tsunami Geology"
+      ],
+      "summary": "Describe the changes in the wave height of the 1607 tsunami shown in Figure 1a.",
+      "image": "img/2021-autumn-a3/q1ai.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q1ai.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q1aii",
+      "paper": "2021-autumn-a3",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "T1.1",
+        "T1.3"
+      ],
+      "skills": [
+        "Geological Reasoning",
+        "Tsunami Geology"
+      ],
+      "summary": "Suggest two geological or geographical factors which might have caused the changes in wave height described in (a)(i).",
+      "image": "img/2021-autumn-a3/q1aii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q1aii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q1b",
+      "paper": "2021-autumn-a3",
+      "question": "1(b)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "T1.1",
+        "T1.3"
+      ],
+      "skills": [
+        "Knowledge Recall",
+        "Tsunami Geology"
+      ],
+      "summary": "State one possible geological cause for the generation of a tsunami.",
+      "image": "img/2021-autumn-a3/q1b.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q1b.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q1ci",
+      "paper": "2021-autumn-a3",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Data Reading",
+        "Mathematical Skills",
+        "Calculation"
+      ],
+      "summary": "Calculate how many times larger a boulder transported by a 6 metre high tsunami wave would be than a boulder transported by a 6 metre high storm wave using Figure 1b.",
+      "image": "img/2021-autumn-a3/q1ci.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q1ci.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q1cii",
+      "paper": "2021-autumn-a3",
+      "question": "1(c)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Data Plotting",
+        "Graphical Construction"
+      ],
+      "summary": "Plot the data for the boulder at Dunraven Bay on Figure 1b.",
+      "image": "img/2021-autumn-a3/q1cii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q1cii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q1ciii",
+      "paper": "2021-autumn-a3",
+      "question": "1(c)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Data Interpretation",
+        "Scientific Reasoning",
+        "Tsunami Geology"
+      ],
+      "summary": "Explain why the data plotted on Figure 1b suggests that the boulder at Dunraven Bay was transported by a tsunami wave rather than a storm wave.",
+      "image": "img/2021-autumn-a3/q1ciii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q1civ",
+      "paper": "2021-autumn-a3",
+      "question": "1(c)(iv)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Field Evidence",
+        "Scientific Deduction",
+        "Tsunami Geology"
+      ],
+      "summary": "Describe one other piece of geological evidence that could be used to support the suggestion that the boulder was transported during the 1607 event.",
+      "image": "img/2021-autumn-a3/q1civ.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q1civ.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q1d",
+      "paper": "2021-autumn-a3",
+      "question": "1(d)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "T1.1",
+        "T1.3"
+      ],
+      "skills": [
+        "Evaluation",
+        "Hazard Assessment",
+        "Hazard Mitigation",
+        "Risk Management"
+      ],
+      "summary": "Evaluate the need for tsunami defences in the Bristol Channel area using Figures 1a and 1b and your own knowledge.",
+      "image": "img/2021-autumn-a3/q1d.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q1a.jpg",
+        "img/2021-autumn-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q1d.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q2a",
+      "paper": "2021-autumn-a3",
+      "question": "2(a)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "T1.3",
+        "G3.2"
+      ],
+      "skills": [
+        "Mining Geology",
+        "Geotechnical Engineering",
+        "Hazard Assessment"
+      ],
+      "summary": "State one engineering problem associated with the extraction of coal in underground mines and explain how it can be mitigated.",
+      "image": "img/2021-autumn-a3/q2a.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q2a.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q2bi",
+      "paper": "2021-autumn-a3",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "T1.3",
+        "G3.2"
+      ],
+      "skills": [
+        "Engineering and the Environment",
+        "Slope Stability"
+      ],
+      "summary": "Explain how the construction of feature X (a berm) will increase the stability of the rock slope in Figure 2.",
+      "image": "img/2021-autumn-a3/q2bi.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q2bi.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q2bii",
+      "paper": "2021-autumn-a3",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "T1.3",
+        "G3.2"
+      ],
+      "skills": [
+        "Slope Stability",
+        "Remediation",
+        "Engineering and the Environment"
+      ],
+      "summary": "Describe one other engineering method that could be used to increase the stability of the rock slope in Figure 2.",
+      "image": "img/2021-autumn-a3/q2bii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q2bii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q2ci",
+      "paper": "2021-autumn-a3",
+      "question": "2(c)(i)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "T1.3",
+        "G3.2"
+      ],
+      "skills": [
+        "Calculation",
+        "Mathematical Skills",
+        "Slope Stability"
+      ],
+      "summary": "Calculate the slope angle Q of the mine waste tip in Figure 2 using trigonometry.",
+      "image": "img/2021-autumn-a3/q2ci.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q2ci.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q2cii",
+      "paper": "2021-autumn-a3",
+      "question": "2(c)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "T1.3",
+        "G3.2"
+      ],
+      "skills": [
+        "Scientific Reasoning",
+        "Rock Mechanics",
+        "Slope Stability"
+      ],
+      "summary": "Explain why slope angle P (rock slope) is steeper than slope angle Q (mine waste tip) in Figure 2.",
+      "image": "img/2021-autumn-a3/q2cii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q2cii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q2d",
+      "paper": "2021-autumn-a3",
+      "question": "2(d)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "T1.3",
+        "G3.2"
+      ],
+      "skills": [
+        "Geological Methods",
+        "Methodology Explanation",
+        "Slope Stability"
+      ],
+      "summary": "Describe one method of monitoring the stability of the rock slope during the road construction shown in Figure 2.",
+      "image": "img/2021-autumn-a3/q2d.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q2.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q2d.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q3a",
+      "paper": "2021-autumn-a3",
+      "question": "3(a)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "T2.1",
+        "T2.2"
+      ],
+      "skills": [
+        "Map Reading",
+        "Map Interpretation"
+      ],
+      "summary": "Identify the geological features shown by the symbols at GR 749380 and GR 737396 on British Geological Survey Sheet 352 Falmouth.",
+      "image": "img/2021-autumn-a3/q3a.jpg",
+      "figures": [
+        "img/2021-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q3a.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q3bi",
+      "paper": "2021-autumn-a3",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "T2.1",
+        "Stratigraphy"
+      ],
+      "skills": [
+        "Relative Dating",
+        "Cross-Cutting Relationships"
+      ],
+      "summary": "Arrange the Mylor Slate Formation, Pluton P, and the mineral veins in order of age from youngest to oldest.",
+      "image": "img/2021-autumn-a3/q3bi.jpg",
+      "figures": [
+        "img/2021-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q3bi.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q3bii",
+      "paper": "2021-autumn-a3",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "T2.1",
+        "Stratigraphy"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Cross-Cutting Relationships",
+        "Relative Dating"
+      ],
+      "summary": "State two pieces of map evidence that show Pluton Q is younger than the Dolerite (greenstone) D' at GR 786377.",
+      "image": "img/2021-autumn-a3/q3bii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q3bii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q3biii",
+      "paper": "2021-autumn-a3",
+      "question": "3(b)(iii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "T2.1",
+        "T2.2",
+        "G4.1"
+      ],
+      "skills": [
+        "Evidence Interpretation",
+        "Geophysical Interpretation",
+        "Subsurface Deduction"
+      ],
+      "summary": "Explain how geological and geophysical evidence suggests that Pluton P and Pluton Q are joined at depth.",
+      "image": "img/2021-autumn-a3/q3biii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q3biii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q3ci",
+      "paper": "2021-autumn-a3",
+      "question": "3(c)(i)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Map Reading",
+        "Calculation",
+        "Mathematical Skills"
+      ],
+      "summary": "Calculate the width of the metamorphic aureole at the ground surface along line X-Y on British Geological Survey Sheet 352 Falmouth.",
+      "image": "img/2021-autumn-a3/q3ci.jpg",
+      "figures": [
+        "img/2021-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q3ci.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q3cii",
+      "paper": "2021-autumn-a3",
+      "question": "3(c)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "T2.1",
+        "2.3"
+      ],
+      "skills": [
+        "Diagram Interpretation",
+        "Geological Dip",
+        "Geological Drawing"
+      ],
+      "summary": "Explain how the dip of the granite contact affects the width of the metamorphic aureole at the ground surface, using a diagram.",
+      "image": "img/2021-autumn-a3/q3cii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q3cii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q3ciii",
+      "paper": "2021-autumn-a3",
+      "question": "3(c)(iii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "Scientific Reasoning",
+        "Petrogenetic Explanation"
+      ],
+      "summary": "Suggest one reason other than the dip of the contact why the width of a metamorphic aureole can vary.",
+      "image": "img/2021-autumn-a3/q3ciii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/map1.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q3ciii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q3d",
+      "paper": "2021-autumn-a3",
+      "question": "3(d)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "T2.1",
+        "3.1"
+      ],
+      "skills": [
+        "Evaluation",
+        "Map Interpretation",
+        "Structural Analysis"
+      ],
+      "summary": "Evaluate the student's statement that the cleavage in the Mylor Slate Formation was formed by the intrusion of the granite plutons, using Sheet 352 and Figure 3.",
+      "image": "img/2021-autumn-a3/q3d.jpg",
+      "figures": [
+        "img/2021-autumn-a3/map1.jpg",
+        "img/2021-autumn-a3/fig-q3.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q3d.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q4ai",
+      "paper": "2021-autumn-a3",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "2.2",
+        "T2.1"
+      ],
+      "skills": [
+        "Data Plotting",
+        "Rose Diagram"
+      ],
+      "summary": "Plot the data for the 081°-100° orientation class on the rose diagram in Figure 4.",
+      "image": "img/2021-autumn-a3/q4ai.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q4.jpg",
+        "img/2021-autumn-a3/tab-q4.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q4ai.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q4aii",
+      "paper": "2021-autumn-a3",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Statistical Testing",
+        "Calculation",
+        "Mathematical Skills"
+      ],
+      "summary": "Calculate the expected frequency E and complete Table 3 for the chi-squared test on phenocryst orientations.",
+      "image": "img/2021-autumn-a3/q4aii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q4.jpg",
+        "img/2021-autumn-a3/tab-q4.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q4aii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q4aiii",
+      "paper": "2021-autumn-a3",
+      "question": "4(a)(iii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "Statistical Evaluation",
+        "Data Interpretation"
+      ],
+      "summary": "State whether the null hypothesis should be accepted or rejected at the 0.05 probability level, giving a reason.",
+      "image": "img/2021-autumn-a3/q4aiii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q4.jpg",
+        "img/2021-autumn-a3/tab-q4.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q4b",
+      "paper": "2021-autumn-a3",
+      "question": "4(b)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.2",
+        "Field Skills"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Data Evaluation",
+        "Field Skills"
+      ],
+      "summary": "Explain three limitations of sampling the orientations of the feldspar phenocrysts from a single two-dimensional rock surface.",
+      "image": "img/2021-autumn-a3/q4b.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q4.jpg",
+        "img/2021-autumn-a3/tab-q4.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q4b.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q5ai",
+      "paper": "2021-autumn-a3",
+      "question": "5(a)(i)",
+      "marks": 2,
+      "page": 14,
+      "topics": [
+        "T2.1",
+        "3.2"
+      ],
+      "skills": [
+        "Fault Identification",
+        "Map Reading",
+        "Calculation"
+      ],
+      "summary": "State the horizontal displacement of the dolerite intrusion D and the type of fault represented by the Porthtowan Fault Zone in Box A.",
+      "image": "img/2021-autumn-a3/q5ai.jpg",
+      "figures": [
+        "img/2021-autumn-a3/map1.jpg",
+        "img/2021-autumn-a3/fig-q5.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q5ai.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q5aii",
+      "paper": "2021-autumn-a3",
+      "question": "5(a)(ii)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "3.2",
+        "Field Skills"
+      ],
+      "skills": [
+        "Field Evidence",
+        "Fault Analysis",
+        "Scientific Reasoning"
+      ],
+      "summary": "Describe how a geologist could confirm the direction of fault movement along the Porthtowan Fault Zone in the field.",
+      "image": "img/2021-autumn-a3/q5aii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/map1.jpg",
+        "img/2021-autumn-a3/fig-q5.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q5aii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q5b",
+      "paper": "2021-autumn-a3",
+      "question": "5(b)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "3.2",
+        "Hydrogeology"
+      ],
+      "skills": [
+        "Hydrogeology",
+        "Geological Reasoning"
+      ],
+      "summary": "Explain why permeability is generally higher in the fault zones than in the surrounding country rocks in Box A.",
+      "image": "img/2021-autumn-a3/q5b.jpg",
+      "figures": [
+        "img/2021-autumn-a3/map1.jpg",
+        "img/2021-autumn-a3/fig-q5.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q5b.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q6ai",
+      "paper": "2021-autumn-a3",
+      "question": "6(a)(i)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "Heat Flow",
+        "2.2"
+      ],
+      "skills": [
+        "Geological Explanation",
+        "Heat Flow"
+      ],
+      "summary": "Explain why heat flow values are high in the Cornwall area shown in Figure 6.",
+      "image": "img/2021-autumn-a3/q6ai.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q6.jpg",
+        "img/2021-autumn-a3/tab-q6.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q6ai.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q6aii",
+      "paper": "2021-autumn-a3",
+      "question": "6(a)(ii)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "Heat Flow"
+      ],
+      "skills": [
+        "Calculation",
+        "Mathematical Skills",
+        "Heat Flow"
+      ],
+      "summary": "Calculate the expected rock temperature at the base of the production well at 4500 m depth using Figure 6.",
+      "image": "img/2021-autumn-a3/q6aii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q6.jpg",
+        "img/2021-autumn-a3/tab-q6.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q6aii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q6bi",
+      "paper": "2021-autumn-a3",
+      "question": "6(b)(i)",
+      "marks": 1,
+      "page": 17,
+      "topics": [
+        "Hydrogeology"
+      ],
+      "skills": [
+        "Calculation",
+        "Mathematical Skills",
+        "Hydrogeology"
+      ],
+      "summary": "Calculate the permeability of the target zone in the Porthtowan Fault Zone using Table 5.",
+      "image": "img/2021-autumn-a3/q6bi.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q6.jpg",
+        "img/2021-autumn-a3/tab-q6.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q6bi.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q6bii",
+      "paper": "2021-autumn-a3",
+      "question": "6(b)(ii)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "Hydrogeology",
+        "Engineering and the Environment"
+      ],
+      "skills": [
+        "Engineering and the Environment",
+        "Hydrogeology"
+      ],
+      "summary": "Describe how artificial stimulation can be used to increase permeability in geothermal reservoirs.",
+      "image": "img/2021-autumn-a3/q6bii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q6.jpg",
+        "img/2021-autumn-a3/tab-q6.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q6bii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q6c",
+      "paper": "2021-autumn-a3",
+      "question": "6(c)",
+      "marks": 5,
+      "page": 18,
+      "topics": [
+        "Environmental Management",
+        "Geohazards",
+        "Hydrogeology"
+      ],
+      "skills": [
+        "Critical Assessment",
+        "Environmental Management",
+        "Risk Assessment"
+      ],
+      "summary": "Assess the potential environmental impacts of the United Downs Deep Geothermal Power Project using Figure 6, Table 5, and your own knowledge.",
+      "image": "img/2021-autumn-a3/q6c.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q6.jpg",
+        "img/2021-autumn-a3/tab-q6.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q6c.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q7a",
+      "paper": "2021-autumn-a3",
+      "question": "7(a)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "T4.1",
+        "T4.2"
+      ],
+      "skills": [
+        "Palaeoclimatology",
+        "Palaeoecology"
+      ],
+      "summary": "Explain why morphological features of the woolly mammoth provide evidence of adaptation to a cold Quaternary climate.",
+      "image": "img/2021-autumn-a3/q7a.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q7a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q7a.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q7bi",
+      "paper": "2021-autumn-a3",
+      "question": "7(b)(i)",
+      "marks": 2,
+      "page": 20,
+      "topics": [
+        "T4.1",
+        "T4.2"
+      ],
+      "skills": [
+        "Palaeoenvironmental Interpretation",
+        "Sedimentology"
+      ],
+      "summary": "Suggest the depositional environment of the grey silts containing the mammoth remains in Figure 7b.",
+      "image": "img/2021-autumn-a3/q7bi.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q7b.jpg",
+        "img/2021-autumn-a3/tab-q7.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q7bi.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q7bii",
+      "paper": "2021-autumn-a3",
+      "question": "7(b)(ii)",
+      "marks": 2,
+      "page": 20,
+      "topics": [
+        "T4.1",
+        "T4.2"
+      ],
+      "skills": [
+        "Palaeoenvironmental Interpretation",
+        "Fossil Utility Explanation"
+      ],
+      "summary": "Explain why necrophagous beetles (Assemblage M) were found within the mammoth skull in the grey silts.",
+      "image": "img/2021-autumn-a3/q7bii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q7b.jpg",
+        "img/2021-autumn-a3/tab-q7.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q7bii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q7c",
+      "paper": "2021-autumn-a3",
+      "question": "7(c)",
+      "marks": 2,
+      "page": 21,
+      "topics": [
+        "T4.1"
+      ],
+      "skills": [
+        "Radiometric Dating",
+        "Geochronology"
+      ],
+      "summary": "Explain two reasons why radiocarbon dating cannot be used to date the sand and gravel unit B in Figure 7b.",
+      "image": "img/2021-autumn-a3/q7c.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q7b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q7c.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q7d",
+      "paper": "2021-autumn-a3",
+      "question": "7(d)",
+      "marks": 4,
+      "page": 21,
+      "topics": [
+        "T4.1",
+        "T4.2"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Palaeoclimatology",
+        "Comparative Deduction"
+      ],
+      "summary": "Evaluate the statement that fossil beetles provide a better record of Quaternary climatic change than large fossil vertebrates such as mammoths.",
+      "image": "img/2021-autumn-a3/q7d.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q7a.jpg",
+        "img/2021-autumn-a3/fig-q7b.jpg",
+        "img/2021-autumn-a3/tab-q7.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q7d.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q8ai",
+      "paper": "2021-autumn-a3",
+      "question": "8(a)(i)",
+      "marks": 2,
+      "page": 22,
+      "topics": [
+        "T4.2",
+        "T4.3"
+      ],
+      "skills": [
+        "Data Description",
+        "Geomorphology"
+      ],
+      "summary": "Describe the range in altitude of the corries shown in Figure 8c.",
+      "image": "img/2021-autumn-a3/q8ai.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q8a.jpg",
+        "img/2021-autumn-a3/fig-q8bc.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q8ai.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q8aii",
+      "paper": "2021-autumn-a3",
+      "question": "8(a)(ii)",
+      "marks": 2,
+      "page": 23,
+      "topics": [
+        "T4.2",
+        "T4.3"
+      ],
+      "skills": [
+        "Statistical Interpretation",
+        "Data Description"
+      ],
+      "summary": "State whether the distribution in Figure 8c is positively or negatively skewed and give one reason for your answer.",
+      "image": "img/2021-autumn-a3/q8aii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q8a.jpg",
+        "img/2021-autumn-a3/fig-q8bc.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q8aii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q8b",
+      "paper": "2021-autumn-a3",
+      "question": "8(b)",
+      "marks": 3,
+      "page": 23,
+      "topics": [
+        "T4.2",
+        "T4.3"
+      ],
+      "skills": [
+        "Geomorphological Deduction",
+        "Palaeoclimatology",
+        "Scientific Reasoning"
+      ],
+      "summary": "Explain why most of the corries in Snowdonia face north-east as shown in Figures 8a and 8b.",
+      "image": "img/2021-autumn-a3/q8b.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q8a.jpg",
+        "img/2021-autumn-a3/fig-q8bc.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q8b.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q8c",
+      "paper": "2021-autumn-a3",
+      "question": "8(c)",
+      "marks": 2,
+      "page": 24,
+      "topics": [
+        "T4.2",
+        "T4.3"
+      ],
+      "skills": [
+        "Geomorphology",
+        "Sedimentary Processes"
+      ],
+      "summary": "Explain how deposit A (moraine ridge) was formed in Cwm Idwal in Figure 8d.",
+      "image": "img/2021-autumn-a3/q8c.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q8d.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q8c.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q8d",
+      "paper": "2021-autumn-a3",
+      "question": "8(d)",
+      "marks": 3,
+      "page": 25,
+      "topics": [
+        "T4.2",
+        "T4.3"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Evidence Interpretation",
+        "Geomorphology"
+      ],
+      "summary": "Explain why glacial till deposits alone cannot be used to determine the maximum thickness or dimensions of ice sheets.",
+      "image": "img/2021-autumn-a3/q8d.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q8d.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q8d.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q9",
+      "paper": "2021-autumn-a3",
+      "question": "9",
+      "marks": 6,
+      "page": 25,
+      "topics": [
+        "T4.1",
+        "T4.2"
+      ],
+      "skills": [
+        "QER",
+        "QER Extended Response",
+        "Palaeoclimatology",
+        "Sedimentology"
+      ],
+      "summary": "Explain why oceanic sediments provide a more complete geological record of Quaternary climatic cycles than terrestrial sediments (QER).",
+      "image": "img/2021-autumn-a3/q9.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a3/ms-q9.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q10a",
+      "paper": "2021-autumn-a3",
+      "question": "10(a)",
+      "marks": 2,
+      "page": 26,
+      "topics": [
+        "T5.1"
+      ],
+      "skills": [
+        "Map Description",
+        "Stratigraphy",
+        "British Geology"
+      ],
+      "summary": "Describe the pattern of rock ages shown across Great Britain in Figure 10.",
+      "image": "img/2021-autumn-a3/q10a.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q10.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q10a.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q10bi",
+      "paper": "2021-autumn-a3",
+      "question": "10(b)(i)",
+      "marks": 2,
+      "page": 26,
+      "topics": [
+        "T5.1",
+        "3.1"
+      ],
+      "skills": [
+        "Fold Analysis",
+        "Structural Interpretation"
+      ],
+      "summary": "State whether the major fold in the South Wales Coalfield is an anticline or syncline and give a reason based on rock ages.",
+      "image": "img/2021-autumn-a3/q10bi.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q10.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q10bi.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q10bii",
+      "paper": "2021-autumn-a3",
+      "question": "10(b)(ii)",
+      "marks": 2,
+      "page": 27,
+      "topics": [
+        "T5.1",
+        "3.1"
+      ],
+      "skills": [
+        "Diagram Annotation",
+        "Fold Analysis",
+        "Structural Geology"
+      ],
+      "summary": "Draw the axial plane traces and fold symbols for two folds in Box A in southeast Britain on Figure 10.",
+      "image": "img/2021-autumn-a3/q10bii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q10.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q10bii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q10biii",
+      "paper": "2021-autumn-a3",
+      "question": "10(b)(iii)",
+      "marks": 4,
+      "page": 27,
+      "topics": [
+        "T5.1",
+        "T5.2",
+        "3.1"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Orogenic Comparison",
+        "British Tectonic Evolution"
+      ],
+      "summary": "Evaluate the suggestion that folds in South Wales and southeast Britain were formed during the same tectonic event.",
+      "image": "img/2021-autumn-a3/q10biii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q10.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q10biii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q11ai",
+      "paper": "2021-autumn-a3",
+      "question": "11(a)(i)",
+      "marks": 2,
+      "page": 28,
+      "topics": [
+        "T5.3",
+        "Plate Tectonics"
+      ],
+      "skills": [
+        "Data Description",
+        "Spreading Rates",
+        "Ocean Basins"
+      ],
+      "summary": "Describe the range in rate of oceanic crust production between 120 and 70 Ma in Figure 11a.",
+      "image": "img/2021-autumn-a3/q11ai.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q11ai.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q11aii",
+      "paper": "2021-autumn-a3",
+      "question": "11(a)(ii)",
+      "marks": 2,
+      "page": 29,
+      "topics": [
+        "T5.3"
+      ],
+      "skills": [
+        "Statistical Interpretation",
+        "Data Description"
+      ],
+      "summary": "State whether the distribution of oceanic crust production in Figure 11a is positively or negatively skewed and give a reason.",
+      "image": "img/2021-autumn-a3/q11aii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q11aii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q11b",
+      "paper": "2021-autumn-a3",
+      "question": "11(b)",
+      "marks": 2,
+      "page": 29,
+      "topics": [
+        "T5.2",
+        "T5.3"
+      ],
+      "skills": [
+        "Palaeoclimatology",
+        "Scientific Reasoning",
+        "British Geology"
+      ],
+      "summary": "Explain how high rates of sea floor spreading in the Cretaceous may have contributed to a hothouse climate and the deposition of chalk.",
+      "image": "img/2021-autumn-a3/q11b.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q11b.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q11c",
+      "paper": "2021-autumn-a3",
+      "question": "11(c)",
+      "marks": 3,
+      "page": 29,
+      "topics": [
+        "T5.2",
+        "T5.3",
+        "Magmatism"
+      ],
+      "skills": [
+        "Large Igneous Provinces",
+        "Magmatism",
+        "British Tectonic Evolution"
+      ],
+      "summary": "Explain the cause of extensive mafic igneous activity in northwest Britain and Greenland during the Palaeogene in Figure 11b.",
+      "image": "img/2021-autumn-a3/q11c.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q11a.jpg",
+        "img/2021-autumn-a3/fig-q11b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q11c.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q11di",
+      "paper": "2021-autumn-a3",
+      "question": "11(d)(i)",
+      "marks": 2,
+      "page": 30,
+      "topics": [
+        "T5.2",
+        "Sedimentology"
+      ],
+      "skills": [
+        "Sedimentological Description",
+        "Stratigraphy"
+      ],
+      "summary": "Describe the changes in rock type upwards through the Cretaceous sequence in Norfolk in Figure 11c.",
+      "image": "img/2021-autumn-a3/q11di.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q11c.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q11di.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q11dii",
+      "paper": "2021-autumn-a3",
+      "question": "11(d)(ii)",
+      "marks": 3,
+      "page": 30,
+      "topics": [
+        "T5.2",
+        "Sedimentology"
+      ],
+      "skills": [
+        "Palaeoenvironmental Interpretation",
+        "Sedimentary Processes",
+        "Basin Analysis"
+      ],
+      "summary": "Explain how changes in sea level and depositional energy account for the sedimentary sequence in Norfolk in Figure 11c.",
+      "image": "img/2021-autumn-a3/q11dii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q11c.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q11dii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q12",
+      "paper": "2021-autumn-a3",
+      "question": "12",
+      "marks": 6,
+      "page": 31,
+      "topics": [
+        "T5.1",
+        "T5.2"
+      ],
+      "skills": [
+        "QER",
+        "QER Extended Response",
+        "British Tectonic Evolution",
+        "Orogeny"
+      ],
+      "summary": "Explain the geological evidence in Britain for the closure of the Iapetus Ocean during the Caledonian Orogeny (QER).",
+      "image": "img/2021-autumn-a3/q12.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a3/ms-q12.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q13a",
+      "paper": "2021-autumn-a3",
+      "question": "13(a)",
+      "marks": 2,
+      "page": 32,
+      "topics": [
+        "T3.1",
+        "Heat Flow"
+      ],
+      "skills": [
+        "Data Interpretation",
+        "Statistical Interpretation",
+        "Heat Flow"
+      ],
+      "summary": "Identify which graph (A or B) has the greater positive skew in Figure 13a and give a reason for your answer.",
+      "image": "img/2021-autumn-a3/q13a.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q13.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q13a.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q13b",
+      "paper": "2021-autumn-a3",
+      "question": "13(b)",
+      "marks": 3,
+      "page": 32,
+      "topics": [
+        "T3.1",
+        "Heat Flow"
+      ],
+      "skills": [
+        "Heat Flow",
+        "Scientific Reasoning",
+        "Ocean Basins"
+      ],
+      "summary": "Explain why heat flow at an ocean ridge (Graph A) has a higher mean and greater range than at an abyssal plain (Graph B).",
+      "image": "img/2021-autumn-a3/q13b.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q13.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q13b.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q13ci",
+      "paper": "2021-autumn-a3",
+      "question": "13(c)(i)",
+      "marks": 2,
+      "page": 33,
+      "topics": [
+        "T3.1",
+        "Thermal Structure"
+      ],
+      "skills": [
+        "Graphical Construction",
+        "Thermal Structure",
+        "Scientific Explanation"
+      ],
+      "summary": "Draw the 1300°C isotherm on Figure 13b and explain its significance for the structure of the lithosphere.",
+      "image": "img/2021-autumn-a3/q13ci.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q13.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q13ci.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q13cii",
+      "paper": "2021-autumn-a3",
+      "question": "13(c)(ii)",
+      "marks": 3,
+      "page": 33,
+      "topics": [
+        "T3.1",
+        "Thermal Structure"
+      ],
+      "skills": [
+        "Thermal Structure",
+        "Scientific Reasoning",
+        "Plate Tectonics"
+      ],
+      "summary": "Explain why the thickness of oceanic lithosphere increases with age away from an ocean ridge in Figure 13b.",
+      "image": "img/2021-autumn-a3/q13cii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q13.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q13cii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q14a",
+      "paper": "2021-autumn-a3",
+      "question": "14(a)",
+      "marks": 2,
+      "page": 34,
+      "topics": [
+        "T3.2"
+      ],
+      "skills": [
+        "Data Reading",
+        "Global Tectonics"
+      ],
+      "summary": "Determine the duration of a supercontinent cycle and the time from present when the next supercontinent is predicted to form using Figure 14a.",
+      "image": "img/2021-autumn-a3/q14a.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q14a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q14a.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q14b",
+      "paper": "2021-autumn-a3",
+      "question": "14(b)",
+      "marks": 3,
+      "page": 34,
+      "topics": [
+        "T3.2"
+      ],
+      "skills": [
+        "Global Tectonics",
+        "Mechanisms",
+        "Scientific Explanation"
+      ],
+      "summary": "Explain how plate tectonic forces cause both the assembly and break-up stages of a supercontinent.",
+      "image": "img/2021-autumn-a3/q14b.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q14a.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q14b.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q14ci",
+      "paper": "2021-autumn-a3",
+      "question": "14(c)(i)",
+      "marks": 2,
+      "page": 35,
+      "topics": [
+        "T3.2"
+      ],
+      "skills": [
+        "Data Description",
+        "Trend Description"
+      ],
+      "summary": "Describe the changes in global sea level following the break-up of a supercontinent in Figure 14a.",
+      "image": "img/2021-autumn-a3/q14ci.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q14a.jpg",
+        "img/2021-autumn-a3/fig-q14b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q14ci.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q14cii",
+      "paper": "2021-autumn-a3",
+      "question": "14(c)(ii)",
+      "marks": 3,
+      "page": 35,
+      "topics": [
+        "T3.2",
+        "Isostasy"
+      ],
+      "skills": [
+        "Scientific Reasoning",
+        "Isostasy",
+        "Thermal Structure"
+      ],
+      "summary": "Explain how changes in the age, density, and buoyancy of oceanic lithosphere control sea level changes during supercontinent break-up.",
+      "image": "img/2021-autumn-a3/q14cii.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q14a.jpg",
+        "img/2021-autumn-a3/fig-q14b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q14cii.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q14d",
+      "paper": "2021-autumn-a3",
+      "question": "14(d)",
+      "marks": 4,
+      "page": 35,
+      "topics": [
+        "T3.2",
+        "Wilson Cycle"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Comparative Deduction",
+        "Wilson Cycle"
+      ],
+      "summary": "Evaluate the extent to which the model in Figure 14b represents a complete Wilson cycle.",
+      "image": "img/2021-autumn-a3/q14d.jpg",
+      "figures": [
+        "img/2021-autumn-a3/fig-q14a.jpg",
+        "img/2021-autumn-a3/fig-q14b.jpg"
+      ],
+      "markscheme": "img/2021-autumn-a3/ms-q14d.jpg"
+    },
+    {
+      "id": "2021-autumn-a3-q15",
+      "paper": "2021-autumn-a3",
+      "question": "15",
+      "marks": 6,
+      "page": 36,
+      "topics": [
+        "T3.1",
+        "T3.3"
+      ],
+      "skills": [
+        "QER",
+        "QER Extended Response",
+        "Ophiolite Distribution",
+        "Petrology"
+      ],
+      "summary": "Evaluate the extent to which ophiolite complexes provide evidence for the structure and composition of oceanic crust and upper mantle (QER).",
+      "image": "img/2021-autumn-a3/q15.jpg",
+      "figures": [],
+      "markscheme": "img/2021-autumn-a3/ms-q15.jpg"
     }
   ],
   "levels": [
