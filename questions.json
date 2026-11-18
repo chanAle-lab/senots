@@ -979,6 +979,18 @@
       "spec": "current",
       "totalMarks": 105,
       "duration": "2 hours"
+    },
+    {
+      "id": "2023-summer-a3",
+      "year": 2023,
+      "series": "Summer",
+      "date": "2023-06-20",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours"
     }
   ],
   "questions": [
@@ -27140,6 +27152,1333 @@
       "image": "img/2024-summer-a3/q16.jpg",
       "figures": [],
       "markscheme": "img/2024-summer-a3/ms-q16.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q1a",
+      "paper": "2023-summer-a3",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Scientific Explanation"
+      ],
+      "summary": "Suggest how an earthquake at the Kuril subduction zone could generate a tsunami (vertical seafloor displacement displacing the water column).",
+      "image": "img/2023-summer-a3/q1a.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q1a.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q1b",
+      "paper": "2023-summer-a3",
+      "question": "1(b)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Data Interpretation"
+      ],
+      "summary": "Calculate the mean velocity of the tsunami wave between the tsunami buoy and Arena Cove (726 km/h).",
+      "image": "img/2023-summer-a3/q1b.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q1b.jpg",
+        "img/2023-summer-a3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q1b.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q1ci",
+      "paper": "2023-summer-a3",
+      "question": "1(c)(i)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Scientific Explanation"
+      ],
+      "summary": "Explain why people at sea around the tsunami buoy would be unaware of tsunami waves passing (low amplitude, long wavelength, deep ocean).",
+      "image": "img/2023-summer-a3/q1ci.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q1ci.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q1cii",
+      "paper": "2023-summer-a3",
+      "question": "1(c)(ii)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Data Reading"
+      ],
+      "summary": "State the maximum height of the sea caused by the tsunami wave measured at Arena Cove (1.1 m).",
+      "image": "img/2023-summer-a3/q1cii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q1cii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q1ciii",
+      "paper": "2023-summer-a3",
+      "question": "1(c)(iii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "T1.1"
+      ],
+      "skills": [
+        "Data Analysis"
+      ],
+      "summary": "Describe how tsunami waves change between the deep ocean buoy and reaching shallow coastal waters at Arena Cove (increased height, decreased speed/wavelength).",
+      "image": "img/2023-summer-a3/q1ciii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q1b.jpg",
+        "img/2023-summer-a3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q1d",
+      "paper": "2023-summer-a3",
+      "question": "1(d)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "T1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "Risk Management",
+        "Evaluation"
+      ],
+      "summary": "Evaluate the risk posed by the 2006 Kuril tsunami on Arena Cove (low risk, small amplitude, arrival at low tide, early warning system).",
+      "image": "img/2023-summer-a3/q1d.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q1d.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q2a",
+      "paper": "2023-summer-a3",
+      "question": "2(a)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Data Interpretation"
+      ],
+      "summary": "Describe how the concentration of lead in mine water varies with pH (high at low pH, minimum at pH 8.5-9, rises in alkali).",
+      "image": "img/2023-summer-a3/q2a.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q2a.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q2bi",
+      "paper": "2023-summer-a3",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Data Analysis"
+      ],
+      "summary": "Describe how the pH of mine water changes as water passes through the shafts and tunnels of the mine (becomes more acidic).",
+      "image": "img/2023-summer-a3/q2bi.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q2a.jpg",
+        "img/2023-summer-a3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q2bi.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q2bii",
+      "paper": "2023-summer-a3",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Scientific Explanation"
+      ],
+      "summary": "Explain how changes in mine water pH affect the amount of lead discharged into the River Rheidol (increased solubility in acid).",
+      "image": "img/2023-summer-a3/q2bii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q2a.jpg",
+        "img/2023-summer-a3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q2bii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q2ci",
+      "paper": "2023-summer-a3",
+      "question": "2(c)(i)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Remediation",
+        "Environmental Engineering"
+      ],
+      "summary": "Explain how installing a limestone gravel filter neutralises acid mine water and precipitates dissolved heavy metals.",
+      "image": "img/2023-summer-a3/q2ci.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q2ci.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q2cii",
+      "paper": "2023-summer-a3",
+      "question": "2(c)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Environmental Management"
+      ],
+      "summary": "Suggest one other solution to metal pollution from abandoned mines (preventing shaft inflow, reed beds/phytoremediation).",
+      "image": "img/2023-summer-a3/q2cii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q2cii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q2d",
+      "paper": "2023-summer-a3",
+      "question": "2(d)",
+      "marks": 4,
+      "page": 8,
+      "topics": [
+        "T1.3"
+      ],
+      "skills": [
+        "Geotechnical Engineering",
+        "Slope Stability"
+      ],
+      "summary": "Explain two engineering strategies to stabilise loose waste rock slopes dumped on valley sides (drainage, regrading/terracing, gabions, revegetation).",
+      "image": "img/2023-summer-a3/q2d.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a3/ms-q2d.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q3a",
+      "paper": "2023-summer-a3",
+      "question": "3(a)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Map Interpretation"
+      ],
+      "summary": "Describe evidence in box A on the geological map supporting an unconformity at the base of the Permian (discordance, cross-cutting faults/beds, differing dip).",
+      "image": "img/2023-summer-a3/q3a.jpg",
+      "figures": [
+        "img/2023-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q3a.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q3bi",
+      "paper": "2023-summer-a3",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Stratigraphy"
+      ],
+      "summary": "Show that the Upper Magnesian Limestone (UML) has a maximum thickness of 30 m using the generalised geological column.",
+      "image": "img/2023-summer-a3/q3bi.jpg",
+      "figures": [
+        "img/2023-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q3bi.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q3bii",
+      "paper": "2023-summer-a3",
+      "question": "3(b)(ii)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Structural Geology"
+      ],
+      "summary": "Explain evidence from box A that the Upper Magnesian Limestone is dipping at a shallow angle to the East (wide outcrop vs thin bed, superposition).",
+      "image": "img/2023-summer-a3/q3bii.jpg",
+      "figures": [
+        "img/2023-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q3bii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q3biii",
+      "paper": "2023-summer-a3",
+      "question": "3(b)(iii)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Geological Dip"
+      ],
+      "summary": "Calculate the angle of dip of the Upper Magnesian Limestone along line X-Y assuming horizontal topography (2°).",
+      "image": "img/2023-summer-a3/q3biii.jpg",
+      "figures": [
+        "img/2023-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q3biii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q4ai",
+      "paper": "2023-summer-a3",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Structural Geology"
+      ],
+      "summary": "Explain why the Harrogate Anticline is classified as an anticline (oldest beds crop out in the centre).",
+      "image": "img/2023-summer-a3/q4ai.jpg",
+      "figures": [
+        "img/2023-summer-a3/map1.jpg",
+        "img/2023-summer-a3/fig-q4.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q4ai.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q4aii",
+      "paper": "2023-summer-a3",
+      "question": "4(a)(ii)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Fold Analysis"
+      ],
+      "summary": "Describe the plunge of the Harrogate Anticline (pericline plunging NE and SW, V-shaped outcrop closing in plunge direction).",
+      "image": "img/2023-summer-a3/q4aii.jpg",
+      "figures": [
+        "img/2023-summer-a3/map1.jpg",
+        "img/2023-summer-a3/fig-q4.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q4aii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q4aiii",
+      "paper": "2023-summer-a3",
+      "question": "4(a)(iii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "Structural Geology"
+      ],
+      "summary": "Describe one other fold characteristic of the Harrogate Anticline (open interlimb angle, upright/steep axial plane, NE-SW axial trace, asymmetric).",
+      "image": "img/2023-summer-a3/q4aiii.jpg",
+      "figures": [
+        "img/2023-summer-a3/map1.jpg",
+        "img/2023-summer-a3/fig-q4.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q4bi",
+      "paper": "2023-summer-a3",
+      "question": "4(b)(i)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Cross-Section Measurement"
+      ],
+      "summary": "Measure the vertical displacement (throw) along the Harrogate Fault using the geological section (~490 m).",
+      "image": "img/2023-summer-a3/q4bi.jpg",
+      "figures": [
+        "img/2023-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q4bi.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q4bii",
+      "paper": "2023-summer-a3",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "Structural Geology",
+        "Fault Analysis"
+      ],
+      "summary": "State the type of fault represented by the Harrogate Fault (reverse fault, hanging wall moved up due to compression).",
+      "image": "img/2023-summer-a3/q4bii.jpg",
+      "figures": [
+        "img/2023-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q4bii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q4c",
+      "paper": "2023-summer-a3",
+      "question": "4(c)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "Evaluation",
+        "Tectonic Synthesis"
+      ],
+      "summary": "Evaluate whether the Harrogate Fault and Anticline formed during the same period of deformation (parallel NE-SW compressional structures, fault cutting fold).",
+      "image": "img/2023-summer-a3/q4c.jpg",
+      "figures": [
+        "img/2023-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q4c.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q4d",
+      "paper": "2023-summer-a3",
+      "question": "4(d)",
+      "marks": 4,
+      "page": 14,
+      "topics": [
+        "T2.1",
+        "T1.3"
+      ],
+      "skills": [
+        "Hydrogeology",
+        "Structural Control"
+      ],
+      "summary": "Explain how geological structure (fold hinge tension joints, Harrogate Fault fracture permeability, aquifer recharge) controls mineral spring distribution.",
+      "image": "img/2023-summer-a3/q4d.jpg",
+      "figures": [
+        "img/2023-summer-a3/map1.jpg",
+        "img/2023-summer-a3/fig-q4.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q4d.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q5ai",
+      "paper": "2023-summer-a3",
+      "question": "5(a)(i)",
+      "marks": 2,
+      "page": 16,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Mathematical Calculation"
+      ],
+      "summary": "Calculate the percentages of Ca (30%), Mg (27%), and Na (43%) for Spring S from concentration data to two significant figures.",
+      "image": "img/2023-summer-a3/q5ai.jpg",
+      "figures": [
+        "img/2023-summer-a3/tab-q5.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q5ai.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q5aii",
+      "paper": "2023-summer-a3",
+      "question": "5(a)(ii)",
+      "marks": 1,
+      "page": 16,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Ternary Plotting"
+      ],
+      "summary": "Plot the percentage data for Spring T on the triangular graph in Figure 5.",
+      "image": "img/2023-summer-a3/q5aii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q5.jpg",
+        "img/2023-summer-a3/tab-q5.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q5aii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q5aiii",
+      "paper": "2023-summer-a3",
+      "question": "5(a)(iii)",
+      "marks": 1,
+      "page": 16,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Graphical Construction"
+      ],
+      "summary": "Draw a line across Figure 5 representing a Ca:Mg ion ratio of 1:1.",
+      "image": "img/2023-summer-a3/q5aiii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q5.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q5aiii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q5aiv",
+      "paper": "2023-summer-a3",
+      "question": "5(a)(iv)",
+      "marks": 2,
+      "page": 17,
+      "topics": [
+        "T2.1"
+      ],
+      "skills": [
+        "Data Analysis"
+      ],
+      "summary": "Describe the variation in the ratio of Ca to Mg ions in the sampled spring waters on Figure 5.",
+      "image": "img/2023-summer-a3/q5aiv.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q5.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q5aiv.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q5b",
+      "paper": "2023-summer-a3",
+      "question": "5(b)",
+      "marks": 3,
+      "page": 17,
+      "topics": [
+        "T2.1",
+        "T1.3"
+      ],
+      "skills": [
+        "Hydrogeology",
+        "Scientific Reasoning"
+      ],
+      "summary": "Suggest geological reasons for differences in spring water chemistry despite close proximity (differing aquifers, depths, residence times, water mixing).",
+      "image": "img/2023-summer-a3/q5b.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q4.jpg",
+        "img/2023-summer-a3/fig-q5.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q5b.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q6ai",
+      "paper": "2023-summer-a3",
+      "question": "6(a)(i)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "T2.1",
+        "T1.3"
+      ],
+      "skills": [
+        "Rose Diagram Interpretation"
+      ],
+      "summary": "Describe the pattern formed by the orientation of subsidence hollows on the rose diagram in Figure 6b (radial/all directions, dominant E-W and NNW-SSE).",
+      "image": "img/2023-summer-a3/q6ai.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q6ai.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q6aii",
+      "paper": "2023-summer-a3",
+      "question": "6(a)(ii)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "T2.1",
+        "T1.3"
+      ],
+      "skills": [
+        "Evaluation",
+        "Structural Geology"
+      ],
+      "summary": "Evaluate whether the pattern of subsidence hollows reflects the underlying joint pattern of Permian strata in Figure 6c.",
+      "image": "img/2023-summer-a3/q6aii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q6b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q6aii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q6b",
+      "paper": "2023-summer-a3",
+      "question": "6(b)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "T2.1",
+        "T1.3"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Geohazards"
+      ],
+      "summary": "Explain why subsidence in the Ripon area is confined to a 3 km wide zone and increases in depth eastward (gypsum dissolution, dip of evaporites, aquifer geometry).",
+      "image": "img/2023-summer-a3/q6b.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q6a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q6b.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q6c",
+      "paper": "2023-summer-a3",
+      "question": "6(c)",
+      "marks": 3,
+      "page": 20,
+      "topics": [
+        "T2.1",
+        "T1.3"
+      ],
+      "skills": [
+        "Map Application",
+        "Hazard Assessment"
+      ],
+      "summary": "Describe the extent of potential subsidence risk associated with Permian and Triassic strata in box A on the geological map.",
+      "image": "img/2023-summer-a3/q6c.jpg",
+      "figures": [
+        "img/2023-summer-a3/map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q6c.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q7ai",
+      "paper": "2023-summer-a3",
+      "question": "7(a)(i)",
+      "marks": 2,
+      "page": 22,
+      "topics": [
+        "2.1",
+        "T3.2"
+      ],
+      "skills": [
+        "Sedimentological Description"
+      ],
+      "summary": "Describe the texture of Unit A shown in Figure 7a (coarse, angular clasts, very poorly sorted, clast alignment).",
+      "image": "img/2023-summer-a3/q7ai.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q7a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q7ai.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q7aii",
+      "paper": "2023-summer-a3",
+      "question": "7(a)(ii)",
+      "marks": 3,
+      "page": 22,
+      "topics": [
+        "2.1",
+        "T3.2"
+      ],
+      "skills": [
+        "Evaluation",
+        "Palaeoenvironmental Interpretation"
+      ],
+      "summary": "Evaluate whether the texture of Unit A indicates a glacial deposit or periglacial scree/colluvial deposit.",
+      "image": "img/2023-summer-a3/q7aii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q7a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q7aii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q7b",
+      "paper": "2023-summer-a3",
+      "question": "7(b)",
+      "marks": 3,
+      "page": 23,
+      "topics": [
+        "2.1",
+        "T3.2"
+      ],
+      "skills": [
+        "Sedimentology",
+        "Fluvial Processes"
+      ],
+      "summary": "Suggest the environment of deposition of Unit B in Figure 7b (fluvioglacial/braided river, cross-bedding, rounded clasts, fining upwards).",
+      "image": "img/2023-summer-a3/q7b.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q7b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q7b.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q7c",
+      "paper": "2023-summer-a3",
+      "question": "7(c)",
+      "marks": 3,
+      "page": 23,
+      "topics": [
+        "3.2",
+        "T3.3"
+      ],
+      "skills": [
+        "Geochronology",
+        "Varve Analysis"
+      ],
+      "summary": "Evaluate whether the depositional duration of varve Unit C can be determined by counting annual graded couplets.",
+      "image": "img/2023-summer-a3/q7c.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q7b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q7c.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q8ai",
+      "paper": "2023-summer-a3",
+      "question": "8(a)(i)",
+      "marks": 2,
+      "page": 24,
+      "topics": [
+        "T3.1",
+        "T3.2"
+      ],
+      "skills": [
+        "Global Map Interpretation"
+      ],
+      "summary": "Describe the global distribution of areas undergoing crustal uplift greater than 8 mm/yr (high latitudes >50°N/S, North America, Scandinavia, Antarctica).",
+      "image": "img/2023-summer-a3/q8ai.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q8a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q8ai.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q8aii",
+      "paper": "2023-summer-a3",
+      "question": "8(a)(ii)",
+      "marks": 3,
+      "page": 25,
+      "topics": [
+        "T3.1",
+        "T3.2"
+      ],
+      "skills": [
+        "Geophysics",
+        "Isostasy"
+      ],
+      "summary": "Explain post-glacial isostatic rebound and mantle flow causing crustal uplift following ice sheet deglaciation.",
+      "image": "img/2023-summer-a3/q8aii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q8a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q8aii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q8bi",
+      "paper": "2023-summer-a3",
+      "question": "8(b)(i)",
+      "marks": 2,
+      "page": 25,
+      "topics": [
+        "T3.1",
+        "T3.2"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Gradient"
+      ],
+      "summary": "Calculate the change in rate of crustal uplift per km from location A to 2000 km (-4.4 x 10^-3 mm yr^-1 km^-1).",
+      "image": "img/2023-summer-a3/q8bi.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q8a.jpg",
+        "img/2023-summer-a3/fig-q8b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q8bi.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q8bii",
+      "paper": "2023-summer-a3",
+      "question": "8(b)(ii)",
+      "marks": 3,
+      "page": 26,
+      "topics": [
+        "T3.1",
+        "T3.2"
+      ],
+      "skills": [
+        "Geophysics",
+        "Forebulge Collapse"
+      ],
+      "summary": "Explain why areas beyond 2000 km from the ice centre experience crustal subsidence (collapsing glacial forebulge, mantle return flow).",
+      "image": "img/2023-summer-a3/q8bii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q8b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q8bii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q8c",
+      "paper": "2023-summer-a3",
+      "question": "8(c)",
+      "marks": 3,
+      "page": 26,
+      "topics": [
+        "3.2",
+        "T3.2"
+      ],
+      "skills": [
+        "Geological Methods",
+        "Field Evidence"
+      ],
+      "summary": "Suggest geological evidence used to measure crustal uplift rates (radiocarbon-dated raised beaches, GPS geodetic monitoring, satellite interferometry).",
+      "image": "img/2023-summer-a3/q8c.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a3/ms-q8c.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q9",
+      "paper": "2023-summer-a3",
+      "question": "9",
+      "marks": 6,
+      "page": 27,
+      "topics": [
+        "T3.3"
+      ],
+      "skills": [
+        "Scientific Synthesis",
+        "Extended Response",
+        "QER"
+      ],
+      "summary": "Explain how oxygen isotope ratios (18O/16O) and greenhouse gas trapped in Antarctic ice cores provide evidence for Milankovitch orbital cycles.",
+      "image": "img/2023-summer-a3/q9.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a3/ms-q9.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q10a",
+      "paper": "2023-summer-a3",
+      "question": "10(a)",
+      "marks": 2,
+      "page": 28,
+      "topics": [
+        "G4.3",
+        "T4.1"
+      ],
+      "skills": [
+        "Geophysical Interpretation"
+      ],
+      "summary": "Describe the size and shape of the 25 mGal Bouguer gravity anomaly on the Isle of Skye (circular/oval, ~27 km diameter).",
+      "image": "img/2023-summer-a3/q10a.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q10a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q10a.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q10b",
+      "paper": "2023-summer-a3",
+      "question": "10(b)",
+      "marks": 2,
+      "page": 29,
+      "topics": [
+        "G4.3",
+        "T4.1"
+      ],
+      "skills": [
+        "Geophysics",
+        "Density Contrast"
+      ],
+      "summary": "Explain why there is a prominent positive gravity anomaly on the Isle of Skye (dense Palaeogene gabbroic pluton/magma chamber).",
+      "image": "img/2023-summer-a3/q10b.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q10a.jpg",
+        "img/2023-summer-a3/fig-q10b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q10b.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q10ci",
+      "paper": "2023-summer-a3",
+      "question": "10(c)(i)",
+      "marks": 2,
+      "page": 30,
+      "topics": [
+        "G4.3"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Gravity Gradient"
+      ],
+      "summary": "Calculate the horizontal gradient of the Bouguer gravity anomaly between 10 and 15 km from location X (4.6 mGal/km).",
+      "image": "img/2023-summer-a3/q10ci.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q10b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q10ci.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q10cii",
+      "paper": "2023-summer-a3",
+      "question": "10(c)(ii)",
+      "marks": 3,
+      "page": 30,
+      "topics": [
+        "G4.3",
+        "T4.1"
+      ],
+      "skills": [
+        "Geophysical Interpretation"
+      ],
+      "summary": "Explain why the gravity anomaly gradient decreases between 20 and 25 km from X (presence of lower-density Palaeogene granite).",
+      "image": "img/2023-summer-a3/q10cii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q10b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q10cii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q10d",
+      "paper": "2023-summer-a3",
+      "question": "10(d)",
+      "marks": 3,
+      "page": 30,
+      "topics": [
+        "2.2",
+        "T4.1"
+      ],
+      "skills": [
+        "Evaluation",
+        "British Tectonic Evolution"
+      ],
+      "summary": "Evaluate a student suggestion that Skye igneous rocks were intruded during the Variscan orogeny (incorrect, Palaeogene North Atlantic opening).",
+      "image": "img/2023-summer-a3/q10d.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q10a.jpg",
+        "img/2023-summer-a3/fig-q10b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q10d.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q11ai",
+      "paper": "2023-summer-a3",
+      "question": "11(a)(i)",
+      "marks": 2,
+      "page": 31,
+      "topics": [
+        "2.3",
+        "T4.1"
+      ],
+      "skills": [
+        "Cross-Section Interpretation"
+      ],
+      "summary": "State the type of fault east of the Mochras Borehole (normal fault dipping east with hanging wall downthrown).",
+      "image": "img/2023-summer-a3/q11ai.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q11ai.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q11aii",
+      "paper": "2023-summer-a3",
+      "question": "11(a)(ii)",
+      "marks": 1,
+      "page": 31,
+      "topics": [
+        "2.3",
+        "T4.1"
+      ],
+      "skills": [
+        "Structural Geology"
+      ],
+      "summary": "Explain why the exact throw of the Mochras Fault cannot be determined from Figure 11a (no matching marker bed preserved on footwall).",
+      "image": "img/2023-summer-a3/q11aii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q11aii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q11aiii",
+      "paper": "2023-summer-a3",
+      "question": "11(a)(iii)",
+      "marks": 2,
+      "page": 31,
+      "topics": [
+        "2.3",
+        "T4.1"
+      ],
+      "skills": [
+        "Structural Geology",
+        "Fault History"
+      ],
+      "summary": "State evidence that the Mochras Fault has moved repeatedly (huge 3000 m throw, varying thickness and dips of Mesozoic and Cenozoic strata).",
+      "image": "img/2023-summer-a3/q11aiii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q11a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q11aiii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q11b",
+      "paper": "2023-summer-a3",
+      "question": "11(b)",
+      "marks": 2,
+      "page": 33,
+      "topics": [
+        "T4.1"
+      ],
+      "skills": [
+        "Geological Methods"
+      ],
+      "summary": "Explain why deep boreholes like Mochras are used to investigate British geological history (unexposed subsurface strata, complete sequences).",
+      "image": "img/2023-summer-a3/q11b.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q11a.jpg",
+        "img/2023-summer-a3/fig-q11b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q11b.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q11c",
+      "paper": "2023-summer-a3",
+      "question": "11(c)",
+      "marks": 2,
+      "page": 33,
+      "topics": [
+        "3.1",
+        "T4.1"
+      ],
+      "skills": [
+        "Biostratigraphy"
+      ],
+      "summary": "Explain why ammonites are ideal index fossils for correlating Lower Jurassic marine successions across the British Isles.",
+      "image": "img/2023-summer-a3/q11c.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q11b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q11c.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q11d",
+      "paper": "2023-summer-a3",
+      "question": "11(d)",
+      "marks": 3,
+      "page": 33,
+      "topics": [
+        "2.1",
+        "T4.1"
+      ],
+      "skills": [
+        "Basin Analysis",
+        "Tectonics & Sedimentation"
+      ],
+      "summary": "Explain why the Mochras Borehole preserves a thicker, more complete Lower Jurassic succession than other UK boreholes (syndepositional fault subsidence).",
+      "image": "img/2023-summer-a3/q11d.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q11a.jpg",
+        "img/2023-summer-a3/fig-q11b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q11d.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q12",
+      "paper": "2023-summer-a3",
+      "question": "12",
+      "marks": 6,
+      "page": 34,
+      "topics": [
+        "4.2",
+        "T4.2"
+      ],
+      "skills": [
+        "Scientific Synthesis",
+        "Extended Response",
+        "QER"
+      ],
+      "summary": "Explain how palaeomagnetic inclination data and polar wander curves support sedimentary evidence for Britain's northward drift during the Phanerozoic.",
+      "image": "img/2023-summer-a3/q12.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a3/ms-q12.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q13ai",
+      "paper": "2023-summer-a3",
+      "question": "13(a)(i)",
+      "marks": 1,
+      "page": 36,
+      "topics": [
+        "4.2",
+        "T5.2"
+      ],
+      "skills": [
+        "Data Reading"
+      ],
+      "summary": "State the distance from the Pacific ridge at which the 2 Ma geomagnetic polarity reversal boundary is located (~90 km).",
+      "image": "img/2023-summer-a3/q13ai.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q13a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q13ai.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q13aii",
+      "paper": "2023-summer-a3",
+      "question": "13(a)(ii)",
+      "marks": 2,
+      "page": 36,
+      "topics": [
+        "4.2",
+        "T5.2"
+      ],
+      "skills": [
+        "Mathematical Calculation",
+        "Spreading Rate"
+      ],
+      "summary": "Calculate the seafloor spreading rate of the South Pacific Ocean from magnetic anomaly distance and age (~4.5 cm/yr).",
+      "image": "img/2023-summer-a3/q13aii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q13a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q13aii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q13bi",
+      "paper": "2023-summer-a3",
+      "question": "13(b)(i)",
+      "marks": 3,
+      "page": 36,
+      "topics": [
+        "4.2",
+        "T5.2"
+      ],
+      "skills": [
+        "Geophysics",
+        "Palaeomagnetism"
+      ],
+      "summary": "Explain how radiometric dating of continental lava reversals calibrates marine magnetic anomaly stripes to calculate seafloor spreading rates.",
+      "image": "img/2023-summer-a3/q13bi.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q13a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q13bi.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q13bii",
+      "paper": "2023-summer-a3",
+      "question": "13(b)(ii)",
+      "marks": 2,
+      "page": 37,
+      "topics": [
+        "4.2",
+        "T5.2"
+      ],
+      "skills": [
+        "Geochronology",
+        "Alternative Methods"
+      ],
+      "summary": "Briefly explain one other method used to calculate ocean spreading rates (hotspot volcanic island chains, ocean floor drilling, GPS geodetic baseline).",
+      "image": "img/2023-summer-a3/q13bii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q13a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q13bii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q13c",
+      "paper": "2023-summer-a3",
+      "question": "13(c)",
+      "marks": 4,
+      "page": 37,
+      "topics": [
+        "4.2",
+        "T5.1"
+      ],
+      "skills": [
+        "Wilson Cycle",
+        "Global Tectonics"
+      ],
+      "summary": "Evaluate whether the Pacific or Atlantic Ocean shows a more advanced stage in the Wilson cycle of ocean basin evolution (Pacific, subduction trenches, shrinking).",
+      "image": "img/2023-summer-a3/q13c.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q13a.jpg",
+        "img/2023-summer-a3/fig-q13b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q13c.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q14ai",
+      "paper": "2023-summer-a3",
+      "question": "14(a)(i)",
+      "marks": 2,
+      "page": 39,
+      "topics": [
+        "4.1",
+        "T5.3"
+      ],
+      "skills": [
+        "Stress-Strain Analysis"
+      ],
+      "summary": "Describe the difference in deformation behaviour of sandstone cores compressed at 650°C (brittle failure) versus 850°C (ductile flow).",
+      "image": "img/2023-summer-a3/q14ai.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q14a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q14ai.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q14aii",
+      "paper": "2023-summer-a3",
+      "question": "14(a)(ii)",
+      "marks": 2,
+      "page": 39,
+      "topics": [
+        "4.1",
+        "T5.3"
+      ],
+      "skills": [
+        "Graphical Prediction",
+        "Rock Mechanics"
+      ],
+      "summary": "Sketch the predicted stress-strain curve for sandstone deformed at 850°C with confining pressure increased to 500 MPa.",
+      "image": "img/2023-summer-a3/q14aii.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q14a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q14aii.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q14b",
+      "paper": "2023-summer-a3",
+      "question": "14(b)",
+      "marks": 3,
+      "page": 41,
+      "topics": [
+        "2.3",
+        "T5.3"
+      ],
+      "skills": [
+        "Field Photograph Evaluation"
+      ],
+      "summary": "Evaluate whether the field photograph in Figure 14c was taken at location A in Pembrokeshire looking west (inconsistent scale and fault dip direction).",
+      "image": "img/2023-summer-a3/q14b.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q14a.jpg",
+        "img/2023-summer-a3/fig-q14b.jpg",
+        "img/2023-summer-a3/fig-q14c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q14b.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q14c",
+      "paper": "2023-summer-a3",
+      "question": "14(c)",
+      "marks": 2,
+      "page": 41,
+      "topics": [
+        "2.3",
+        "4.1"
+      ],
+      "skills": [
+        "Stress Analysis",
+        "Plate Boundaries"
+      ],
+      "summary": "Explain why the fold and thrust structures in Figure 14c indicate a convergent compressive regime rather than a divergent boundary.",
+      "image": "img/2023-summer-a3/q14c.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q14b.jpg",
+        "img/2023-summer-a3/fig-q14c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q14c.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q14d",
+      "paper": "2023-summer-a3",
+      "question": "14(d)",
+      "marks": 3,
+      "page": 41,
+      "topics": [
+        "2.3",
+        "4.1",
+        "T5.3"
+      ],
+      "skills": [
+        "Orogeny",
+        "Rheology"
+      ],
+      "summary": "Explain how experimental rock mechanics explains ductile folding during deep burial followed by brittle thrusting during orogenic uplift.",
+      "image": "img/2023-summer-a3/q14d.jpg",
+      "figures": [
+        "img/2023-summer-a3/fig-q14a.jpg",
+        "img/2023-summer-a3/fig-q14c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a3/ms-q14d.jpg"
+    },
+    {
+      "id": "2023-summer-a3-q15",
+      "paper": "2023-summer-a3",
+      "question": "15",
+      "marks": 6,
+      "page": 42,
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "Scientific Synthesis",
+        "Extended Response",
+        "QER"
+      ],
+      "summary": "Explain seismic evidence (velocity variations, P- and S-wave refraction, Low Velocity Zone) distinguishing the rigid lithosphere from the ductile asthenosphere.",
+      "image": "img/2023-summer-a3/q15.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a3/ms-q15.jpg"
     }
   ],
   "levels": [
