@@ -1147,6 +1147,30 @@
       "spec": "legacy",
       "totalMarks": 25,
       "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2015-summer-gl1",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-05-11",
+      "code": "1211/01",
+      "unit": "GL1: Foundation Unit",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour"
+    },
+    {
+      "id": "2015-summer-gl3",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-05-19",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
     }
   ],
   "questions": [
@@ -37675,6 +37699,839 @@
         "img/2016-summer-gl3/fig-q2b.jpg"
       ],
       "markscheme": "img/2016-summer-gl3/ms-q2ciii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q1ai",
+      "paper": "2015-summer-gl1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Igneous Petrology",
+        "Crystal Size",
+        "Chilled Margins"
+      ],
+      "skills": [
+        "Graph Plotting",
+        "Data Representation"
+      ],
+      "summary": "Complete the graph in Figure 1c by plotting crystal size against distance from A and drawing a curved line.",
+      "image": "img/2015-summer-gl1/q1ai.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q1a.jpg",
+        "img/2015-summer-gl1/tab-q1b.jpg",
+        "img/2015-summer-gl1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q1aii",
+      "paper": "2015-summer-gl1",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Igneous Petrology",
+        "Cooling Rates",
+        "Chilled Margins"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Causal Reasoning"
+      ],
+      "summary": "Explain the variation in crystal size between locations A and B in Figure 1a.",
+      "image": "img/2015-summer-gl1/q1aii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q1a.jpg",
+        "img/2015-summer-gl1/fig-q1c.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q1bi",
+      "paper": "2015-summer-gl1",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Mineralogy",
+        "Mineral Identification",
+        "Pyroxenes"
+      ],
+      "skills": [
+        "Mineral Identification",
+        "Data Sheet Use"
+      ],
+      "summary": "Identify mineral F from the specimen in Figure 1d using the Mineral Data Sheet.",
+      "image": "img/2015-summer-gl1/q1bi.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q1bii",
+      "paper": "2015-summer-gl1",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Igneous Petrology",
+        "Rock Classification",
+        "Igneous Textures"
+      ],
+      "skills": [
+        "Textural Classification"
+      ],
+      "summary": "Select three terms that best describe the igneous rock shown in Figure 1d.",
+      "image": "img/2015-summer-gl1/q1bii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q1biii",
+      "paper": "2015-summer-gl1",
+      "question": "1(b)(iii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "Igneous Petrology",
+        "Gabbro",
+        "Mafic Rocks"
+      ],
+      "skills": [
+        "Rock Identification"
+      ],
+      "summary": "Name the igneous rock shown in Figure 1d.",
+      "image": "img/2015-summer-gl1/q1biii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q1biii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q1ci",
+      "paper": "2015-summer-gl1",
+      "question": "1(c)(i)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "Metamorphic Petrology",
+        "Metaquartzite",
+        "Granoblastic Texture"
+      ],
+      "skills": [
+        "Texture Drawing",
+        "Scale Application"
+      ],
+      "summary": "Complete Figure 1e to show the texture of a sample of metaquartzite with a mean crystal size of 1.5mm.",
+      "image": "img/2015-summer-gl1/q1ci.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q1cii",
+      "paper": "2015-summer-gl1",
+      "question": "1(c)(ii)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "Contact Metamorphism",
+        "Thermal Aureoles",
+        "Quartzite"
+      ],
+      "skills": [
+        "Comparative Analysis",
+        "Petrological Reasoning"
+      ],
+      "summary": "Compare the mineral composition and texture of the rocks at locations C and D in Figure 1a.",
+      "image": "img/2015-summer-gl1/q1cii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q2ai",
+      "paper": "2015-summer-gl1",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "Graptolites",
+        "Palaeontology",
+        "Morphology"
+      ],
+      "skills": [
+        "Anatomical Labelling"
+      ],
+      "summary": "Name morphological features P and Q of graptolite B.",
+      "image": "img/2015-summer-gl1/q2ai.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q2ai.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q2aii",
+      "paper": "2015-summer-gl1",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "Graptolites",
+        "Palaeontology",
+        "Morphology"
+      ],
+      "skills": [
+        "Comparative Analysis"
+      ],
+      "summary": "Describe two differences in the morphological features of graptolites A and C.",
+      "image": "img/2015-summer-gl1/q2aii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q2aii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q2bi",
+      "paper": "2015-summer-gl1",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "Fossil Preservation",
+        "Pyritisation",
+        "Mineralogy"
+      ],
+      "skills": [
+        "Mineral Identification"
+      ],
+      "summary": "Identify the brass yellow metallic mineral replacing the graptolites in Figure 2.",
+      "image": "img/2015-summer-gl1/q2bi.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q2bi.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q2bii",
+      "paper": "2015-summer-gl1",
+      "question": "2(b)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Fossil Preservation",
+        "Taphonomy",
+        "Moulds and Casts"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Describe the geological processes leading to cast preservation in the graptolite fossils.",
+      "image": "img/2015-summer-gl1/q2bii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q2bii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q2biii",
+      "paper": "2015-summer-gl1",
+      "question": "2(b)(iii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Zone Fossils",
+        "Biostratigraphy",
+        "Graptolites"
+      ],
+      "skills": [
+        "Scientific Evaluation"
+      ],
+      "summary": "Describe three factors that enable graptolites to be useful as zone fossils in relative dating.",
+      "image": "img/2015-summer-gl1/q2biii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q2biii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q2c",
+      "paper": "2015-summer-gl1",
+      "question": "2(c)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "Way-Up Criteria",
+        "Overturned Strata",
+        "Sedimentary Structures"
+      ],
+      "skills": [
+        "Structural Reasoning",
+        "Evidence Synthesis"
+      ],
+      "summary": "Explain the reasons that support the statement that strata in Figure 2 are overturned.",
+      "image": "img/2015-summer-gl1/q2c.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q2c.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q3ai",
+      "paper": "2015-summer-gl1",
+      "question": "3(a)(i)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "Plate Tectonics",
+        "Plate Margins",
+        "Mid-Ocean Ridges"
+      ],
+      "skills": [
+        "Classification"
+      ],
+      "summary": "Name the type of plate margin shown in Figure 3a.",
+      "image": "img/2015-summer-gl1/q3ai.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q3ai.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q3aii",
+      "paper": "2015-summer-gl1",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Magnetic Anomalies",
+        "Palaeomagnetism",
+        "Mid-Ocean Ridges"
+      ],
+      "skills": [
+        "Pattern Recognition",
+        "Description"
+      ],
+      "summary": "Describe the pattern shown by the magnetic reversals in Figure 3a.",
+      "image": "img/2015-summer-gl1/q3aii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q3aii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q3aiii",
+      "paper": "2015-summer-gl1",
+      "question": "3(a)(iii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "Remanent Magnetism",
+        "Curie Point",
+        "Oceanic Crust"
+      ],
+      "skills": [
+        "Process Explanation"
+      ],
+      "summary": "Explain how a record of Earth's magnetic field is preserved in igneous rocks of the ocean floor.",
+      "image": "img/2015-summer-gl1/q3aiii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q3a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q3aiii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q3aiv",
+      "paper": "2015-summer-gl1",
+      "question": "3(a)(iv)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "Seafloor Spreading",
+        "Oceanic Crust Age",
+        "Plate Tectonics"
+      ],
+      "skills": [
+        "Scientific Explanation"
+      ],
+      "summary": "Explain the age distribution of the rocks of the oceanic crust shown in Figure 3b.",
+      "image": "img/2015-summer-gl1/q3aiv.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q3aiv.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q3bi",
+      "paper": "2015-summer-gl1",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "Geomagnetic Reversals",
+        "Brunhes Epoch",
+        "Geological Time"
+      ],
+      "skills": [
+        "Data Reading"
+      ],
+      "summary": "State how long the current period of normal polarity has lasted with reference to Figure 3c.",
+      "image": "img/2015-summer-gl1/q3bi.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q3c.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q3bi.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q3bii",
+      "paper": "2015-summer-gl1",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "Geomagnetic Reversals",
+        "Rate Calculation",
+        "Palaeomagnetism"
+      ],
+      "skills": [
+        "Data Extraction",
+        "Mathematical Calculation"
+      ],
+      "summary": "State the number of reversals in the last 2 million years and calculate the mean time between reversals.",
+      "image": "img/2015-summer-gl1/q3bii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q3c.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q3bii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q3biii",
+      "paper": "2015-summer-gl1",
+      "question": "3(b)(iii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "Transform Faults",
+        "Seafloor Spreading",
+        "Oceanic Crust"
+      ],
+      "skills": [
+        "Scientific Reasoning",
+        "Critical Comparison"
+      ],
+      "summary": "Suggest two reasons why the actual pattern of magnetic reversals is more complex than the simplified model.",
+      "image": "img/2015-summer-gl1/q3biii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q3a.jpg",
+        "img/2015-summer-gl1/fig-q3b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q3biii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q4ai",
+      "paper": "2015-summer-gl1",
+      "question": "4(a)(i)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "Folds",
+        "Structural Geology",
+        "Overturned Folds"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Fold Classification"
+      ],
+      "summary": "State which two statements about the fold shown in Figure 4 are correct.",
+      "image": "img/2015-summer-gl1/q4ai.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q4ai.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q4aii",
+      "paper": "2015-summer-gl1",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "Axial Plane Trace",
+        "Structural Geology",
+        "Geological Maps"
+      ],
+      "skills": [
+        "Map Drawing",
+        "Structural Geology"
+      ],
+      "summary": "Draw in the axial plane trace of the fold to the east of fault F1 on Figure 4.",
+      "image": "img/2015-summer-gl1/q4aii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q4aii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q4bi",
+      "paper": "2015-summer-gl1",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Faults",
+        "Downthrow",
+        "Geological Maps"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Structural Evidence"
+      ],
+      "summary": "State the evidence from Figure 4 for fault F1 being downthrown to the east.",
+      "image": "img/2015-summer-gl1/q4bi.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q4bi.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q4bii",
+      "paper": "2015-summer-gl1",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Thrust Faults",
+        "Fault Classification",
+        "Compressive Stress"
+      ],
+      "skills": [
+        "Structural Evidence",
+        "Classification"
+      ],
+      "summary": "State the evidence from Figure 4 that fault F1 is a thrust fault.",
+      "image": "img/2015-summer-gl1/q4bii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q4bii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q4ci",
+      "paper": "2015-summer-gl1",
+      "question": "4(c)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Strike-Slip Faults",
+        "Fault Movement",
+        "Structural Geology"
+      ],
+      "skills": [
+        "Structural Evidence",
+        "Deductive Reasoning"
+      ],
+      "summary": "Describe one piece of evidence from Figure 4 to support that fault F2 shows only strike-slip movement.",
+      "image": "img/2015-summer-gl1/q4ci.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q4ci.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q4cii",
+      "paper": "2015-summer-gl1",
+      "question": "4(c)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "Strike-Slip Faults",
+        "Displacement Measurement",
+        "Dextral Faults"
+      ],
+      "skills": [
+        "Map Measurement",
+        "Kinematic Analysis"
+      ],
+      "summary": "Measure the horizontal displacement along fault F2 in metres and state movement direction.",
+      "image": "img/2015-summer-gl1/q4cii.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q4cii.jpg"
+    },
+    {
+      "id": "2015-summer-gl1-q4d",
+      "paper": "2015-summer-gl1",
+      "question": "4(d)",
+      "marks": 4,
+      "page": 11,
+      "topics": [
+        "Cross-Cutting Relationships",
+        "Structural Evolution",
+        "Tectonics"
+      ],
+      "skills": [
+        "Critical Evaluation",
+        "Relative Dating"
+      ],
+      "summary": "Evaluate student conclusions regarding the timing and formation of the fold, fault F1, and fault F2.",
+      "image": "img/2015-summer-gl1/q4d.jpg",
+      "figures": [
+        "img/2015-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl1/ms-q4d.jpg"
+    },
+    {
+      "id": "2015-summer-gl3-q1a",
+      "paper": "2015-summer-gl3",
+      "question": "1(a)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Subduction Zones",
+        "Plate Tectonics",
+        "Volcanic Arcs",
+        "Ocean Trenches"
+      ],
+      "skills": [
+        "Map Interpretation",
+        "Geotectonic Evidence"
+      ],
+      "summary": "State two pieces of evidence from Figure 1a suggesting a subduction zone exists beneath Indonesia.",
+      "image": "img/2015-summer-gl3/q1a.jpg",
+      "figures": [
+        "img/2015-summer-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl3/ms-q1a.jpg"
+    },
+    {
+      "id": "2015-summer-gl3-q1bi",
+      "paper": "2015-summer-gl3",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Tsunami Hazards",
+        "Wave Speed",
+        "Geological Hazards"
+      ],
+      "skills": [
+        "Speed Calculation",
+        "Map Reading"
+      ],
+      "summary": "Calculate the speed of the 2004 tsunami waves reaching the eastern coast of Sri Lanka in km hr-1.",
+      "image": "img/2015-summer-gl3/q1bi.jpg",
+      "figures": [
+        "img/2015-summer-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl3/ms-q1bi.jpg"
+    },
+    {
+      "id": "2015-summer-gl3-q1bii",
+      "paper": "2015-summer-gl3",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Tsunami Shoaling",
+        "Wave Mechanics",
+        "Coastal Hazards"
+      ],
+      "skills": [
+        "Process Explanation",
+        "Physical Geology"
+      ],
+      "summary": "Explain how tsunami waves only 30cm high in deep water become so destructive at the coastline.",
+      "image": "img/2015-summer-gl3/q1bii.jpg",
+      "figures": [
+        "img/2015-summer-gl3/fig-q1a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl3/ms-q1bii.jpg"
+    },
+    {
+      "id": "2015-summer-gl3-q1ci",
+      "paper": "2015-summer-gl3",
+      "question": "1(c)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "Fault Classification",
+        "Thrust Faults",
+        "Strike-Slip Faults"
+      ],
+      "skills": [
+        "Structural Classification",
+        "Diagram Interpretation"
+      ],
+      "summary": "State the types of fault represented by fault A and fault B in Figure 1b.",
+      "image": "img/2015-summer-gl3/q1ci.jpg",
+      "figures": [
+        "img/2015-summer-gl3/fig-q1b.jpg",
+        "img/2015-summer-gl3/tab-q1.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl3/ms-q1ci.jpg"
+    },
+    {
+      "id": "2015-summer-gl3-q1cii",
+      "paper": "2015-summer-gl3",
+      "question": "1(c)(ii)",
+      "marks": 3,
+      "page": 3,
+      "topics": [
+        "Tsunami Generation",
+        "Fault Kinematics",
+        "Earthquake Hazards"
+      ],
+      "skills": [
+        "Causal Reasoning",
+        "Comparative Analysis"
+      ],
+      "summary": "Explain why movement along strike-slip fault B in 2012 failed to generate a life-threatening tsunami.",
+      "image": "img/2015-summer-gl3/q1cii.jpg",
+      "figures": [
+        "img/2015-summer-gl3/fig-q1b.jpg",
+        "img/2015-summer-gl3/tab-q1.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl3/ms-q1cii.jpg"
+    },
+    {
+      "id": "2015-summer-gl3-q2ai",
+      "paper": "2015-summer-gl3",
+      "question": "2(a)(i)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Hydrogeology",
+        "Water Table Contours",
+        "Groundwater Flow"
+      ],
+      "skills": [
+        "Map Reading",
+        "Flow Direction"
+      ],
+      "summary": "State the height of the groundwater surface and direction of shallow groundwater flow at location X.",
+      "image": "img/2015-summer-gl3/q2ai.jpg",
+      "figures": [
+        "img/2015-summer-gl3/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl3/ms-q2ai.jpg"
+    },
+    {
+      "id": "2015-summer-gl3-q2aii",
+      "paper": "2015-summer-gl3",
+      "question": "2(a)(ii)",
+      "marks": 1,
+      "page": 5,
+      "topics": [
+        "Hydrogeology",
+        "Water Table",
+        "Cross-Sections"
+      ],
+      "skills": [
+        "Cross-Section Drawing"
+      ],
+      "summary": "Mark in the top of the groundwater surface along line of section X-Y on Figure 2b.",
+      "image": "img/2015-summer-gl3/q2aii.jpg",
+      "figures": [
+        "img/2015-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl3/ms-q2aii.jpg"
+    },
+    {
+      "id": "2015-summer-gl3-q2bi",
+      "paper": "2015-summer-gl3",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Contaminant Plumes",
+        "Hydrogeology",
+        "Isolines"
+      ],
+      "skills": [
+        "Contour Drawing",
+        "Plume Mapping"
+      ],
+      "summary": "Draw an isoline on Figure 2a to show where groundwater contamination of plume A is 10 mg l-1.",
+      "image": "img/2015-summer-gl3/q2bi.jpg",
+      "figures": [
+        "img/2015-summer-gl3/fig-q2a.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl3/ms-q2bi.jpg"
+    },
+    {
+      "id": "2015-summer-gl3-q2bii",
+      "paper": "2015-summer-gl3",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "Fault Mapping",
+        "Structural Geology",
+        "Hydrogeology"
+      ],
+      "skills": [
+        "Geological Mapping",
+        "Data Synthesis"
+      ],
+      "summary": "Mark on Figure 2a the probable outcrop of the fault which crosses the map using data from Figures 2a and 2b.",
+      "image": "img/2015-summer-gl3/q2bii.jpg",
+      "figures": [
+        "img/2015-summer-gl3/fig-q2a.jpg",
+        "img/2015-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl3/ms-q2bii.jpg"
+    },
+    {
+      "id": "2015-summer-gl3-q2biii",
+      "paper": "2015-summer-gl3",
+      "question": "2(b)(iii)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Hydrogeology",
+        "Contaminant Migration",
+        "Permeability Contrasts"
+      ],
+      "skills": [
+        "Scientific Explanation",
+        "Geological Controls"
+      ],
+      "summary": "Explain how structure and rock type have influenced the shape and extent of the pollution plumes.",
+      "image": "img/2015-summer-gl3/q2biii.jpg",
+      "figures": [
+        "img/2015-summer-gl3/fig-q2a.jpg",
+        "img/2015-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl3/ms-q2biii.jpg"
+    },
+    {
+      "id": "2015-summer-gl3-q2c",
+      "paper": "2015-summer-gl3",
+      "question": "2(c)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "Acid Mine Drainage",
+        "Pyrite Oxidation",
+        "Groundwater Pollution"
+      ],
+      "skills": [
+        "Chemical Geology",
+        "Environmental Impact"
+      ],
+      "summary": "Explain why groundwater from abandoned mines is often polluted.",
+      "image": "img/2015-summer-gl3/q2c.jpg",
+      "figures": [
+        "img/2015-summer-gl3/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2015-summer-gl3/ms-q2c.jpg"
     }
   ],
   "levels": [
