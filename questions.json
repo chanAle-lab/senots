@@ -177,112 +177,16 @@
   ],
   "papers": [
     {
-      "id": "2012-summer-gl1",
-      "year": 2012,
+      "id": "2025-summer-c2",
+      "year": 2025,
       "series": "Summer",
-      "date": "2012-05-18",
-      "code": "1211/01",
-      "unit": "GL1 Foundation Unit",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "1 hour",
-      "level": "AS"
-    },
-    {
-      "id": "2012-summer-gl4",
-      "year": 2012,
-      "series": "Summer",
-      "date": "2012-06-12",
-      "code": "1214/01",
-      "unit": "GL4 Interpreting the Geological Record",
-      "spec": "legacy",
-      "totalMarks": 100,
-      "duration": "2 hours",
-      "level": "A"
-    },
-    {
-      "id": "2016-summer-gl1",
-      "year": 2016,
-      "series": "Summer",
-      "date": "2016-05-16",
-      "code": "1211/01",
-      "unit": "GL1 Foundation Unit",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "1 hour",
-      "level": "AS"
-    },
-    {
-      "id": "2017-summer-gl1",
-      "year": 2017,
-      "series": "Summer",
-      "date": "2017-05-15",
-      "code": "1211/01",
-      "unit": "GL1 Foundation Unit",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "1 hour",
-      "level": "AS"
-    },
-    {
-      "id": "2018-summer-gl1",
-      "year": 2018,
-      "series": "Summer",
-      "date": "2018-05-14",
-      "code": "1211/01",
-      "unit": "GL1 Foundation Unit",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "1 hour",
-      "level": "AS"
-    },
-    {
-      "id": "2019-summer-gl1",
-      "year": 2019,
-      "series": "Summer",
-      "date": "2019-05-13",
-      "code": "1211/01",
-      "unit": "GL1 Foundation Unit",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "1 hour",
-      "level": "AS"
-    },
-    {
-      "id": "2022-summer-c1",
-      "year": 2022,
-      "series": "Summer",
-      "date": "2022-05-16",
-      "code": "B480U10-1",
-      "unit": "AS Component 1: Geological Enquiries",
-      "spec": "current",
-      "totalMarks": 60,
-      "duration": "1 hour 30 minutes",
-      "level": "AS"
-    },
-    {
-      "id": "2023-summer-c1",
-      "year": 2023,
-      "series": "Summer",
-      "date": "2023-05-15",
-      "code": "B480U10-1",
-      "unit": "AS Component 1: Geological Enquiries",
-      "spec": "current",
-      "totalMarks": 60,
-      "duration": "1 hour 30 minutes",
-      "level": "AS"
-    },
-    {
-      "id": "2024-summer-c1",
-      "year": 2024,
-      "series": "Summer",
-      "date": "2024-05-13",
-      "code": "B480U10-1",
-      "unit": "AS Component 1: Geological Enquiries",
-      "spec": "current",
-      "totalMarks": 60,
-      "duration": "1 hour 30 minutes",
-      "level": "AS"
+      "date": "2025-05-19",
+      "code": "B480U20-1",
+      "unit": "AS Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "Foundation Geology",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
     },
     {
       "id": "2025-summer-c1",
@@ -297,208 +201,16 @@
       "level": "AS"
     },
     {
-      "id": "2020-autumn-a1",
-      "year": 2020,
-      "series": "Autumn",
-      "date": "2020-10-06",
-      "code": "A480U10-1",
-      "unit": "A level Component 1: Geological Investigations",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 105,
-      "duration": "2 hours 15 minutes"
-    },
-    {
-      "id": "2021-autumn-a1",
-      "year": 2021,
-      "series": "Autumn",
-      "date": "2021-10-05",
-      "code": "A480U10-1",
-      "unit": "A level Component 1: Geological Investigations",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 105,
-      "duration": "2 hours 15 minutes"
-    },
-    {
-      "id": "2022-summer-a1",
-      "year": 2022,
-      "series": "Summer",
-      "date": "2022-06-06",
-      "code": "A480U10-1",
-      "unit": "A level Component 1: Geological Investigations",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 105,
-      "duration": "2 hours 15 minutes"
-    },
-    {
-      "id": "2024-summer-a1",
-      "year": 2024,
-      "series": "Summer",
-      "date": "2024-06-04",
-      "code": "A480U10-1",
-      "unit": "A level Component 1: Geological Investigations",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 105,
-      "duration": "2 hours 15 minutes"
-    },
-    {
-      "id": "2025-summer-a1",
+      "id": "2025-summer-a3",
       "year": 2025,
       "series": "Summer",
-      "date": "2025-06-03",
-      "code": "A480U10-1",
-      "unit": "A level Component 1: Geological Investigations",
+      "date": "2025-06-19",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
       "level": "A",
       "spec": "current",
       "totalMarks": 105,
-      "duration": "2 hours 15 minutes"
-    },
-    {
-      "id": "2019-summer-a1",
-      "year": 2019,
-      "series": "Summer",
-      "date": "2019-06-04",
-      "code": "A480U10-1",
-      "unit": "A level Component 1: Geological Investigations",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 105,
-      "duration": "2 hours 15 minutes"
-    },
-    {
-      "id": "2019-summer-a2",
-      "year": 2019,
-      "series": "Summer",
-      "date": "2019-06-06",
-      "code": "A480U20-1",
-      "unit": "A level Component 2: Geological Principles and Processes",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 90,
-      "duration": "1 hour 45 minutes"
-    },
-    {
-      "id": "2020-autumn-c2",
-      "year": 2020,
-      "series": "Autumn",
-      "date": "2020-10-13",
-      "code": "B480U20-1",
-      "unit": "AS Component 2: Foundation Geology",
-      "level": "AS",
-      "spec": "current",
-      "totalMarks": 90,
-      "duration": "1 hour 30 minutes"
-    },
-    {
-      "id": "2020-autumn-a2",
-      "year": 2020,
-      "series": "Autumn",
-      "date": "2020-10-13",
-      "code": "A480U20-1",
-      "unit": "A level Component 2: Geological Principles and Processes",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 90,
-      "duration": "1 hour 45 minutes"
-    },
-    {
-      "id": "2021-autumn-a2",
-      "year": 2021,
-      "series": "Autumn",
-      "date": "2021-10-12",
-      "code": "A480U20-1",
-      "unit": "A level Component 2: Geological Principles and Processes",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 90,
-      "duration": "1 hour 45 minutes"
-    },
-    {
-      "id": "2022-summer-c2",
-      "year": 2022,
-      "series": "Summer",
-      "date": "2022-05-26",
-      "code": "B480U20-1",
-      "unit": "AS Component 2: Foundation Geology",
-      "level": "AS",
-      "spec": "current",
-      "totalMarks": 90,
-      "duration": "1 hour 30 minutes"
-    },
-    {
-      "id": "2022-summer-a2",
-      "year": 2022,
-      "series": "Summer",
-      "date": "2022-06-14",
-      "code": "A480U20-1",
-      "unit": "A level Component 2: Geological Principles and Processes",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 90,
-      "duration": "1 hour 45 minutes"
-    },
-    {
-      "id": "2023-summer-c2",
-      "year": 2023,
-      "series": "Summer",
-      "date": "2023-05-22",
-      "code": "B480U20-1",
-      "unit": "AS Component 2: Foundation Geology",
-      "level": "AS",
-      "spec": "current",
-      "totalMarks": 90,
-      "duration": "1 hour 30 minutes"
-    },
-    {
-      "id": "2023-summer-a2",
-      "year": 2023,
-      "series": "Summer",
-      "date": "2023-06-13",
-      "code": "A480U20-1",
-      "unit": "A level Component 2: Geological Principles and Processes",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 90,
-      "duration": "1 hour 45 minutes"
-    },
-    {
-      "id": "2024-summer-a2",
-      "year": 2024,
-      "series": "Summer",
-      "date": "June 2024",
-      "code": "A480U20-1",
-      "unit": "Component 2",
-      "level": "A",
-      "spec": "Geological Principles and Processes",
-      "totalMarks": 90,
-      "duration": "1 hour 45 minutes"
-    },
-    {
-      "id": "2024-summer-c2",
-      "year": 2024,
-      "series": "Summer",
-      "date": "2024-05-20",
-      "code": "B480U20-1",
-      "unit": "AS Component 2: Foundation Geology",
-      "level": "AS",
-      "spec": "Foundation Geology",
-      "totalMarks": 90,
-      "duration": "1 hour 30 minutes"
-    },
-    {
-      "id": "2025-summer-c2",
-      "year": 2025,
-      "series": "Summer",
-      "date": "2025-05-19",
-      "code": "B480U20-1",
-      "unit": "AS Component 2: Foundation Geology",
-      "level": "AS",
-      "spec": "Foundation Geology",
-      "totalMarks": 90,
-      "duration": "1 hour 30 minutes"
+      "duration": "2 hours"
     },
     {
       "id": "2025-summer-a2",
@@ -513,12 +225,1020 @@
       "duration": "1 hour 45 minutes"
     },
     {
-      "id": "2012-summer-gl5-u1",
+      "id": "2025-summer-a1",
+      "year": 2025,
+      "series": "Summer",
+      "date": "2025-06-03",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2024-summer-c2",
+      "year": 2024,
+      "series": "Summer",
+      "date": "2024-05-20",
+      "code": "B480U20-1",
+      "unit": "AS Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "Foundation Geology",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2024-summer-c1",
+      "year": 2024,
+      "series": "Summer",
+      "date": "2024-05-13",
+      "code": "B480U10-1",
+      "unit": "AS Component 1: Geological Enquiries",
+      "spec": "current",
+      "totalMarks": 60,
+      "duration": "1 hour 30 minutes",
+      "level": "AS"
+    },
+    {
+      "id": "2024-summer-a3",
+      "year": 2024,
+      "series": "Summer",
+      "date": "2024-06-17",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours"
+    },
+    {
+      "id": "2024-summer-a2",
+      "year": 2024,
+      "series": "Summer",
+      "date": "June 2024",
+      "code": "A480U20-1",
+      "unit": "Component 2",
+      "level": "A",
+      "spec": "Geological Principles and Processes",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2024-summer-a1",
+      "year": 2024,
+      "series": "Summer",
+      "date": "2024-06-04",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2023-summer-c2",
+      "year": 2023,
+      "series": "Summer",
+      "date": "2023-05-22",
+      "code": "B480U20-1",
+      "unit": "AS Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2023-summer-c1",
+      "year": 2023,
+      "series": "Summer",
+      "date": "2023-05-15",
+      "code": "B480U10-1",
+      "unit": "AS Component 1: Geological Enquiries",
+      "spec": "current",
+      "totalMarks": 60,
+      "duration": "1 hour 30 minutes",
+      "level": "AS"
+    },
+    {
+      "id": "2023-summer-a3",
+      "year": 2023,
+      "series": "Summer",
+      "date": "2023-06-20",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours"
+    },
+    {
+      "id": "2023-summer-a2",
+      "year": 2023,
+      "series": "Summer",
+      "date": "2023-06-13",
+      "code": "A480U20-1",
+      "unit": "A level Component 2: Geological Principles and Processes",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2023-summer-a1",
+      "year": 2023,
+      "series": "Summer",
+      "date": "2023-06-05",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2022-summer-c2",
+      "year": 2022,
+      "series": "Summer",
+      "date": "2022-05-26",
+      "code": "B480U20-1",
+      "unit": "AS Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2022-summer-c1",
+      "year": 2022,
+      "series": "Summer",
+      "date": "2022-05-16",
+      "code": "B480U10-1",
+      "unit": "AS Component 1: Geological Enquiries",
+      "spec": "current",
+      "totalMarks": 60,
+      "duration": "1 hour 30 minutes",
+      "level": "AS"
+    },
+    {
+      "id": "2022-summer-a3",
+      "year": 2022,
+      "series": "Summer",
+      "date": "2022-06-21",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours"
+    },
+    {
+      "id": "2022-summer-a2",
+      "year": 2022,
+      "series": "Summer",
+      "date": "2022-06-14",
+      "code": "A480U20-1",
+      "unit": "A level Component 2: Geological Principles and Processes",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2022-summer-a1",
+      "year": 2022,
+      "series": "Summer",
+      "date": "2022-06-06",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2021-autumn-a3",
+      "year": 2021,
+      "series": "Autumn",
+      "date": "2021-10-18",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours"
+    },
+    {
+      "id": "2021-autumn-a2",
+      "year": 2021,
+      "series": "Autumn",
+      "date": "2021-10-12",
+      "code": "A480U20-1",
+      "unit": "A level Component 2: Geological Principles and Processes",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2021-autumn-a1",
+      "year": 2021,
+      "series": "Autumn",
+      "date": "2021-10-05",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2020-autumn-c2",
+      "year": 2020,
+      "series": "Autumn",
+      "date": "2020-10-13",
+      "code": "B480U20-1",
+      "unit": "AS Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2020-autumn-c1",
+      "year": 2020,
+      "series": "Autumn",
+      "date": "2020-10-06",
+      "code": "B480U10-1",
+      "unit": "AS Component 1: Geological Enquiries",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 60,
+      "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2020-autumn-a3",
+      "year": 2020,
+      "series": "Autumn",
+      "date": "2020-10-19",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours"
+    },
+    {
+      "id": "2020-autumn-a2",
+      "year": 2020,
+      "series": "Autumn",
+      "date": "2020-10-13",
+      "code": "A480U20-1",
+      "unit": "A level Component 2: Geological Principles and Processes",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2020-autumn-a1",
+      "year": 2020,
+      "series": "Autumn",
+      "date": "2020-10-06",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2019-summer-gl5-u4",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-06",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2019-summer-gl5-u2",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-06",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2019-summer-gl5-u1",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-06",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2019-summer-gl4",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-04",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting the Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "2 hours (Section A: 1 hour)",
+      "level": "A2"
+    },
+    {
+      "id": "2019-summer-gl3",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-05-17",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2019-summer-gl1",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-05-13",
+      "code": "1211/01",
+      "unit": "GL1 Foundation Unit",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour",
+      "level": "AS"
+    },
+    {
+      "id": "2019-summer-c2",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-05-17",
+      "code": "B480U20-1",
+      "unit": "AS Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2019-summer-c1",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-05-13",
+      "code": "B480U10-1",
+      "unit": "AS Component 1: Geological Enquiries",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 60,
+      "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2019-summer-a3",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-11",
+      "code": "A480U30-1",
+      "unit": "Component 3: Geological Applications",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours"
+    },
+    {
+      "id": "2019-summer-a2",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-06",
+      "code": "A480U20-1",
+      "unit": "A level Component 2: Geological Principles and Processes",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 45 minutes"
+    },
+    {
+      "id": "2019-summer-a1",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-06-04",
+      "code": "A480U10-1",
+      "unit": "A level Component 1: Geological Investigations",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 105,
+      "duration": "2 hours 15 minutes"
+    },
+    {
+      "id": "2018-summer-gl5-u4",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-06-07",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2018-summer-gl5-u3",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-06-07",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2018-summer-gl5-u2",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-06-07",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2018-summer-gl5-u1",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-06-07",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2018-summer-gl4",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-06-05",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting the Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "2 hours (Section A: 1 hour)",
+      "level": "A2"
+    },
+    {
+      "id": "2018-summer-gl3",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-05-18",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2018-summer-gl1",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-05-14",
+      "code": "1211/01",
+      "unit": "GL1 Foundation Unit",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour",
+      "level": "AS"
+    },
+    {
+      "id": "2018-summer-c2",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-05-18",
+      "code": "B480U20-1",
+      "unit": "Component 2: Foundation Geology",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 90,
+      "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2018-summer-c1",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-05-14",
+      "code": "B480U10-1",
+      "unit": "Component 1: Geological Enquiries",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 60,
+      "duration": "1 hour 30 minutes"
+    },
+    {
+      "id": "2017-summer-gl5-u4",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-06-08",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2017-summer-gl5-u3",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-06-08",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2017-summer-gl5-u2",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-06-08",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2017-summer-gl5-u1",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-06-08",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2017-summer-gl4",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-06-06",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting the Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "2 hours (Section A: 1 hour)",
+      "level": "A2"
+    },
+    {
+      "id": "2017-summer-gl3",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-05-22",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2017-summer-gl1",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-05-15",
+      "code": "1211/01",
+      "unit": "GL1 Foundation Unit",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour",
+      "level": "AS"
+    },
+    {
+      "id": "2016-summer-gl5-u4",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-06-10",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2016-summer-gl5-u3",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-06-10",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2016-summer-gl5-u2",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-06-10",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2016-summer-gl5-u1",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-06-10",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2016-summer-gl4",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-06-06",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting the Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "2 hours (Section A: 1 hour)",
+      "level": "A2"
+    },
+    {
+      "id": "2016-summer-gl3",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-05-23",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2016-summer-gl1",
+      "year": 2016,
+      "series": "Summer",
+      "date": "2016-05-16",
+      "code": "1211/01",
+      "unit": "GL1 Foundation Unit",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour",
+      "level": "AS"
+    },
+    {
+      "id": "2015-summer-gl5-u4",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-06-16",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2015-summer-gl5-u3",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-06-16",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2015-summer-gl5-u2",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-06-16",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2015-summer-gl5-u1",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-06-16",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2015-summer-gl4",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-06-08",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting the Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "2 hours (Section A: 1 hour)",
+      "level": "A2"
+    },
+    {
+      "id": "2015-summer-gl3",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-05-19",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2015-summer-gl1",
+      "year": 2015,
+      "series": "Summer",
+      "date": "2015-05-11",
+      "code": "1211/01",
+      "unit": "GL1: Foundation Unit",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour"
+    },
+    {
+      "id": "2014-winter-gl3",
+      "year": 2014,
+      "series": "Winter",
+      "date": "2014-01-22",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2014-winter-gl1",
+      "year": 2014,
+      "series": "Winter",
+      "date": "2014-01-14",
+      "code": "1211/01",
+      "unit": "GL1: Foundation Unit",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour"
+    },
+    {
+      "id": "2014-summer-gl5-u4",
+      "year": 2014,
+      "series": "Summer",
+      "date": "2014-06-10",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2014-summer-gl5-u3",
+      "year": 2014,
+      "series": "Summer",
+      "date": "2014-06-10",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2014-summer-gl5-u2",
+      "year": 2014,
+      "series": "Summer",
+      "date": "2014-06-10",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2014-summer-gl5-u1",
+      "year": 2014,
+      "series": "Summer",
+      "date": "2014-06-10",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour (Section A)",
+      "level": "A2"
+    },
+    {
+      "id": "2014-summer-gl4",
+      "year": 2014,
+      "series": "Summer",
+      "date": "2014-06-02",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting The Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "2 hours (Section A: 1 hour)",
+      "level": "A2"
+    },
+    {
+      "id": "2014-summer-gl3",
+      "year": 2014,
+      "series": "Summer",
+      "date": "2014-05-16",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2014-summer-gl1",
+      "year": 2014,
+      "series": "Summer",
+      "date": "2014-05-13",
+      "code": "1211/01",
+      "unit": "GL1: Foundation Unit",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour"
+    },
+    {
+      "id": "2013-winter-gl3",
+      "year": 2013,
+      "series": "Winter",
+      "date": "2013-01-23",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2013-winter-gl1",
+      "year": 2013,
+      "series": "Winter",
+      "date": "2013-01-15",
+      "code": "1211/01",
+      "unit": "GL1: Foundation Unit",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour"
+    },
+    {
+      "id": "2013-summer-gl5-u4",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-06-11",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour",
+      "level": "A"
+    },
+    {
+      "id": "2013-summer-gl5-u3",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-06-11",
+      "code": "1215/03",
+      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour",
+      "level": "A"
+    },
+    {
+      "id": "2013-summer-gl5-u2",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-06-11",
+      "code": "1215/02",
+      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour",
+      "level": "A"
+    },
+    {
+      "id": "2013-summer-gl5-u1",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-06-11",
+      "code": "1215/01",
+      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "spec": "legacy",
+      "totalMarks": 15,
+      "duration": "1 hour",
+      "level": "A"
+    },
+    {
+      "id": "2013-summer-gl4",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-06-03",
+      "code": "1214/01",
+      "unit": "GL4 Interpreting The Geological Record",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour",
+      "level": "A"
+    },
+    {
+      "id": "2013-summer-gl3",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-05-22",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2013-summer-gl1",
+      "year": 2013,
+      "series": "Summer",
+      "date": "2013-05-16",
+      "code": "1211/01",
+      "unit": "GL1: Foundation Unit",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour"
+    },
+    {
+      "id": "2012-winter-gl3",
+      "year": 2012,
+      "series": "Winter",
+      "date": "2012-01-19",
+      "code": "1213/01",
+      "unit": "GL3: Geology and the Human Environment",
+      "level": "AS",
+      "spec": "legacy",
+      "totalMarks": 25,
+      "duration": "1 hour 15 minutes (Section A only banked)"
+    },
+    {
+      "id": "2012-summer-gl5-u4",
       "year": 2012,
       "series": "Summer",
       "date": "2012-06-14",
-      "code": "1215/01",
-      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
+      "code": "1215/04",
+      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
       "spec": "legacy",
       "totalMarks": 15,
       "duration": "1 hour",
@@ -549,34 +1269,10 @@
       "level": "A"
     },
     {
-      "id": "2012-summer-gl5-u4",
+      "id": "2012-summer-gl5-u1",
       "year": 2012,
       "series": "Summer",
       "date": "2012-06-14",
-      "code": "1215/04",
-      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour",
-      "level": "A"
-    },
-    {
-      "id": "2013-summer-gl4",
-      "year": 2013,
-      "series": "Summer",
-      "date": "2013-06-03",
-      "code": "1214/01",
-      "unit": "GL4 Interpreting The Geological Record",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "1 hour",
-      "level": "A"
-    },
-    {
-      "id": "2013-summer-gl5-u1",
-      "year": 2013,
-      "series": "Summer",
-      "date": "2013-06-11",
       "code": "1215/01",
       "unit": "GL5 Thematic Unit 1: Quaternary Geology",
       "spec": "legacy",
@@ -585,700 +1281,16 @@
       "level": "A"
     },
     {
-      "id": "2013-summer-gl5-u2",
-      "year": 2013,
+      "id": "2012-summer-gl4",
+      "year": 2012,
       "series": "Summer",
-      "date": "2013-06-11",
-      "code": "1215/02",
-      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour",
-      "level": "A"
-    },
-    {
-      "id": "2013-summer-gl5-u3",
-      "year": 2013,
-      "series": "Summer",
-      "date": "2013-06-11",
-      "code": "1215/03",
-      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour",
-      "level": "A"
-    },
-    {
-      "id": "2013-summer-gl5-u4",
-      "year": 2013,
-      "series": "Summer",
-      "date": "2013-06-11",
-      "code": "1215/04",
-      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour",
-      "level": "A"
-    },
-    {
-      "id": "2014-summer-gl4",
-      "year": 2014,
-      "series": "Summer",
-      "date": "2014-06-02",
-      "code": "1214/01",
-      "unit": "GL4 Interpreting The Geological Record",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "2 hours (Section A: 1 hour)",
-      "level": "A2"
-    },
-    {
-      "id": "2014-summer-gl5-u1",
-      "year": 2014,
-      "series": "Summer",
-      "date": "2014-06-10",
-      "code": "1215/01",
-      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2014-summer-gl5-u2",
-      "year": 2014,
-      "series": "Summer",
-      "date": "2014-06-10",
-      "code": "1215/02",
-      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2014-summer-gl5-u3",
-      "year": 2014,
-      "series": "Summer",
-      "date": "2014-06-10",
-      "code": "1215/03",
-      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2015-summer-gl4",
-      "year": 2015,
-      "series": "Summer",
-      "date": "2015-06-08",
+      "date": "2012-06-12",
       "code": "1214/01",
       "unit": "GL4 Interpreting the Geological Record",
       "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "2 hours (Section A: 1 hour)",
-      "level": "A2"
-    },
-    {
-      "id": "2015-summer-gl5-u1",
-      "year": 2015,
-      "series": "Summer",
-      "date": "2015-06-16",
-      "code": "1215/01",
-      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2015-summer-gl5-u2",
-      "year": 2015,
-      "series": "Summer",
-      "date": "2015-06-16",
-      "code": "1215/02",
-      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2015-summer-gl5-u3",
-      "year": 2015,
-      "series": "Summer",
-      "date": "2015-06-16",
-      "code": "1215/03",
-      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2015-summer-gl5-u4",
-      "year": 2015,
-      "series": "Summer",
-      "date": "2015-06-16",
-      "code": "1215/04",
-      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2016-summer-gl4",
-      "year": 2016,
-      "series": "Summer",
-      "date": "2016-06-06",
-      "code": "1214/01",
-      "unit": "GL4 Interpreting the Geological Record",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "2 hours (Section A: 1 hour)",
-      "level": "A2"
-    },
-    {
-      "id": "2016-summer-gl5-u1",
-      "year": 2016,
-      "series": "Summer",
-      "date": "2016-06-10",
-      "code": "1215/01",
-      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2016-summer-gl5-u2",
-      "year": 2016,
-      "series": "Summer",
-      "date": "2016-06-10",
-      "code": "1215/02",
-      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2016-summer-gl5-u3",
-      "year": 2016,
-      "series": "Summer",
-      "date": "2016-06-10",
-      "code": "1215/03",
-      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2016-summer-gl5-u4",
-      "year": 2016,
-      "series": "Summer",
-      "date": "2016-06-10",
-      "code": "1215/04",
-      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2017-summer-gl4",
-      "year": 2017,
-      "series": "Summer",
-      "date": "2017-06-06",
-      "code": "1214/01",
-      "unit": "GL4 Interpreting the Geological Record",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "2 hours (Section A: 1 hour)",
-      "level": "A2"
-    },
-    {
-      "id": "2017-summer-gl5-u1",
-      "year": 2017,
-      "series": "Summer",
-      "date": "2017-06-08",
-      "code": "1215/01",
-      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2017-summer-gl5-u2",
-      "year": 2017,
-      "series": "Summer",
-      "date": "2017-06-08",
-      "code": "1215/02",
-      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2017-summer-gl5-u3",
-      "year": 2017,
-      "series": "Summer",
-      "date": "2017-06-08",
-      "code": "1215/03",
-      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2017-summer-gl5-u4",
-      "year": 2017,
-      "series": "Summer",
-      "date": "2017-06-08",
-      "code": "1215/04",
-      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2018-summer-gl4",
-      "year": 2018,
-      "series": "Summer",
-      "date": "2018-06-05",
-      "code": "1214/01",
-      "unit": "GL4 Interpreting the Geological Record",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "2 hours (Section A: 1 hour)",
-      "level": "A2"
-    },
-    {
-      "id": "2018-summer-gl5-u1",
-      "year": 2018,
-      "series": "Summer",
-      "date": "2018-06-07",
-      "code": "1215/01",
-      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2018-summer-gl5-u2",
-      "year": 2018,
-      "series": "Summer",
-      "date": "2018-06-07",
-      "code": "1215/02",
-      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2018-summer-gl5-u3",
-      "year": 2018,
-      "series": "Summer",
-      "date": "2018-06-07",
-      "code": "1215/03",
-      "unit": "GL5 Thematic Unit 3: Geological Evolution of Britain",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2018-summer-gl5-u4",
-      "year": 2018,
-      "series": "Summer",
-      "date": "2018-06-07",
-      "code": "1215/04",
-      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2019-summer-gl4",
-      "year": 2019,
-      "series": "Summer",
-      "date": "2019-06-04",
-      "code": "1214/01",
-      "unit": "GL4 Interpreting the Geological Record",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "2 hours (Section A: 1 hour)",
-      "level": "A2"
-    },
-    {
-      "id": "2019-summer-gl5-u1",
-      "year": 2019,
-      "series": "Summer",
-      "date": "2019-06-06",
-      "code": "1215/01",
-      "unit": "GL5 Thematic Unit 1: Quaternary Geology",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2019-summer-gl5-u2",
-      "year": 2019,
-      "series": "Summer",
-      "date": "2019-06-06",
-      "code": "1215/02",
-      "unit": "GL5 Thematic Unit 2: Geology of Natural Resources",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2019-summer-gl5-u4",
-      "year": 2019,
-      "series": "Summer",
-      "date": "2019-06-06",
-      "code": "1215/04",
-      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2025-summer-a3",
-      "year": 2025,
-      "series": "Summer",
-      "date": "2025-06-19",
-      "code": "A480U30-1",
-      "unit": "Component 3: Geological Applications",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 105,
-      "duration": "2 hours"
-    },
-    {
-      "id": "2024-summer-a3",
-      "year": 2024,
-      "series": "Summer",
-      "date": "2024-06-17",
-      "code": "A480U30-1",
-      "unit": "Component 3: Geological Applications",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 105,
-      "duration": "2 hours"
-    },
-    {
-      "id": "2023-summer-a3",
-      "year": 2023,
-      "series": "Summer",
-      "date": "2023-06-20",
-      "code": "A480U30-1",
-      "unit": "Component 3: Geological Applications",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 105,
-      "duration": "2 hours"
-    },
-    {
-      "id": "2022-summer-a3",
-      "year": 2022,
-      "series": "Summer",
-      "date": "2022-06-21",
-      "code": "A480U30-1",
-      "unit": "Component 3: Geological Applications",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 105,
-      "duration": "2 hours"
-    },
-    {
-      "id": "2021-autumn-a3",
-      "year": 2021,
-      "series": "Autumn",
-      "date": "2021-10-18",
-      "code": "A480U30-1",
-      "unit": "Component 3: Geological Applications",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 105,
-      "duration": "2 hours"
-    },
-    {
-      "id": "2020-autumn-c1",
-      "year": 2020,
-      "series": "Autumn",
-      "date": "2020-10-06",
-      "code": "B480U10-1",
-      "unit": "AS Component 1: Geological Enquiries",
-      "level": "AS",
-      "spec": "current",
-      "totalMarks": 60,
-      "duration": "1 hour 30 minutes"
-    },
-    {
-      "id": "2020-autumn-a3",
-      "year": 2020,
-      "series": "Autumn",
-      "date": "2020-10-19",
-      "code": "A480U30-1",
-      "unit": "Component 3: Geological Applications",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 105,
-      "duration": "2 hours"
-    },
-    {
-      "id": "2019-summer-c1",
-      "year": 2019,
-      "series": "Summer",
-      "date": "2019-05-13",
-      "code": "B480U10-1",
-      "unit": "AS Component 1: Geological Enquiries",
-      "level": "AS",
-      "spec": "current",
-      "totalMarks": 60,
-      "duration": "1 hour 30 minutes"
-    },
-    {
-      "id": "2019-summer-c2",
-      "year": 2019,
-      "series": "Summer",
-      "date": "2019-05-17",
-      "code": "B480U20-1",
-      "unit": "AS Component 2: Foundation Geology",
-      "level": "AS",
-      "spec": "current",
-      "totalMarks": 90,
-      "duration": "1 hour 30 minutes"
-    },
-    {
-      "id": "2019-summer-a3",
-      "year": 2019,
-      "series": "Summer",
-      "date": "2019-06-11",
-      "code": "A480U30-1",
-      "unit": "Component 3: Geological Applications",
-      "level": "A",
-      "spec": "current",
-      "totalMarks": 105,
-      "duration": "2 hours"
-    },
-    {
-      "id": "2019-summer-gl3",
-      "year": 2019,
-      "series": "Summer",
-      "date": "2019-05-17",
-      "code": "1213/01",
-      "unit": "GL3: Geology and the Human Environment",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 25,
-      "duration": "1 hour 15 minutes (Section A only banked)"
-    },
-    {
-      "id": "2018-summer-c1",
-      "year": 2018,
-      "series": "Summer",
-      "date": "2018-05-14",
-      "code": "B480U10-1",
-      "unit": "Component 1: Geological Enquiries",
-      "level": "AS",
-      "spec": "current",
-      "totalMarks": 60,
-      "duration": "1 hour 30 minutes"
-    },
-    {
-      "id": "2018-summer-c2",
-      "year": 2018,
-      "series": "Summer",
-      "date": "2018-05-18",
-      "code": "B480U20-1",
-      "unit": "Component 2: Foundation Geology",
-      "level": "AS",
-      "spec": "current",
-      "totalMarks": 90,
-      "duration": "1 hour 30 minutes"
-    },
-    {
-      "id": "2018-summer-gl3",
-      "year": 2018,
-      "series": "Summer",
-      "date": "2018-05-18",
-      "code": "1213/01",
-      "unit": "GL3: Geology and the Human Environment",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 25,
-      "duration": "1 hour 15 minutes (Section A only banked)"
-    },
-    {
-      "id": "2017-summer-gl3",
-      "year": 2017,
-      "series": "Summer",
-      "date": "2017-05-22",
-      "code": "1213/01",
-      "unit": "GL3: Geology and the Human Environment",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 25,
-      "duration": "1 hour 15 minutes (Section A only banked)"
-    },
-    {
-      "id": "2016-summer-gl3",
-      "year": 2016,
-      "series": "Summer",
-      "date": "2016-05-23",
-      "code": "1213/01",
-      "unit": "GL3: Geology and the Human Environment",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 25,
-      "duration": "1 hour 15 minutes (Section A only banked)"
-    },
-    {
-      "id": "2015-summer-gl1",
-      "year": 2015,
-      "series": "Summer",
-      "date": "2015-05-11",
-      "code": "1211/01",
-      "unit": "GL1: Foundation Unit",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "1 hour"
-    },
-    {
-      "id": "2015-summer-gl3",
-      "year": 2015,
-      "series": "Summer",
-      "date": "2015-05-19",
-      "code": "1213/01",
-      "unit": "GL3: Geology and the Human Environment",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 25,
-      "duration": "1 hour 15 minutes (Section A only banked)"
-    },
-    {
-      "id": "2014-winter-gl1",
-      "year": 2014,
-      "series": "Winter",
-      "date": "2014-01-14",
-      "code": "1211/01",
-      "unit": "GL1: Foundation Unit",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "1 hour"
-    },
-    {
-      "id": "2014-summer-gl1",
-      "year": 2014,
-      "series": "Summer",
-      "date": "2014-05-13",
-      "code": "1211/01",
-      "unit": "GL1: Foundation Unit",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "1 hour"
-    },
-    {
-      "id": "2014-winter-gl3",
-      "year": 2014,
-      "series": "Winter",
-      "date": "2014-01-22",
-      "code": "1213/01",
-      "unit": "GL3: Geology and the Human Environment",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 25,
-      "duration": "1 hour 15 minutes (Section A only banked)"
-    },
-    {
-      "id": "2014-summer-gl3",
-      "year": 2014,
-      "series": "Summer",
-      "date": "2014-05-16",
-      "code": "1213/01",
-      "unit": "GL3: Geology and the Human Environment",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 25,
-      "duration": "1 hour 15 minutes (Section A only banked)"
-    },
-    {
-      "id": "2014-summer-gl5-u4",
-      "year": 2014,
-      "series": "Summer",
-      "date": "2014-06-10",
-      "code": "1215/04",
-      "unit": "GL5 Thematic Unit 4: Geology of the Lithosphere",
-      "spec": "legacy",
-      "totalMarks": 15,
-      "duration": "1 hour (Section A)",
-      "level": "A2"
-    },
-    {
-      "id": "2013-winter-gl1",
-      "year": 2013,
-      "series": "Winter",
-      "date": "2013-01-15",
-      "code": "1211/01",
-      "unit": "GL1: Foundation Unit",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "1 hour"
-    },
-    {
-      "id": "2013-summer-gl1",
-      "year": 2013,
-      "series": "Summer",
-      "date": "2013-05-16",
-      "code": "1211/01",
-      "unit": "GL1: Foundation Unit",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 60,
-      "duration": "1 hour"
-    },
-    {
-      "id": "2013-winter-gl3",
-      "year": 2013,
-      "series": "Winter",
-      "date": "2013-01-23",
-      "code": "1213/01",
-      "unit": "GL3: Geology and the Human Environment",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 25,
-      "duration": "1 hour 15 minutes (Section A only banked)"
-    },
-    {
-      "id": "2013-summer-gl3",
-      "year": 2013,
-      "series": "Summer",
-      "date": "2013-05-22",
-      "code": "1213/01",
-      "unit": "GL3: Geology and the Human Environment",
-      "level": "AS",
-      "spec": "legacy",
-      "totalMarks": 25,
-      "duration": "1 hour 15 minutes (Section A only banked)"
+      "totalMarks": 100,
+      "duration": "2 hours",
+      "level": "A"
     },
     {
       "id": "2012-summer-gl3",
@@ -1293,16 +1305,16 @@
       "duration": "1 hour 15 minutes (Section A only banked)"
     },
     {
-      "id": "2012-winter-gl3",
+      "id": "2012-summer-gl1",
       "year": 2012,
-      "series": "Winter",
-      "date": "2012-01-19",
-      "code": "1213/01",
-      "unit": "GL3: Geology and the Human Environment",
-      "level": "AS",
+      "series": "Summer",
+      "date": "2012-05-18",
+      "code": "1211/01",
+      "unit": "GL1 Foundation Unit",
       "spec": "legacy",
-      "totalMarks": 25,
-      "duration": "1 hour 15 minutes (Section A only banked)"
+      "totalMarks": 60,
+      "duration": "1 hour",
+      "level": "AS"
     }
   ],
   "questions": [
@@ -2277,7 +2289,7 @@
       "skills": [
         "map"
       ],
-      "summary": "Evaluate a student’s conclusions about the age and type of a fault.",
+      "summary": "Evaluate a student\u2019s conclusions about the age and type of a fault.",
       "image": "img/2017-summer-gl1/q4d.jpg",
       "figures": [
         "img/2017-summer-gl1/fig-q4.jpg"
@@ -2427,7 +2439,7 @@
       "skills": [
         "map"
       ],
-      "summary": "Evaluate a student’s conclusion that the igneous body is a dyke, using the map, graph and photograph.",
+      "summary": "Evaluate a student\u2019s conclusion that the igneous body is a dyke, using the map, graph and photograph.",
       "image": "img/2018-summer-gl1/q1civ.jpg",
       "figures": [
         "img/2018-summer-gl1/fig-q1.jpg",
@@ -2938,7 +2950,7 @@
       "skills": [
         "map"
       ],
-      "summary": "Critically evaluate a student’s conclusion that the igneous rock on the cross-section is a dyke.",
+      "summary": "Critically evaluate a student\u2019s conclusion that the igneous rock on the cross-section is a dyke.",
       "image": "img/2019-summer-gl1/q1c.jpg",
       "figures": [
         "img/2019-summer-gl1/fig-q1.jpg"
@@ -3570,7 +3582,7 @@
       "skills": [
         "map"
       ],
-      "summary": "Evaluate a student’s statement that a clast cannot have come from any rocks on the map, using age relationships, rock types and type of metamorphism.",
+      "summary": "Evaluate a student\u2019s statement that a clast cannot have come from any rocks on the map, using age relationships, rock types and type of metamorphism.",
       "image": "img/2022-summer-c1/q4c.jpg",
       "figures": [
         "img/2022-summer-c1/photos.jpg",
@@ -3701,7 +3713,7 @@
       "skills": [
         "map"
       ],
-      "summary": "Evaluate a student’s conclusion that Rock Units A and B came from the same intrusive event, using Specimen B, Photograph 1 and Map 1.",
+      "summary": "Evaluate a student\u2019s conclusion that Rock Units A and B came from the same intrusive event, using Specimen B, Photograph 1 and Map 1.",
       "image": "img/2023-summer-c1/q2b.jpg",
       "figures": [
         "img/2023-summer-c1/photo1.jpg",
@@ -3813,7 +3825,7 @@
       "skills": [
         "maths"
       ],
-      "summary": "Evaluate the reliability of a student’s conclusion that the bivalve fossils form a life assemblage, given the data.",
+      "summary": "Evaluate the reliability of a student\u2019s conclusion that the bivalve fossils form a life assemblage, given the data.",
       "image": "img/2023-summer-c1/q3biii.jpg",
       "figures": [
         "img/2023-summer-c1/fig-q3t.jpg"
@@ -4027,7 +4039,7 @@
       "skills": [
         "practical"
       ],
-      "summary": "Say whether a student’s conclusion about Mineral Q is true or false and explain with one physical property.",
+      "summary": "Say whether a student\u2019s conclusion about Mineral Q is true or false and explain with one physical property.",
       "image": "img/2024-summer-c1/q1bii.jpg",
       "figures": [
         "img/2024-summer-c1/photo1.jpg",
@@ -4054,7 +4066,7 @@
         "img/2024-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2024-summer-c1/ms-q1c.jpg",
-      "note": "This question uses Specimen H. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen H. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2024-summer-c1-q1di",
@@ -4074,7 +4086,7 @@
         "img/2024-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2024-summer-c1/ms-q1di.jpg",
-      "note": "This question uses Specimen H. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen H. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2024-summer-c1-q1dii",
@@ -4093,7 +4105,7 @@
         "img/2024-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2024-summer-c1/ms-q1dii.jpg",
-      "note": "This question uses Specimen H. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen H. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2024-summer-c1-q2a",
@@ -4114,7 +4126,7 @@
         "img/2024-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2024-summer-c1/ms-q2a.jpg",
-      "note": "This question uses Specimen E. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen E. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2024-summer-c1-q2bi",
@@ -4135,7 +4147,7 @@
         "img/2024-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2024-summer-c1/ms-q2bi.jpg",
-      "note": "This question uses Specimen E. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen E. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2024-summer-c1-q2bii",
@@ -4148,7 +4160,7 @@
         "3.1"
       ],
       "skills": [],
-      "summary": "Evaluate a student’s conclusion that all beds in the graphic log formed in the same environment at similar energy levels.",
+      "summary": "Evaluate a student\u2019s conclusion that all beds in the graphic log formed in the same environment at similar energy levels.",
       "image": "img/2024-summer-c1/q2bii.jpg",
       "figures": [
         "img/2024-summer-c1/fig-q2b.jpg",
@@ -4156,7 +4168,7 @@
         "img/2024-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2024-summer-c1/ms-q2bii.jpg",
-      "note": "This question uses Specimen E. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen E. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2024-summer-c1-q3ai",
@@ -4177,7 +4189,7 @@
         "img/2016-summer-gl1/datasheet.jpg"
       ],
       "markscheme": "img/2024-summer-c1/ms-q3ai.jpg",
-      "note": "This question uses Specimen L. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen L. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2024-summer-c1-q3aii",
@@ -4198,7 +4210,7 @@
         "img/2016-summer-gl1/datasheet.jpg"
       ],
       "markscheme": "img/2024-summer-c1/ms-q3aii.jpg",
-      "note": "This question uses Specimen L. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen L. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2024-summer-c1-q3b",
@@ -4255,7 +4267,7 @@
         "img/2024-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2024-summer-c1/ms-q4a.jpg",
-      "note": "This question uses Specimen C. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen C. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2024-summer-c1-q4b",
@@ -4275,7 +4287,7 @@
         "img/2024-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2024-summer-c1/ms-q4b.jpg",
-      "note": "This question uses Specimen C. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen C. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2024-summer-c1-q5ai",
@@ -4432,7 +4444,7 @@
         "img/2025-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-c1/ms-q1a.jpg",
-      "note": "This question uses Specimen A. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen A. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2025-summer-c1-q1bi",
@@ -4502,14 +4514,14 @@
       "skills": [
         "practical"
       ],
-      "summary": "Evaluate a student’s conclusion that Rock Unit B is a more mature sedimentary rock than Rock Unit A, using their textures.",
+      "summary": "Evaluate a student\u2019s conclusion that Rock Unit B is a more mature sedimentary rock than Rock Unit A, using their textures.",
       "image": "img/2025-summer-c1/q1c.jpg",
       "figures": [
         "img/2025-summer-c1/specimens.jpg",
         "img/2025-summer-c1/photo1.jpg"
       ],
       "markscheme": "img/2025-summer-c1/ms-q1c.jpg",
-      "note": "This question uses Specimen A. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen A. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2025-summer-c1-q2a",
@@ -4530,7 +4542,7 @@
         "img/2025-summer-c1/datasheet.jpg"
       ],
       "markscheme": "img/2025-summer-c1/ms-q2a.jpg",
-      "note": "This question uses Specimen H. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen H. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2025-summer-c1-q2b",
@@ -4551,7 +4563,7 @@
         "img/2025-summer-c1/datasheet.jpg"
       ],
       "markscheme": "img/2025-summer-c1/ms-q2b.jpg",
-      "note": "This question uses Specimen H. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen H. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2025-summer-c1-q3ai",
@@ -4572,7 +4584,7 @@
         "img/2025-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-c1/ms-q3ai.jpg",
-      "note": "This question uses Specimen F. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen F. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2025-summer-c1-q3aii",
@@ -4592,7 +4604,7 @@
         "img/2025-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-c1/ms-q3aii.jpg",
-      "note": "This question uses Specimen F. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen F. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2025-summer-c1-q3aiii",
@@ -4610,7 +4622,7 @@
         "img/2025-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-c1/ms-q3aiii.jpg",
-      "note": "This question uses Specimen F. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen F. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2025-summer-c1-q3bi",
@@ -4687,7 +4699,7 @@
         "img/2025-summer-c1/fig-q3b.jpg"
       ],
       "markscheme": "img/2025-summer-c1/ms-q3c.jpg",
-      "note": "This question uses Specimens A and F. Photographs are under “Photographs of the specimens”, but the physical samples are not included."
+      "note": "This question uses Specimens A and F. Photographs are under \u201cPhotographs of the specimens\u201d, but the physical samples are not included."
     },
     {
       "id": "2025-summer-c1-q4ai",
@@ -4707,7 +4719,7 @@
         "img/2025-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-c1/ms-q4ai.jpg",
-      "note": "This question uses Specimen D. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen D. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2025-summer-c1-q4aii",
@@ -4728,7 +4740,7 @@
         "img/2025-summer-c1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-c1/ms-q4aii.jpg",
-      "note": "This question uses Specimen D. A photograph is under “Photographs of the specimens”, but the physical sample is not included."
+      "note": "This question uses Specimen D. A photograph is under \u201cPhotographs of the specimens\u201d, but the physical sample is not included."
     },
     {
       "id": "2025-summer-c1-q4bi",
@@ -4966,7 +4978,7 @@
       "skills": [
         "maths"
       ],
-      "summary": "Suggest two reasons why the calculated mass may not represent the dinosaur’s actual mass.",
+      "summary": "Suggest two reasons why the calculated mass may not represent the dinosaur\u2019s actual mass.",
       "image": "img/2020-autumn-a1/q1dii.jpg",
       "figures": [],
       "markscheme": "img/2020-autumn-a1/ms-q1dii.jpg"
@@ -5082,7 +5094,7 @@
       "skills": [
         "map"
       ],
-      "summary": "Evaluate a student’s statement that the stereonet data indicate a plunging, open synform.",
+      "summary": "Evaluate a student\u2019s statement that the stereonet data indicate a plunging, open synform.",
       "image": "img/2020-autumn-a1/q2cii.jpg",
       "figures": [
         "img/2020-autumn-a1/fig-q2c.jpg"
@@ -5346,7 +5358,7 @@
       "skills": [
         "map"
       ],
-      "summary": "State the type of fault formed by F1 using the map and the student’s description, and explain the evidence.",
+      "summary": "State the type of fault formed by F1 using the map and the student\u2019s description, and explain the evidence.",
       "image": "img/2020-autumn-a1/q7aiii.jpg",
       "figures": [
         "img/2020-autumn-a1/map1.jpg"
@@ -6658,7 +6670,7 @@
       "skills": [
         "map"
       ],
-      "summary": "Evaluate a student’s conclusion about the type of folds north-east of Fault F1, with reference to Map 1.",
+      "summary": "Evaluate a student\u2019s conclusion about the type of folds north-east of Fault F1, with reference to Map 1.",
       "image": "img/2022-summer-a1/q10b.jpg",
       "figures": [
         "img/2022-summer-a1/map1.jpg"
@@ -6735,7 +6747,7 @@
       "skills": [
         "practical"
       ],
-      "summary": "Identify a mineral with two 90° cleavages shown in a thin-section sketch of a mafic rock using data sheet properties.",
+      "summary": "Identify a mineral with two 90\u00b0 cleavages shown in a thin-section sketch of a mafic rock using data sheet properties.",
       "image": "img/2024-summer-a1/q1ai.jpg",
       "figures": [
         "img/2024-summer-a1/fig-q1a.jpg",
@@ -6865,7 +6877,7 @@
       "skills": [
         "practical"
       ],
-      "summary": "Label the crust–mantle boundary on a cross-sectional diagram illustrating symmetrical ocean ridge spreading.",
+      "summary": "Label the crust\u2013mantle boundary on a cross-sectional diagram illustrating symmetrical ocean ridge spreading.",
       "image": "img/2024-summer-a1/q2ai.jpg",
       "figures": [],
       "markscheme": "img/2024-summer-a1/ms-q2ai.jpg"
@@ -6958,7 +6970,7 @@
       "skills": [
         "practical"
       ],
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included.",
       "summary": "Record diagnostic observations and propose a confirmatory physical test for an unknown white mineral specimen.",
       "image": "img/2024-summer-a1/q3ai.jpg",
       "figures": [
@@ -6979,7 +6991,7 @@
       "skills": [
         "practical"
       ],
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included.",
       "summary": "Deduce the mineral identity of Specimen E from test results and reference data.",
       "image": "img/2024-summer-a1/q3aii.jpg",
       "figures": [
@@ -7015,7 +7027,7 @@
       "skills": [
         "practical"
       ],
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included.",
       "summary": "Characterise the textural attributes of an igneous hand specimen collected from a mapped rock unit.",
       "image": "img/2024-summer-a1/q4a.jpg",
       "figures": [
@@ -7037,7 +7049,7 @@
         "practical",
         "map"
       ],
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included.",
       "summary": "Identify the intrusive body classification using textural evidence from Specimen C and contact geometry from Map 1.",
       "image": "img/2024-summer-a1/q4b.jpg",
       "figures": [
@@ -7074,7 +7086,7 @@
       "skills": [
         "practical"
       ],
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included.",
       "summary": "Produce a scaled morphological drawing showing the internal anatomical features of fossil shell Specimen K.",
       "image": "img/2024-summer-a1/q5a.jpg",
       "figures": [
@@ -7094,7 +7106,7 @@
       "skills": [
         "practical"
       ],
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included.",
       "summary": "Classify the invertebrate fossil group of Specimen K based on valve plane of symmetry.",
       "image": "img/2024-summer-a1/q5b.jpg",
       "figures": [
@@ -7114,7 +7126,7 @@
       "skills": [
         "practical"
       ],
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included.",
       "summary": "Deduce and justify the benthic modes of life for fossil Specimen K and modern shell L from morphological adaptations.",
       "image": "img/2024-summer-a1/q5c.jpg",
       "figures": [
@@ -7157,7 +7169,7 @@
       "skills": [
         "practical"
       ],
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included.",
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included.",
       "summary": "Classify the coalification rank of Specimen G using visible physical criteria.",
       "image": "img/2024-summer-a1/q7a.jpg",
       "figures": [
@@ -7234,7 +7246,7 @@
         "maths",
         "practical"
       ],
-      "summary": "Construct a scaled geological cross-section along profile line X–Y illustrating folding, fault reactivation, and angular unconformity.",
+      "summary": "Construct a scaled geological cross-section along profile line X\u2013Y illustrating folding, fault reactivation, and angular unconformity.",
       "image": "img/2024-summer-a1/q9.jpg",
       "figures": [
         "img/2024-summer-a1/map1.jpg"
@@ -7273,7 +7285,7 @@
       "skills": [
         "maths"
       ],
-      "summary": "Calculate the upper chronological age limit for an isotopic Potassium–Argon date with percentage uncertainty.",
+      "summary": "Calculate the upper chronological age limit for an isotopic Potassium\u2013Argon date with percentage uncertainty.",
       "image": "img/2024-summer-a1/q10bi.jpg",
       "figures": [
         "img/2024-summer-a1/fig-q10.jpg"
@@ -7290,7 +7302,7 @@
         "3.2"
       ],
       "skills": [],
-      "summary": "State fundamental radiometric assumptions and potential source of error in Potassium–Argon dating.",
+      "summary": "State fundamental radiometric assumptions and potential source of error in Potassium\u2013Argon dating.",
       "image": "img/2024-summer-a1/q10bii.jpg",
       "figures": [],
       "markscheme": "img/2024-summer-a1/ms-q10bii.jpg"
@@ -7514,7 +7526,7 @@
       "skills": [
         "practical"
       ],
-      "summary": "Identify the fossil taxonomic group illustrated in William Smith’s historical drawing and state the anatomical feature supporting the diagnosis.",
+      "summary": "Identify the fossil taxonomic group illustrated in William Smith\u2019s historical drawing and state the anatomical feature supporting the diagnosis.",
       "image": "img/2025-summer-a1/q2a.jpg",
       "figures": [
         "img/2025-summer-a1/fig-q2a.jpg"
@@ -7597,7 +7609,7 @@
         "img/2025-summer-a1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-a1/ms-q3a.jpg",
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included."
     },
     {
       "id": "2025-summer-a1-q3b",
@@ -7618,7 +7630,7 @@
         "img/2025-summer-a1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-a1/ms-q3b.jpg",
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included."
     },
     {
       "id": "2025-summer-a1-q3c",
@@ -7638,7 +7650,7 @@
         "img/2025-summer-a1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-a1/ms-q3c.jpg",
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included."
     },
     {
       "id": "2025-summer-a1-q4a",
@@ -7698,7 +7710,7 @@
         "img/2025-summer-a1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-a1/ms-q5a.jpg",
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included."
     },
     {
       "id": "2025-summer-a1-q5b",
@@ -7721,7 +7733,7 @@
         "img/2025-summer-a1/map1.jpg"
       ],
       "markscheme": "img/2025-summer-a1/ms-q5b.jpg",
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included."
     },
     {
       "id": "2025-summer-a1-q6",
@@ -7764,7 +7776,7 @@
         "img/2025-summer-a1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-a1/ms-q7ai.jpg",
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included."
     },
     {
       "id": "2025-summer-a1-q7aii",
@@ -7785,7 +7797,7 @@
         "img/2025-summer-a1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-a1/ms-q7aii.jpg",
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included."
     },
     {
       "id": "2025-summer-a1-q7b",
@@ -7826,7 +7838,7 @@
         "img/2025-summer-a1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-a1/ms-q8ai.jpg",
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included."
     },
     {
       "id": "2025-summer-a1-q8aii",
@@ -7847,7 +7859,7 @@
         "img/2025-summer-a1/specimens.jpg"
       ],
       "markscheme": "img/2025-summer-a1/ms-q8aii.jpg",
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included."
     },
     {
       "id": "2025-summer-a1-q8b",
@@ -7870,7 +7882,7 @@
         "img/2025-summer-a1/map1.jpg"
       ],
       "markscheme": "img/2025-summer-a1/ms-q8b.jpg",
-      "note": "A photograph is under ’Photographs of the specimens’, but the physical sample is not included."
+      "note": "A photograph is under \u2019Photographs of the specimens\u2019, but the physical sample is not included."
     },
     {
       "id": "2025-summer-a1-q9",
@@ -7905,7 +7917,7 @@
         "map",
         "practical"
       ],
-      "summary": "Construct a fully annotated geological cross-section along section line X–Y integrating surface dip data, borehole intercepts, and structural projections.",
+      "summary": "Construct a fully annotated geological cross-section along section line X\u2013Y integrating surface dip data, borehole intercepts, and structural projections.",
       "image": "img/2025-summer-a1/q10.jpg",
       "figures": [
         "img/2025-summer-a1/map1.jpg"
@@ -8601,7 +8613,7 @@
         "map",
         "practical"
       ],
-      "summary": "Construct a complete geological cross-section along topographic profile Y–Z showing folded stratigraphic units, faults, unconformities, and cross-cutting relationships.",
+      "summary": "Construct a complete geological cross-section along topographic profile Y\u2013Z showing folded stratigraphic units, faults, unconformities, and cross-cutting relationships.",
       "image": "img/2019-summer-a1/q9a.jpg",
       "figures": [
         "img/2019-summer-a1/map1.jpg"
@@ -8674,7 +8686,7 @@
         "2.1"
       ],
       "skills": [],
-      "summary": "Identify a climatic zone where freeze–thaw weathering operates most effectively and justify the choice with temperature and moisture conditions.",
+      "summary": "Identify a climatic zone where freeze\u2013thaw weathering operates most effectively and justify the choice with temperature and moisture conditions.",
       "image": "img/2019-summer-a2/q1aiii.jpg",
       "figures": [
         "img/2019-summer-a2/fig-q1a.jpg"
@@ -8732,7 +8744,7 @@
       "skills": [
         "practical"
       ],
-      "summary": "Complete the data table comparing marine and terrestrial species diversity at the Permian–Triassic boundary.",
+      "summary": "Complete the data table comparing marine and terrestrial species diversity at the Permian\u2013Triassic boundary.",
       "image": "img/2019-summer-a2/q2ai.jpg",
       "figures": [
         "img/2019-summer-a2/fig-q2a.jpg"
@@ -8770,7 +8782,7 @@
         "G3.1"
       ],
       "skills": [],
-      "summary": "Define the term mass extinction and outline its defining characteristics with reference to the Permian–Triassic event.",
+      "summary": "Define the term mass extinction and outline its defining characteristics with reference to the Permian\u2013Triassic event.",
       "image": "img/2019-summer-a2/q2b.jpg",
       "figures": [
         "img/2019-summer-a2/fig-q2a.jpg"
@@ -8922,7 +8934,7 @@
         "G2"
       ],
       "skills": [],
-      "summary": "Critique a student’s description of the antiform as asymmetric, overturned, and isoclinal using geometric evidence.",
+      "summary": "Critique a student\u2019s description of the antiform as asymmetric, overturned, and isoclinal using geometric evidence.",
       "image": "img/2019-summer-a2/q3c.jpg",
       "figures": [
         "img/2019-summer-a2/fig-q3b.jpg"
@@ -8962,7 +8974,7 @@
       "skills": [
         "practical"
       ],
-      "summary": "Determine from the depth–density graph the crossover depths where rock salt becomes less dense than shale and sandstone.",
+      "summary": "Determine from the depth\u2013density graph the crossover depths where rock salt becomes less dense than shale and sandstone.",
       "image": "img/2019-summer-a2/q4bi.jpg",
       "figures": [
         "img/2019-summer-a2/fig-q4a.jpg",
@@ -9074,7 +9086,7 @@
         "4.1"
       ],
       "skills": [],
-      "summary": "Mark with an arrow labelled X the probable seismometer recording location on Earth’s surface based on wave paths.",
+      "summary": "Mark with an arrow labelled X the probable seismometer recording location on Earth\u2019s surface based on wave paths.",
       "image": "img/2019-summer-a2/q5aii.jpg",
       "figures": [
         "img/2019-summer-a2/fig-q5a.jpg",
@@ -9109,7 +9121,7 @@
         "4.1"
       ],
       "skills": [],
-      "summary": "Explain why direct P-waves are absent from the shadow zone between 103° and 142° angular distance.",
+      "summary": "Explain why direct P-waves are absent from the shadow zone between 103\u00b0 and 142\u00b0 angular distance.",
       "image": "img/2019-summer-a2/q5bii.jpg",
       "figures": [
         "img/2019-summer-a2/fig-q5a.jpg"
@@ -9146,7 +9158,7 @@
         "maths",
         "practical"
       ],
-      "summary": "Calculate the radius of Earth’s core in kilometres using the ray geometry diagram and trigonometric working.",
+      "summary": "Calculate the radius of Earth\u2019s core in kilometres using the ray geometry diagram and trigonometric working.",
       "image": "img/2019-summer-a2/q5c.jpg",
       "figures": [
         "img/2019-summer-a2/fig-q5c.jpg"
@@ -9185,7 +9197,7 @@
         "4.2"
       ],
       "skills": [],
-      "summary": "Evaluate why evolved intermediate–silicic volcanic products at Hekla conflict with simple divergent plate margin melting models.",
+      "summary": "Evaluate why evolved intermediate\u2013silicic volcanic products at Hekla conflict with simple divergent plate margin melting models.",
       "image": "img/2019-summer-a2/q6b.jpg",
       "figures": [
         "img/2019-summer-a2/fig-q6a.jpg",
@@ -9207,7 +9219,7 @@
         "maths",
         "practical"
       ],
-      "summary": "Complete the Spearman’s rank data table by calculating the missing rank values for eruption intervals and volumes.",
+      "summary": "Complete the Spearman\u2019s rank data table by calculating the missing rank values for eruption intervals and volumes.",
       "image": "img/2019-summer-a2/q6ci.jpg",
       "figures": [],
       "markscheme": "img/2019-summer-a2/ms-q6ci.jpg"
@@ -9226,7 +9238,7 @@
         "maths",
         "practical"
       ],
-      "summary": "Calculate the Spearman’s rank correlation coefficient using the given formula and table data.",
+      "summary": "Calculate the Spearman\u2019s rank correlation coefficient using the given formula and table data.",
       "image": "img/2019-summer-a2/q6cii.jpg",
       "figures": [],
       "markscheme": "img/2019-summer-a2/ms-q6cii.jpg"
@@ -9338,7 +9350,7 @@
         "maths",
         "practical"
       ],
-      "summary": "Plot the relative densities of meteorites X and Y on the Earth density–depth graph.",
+      "summary": "Plot the relative densities of meteorites X and Y on the Earth density\u2013depth graph.",
       "image": "img/2020-autumn-c2/q1cii.jpg",
       "figures": [
         "img/2020-autumn-c2/fig-q1b.jpg"
@@ -9355,7 +9367,7 @@
         "4.1"
       ],
       "skills": [],
-      "summary": "Explain how meteorite compositions and densities provide indirect evidence for Earth’s internal core and mantle.",
+      "summary": "Explain how meteorite compositions and densities provide indirect evidence for Earth\u2019s internal core and mantle.",
       "image": "img/2020-autumn-c2/q1ciii.jpg",
       "figures": [
         "img/2020-autumn-c2/fig-q1b.jpg"
@@ -9372,7 +9384,7 @@
         "4.1"
       ],
       "skills": [],
-      "summary": "Describe one other line of evidence, such as seismic wave behaviour or xenoliths, used to deduce Earth’s internal structure.",
+      "summary": "Describe one other line of evidence, such as seismic wave behaviour or xenoliths, used to deduce Earth\u2019s internal structure.",
       "image": "img/2020-autumn-c2/q1d.jpg",
       "figures": [],
       "markscheme": "img/2020-autumn-c2/ms-q1d.jpg"
@@ -9707,7 +9719,7 @@
         "maths",
         "practical"
       ],
-      "summary": "Plot two earthquake focal depth data points onto the Wadati–Benioff zone cross-section graph.",
+      "summary": "Plot two earthquake focal depth data points onto the Wadati\u2013Benioff zone cross-section graph.",
       "image": "img/2020-autumn-c2/q5a.jpg",
       "figures": [
         "img/2020-autumn-c2/fig-q5a.jpg",
@@ -10088,7 +10100,7 @@
         "G1.1"
       ],
       "skills": [],
-      "summary": "Describe the chemical partitioning of sodium, calcium, and silica between coexisting melt and crystal phases at 1450°C.",
+      "summary": "Describe the chemical partitioning of sodium, calcium, and silica between coexisting melt and crystal phases at 1450\u00b0C.",
       "image": "img/2020-autumn-a2/q2cii.jpg",
       "figures": [
         "img/2020-autumn-a2/fig-q2.jpg"
@@ -10688,7 +10700,7 @@
         "4.1"
       ],
       "skills": [],
-      "summary": "Explain how ferromagnetic minerals in cooling basaltic oceanic crust acquire and preserve Earth’s magnetic field orientation below the Curie temperature.",
+      "summary": "Explain how ferromagnetic minerals in cooling basaltic oceanic crust acquire and preserve Earth\u2019s magnetic field orientation below the Curie temperature.",
       "image": "img/2021-autumn-a2/q2bii.jpg",
       "figures": [
         "img/2021-autumn-a2/fig-q2.jpg"
@@ -10853,7 +10865,7 @@
       "skills": [
         "practical"
       ],
-      "summary": "Highlight three textural distinctions observed between polished surfaces of chondritic stony meteorites and Widmanstätten iron meteorites.",
+      "summary": "Highlight three textural distinctions observed between polished surfaces of chondritic stony meteorites and Widmanst\u00e4tten iron meteorites.",
       "image": "img/2021-autumn-a2/q4aii.jpg",
       "figures": [
         "img/2021-autumn-a2/fig-q4a.jpg"
@@ -10889,7 +10901,7 @@
         "G1.2"
       ],
       "skills": [],
-      "summary": "Compare relative percentage abundances of iron across Earth’s crust, bulk Earth, stony chondrites, and iron meteorites.",
+      "summary": "Compare relative percentage abundances of iron across Earth\u2019s crust, bulk Earth, stony chondrites, and iron meteorites.",
       "image": "img/2021-autumn-a2/q4bii.jpg",
       "figures": [
         "img/2021-autumn-a2/fig-q4b.jpg"
@@ -10982,7 +10994,7 @@
         "G3.2"
       ],
       "skills": [],
-      "summary": "Evaluate a student’s assertion regarding whether volcanic tuff horizons and lithofacies boundaries are diachronous or isochronous.",
+      "summary": "Evaluate a student\u2019s assertion regarding whether volcanic tuff horizons and lithofacies boundaries are diachronous or isochronous.",
       "image": "img/2021-autumn-a2/q5cii.jpg",
       "figures": [
         "img/2021-autumn-a2/fig-q5b.jpg"
@@ -11021,7 +11033,7 @@
       "skills": [
         "practical"
       ],
-      "summary": "Demonstrate how the borehole log and chronostratigraphic cross-section together illustrate the principles of Walther’s Law.",
+      "summary": "Demonstrate how the borehole log and chronostratigraphic cross-section together illustrate the principles of Walther\u2019s Law.",
       "image": "img/2021-autumn-a2/q5dii.jpg",
       "figures": [
         "img/2021-autumn-a2/fig-q5a.jpg",
@@ -11835,7 +11847,7 @@
         "1.1"
       ],
       "skills": [],
-      "summary": "Identify the external and internal energy sources driving Earth’s rock cycle processes.",
+      "summary": "Identify the external and internal energy sources driving Earth\u2019s rock cycle processes.",
       "image": "img/2022-summer-a2/q1a.jpg",
       "figures": [
         "img/2022-summer-a2/fig-q1a.jpg"
@@ -11914,7 +11926,7 @@
       "skills": [
         "practical"
       ],
-      "summary": "Evaluate a student’s claim regarding the specific geological environment where the metamorphic rock formed.",
+      "summary": "Evaluate a student\u2019s claim regarding the specific geological environment where the metamorphic rock formed.",
       "image": "img/2022-summer-a2/q1cii.jpg",
       "figures": [
         "img/2022-summer-a2/fig-q1a.jpg",
@@ -11976,7 +11988,7 @@
         "maths",
         "practical"
       ],
-      "summary": "Read the Hjulström diagram to find minimum erosion and transport velocities for specified quartz grain sizes.",
+      "summary": "Read the Hjulstr\u00f6m diagram to find minimum erosion and transport velocities for specified quartz grain sizes.",
       "image": "img/2022-summer-a2/q2ai.jpg",
       "figures": [
         "img/2022-summer-a2/fig-q2a.jpg"
@@ -12014,7 +12026,7 @@
       "skills": [
         "practical"
       ],
-      "summary": "Sketch expected erosion and settling curves for sediment grains denser than quartz on the Hjulström graph.",
+      "summary": "Sketch expected erosion and settling curves for sediment grains denser than quartz on the Hjulstr\u00f6m graph.",
       "image": "img/2022-summer-a2/q2aiii.jpg",
       "figures": [
         "img/2022-summer-a2/fig-q2a.jpg"
@@ -12086,7 +12098,7 @@
         "G3.1"
       ],
       "skills": [],
-      "summary": "Critically evaluate a student’s proposal that the trilobite exhibited a pelagic mode of life.",
+      "summary": "Critically evaluate a student\u2019s proposal that the trilobite exhibited a pelagic mode of life.",
       "image": "img/2022-summer-a2/q3aii.jpg",
       "figures": [
         "img/2022-summer-a2/fig-q3a.jpg"
@@ -12389,7 +12401,7 @@
         "G3.1"
       ],
       "skills": [],
-      "summary": "Evaluate a student’s inference about past tropical latitudes based on the occurrence of fossil Silurian reefs.",
+      "summary": "Evaluate a student\u2019s inference about past tropical latitudes based on the occurrence of fossil Silurian reefs.",
       "image": "img/2022-summer-a2/q6aii.jpg",
       "figures": [
         "img/2022-summer-a2/fig-q6a.jpg"
@@ -12537,7 +12549,7 @@
         "4.1"
       ],
       "skills": [],
-      "summary": "Explain how Earth’s mean bulk density provides evidence for a dense iron-nickel core compared to crust and mantle densities.",
+      "summary": "Explain how Earth\u2019s mean bulk density provides evidence for a dense iron-nickel core compared to crust and mantle densities.",
       "image": "img/2023-summer-c2/q1c.jpg",
       "figures": [],
       "markscheme": "img/2023-summer-c2/ms-q1c.jpg"
@@ -12624,7 +12636,7 @@
         "1.1"
       ],
       "skills": [],
-      "summary": "Identify the internal and external energy sources responsible for driving Earth’s rock cycle.",
+      "summary": "Identify the internal and external energy sources responsible for driving Earth\u2019s rock cycle.",
       "image": "img/2023-summer-c2/q2dii.jpg",
       "figures": [],
       "markscheme": "img/2023-summer-c2/ms-q2dii.jpg"
@@ -13121,7 +13133,7 @@
         "maths",
         "practical"
       ],
-      "summary": "Describe the diversity trajectory of the Cambrian fauna across the Lower Palaeozoic from Sepkoski’s curves.",
+      "summary": "Describe the diversity trajectory of the Cambrian fauna across the Lower Palaeozoic from Sepkoski\u2019s curves.",
       "image": "img/2023-summer-a2/q1bi.jpg",
       "figures": [
         "img/2023-summer-a2/fig-q1a.jpg"
@@ -13160,7 +13172,7 @@
         "3.2"
       ],
       "skills": [],
-      "summary": "Critically evaluate a student’s proposition that every geological period culminates in a mass extinction event.",
+      "summary": "Critically evaluate a student\u2019s proposition that every geological period culminates in a mass extinction event.",
       "image": "img/2023-summer-a2/q1c.jpg",
       "figures": [
         "img/2023-summer-a2/fig-q1a.jpg"
@@ -13328,7 +13340,7 @@
         "4.1"
       ],
       "skills": [],
-      "summary": "Deduce the physical density constraints on Earth’s core implied by the mantle density profile and bulk Earth mass.",
+      "summary": "Deduce the physical density constraints on Earth\u2019s core implied by the mantle density profile and bulk Earth mass.",
       "image": "img/2023-summer-a2/q2di.jpg",
       "figures": [
         "img/2023-summer-a2/fig-q2c.jpg"
@@ -13345,7 +13357,7 @@
         "4.1"
       ],
       "skills": [],
-      "summary": "Explain how Earth’s geomagnetic field reveals the composition and fluid convective state of the outer core.",
+      "summary": "Explain how Earth\u2019s geomagnetic field reveals the composition and fluid convective state of the outer core.",
       "image": "img/2023-summer-a2/q2dii.jpg",
       "figures": [],
       "markscheme": "img/2023-summer-a2/ms-q2dii.jpg"
@@ -13440,7 +13452,7 @@
         "4.2"
       ],
       "skills": [],
-      "summary": "Evaluate a student’s claim regarding the spatial distribution and plate margin association of global mantle plumes.",
+      "summary": "Evaluate a student\u2019s claim regarding the spatial distribution and plate margin association of global mantle plumes.",
       "image": "img/2023-summer-a2/q4a.jpg",
       "figures": [
         "img/2023-summer-a2/fig-q4a.jpg"
@@ -13458,7 +13470,7 @@
         "4.2"
       ],
       "skills": [],
-      "summary": "Assess whether seismic tomography under Yellowstone supports Morgan’s deep lower-mantle plume hypothesis.",
+      "summary": "Assess whether seismic tomography under Yellowstone supports Morgan\u2019s deep lower-mantle plume hypothesis.",
       "image": "img/2023-summer-a2/q4b.jpg",
       "figures": [
         "img/2023-summer-a2/fig-q4a.jpg",
@@ -13938,7 +13950,7 @@
         "maths",
         "practical"
       ],
-      "summary": "Mark on polar equal-area stereonet Figure 3b the dip angle (45°) and dip direction (280°) of limestone bedding from Table 1.",
+      "summary": "Mark on polar equal-area stereonet Figure 3b the dip angle (45\u00b0) and dip direction (280\u00b0) of limestone bedding from Table 1.",
       "image": "img/2024-summer-a2/q3ai.jpg",
       "figures": [
         "img/2024-summer-a2/fig-q3a.jpg",
@@ -14399,7 +14411,7 @@
       "skills": [
         "maths"
       ],
-      "summary": "Calculate the resultant velocity of the continental plate moving on a bearing of 055° with a northward component of 29 mm/yr using trigonometry (29 / cos(55°) = 50-51 mm/yr).",
+      "summary": "Calculate the resultant velocity of the continental plate moving on a bearing of 055\u00b0 with a northward component of 29 mm/yr using trigonometry (29 / cos(55\u00b0) = 50-51 mm/yr).",
       "image": "img/2024-summer-a2/q6cii.jpg",
       "figures": [
         "img/2024-summer-a2/fig-q6b.jpg"
@@ -15802,7 +15814,7 @@
         "maths",
         "practical"
       ],
-      "summary": "State the distance the Pūhāhonu volcano has travelled from the fixed mantle plume in Figure 3a (1434 km).",
+      "summary": "State the distance the P\u016bh\u0101honu volcano has travelled from the fixed mantle plume in Figure 3a (1434 km).",
       "image": "img/2025-summer-a2/q3ai.jpg",
       "markscheme": "img/2025-summer-a2/ms-q3ai.jpg"
     },
@@ -15819,7 +15831,7 @@
         "maths",
         "practical"
       ],
-      "summary": "Calculate the mean rate of Pacific Plate movement in cm/yr since the formation of Pūhāhonu (1434 km / 14.5 Ma = 9.90 cm/yr).",
+      "summary": "Calculate the mean rate of Pacific Plate movement in cm/yr since the formation of P\u016bh\u0101honu (1434 km / 14.5 Ma = 9.90 cm/yr).",
       "image": "img/2025-summer-a2/q3aii.jpg",
       "markscheme": "img/2025-summer-a2/ms-q3aii.jpg"
     },
@@ -15850,7 +15862,7 @@
         "2.2"
       ],
       "skills": [],
-      "summary": "Name and describe one volcanic hazard associated with present-day volcanism at Kīlauea (lava flows, SO2 gas, tephra).",
+      "summary": "Name and describe one volcanic hazard associated with present-day volcanism at K\u012blauea (lava flows, SO2 gas, tephra).",
       "image": "img/2025-summer-a2/q3aiv.jpg",
       "markscheme": "img/2025-summer-a2/ms-q3aiv.jpg"
     },
@@ -15896,7 +15908,7 @@
         "maths",
         "practical"
       ],
-      "summary": "State the temperature at which pure forsterite (Mg2SiO4) crystallises from Figure 3c (1890 °C).",
+      "summary": "State the temperature at which pure forsterite (Mg2SiO4) crystallises from Figure 3c (1890 \u00b0C).",
       "image": "img/2025-summer-a2/q3ci.jpg",
       "markscheme": "img/2025-summer-a2/ms-q3ci.jpg"
     },
@@ -15913,7 +15925,7 @@
         "maths",
         "practical"
       ],
-      "summary": "Complete Table 2 for olivine solid solution equilibrium crystallisation in the Pūhāhonu melt (initial crystal %Fe: 08%, 1700°C melt %Fe: 41%, final temp: 1610°C).",
+      "summary": "Complete Table 2 for olivine solid solution equilibrium crystallisation in the P\u016bh\u0101honu melt (initial crystal %Fe: 08%, 1700\u00b0C melt %Fe: 41%, final temp: 1610\u00b0C).",
       "image": "img/2025-summer-a2/q3cii.jpg",
       "markscheme": "img/2025-summer-a2/ms-q3cii.jpg"
     },
@@ -15927,7 +15939,7 @@
         "2.2"
       ],
       "skills": [],
-      "summary": "Suggest how Table 2 compositional data indicates Pūhāhonu erupted very high temperature lava (magnesium-rich olivine requiring higher melting temperatures).",
+      "summary": "Suggest how Table 2 compositional data indicates P\u016bh\u0101honu erupted very high temperature lava (magnesium-rich olivine requiring higher melting temperatures).",
       "image": "img/2025-summer-a2/q3ciii.jpg",
       "markscheme": "img/2025-summer-a2/ms-q3ciii.jpg"
     },
@@ -17533,7 +17545,7 @@
       "skills": [
         "map"
       ],
-      "summary": "Using Figure 1b state the approximate mean strike direction of the folded beds (090° - 270° / E-W).",
+      "summary": "Using Figure 1b state the approximate mean strike direction of the folded beds (090\u00b0 - 270\u00b0 / E-W).",
       "image": "img/2012-summer-gl5-u3/q1ai.jpg",
       "figures": [
         "img/2012-summer-gl5-u3/fig-q1b.jpg",
@@ -17672,7 +17684,7 @@
       "skills": [
         "map"
       ],
-      "summary": "Using Figure 1a state dip angle (20°-24°), dip direction (South), and minimum depth of extraction (0.6 km / 600 m).",
+      "summary": "Using Figure 1a state dip angle (20\u00b0-24\u00b0), dip direction (South), and minimum depth of extraction (0.6 km / 600 m).",
       "image": "img/2012-summer-gl5-u2/q1ai.jpg",
       "figures": [
         "img/2012-summer-gl5-u2/fig-q1a.jpg"
@@ -17830,7 +17842,7 @@
       "skills": [
         "draw"
       ],
-      "summary": "Draw the 600°C isotherm on Figure 1 between 200°C and 1000°C isotherms reflecting slab depression and arc upwarping.",
+      "summary": "Draw the 600\u00b0C isotherm on Figure 1 between 200\u00b0C and 1000\u00b0C isotherms reflecting slab depression and arc upwarping.",
       "image": "img/2012-summer-gl5-u4/q1bi.jpg",
       "figures": [
         "img/2012-summer-gl5-u4/fig-q1.jpg"
@@ -18311,7 +18323,7 @@
       "skills": [
         "map"
       ],
-      "summary": "State maximum principal stress directions forming slate in Quarry B (N-S / 000°-180°), with evidence (E-W striking cleavage dipping 44° S, perpendicular to sigma max).",
+      "summary": "State maximum principal stress directions forming slate in Quarry B (N-S / 000\u00b0-180\u00b0), with evidence (E-W striking cleavage dipping 44\u00b0 S, perpendicular to sigma max).",
       "image": "img/2013-summer-gl4/q4bi.jpg",
       "figures": [
         "img/2013-summer-gl4/fig-q4a.jpg",
@@ -18332,7 +18344,7 @@
       "skills": [
         "eval"
       ],
-      "summary": "Account for difference in orientation/dip of cleavage near gabbro pluton (steepening to 57°-59° and strike swing due to forceful intrusion or rigid buttressing).",
+      "summary": "Account for difference in orientation/dip of cleavage near gabbro pluton (steepening to 57\u00b0-59\u00b0 and strike swing due to forceful intrusion or rigid buttressing).",
       "image": "img/2013-summer-gl4/q4bii.jpg",
       "figures": [
         "img/2013-summer-gl4/fig-q4a.jpg"
@@ -18432,7 +18444,7 @@
       "skills": [
         "eval"
       ],
-      "summary": "Describe and explain one field evidence supporting Welsh ice sheet advance from east (E-W striations, roche moutonnée, Welsh volcanic erratics).",
+      "summary": "Describe and explain one field evidence supporting Welsh ice sheet advance from east (E-W striations, roche moutonn\u00e9e, Welsh volcanic erratics).",
       "image": "img/2013-summer-gl5-u1/q1aii.jpg",
       "figures": [
         "img/2013-summer-gl5-u1/fig-q1a.jpg"
@@ -18794,7 +18806,7 @@
       "skills": [
         "eval"
       ],
-      "summary": "Evaluate statement on early Palaeozoic Wales climate and latitude (warm tropical coral reef climate supported; constant latitude refuted by palaeomagnetic drift from 30°-60°S).",
+      "summary": "Evaluate statement on early Palaeozoic Wales climate and latitude (warm tropical coral reef climate supported; constant latitude refuted by palaeomagnetic drift from 30\u00b0-60\u00b0S).",
       "image": "img/2013-summer-gl5-u3/q1d.jpg",
       "figures": [
         "img/2013-summer-gl5-u3/fig-q1b.jpg"
@@ -19898,7 +19910,7 @@
         "Calculation",
         "Gradient Analysis"
       ],
-      "summary": "Calculate the average geothermal gradient for the top 20 km of continental crust in °C km⁻¹.",
+      "summary": "Calculate the average geothermal gradient for the top 20 km of continental crust in \u00b0C km\u207b\u00b9.",
       "image": "img/2015-summer-gl4/q1aii.jpg",
       "figures": [
         "img/2015-summer-gl4/fig-q1a.jpg"
@@ -20127,7 +20139,7 @@
       "skills": [
         "Thermal Threshold Explanation"
       ],
-      "summary": "State the temperature (200°C) for the onset of metamorphism and explain why processes start at this temperature.",
+      "summary": "State the temperature (200\u00b0C) for the onset of metamorphism and explain why processes start at this temperature.",
       "image": "img/2015-summer-gl4/q3a.jpg",
       "figures": [
         "img/2015-summer-gl4/fig-q3a.jpg"
@@ -21165,7 +21177,7 @@
       "skills": [
         "Angle Measurement"
       ],
-      "summary": "Measure the angular shear (ψ) of brachiopod X.",
+      "summary": "Measure the angular shear (\u03c8) of brachiopod X.",
       "image": "img/2016-summer-gl4/q3bii.jpg",
       "figures": [
         "img/2016-summer-gl4/fig-q3.jpg"
@@ -21658,7 +21670,7 @@
         "Structural Analysis",
         "Fold Description"
       ],
-      "summary": "Describe fold characteristics in Figure 1a: antiform/anticline, steep northern limb (88°N), gentle southern limb (64°-80°), open asymmetric profile.",
+      "summary": "Describe fold characteristics in Figure 1a: antiform/anticline, steep northern limb (88\u00b0N), gentle southern limb (64\u00b0-80\u00b0), open asymmetric profile.",
       "image": "img/2016-summer-gl5-u3/q1a.jpg",
       "figures": [
         "img/2016-summer-gl5-u3/fig-q1a.jpg"
@@ -21783,7 +21795,7 @@
       "skills": [
         "Graph Data Extraction"
       ],
-      "summary": "Complete Table 1 with crustal volume (7.7-7.9 × 10⁹ km³), Model B crustal age (4.4-4.5 Ga), and Model C peak growth eon (Archean).",
+      "summary": "Complete Table 1 with crustal volume (7.7-7.9 \u00d7 10\u2079 km\u00b3), Model B crustal age (4.4-4.5 Ga), and Model C peak growth eon (Archean).",
       "image": "img/2016-summer-gl5-u4/q1bi.jpg",
       "figures": [
         "img/2016-summer-gl5-u4/fig-q1b.jpg"
@@ -21802,7 +21814,7 @@
       "skills": [
         "Rate Calculation"
       ],
-      "summary": "Calculate mean crustal growth rate for Model B: 1.6 – 1.8 km³ year⁻¹.",
+      "summary": "Calculate mean crustal growth rate for Model B: 1.6 \u2013 1.8 km\u00b3 year\u207b\u00b9.",
       "image": "img/2016-summer-gl5-u4/q1bii.jpg",
       "figures": [
         "img/2016-summer-gl5-u4/fig-q1b.jpg"
@@ -22334,7 +22346,7 @@
       "skills": [
         "Field Observation Description"
       ],
-      "summary": "Describe one piece of field evidence (erratics, striations, roche moutonnée, drumlins) used to determine ice flow direction.",
+      "summary": "Describe one piece of field evidence (erratics, striations, roche moutonn\u00e9e, drumlins) used to determine ice flow direction.",
       "image": "img/2017-summer-gl5-u1/q1a.jpg",
       "figures": [
         "img/2017-summer-gl5-u1/fig-q1a.jpg"
@@ -22616,7 +22628,7 @@
       "skills": [
         "Orientation Measurement"
       ],
-      "summary": "State orientation of Barrovian metamorphic zones in Figure 1a (NE-SW / 070° - 250°).",
+      "summary": "State orientation of Barrovian metamorphic zones in Figure 1a (NE-SW / 070\u00b0 - 250\u00b0).",
       "image": "img/2017-summer-gl5-u3/q1ai.jpg",
       "figures": [
         "img/2017-summer-gl5-u3/fig-q1a.jpg"
@@ -22757,7 +22769,7 @@
       "skills": [
         "Cross-Section Annotation"
       ],
-      "summary": "Draw labelled arrows on Figure 1b for the Mohorovičić discontinuity (M) and the base of the lithosphere (L).",
+      "summary": "Draw labelled arrows on Figure 1b for the Mohorovi\u010di\u0107 discontinuity (M) and the base of the lithosphere (L).",
       "image": "img/2017-summer-gl5-u4/q1a.jpg",
       "figures": [
         "img/2017-summer-gl5-u4/fig-q1b.jpg"
@@ -22839,7 +22851,7 @@
       "skills": [
         "Mathematical Calculation"
       ],
-      "summary": "Calculate age of oceanic crust at X using depth-age formula T = [(Hd - Hr)/0.35]² (expected 55 – 95 Ma).",
+      "summary": "Calculate age of oceanic crust at X using depth-age formula T = [(Hd - Hr)/0.35]\u00b2 (expected 55 \u2013 95 Ma).",
       "image": "img/2017-summer-gl5-u4/q1cii.jpg",
       "figures": [
         "img/2017-summer-gl5-u4/fig-q1b.jpg"
@@ -23003,7 +23015,7 @@
       "skills": [
         "Graph Reading"
       ],
-      "summary": "State the pressure at which andalusite and sillimanite are both in equilibrium at 600°C from Figure 2a (0.25 GPa).",
+      "summary": "State the pressure at which andalusite and sillimanite are both in equilibrium at 600\u00b0C from Figure 2a (0.25 GPa).",
       "image": "img/2018-summer-gl4/q2ai.jpg",
       "figures": [
         "img/2018-summer-gl4/fig-q2a.jpg"
@@ -23168,7 +23180,7 @@
         "Data Extraction",
         "Table Completion"
       ],
-      "summary": "Complete Table 3 to describe the fault characteristics (throw = 15m, vertical stress = σ max, normal fault).",
+      "summary": "Complete Table 3 to describe the fault characteristics (throw = 15m, vertical stress = \u03c3 max, normal fault).",
       "image": "img/2018-summer-gl4/q3bi.jpg",
       "figures": [
         "img/2018-summer-gl4/fig-q3a.jpg"
@@ -23311,7 +23323,7 @@
       "skills": [
         "Calculation"
       ],
-      "summary": "Calculate the volume of basalt erupted from the plume at Réunion over the last 2 Ma (80,000 km³).",
+      "summary": "Calculate the volume of basalt erupted from the plume at R\u00e9union over the last 2 Ma (80,000 km\u00b3).",
       "image": "img/2018-summer-gl4/q4bi.jpg",
       "figures": [
         "img/2018-summer-gl4/fig-q4.jpg"
@@ -23331,7 +23343,7 @@
       "skills": [
         "Comparative Explanation"
       ],
-      "summary": "Account for the large geographical extent of the Deccan Traps compared with Réunion using Figures 4a, 4b, and Table 4.",
+      "summary": "Account for the large geographical extent of the Deccan Traps compared with R\u00e9union using Figures 4a, 4b, and Table 4.",
       "image": "img/2018-summer-gl4/q4bii.jpg",
       "figures": [
         "img/2018-summer-gl4/fig-q4.jpg"
@@ -23411,7 +23423,7 @@
       "skills": [
         "Calculation"
       ],
-      "summary": "Calculate the mean speed of the turbidity current in km min⁻¹ between broken cables B and C from Figure 1a (1.21 km min⁻¹).",
+      "summary": "Calculate the mean speed of the turbidity current in km min\u207b\u00b9 between broken cables B and C from Figure 1a (1.21 km min\u207b\u00b9).",
       "image": "img/2018-summer-gl5-u1/q1aiii.jpg",
       "figures": [
         "img/2018-summer-gl5-u1/fig-q1a.jpg"
@@ -23465,14 +23477,14 @@
       "marks": 3,
       "page": 4,
       "topics": [
-        "Hjulström Curve",
+        "Hjulstr\u00f6m Curve",
         "Uniformitarianism",
         "Palaeohydraulics"
       ],
       "skills": [
         "Concept Application"
       ],
-      "summary": "Explain how the Hjulström curve may be used to interpret current velocities and reconstruct depositional environments from sedimentary rocks.",
+      "summary": "Explain how the Hjulstr\u00f6m curve may be used to interpret current velocities and reconstruct depositional environments from sedimentary rocks.",
       "image": "img/2018-summer-gl5-u1/q1c.jpg",
       "figures": [
         "img/2018-summer-gl5-u1/fig-q1b.jpg"
@@ -23779,7 +23791,7 @@
       "skills": [
         "Calculation"
       ],
-      "summary": "Calculate the strain rate at which the quartz is now deformed when compressed 100 times slower (10⁻¹⁵ s⁻¹).",
+      "summary": "Calculate the strain rate at which the quartz is now deformed when compressed 100 times slower (10\u207b\u00b9\u2075 s\u207b\u00b9).",
       "image": "img/2018-summer-gl5-u4/q1bii.jpg",
       "figures": [
         "img/2018-summer-gl5-u4/fig-q1a.jpg"
@@ -24046,7 +24058,7 @@
         "Measurement",
         "Graph Plotting"
       ],
-      "summary": "Measure the maximum width and length of the pygidium of trilobite A in Figure 2a and plot on Figure 2b (20mm × 30mm).",
+      "summary": "Measure the maximum width and length of the pygidium of trilobite A in Figure 2a and plot on Figure 2b (20mm \u00d7 30mm).",
       "image": "img/2019-summer-gl4/q2ci.jpg",
       "figures": [
         "img/2019-summer-gl4/fig-q2a.jpg",
@@ -24468,7 +24480,7 @@
       "skills": [
         "Calculation"
       ],
-      "summary": "Calculate the rate of sea level rise at Loch Morar between 8000 and 6000 years BP from Figure 1d (0.005 m yr⁻¹).",
+      "summary": "Calculate the rate of sea level rise at Loch Morar between 8000 and 6000 years BP from Figure 1d (0.005 m yr\u207b\u00b9).",
       "image": "img/2019-summer-gl5-u1/q1ci.jpg",
       "figures": [
         "img/2019-summer-gl5-u1/fig-q1d.jpg"
@@ -24569,7 +24581,7 @@
       "skills": [
         "Calculation"
       ],
-      "summary": "Calculate the total volume of hydrocarbons that have accumulated in the Brent field from Figure 1b (8.74 × 10¹⁰ m³).",
+      "summary": "Calculate the total volume of hydrocarbons that have accumulated in the Brent field from Figure 1b (8.74 \u00d7 10\u00b9\u2070 m\u00b3).",
       "image": "img/2019-summer-gl5-u2/q1bi.jpg",
       "figures": [
         "img/2019-summer-gl5-u2/fig-q1.jpg"
@@ -25892,7 +25904,7 @@
         "Critical Evaluation",
         "Palaeoclimate"
       ],
-      "summary": "Evaluate statement that Devonian rocks were deposited 15-20°S (highly likely: peak red bed desert and coral limestone deposition at arid trade wind belts; cannot distinguish north vs south from facies alone).",
+      "summary": "Evaluate statement that Devonian rocks were deposited 15-20\u00b0S (highly likely: peak red bed desert and coral limestone deposition at arid trade wind belts; cannot distinguish north vs south from facies alone).",
       "image": "img/2025-summer-a3/q10ci.jpg",
       "figures": [
         "img/2025-summer-a3/fig-q10a.jpg",
@@ -27772,7 +27784,7 @@
         "Mathematical Calculation",
         "Geological Dip"
       ],
-      "summary": "Calculate the angle of dip of the Upper Magnesian Limestone along line X-Y assuming horizontal topography (2°).",
+      "summary": "Calculate the angle of dip of the Upper Magnesian Limestone along line X-Y assuming horizontal topography (2\u00b0).",
       "image": "img/2023-summer-a3/q3biii.jpg",
       "figures": [
         "img/2023-summer-a3/map1.jpg"
@@ -28204,7 +28216,7 @@
       "skills": [
         "Global Map Interpretation"
       ],
-      "summary": "Describe the global distribution of areas undergoing crustal uplift greater than 8 mm/yr (high latitudes >50°N/S, North America, Scandinavia, Antarctica).",
+      "summary": "Describe the global distribution of areas undergoing crustal uplift greater than 8 mm/yr (high latitudes >50\u00b0N/S, North America, Scandinavia, Antarctica).",
       "image": "img/2023-summer-a3/q8ai.jpg",
       "figures": [
         "img/2023-summer-a3/fig-q8a.jpg"
@@ -28678,7 +28690,7 @@
       "skills": [
         "Stress-Strain Analysis"
       ],
-      "summary": "Describe the difference in deformation behaviour of sandstone cores compressed at 650°C (brittle failure) versus 850°C (ductile flow).",
+      "summary": "Describe the difference in deformation behaviour of sandstone cores compressed at 650\u00b0C (brittle failure) versus 850\u00b0C (ductile flow).",
       "image": "img/2023-summer-a3/q14ai.jpg",
       "figures": [
         "img/2023-summer-a3/fig-q14a.jpg"
@@ -28699,7 +28711,7 @@
         "Graphical Prediction",
         "Rock Mechanics"
       ],
-      "summary": "Sketch the predicted stress-strain curve for sandstone deformed at 850°C with confining pressure increased to 500 MPa.",
+      "summary": "Sketch the predicted stress-strain curve for sandstone deformed at 850\u00b0C with confining pressure increased to 500 MPa.",
       "image": "img/2023-summer-a3/q14aii.jpg",
       "figures": [
         "img/2023-summer-a3/fig-q14a.jpg"
@@ -28824,7 +28836,7 @@
       "skills": [
         "Mathematical Calculation"
       ],
-      "summary": "Calculate the time in seconds that surface seismic waves took to reach Mexico City from the 1985 epicentre at 3.9 km s⁻¹.",
+      "summary": "Calculate the time in seconds that surface seismic waves took to reach Mexico City from the 1985 epicentre at 3.9 km s\u207b\u00b9.",
       "image": "img/2022-summer-a3/q1aii.jpg",
       "figures": [
         "img/2022-summer-a3/fig-q1a.jpg"
@@ -29125,7 +29137,7 @@
       "skills": [
         "Palaeoenvironmental Analysis"
       ],
-      "summary": "Describe the environment of deposition indicated by the coral fossils (warm 25-29°C, shallow marine 1-10m, clear, aerated/turbulent water).",
+      "summary": "Describe the environment of deposition indicated by the coral fossils (warm 25-29\u00b0C, shallow marine 1-10m, clear, aerated/turbulent water).",
       "image": "img/2022-summer-a3/q4bii.jpg",
       "figures": [
         "img/2022-summer-a3/fig-q4.jpg"
@@ -29293,7 +29305,7 @@
         "Mathematical Calculation",
         "Statistical Testing"
       ],
-      "summary": "Complete the blank cells in Table 6 for landslide orientations to the South (O-E = -7, (O-E)² = 49, (O-E)²/E = 3.50).",
+      "summary": "Complete the blank cells in Table 6 for landslide orientations to the South (O-E = -7, (O-E)\u00b2 = 49, (O-E)\u00b2/E = 3.50).",
       "image": "img/2022-summer-a3/q6aii.jpg",
       "figures": [
         "img/2022-summer-a3/tab-q6.jpg"
@@ -29411,7 +29423,7 @@
         "Scientific Explanation",
         "Palaeoclimatology"
       ],
-      "summary": "Explain how oxygen isotope evidence from oceanic sediments is used to reconstruct sea surface temperatures (foraminifera calcite ¹⁸O:¹⁶O ratio proxy).",
+      "summary": "Explain how oxygen isotope evidence from oceanic sediments is used to reconstruct sea surface temperatures (foraminifera calcite \u00b9\u2078O:\u00b9\u2076O ratio proxy).",
       "image": "img/2022-summer-a3/q7aii.jpg",
       "figures": [
         "img/2022-summer-a3/fig-q7a.jpg"
@@ -30523,7 +30535,7 @@
         "Data Plotting",
         "Rose Diagram"
       ],
-      "summary": "Plot the data for the 081°-100° orientation class on the rose diagram in Figure 4.",
+      "summary": "Plot the data for the 081\u00b0-100\u00b0 orientation class on the rose diagram in Figure 4.",
       "image": "img/2021-autumn-a3/q4ai.jpg",
       "figures": [
         "img/2021-autumn-a3/fig-q4.jpg",
@@ -31315,7 +31327,7 @@
         "Thermal Structure",
         "Scientific Explanation"
       ],
-      "summary": "Draw the 1300°C isotherm on Figure 13b and explain its significance for the structure of the lithosphere.",
+      "summary": "Draw the 1300\u00b0C isotherm on Figure 13b and explain its significance for the structure of the lithosphere.",
       "image": "img/2021-autumn-a3/q13ci.jpg",
       "figures": [
         "img/2021-autumn-a3/fig-q13.jpg"
@@ -32553,7 +32565,7 @@
         "Data Description",
         "Isotherm Comparison"
       ],
-      "summary": "Describe two differences in the position of the North Atlantic summer surface 8°C isotherm between 18ka and the present day.",
+      "summary": "Describe two differences in the position of the North Atlantic summer surface 8\u00b0C isotherm between 18ka and the present day.",
       "image": "img/2020-autumn-a3/q7ai.jpg",
       "figures": [
         "img/2020-autumn-a3/fig-q7ab.jpg"
@@ -33093,7 +33105,7 @@
         "Diagram Annotation",
         "Moho Identification"
       ],
-      "summary": "Mark the position of the Mohorovičić discontinuity (Moho) on Figure 14a with an arrow labelled (->M).",
+      "summary": "Mark the position of the Mohorovi\u010di\u0107 discontinuity (Moho) on Figure 14a with an arrow labelled (->M).",
       "image": "img/2020-autumn-a3/q14ai.jpg",
       "figures": [
         "img/2020-autumn-a3/fig-q14.jpg"
@@ -37800,7 +37812,7 @@
         "Data Plotting",
         "Graph Drawing"
       ],
-      "summary": "Draw a line on Figure 2b showing observed Mercalli intensity along transect P–Q.",
+      "summary": "Draw a line on Figure 2b showing observed Mercalli intensity along transect P\u2013Q.",
       "image": "img/2016-summer-gl3/q2cii.jpg",
       "figures": [
         "img/2016-summer-gl3/fig-q2a.jpg",
@@ -39937,7 +39949,7 @@
         "Numerical Calculation",
         "Working Presentation"
       ],
-      "summary": "Calculate the temperature of rock at a depth of 3000 m given a geothermal gradient of 25 °C km-1.",
+      "summary": "Calculate the temperature of rock at a depth of 3000 m given a geothermal gradient of 25 \u00b0C km-1.",
       "image": "img/2014-winter-gl3/q1b.jpg",
       "figures": [
         "img/2014-winter-gl3/fig-q1a.jpg"
@@ -42783,6 +42795,644 @@
         "img/2012-winter-gl3/fig-q2b.jpg"
       ],
       "markscheme": "img/2012-winter-gl3/ms-q2d.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q1ai",
+      "paper": "2023-summer-a1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "4.2",
+        "T1.1"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Add arrows in the two boxes on Figure 1a to show the relative direction of movement for the North American plate and Eurasian plate.",
+      "image": "img/2023-summer-a1/q1ai.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig1a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q1aii",
+      "paper": "2023-summer-a1",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "2.2",
+        "T1.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the height of Hekla from Figure 1b and estimate the area of Katla from Figure 1a.",
+      "image": "img/2023-summer-a1/q1aii.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig1a.jpg",
+        "img/2023-summer-a1/fig1b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q1aiii",
+      "paper": "2023-summer-a1",
+      "question": "1(a)(iii)",
+      "marks": 4,
+      "page": 3,
+      "topics": [
+        "2.2",
+        "G1.1"
+      ],
+      "skills": [],
+      "summary": "Hekla has a steeper slope angle than Katla. Give a possible geological explanation for this difference based on lava composition.",
+      "image": "img/2023-summer-a1/q1aiii.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig1a.jpg",
+        "img/2023-summer-a1/fig1b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q1bi",
+      "paper": "2023-summer-a1",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "T1.1",
+        "T1.2"
+      ],
+      "skills": [],
+      "summary": "State two possible impacts of the volcanic ash fall on the island of Heimaey.",
+      "image": "img/2023-summer-a1/q1bi.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig1c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q1bii",
+      "paper": "2023-summer-a1",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 4,
+      "topics": [
+        "T1.1",
+        "T1.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Suggest one factor responsible for the distribution and thickness of the ash shown on Figure 1c.",
+      "image": "img/2023-summer-a1/q1bii.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig1c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q1c",
+      "paper": "2023-summer-a1",
+      "question": "1(c)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "T1.2"
+      ],
+      "skills": [],
+      "summary": "Explain why spraying the lava with seawater might have prevented the lava closing off the harbour entrance.",
+      "image": "img/2023-summer-a1/q1c.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig1c.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q1c.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q1d",
+      "paper": "2023-summer-a1",
+      "question": "1(d)",
+      "marks": 4,
+      "page": 5,
+      "topics": [
+        "T1.2"
+      ],
+      "skills": [],
+      "summary": "Describe two methods that could be used to monitor potential future eruptions of Icelandic volcanoes and how each indicates imminent eruption.",
+      "image": "img/2023-summer-a1/q1d.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a1/ms-q1d.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q2a",
+      "paper": "2023-summer-a1",
+      "question": "2(a)",
+      "marks": 1,
+      "page": 6,
+      "topics": [
+        "1.1",
+        "2.2"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "State which mineral on Figure 2a has the largest range of crystallisation temperatures.",
+      "image": "img/2023-summer-a1/q2a.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig2a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q2a.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q2bi",
+      "paper": "2023-summer-a1",
+      "question": "2(b)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "Explain what is meant by the term 'solid solution series' with reference to olivine.",
+      "image": "img/2023-summer-a1/q2bi.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig2a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q2bi.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q2bii",
+      "paper": "2023-summer-a1",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "Explain why Mg2+ and Fe2+ can substitute for each other in the crystal lattice of olivine.",
+      "image": "img/2023-summer-a1/q2bii.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig2a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q2bii.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q2c",
+      "paper": "2023-summer-a1",
+      "question": "2(c)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "1.1",
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Evaluate a student's suggestion that crystallisation temperatures explain why some silicate minerals are more resistant to chemical weathering.",
+      "image": "img/2023-summer-a1/q2c.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig2a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q2c.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q2d",
+      "paper": "2023-summer-a1",
+      "question": "2(d)",
+      "marks": 4,
+      "page": 8,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Describe the products produced and the processes involved when an arkose sandstone undergoes weathering in a tropical environment.",
+      "image": "img/2023-summer-a1/q2d.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig2b.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q2d.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q3ai",
+      "paper": "2023-summer-a1",
+      "question": "3(a)(i)",
+      "marks": 6,
+      "page": 9,
+      "topics": [
+        "1.1",
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Complete Table 3 describing physical property tests (hardness, lustre, cleavage) and observations for minerals in Specimen C.",
+      "image": "img/2023-summer-a1/q3ai.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a1/ms-q3ai.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q3aii",
+      "paper": "2023-summer-a1",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "1.1",
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "With reference to Table 3 and the Mineral Data Sheet, name the white and black/brown rock forming minerals in Specimen C.",
+      "image": "img/2023-summer-a1/q3aii.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a1/ms-q3aii.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q3bi",
+      "paper": "2023-summer-a1",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the texture of Specimen C (Cornish Granite).",
+      "image": "img/2023-summer-a1/q3bi.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a1/ms-q3bi.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q3bii",
+      "paper": "2023-summer-a1",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 10,
+      "topics": [
+        "2.2",
+        "G1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Suggest the probable cooling history of Specimen C.",
+      "image": "img/2023-summer-a1/q3bii.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a1/ms-q3bii.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q4ai",
+      "paper": "2023-summer-a1",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Measure and record the orientation of the long axis of phenocryst J shown in Figure 4a.",
+      "image": "img/2023-summer-a1/q4ai.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig4a.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q4ai.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q4aii",
+      "paper": "2023-summer-a1",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the orientation of phenocrysts at Locality 2 shown in the Figure 4c rose diagram.",
+      "image": "img/2023-summer-a1/q4aii.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig4bc.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q4aii.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q4bi",
+      "paper": "2023-summer-a1",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Using data from Figure 4c, complete the blank cells for the 150\u00b0-179\u00b0 class in the chi-squared Table 4.",
+      "image": "img/2023-summer-a1/q4bi.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig4bc.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q4bi.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q4bii",
+      "paper": "2023-summer-a1",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Using the significance chart (Figure 4d), explain why the null hypothesis can be rejected at the 95% confidence level.",
+      "image": "img/2023-summer-a1/q4bii.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig4d.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q4bii.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q4c",
+      "paper": "2023-summer-a1",
+      "question": "4(c)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.2",
+        "G1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "With reference to chi-squared data, suggest a geological explanation for orientation of phenocrysts at Locality 1 and Locality 2.",
+      "image": "img/2023-summer-a1/q4c.jpg",
+      "figures": [
+        "img/2023-summer-a1/map2.jpg",
+        "img/2023-summer-a1/fig4bc.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q4c.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q5a",
+      "paper": "2023-summer-a1",
+      "question": "5(a)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "1.1",
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Describe the texture and composition of Specimen B (Oolitic Limestone).",
+      "image": "img/2023-summer-a1/q5a.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a1/ms-q5a.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q5b",
+      "paper": "2023-summer-a1",
+      "question": "5(b)",
+      "marks": 4,
+      "page": 14,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "In the space provided, draw a diagram of Specimen K (brachiopod) with scale, shape, and anatomical detail.",
+      "image": "img/2023-summer-a1/q5b.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a1/ms-q5b.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q5c",
+      "paper": "2023-summer-a1",
+      "question": "5(c)",
+      "marks": 2,
+      "page": 14,
+      "topics": [
+        "3.1",
+        "G3.1"
+      ],
+      "skills": [],
+      "summary": "Name the fossil group represented by Specimen K and give a reason based on symmetry, foramen, or valves.",
+      "image": "img/2023-summer-a1/q5c.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a1/ms-q5c.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q5d",
+      "paper": "2023-summer-a1",
+      "question": "5(d)",
+      "marks": 4,
+      "page": 14,
+      "topics": [
+        "2.1",
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Evaluate the statement that Rock Unit B was deposited in a shallow, tropical, marine environment using Specimen B and Specimen K.",
+      "image": "img/2023-summer-a1/q5d.jpg",
+      "figures": [],
+      "markscheme": "img/2023-summer-a1/ms-q5d.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q5e",
+      "paper": "2023-summer-a1",
+      "question": "5(e)",
+      "marks": 2,
+      "page": 15,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "State, giving a reason from Figure 5, the type of sandstone represented by Rock Unit E (greywacke).",
+      "image": "img/2023-summer-a1/q5e.jpg",
+      "figures": [
+        "img/2023-summer-a1/fig5.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q5e.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q6",
+      "paper": "2023-summer-a1",
+      "question": "6",
+      "marks": 9,
+      "page": 16,
+      "topics": [
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "practical",
+        "map"
+      ],
+      "summary": "State and give reasons for the observations you would make in a field investigation to confirm age relationships of Rock Units A, B, C, and E in Box A.",
+      "image": "img/2023-summer-a1/q6.jpg",
+      "figures": [
+        "img/2023-summer-a1/map2.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q6.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q7a",
+      "paper": "2023-summer-a1",
+      "question": "7(a)",
+      "marks": 3,
+      "page": 19,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "map",
+        "practical"
+      ],
+      "summary": "Draw on Map 2 the position of a fold axial plane trace to the north and south of Fault F2 showing type and plunge.",
+      "image": "img/2023-summer-a1/q7a.jpg",
+      "figures": [
+        "img/2023-summer-a1/map2.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q7a.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q7b",
+      "paper": "2023-summer-a1",
+      "question": "7(b)",
+      "marks": 1,
+      "page": 19,
+      "topics": [
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "map",
+        "practical"
+      ],
+      "summary": "Label on Map 2, using an arrow labelled U, the position of an unconformity to the west of Fault F1.",
+      "image": "img/2023-summer-a1/q7b.jpg",
+      "figures": [
+        "img/2023-summer-a1/map2.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q7b.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q7ci",
+      "paper": "2023-summer-a1",
+      "question": "7(c)(i)",
+      "marks": 4,
+      "page": 19,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "map",
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete Table 5 to compare Fault F1 and Fault F2 (vertical displacement, dip amount and direction, fault type).",
+      "image": "img/2023-summer-a1/q7ci.jpg",
+      "figures": [
+        "img/2023-summer-a1/map2.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q7ci.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q7cii",
+      "paper": "2023-summer-a1",
+      "question": "7(c)(ii)",
+      "marks": 2,
+      "page": 19,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the evidence for your choice of fault type for Faults F1 and F2.",
+      "image": "img/2023-summer-a1/q7cii.jpg",
+      "figures": [
+        "img/2023-summer-a1/map2.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q7cii.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q8",
+      "paper": "2023-summer-a1",
+      "question": "8",
+      "marks": 13,
+      "page": 20,
+      "topics": [
+        "2.3",
+        "T2.1"
+      ],
+      "skills": [
+        "map",
+        "maths",
+        "practical"
+      ],
+      "summary": "Complete the geological cross-section along line X\u2013Y on Map 1 with rock units, dip, fold axes, and cross-cutting relationships.",
+      "image": "img/2023-summer-a1/q8.jpg",
+      "figures": [
+        "img/2023-summer-a1/map2.jpg",
+        "img/2023-summer-a1/fig8_profile.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q8.jpg"
+    },
+    {
+      "id": "2023-summer-a1-q9",
+      "paper": "2023-summer-a1",
+      "question": "9",
+      "marks": 6,
+      "page": 21,
+      "topics": [
+        "2.3",
+        "G2"
+      ],
+      "skills": [
+        "map",
+        "practical"
+      ],
+      "summary": "Evaluate a student's conclusion that rocks on Map 1 have all been subjected to three episodes of deformation occurring at different times.",
+      "image": "img/2023-summer-a1/q9.jpg",
+      "figures": [
+        "img/2023-summer-a1/map2.jpg"
+      ],
+      "markscheme": "img/2023-summer-a1/ms-q9.jpg"
     }
   ],
   "levels": [
