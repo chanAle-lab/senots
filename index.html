@@ -1318,261 +1318,427 @@ footer {
 
 
 /* ========================================================
-   GEOLLION: DEEP EARTH TRIVIA GAME STYLES (Krillion-inspired)
+   GEOLLION: AUTHENTIC KRILLION-STYLE DEEP EARTH TRIVIA
    ======================================================== */
-.geollion-panel {
-  background: var(--surface);
-  border: 1px solid var(--border);
+.geollion-cockpit {
+  background: #080f1e;
+  color: #f1f5f9;
+  border: 1px solid #1e293b;
   border-radius: var(--radius-lg);
   padding: 24px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
-.geollion-banner {
-  background: linear-gradient(135deg, rgba(220, 38, 38, 0.08) 0%, rgba(245, 158, 11, 0.08) 100%);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 20px 24px;
+
+/* Top Cockpit Header */
+.geollion-hud-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 14px;
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(51, 65, 85, 0.6);
+  border-radius: var(--radius);
+  padding: 12px 18px;
 }
-.geollion-banner-title {
-  font-size: 1.45rem;
-  font-weight: 800;
-  color: var(--ink);
+.geollion-hud-title {
   display: flex;
   align-items: center;
   gap: 10px;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: #f8fafc;
+  text-transform: uppercase;
 }
-.geollion-banner-desc {
-  font-size: 0.9rem;
-  color: var(--ink-secondary);
-  max-width: 660px;
-  margin-top: 4px;
-  line-height: 1.45;
+.geollion-daily-pill {
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: rgba(239, 68, 68, 0.2);
+  border: 1px solid rgba(239, 68, 68, 0.5);
+  color: #fca5a5;
+  letter-spacing: 0.06em;
+}
+.geollion-hud-stats {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+.geollion-depth-counter {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #38bdf8;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
 }
 
-/* Earth Depth Meter */
-.geollion-meter-card {
-  background: var(--surface-hover);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 14px 18px;
+/* 7 Dives Pips Bar */
+.geollion-pips-bar {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.geollion-meter-top {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  font-size: 0.88rem;
-  font-weight: 700;
-  color: var(--ink);
+  gap: 8px;
+  background: #0b1329;
+  border: 1px solid #1e293b;
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.geollion-meter-bar {
+.geollion-pips-list {
   display: flex;
-  width: 100%;
-  height: 22px;
-  border-radius: 11px;
-  overflow: hidden;
-  border: 1px solid var(--border);
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
-  position: relative;
+  gap: 8px;
+  align-items: center;
 }
-.geollion-meter-seg {
-  height: 100%;
+.geollion-pip {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.65rem;
+  font-size: 0.82rem;
   font-weight: 800;
-  color: #fff;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
-  transition: all 0.3s ease;
-  overflow: hidden;
-  white-space: nowrap;
+  border: 2px solid #334155;
+  background: #0f172a;
+  color: #64748b;
+  transition: all 0.2s ease;
+  font-family: ui-monospace, monospace;
 }
-.geollion-meter-seg.active-tier {
-  filter: brightness(1.35);
-  box-shadow: inset 0 0 6px #fff;
-  transform: scaleY(1.15);
-  z-index: 2;
+.geollion-pip.pip-current {
+  border-color: #38bdf8;
+  color: #38bdf8;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.5);
+  animation: pipPulse 1.4s infinite ease-in-out;
+}
+@keyframes pipPulse {
+  0%, 100% { transform: scale(1); border-color: #38bdf8; }
+  50% { transform: scale(1.08); border-color: #7dd3fc; }
+}
+.geollion-pip.pip-plankton { background: #64748b; border-color: #94a3b8; color: #fff; }
+.geollion-pip.pip-schooler { background: #059669; border-color: #34d399; color: #fff; }
+.geollion-pip.pip-rare     { background: #0284c7; border-color: #38bdf8; color: #fff; }
+.geollion-pip.pip-deepcut  { background: #7c3aed; border-color: #a78bfa; color: #fff; }
+.geollion-pip.pip-outercore{ background: #d97706; border-color: #fbbf24; color: #fff; }
+.geollion-pip.pip-innercore{ background: #dc2626; border-color: #f87171; color: #fff; box-shadow: 0 0 8px rgba(220, 38, 38, 0.7); }
+.geollion-pip.pip-miss     { background: #1e293b; border-color: #475569; color: #94a3b8; }
+
+/* Timer Display */
+.geollion-timer-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.geollion-timer-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ui-monospace, monospace;
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+  transition: all 0.2s ease;
+}
+.geollion-timer-box.timer-urgent {
+  border-color: #ef4444;
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.2);
+  animation: timerPanic 0.7s infinite alternate;
+}
+@keyframes timerPanic {
+  0% { transform: scale(1); box-shadow: 0 0 4px #ef4444; }
+  100% { transform: scale(1.1); box-shadow: 0 0 16px #ef4444; }
 }
 
-/* Stage Box */
-.geollion-stage {
-  background: var(--surface);
-  border: 2px solid var(--border);
+/* Stage & Prompt Card */
+.geollion-stage-card {
+  background: #0d1527;
+  border: 1px solid #1e293b;
   border-radius: var(--radius-lg);
   padding: 36px 24px;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 16px;
   position: relative;
+  overflow: hidden;
 }
-.geollion-cat-badge {
-  font-size: 0.76rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  padding: 4px 12px;
-  border-radius: 20px;
-  background: var(--surface-hover);
-  border: 1px solid var(--border);
-  color: var(--ink-secondary);
+.geollion-stage-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, #38bdf8, #818cf8, #f43f5e);
 }
-.geollion-prompt-text {
-  font-size: 2rem;
+.geollion-category-pill {
+  font-size: 0.75rem;
   font-weight: 800;
-  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 4px 14px;
+  border-radius: 20px;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  color: #38bdf8;
+}
+.geollion-prompt-title {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #f8fafc;
   line-height: 1.25;
   margin: 0;
-  max-width: 740px;
+  max-width: 760px;
 }
-.geollion-prompt-sub {
-  font-size: 1rem;
-  color: var(--muted);
+.geollion-prompt-hint {
+  font-size: 0.98rem;
+  color: #94a3b8;
   margin-top: -6px;
 }
-.geollion-input-wrap {
+
+/* Input & Refusal */
+.geollion-input-group {
   display: flex;
   gap: 10px;
   width: 100%;
-  max-width: 580px;
+  max-width: 600px;
   margin-top: 10px;
+  position: relative;
 }
-.geollion-input {
+.geollion-text-input {
   flex: 1;
-  padding: 13px 18px;
-  font-size: 1.15rem;
+  padding: 14px 20px;
+  font-size: 1.2rem;
   font-weight: 600;
   border-radius: var(--radius);
-  border: 2px solid var(--border);
-  background: var(--surface);
-  color: var(--ink);
+  border: 2px solid #334155;
+  background: #070c18;
+  color: #f8fafc;
   outline: none;
   transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: inherit;
 }
-.geollion-input:focus {
-  border-color: #dc2626;
-  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
+.geollion-text-input:focus {
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
 }
-.btn-geollion-drill {
-  background: #dc2626;
+.geollion-text-input.input-refused {
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.35) !important;
+  background: rgba(239, 68, 68, 0.08) !important;
+}
+
+/* The Signature Krillion Shake */
+.krillion-shake {
+  animation: krillionShake 0.45s cubic-bezier(.36,.07,.19,.97) both;
+}
+@keyframes krillionShake {
+  10%, 90% { transform: translate3d(-3px, 0, 0); }
+  20%, 80% { transform: translate3d(5px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-7px, 0, 0); }
+  40%, 60% { transform: translate3d(7px, 0, 0); }
+}
+
+.btn-geollion-submit {
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 14px 28px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.1s, box-shadow 0.2s;
+}
+.btn-geollion-submit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.4);
+}
+.btn-geollion-giveup {
+  background: transparent;
+  color: #64748b;
+  border: 1px solid #334155;
+  border-radius: var(--radius);
+  padding: 8px 16px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-geollion-giveup:hover {
+  color: #f1f5f9;
+  border-color: #64748b;
+  background: rgba(255,255,255,0.05);
+}
+
+/* Refusal Toast */
+.geollion-refusal-toast {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.5);
+  color: #fca5a5;
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  display: none;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  animation: geollionToastIn 0.25s ease-out;
+}
+@keyframes geollionToastIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Reveal Screen */
+.geollion-reveal-card {
+  background: #0d1527;
+  border: 1px solid #1e293b;
+  border-radius: var(--radius-lg);
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  text-align: center;
+  animation: geollionPop 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes geollionPop {
+  0% { transform: scale(0.94); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.geollion-reveal-tier-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.35rem;
+  font-weight: 900;
+  padding: 10px 26px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.geollion-reveal-depth {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: ui-monospace, monospace;
+  line-height: 1;
+}
+
+/* Krillion-style Tier Table */
+.geollion-tiers-table {
+  width: 100%;
+  max-width: 820px;
+  border: 1px solid #1e293b;
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-top: 8px;
+  background: #070c18;
+  text-align: left;
+}
+.geollion-tier-thead {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: #0b1329;
+  border-bottom: 1px solid #1e293b;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.geollion-tier-row {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 16px;
+  gap: 16px;
+  border-bottom: 1px solid #1e293b;
+  font-size: 0.86rem;
+  transition: background 0.15s;
+}
+.geollion-tier-row:last-child { border-bottom: none; }
+.geollion-tier-row.tier-matched {
+  background: rgba(56, 189, 248, 0.12);
+  border-left: 4px solid #38bdf8;
+}
+.geollion-tier-name-col {
+  width: 160px;
+  flex-shrink: 0;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.geollion-tier-words-col {
+  flex: 1;
+  color: #cbd5e1;
+  line-height: 1.45;
+}
+
+/* Summary Screen & Krillion Share Grid */
+.geollion-summary-box {
+  background: #0d1527;
+  border: 1px solid #1e293b;
+  border-radius: var(--radius-lg);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.geollion-rank-callout {
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+}
+.geollion-share-preview {
+  background: #070c18;
+  border: 1px dashed #334155;
+  border-radius: var(--radius);
+  padding: 16px 22px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #f1f5f9;
+  text-align: left;
+  max-width: 500px;
+  width: 100%;
+}
+.btn-geollion-share {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   color: #fff;
   border: none;
   border-radius: var(--radius);
   padding: 13px 26px;
   font-size: 1.05rem;
-  font-weight: 700;
-  cursor: pointer;
-  transition: background 0.15s, transform 0.1s;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-.btn-geollion-drill:hover {
-  background: #b91c1c;
-  transform: translateY(-1px);
-}
-.btn-geollion-skip {
-  background: transparent;
-  color: var(--muted);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 7px 16px;
-  font-size: 0.82rem;
-  cursor: pointer;
-  margin-top: 6px;
-}
-.btn-geollion-skip:hover {
-  color: var(--ink);
-  background: var(--surface-hover);
-}
-
-/* Reveal styling */
-.geollion-reveal-box {
-  padding: 24px;
-  border-radius: var(--radius-lg);
-  border: 2px solid var(--border);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 14px;
-  width: 100%;
-  animation: geollionPop 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-@keyframes geollionPop {
-  0% { transform: scale(0.92); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
-}
-.geollion-tier-title {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 1.25rem;
   font-weight: 800;
-  padding: 8px 22px;
-  border-radius: 30px;
-}
-.geollion-depth-callout {
-  font-size: 2.3rem;
-  font-weight: 900;
-  line-height: 1;
-}
-.geollion-all-tiers-box {
-  width: 100%;
-  max-width: 820px;
-  text-align: left;
-  margin-top: 10px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-.geollion-tier-header {
-  padding: 10px 14px;
-  background: var(--surface-hover);
-  font-size: 0.82rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--ink);
-  border-bottom: 1px solid var(--border);
-}
-.geollion-tier-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 10px 14px;
-  border-bottom: 1px solid var(--border);
-  font-size: 0.86rem;
-}
-.geollion-tier-row:last-child {
-  border-bottom: none;
-}
-.geollion-tier-row.hit-tier {
-  background: rgba(220, 38, 38, 0.09);
-  font-weight: 700;
-}
-.geollion-tier-label {
-  width: 140px;
-  flex-shrink: 0;
-  font-weight: 700;
-  display: flex;
+  cursor: pointer;
+  display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+  transition: transform 0.1s, box-shadow 0.2s;
 }
-.geollion-tier-items {
-  color: var(--ink-secondary);
-  line-height: 1.45;
+.btn-geollion-share:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);
 }
 
 /* Quiz Generator UI */
@@ -3635,6 +3801,54 @@ const QuizAudio = {
       });
     });
   },
+  sonar() {
+    this.play(ctx => {
+      const t = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const g = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(1400, t);
+      osc.frequency.exponentialRampToValueAtTime(1050, t + 0.35);
+      g.gain.setValueAtTime(0.18, t);
+      g.gain.exponentialRampToValueAtTime(0.001, t + 0.35);
+      osc.connect(g);
+      g.connect(ctx.destination);
+      osc.start(t);
+      osc.stop(t + 0.35);
+    });
+  },
+  tick() {
+    this.play(ctx => {
+      const t = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const g = ctx.createGain();
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(880, t);
+      g.gain.setValueAtTime(0.14, t);
+      g.gain.exponentialRampToValueAtTime(0.001, t + 0.04);
+      osc.connect(g);
+      g.connect(ctx.destination);
+      osc.start(t);
+      osc.stop(t + 0.04);
+    });
+  },
+  refusal() {
+    this.play(ctx => {
+      const t = ctx.currentTime;
+      [180, 140].forEach((f, i) => {
+        const osc = ctx.createOscillator();
+        const g = ctx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(f, t + i * 0.1);
+        g.gain.setValueAtTime(0.2, t + i * 0.1);
+        g.gain.exponentialRampToValueAtTime(0.001, t + i * 0.1 + 0.12);
+        osc.connect(g);
+        g.connect(ctx.destination);
+        osc.start(t + i * 0.1);
+        osc.stop(t + i * 0.1 + 0.12);
+      });
+    });
+  },
   wrong() {
     this.play(ctx => {
       const t = ctx.currentTime;
@@ -3862,20 +4076,20 @@ function renderTeacherDashboard() {
       <div>
         <h2 class="teacher-section-title">⚡ Quick-Start Lesson Presets</h2>
         <div class="teacher-presets-grid">
-          <div class="preset-card" onclick="launchGeollionPreset('classic7')">
+          <div class="preset-card" onclick="switchTeacherTab('geollion'); launchGeollionDailyDive();">
             <div>
-              <h3 class="preset-title">🌋 7-Prompt Geollion Drill</h3>
-              <p class="preset-sub">Classic 25-second rarity dive across petrology, index minerals, and tectonic landforms.</p>
+              <h3 class="preset-title">📅 Today's Daily Dive (7 Prompts)</h3>
+              <p class="preset-sub">Global daily challenge seeded identically today. 25s per prompt — rare answers plunge 7,000m to the core!</p>
             </div>
-            <span class="preset-action" style="color:#dc2626">Launch Drill →</span>
+            <span class="preset-action" style="color:#38bdf8">Play Daily Dive →</span>
           </div>
 
-          <div class="preset-card" onclick="launchGeollionPreset('teamdrill')">
+          <div class="preset-card" onclick="switchTeacherTab('geollion'); launchGeollionTeamMode();">
             <div>
-              <h3 class="preset-title">⚔️ Team Core Race (Showdown)</h3>
+              <h3 class="preset-title">⚔️ Team Core Race (Class Showdown)</h3>
               <p class="preset-sub">Team Lithosphere vs Team Asthenosphere competing for deepest cumulative Earth depth.</p>
             </div>
-            <span class="preset-action" style="color:#dc2626">Start Match →</span>
+            <span class="preset-action" style="color:#ef4444">Start Showdown →</span>
           </div>
           <div class="preset-card" onclick="launchQuizPreset('bellringer')">
             <div>
@@ -3951,7 +4165,7 @@ function launchWorksheetPreset(type) {
 }
 
 /* ========================================================
-   GEOLLION: THE DEEP EARTH TRIVIA GAME IMPLEMENTATION
+   GEOLLION: THE AUTHENTIC KRILLION DEEP EARTH TRIVIA GAME
    ======================================================== */
 const GEOLLION_PROMPTS = [
   {
@@ -5284,126 +5498,182 @@ const GEOLLION_PROMPTS = [
 
 const GEOLLION_TIERS = {
   crust: {
-    name: 'Crustal (Common)',
+    name: 'Plankton (Common Crust)',
+    tag: 'Plankton',
     icon: '🪨',
-    depth: 25,
-    points: 100,
-    color: '#78716c',
-    bg: '#f5f5f4',
-    border: '#d6d3d1',
-    desc: 'Surface & shallow continental crust'
+    depth: 100,
+    points: 10,
+    color: '#94a3b8',
+    bg: '#1e293b',
+    border: '#475569',
+    pipClass: 'pip-plankton',
+    emoji: '🟫',
+    desc: 'The super-obvious surface answer'
   },
   lithosphere: {
-    name: 'Lithosphere (Uncommon)',
-    icon: '🌋',
-    depth: 180,
-    points: 350,
-    color: '#65a30d',
-    bg: '#f7fee7',
-    border: '#bef264',
-    desc: 'Rigid lithosphere & uppermost mantle'
+    name: 'Schooler (Lithosphere)',
+    tag: 'Schooler',
+    icon: '🐟',
+    depth: 300,
+    points: 30,
+    color: '#34d399',
+    bg: 'rgba(5, 150, 105, 0.2)',
+    border: '#059669',
+    pipClass: 'pip-schooler',
+    emoji: '🟩',
+    desc: 'Solid upper mantle knowledge'
   },
   transition: {
-    name: 'Transition Zone (Rare)',
+    name: 'Rare (Transition Zone)',
+    tag: 'Rare',
     icon: '💎',
-    depth: 550,
-    points: 750,
-    color: '#0891b2',
-    bg: '#ecfeff',
-    border: '#a5f3fc',
-    desc: 'High-pressure phase transformation zone'
+    depth: 600,
+    points: 60,
+    color: '#38bdf8',
+    bg: 'rgba(2, 132, 199, 0.2)',
+    border: '#0284c7',
+    pipClass: 'pip-rare',
+    emoji: '🟦',
+    desc: 'Deep high-pressure phase answer'
   },
   lower_mantle: {
-    name: 'Lower Mantle (Deep Cut)',
+    name: 'Deep Cut (Lower Mantle)',
+    tag: 'Deep Cut',
     icon: '⚡',
-    depth: 1750,
-    points: 1350,
-    color: '#d97706',
-    bg: '#fffbeb',
-    border: '#fde68a',
-    desc: 'Deep convective lower mantle (mesosphere)'
+    depth: 850,
+    points: 85,
+    color: '#a78bfa',
+    bg: 'rgba(124, 58, 237, 0.2)',
+    border: '#7c3aed',
+    pipClass: 'pip-deepcut',
+    emoji: '🟪',
+    desc: 'Very obscure curriculum specialty'
   },
   outer_core: {
-    name: 'Outer Core (Ultra Rare)',
+    name: 'Abyssal Core (Outer Core)',
+    tag: 'Abyssal Core',
     icon: '🌊',
-    depth: 4000,
-    points: 2000,
-    color: '#ea580c',
-    bg: '#fff7ed',
-    border: '#fed7aa',
-    desc: 'Liquid iron-nickel core geodynamo'
+    depth: 950,
+    points: 95,
+    color: '#fbbf24',
+    bg: 'rgba(217, 119, 6, 0.2)',
+    border: '#d97706',
+    pipClass: 'pip-outercore',
+    emoji: '🟧',
+    desc: 'Ultra-rare liquid geodynamo depth'
   },
   inner_core: {
-    name: 'Inner Core (ONE IN A GEOLLION!)',
+    name: 'ONE IN A GEOLLION! (Inner Core)',
+    tag: 'ONE IN A GEOLLION!',
     icon: '🔥',
-    depth: 6371,
-    points: 3000,
-    color: '#dc2626',
-    bg: '#fef2f2',
-    border: '#fca5a5',
-    desc: 'The center of the Earth — legendary rarity!'
+    depth: 1000,
+    points: 100,
+    color: '#f87171',
+    bg: 'rgba(220, 38, 38, 0.25)',
+    border: '#dc2626',
+    pipClass: 'pip-innercore',
+    emoji: '🟥',
+    desc: 'The absolute deepest answer (<2% of players)!'
+  },
+  miss: {
+    name: 'Refused / Timed Out',
+    tag: 'Miss',
+    icon: '⬜',
+    depth: 0,
+    points: 0,
+    color: '#64748b',
+    bg: '#0f172a',
+    border: '#334155',
+    pipClass: 'pip-miss',
+    emoji: '⬜',
+    desc: 'No depth gained on this dive'
   }
 };
 
 const geollionState = {
   screen: 'setup', // 'setup', 'playing', 'reveal', 'summary'
-  mode: 'solo', // 'solo', 'team'
+  mode: 'daily', // 'daily', 'unlimited', 'team'
+  dailyNumber: 1,
   promptCount: 7,
   timerSeconds: 25,
-  topic: 'all', // 'all', 'petrology', 'minerals', 'tectonics', 'fossils', 'hazards'
+  timerRemaining: 25,
+  timerInterval: null,
   soundEnabled: true,
   fuzzyTolerance: true,
 
-  // Runtime
+  // Active game run
   prompts: [],
   currentIdx: 0,
-  timerRemaining: 25,
-  timerInterval: null,
-
-  // Last evaluated result
-  currentAnswer: '',
+  currentDepth: 0,
+  currentScore: 0,
+  history: [],
   lastResult: null,
 
-  // History & cumulative stats
-  history: [],
+  // Team Showdown mode
+  teamMode: false,
+  currentTeam: 1,
   team1Score: 0,
   team1Depth: 0,
   team2Score: 0,
   team2Depth: 0,
-  currentTeam: 1,
   team1Name: 'Team Lithosphere',
   team2Name: 'Team Asthenosphere'
 };
 
+function getGeollionDailyNumber() {
+  const launchDate = new Date('2026-10-01T00:00:00Z');
+  const now = new Date();
+  const diffTime = Math.abs(now - launchDate);
+  return Math.max(1, Math.floor(diffTime / (1000 * 60 * 60 * 24)));
+}
+
+function getDailyDivePrompts() {
+  const dayNum = getGeollionDailyNumber();
+  let a = (dayNum * 1234567) ^ 0x9e3779b9;
+  const rng = () => {
+    let t = a += 0x6D2B79F5;
+    t = Math.imul(t ^ t >>> 15, t | 1);
+    t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  };
+
+  const pool = [...GEOLLION_PROMPTS];
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  return pool.slice(0, 7);
+}
+
 function normalizeGeologyTerm(s) {
   if (!s) return '';
   return s.toLowerCase()
-    .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()'"?]/g, ' ')
+    .replace(/[^\w\s-]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
 
-function levenshteinDistance(s1, s2) {
-  if (s1 === s2) return 0;
-  if (!s1.length) return s2.length;
-  if (!s2.length) return s1.length;
-  const v0 = new Array(s2.length + 1);
-  const v1 = new Array(s2.length + 1);
-  for (let i = 0; i <= s2.length; i++) v0[i] = i;
-  for (let i = 0; i < s1.length; i++) {
-    v1[0] = i + 1;
-    for (let j = 0; j < s2.length; j++) {
-      const cost = s1[i] === s2[j] ? 0 : 1;
-      v1[j + 1] = Math.min(v1[j] + 1, v0[j + 1] + 1, v0[j] + cost);
+function levenshteinDistance(a, b) {
+  const m = a.length, n = b.length;
+  if (m === 0) return n;
+  if (n === 0) return m;
+  const row = Array.from({ length: n + 1 }, (_, i) => i);
+  for (let i = 1; i <= m; i++) {
+    let prev = row[0];
+    row[0] = i;
+    for (let j = 1; j <= n; j++) {
+      const temp = row[j];
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      row[j] = Math.min(row[j] + 1, row[j - 1] + 1, prev + cost);
+      prev = temp;
     }
-    for (let j = 0; j <= s2.length; j++) v0[j] = v1[j];
   }
-  return v1[s2.length];
+  return row[n];
 }
 
 function evaluateGeollionAnswer(userInput, prompt) {
   const normInput = normalizeGeologyTerm(userInput);
-  if (!normInput) return null;
+  if (!normInput) return { matched: false };
 
   const tierOrder = ['inner_core', 'outer_core', 'lower_mantle', 'transition', 'lithosphere', 'crust'];
   const singular = normInput.endsWith('s') && !normInput.endsWith('ss') ? normInput.slice(0, -1) : normInput;
@@ -5444,6 +5714,8 @@ function renderGeollionGenerator() {
 }
 
 function renderGeollionSetup() {
+  geollionState.dailyNumber = getGeollionDailyNumber();
+
   const html = `
     <div class="teacher-hub-wrap">
       <nav class="teacher-nav">
@@ -5453,150 +5725,169 @@ function renderGeollionSetup() {
         <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('worksheet')">📝 Question & Worksheet Generator</button>
       </nav>
 
-      <div class="geollion-panel">
-        <div class="geollion-banner">
-          <div>
-            <div class="geollion-banner-title">🌋 GEOLLION: The Deep Earth Trivia Dive</div>
-            <div class="geollion-banner-desc">
-              Inspired by <i>Krillion</i> — the rarer your answer, the deeper you drill into the Earth!
-              Common answers stay in the shallow crust, while deep-cut specialist geology terms plunge you straight through the Mantle to the <b>Inner Core</b>.
-            </div>
+      <div class="geollion-cockpit">
+        <div class="geollion-hud-header">
+          <div class="geollion-hud-title">
+            <span>🌋 GEOLLION</span>
+            <span class="geollion-daily-pill">DAILY DIVE #${geollionState.dailyNumber}</span>
           </div>
-          <button type="button" class="btn-minimal" onclick="printGeollionHandout()">📄 Print Classroom Handout</button>
-        </div>
-
-        <div class="quiz-config-grid">
-          <div class="quiz-field">
-            <label>Game Mode</label>
-            <select id="cfg-geo-mode" onchange="geollionState.mode=this.value;renderGeollionSetup()">
-              <option value="solo" ${geollionState.mode==='solo'?'selected':''}>Single Device / Solo Drill</option>
-              <option value="team" ${geollionState.mode==='team'?'selected':''}>Team Showdown (Lithosphere vs Asthenosphere)</option>
-            </select>
-          </div>
-
-          <div class="quiz-field">
-            <label>Number of Prompts</label>
-            <select id="cfg-geo-count" onchange="geollionState.promptCount=+this.value">
-              <option value="5" ${geollionState.promptCount===5?'selected':''}>5 Prompts (Quick Drill - 2 mins)</option>
-              <option value="7" ${geollionState.promptCount===7?'selected':''}>7 Prompts (Classic Krillion - 3.5 mins)</option>
-              <option value="10" ${geollionState.promptCount===10?'selected':''}>10 Prompts (Mantle Deep Dive - 5 mins)</option>
-            </select>
-          </div>
-
-          <div class="quiz-field">
-            <label>Curriculum Theme</label>
-            <select id="cfg-geo-topic" onchange="geollionState.topic=this.value">
-              <option value="all" ${geollionState.topic==='all'?'selected':''}>All Geology Topics (Mixed Variety)</option>
-              <option value="petrology" ${geollionState.topic==='petrology'?'selected':''}>Petrology (Igneous, Sedimentary, Metamorphic)</option>
-              <option value="minerals" ${geollionState.topic==='minerals'?'selected':''}>Minerals & Geochemistry</option>
-              <option value="tectonics" ${geollionState.topic==='tectonics'?'selected':''}>Tectonics, Structures & Seismology</option>
-              <option value="hazards" ${geollionState.topic==='hazards'?'selected':''}>Geological Hazards & Surface Processes</option>
-              <option value="fossils" ${geollionState.topic==='fossils'?'selected':''}>Fossils, Time Scale & Extinctions</option>
-            </select>
-          </div>
-
-          <div class="quiz-field">
-            <label>Timer per Prompt</label>
-            <select id="cfg-geo-timer" onchange="geollionState.timerSeconds=+this.value">
-              <option value="15" ${geollionState.timerSeconds===15?'selected':''}>15 seconds (Lightning Rapid)</option>
-              <option value="25" ${geollionState.timerSeconds===25?'selected':''}>25 seconds (Classic Krillion standard)</option>
-              <option value="40" ${geollionState.timerSeconds===40?'selected':''}>40 seconds (Class Discussion Friendly)</option>
-              <option value="0" ${geollionState.timerSeconds===0?'selected':''}>Untimed / Teacher Paced</option>
-            </select>
-          </div>
-
-          <div class="quiz-field" style="grid-column: 1 / -1; display:flex; flex-direction:row; gap:24px; flex-wrap:wrap">
-            <label style="display:flex;align-items:center;gap:6px;cursor:pointer">
-              <input type="checkbox" ${geollionState.soundEnabled?'checked':''} onchange="geollionState.soundEnabled=this.checked">
-              <span>🔊 Audio Sound Effects (ticks, rumbles & chimes)</span>
-            </label>
-            <label style="display:flex;align-items:center;gap:6px;cursor:pointer">
-              <input type="checkbox" ${geollionState.fuzzyTolerance?'checked':''} onchange="geollionState.fuzzyTolerance=this.checked">
-              <span>✨ Spelling & Typo Tolerance (accepts close spellings)</span>
-            </label>
+          <div style="font-size:0.85rem;color:#94a3b8">
+            The Official Rare-Answer Geological Deep Dive
           </div>
         </div>
 
-        <div style="background:var(--surface-hover);padding:16px;border-radius:var(--radius);border:1px solid var(--border)">
-          <div style="font-size:0.85rem;font-weight:700;margin-bottom:8px;color:var(--ink)">Earth Layer Depth Ranks:</div>
-          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px">
-            <div style="background:#f5f5f4;padding:8px 10px;border-radius:6px;border:1px solid #d6d3d1;font-size:0.75rem;color:#44403c">
-              <b>🪨 Crustal (Common)</b><br>0–35 km · 100 pts
-            </div>
-            <div style="background:#f7fee7;padding:8px 10px;border-radius:6px;border:1px solid #bef264;font-size:0.75rem;color:#365314">
-              <b>🌋 Lithosphere</b><br>35–410 km · 350 pts
-            </div>
-            <div style="background:#ecfeff;padding:8px 10px;border-radius:6px;border:1px solid #a5f3fc;font-size:0.75rem;color:#155e75">
-              <b>💎 Transition Zone</b><br>410–660 km · 750 pts
-            </div>
-            <div style="background:#fffbeb;padding:8px 10px;border-radius:6px;border:1px solid #fde68a;font-size:0.75rem;color:#854d0e">
-              <b>⚡ Lower Mantle</b><br>660–2,890 km · 1,350 pts
-            </div>
-            <div style="background:#fff7ed;padding:8px 10px;border-radius:6px;border:1px solid #fed7aa;font-size:0.75rem;color:#9a3412">
-              <b>🌊 Outer Core</b><br>2,890–5,150 km · 2,000 pts
-            </div>
-            <div style="background:#fef2f2;padding:8px 10px;border-radius:6px;border:1px solid #fca5a5;font-size:0.75rem;color:#991b1b">
-              <b>🔥 Inner Core</b><br>6,371 km · 3,000 pts
+        <div style="background:#0d1527;border:1px solid #1e293b;border-radius:var(--radius-lg);padding:30px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:18px">
+          <div style="font-size:2.4rem;font-weight:900;letter-spacing:-0.02em;color:#f8fafc">
+            THE DEEPER THE CUT, THE DEEPER THE DIVE.
+          </div>
+          <p style="max-width:680px;color:#94a3b8;font-size:1.02rem;line-height:1.55;margin:0">
+            Inspired by <b>Krillion</b>. For each prompt, you have <b>25 seconds</b> to type an answer. Common answers stay at the crust (+100m). Obscure, niche answers plunge your drill into the <b>Inner Core (+1,000m)</b>. Invalid terms get <b>refused</b> so keep digging until the clock runs out!
+          </p>
+
+          <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:12px">
+            <button type="button" class="btn-geollion-submit" style="font-size:1.15rem;padding:16px 36px;background:linear-gradient(135deg,#dc2626 0%,#991b1b 100%)" onclick="launchGeollionDailyDive()">
+              📅 PLAY DAILY DIVE #${geollionState.dailyNumber} →
+            </button>
+            <button type="button" class="btn-geollion-submit" style="font-size:1.15rem;padding:16px 32px" onclick="launchGeollionUnlimited()">
+              ♾️ PLAY UNLIMITED (Random 7)
+            </button>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:16px">
+          <div style="background:#0d1527;border:1px solid #1e293b;border-radius:var(--radius);padding:18px">
+            <div style="font-weight:800;font-size:1rem;color:#f8fafc;margin-bottom:6px">⚔️ Classroom Showdown Mode</div>
+            <p style="font-size:0.85rem;color:#94a3b8;line-height:1.45;margin-bottom:12px">
+              Split the room into <b>Team Lithosphere</b> vs <b>Team Asthenosphere</b>. Alternating prompts head-to-head on the smartboard.
+            </p>
+            <button type="button" class="btn-geollion-giveup" style="color:#38bdf8;border-color:#0284c7" onclick="launchGeollionTeamMode()">
+              Start Team Face-Off →
+            </button>
+          </div>
+
+          <div style="background:#0d1527;border:1px solid #1e293b;border-radius:var(--radius);padding:18px">
+            <div style="font-weight:800;font-size:1rem;color:#f8fafc;margin-bottom:6px">📝 Printable Handout Generator</div>
+            <p style="font-size:0.85rem;color:#94a3b8;line-height:1.45;margin-bottom:12px">
+              Print a clean paper sheet for students to write answers offline, complete with the teacher's Depth Tier answer key on the back.
+            </p>
+            <button type="button" class="btn-geollion-giveup" style="color:#34d399;border-color:#059669" onclick="printGeollionHandout()">
+              Print Clean Drill Sheet 🖨️
+            </button>
+          </div>
+
+          <div style="background:#0d1527;border:1px solid #1e293b;border-radius:var(--radius);padding:18px">
+            <div style="font-weight:800;font-size:1rem;color:#f8fafc;margin-bottom:6px">🎚️ Sound & Tolerances</div>
+            <div style="display:flex;flex-direction:column;gap:8px;font-size:0.85rem;color:#cbd5e1;margin-top:8px">
+              <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
+                <input type="checkbox" ${geollionState.soundEnabled ? 'checked' : ''} onchange="geollionState.soundEnabled = this.checked">
+                Sonar, Tick & Drill Audio FX
+              </label>
+              <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
+                <input type="checkbox" ${geollionState.fuzzyTolerance ? 'checked' : ''} onchange="geollionState.fuzzyTolerance = this.checked">
+                Fuzzy Spelling & Plural Tolerance
+              </label>
             </div>
           </div>
         </div>
 
-        <div style="display:flex;justify-content:center;margin-top:8px">
-          <button type="button" class="btn-geollion-drill" style="font-size:1.15rem;padding:16px 36px" onclick="startGeollion()">
-            🌋 Drill to the Core! Start Game →
-          </button>
+        <div style="background:#0b1329;border:1px solid #1e293b;border-radius:var(--radius);padding:16px 20px">
+          <div style="font-size:0.82rem;font-weight:800;text-transform:uppercase;letter-spacing:0.06em;color:#94a3b8;margin-bottom:10px">
+            Depth & Rarity Scoring Tiers (Max 7,000m Total)
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(140px, 1fr));gap:10px;text-align:center">
+            <div style="background:#1e293b;padding:10px;border-radius:6px;border-top:3px solid #94a3b8">
+              <div style="font-size:0.75rem;font-weight:800;color:#94a3b8">🪨 PLANKTON</div>
+              <div style="font-size:1.1rem;font-weight:900;color:#f8fafc;margin:2px 0">+100m</div>
+              <div style="font-size:0.7rem;color:#94a3b8">10 pts • Common</div>
+            </div>
+            <div style="background:rgba(5,150,105,0.15);padding:10px;border-radius:6px;border-top:3px solid #34d399">
+              <div style="font-size:0.75rem;font-weight:800;color:#34d399">🐟 SCHOOLER</div>
+              <div style="font-size:1.1rem;font-weight:900;color:#f8fafc;margin:2px 0">+300m</div>
+              <div style="font-size:0.7rem;color:#34d399">30 pts • Lithosphere</div>
+            </div>
+            <div style="background:rgba(2,132,199,0.15);padding:10px;border-radius:6px;border-top:3px solid #38bdf8">
+              <div style="font-size:0.75rem;font-weight:800;color:#38bdf8">💎 RARE</div>
+              <div style="font-size:1.1rem;font-weight:900;color:#f8fafc;margin:2px 0">+600m</div>
+              <div style="font-size:0.7rem;color:#38bdf8">60 pts • Transition</div>
+            </div>
+            <div style="background:rgba(124,58,237,0.15);padding:10px;border-radius:6px;border-top:3px solid #a78bfa">
+              <div style="font-size:0.75rem;font-weight:800;color:#a78bfa">⚡ DEEP CUT</div>
+              <div style="font-size:1.1rem;font-weight:900;color:#f8fafc;margin:2px 0">+850m</div>
+              <div style="font-size:0.7rem;color:#a78bfa">85 pts • Lower Mantle</div>
+            </div>
+            <div style="background:rgba(217,119,6,0.15);padding:10px;border-radius:6px;border-top:3px solid #fbbf24">
+              <div style="font-size:0.75rem;font-weight:800;color:#fbbf24">🌊 OUTER CORE</div>
+              <div style="font-size:1.1rem;font-weight:900;color:#f8fafc;margin:2px 0">+950m</div>
+              <div style="font-size:0.7rem;color:#fbbf24">95 pts • Geodynamo</div>
+            </div>
+            <div style="background:rgba(220,38,38,0.2);padding:10px;border-radius:6px;border-top:3px solid #ef4444">
+              <div style="font-size:0.75rem;font-weight:800;color:#f87171">🔥 ONE IN A GEOLLION</div>
+              <div style="font-size:1.1rem;font-weight:900;color:#f87171;margin:2px 0">+1,000m</div>
+              <div style="font-size:0.7rem;color:#fca5a5">100 pts • Inner Core</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   `;
-  $('#app-view').innerHTML = html;
+
+  const root = $('#app-root');
+  if (root) root.innerHTML = html;
 }
 
-function launchGeollionPreset(presetType) {
-  state.teacherTab = 'geollion';
-  if (presetType === 'classic7') {
-    geollionState.mode = 'solo';
-    geollionState.promptCount = 7;
-    geollionState.timerSeconds = 25;
-    geollionState.topic = 'all';
-  } else if (presetType === 'teamdrill') {
-    geollionState.mode = 'team';
-    geollionState.promptCount = 8;
-    geollionState.timerSeconds = 25;
-    geollionState.topic = 'all';
+
+function launchGeollionPreset(presetKey) {
+  if (presetKey === 'teamdrill') {
+    launchGeollionTeamMode();
+  } else {
+    launchGeollionDailyDive();
   }
-  startGeollion();
 }
 
-function startGeollion() {
-  let pool = GEOLLION_PROMPTS;
-  if (geollionState.topic !== 'all') {
-    pool = pool.filter(p => p.category === geollionState.topic);
-    if (!pool.length) pool = GEOLLION_PROMPTS;
-  }
+function launchGeollionDailyDive() {
+  geollionState.mode = 'daily';
+  geollionState.teamMode = false;
+  const prompts = getDailyDivePrompts();
+  startGeollion(prompts, `DAILY DIVE #${geollionState.dailyNumber}`);
+}
 
-  // Shuffle pool
-  const shuffled = [...pool].sort(() => 0.5 - Math.random());
-  geollionState.prompts = shuffled.slice(0, Math.min(geollionState.promptCount, shuffled.length));
-  geollionState.currentIdx = 0;
-  geollionState.history = [];
+function launchGeollionUnlimited() {
+  geollionState.mode = 'unlimited';
+  geollionState.teamMode = false;
+  // Random shuffle 7 prompts
+  const pool = [...GEOLLION_PROMPTS].sort(() => Math.random() - 0.5);
+  startGeollion(pool.slice(0, 7), 'UNLIMITED DRILL');
+}
+
+function launchGeollionTeamMode() {
+  geollionState.mode = 'team';
+  geollionState.teamMode = true;
   geollionState.team1Score = 0;
   geollionState.team1Depth = 0;
   geollionState.team2Score = 0;
   geollionState.team2Depth = 0;
   geollionState.currentTeam = 1;
+  const pool = [...GEOLLION_PROMPTS].sort(() => Math.random() - 0.5);
+  startGeollion(pool.slice(0, 8), 'TEAM SHOWDOWN (8 ROUNDS)');
+}
 
+function startGeollion(promptsList, modeTitle) {
+  geollionState.prompts = promptsList;
+  geollionState.promptCount = promptsList.length;
+  geollionState.currentIdx = 0;
+  geollionState.currentDepth = 0;
+  geollionState.currentScore = 0;
+  geollionState.history = [];
+  geollionState.modeTitle = modeTitle;
   geollionState.screen = 'playing';
+
   renderGeollionLive();
+  if (geollionState.soundEnabled) QuizAudio.sonar();
   startGeollionTimer();
 }
 
 function startGeollionTimer() {
   if (geollionState.timerInterval) clearInterval(geollionState.timerInterval);
-  if (!geollionState.timerSeconds) {
-    geollionState.timerRemaining = 0;
-    return;
-  }
   geollionState.timerRemaining = geollionState.timerSeconds;
   updateGeollionTimerDisplay();
 
@@ -5604,174 +5895,218 @@ function startGeollionTimer() {
     geollionState.timerRemaining--;
     updateGeollionTimerDisplay();
 
-    if (geollionState.soundEnabled && geollionState.timerRemaining <= 5 && geollionState.timerRemaining > 0) {
-      QuizAudio.tick();
+    if (geollionState.timerRemaining <= 5 && geollionState.timerRemaining > 0) {
+      if (geollionState.soundEnabled) QuizAudio.tick();
     }
 
     if (geollionState.timerRemaining <= 0) {
       clearInterval(geollionState.timerInterval);
-      submitGeollionAnswer(false);
+      submitGeollionAnswer(true); // Auto-timeout / give up
     }
   }, 1000);
 }
 
 function updateGeollionTimerDisplay() {
-  const el = $('#geo-timer-num');
-  const box = $('#geo-timer-box');
-  if (el) el.textContent = `${geollionState.timerRemaining}s`;
-  if (box) {
+  const el = $('#geollion-timer');
+  if (el) {
+    el.textContent = geollionState.timerRemaining;
     if (geollionState.timerRemaining <= 5) {
-      box.classList.add('urgent');
+      el.classList.add('timer-urgent');
     } else {
-      box.classList.remove('urgent');
+      el.classList.remove('timer-urgent');
     }
   }
+}
+
+function renderPipsHtml() {
+  return Array.from({ length: geollionState.promptCount }, (_, i) => {
+    let pipClass = '';
+    let content = `${i + 1}`;
+    if (i < geollionState.history.length) {
+      const rec = geollionState.history[i];
+      pipClass = rec.tierInfo ? rec.tierInfo.pipClass : 'pip-miss';
+      content = rec.matched ? `${rec.depth}m` : '0m';
+    } else if (i === geollionState.currentIdx) {
+      pipClass = 'pip-current';
+    }
+    return `<div class="geollion-pip ${pipClass}" title="Dive ${i + 1}">${content}</div>`;
+  }).join('');
 }
 
 function renderGeollionLive() {
   const p = geollionState.prompts[geollionState.currentIdx];
   const roundNum = geollionState.currentIdx + 1;
-  const totalRounds = geollionState.prompts.length;
+  const maxDepth = geollionState.promptCount * 1000;
 
-  let teamBannerHtml = '';
-  if (geollionState.mode === 'team') {
-    const isT1 = geollionState.currentTeam === 1;
-    teamBannerHtml = `
-      <div class="quiz-scoreboard-grid" style="margin-bottom:12px">
-        <div class="team-score-card ${isT1 ? 'active-team' : ''}" style="${isT1 ? 'border-color:#dc2626;background:rgba(220,38,38,0.08);' : ''}">
-          <div>
-            <div class="team-name" style="${isT1 ? 'color:#dc2626;font-weight:800' : ''}">🌋 ${geollionState.team1Name} ${isT1 ? '◀ CURRENT TURN' : ''}</div>
-            <div style="font-size:0.8rem;color:var(--muted)">Depth: ${geollionState.team1Depth.toLocaleString()} km · ${geollionState.team1Score} pts</div>
-          </div>
-        </div>
-        <div class="team-score-card ${!isT1 ? 'active-team' : ''}" style="${!isT1 ? 'border-color:#ea580c;background:rgba(234,88,12,0.08);' : ''}">
-          <div>
-            <div class="team-name" style="${!isT1 ? 'color:#ea580c;font-weight:800' : ''}">🌊 ${geollionState.team2Name} ${!isT1 ? '◀ CURRENT TURN' : ''}</div>
-            <div style="font-size:0.8rem;color:var(--muted)">Depth: ${geollionState.team2Depth.toLocaleString()} km · ${geollionState.team2Score} pts</div>
-          </div>
-        </div>
-      </div>
-    `;
-  }
-
-  const totalCumulativeDepth = geollionState.mode === 'team' 
-    ? (geollionState.team1Depth + geollionState.team2Depth)
-    : geollionState.history.reduce((sum, h) => sum + h.depth, 0);
+  const activeTeamBanner = geollionState.teamMode ? `
+    <div style="background:${geollionState.currentTeam === 1 ? 'rgba(56,189,248,0.2)' : 'rgba(239,68,68,0.2)'};border:1px solid ${geollionState.currentTeam === 1 ? '#0284c7' : '#dc2626'};padding:8px 16px;border-radius:20px;font-size:0.85rem;font-weight:800;color:#f8fafc">
+      Active Turn: ${geollionState.currentTeam === 1 ? geollionState.team1Name : geollionState.team2Name}
+    </div>
+  ` : '';
 
   const html = `
     <div class="teacher-hub-wrap">
-      <div class="geollion-panel">
-        <div class="quiz-live-header">
-          <div class="quiz-live-progress">
-            PROMPT <b>${roundNum}</b> OF <b>${totalRounds}</b> · DRILL EXPEDITION
-          </div>
-          <div style="display:flex;align-items:center;gap:12px">
-            ${geollionState.timerSeconds ? `
-              <div class="quiz-timer-box" id="geo-timer-box">
-                ⏱️ <span id="geo-timer-num">${geollionState.timerRemaining}s</span>
-              </div>
-            ` : '<div class="quiz-timer-box">⏱️ Untimed</div>'}
-            <button type="button" class="btn-minimal" onclick="geollionState.soundEnabled=!geollionState.soundEnabled;this.textContent=geollionState.soundEnabled?'🔊 Sound':'🔇 Mute'">
-              ${geollionState.soundEnabled ? '🔊 Sound' : '🔇 Mute'}
-            </button>
-            <button type="button" class="btn-minimal" onclick="abandonGeollion()">✕ Exit</button>
-          </div>
-        </div>
+      <nav class="teacher-nav">
+        <button type="button" class="teacher-nav-btn" onclick="abandonGeollion()">← Exit Drill</button>
+        <button type="button" class="teacher-nav-btn active">🌋 ${esc(geollionState.modeTitle || 'Geollion')}</button>
+      </nav>
 
-        ${teamBannerHtml}
-
-        <div class="geollion-meter-card">
-          <div class="geollion-meter-top">
-            <span>EARTH STRATIGRAPHY & CORE METER</span>
-            <span>Total Drilled: <span style="color:#dc2626">${totalCumulativeDepth.toLocaleString()} km</span></span>
+      <div class="geollion-cockpit">
+        <div class="geollion-hud-header">
+          <div class="geollion-hud-title">
+            <span>🌋 GEOLLION</span>
+            <span class="geollion-daily-pill">${esc(geollionState.modeTitle || 'DIVE')}</span>
+            ${activeTeamBanner}
           </div>
-          <div class="geollion-meter-bar">
-            <div class="geollion-meter-seg" style="width:12%;background:#78716c;" title="Crust (0-35km)">CRUST</div>
-            <div class="geollion-meter-seg" style="width:16%;background:#65a30d;" title="Lithosphere (35-410km)">LITHO</div>
-            <div class="geollion-meter-seg" style="width:18%;background:#0891b2;" title="Transition (410-660km)">TRANSITION</div>
-            <div class="geollion-meter-seg" style="width:24%;background:#d97706;" title="Lower Mantle (660-2890km)">LOWER MANTLE</div>
-            <div class="geollion-meter-seg" style="width:18%;background:#ea580c;" title="Outer Core (2890-5150km)">OUTER CORE</div>
-            <div class="geollion-meter-seg" style="width:12%;background:#dc2626;" title="Inner Core (5150-6371km)">CORE</div>
+          <div class="geollion-hud-stats">
+            <div class="geollion-depth-counter">
+              <span>DEPTH:</span>
+              <span id="geollion-live-depth">${geollionState.currentDepth.toLocaleString()}m</span>
+              <span style="font-size:0.75rem;color:#64748b">/ ${maxDepth.toLocaleString()}m</span>
+            </div>
+            <div class="geollion-timer-wrap">
+              <div id="geollion-timer" class="geollion-timer-box">${geollionState.timerRemaining}</div>
+            </div>
           </div>
         </div>
 
-        <div class="geollion-stage">
-          <span class="geollion-cat-badge">${p.category.toUpperCase()}</span>
-          <h2 class="geollion-prompt-text">${esc(p.prompt)}</h2>
-          ${p.hint ? `<div class="geollion-prompt-sub">${esc(p.hint)}</div>` : ''}
+        <div class="geollion-pips-bar">
+          <div style="font-size:0.8rem;font-weight:800;letter-spacing:0.06em;color:#94a3b8;text-transform:uppercase">
+            DIVE ${roundNum} OF ${geollionState.promptCount}
+          </div>
+          <div class="geollion-pips-list">
+            ${renderPipsHtml()}
+          </div>
+        </div>
 
-          <div class="geollion-input-wrap">
-            <input type="text" id="geollion-input" class="geollion-input" placeholder="Type your answer (rarer is deeper)..." autocomplete="off" autofocus>
-            <button type="button" class="btn-geollion-drill" onclick="submitGeollionAnswer(false)">
-              Drill! ➔
+        <div class="geollion-stage-card">
+          <div class="geollion-category-pill">${esc(p.category)}</div>
+          <h2 class="geollion-prompt-title">${esc(p.prompt)}</h2>
+          ${p.hint ? `<div class="geollion-prompt-hint">${esc(p.hint)}</div>` : ''}
+
+          <div class="geollion-input-group">
+            <input type="text" id="geollion-input" class="geollion-text-input" placeholder="Type your rare geological answer..." autocomplete="off" autofocus>
+            <button type="button" class="btn-geollion-submit" onclick="submitGeollionAnswer(false)">
+              DIVE! ↵
             </button>
           </div>
 
-          <button type="button" class="btn-geollion-skip" onclick="submitGeollionAnswer(true)">
-            Pass / Surface (0 km)
-          </button>
+          <div id="geollion-refusal-toast" class="geollion-refusal-toast"></div>
+
+          <div style="display:flex;gap:12px;align-items:center;margin-top:4px">
+            <button type="button" class="btn-geollion-giveup" onclick="submitGeollionAnswer(true)">
+              Pass / Give Up (+0m)
+            </button>
+          </div>
+        </div>
+
+        <div style="display:flex;justify-content:space-between;align-items:center;font-size:0.75rem;color:#64748b;padding:0 8px">
+          <span>Target: Inner Core (6,371 km / +1,000m)</span>
+          <span>Press Enter to Submit • Type another if refused!</span>
         </div>
       </div>
     </div>
   `;
-  $('#app-view').innerHTML = html;
 
-  setTimeout(() => {
-    const inp = $('#geollion-input');
-    if (inp) {
-      inp.focus();
-      inp.addEventListener('keydown', e => {
-        if (e.key === 'Enter') {
-          e.preventDefault();
-          submitGeollionAnswer(false);
-        }
-      });
-    }
-  }, 50);
-}
-
-function submitGeollionAnswer(passed) {
-  if (geollionState.timerInterval) clearInterval(geollionState.timerInterval);
+  const root = $('#app-root');
+  if (root) root.innerHTML = html;
 
   const inp = $('#geollion-input');
-  const userText = passed ? '' : (inp ? inp.value.trim() : '');
+  if (inp) {
+    inp.focus();
+    inp.addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        submitGeollionAnswer(false);
+      }
+    });
+  }
+}
+
+function submitGeollionAnswer(isGiveUp) {
+  const inp = $('#geollion-input');
+  const userText = isGiveUp ? '' : (inp ? inp.value.trim() : '');
   const p = geollionState.prompts[geollionState.currentIdx];
 
-  let evalResult = { matched: false };
-  if (!passed && userText) {
-    evalResult = evaluateGeollionAnswer(userText, p);
+  if (isGiveUp) {
+    if (geollionState.timerInterval) clearInterval(geollionState.timerInterval);
+    if (geollionState.soundEnabled) QuizAudio.wrong();
+    recordPromptResult(p, '(Gave Up / Timed Out)', false, null, 'miss');
+    return;
   }
 
-  let tierKey = 'miss';
-  let tierInfo = null;
-  let depth = 0;
-  let points = 0;
+  if (!userText) {
+    if (inp) inp.focus();
+    return;
+  }
 
-  if (evalResult.matched) {
-    tierKey = evalResult.tierKey;
-    tierInfo = GEOLLION_TIERS[tierKey];
-    depth = tierInfo.depth;
-    points = tierInfo.points;
+  // Evaluate answer
+  const evalResult = evaluateGeollionAnswer(userText, p);
 
-    if (geollionState.soundEnabled) {
-      if (tierKey === 'inner_core') {
-        QuizAudio.coreSwell();
-      } else if (tierKey === 'outer_core' || tierKey === 'lower_mantle') {
-        QuizAudio.deepRumble();
-      } else {
-        QuizAudio.correct();
-      }
+  if (!evalResult.matched) {
+    // KRILLION REFUSAL MECHANIC
+    if (geollionState.soundEnabled) QuizAudio.refusal();
+
+    if (inp) {
+      inp.classList.remove('krillion-shake');
+      void inp.offsetWidth; // Trigger DOM reflow for CSS animation restart
+      inp.classList.add('krillion-shake');
+      inp.classList.add('input-refused');
+      setTimeout(() => {
+        inp.classList.remove('input-refused');
+      }, 700);
+      inp.select(); // Highlight text so user can immediately retype
     }
-  } else {
-    if (geollionState.soundEnabled) QuizAudio.wrong();
+
+    const toast = $('#geollion-refusal-toast');
+    if (toast) {
+      toast.innerHTML = `⚠️ <b>REFUSED:</b> &ldquo;${esc(userText)}&rdquo; is not recognized as a valid answer. Keep digging! (${geollionState.timerRemaining}s left)`;
+      toast.style.display = 'block';
+    }
+    return;
+  }
+
+  // Valid recognized answer!
+  if (geollionState.timerInterval) clearInterval(geollionState.timerInterval);
+
+  const tierKey = evalResult.tierKey;
+  if (geollionState.soundEnabled) {
+    if (tierKey === 'inner_core') {
+      QuizAudio.coreSwell();
+    } else if (tierKey === 'outer_core' || tierKey === 'lower_mantle') {
+      QuizAudio.deepRumble();
+    } else {
+      QuizAudio.correct();
+    }
+  }
+
+  recordPromptResult(p, evalResult.matchedTerm || userText, true, evalResult, tierKey);
+}
+
+function recordPromptResult(prompt, userText, matched, evalResult, tierKey) {
+  const tierInfo = GEOLLION_TIERS[tierKey];
+  const depth = tierInfo.depth;
+  const points = tierInfo.points;
+
+  geollionState.currentDepth += depth;
+  geollionState.currentScore += points;
+
+  if (geollionState.teamMode) {
+    if (geollionState.currentTeam === 1) {
+      geollionState.team1Score += points;
+      geollionState.team1Depth += depth;
+    } else {
+      geollionState.team2Score += points;
+      geollionState.team2Depth += depth;
+    }
   }
 
   const record = {
-    prompt: p,
-    userText: userText || '(Passed / Time Out)',
-    matched: evalResult.matched,
-    matchedTerm: evalResult.matchedTerm || '',
-    typo: !!evalResult.typo,
+    prompt: prompt,
+    userText: userText,
+    matched: matched,
+    matchedTerm: evalResult ? evalResult.matchedTerm : '',
+    typo: evalResult ? !!evalResult.typo : false,
     tierKey: tierKey,
     tierInfo: tierInfo,
     depth: depth,
@@ -5780,19 +6115,6 @@ function submitGeollionAnswer(passed) {
   };
 
   geollionState.history.push(record);
-
-  if (geollionState.mode === 'team') {
-    if (geollionState.currentTeam === 1) {
-      geollionState.team1Score += points;
-      geollionState.team1Depth += depth;
-      geollionState.currentTeam = 2;
-    } else {
-      geollionState.team2Score += points;
-      geollionState.team2Depth += depth;
-      geollionState.currentTeam = 1;
-    }
-  }
-
   geollionState.lastResult = record;
   geollionState.screen = 'reveal';
   renderGeollionReveal();
@@ -5801,94 +6123,126 @@ function submitGeollionAnswer(passed) {
 function renderGeollionReveal() {
   const r = geollionState.lastResult;
   const p = r.prompt;
-  const isHit = r.matched && r.tierInfo;
+  const isHit = r.matched && r.tierInfo && r.tierKey !== 'miss';
 
-  let badgeColor = isHit ? r.tierInfo.color : '#dc2626';
-  let badgeBg = isHit ? r.tierInfo.bg : '#fef2f2';
-  let badgeBorder = isHit ? r.tierInfo.border : '#fca5a5';
+  let tierName = isHit ? r.tierInfo.name : 'REFUSED / TIMED OUT';
+  let badgeColor = isHit ? r.tierInfo.color : '#64748b';
+  let badgeBg = isHit ? r.tierInfo.bg : '#1e293b';
+  let badgeBorder = isHit ? r.tierInfo.border : '#475569';
 
-  const tierRowsHtml = ['inner_core', 'outer_core', 'lower_mantle', 'transition', 'lithosphere', 'crust'].map(tKey => {
+  const tierOrder = ['inner_core', 'outer_core', 'lower_mantle', 'transition', 'lithosphere', 'crust'];
+  const tierRowsHtml = tierOrder.map(tKey => {
     const info = GEOLLION_TIERS[tKey];
     const words = p.tiers[tKey] || [];
     const isThisTier = isHit && r.tierKey === tKey;
+
     return `
-      <div class="geollion-tier-row ${isThisTier ? 'hit-tier' : ''}" style="${isThisTier ? `border-left: 4px solid ${info.color};` : ''}">
-        <div class="geollion-tier-label" style="color:${info.color}">
-          ${info.icon} ${info.name.split(' ')[0]}
-          <span style="font-size:0.7rem;color:var(--muted)">(${info.depth.toLocaleString()}km)</span>
+      <div class="geollion-tier-row ${isThisTier ? 'tier-matched' : ''}">
+        <div class="geollion-tier-name-col" style="color:${info.color}">
+          <span>${info.icon}</span>
+          <span>${esc(info.tag)}</span>
+          <span style="font-size:0.75rem;color:#94a3b8;font-weight:500">+${info.depth}m</span>
         </div>
-        <div class="geollion-tier-items">
-          ${words.map(w => {
-            const isMatch = isThisTier && (w.toLowerCase() === (r.matchedTerm||'').toLowerCase());
-            return isMatch ? `<b style="color:${info.color};text-decoration:underline;">${w}</b>` : w;
-          }).join(', ')}
+        <div class="geollion-tier-words-col">
+          ${words.map(w => `<span style="${isThisTier && normalizeGeologyTerm(w) === normalizeGeologyTerm(r.matchedTerm) ? 'background:#38bdf8;color:#080f1e;padding:1px 6px;border-radius:4px;font-weight:800;' : ''}">${esc(w)}</span>`).join(', ')}
         </div>
       </div>
     `;
   }).join('');
 
+  const nextBtnLabel = geollionState.currentIdx + 1 >= geollionState.promptCount ? 'VIEW EXPEDITION RESULTS ➔' : 'NEXT DIVE ➔ (SPACE)';
+
   const html = `
     <div class="teacher-hub-wrap">
-      <div class="geollion-panel">
-        <div class="geollion-reveal-box" style="border-color:${badgeBorder};">
-          ${isHit ? `
-            <div class="geollion-tier-title" style="color:${badgeColor};background:${badgeBg};border:1px solid ${badgeBorder}">
-              ${r.tierInfo.icon} ${r.tierInfo.name}
-            </div>
-            <div class="geollion-depth-callout" style="color:${badgeColor}">
-              +${r.depth.toLocaleString()} km
-            </div>
-            <div style="font-size:1.1rem;font-weight:700;color:var(--ink)">
-              Drilled into ${r.tierInfo.desc}! (+${r.points} pts)
-            </div>
-            ${r.typo ? `<div style="font-size:0.85rem;color:var(--muted)"><i>(Typo accepted for: "${r.matchedTerm}")</i></div>` : ''}
-          ` : `
-            <div class="geollion-tier-title" style="color:#dc2626;background:#fef2f2;border:1px solid #fca5a5">
-              ⚠️ Surface Strike (0 km)
-            </div>
-            <div class="geollion-depth-callout" style="color:#71717a">
-              0 km
-            </div>
-            <div style="font-size:1rem;color:var(--ink-secondary)">
-              "${esc(r.userText)}" was not recognized in the geological database for this prompt.
-            </div>
-          `}
+      <nav class="teacher-nav">
+        <button type="button" class="teacher-nav-btn" onclick="abandonGeollion()">← Exit Drill</button>
+        <button type="button" class="teacher-nav-btn active">🌋 ${esc(geollionState.modeTitle || 'Geollion')}</button>
+      </nav>
 
-          <div class="geollion-all-tiers-box">
-            <div class="geollion-tier-header">
-              📖 Rarity Tiers & Accepted Answers for: <i>"${esc(p.prompt)}"</i>
+      <div class="geollion-cockpit">
+        <div class="geollion-hud-header">
+          <div class="geollion-hud-title">
+            <span>🌋 GEOLLION</span>
+            <span class="geollion-daily-pill">${esc(geollionState.modeTitle || 'DIVE')}</span>
+          </div>
+          <div class="geollion-hud-stats">
+            <div class="geollion-depth-counter">
+              <span>TOTAL DEPTH:</span>
+              <span>${geollionState.currentDepth.toLocaleString()}m</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="geollion-pips-bar">
+          <div style="font-size:0.8rem;font-weight:800;letter-spacing:0.06em;color:#94a3b8;text-transform:uppercase">
+            DIVE ${geollionState.currentIdx + 1} OF ${geollionState.promptCount} COMPLETE
+          </div>
+          <div class="geollion-pips-list">
+            ${renderPipsHtml()}
+          </div>
+        </div>
+
+        <div class="geollion-reveal-card">
+          <div class="geollion-reveal-tier-badge" style="background:${badgeBg};border:2px solid ${badgeBorder};color:${badgeColor}">
+            ${isHit ? r.tierInfo.icon : '⬜'} ${esc(tierName)}
+          </div>
+
+          <div style="font-size:1.3rem;font-weight:800;color:#f8fafc">
+            &ldquo;${esc(r.userText)}&rdquo;
+            ${r.typo ? '<span style="font-size:0.85rem;color:#f59e0b;font-weight:600;margin-left:6px">(Spelling tolerated)</span>' : ''}
+          </div>
+
+          <div class="geollion-reveal-depth" style="color:${isHit ? badgeColor : '#64748b'}">
+            +${r.depth}m <span style="font-size:1.2rem;font-weight:700;color:#94a3b8">(${r.points} pts)</span>
+          </div>
+
+          <div style="font-size:0.92rem;color:#94a3b8;max-width:540px">
+            ${isHit ? r.tierInfo.desc : 'Could not identify this term within curriculum depth tiers.'}
+          </div>
+
+          <div class="geollion-tiers-table">
+            <div class="geollion-tier-thead">
+              <span>Depth Zone & Tier</span>
+              <span>Accepted Answers Distribution</span>
             </div>
             ${tierRowsHtml}
           </div>
 
-          <div style="margin-top:14px;display:flex;gap:12px;align-items:center">
-            <button type="button" class="btn-geollion-drill" style="padding:14px 32px" onclick="nextGeollionPrompt()">
-              Next Prompt (Space / Enter) →
+          <div style="margin-top:10px">
+            <button type="button" class="btn-geollion-submit" style="font-size:1.15rem;padding:14px 34px" onclick="nextGeollionPrompt()">
+              ${nextBtnLabel}
             </button>
           </div>
         </div>
       </div>
     </div>
   `;
-  $('#app-view').innerHTML = html;
+
+  const root = $('#app-root');
+  if (root) root.innerHTML = html;
 }
 
 function nextGeollionPrompt() {
+  if (geollionState.teamMode) {
+    geollionState.currentTeam = geollionState.currentTeam === 1 ? 2 : 1;
+  }
+
   geollionState.currentIdx++;
-  if (geollionState.currentIdx >= geollionState.prompts.length) {
+  if (geollionState.currentIdx >= geollionState.promptCount) {
     endGeollion();
   } else {
     geollionState.screen = 'playing';
     renderGeollionLive();
+    if (geollionState.soundEnabled) QuizAudio.sonar();
     startGeollionTimer();
   }
 }
 
 function endGeollion() {
   if (geollionState.timerInterval) clearInterval(geollionState.timerInterval);
-  if (geollionState.soundEnabled) QuizAudio.fanfare();
   geollionState.screen = 'summary';
   renderGeollionSummary();
+  if (geollionState.soundEnabled) QuizAudio.coreSwell();
 }
 
 function abandonGeollion() {
@@ -5897,140 +6251,116 @@ function abandonGeollion() {
   renderGeollionSetup();
 }
 
+function getGeollionRank(depth, maxDepth) {
+  const pct = depth / maxDepth;
+  if (pct >= 0.92) return { rank: 'S+', title: 'Inner Core Legend', color: '#ef4444', desc: 'One in a Geollion! Complete penetration to the center of the Earth.' };
+  if (pct >= 0.78) return { rank: 'S', title: 'Outer Core Submariner', color: '#f59e0b', desc: 'Navigated the turbulent convective liquid iron geodynamo.' };
+  if (pct >= 0.60) return { rank: 'A', title: 'Lower Mantle Diver', color: '#a78bfa', desc: 'Drilled deep into the high-pressure perovskite mesosphere.' };
+  if (pct >= 0.40) return { rank: 'B', title: 'Transition Zone Explorer', color: '#38bdf8', desc: 'Passed the 410km wadsleyite and ringwoodite phase boundary.' };
+  if (pct >= 0.20) return { rank: 'C', title: 'Lithosphere Drifter', color: '#34d399', desc: 'Broke through the crust into the upper rigid mantle.' };
+  return { rank: 'D', title: 'Crustal Plankton', color: '#94a3b8', desc: 'Trapped on the continental shelf with common surface answers.' };
+}
+
 function renderGeollionSummary() {
-  const isTeam = geollionState.mode === 'team';
-  const totalRounds = geollionState.history.length;
+  const maxDepth = geollionState.promptCount * 1000;
+  const maxScore = geollionState.promptCount * 100;
+  const rankInfo = getGeollionRank(geollionState.currentDepth, maxDepth);
 
-  let totalDepth = 0;
-  let totalScore = 0;
-  let deepestCut = null;
+  const emojiRow = geollionState.history.map(r => r.tierInfo ? r.tierInfo.emoji : '⬜').join(' ');
 
-  geollionState.history.forEach(h => {
-    totalDepth += h.depth;
-    totalScore += h.points;
-    if (h.matched && (!deepestCut || h.depth > deepestCut.depth)) {
-      deepestCut = h;
-    }
-  });
+  const shareText = `🌋 GEOLLION #${geollionState.dailyNumber} (${geollionState.modeTitle || 'Dive'})\nDepth: ${geollionState.currentDepth.toLocaleString()} / ${maxDepth.toLocaleString()}m • Rank: ${rankInfo.rank} (${rankInfo.title})\n\n${emojiRow}\n\nCan you drill to the core?\nhttps://chanale-lab.github.io/senots/#view=teachers&tab=geollion`;
 
-  let rankBadge = '🪨 Crustal Novice';
-  let rankDesc = 'Explored the surface geology.';
-  if (totalDepth >= 25000) {
-    rankBadge = '🔥 LEGENDARY CORE BREAKER (Rank S+)';
-    rankDesc = 'Reached the deepest depths of the Earth! Outstanding mastery of obscure geology!';
-  } else if (totalDepth >= 18000) {
-    rankBadge = '💎 Deep Mantle Master (Rank S)';
-    rankDesc = 'Drilled deep into the mantle transition zone and lower mesosphere!';
-  } else if (totalDepth >= 10000) {
-    rankBadge = '⚡ Upper Mantle Pioneer (Rank A)';
-    rankDesc = 'Solid exploration across the lithosphere and upper mantle.';
-  } else if (totalDepth >= 4000) {
-    rankBadge = '🌋 Lithospheric Prospector (Rank B)';
-    rankDesc = 'Ventured past the continental crust.';
-  }
-
-  let winnerBanner = '';
-  if (isTeam) {
-    const t1 = geollionState.team1Depth;
-    const t2 = geollionState.team2Depth;
-    if (t1 > t2) {
-      winnerBanner = `🏆 <b>${geollionState.team1Name}</b> wins with ${t1.toLocaleString()} km vs ${t2.toLocaleString()} km!`;
-    } else if (t2 > t1) {
-      winnerBanner = `🏆 <b>${geollionState.team2Name}</b> wins with ${t2.toLocaleString()} km vs ${t1.toLocaleString()} km!`;
-    } else {
-      winnerBanner = `🤝 It is a dead heat! Both teams drilled ${t1.toLocaleString()} km!`;
-    }
-  }
-
-  const historyRowsHtml = geollionState.history.map((h, i) => {
-    const info = h.tierInfo;
-    return `
-      <tr>
-        <td style="padding:8px 10px;border-bottom:1px solid var(--border)"><b>#${i+1}</b> ${esc(h.prompt.prompt)}</td>
-        <td style="padding:8px 10px;border-bottom:1px solid var(--border)">
-          <b>${esc(h.userText)}</b> ${h.typo ? `<i>(${h.matchedTerm})</i>` : ''}
-        </td>
-        <td style="padding:8px 10px;border-bottom:1px solid var(--border)">
-          ${info ? `<span style="color:${info.color};font-weight:700">${info.icon} ${info.name.split(' ')[0]}</span>` : '<span style="color:#dc2626">Dud</span>'}
-        </td>
-        <td style="padding:8px 10px;border-bottom:1px solid var(--border);font-weight:700;color:${info ? info.color : '#71717a'}">
-          +${h.depth.toLocaleString()} km
-        </td>
-        <td style="padding:8px 10px;border-bottom:1px solid var(--border);text-align:right">
-          +${h.points} pts
-        </td>
-      </tr>
-    `;
-  }).join('');
+  const reviewItemsHtml = geollionState.history.map((r, i) => `
+    <div style="background:#070c18;border:1px solid #1e293b;border-radius:var(--radius);padding:12px 16px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+      <div>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700">DIVE ${i + 1}: ${esc(r.prompt.prompt)}</div>
+        <div style="font-size:0.95rem;font-weight:800;color:#f8fafc;margin-top:2px">&ldquo;${esc(r.userText)}&rdquo;</div>
+      </div>
+      <div style="text-align:right">
+        <span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:800;background:${r.tierInfo ? r.tierInfo.bg : '#1e293b'};color:${r.tierInfo ? r.tierInfo.color : '#94a3b8'};border:1px solid ${r.tierInfo ? r.tierInfo.border : '#475569'}">
+          ${r.tierInfo ? r.tierInfo.icon : '⬜'} ${r.tierInfo ? r.tierInfo.tag : 'Miss'} (+${r.depth}m)
+        </span>
+      </div>
+    </div>
+  `).join('');
 
   const html = `
     <div class="teacher-hub-wrap">
-      <div class="geollion-panel">
-        <div style="text-align:center;padding:16px 0">
-          <div style="font-size:2.4rem;font-weight:900;color:#dc2626">EXPEDITION COMPLETE! 🌍</div>
-          <div style="font-size:1.15rem;font-weight:800;color:var(--ink);margin-top:6px">${rankBadge}</div>
-          <div style="font-size:0.9rem;color:var(--muted);margin-top:2px">${rankDesc}</div>
+      <nav class="teacher-nav">
+        <button type="button" class="teacher-nav-btn" onclick="abandonGeollion()">← Teacher's Hub</button>
+        <button type="button" class="teacher-nav-btn active">🌋 Expedition Debrief</button>
+      </nav>
 
-          ${isTeam ? `
-            <div style="margin:16px auto;max-width:550px;padding:12px;border-radius:var(--radius);background:var(--surface-hover);border:1px solid var(--border);font-size:1.05rem">
-              ${winnerBanner}
-            </div>
-          ` : ''}
-
-          <div style="display:flex;justify-content:center;gap:24px;margin-top:20px;flex-wrap:wrap">
-            <div style="background:var(--surface-hover);padding:14px 24px;border-radius:var(--radius);border:1px solid var(--border)">
-              <div style="font-size:0.8rem;color:var(--muted)">TOTAL DEPTH DRILLED</div>
-              <div style="font-size:2rem;font-weight:900;color:#dc2626">${totalDepth.toLocaleString()} km</div>
-            </div>
-            <div style="background:var(--surface-hover);padding:14px 24px;border-radius:var(--radius);border:1px solid var(--border)">
-              <div style="font-size:0.8rem;color:var(--muted)">TOTAL SCORE</div>
-              <div style="font-size:2rem;font-weight:900;color:#d97706">${totalScore.toLocaleString()} pts</div>
-            </div>
-            ${deepestCut ? `
-              <div style="background:var(--surface-hover);padding:14px 24px;border-radius:var(--radius);border:1px solid var(--border)">
-                <div style="font-size:0.8rem;color:var(--muted)">DEEPEST CUT FOUND</div>
-                <div style="font-size:1.4rem;font-weight:900;color:#ea580c">${esc(deepestCut.matchedTerm)}</div>
-                <div style="font-size:0.8rem;color:var(--ink-secondary)">${deepestCut.depth.toLocaleString()} km (${deepestCut.tierInfo.name.split(' ')[0]})</div>
-              </div>
-            ` : ''}
+      <div class="geollion-cockpit">
+        <div class="geollion-summary-box">
+          <div style="font-size:0.85rem;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;color:#94a3b8">
+            EXPEDITION COMPLETE • ${esc(geollionState.modeTitle || 'GEOLLION')}
           </div>
-        </div>
 
-        <div style="border:1px solid var(--border);border-radius:var(--radius);overflow:hidden">
-          <div style="padding:10px 14px;background:var(--surface-hover);font-size:0.85rem;font-weight:700">
-            📋 Expedition Prompt Recap (${totalRounds} prompts)
+          <div class="geollion-rank-callout" style="color:${rankInfo.color}">
+            ${rankInfo.rank} — ${rankInfo.title}
           </div>
-          <table style="width:100%;border-collapse:collapse;font-size:0.85rem">
-            <thead>
-              <tr style="background:var(--surface);border-bottom:1px solid var(--border);text-align:left;color:var(--muted)">
-                <th style="padding:8px 10px">Prompt</th>
-                <th style="padding:8px 10px">Answer Given</th>
-                <th style="padding:8px 10px">Layer Tier</th>
-                <th style="padding:8px 10px">Depth</th>
-                <th style="padding:8px 10px;text-align:right">Points</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${historyRowsHtml}
-            </tbody>
-          </table>
-        </div>
 
-        <div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap">
-          <button type="button" class="btn-geollion-drill" onclick="startGeollion()">
-            🔄 Play Again with New Prompts
-          </button>
-          <button type="button" class="btn-minimal" onclick="geollionState.screen='setup';renderGeollionSetup()">
-            ⚙️ Change Settings
-          </button>
-          <button type="button" class="btn-minimal" onclick="switchTeacherTab('hub')">
-            ← Back to Teacher's Hub
-          </button>
+          <div style="font-size:3.5rem;font-weight:900;font-family:ui-monospace,monospace;color:#38bdf8;line-height:1">
+            ${geollionState.currentDepth.toLocaleString()}m
+            <span style="font-size:1.3rem;font-weight:700;color:#94a3b8">/ ${maxDepth.toLocaleString()}m</span>
+          </div>
+
+          <div style="font-size:1.1rem;color:#cbd5e1;max-width:560px">
+            ${rankInfo.desc}
+          </div>
+
+          <!-- Official Krillion-style Share Card Preview -->
+          <div class="geollion-share-preview">
+            <div style="color:#f87171;font-weight:800">🌋 GEOLLION #${geollionState.dailyNumber} (${geollionState.modeTitle})</div>
+            <div>Depth: <b>${geollionState.currentDepth.toLocaleString()}m</b> / ${maxDepth.toLocaleString()}m (Rank: ${rankInfo.rank})</div>
+            <div style="font-size:1.35rem;letter-spacing:0.15em;margin:8px 0">${emojiRow}</div>
+            <div style="color:#64748b;font-size:0.8rem">https://chanale-lab.github.io/senots/#view=teachers&tab=geollion</div>
+          </div>
+
+          <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center">
+            <button type="button" class="btn-geollion-share" onclick="copyGeollionShareCard()">
+              📋 COPY RESULT GRID
+            </button>
+            <button type="button" class="btn-geollion-submit" onclick="launchGeollionUnlimited()">
+              ♾️ PLAY UNLIMITED DIVE
+            </button>
+            <button type="button" class="btn-geollion-giveup" onclick="abandonGeollion()">
+              Back to Setup
+            </button>
+          </div>
+
+          <div style="width:100%;max-width:680px;display:flex;flex-direction:column;gap:8px;margin-top:14px;text-align:left">
+            <div style="font-size:0.85rem;font-weight:800;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em">
+              Prompt by Prompt Debrief
+            </div>
+            ${reviewItemsHtml}
+          </div>
         </div>
       </div>
     </div>
   `;
-  $('#app-view').innerHTML = html;
+
+  const root = $('#app-root');
+  if (root) root.innerHTML = html;
+}
+
+function copyGeollionShareCard() {
+  const maxDepth = geollionState.promptCount * 1000;
+  const rankInfo = getGeollionRank(geollionState.currentDepth, maxDepth);
+  const emojiRow = geollionState.history.map(r => r.tierInfo ? r.tierInfo.emoji : '⬜').join(' ');
+
+  const text = `🌋 GEOLLION #${geollionState.dailyNumber} (${geollionState.modeTitle || 'Daily Dive'})\nDepth: ${geollionState.currentDepth.toLocaleString()} / ${maxDepth.toLocaleString()}m\nRank: ${rankInfo.rank} (${rankInfo.title})\n\n${emojiRow}\n\nCan you drill to the core?\nhttps://chanale-lab.github.io/senots/#view=teachers&tab=geollion`;
+
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(() => {
+      showToast('Copied Krillion result card to clipboard!');
+    }).catch(() => {
+      prompt('Copy your Krillion result:', text);
+    });
+  } else {
+    prompt('Copy your Krillion result:', text);
+  }
 }
 
 function printGeollionHandout() {
@@ -6041,42 +6371,37 @@ function printGeollionHandout() {
     document.body.appendChild(printContainer);
   }
 
-  let pool = GEOLLION_PROMPTS;
-  if (geollionState.topic !== 'all') {
-    pool = pool.filter(p => p.category === geollionState.topic);
-    if (!pool.length) pool = GEOLLION_PROMPTS;
-  }
-  const selected = pool.slice(0, geollionState.promptCount);
+  const selected = getDailyDivePrompts();
 
   const studentItems = selected.map((p, i) => `
     <div style="margin-bottom:16pt;page-break-inside:avoid;border:1pt solid #ccc;border-radius:4pt;padding:10pt 14pt">
       <div style="display:flex;justify-content:space-between;align-items:baseline">
-        <h3 style="margin:0;font-size:12pt;font-weight:700">PROMPT ${i+1}: ${esc(p.prompt)}</h3>
-        <span style="font-size:9pt;font-weight:700;border:1pt solid #222;padding:2pt 6pt;border-radius:2pt">Target: Inner Core</span>
+        <h3 style="margin:0;font-size:12pt;font-weight:700">DIVE ${i+1}: ${esc(p.prompt)}</h3>
+        <span style="font-size:9pt;font-weight:700;border:1pt solid #222;padding:2pt 6pt;border-radius:2pt">Target: Inner Core (+1,000m)</span>
       </div>
       ${p.hint ? `<div style="font-size:8.5pt;color:#555;margin:3pt 0 6pt">${esc(p.hint)}</div>` : ''}
       <div style="border-bottom:1pt dotted #888;height:24pt;margin-top:6pt"></div>
       <div style="display:flex;justify-content:space-between;font-size:8pt;color:#777;margin-top:4pt">
-        <span>Crust (0-35km)</span>
-        <span>Lithosphere (180km)</span>
-        <span>Transition (550km)</span>
-        <span>Lower Mantle (1,750km)</span>
-        <span>Outer Core (4,000km)</span>
-        <span>Inner Core (6,371km)</span>
+        <span>Plankton (+100m)</span>
+        <span>Schooler (+300m)</span>
+        <span>Rare (+600m)</span>
+        <span>Deep Cut (+850m)</span>
+        <span>Outer Core (+950m)</span>
+        <span>ONE IN A GEOLLION (+1,000m)</span>
       </div>
     </div>
   `).join('');
 
   const answerItems = selected.map((p, i) => `
     <div style="margin-bottom:12pt;page-break-inside:avoid;border:1pt solid #eee;border-radius:4pt;padding:8pt 12pt">
-      <div style="font-weight:700;font-size:10pt;margin-bottom:4pt">Prompt ${i+1}: ${esc(p.prompt)}</div>
+      <div style="font-weight:700;font-size:10pt;margin-bottom:4pt">Dive ${i+1}: ${esc(p.prompt)}</div>
       <div style="font-size:8pt;line-height:1.4">
-        <b>🔥 Inner Core:</b> ${p.tiers.inner_core.join(', ')}<br>
-        <b>🌊 Outer Core:</b> ${p.tiers.outer_core.join(', ')}<br>
-        <b>⚡ Lower Mantle:</b> ${p.tiers.lower_mantle.join(', ')}<br>
-        <b>💎 Transition:</b> ${p.tiers.transition.join(', ')}<br>
-        <b>🌋 Lithosphere:</b> ${p.tiers.lithosphere.join(', ')}<br>
-        <b>🪨 Crustal:</b> ${p.tiers.crust.join(', ')}
+        <b>🔥 One in a Geollion (+1,000m):</b> ${p.tiers.inner_core.join(', ')}<br>
+        <b>🌊 Outer Core (+950m):</b> ${p.tiers.outer_core.join(', ')}<br>
+        <b>⚡ Deep Cut (+850m):</b> ${p.tiers.lower_mantle.join(', ')}<br>
+        <b>💎 Rare (+600m):</b> ${p.tiers.transition.join(', ')}<br>
+        <b>🐟 Schooler (+300m):</b> ${p.tiers.lithosphere.join(', ')}<br>
+        <b>🪨 Plankton (+100m):</b> ${p.tiers.crust.join(', ')}
       </div>
     </div>
   `).join('');
@@ -6084,7 +6409,7 @@ function printGeollionHandout() {
   printContainer.innerHTML = `
     <div style="padding:10pt;page-break-inside:avoid">
       <h1 style="font-size:16pt;margin:0 0 4pt">🌋 GEOLLION: The Deep Earth Trivia Dive</h1>
-      <p style="font-size:9.5pt;color:#444;margin:0 0 10pt">Rules: Write the rarest, most obscure valid answer for each prompt. Common answers stay near the surface; rare answers drill into the Earth's Inner Core!</p>
+      <p style="font-size:9.5pt;color:#444;margin:0 0 10pt">Rules: Write the rarest, most obscure valid answer for each prompt. Common surface answers score +100m; legendary obscure answers drill +1,000m into the Inner Core!</p>
     </div>
 
     <table class="print-candidate-table">
@@ -6094,7 +6419,7 @@ function printGeollionHandout() {
         <td style="width:25%"><b>Class:</b></td>
       </tr>
       <tr>
-        <td colspan="2"><b>Total Depth Reached:</b> ____________ km</td>
+        <td colspan="2"><b>Total Depth Reached:</b> ____________ / 7,000m</td>
         <td><b>Final Rank:</b> ____________</td>
       </tr>
     </table>
@@ -6117,9 +6442,9 @@ function printGeollionHandout() {
 
 function handleGeollionKeydown(e) {
   if (geollionState.screen === 'playing') {
-    if (e.key === 'Enter') {
+    if (e.key === 'Escape') {
       e.preventDefault();
-      submitGeollionAnswer(false);
+      submitGeollionAnswer(true); // Give up
     }
   } else if (geollionState.screen === 'reveal') {
     if (e.key === ' ' || e.code === 'Space' || e.key === 'Enter' || e.key === 'ArrowRight') {
