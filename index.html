@@ -1316,6 +1316,265 @@ footer {
   margin-top: 4px;
 }
 
+
+/* ========================================================
+   GEOLLION: DEEP EARTH TRIVIA GAME STYLES (Krillion-inspired)
+   ======================================================== */
+.geollion-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.geollion-banner {
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.08) 0%, rgba(245, 158, 11, 0.08) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.geollion-banner-title {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.geollion-banner-desc {
+  font-size: 0.9rem;
+  color: var(--ink-secondary);
+  max-width: 660px;
+  margin-top: 4px;
+  line-height: 1.45;
+}
+
+/* Earth Depth Meter */
+.geollion-meter-card {
+  background: var(--surface-hover);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.geollion-meter-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.geollion-meter-bar {
+  display: flex;
+  width: 100%;
+  height: 22px;
+  border-radius: 11px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+  position: relative;
+}
+.geollion-meter-seg {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.geollion-meter-seg.active-tier {
+  filter: brightness(1.35);
+  box-shadow: inset 0 0 6px #fff;
+  transform: scaleY(1.15);
+  z-index: 2;
+}
+
+/* Stage Box */
+.geollion-stage {
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 36px 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+.geollion-cat-badge {
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 4px 12px;
+  border-radius: 20px;
+  background: var(--surface-hover);
+  border: 1px solid var(--border);
+  color: var(--ink-secondary);
+}
+.geollion-prompt-text {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--ink);
+  line-height: 1.25;
+  margin: 0;
+  max-width: 740px;
+}
+.geollion-prompt-sub {
+  font-size: 1rem;
+  color: var(--muted);
+  margin-top: -6px;
+}
+.geollion-input-wrap {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 580px;
+  margin-top: 10px;
+}
+.geollion-input {
+  flex: 1;
+  padding: 13px 18px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  border-radius: var(--radius);
+  border: 2px solid var(--border);
+  background: var(--surface);
+  color: var(--ink);
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.geollion-input:focus {
+  border-color: #dc2626;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
+}
+.btn-geollion-drill {
+  background: #dc2626;
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 13px 26px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-geollion-drill:hover {
+  background: #b91c1c;
+  transform: translateY(-1px);
+}
+.btn-geollion-skip {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 7px 16px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  margin-top: 6px;
+}
+.btn-geollion-skip:hover {
+  color: var(--ink);
+  background: var(--surface-hover);
+}
+
+/* Reveal styling */
+.geollion-reveal-box {
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  border: 2px solid var(--border);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  animation: geollionPop 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes geollionPop {
+  0% { transform: scale(0.92); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.geollion-tier-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.25rem;
+  font-weight: 800;
+  padding: 8px 22px;
+  border-radius: 30px;
+}
+.geollion-depth-callout {
+  font-size: 2.3rem;
+  font-weight: 900;
+  line-height: 1;
+}
+.geollion-all-tiers-box {
+  width: 100%;
+  max-width: 820px;
+  text-align: left;
+  margin-top: 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.geollion-tier-header {
+  padding: 10px 14px;
+  background: var(--surface-hover);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  border-bottom: 1px solid var(--border);
+}
+.geollion-tier-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.86rem;
+}
+.geollion-tier-row:last-child {
+  border-bottom: none;
+}
+.geollion-tier-row.hit-tier {
+  background: rgba(220, 38, 38, 0.09);
+  font-weight: 700;
+}
+.geollion-tier-label {
+  width: 140px;
+  flex-shrink: 0;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.geollion-tier-items {
+  color: var(--ink-secondary);
+  line-height: 1.45;
+}
+
 /* Quiz Generator UI */
 .quiz-panel {
   background: var(--surface);
@@ -3343,6 +3602,39 @@ const QuizAudio = {
       });
     });
   },
+  deepRumble() {
+    this.play(ctx => {
+      const t = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const g = ctx.createGain();
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(85, t);
+      osc.frequency.exponentialRampToValueAtTime(35, t + 0.65);
+      g.gain.setValueAtTime(0.28, t);
+      g.gain.exponentialRampToValueAtTime(0.001, t + 0.65);
+      osc.connect(g);
+      g.connect(ctx.destination);
+      osc.start(t);
+      osc.stop(t + 0.65);
+    });
+  },
+  coreSwell() {
+    this.play(ctx => {
+      const t = ctx.currentTime;
+      [130.81, 164.81, 196.00, 261.63, 329.63, 392.00].forEach((f, i) => {
+        const osc = ctx.createOscillator();
+        const g = ctx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(f, t + i * 0.06);
+        g.gain.setValueAtTime(0.12, t + i * 0.06);
+        g.gain.exponentialRampToValueAtTime(0.001, t + i * 0.06 + 0.5);
+        osc.connect(g);
+        g.connect(ctx.destination);
+        osc.start(t + i * 0.06);
+        osc.stop(t + i * 0.06 + 0.5);
+      });
+    });
+  },
   wrong() {
     this.play(ctx => {
       const t = ctx.currentTime;
@@ -3488,7 +3780,9 @@ function cleanAnswerText(html) {
 
 function renderTeachersHub() {
   const tab = state.teacherTab || 'hub';
-  if (tab === 'quiz') {
+  if (tab === 'geollion') {
+    renderGeollionGenerator();
+  } else if (tab === 'quiz') {
     renderQuizGenerator();
   } else if (tab === 'worksheet') {
     renderWorksheetGenerator();
@@ -3508,6 +3802,7 @@ function renderTeacherDashboard() {
     <div class="teacher-hub-wrap">
       <nav class="teacher-nav">
         <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('hub')">🎓 Overview & Presets</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('geollion')">🌋 Geollion: Deep Earth Trivia</button>
         <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('quiz')">🎮 Fun Quiz Generator</button>
         <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('worksheet')">📝 Question & Worksheet Generator</button>
       </nav>
@@ -3518,6 +3813,21 @@ function renderTeacherDashboard() {
       </div>
 
       <div class="teacher-gateway-grid">
+        <article class="teacher-card" style="border-top: 3px solid #dc2626;">
+          <div>
+            <span class="teacher-card-badge" style="color: #dc2626; border-color: rgba(220, 38, 38, 0.3); background: rgba(220, 38, 38, 0.08);">Classroom Hit · Inspired by Krillion</span>
+            <h2 class="teacher-card-title">🌋 Geollion: The Deep Earth Trivia Dive</h2>
+            <p class="teacher-card-desc">The rarer and more obscure your answer, the deeper you drill into the Earth! Students race against the clock to name the rarest rocks, minerals, landforms, and fossils to plunge towards the Core.</p>
+            <ul class="teacher-card-features">
+              <li>6 real Earth layers: Crust (0 km), Lithosphere, Transition Zone, Lower Mantle, Outer Core & Inner Core (6,371 km)</li>
+              <li>Live animated Earth Cross-Section Depth Meter & drilling sound effects</li>
+              <li>Over 25 WJEC-aligned prompts with 700+ categorized geological answers</li>
+              <li>Solo challenge or Team Face-Off mode (Team Lithosphere vs Team Asthenosphere)</li>
+              <li>Printable classroom drill sheets with complete teacher depth tier guide</li>
+            </ul>
+          </div>
+          <button type="button" class="btn-gateway" style="background:#dc2626;" onclick="switchTeacherTab('geollion')">Play Geollion Generator →</button>
+        </article>
         <article class="teacher-card">
           <div>
             <span class="teacher-card-badge">Classroom Gamification</span>
@@ -3552,6 +3862,21 @@ function renderTeacherDashboard() {
       <div>
         <h2 class="teacher-section-title">⚡ Quick-Start Lesson Presets</h2>
         <div class="teacher-presets-grid">
+          <div class="preset-card" onclick="launchGeollionPreset('classic7')">
+            <div>
+              <h3 class="preset-title">🌋 7-Prompt Geollion Drill</h3>
+              <p class="preset-sub">Classic 25-second rarity dive across petrology, index minerals, and tectonic landforms.</p>
+            </div>
+            <span class="preset-action" style="color:#dc2626">Launch Drill →</span>
+          </div>
+
+          <div class="preset-card" onclick="launchGeollionPreset('teamdrill')">
+            <div>
+              <h3 class="preset-title">⚔️ Team Core Race (Showdown)</h3>
+              <p class="preset-sub">Team Lithosphere vs Team Asthenosphere competing for deepest cumulative Earth depth.</p>
+            </div>
+            <span class="preset-action" style="color:#dc2626">Start Match →</span>
+          </div>
           <div class="preset-card" onclick="launchQuizPreset('bellringer')">
             <div>
               <h3 class="preset-title">5-Min Bell-Ringer</h3>
@@ -3626,6 +3951,2185 @@ function launchWorksheetPreset(type) {
 }
 
 /* ========================================================
+   GEOLLION: THE DEEP EARTH TRIVIA GAME IMPLEMENTATION
+   ======================================================== */
+const GEOLLION_PROMPTS = [
+  {
+    "id": "igneous-rocks",
+    "category": "petrology",
+    "prompt": "Name an igneous rock",
+    "hint": "Plutonic, hypabyssal or volcanic rock",
+    "tiers": {
+      "crust": [
+        "granite",
+        "basalt",
+        "pumice",
+        "obsidian",
+        "rhyolite"
+      ],
+      "lithosphere": [
+        "andesite",
+        "gabbro",
+        "diorite",
+        "tuff",
+        "scoria",
+        "dolerite",
+        "microgranite"
+      ],
+      "transition": [
+        "peridotite",
+        "syenite",
+        "pegmatite",
+        "dacite",
+        "pitchstone",
+        "ignimbrite"
+      ],
+      "lower_mantle": [
+        "dunite",
+        "harzburgite",
+        "troctolite",
+        "phonolite",
+        "pyroxenite",
+        "anorthosite"
+      ],
+      "outer_core": [
+        "lamprophyre",
+        "aplite",
+        "spilite",
+        "monzonite",
+        "trachyte",
+        "norite"
+      ],
+      "inner_core": [
+        "komatiite",
+        "kimberlite",
+        "carbonatite",
+        "essexite",
+        "boninite",
+        "lamproite"
+      ]
+    }
+  },
+  {
+    "id": "sedimentary-rocks",
+    "category": "petrology",
+    "prompt": "Name a sedimentary rock",
+    "hint": "Clastic, chemical, biogenic or organic",
+    "tiers": {
+      "crust": [
+        "sandstone",
+        "limestone",
+        "shale",
+        "chalk",
+        "mudstone",
+        "clay"
+      ],
+      "lithosphere": [
+        "conglomerate",
+        "siltstone",
+        "breccia",
+        "coal",
+        "rock salt",
+        "gypsum"
+      ],
+      "transition": [
+        "oolitic limestone",
+        "greywacke",
+        "arkose",
+        "chert",
+        "flint",
+        "evaporite",
+        "lignite"
+      ],
+      "lower_mantle": [
+        "tillite",
+        "turbidite",
+        "banded iron formation",
+        "bif",
+        "travertine",
+        "coquina",
+        "micrite"
+      ],
+      "outer_core": [
+        "anthracite",
+        "diatomite",
+        "phosphorite",
+        "calcarenite",
+        "greensand",
+        "tufa"
+      ],
+      "inner_core": [
+        "ophiocalcite",
+        "bog iron ore",
+        "tonstein",
+        "radiolarite",
+        "itabirite",
+        "sparite"
+      ]
+    }
+  },
+  {
+    "id": "metamorphic-rocks",
+    "category": "petrology",
+    "prompt": "Name a metamorphic rock",
+    "hint": "Regional, contact, dynamic or hydrothermal",
+    "tiers": {
+      "crust": [
+        "slate",
+        "marble",
+        "schist",
+        "gneiss",
+        "quartzite"
+      ],
+      "lithosphere": [
+        "hornfels",
+        "phyllite",
+        "greenstone",
+        "metaquartzite"
+      ],
+      "transition": [
+        "amphibolite",
+        "serpentinite",
+        "migmatite",
+        "pelite",
+        "mylonite"
+      ],
+      "lower_mantle": [
+        "eclogite",
+        "granulite",
+        "skarn",
+        "blueschist",
+        "greenschist",
+        "cataclasite"
+      ],
+      "outer_core": [
+        "pseudotachylite",
+        "soapstone",
+        "jadeitite",
+        "metagabbro",
+        "calc-silicate"
+      ],
+      "inner_core": [
+        "charnockite",
+        "whiteschist",
+        "sanidinite",
+        "impactite",
+        "pseudotachylyte"
+      ]
+    }
+  },
+  {
+    "id": "mohs-hardness",
+    "category": "minerals",
+    "prompt": "Name one of the 10 reference minerals on Mohs Hardness Scale",
+    "hint": "Hardness 1 (softest) to 10 (hardest)",
+    "tiers": {
+      "crust": [
+        "diamond",
+        "quartz",
+        "talc"
+      ],
+      "lithosphere": [
+        "calcite",
+        "gypsum",
+        "fluorite"
+      ],
+      "transition": [
+        "apatite",
+        "topaz"
+      ],
+      "lower_mantle": [
+        "corundum"
+      ],
+      "outer_core": [
+        "orthoclase"
+      ],
+      "inner_core": [
+        "feldspar"
+      ]
+    }
+  },
+  {
+    "id": "silicate-minerals",
+    "category": "minerals",
+    "prompt": "Name a silicate mineral",
+    "hint": "Contains silicon-oxygen tetrahedra",
+    "tiers": {
+      "crust": [
+        "quartz",
+        "feldspar",
+        "mica",
+        "biotite",
+        "muscovite"
+      ],
+      "lithosphere": [
+        "olivine",
+        "augite",
+        "hornblende",
+        "garnet",
+        "plagioclase"
+      ],
+      "transition": [
+        "orthoclase",
+        "pyroxene",
+        "amphibole",
+        "chlorite",
+        "tourmaline",
+        "kaolinite"
+      ],
+      "lower_mantle": [
+        "kyanite",
+        "andalusite",
+        "sillimanite",
+        "staurolite",
+        "epidote",
+        "serpentine",
+        "talc"
+      ],
+      "outer_core": [
+        "zircon",
+        "beryl",
+        "sphene",
+        "titanite",
+        "wollastonite",
+        "cordierite",
+        "glaucophane"
+      ],
+      "inner_core": [
+        "stishovite",
+        "coesite",
+        "ringwoodite",
+        "bridgmanite",
+        "forsterite",
+        "fayalite",
+        "omphacite"
+      ]
+    }
+  },
+  {
+    "id": "non-silicate-minerals",
+    "category": "minerals",
+    "prompt": "Name a non-silicate mineral",
+    "hint": "Carbonate, sulfate, halide, oxide, sulfide or native element",
+    "tiers": {
+      "crust": [
+        "calcite",
+        "halite",
+        "pyrite",
+        "gold",
+        "diamond",
+        "salt"
+      ],
+      "lithosphere": [
+        "hematite",
+        "magnetite",
+        "galena",
+        "gypsum",
+        "fluorite"
+      ],
+      "transition": [
+        "chalcopyrite",
+        "barite",
+        "malachite",
+        "sphalerite",
+        "dolomite",
+        "sulfur",
+        "sulphur"
+      ],
+      "lower_mantle": [
+        "aragonite",
+        "cassiterite",
+        "siderite",
+        "bauxite",
+        "azurite",
+        "graphite",
+        "silver"
+      ],
+      "outer_core": [
+        "bornite",
+        "cinnabar",
+        "wolframite",
+        "apatite",
+        "corundum",
+        "molybdenite"
+      ],
+      "inner_core": [
+        "pentlandite",
+        "chromite",
+        "uraninite",
+        "rhodochrosite",
+        "rutile",
+        "celestite"
+      ]
+    }
+  },
+  {
+    "id": "volcanoes-hazards",
+    "category": "hazards",
+    "prompt": "Name a volcanic hazard, feature, or product",
+    "hint": "Volcanic landforms, materials or eruption hazards",
+    "tiers": {
+      "crust": [
+        "crater",
+        "caldera",
+        "lava flow",
+        "volcano",
+        "ash cloud",
+        "lava"
+      ],
+      "lithosphere": [
+        "lahar",
+        "pyroclastic flow",
+        "stratovolcano",
+        "shield volcano",
+        "magma chamber",
+        "fissure"
+      ],
+      "transition": [
+        "cinder cone",
+        "lava dome",
+        "pillow lava",
+        "columnar jointing",
+        "fumarole",
+        "geyser",
+        "vent"
+      ],
+      "lower_mantle": [
+        "ignimbrite",
+        "maar",
+        "diatreme",
+        "nuee ardente",
+        "peles hair",
+        "volcanic bomb",
+        "lapilli"
+      ],
+      "outer_core": [
+        "tuya",
+        "cryptodome",
+        "spatter cone",
+        "jokulhlaup",
+        "volcanic neck",
+        "resurgent dome"
+      ],
+      "inner_core": [
+        "limnic eruption",
+        "tephra fall",
+        "hyaloclastite",
+        "pelean spine",
+        "somma volcano"
+      ]
+    }
+  },
+  {
+    "id": "intrusive-structures",
+    "category": "petrology",
+    "prompt": "Name an intrusive igneous structure or pluton",
+    "hint": "Concordant, discordant or contact features",
+    "tiers": {
+      "crust": [
+        "dyke",
+        "dike",
+        "sill",
+        "batholith"
+      ],
+      "lithosphere": [
+        "pluton",
+        "magma chamber",
+        "volcanic pipe"
+      ],
+      "transition": [
+        "laccolith",
+        "lopolith",
+        "chilled margin",
+        "baked margin",
+        "country rock"
+      ],
+      "lower_mantle": [
+        "phacolith",
+        "volcanic plug",
+        "volcanic neck",
+        "xenolith",
+        "ring dyke",
+        "cone sheet"
+      ],
+      "outer_core": [
+        "stock",
+        "boss",
+        "bysmalith",
+        "diapir",
+        "pegmatite vein"
+      ],
+      "inner_core": [
+        "sheeted dyke complex",
+        "harpolith",
+        "cupola",
+        "roof pendant",
+        "enclave"
+      ]
+    }
+  },
+  {
+    "id": "geological-periods",
+    "category": "fossils",
+    "prompt": "Name a geological Period or Epoch",
+    "hint": "From Precambrian to Quaternary",
+    "tiers": {
+      "crust": [
+        "jurassic",
+        "cretaceous",
+        "triassic",
+        "carboniferous"
+      ],
+      "lithosphere": [
+        "permian",
+        "devonian",
+        "cambrian",
+        "quaternary",
+        "tertiary"
+      ],
+      "transition": [
+        "silurian",
+        "ordovician",
+        "paleogene",
+        "neogene",
+        "pleistocene",
+        "holocene"
+      ],
+      "lower_mantle": [
+        "precambrian",
+        "ediacaran",
+        "proterozoic",
+        "archean",
+        "paleocene",
+        "eocene"
+      ],
+      "outer_core": [
+        "cryogenian",
+        "tonian",
+        "calymmian",
+        "orocirian",
+        "miocene",
+        "pliocene",
+        "oligocene"
+      ],
+      "inner_core": [
+        "hadean",
+        "statherian",
+        "rhyacian",
+        "siderian",
+        "eoarchean",
+        "danian"
+      ]
+    }
+  },
+  {
+    "id": "fossils-taxa",
+    "category": "fossils",
+    "prompt": "Name a fossil group, taxon, or index fossil",
+    "hint": "Invertebrate, vertebrate, plant or trace fossil",
+    "tiers": {
+      "crust": [
+        "dinosaur",
+        "ammonite",
+        "trilobite",
+        "coral",
+        "shark tooth"
+      ],
+      "lithosphere": [
+        "brachiopod",
+        "bivalve",
+        "gastropod",
+        "belemnite",
+        "plant",
+        "crinoid"
+      ],
+      "transition": [
+        "graptolite",
+        "echinoid",
+        "foraminifera",
+        "archaeopteryx",
+        "mammoth",
+        "iguanodon"
+      ],
+      "lower_mantle": [
+        "nautilus",
+        "goniatite",
+        "ceratite",
+        "calymene",
+        "paradoxides",
+        "micraster",
+        "gryphaea"
+      ],
+      "outer_core": [
+        "didymograptus",
+        "monograptus",
+        "productus",
+        "spirifer",
+        "lingula",
+        "stromatolite"
+      ],
+      "inner_core": [
+        "hallucigenia",
+        "anomalocaris",
+        "dickinsonia",
+        "cooksonia",
+        "charnia",
+        "conodont"
+      ]
+    }
+  },
+  {
+    "id": "structural-geology",
+    "category": "tectonics",
+    "prompt": "Name a structural geology feature or term",
+    "hint": "Faults, folds, joints or deformation fabrics",
+    "tiers": {
+      "crust": [
+        "normal fault",
+        "reverse fault",
+        "anticline",
+        "syncline",
+        "joint"
+      ],
+      "lithosphere": [
+        "strike slip fault",
+        "thrust fault",
+        "dip",
+        "strike",
+        "fault plane",
+        "cleavage"
+      ],
+      "transition": [
+        "monocline",
+        "graben",
+        "horst",
+        "overturned fold",
+        "recumbent fold",
+        "slickenside",
+        "slickenline"
+      ],
+      "lower_mantle": [
+        "symmetrical fold",
+        "asymmetrical fold",
+        "isoclinal fold",
+        "chevron fold",
+        "fault breccia",
+        "mylonite"
+      ],
+      "outer_core": [
+        "transform fault",
+        "tear fault",
+        "detachment fault",
+        "hinge line",
+        "axial plane",
+        "en echelon veins"
+      ],
+      "inner_core": [
+        "ptygmatic fold",
+        "boudinage",
+        "crenulation cleavage",
+        "kink band",
+        "riedel shear",
+        "pop up structure"
+      ]
+    }
+  },
+  {
+    "id": "tectonic-plates-boundaries",
+    "category": "tectonics",
+    "prompt": "Name a tectonic plate, trench, or major plate boundary",
+    "hint": "Major or minor plates, rift zones or trenches",
+    "tiers": {
+      "crust": [
+        "pacific plate",
+        "eurasian plate",
+        "north american plate",
+        "mid atlantic ridge",
+        "san andreas fault"
+      ],
+      "lithosphere": [
+        "african plate",
+        "south american plate",
+        "indo australian plate",
+        "antarctic plate",
+        "subduction zone",
+        "trench"
+      ],
+      "transition": [
+        "nazca plate",
+        "arabian plate",
+        "indian plate",
+        "mariana trench",
+        "east pacific rise",
+        "ring of fire"
+      ],
+      "lower_mantle": [
+        "cocos plate",
+        "caribbean plate",
+        "philippine sea plate",
+        "scotia plate",
+        "juan de fuca plate",
+        "alpine fault"
+      ],
+      "outer_core": [
+        "hellenic trench",
+        "java trench",
+        "aleutian trench",
+        "cascadia",
+        "red sea rift",
+        "east african rift"
+      ],
+      "inner_core": [
+        "gorda plate",
+        "explorer plate",
+        "burma plate",
+        "anatolian plate",
+        "okhotsk plate",
+        "kermadec trench"
+      ]
+    }
+  },
+  {
+    "id": "sedimentary-structures",
+    "category": "petrology",
+    "prompt": "Name a sedimentary structure",
+    "hint": "Depositional, post-depositional or erosional structures",
+    "tiers": {
+      "crust": [
+        "bedding",
+        "ripple marks",
+        "mud cracks",
+        "cross bedding",
+        "ripples"
+      ],
+      "lithosphere": [
+        "graded bedding",
+        "fossils",
+        "laminations",
+        "concretions",
+        "desiccation cracks"
+      ],
+      "transition": [
+        "flute cast",
+        "load cast",
+        "flame structure",
+        "tool mark",
+        "bioturbation",
+        "trace fossil"
+      ],
+      "lower_mantle": [
+        "sole mark",
+        "groove cast",
+        "raindrop imprint",
+        "salt pseudomorph",
+        "stromatolite",
+        "imbrication"
+      ],
+      "outer_core": [
+        "ball and pillow",
+        "hummocky cross stratification",
+        "parting lineation",
+        "convolute bedding"
+      ],
+      "inner_core": [
+        "synaeresis cracks",
+        "dish structure",
+        "teepee structure",
+        "clastic dyke",
+        "slump fold"
+      ]
+    }
+  },
+  {
+    "id": "mass-movements",
+    "category": "hazards",
+    "prompt": "Name a mass movement or slope failure hazard",
+    "hint": "Fast or slow slope processes and landslides",
+    "tiers": {
+      "crust": [
+        "landslide",
+        "rockfall",
+        "mudflow",
+        "avalanche",
+        "soil creep"
+      ],
+      "lithosphere": [
+        "rotational slump",
+        "debris flow",
+        "lahar",
+        "scree",
+        "talus"
+      ],
+      "transition": [
+        "solifluction",
+        "slump",
+        "debris avalanche",
+        "earthflow",
+        "rock slide",
+        "slip plane"
+      ],
+      "lower_mantle": [
+        "liquefaction",
+        "sector collapse",
+        "translational slide",
+        "creep",
+        "sturzstrom",
+        "rock avalanche"
+      ],
+      "outer_core": [
+        "submarine slump",
+        "turbidity current",
+        "piping erosion",
+        "quick clay slide"
+      ],
+      "inner_core": [
+        "topple",
+        "cambering",
+        "valley bulging",
+        "gelifluction",
+        "lateral spread"
+      ]
+    }
+  },
+  {
+    "id": "coastal-landforms",
+    "category": "hazards",
+    "prompt": "Name a coastal erosional or depositional landform",
+    "hint": "Features formed by marine action",
+    "tiers": {
+      "crust": [
+        "beach",
+        "cliff",
+        "cave",
+        "arch",
+        "stack",
+        "stump"
+      ],
+      "lithosphere": [
+        "spit",
+        "headland",
+        "bay",
+        "wave cut platform",
+        "sand dune"
+      ],
+      "transition": [
+        "tombolo",
+        "bar",
+        "barrier island",
+        "berm",
+        "blowhole",
+        "wave cut notch"
+      ],
+      "lower_mantle": [
+        "cuspate foreland",
+        "salt marsh",
+        "mudflat",
+        "geo",
+        "raised beach",
+        "ria",
+        "rias"
+      ],
+      "outer_core": [
+        "fjord",
+        "fiord",
+        "estuary",
+        "offshore bar",
+        "shingle ridge",
+        "wave built terrace"
+      ],
+      "inner_core": [
+        "dalmatian coast",
+        "halite pans",
+        "chenier",
+        "neap berm",
+        "machair"
+      ]
+    }
+  },
+  {
+    "id": "glacial-landforms",
+    "category": "hazards",
+    "prompt": "Name a glacial landform (erosional or depositional)",
+    "hint": "Alpine or continental glaciation features",
+    "tiers": {
+      "crust": [
+        "glacier",
+        "moraine",
+        "u shaped valley",
+        "cirque",
+        "corrie",
+        "cwm"
+      ],
+      "lithosphere": [
+        "arete",
+        "pyramidal peak",
+        "hanging valley",
+        "ribbon lake",
+        "erratic",
+        "erratics"
+      ],
+      "transition": [
+        "drumlin",
+        "esker",
+        "till",
+        "striations",
+        "roche moutonnee",
+        "glacial trough"
+      ],
+      "lower_mantle": [
+        "kettle hole",
+        "kame",
+        "outwash plain",
+        "sandur",
+        "truncated spur",
+        "tarn",
+        "medial moraine"
+      ],
+      "outer_core": [
+        "paternoster lakes",
+        "bergschrund",
+        "nunatak",
+        "crag and tail",
+        "varves",
+        "braided stream"
+      ],
+      "inner_core": [
+        "rogen moraine",
+        "kame terrace",
+        "glaciolacustrine bed",
+        "pingo",
+        "urstromtal"
+      ]
+    }
+  },
+  {
+    "id": "metamorphic-index-minerals",
+    "category": "minerals",
+    "prompt": "Name a metamorphic index mineral (Barrovian zones)",
+    "hint": "Minerals indicating temperature/pressure grades",
+    "tiers": {
+      "crust": [
+        "garnet",
+        "chlorite",
+        "biotite"
+      ],
+      "lithosphere": [
+        "muscovite",
+        "quartz",
+        "calcite"
+      ],
+      "transition": [
+        "staurolite",
+        "kyanite",
+        "sillimanite"
+      ],
+      "lower_mantle": [
+        "andalusite",
+        "cordierite",
+        "glaucophane",
+        "epidote"
+      ],
+      "outer_core": [
+        "wollastonite",
+        "tremolite",
+        "actinolite",
+        "omphacite"
+      ],
+      "inner_core": [
+        "lawsonite",
+        "jadeite",
+        "pumpellyite",
+        "stilpnomelane",
+        "zoisite"
+      ]
+    }
+  },
+  {
+    "id": "seismology-terms",
+    "category": "tectonics",
+    "prompt": "Name an earthquake or seismology term",
+    "hint": "Waves, measurement scales or earthquake anatomy",
+    "tiers": {
+      "crust": [
+        "epicentre",
+        "epicenter",
+        "focus",
+        "hypocentre",
+        "magnitude",
+        "richter scale",
+        "tsunami"
+      ],
+      "lithosphere": [
+        "p wave",
+        "s wave",
+        "seismograph",
+        "seismometer",
+        "fault",
+        "aftershock"
+      ],
+      "transition": [
+        "mercalli scale",
+        "surface wave",
+        "love wave",
+        "rayleigh wave",
+        "liquefaction",
+        "tremor"
+      ],
+      "lower_mantle": [
+        "shadow zone",
+        "seismic gap",
+        "moment magnitude",
+        "foreshock",
+        "focal depth",
+        "amplification"
+      ],
+      "outer_core": [
+        "wadati benioff zone",
+        "mohorovicic discontinuity",
+        "moho",
+        "gutenberg discontinuity",
+        "isoseismal line"
+      ],
+      "inner_core": [
+        "lehmann discontinuity",
+        "dilatancy",
+        "slip vector",
+        "seismic tomography",
+        "sks wave"
+      ]
+    }
+  },
+  {
+    "id": "famous-volcanoes",
+    "category": "hazards",
+    "prompt": "Name a famous active, dormant, or historic volcano",
+    "hint": "Volcanoes worldwide or historical eruption sites",
+    "tiers": {
+      "crust": [
+        "vesuvius",
+        "mount st helens",
+        "krakatoa",
+        "yellowstone",
+        "mount etna",
+        "etna"
+      ],
+      "lithosphere": [
+        "kilauea",
+        "eyjafjallajokull",
+        "mauna loa",
+        "mount fuji",
+        "pompeii"
+      ],
+      "transition": [
+        "mount pinatubo",
+        "pinatubo",
+        "santorini",
+        "campi flegrei",
+        "lake nyos",
+        "nevado del ruiz",
+        "popocatepetl"
+      ],
+      "lower_mantle": [
+        "mount pelee",
+        "tambora",
+        "soufriere hills",
+        "montserrat",
+        "heimaey",
+        "paricutin",
+        "nisyros"
+      ],
+      "outer_core": [
+        "laki",
+        "katmai",
+        "novarupta",
+        "eldfell",
+        "unzen",
+        "mount merapi",
+        "sakurajima"
+      ],
+      "inner_core": [
+        "huaynaputina",
+        "toba",
+        "taupo",
+        "deception island",
+        "ilopango",
+        "changbaishan"
+      ]
+    }
+  },
+  {
+    "id": "economic-resources",
+    "category": "minerals",
+    "prompt": "Name an ore mineral, gemstone, or energy resource",
+    "hint": "Mined commodities, fossil fuels or mineral deposits",
+    "tiers": {
+      "crust": [
+        "gold",
+        "diamond",
+        "coal",
+        "oil",
+        "iron",
+        "petroleum"
+      ],
+      "lithosphere": [
+        "copper",
+        "silver",
+        "emerald",
+        "ruby",
+        "sapphire",
+        "pyrite",
+        "natural gas"
+      ],
+      "transition": [
+        "hematite",
+        "magnetite",
+        "galena",
+        "sphalerite",
+        "chalcopyrite",
+        "bauxite",
+        "gypsum"
+      ],
+      "lower_mantle": [
+        "uranium",
+        "uraninite",
+        "cassiterite",
+        "halite",
+        "talc",
+        "malachite",
+        "lithium",
+        "graphite"
+      ],
+      "outer_core": [
+        "chromite",
+        "wolframite",
+        "cinnabar",
+        "bornite",
+        "pentlandite",
+        "celestite",
+        "topaz"
+      ],
+      "inner_core": [
+        "spodumene",
+        "bastnasite",
+        "molybdenite",
+        "tantalite",
+        "kimberlite",
+        "monazite"
+      ]
+    }
+  },
+  {
+    "id": "hydrogeology-water",
+    "category": "hazards",
+    "prompt": "Name a hydrogeology or groundwater term",
+    "hint": "Aquifers, water table, wells and porosity",
+    "tiers": {
+      "crust": [
+        "water table",
+        "aquifer",
+        "porosity",
+        "permeability",
+        "spring",
+        "well"
+      ],
+      "lithosphere": [
+        "groundwater",
+        "saturation",
+        "permeable",
+        "impermeable",
+        "borehole",
+        "cone of depression"
+      ],
+      "transition": [
+        "aquiclude",
+        "aquitard",
+        "artesian well",
+        "unconfined aquifer",
+        "confined aquifer",
+        "recharge"
+      ],
+      "lower_mantle": [
+        "hydraulic gradient",
+        "drawdown",
+        "darcy's law",
+        "perched water table",
+        "saline intrusion",
+        "piping"
+      ],
+      "outer_core": [
+        "potentiometric surface",
+        "specific yield",
+        "hydraulic conductivity",
+        "leachate",
+        "piezometer"
+      ],
+      "inner_core": [
+        "hydrostatic head",
+        "storativity",
+        "transmissivity",
+        "plume migration",
+        "qanat"
+      ]
+    }
+  },
+  {
+    "id": "rock-textures",
+    "category": "petrology",
+    "prompt": "Name a rock texture, fabric, or microstructure",
+    "hint": "Grain size, arrangement or crystalline relationships",
+    "tiers": {
+      "crust": [
+        "crystalline",
+        "clastic",
+        "porphyritic",
+        "vesicular",
+        "glassy"
+      ],
+      "lithosphere": [
+        "foliation",
+        "schistosity",
+        "gneissose banding",
+        "oolitic",
+        "amygdaloidal"
+      ],
+      "transition": [
+        "pegmatitic",
+        "cleavage",
+        "equigranular",
+        "bioclastic",
+        "graded"
+      ],
+      "lower_mantle": [
+        "poikilitic",
+        "ophitic",
+        "spinifex",
+        "myrmekite",
+        "spherulitic",
+        "cumulate"
+      ],
+      "outer_core": [
+        "perthitic",
+        "coronitic",
+        "trachytic",
+        "graphic",
+        "cataclastic"
+      ],
+      "inner_core": [
+        "atoll texture",
+        "symplectite",
+        "exsolution lamellae",
+        "porphyroblastic",
+        "granoblastic"
+      ]
+    }
+  },
+  {
+    "id": "geological-tools",
+    "category": "minerals",
+    "prompt": "Name a geological fieldwork or laboratory tool/technique",
+    "hint": "Field kit, analytical instruments or mapping gear",
+    "tiers": {
+      "crust": [
+        "hammer",
+        "geological hammer",
+        "compass",
+        "hand lens",
+        "magnifying glass",
+        "bgs map",
+        "map"
+      ],
+      "lithosphere": [
+        "clinometer",
+        "compass clinometer",
+        "acid bottle",
+        "thin section",
+        "microscope",
+        "grain size card"
+      ],
+      "transition": [
+        "polarising microscope",
+        "streak plate",
+        "petrographic microscope",
+        "corer",
+        "sample bag",
+        "field notebook"
+      ],
+      "lower_mantle": [
+        "inclinometer",
+        "piezometer",
+        "seismometer",
+        "geophone",
+        "gps",
+        "chisel"
+      ],
+      "outer_core": [
+        "xrd",
+        "xrf",
+        "scintillometer",
+        "extensometer",
+        "resistivity meter",
+        "gravity meter"
+      ],
+      "inner_core": [
+        "electron microprobe",
+        "sem",
+        "mass spectrometer",
+        "magnetometer",
+        "insar",
+        "schmidt hammer"
+      ]
+    }
+  },
+  {
+    "id": "fossil-preservation",
+    "category": "fossils",
+    "prompt": "Name a type of fossil preservation or mode of fossilisation",
+    "hint": "Ways ancient organisms are preserved in rocks",
+    "tiers": {
+      "crust": [
+        "mould",
+        "mold",
+        "cast",
+        "bone",
+        "shell",
+        "skeleton"
+      ],
+      "lithosphere": [
+        "carbonisation",
+        "carbonization",
+        "permineralisation",
+        "permineralization",
+        "petrification",
+        "amber"
+      ],
+      "transition": [
+        "trace fossil",
+        "coprolite",
+        "trackway",
+        "burrow",
+        "imprint",
+        "pyritisation"
+      ],
+      "lower_mantle": [
+        "recrystallisation",
+        "silicification",
+        "internal mould",
+        "external mould",
+        "compression"
+      ],
+      "outer_core": [
+        "mummification",
+        "freezing",
+        "tar pit",
+        "gastrolith",
+        "boring"
+      ],
+      "inner_core": [
+        "phosphatisation",
+        "coalification",
+        "sublimation",
+        "authigenic preservation",
+        "bioimmuration"
+      ]
+    }
+  },
+  {
+    "id": "extinction-events",
+    "category": "fossils",
+    "prompt": "Name a mass extinction event, biotic crisis, or evolutionary radiation",
+    "hint": "Major geological bio-events and crises",
+    "tiers": {
+      "crust": [
+        "k-pg extinction",
+        "k-t extinction",
+        "dinosaur extinction",
+        "ice age",
+        "mass extinction"
+      ],
+      "lithosphere": [
+        "permian-triassic extinction",
+        "the great dying",
+        "cambrian explosion",
+        "permian extinction"
+      ],
+      "transition": [
+        "end-triassic extinction",
+        "late devonian extinction",
+        "ordovician-silurian extinction",
+        "triassic extinction"
+      ],
+      "lower_mantle": [
+        "great oxidation event",
+        "avalon explosion",
+        "great ordovician biodiversification",
+        "gobbe"
+      ],
+      "outer_core": [
+        "capitanian extinction",
+        "carnian pluvial episode",
+        "toarcian oceanic anoxic event",
+        "p-tr boundary"
+      ],
+      "inner_core": [
+        "petm",
+        "lau event",
+        "ireviken event",
+        "mulde event",
+        "hangenberg event",
+        "kellwasser event"
+      ]
+    }
+  }
+];
+
+const GEOLLION_TIERS = {
+  crust: {
+    name: 'Crustal (Common)',
+    icon: '🪨',
+    depth: 25,
+    points: 100,
+    color: '#78716c',
+    bg: '#f5f5f4',
+    border: '#d6d3d1',
+    desc: 'Surface & shallow continental crust'
+  },
+  lithosphere: {
+    name: 'Lithosphere (Uncommon)',
+    icon: '🌋',
+    depth: 180,
+    points: 350,
+    color: '#65a30d',
+    bg: '#f7fee7',
+    border: '#bef264',
+    desc: 'Rigid lithosphere & uppermost mantle'
+  },
+  transition: {
+    name: 'Transition Zone (Rare)',
+    icon: '💎',
+    depth: 550,
+    points: 750,
+    color: '#0891b2',
+    bg: '#ecfeff',
+    border: '#a5f3fc',
+    desc: 'High-pressure phase transformation zone'
+  },
+  lower_mantle: {
+    name: 'Lower Mantle (Deep Cut)',
+    icon: '⚡',
+    depth: 1750,
+    points: 1350,
+    color: '#d97706',
+    bg: '#fffbeb',
+    border: '#fde68a',
+    desc: 'Deep convective lower mantle (mesosphere)'
+  },
+  outer_core: {
+    name: 'Outer Core (Ultra Rare)',
+    icon: '🌊',
+    depth: 4000,
+    points: 2000,
+    color: '#ea580c',
+    bg: '#fff7ed',
+    border: '#fed7aa',
+    desc: 'Liquid iron-nickel core geodynamo'
+  },
+  inner_core: {
+    name: 'Inner Core (ONE IN A GEOLLION!)',
+    icon: '🔥',
+    depth: 6371,
+    points: 3000,
+    color: '#dc2626',
+    bg: '#fef2f2',
+    border: '#fca5a5',
+    desc: 'The center of the Earth — legendary rarity!'
+  }
+};
+
+const geollionState = {
+  screen: 'setup', // 'setup', 'playing', 'reveal', 'summary'
+  mode: 'solo', // 'solo', 'team'
+  promptCount: 7,
+  timerSeconds: 25,
+  topic: 'all', // 'all', 'petrology', 'minerals', 'tectonics', 'fossils', 'hazards'
+  soundEnabled: true,
+  fuzzyTolerance: true,
+
+  // Runtime
+  prompts: [],
+  currentIdx: 0,
+  timerRemaining: 25,
+  timerInterval: null,
+
+  // Last evaluated result
+  currentAnswer: '',
+  lastResult: null,
+
+  // History & cumulative stats
+  history: [],
+  team1Score: 0,
+  team1Depth: 0,
+  team2Score: 0,
+  team2Depth: 0,
+  currentTeam: 1,
+  team1Name: 'Team Lithosphere',
+  team2Name: 'Team Asthenosphere'
+};
+
+function normalizeGeologyTerm(s) {
+  if (!s) return '';
+  return s.toLowerCase()
+    .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()'"?]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function levenshteinDistance(s1, s2) {
+  if (s1 === s2) return 0;
+  if (!s1.length) return s2.length;
+  if (!s2.length) return s1.length;
+  const v0 = new Array(s2.length + 1);
+  const v1 = new Array(s2.length + 1);
+  for (let i = 0; i <= s2.length; i++) v0[i] = i;
+  for (let i = 0; i < s1.length; i++) {
+    v1[0] = i + 1;
+    for (let j = 0; j < s2.length; j++) {
+      const cost = s1[i] === s2[j] ? 0 : 1;
+      v1[j + 1] = Math.min(v1[j] + 1, v0[j + 1] + 1, v0[j] + cost);
+    }
+    for (let j = 0; j <= s2.length; j++) v0[j] = v1[j];
+  }
+  return v1[s2.length];
+}
+
+function evaluateGeollionAnswer(userInput, prompt) {
+  const normInput = normalizeGeologyTerm(userInput);
+  if (!normInput) return null;
+
+  const tierOrder = ['inner_core', 'outer_core', 'lower_mantle', 'transition', 'lithosphere', 'crust'];
+  const singular = normInput.endsWith('s') && !normInput.endsWith('ss') ? normInput.slice(0, -1) : normInput;
+
+  for (const tierKey of tierOrder) {
+    const wordList = prompt.tiers[tierKey] || [];
+    for (const term of wordList) {
+      const normTerm = normalizeGeologyTerm(term);
+      const normTermSingular = normTerm.endsWith('s') && !normTerm.endsWith('ss') ? normTerm.slice(0, -1) : normTerm;
+
+      if (normInput === normTerm || singular === normTerm || normInput === normTermSingular) {
+        return { matched: true, matchedTerm: term, tierKey: tierKey, typo: false };
+      }
+
+      if (geollionState.fuzzyTolerance && normInput.length >= 4 && normTerm.length >= 4) {
+        const dist = levenshteinDistance(normInput, normTerm);
+        const maxDist = normTerm.length >= 8 ? 2 : 1;
+        if (dist <= maxDist) {
+          return { matched: true, matchedTerm: term, tierKey: tierKey, typo: true };
+        }
+      }
+    }
+  }
+
+  return { matched: false };
+}
+
+function renderGeollionGenerator() {
+  if (geollionState.screen === 'playing') {
+    renderGeollionLive();
+  } else if (geollionState.screen === 'reveal') {
+    renderGeollionReveal();
+  } else if (geollionState.screen === 'summary') {
+    renderGeollionSummary();
+  } else {
+    renderGeollionSetup();
+  }
+}
+
+function renderGeollionSetup() {
+  const html = `
+    <div class="teacher-hub-wrap">
+      <nav class="teacher-nav">
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">🎓 Overview & Presets</button>
+        <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('geollion')">🌋 Geollion: Deep Earth Trivia</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('quiz')">🎮 Fun Quiz Generator</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('worksheet')">📝 Question & Worksheet Generator</button>
+      </nav>
+
+      <div class="geollion-panel">
+        <div class="geollion-banner">
+          <div>
+            <div class="geollion-banner-title">🌋 GEOLLION: The Deep Earth Trivia Dive</div>
+            <div class="geollion-banner-desc">
+              Inspired by <i>Krillion</i> — the rarer your answer, the deeper you drill into the Earth!
+              Common answers stay in the shallow crust, while deep-cut specialist geology terms plunge you straight through the Mantle to the <b>Inner Core</b>.
+            </div>
+          </div>
+          <button type="button" class="btn-minimal" onclick="printGeollionHandout()">📄 Print Classroom Handout</button>
+        </div>
+
+        <div class="quiz-config-grid">
+          <div class="quiz-field">
+            <label>Game Mode</label>
+            <select id="cfg-geo-mode" onchange="geollionState.mode=this.value;renderGeollionSetup()">
+              <option value="solo" ${geollionState.mode==='solo'?'selected':''}>Single Device / Solo Drill</option>
+              <option value="team" ${geollionState.mode==='team'?'selected':''}>Team Showdown (Lithosphere vs Asthenosphere)</option>
+            </select>
+          </div>
+
+          <div class="quiz-field">
+            <label>Number of Prompts</label>
+            <select id="cfg-geo-count" onchange="geollionState.promptCount=+this.value">
+              <option value="5" ${geollionState.promptCount===5?'selected':''}>5 Prompts (Quick Drill - 2 mins)</option>
+              <option value="7" ${geollionState.promptCount===7?'selected':''}>7 Prompts (Classic Krillion - 3.5 mins)</option>
+              <option value="10" ${geollionState.promptCount===10?'selected':''}>10 Prompts (Mantle Deep Dive - 5 mins)</option>
+            </select>
+          </div>
+
+          <div class="quiz-field">
+            <label>Curriculum Theme</label>
+            <select id="cfg-geo-topic" onchange="geollionState.topic=this.value">
+              <option value="all" ${geollionState.topic==='all'?'selected':''}>All Geology Topics (Mixed Variety)</option>
+              <option value="petrology" ${geollionState.topic==='petrology'?'selected':''}>Petrology (Igneous, Sedimentary, Metamorphic)</option>
+              <option value="minerals" ${geollionState.topic==='minerals'?'selected':''}>Minerals & Geochemistry</option>
+              <option value="tectonics" ${geollionState.topic==='tectonics'?'selected':''}>Tectonics, Structures & Seismology</option>
+              <option value="hazards" ${geollionState.topic==='hazards'?'selected':''}>Geological Hazards & Surface Processes</option>
+              <option value="fossils" ${geollionState.topic==='fossils'?'selected':''}>Fossils, Time Scale & Extinctions</option>
+            </select>
+          </div>
+
+          <div class="quiz-field">
+            <label>Timer per Prompt</label>
+            <select id="cfg-geo-timer" onchange="geollionState.timerSeconds=+this.value">
+              <option value="15" ${geollionState.timerSeconds===15?'selected':''}>15 seconds (Lightning Rapid)</option>
+              <option value="25" ${geollionState.timerSeconds===25?'selected':''}>25 seconds (Classic Krillion standard)</option>
+              <option value="40" ${geollionState.timerSeconds===40?'selected':''}>40 seconds (Class Discussion Friendly)</option>
+              <option value="0" ${geollionState.timerSeconds===0?'selected':''}>Untimed / Teacher Paced</option>
+            </select>
+          </div>
+
+          <div class="quiz-field" style="grid-column: 1 / -1; display:flex; flex-direction:row; gap:24px; flex-wrap:wrap">
+            <label style="display:flex;align-items:center;gap:6px;cursor:pointer">
+              <input type="checkbox" ${geollionState.soundEnabled?'checked':''} onchange="geollionState.soundEnabled=this.checked">
+              <span>🔊 Audio Sound Effects (ticks, rumbles & chimes)</span>
+            </label>
+            <label style="display:flex;align-items:center;gap:6px;cursor:pointer">
+              <input type="checkbox" ${geollionState.fuzzyTolerance?'checked':''} onchange="geollionState.fuzzyTolerance=this.checked">
+              <span>✨ Spelling & Typo Tolerance (accepts close spellings)</span>
+            </label>
+          </div>
+        </div>
+
+        <div style="background:var(--surface-hover);padding:16px;border-radius:var(--radius);border:1px solid var(--border)">
+          <div style="font-size:0.85rem;font-weight:700;margin-bottom:8px;color:var(--ink)">Earth Layer Depth Ranks:</div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px">
+            <div style="background:#f5f5f4;padding:8px 10px;border-radius:6px;border:1px solid #d6d3d1;font-size:0.75rem;color:#44403c">
+              <b>🪨 Crustal (Common)</b><br>0–35 km · 100 pts
+            </div>
+            <div style="background:#f7fee7;padding:8px 10px;border-radius:6px;border:1px solid #bef264;font-size:0.75rem;color:#365314">
+              <b>🌋 Lithosphere</b><br>35–410 km · 350 pts
+            </div>
+            <div style="background:#ecfeff;padding:8px 10px;border-radius:6px;border:1px solid #a5f3fc;font-size:0.75rem;color:#155e75">
+              <b>💎 Transition Zone</b><br>410–660 km · 750 pts
+            </div>
+            <div style="background:#fffbeb;padding:8px 10px;border-radius:6px;border:1px solid #fde68a;font-size:0.75rem;color:#854d0e">
+              <b>⚡ Lower Mantle</b><br>660–2,890 km · 1,350 pts
+            </div>
+            <div style="background:#fff7ed;padding:8px 10px;border-radius:6px;border:1px solid #fed7aa;font-size:0.75rem;color:#9a3412">
+              <b>🌊 Outer Core</b><br>2,890–5,150 km · 2,000 pts
+            </div>
+            <div style="background:#fef2f2;padding:8px 10px;border-radius:6px;border:1px solid #fca5a5;font-size:0.75rem;color:#991b1b">
+              <b>🔥 Inner Core</b><br>6,371 km · 3,000 pts
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;justify-content:center;margin-top:8px">
+          <button type="button" class="btn-geollion-drill" style="font-size:1.15rem;padding:16px 36px" onclick="startGeollion()">
+            🌋 Drill to the Core! Start Game →
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+  $('#app-view').innerHTML = html;
+}
+
+function launchGeollionPreset(presetType) {
+  state.teacherTab = 'geollion';
+  if (presetType === 'classic7') {
+    geollionState.mode = 'solo';
+    geollionState.promptCount = 7;
+    geollionState.timerSeconds = 25;
+    geollionState.topic = 'all';
+  } else if (presetType === 'teamdrill') {
+    geollionState.mode = 'team';
+    geollionState.promptCount = 8;
+    geollionState.timerSeconds = 25;
+    geollionState.topic = 'all';
+  }
+  startGeollion();
+}
+
+function startGeollion() {
+  let pool = GEOLLION_PROMPTS;
+  if (geollionState.topic !== 'all') {
+    pool = pool.filter(p => p.category === geollionState.topic);
+    if (!pool.length) pool = GEOLLION_PROMPTS;
+  }
+
+  // Shuffle pool
+  const shuffled = [...pool].sort(() => 0.5 - Math.random());
+  geollionState.prompts = shuffled.slice(0, Math.min(geollionState.promptCount, shuffled.length));
+  geollionState.currentIdx = 0;
+  geollionState.history = [];
+  geollionState.team1Score = 0;
+  geollionState.team1Depth = 0;
+  geollionState.team2Score = 0;
+  geollionState.team2Depth = 0;
+  geollionState.currentTeam = 1;
+
+  geollionState.screen = 'playing';
+  renderGeollionLive();
+  startGeollionTimer();
+}
+
+function startGeollionTimer() {
+  if (geollionState.timerInterval) clearInterval(geollionState.timerInterval);
+  if (!geollionState.timerSeconds) {
+    geollionState.timerRemaining = 0;
+    return;
+  }
+  geollionState.timerRemaining = geollionState.timerSeconds;
+  updateGeollionTimerDisplay();
+
+  geollionState.timerInterval = setInterval(() => {
+    geollionState.timerRemaining--;
+    updateGeollionTimerDisplay();
+
+    if (geollionState.soundEnabled && geollionState.timerRemaining <= 5 && geollionState.timerRemaining > 0) {
+      QuizAudio.tick();
+    }
+
+    if (geollionState.timerRemaining <= 0) {
+      clearInterval(geollionState.timerInterval);
+      submitGeollionAnswer(false);
+    }
+  }, 1000);
+}
+
+function updateGeollionTimerDisplay() {
+  const el = $('#geo-timer-num');
+  const box = $('#geo-timer-box');
+  if (el) el.textContent = `${geollionState.timerRemaining}s`;
+  if (box) {
+    if (geollionState.timerRemaining <= 5) {
+      box.classList.add('urgent');
+    } else {
+      box.classList.remove('urgent');
+    }
+  }
+}
+
+function renderGeollionLive() {
+  const p = geollionState.prompts[geollionState.currentIdx];
+  const roundNum = geollionState.currentIdx + 1;
+  const totalRounds = geollionState.prompts.length;
+
+  let teamBannerHtml = '';
+  if (geollionState.mode === 'team') {
+    const isT1 = geollionState.currentTeam === 1;
+    teamBannerHtml = `
+      <div class="quiz-scoreboard-grid" style="margin-bottom:12px">
+        <div class="team-score-card ${isT1 ? 'active-team' : ''}" style="${isT1 ? 'border-color:#dc2626;background:rgba(220,38,38,0.08);' : ''}">
+          <div>
+            <div class="team-name" style="${isT1 ? 'color:#dc2626;font-weight:800' : ''}">🌋 ${geollionState.team1Name} ${isT1 ? '◀ CURRENT TURN' : ''}</div>
+            <div style="font-size:0.8rem;color:var(--muted)">Depth: ${geollionState.team1Depth.toLocaleString()} km · ${geollionState.team1Score} pts</div>
+          </div>
+        </div>
+        <div class="team-score-card ${!isT1 ? 'active-team' : ''}" style="${!isT1 ? 'border-color:#ea580c;background:rgba(234,88,12,0.08);' : ''}">
+          <div>
+            <div class="team-name" style="${!isT1 ? 'color:#ea580c;font-weight:800' : ''}">🌊 ${geollionState.team2Name} ${!isT1 ? '◀ CURRENT TURN' : ''}</div>
+            <div style="font-size:0.8rem;color:var(--muted)">Depth: ${geollionState.team2Depth.toLocaleString()} km · ${geollionState.team2Score} pts</div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  const totalCumulativeDepth = geollionState.mode === 'team' 
+    ? (geollionState.team1Depth + geollionState.team2Depth)
+    : geollionState.history.reduce((sum, h) => sum + h.depth, 0);
+
+  const html = `
+    <div class="teacher-hub-wrap">
+      <div class="geollion-panel">
+        <div class="quiz-live-header">
+          <div class="quiz-live-progress">
+            PROMPT <b>${roundNum}</b> OF <b>${totalRounds}</b> · DRILL EXPEDITION
+          </div>
+          <div style="display:flex;align-items:center;gap:12px">
+            ${geollionState.timerSeconds ? `
+              <div class="quiz-timer-box" id="geo-timer-box">
+                ⏱️ <span id="geo-timer-num">${geollionState.timerRemaining}s</span>
+              </div>
+            ` : '<div class="quiz-timer-box">⏱️ Untimed</div>'}
+            <button type="button" class="btn-minimal" onclick="geollionState.soundEnabled=!geollionState.soundEnabled;this.textContent=geollionState.soundEnabled?'🔊 Sound':'🔇 Mute'">
+              ${geollionState.soundEnabled ? '🔊 Sound' : '🔇 Mute'}
+            </button>
+            <button type="button" class="btn-minimal" onclick="abandonGeollion()">✕ Exit</button>
+          </div>
+        </div>
+
+        ${teamBannerHtml}
+
+        <div class="geollion-meter-card">
+          <div class="geollion-meter-top">
+            <span>EARTH STRATIGRAPHY & CORE METER</span>
+            <span>Total Drilled: <span style="color:#dc2626">${totalCumulativeDepth.toLocaleString()} km</span></span>
+          </div>
+          <div class="geollion-meter-bar">
+            <div class="geollion-meter-seg" style="width:12%;background:#78716c;" title="Crust (0-35km)">CRUST</div>
+            <div class="geollion-meter-seg" style="width:16%;background:#65a30d;" title="Lithosphere (35-410km)">LITHO</div>
+            <div class="geollion-meter-seg" style="width:18%;background:#0891b2;" title="Transition (410-660km)">TRANSITION</div>
+            <div class="geollion-meter-seg" style="width:24%;background:#d97706;" title="Lower Mantle (660-2890km)">LOWER MANTLE</div>
+            <div class="geollion-meter-seg" style="width:18%;background:#ea580c;" title="Outer Core (2890-5150km)">OUTER CORE</div>
+            <div class="geollion-meter-seg" style="width:12%;background:#dc2626;" title="Inner Core (5150-6371km)">CORE</div>
+          </div>
+        </div>
+
+        <div class="geollion-stage">
+          <span class="geollion-cat-badge">${p.category.toUpperCase()}</span>
+          <h2 class="geollion-prompt-text">${esc(p.prompt)}</h2>
+          ${p.hint ? `<div class="geollion-prompt-sub">${esc(p.hint)}</div>` : ''}
+
+          <div class="geollion-input-wrap">
+            <input type="text" id="geollion-input" class="geollion-input" placeholder="Type your answer (rarer is deeper)..." autocomplete="off" autofocus>
+            <button type="button" class="btn-geollion-drill" onclick="submitGeollionAnswer(false)">
+              Drill! ➔
+            </button>
+          </div>
+
+          <button type="button" class="btn-geollion-skip" onclick="submitGeollionAnswer(true)">
+            Pass / Surface (0 km)
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+  $('#app-view').innerHTML = html;
+
+  setTimeout(() => {
+    const inp = $('#geollion-input');
+    if (inp) {
+      inp.focus();
+      inp.addEventListener('keydown', e => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          submitGeollionAnswer(false);
+        }
+      });
+    }
+  }, 50);
+}
+
+function submitGeollionAnswer(passed) {
+  if (geollionState.timerInterval) clearInterval(geollionState.timerInterval);
+
+  const inp = $('#geollion-input');
+  const userText = passed ? '' : (inp ? inp.value.trim() : '');
+  const p = geollionState.prompts[geollionState.currentIdx];
+
+  let evalResult = { matched: false };
+  if (!passed && userText) {
+    evalResult = evaluateGeollionAnswer(userText, p);
+  }
+
+  let tierKey = 'miss';
+  let tierInfo = null;
+  let depth = 0;
+  let points = 0;
+
+  if (evalResult.matched) {
+    tierKey = evalResult.tierKey;
+    tierInfo = GEOLLION_TIERS[tierKey];
+    depth = tierInfo.depth;
+    points = tierInfo.points;
+
+    if (geollionState.soundEnabled) {
+      if (tierKey === 'inner_core') {
+        QuizAudio.coreSwell();
+      } else if (tierKey === 'outer_core' || tierKey === 'lower_mantle') {
+        QuizAudio.deepRumble();
+      } else {
+        QuizAudio.correct();
+      }
+    }
+  } else {
+    if (geollionState.soundEnabled) QuizAudio.wrong();
+  }
+
+  const record = {
+    prompt: p,
+    userText: userText || '(Passed / Time Out)',
+    matched: evalResult.matched,
+    matchedTerm: evalResult.matchedTerm || '',
+    typo: !!evalResult.typo,
+    tierKey: tierKey,
+    tierInfo: tierInfo,
+    depth: depth,
+    points: points,
+    team: geollionState.currentTeam
+  };
+
+  geollionState.history.push(record);
+
+  if (geollionState.mode === 'team') {
+    if (geollionState.currentTeam === 1) {
+      geollionState.team1Score += points;
+      geollionState.team1Depth += depth;
+      geollionState.currentTeam = 2;
+    } else {
+      geollionState.team2Score += points;
+      geollionState.team2Depth += depth;
+      geollionState.currentTeam = 1;
+    }
+  }
+
+  geollionState.lastResult = record;
+  geollionState.screen = 'reveal';
+  renderGeollionReveal();
+}
+
+function renderGeollionReveal() {
+  const r = geollionState.lastResult;
+  const p = r.prompt;
+  const isHit = r.matched && r.tierInfo;
+
+  let badgeColor = isHit ? r.tierInfo.color : '#dc2626';
+  let badgeBg = isHit ? r.tierInfo.bg : '#fef2f2';
+  let badgeBorder = isHit ? r.tierInfo.border : '#fca5a5';
+
+  const tierRowsHtml = ['inner_core', 'outer_core', 'lower_mantle', 'transition', 'lithosphere', 'crust'].map(tKey => {
+    const info = GEOLLION_TIERS[tKey];
+    const words = p.tiers[tKey] || [];
+    const isThisTier = isHit && r.tierKey === tKey;
+    return `
+      <div class="geollion-tier-row ${isThisTier ? 'hit-tier' : ''}" style="${isThisTier ? `border-left: 4px solid ${info.color};` : ''}">
+        <div class="geollion-tier-label" style="color:${info.color}">
+          ${info.icon} ${info.name.split(' ')[0]}
+          <span style="font-size:0.7rem;color:var(--muted)">(${info.depth.toLocaleString()}km)</span>
+        </div>
+        <div class="geollion-tier-items">
+          ${words.map(w => {
+            const isMatch = isThisTier && (w.toLowerCase() === (r.matchedTerm||'').toLowerCase());
+            return isMatch ? `<b style="color:${info.color};text-decoration:underline;">${w}</b>` : w;
+          }).join(', ')}
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  const html = `
+    <div class="teacher-hub-wrap">
+      <div class="geollion-panel">
+        <div class="geollion-reveal-box" style="border-color:${badgeBorder};">
+          ${isHit ? `
+            <div class="geollion-tier-title" style="color:${badgeColor};background:${badgeBg};border:1px solid ${badgeBorder}">
+              ${r.tierInfo.icon} ${r.tierInfo.name}
+            </div>
+            <div class="geollion-depth-callout" style="color:${badgeColor}">
+              +${r.depth.toLocaleString()} km
+            </div>
+            <div style="font-size:1.1rem;font-weight:700;color:var(--ink)">
+              Drilled into ${r.tierInfo.desc}! (+${r.points} pts)
+            </div>
+            ${r.typo ? `<div style="font-size:0.85rem;color:var(--muted)"><i>(Typo accepted for: "${r.matchedTerm}")</i></div>` : ''}
+          ` : `
+            <div class="geollion-tier-title" style="color:#dc2626;background:#fef2f2;border:1px solid #fca5a5">
+              ⚠️ Surface Strike (0 km)
+            </div>
+            <div class="geollion-depth-callout" style="color:#71717a">
+              0 km
+            </div>
+            <div style="font-size:1rem;color:var(--ink-secondary)">
+              "${esc(r.userText)}" was not recognized in the geological database for this prompt.
+            </div>
+          `}
+
+          <div class="geollion-all-tiers-box">
+            <div class="geollion-tier-header">
+              📖 Rarity Tiers & Accepted Answers for: <i>"${esc(p.prompt)}"</i>
+            </div>
+            ${tierRowsHtml}
+          </div>
+
+          <div style="margin-top:14px;display:flex;gap:12px;align-items:center">
+            <button type="button" class="btn-geollion-drill" style="padding:14px 32px" onclick="nextGeollionPrompt()">
+              Next Prompt (Space / Enter) →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  $('#app-view').innerHTML = html;
+}
+
+function nextGeollionPrompt() {
+  geollionState.currentIdx++;
+  if (geollionState.currentIdx >= geollionState.prompts.length) {
+    endGeollion();
+  } else {
+    geollionState.screen = 'playing';
+    renderGeollionLive();
+    startGeollionTimer();
+  }
+}
+
+function endGeollion() {
+  if (geollionState.timerInterval) clearInterval(geollionState.timerInterval);
+  if (geollionState.soundEnabled) QuizAudio.fanfare();
+  geollionState.screen = 'summary';
+  renderGeollionSummary();
+}
+
+function abandonGeollion() {
+  if (geollionState.timerInterval) clearInterval(geollionState.timerInterval);
+  geollionState.screen = 'setup';
+  renderGeollionSetup();
+}
+
+function renderGeollionSummary() {
+  const isTeam = geollionState.mode === 'team';
+  const totalRounds = geollionState.history.length;
+
+  let totalDepth = 0;
+  let totalScore = 0;
+  let deepestCut = null;
+
+  geollionState.history.forEach(h => {
+    totalDepth += h.depth;
+    totalScore += h.points;
+    if (h.matched && (!deepestCut || h.depth > deepestCut.depth)) {
+      deepestCut = h;
+    }
+  });
+
+  let rankBadge = '🪨 Crustal Novice';
+  let rankDesc = 'Explored the surface geology.';
+  if (totalDepth >= 25000) {
+    rankBadge = '🔥 LEGENDARY CORE BREAKER (Rank S+)';
+    rankDesc = 'Reached the deepest depths of the Earth! Outstanding mastery of obscure geology!';
+  } else if (totalDepth >= 18000) {
+    rankBadge = '💎 Deep Mantle Master (Rank S)';
+    rankDesc = 'Drilled deep into the mantle transition zone and lower mesosphere!';
+  } else if (totalDepth >= 10000) {
+    rankBadge = '⚡ Upper Mantle Pioneer (Rank A)';
+    rankDesc = 'Solid exploration across the lithosphere and upper mantle.';
+  } else if (totalDepth >= 4000) {
+    rankBadge = '🌋 Lithospheric Prospector (Rank B)';
+    rankDesc = 'Ventured past the continental crust.';
+  }
+
+  let winnerBanner = '';
+  if (isTeam) {
+    const t1 = geollionState.team1Depth;
+    const t2 = geollionState.team2Depth;
+    if (t1 > t2) {
+      winnerBanner = `🏆 <b>${geollionState.team1Name}</b> wins with ${t1.toLocaleString()} km vs ${t2.toLocaleString()} km!`;
+    } else if (t2 > t1) {
+      winnerBanner = `🏆 <b>${geollionState.team2Name}</b> wins with ${t2.toLocaleString()} km vs ${t1.toLocaleString()} km!`;
+    } else {
+      winnerBanner = `🤝 It is a dead heat! Both teams drilled ${t1.toLocaleString()} km!`;
+    }
+  }
+
+  const historyRowsHtml = geollionState.history.map((h, i) => {
+    const info = h.tierInfo;
+    return `
+      <tr>
+        <td style="padding:8px 10px;border-bottom:1px solid var(--border)"><b>#${i+1}</b> ${esc(h.prompt.prompt)}</td>
+        <td style="padding:8px 10px;border-bottom:1px solid var(--border)">
+          <b>${esc(h.userText)}</b> ${h.typo ? `<i>(${h.matchedTerm})</i>` : ''}
+        </td>
+        <td style="padding:8px 10px;border-bottom:1px solid var(--border)">
+          ${info ? `<span style="color:${info.color};font-weight:700">${info.icon} ${info.name.split(' ')[0]}</span>` : '<span style="color:#dc2626">Dud</span>'}
+        </td>
+        <td style="padding:8px 10px;border-bottom:1px solid var(--border);font-weight:700;color:${info ? info.color : '#71717a'}">
+          +${h.depth.toLocaleString()} km
+        </td>
+        <td style="padding:8px 10px;border-bottom:1px solid var(--border);text-align:right">
+          +${h.points} pts
+        </td>
+      </tr>
+    `;
+  }).join('');
+
+  const html = `
+    <div class="teacher-hub-wrap">
+      <div class="geollion-panel">
+        <div style="text-align:center;padding:16px 0">
+          <div style="font-size:2.4rem;font-weight:900;color:#dc2626">EXPEDITION COMPLETE! 🌍</div>
+          <div style="font-size:1.15rem;font-weight:800;color:var(--ink);margin-top:6px">${rankBadge}</div>
+          <div style="font-size:0.9rem;color:var(--muted);margin-top:2px">${rankDesc}</div>
+
+          ${isTeam ? `
+            <div style="margin:16px auto;max-width:550px;padding:12px;border-radius:var(--radius);background:var(--surface-hover);border:1px solid var(--border);font-size:1.05rem">
+              ${winnerBanner}
+            </div>
+          ` : ''}
+
+          <div style="display:flex;justify-content:center;gap:24px;margin-top:20px;flex-wrap:wrap">
+            <div style="background:var(--surface-hover);padding:14px 24px;border-radius:var(--radius);border:1px solid var(--border)">
+              <div style="font-size:0.8rem;color:var(--muted)">TOTAL DEPTH DRILLED</div>
+              <div style="font-size:2rem;font-weight:900;color:#dc2626">${totalDepth.toLocaleString()} km</div>
+            </div>
+            <div style="background:var(--surface-hover);padding:14px 24px;border-radius:var(--radius);border:1px solid var(--border)">
+              <div style="font-size:0.8rem;color:var(--muted)">TOTAL SCORE</div>
+              <div style="font-size:2rem;font-weight:900;color:#d97706">${totalScore.toLocaleString()} pts</div>
+            </div>
+            ${deepestCut ? `
+              <div style="background:var(--surface-hover);padding:14px 24px;border-radius:var(--radius);border:1px solid var(--border)">
+                <div style="font-size:0.8rem;color:var(--muted)">DEEPEST CUT FOUND</div>
+                <div style="font-size:1.4rem;font-weight:900;color:#ea580c">${esc(deepestCut.matchedTerm)}</div>
+                <div style="font-size:0.8rem;color:var(--ink-secondary)">${deepestCut.depth.toLocaleString()} km (${deepestCut.tierInfo.name.split(' ')[0]})</div>
+              </div>
+            ` : ''}
+          </div>
+        </div>
+
+        <div style="border:1px solid var(--border);border-radius:var(--radius);overflow:hidden">
+          <div style="padding:10px 14px;background:var(--surface-hover);font-size:0.85rem;font-weight:700">
+            📋 Expedition Prompt Recap (${totalRounds} prompts)
+          </div>
+          <table style="width:100%;border-collapse:collapse;font-size:0.85rem">
+            <thead>
+              <tr style="background:var(--surface);border-bottom:1px solid var(--border);text-align:left;color:var(--muted)">
+                <th style="padding:8px 10px">Prompt</th>
+                <th style="padding:8px 10px">Answer Given</th>
+                <th style="padding:8px 10px">Layer Tier</th>
+                <th style="padding:8px 10px">Depth</th>
+                <th style="padding:8px 10px;text-align:right">Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${historyRowsHtml}
+            </tbody>
+          </table>
+        </div>
+
+        <div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap">
+          <button type="button" class="btn-geollion-drill" onclick="startGeollion()">
+            🔄 Play Again with New Prompts
+          </button>
+          <button type="button" class="btn-minimal" onclick="geollionState.screen='setup';renderGeollionSetup()">
+            ⚙️ Change Settings
+          </button>
+          <button type="button" class="btn-minimal" onclick="switchTeacherTab('hub')">
+            ← Back to Teacher's Hub
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+  $('#app-view').innerHTML = html;
+}
+
+function printGeollionHandout() {
+  let printContainer = $('#print-container');
+  if (!printContainer) {
+    printContainer = document.createElement('div');
+    printContainer.id = 'print-container';
+    document.body.appendChild(printContainer);
+  }
+
+  let pool = GEOLLION_PROMPTS;
+  if (geollionState.topic !== 'all') {
+    pool = pool.filter(p => p.category === geollionState.topic);
+    if (!pool.length) pool = GEOLLION_PROMPTS;
+  }
+  const selected = pool.slice(0, geollionState.promptCount);
+
+  const studentItems = selected.map((p, i) => `
+    <div style="margin-bottom:16pt;page-break-inside:avoid;border:1pt solid #ccc;border-radius:4pt;padding:10pt 14pt">
+      <div style="display:flex;justify-content:space-between;align-items:baseline">
+        <h3 style="margin:0;font-size:12pt;font-weight:700">PROMPT ${i+1}: ${esc(p.prompt)}</h3>
+        <span style="font-size:9pt;font-weight:700;border:1pt solid #222;padding:2pt 6pt;border-radius:2pt">Target: Inner Core</span>
+      </div>
+      ${p.hint ? `<div style="font-size:8.5pt;color:#555;margin:3pt 0 6pt">${esc(p.hint)}</div>` : ''}
+      <div style="border-bottom:1pt dotted #888;height:24pt;margin-top:6pt"></div>
+      <div style="display:flex;justify-content:space-between;font-size:8pt;color:#777;margin-top:4pt">
+        <span>Crust (0-35km)</span>
+        <span>Lithosphere (180km)</span>
+        <span>Transition (550km)</span>
+        <span>Lower Mantle (1,750km)</span>
+        <span>Outer Core (4,000km)</span>
+        <span>Inner Core (6,371km)</span>
+      </div>
+    </div>
+  `).join('');
+
+  const answerItems = selected.map((p, i) => `
+    <div style="margin-bottom:12pt;page-break-inside:avoid;border:1pt solid #eee;border-radius:4pt;padding:8pt 12pt">
+      <div style="font-weight:700;font-size:10pt;margin-bottom:4pt">Prompt ${i+1}: ${esc(p.prompt)}</div>
+      <div style="font-size:8pt;line-height:1.4">
+        <b>🔥 Inner Core:</b> ${p.tiers.inner_core.join(', ')}<br>
+        <b>🌊 Outer Core:</b> ${p.tiers.outer_core.join(', ')}<br>
+        <b>⚡ Lower Mantle:</b> ${p.tiers.lower_mantle.join(', ')}<br>
+        <b>💎 Transition:</b> ${p.tiers.transition.join(', ')}<br>
+        <b>🌋 Lithosphere:</b> ${p.tiers.lithosphere.join(', ')}<br>
+        <b>🪨 Crustal:</b> ${p.tiers.crust.join(', ')}
+      </div>
+    </div>
+  `).join('');
+
+  printContainer.innerHTML = `
+    <div style="padding:10pt;page-break-inside:avoid">
+      <h1 style="font-size:16pt;margin:0 0 4pt">🌋 GEOLLION: The Deep Earth Trivia Dive</h1>
+      <p style="font-size:9.5pt;color:#444;margin:0 0 10pt">Rules: Write the rarest, most obscure valid answer for each prompt. Common answers stay near the surface; rare answers drill into the Earth's Inner Core!</p>
+    </div>
+
+    <table class="print-candidate-table">
+      <tr>
+        <td style="width:50%"><b>Student / Team Name:</b></td>
+        <td style="width:25%"><b>Date:</b></td>
+        <td style="width:25%"><b>Class:</b></td>
+      </tr>
+      <tr>
+        <td colspan="2"><b>Total Depth Reached:</b> ____________ km</td>
+        <td><b>Final Rank:</b> ____________</td>
+      </tr>
+    </table>
+
+    <div style="margin-top:12pt">
+      ${studentItems}
+    </div>
+
+    <div style="page-break-before:always;padding-top:14pt">
+      <h2 style="font-size:13pt;border-bottom:2pt solid #111;padding-bottom:4pt;margin-bottom:10pt">TEACHER'S GEOLLION DEPTH TIER GUIDE & ANSWER KEY</h2>
+      ${answerItems}
+    </div>
+  `;
+
+  document.body.classList.add('is-printing-pack');
+  setTimeout(() => {
+    window.print();
+  }, 100);
+}
+
+function handleGeollionKeydown(e) {
+  if (geollionState.screen === 'playing') {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      submitGeollionAnswer(false);
+    }
+  } else if (geollionState.screen === 'reveal') {
+    if (e.key === ' ' || e.code === 'Space' || e.key === 'Enter' || e.key === 'ArrowRight') {
+      e.preventDefault();
+      nextGeollionPrompt();
+    }
+  }
+}
+
+/* ========================================================
    FUN MULTIPLE-CHOICE QUIZ GENERATOR IMPLEMENTATION
    ======================================================== */
 function renderQuizGenerator() {
@@ -3644,7 +6148,8 @@ function renderQuizSetup() {
   const html = `
     <div class="teacher-hub-wrap">
       <nav class="teacher-nav">
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">← Teacher's Hub</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">🎓 Overview & Presets</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('geollion')">🌋 Geollion: Deep Earth Trivia</button>
         <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('quiz')">🎮 Fun Quiz Generator</button>
         <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('worksheet')">📝 Question & Worksheet Generator</button>
       </nav>
@@ -4145,7 +6650,8 @@ function renderWorksheetGenerator() {
   const html = `
     <div class="teacher-hub-wrap">
       <nav class="teacher-nav">
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">← Teacher's Hub</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">🎓 Overview & Presets</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('geollion')">🌋 Geollion: Deep Earth Trivia</button>
         <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('quiz')">🎮 Fun Quiz Generator</button>
         <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('worksheet')">📝 Question & Worksheet Generator</button>
       </nav>
@@ -4504,7 +7010,12 @@ async function executePrintWorksheet(options = {}) {
 
 
 window.addEventListener('keydown', e => {
-  if (state.view !== 'teachers' || state.teacherTab !== 'quiz' || quizState.screen !== 'playing') return;
+  if (state.view !== 'teachers') return;
+  if (state.teacherTab === 'geollion') {
+    handleGeollionKeydown(e);
+    return;
+  }
+  if (state.teacherTab !== 'quiz' || quizState.screen !== 'playing') return;
   if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') return;
 
   const key = e.key.toLowerCase();
