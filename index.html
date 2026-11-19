@@ -2341,6 +2341,7 @@ footer {
 
       <div class="filter-row">
         <select id="level" class="select-minimal"></select>
+        <select id="component" class="select-minimal"></select>
         <select id="topic" class="select-minimal"></select>
         <select id="year" class="select-minimal"></select>
         <select id="skill" class="select-minimal"></select>
@@ -2358,6 +2359,9 @@ footer {
         <button type="button" class="chip-btn" data-chip="all">All</button>
         <button type="button" class="chip-btn" data-chip="as">AS Level</button>
         <button type="button" class="chip-btn" data-chip="a2">A Level</button>
+        <button type="button" class="chip-btn" data-chip="c1">Component 1</button>
+        <button type="button" class="chip-btn" data-chip="c2">Component 2</button>
+        <button type="button" class="chip-btn" data-chip="c3">Component 3</button>
         <button type="button" class="chip-btn" data-chip="high">≥4 Marks</button>
         <button type="button" class="chip-btn" data-chip="maths">Maths & Practical</button>
         <button type="button" class="chip-btn" data-chip="review">Bookmarked</button>
@@ -2584,6 +2588,7 @@ let state = {
   view: 'strata',
   teacherTab: 'hub',
   level: '',
+  component: '',
   topic: '',
   skill: '',
   year: '',
@@ -2849,8 +2854,49 @@ function loadQuestionBank() {
     });
 }
 
+function getPaperComponent(paperId) {
+  if (!paperId || !D || !D.P || !D.P[paperId]) return '';
+  const p = D.P[paperId];
+  const pid = paperId.toLowerCase();
+  const unit = (p.unit || '').toLowerCase();
+  if (pid.includes('-c1') || pid.includes('-a1') || unit.includes('component 1')) return 'c1';
+  if (pid.includes('-c2') || pid.includes('-a2') || unit.includes('component 2')) return 'c2';
+  if (pid.includes('-a3') || unit.includes('component 3')) return 'c3';
+  if (pid.includes('-gl1') || unit.includes('gl1')) return 'gl1';
+  if (pid.includes('-gl3') || unit.includes('gl3')) return 'gl3';
+  if (pid.includes('-gl4') || unit.includes('gl4')) return 'gl4';
+  if (pid.includes('-gl5-u1') || unit.includes('thematic unit 1')) return 'gl5-u1';
+  if (pid.includes('-gl5-u2') || unit.includes('thematic unit 2')) return 'gl5-u2';
+  if (pid.includes('-gl5-u3') || unit.includes('thematic unit 3')) return 'gl5-u3';
+  if (pid.includes('-gl5-u4') || unit.includes('thematic unit 4')) return 'gl5-u4';
+  if (pid.includes('-gl5') || unit.includes('gl5')) return 'gl5';
+  return '';
+}
+
+function buildComponentOptions() {
+  return `
+    <option value="">All Components</option>
+    <optgroup label="Current Specification">
+      <option value="c1">Component 1 (Enquiries & Investigations)</option>
+      <option value="c2">Component 2 (Foundation & Principles)</option>
+      <option value="c3">Component 3 (Geological Applications)</option>
+    </optgroup>
+    <optgroup label="Legacy Specification">
+      <option value="gl1">GL1: Foundation Unit</option>
+      <option value="gl3">GL3: Geology & Human Environment</option>
+      <option value="gl4">GL4: Interpreting Geological Record</option>
+      <option value="gl5">GL5: All Thematic Units</option>
+      <option value="gl5-u1">GL5 Unit 1: Quaternary Geology</option>
+      <option value="gl5-u2">GL5 Unit 2: Geology of Natural Resources</option>
+      <option value="gl5-u3">GL5 Unit 3: Geological Evolution of Britain</option>
+      <option value="gl5-u4">GL5 Unit 4: Geology of the Lithosphere</option>
+    </optgroup>
+  `;
+}
+
 function initApp() {
   opts('#level', 'All Levels', (D.levels || []).map(l => [l.id, l.name]));
+  if ($('#component')) $('#component').innerHTML = buildComponentOptions();
   $('#topic').innerHTML = buildTopicOptions();
   opts('#skill', 'All Skills', D.skills.map(s => [s.id, s.name]));
   const years = [...new Set(D.papers.map(p => p.year))].sort((a, b) => b - a);
@@ -2875,9 +2921,12 @@ function initApp() {
   $$('.chip-btn[data-chip]').forEach(chip => {
     chip.onclick = () => {
       const c = chip.dataset.chip;
-      if (c === 'all') { state.level = ''; state.min = 0; state.skill = ''; state.status = ''; }
+      if (c === 'all') { state.level = ''; state.component = ''; state.min = 0; state.skill = ''; state.status = ''; }
       else if (c === 'as') { state.level = 'AS'; }
       else if (c === 'a2') { state.level = 'A'; }
+      else if (c === 'c1') { state.component = state.component === 'c1' ? '' : 'c1'; }
+      else if (c === 'c2') { state.component = state.component === 'c2' ? '' : 'c2'; }
+      else if (c === 'c3') { state.component = state.component === 'c3' ? '' : 'c3'; }
       else if (c === 'high') { state.min = 4; }
       else if (c === 'maths') { state.skill = 'maths'; }
       else if (c === 'review') { state.status = 'bookmarked'; }
@@ -2926,13 +2975,14 @@ function buildTopicOptions() {
 function onFilterChange() {
   state.q = $('#q').value.trim();
   state.level = $('#level').value;
+  state.component = $('#component') ? $('#component').value : '';
   state.topic = $('#topic').value;
   state.year = $('#year').value;
   state.skill = $('#skill').value;
   state.min = +$('#min').value || 0;
   state.status = $('#status').value;
   state.pick = '';
-  if ((state.topic || state.skill || state.year || state.min || state.q || state.status) && state.view === 'strata') {
+  if ((state.component || state.topic || state.skill || state.year || state.min || state.q || state.status) && state.view === 'strata') {
     state.view = 'cards';
   }
   syncViewButtons();
@@ -2941,7 +2991,7 @@ function onFilterChange() {
 }
 
 function resetFilters() {
-  state = { ...state, level:'', topic:'', skill:'', year:'', min:0, status:'', q:'', pick:'' };
+  state = { ...state, level:'', component:'', topic:'', skill:'', year:'', min:0, status:'', q:'', pick:'' };
   syncControls();
   toHash();
   render();
@@ -2950,6 +3000,7 @@ function resetFilters() {
 function syncControls() {
   $('#q').value = state.q;
   $('#level').value = state.level;
+  if ($('#component')) $('#component').value = state.component || '';
   $('#topic').value = state.topic;
   $('#year').value = state.year;
   $('#skill').value = state.skill;
@@ -2959,8 +3010,12 @@ function syncControls() {
   $$('.chip-btn[data-chip]').forEach(c => {
     const val = c.dataset.chip;
     let act = false;
+    if (val === 'all' && !state.level && !state.component && !state.min && !state.skill && !state.status) act = true;
     if (val === 'as' && state.level === 'AS') act = true;
     if (val === 'a2' && state.level === 'A') act = true;
+    if (val === 'c1' && state.component === 'c1') act = true;
+    if (val === 'c2' && state.component === 'c2') act = true;
+    if (val === 'c3' && state.component === 'c3') act = true;
     if (val === 'high' && state.min >= 4) act = true;
     if (val === 'maths' && state.skill === 'maths') act = true;
     if (val === 'review' && state.status === 'bookmarked') act = true;
@@ -2981,6 +3036,7 @@ function fromHash() {
   state.view = p.get('view') || state.view || 'strata';
   state.teacherTab = p.get('tab') || state.teacherTab || 'hub';
   state.level = p.get('level') || '';
+  state.component = p.get('component') || '';
   state.topic = p.get('topic') || '';
   state.skill = p.get('skill') || '';
   state.year = p.get('year') || '';
@@ -2994,7 +3050,7 @@ function toHash() {
   const p = new URLSearchParams();
   if (state.view && state.view !== 'strata') p.set('view', state.view);
   if (state.view === 'teachers' && state.teacherTab && state.teacherTab !== 'hub') p.set('tab', state.teacherTab);
-  ['level','topic','skill','year','min','status','q','pick'].forEach(k => {
+  ['level','component','topic','skill','year','min','status','q','pick'].forEach(k => {
     if (state[k]) p.set(k, state[k]);
   });
   history.replaceState(null, '', location.pathname + location.search + (p.toString() ? '#' + p : ''));
@@ -3005,6 +3061,14 @@ function filtered() {
   return D.questions.filter(x => {
     if (state.pick && x.id !== state.pick) return false;
     if (state.level && D.P[x.paper].level !== state.level) return false;
+    if (state.component) {
+      const comp = getPaperComponent(x.paper);
+      if (state.component === 'gl5') {
+        if (!comp.startsWith('gl5')) return false;
+      } else {
+        if (comp !== state.component) return false;
+      }
+    }
     if (state.topic && !x.topics.includes(state.topic)) return false;
     if (state.skill && !x.skills.includes(state.skill)) return false;
     if (state.year && D.P[x.paper].year != state.year) return false;
@@ -3056,6 +3120,14 @@ function render() {
 
   const badges = [];
   if (state.level) badges.push(state.level);
+  if (state.component) {
+    const compMap = {
+      'c1': 'Component 1', 'c2': 'Component 2', 'c3': 'Component 3',
+      'gl1': 'GL1', 'gl3': 'GL3', 'gl4': 'GL4', 'gl5': 'GL5',
+      'gl5-u1': 'GL5 Unit 1', 'gl5-u2': 'GL5 Unit 2', 'gl5-u3': 'GL5 Unit 3', 'gl5-u4': 'GL5 Unit 4'
+    };
+    badges.push(compMap[state.component] || state.component.toUpperCase());
+  }
   if (state.topic) badges.push(state.topic);
   if (state.year) badges.push(state.year);
   if (state.skill) badges.push(S[state.skill] ? S[state.skill].name : state.skill);
@@ -3095,6 +3167,11 @@ function render() {
    ======================================================== */
 function renderStrata() {
   const inLevel = x => !state.level || D.P[x.paper].level === state.level;
+  const inComp = x => {
+    if (!state.component) return true;
+    const c = getPaperComponent(x.paper);
+    return state.component === 'gl5' ? c.startsWith('gl5') : c === state.component;
+  };
   const groups = {};
   D.topics.forEach(t => { const g = t.group || 'Topics'; (groups[g] = groups[g] || []).push(t); });
 
@@ -3102,13 +3179,13 @@ function renderStrata() {
 
   for (const [g, ts] of Object.entries(groups)) {
     const rows = ts.map(t => {
-      const qs = D.questions.filter(x => x.topics.includes(t.id) && inLevel(x));
+      const qs = D.questions.filter(x => x.topics.includes(t.id) && inLevel(x) && inComp(x));
       if (!qs.length) return '';
       const marks = qs.reduce((n, x) => n + x.marks, 0);
       const masteredInTopic = qs.filter(x => mastered.has(x.id)).reduce((n, x) => n + x.marks, 0);
       const c = colorOf(t.id);
 
-      return `<a class="strata-row" href="#view=cards&topic=${esc(t.id)}${state.level ? '&level=' + esc(state.level) : ''}">
+      return `<a class="strata-row" href="#view=cards&topic=${esc(t.id)}${state.level ? '&level=' + esc(state.level) : ''}${state.component ? '&component=' + esc(state.component) : ''}">
         <div class="strata-left">
           <span class="strata-color-indicator" style="--c:${c}"></span>
           <span class="strata-name">${esc(t.id)} · ${esc(t.name)}</span>
