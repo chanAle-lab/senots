@@ -4092,10 +4092,10 @@ function renderTeacherDashboard() {
   const html = `
     <div class="teacher-hub-wrap">
       <nav class="teacher-nav">
-        <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('hub')">🎓 Overview & Presets</button>
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('geollion')">🌋 Geollion: Deep Earth Trivia</button>
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('quiz')">🎮 Fun Quiz Generator</button>
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('worksheet')">📝 Question & Worksheet Generator</button>
+        <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('hub')">Overview & Presets</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('geollion')">Geollion: Deep Earth Trivia</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('quiz')">Fun Quiz Generator</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('worksheet')">Question & Worksheet Generator</button>
       </nav>
 
       <div class="teacher-hero-header">
@@ -4107,7 +4107,7 @@ function renderTeacherDashboard() {
         <article class="teacher-card" style="border-top: 3px solid #dc2626;">
           <div>
             <span class="teacher-card-badge" style="color: #dc2626; border-color: rgba(220, 38, 38, 0.3); background: rgba(220, 38, 38, 0.08);">Classroom Hit · Inspired by Krillion</span>
-            <h2 class="teacher-card-title">🌋 Geollion: The Deep Earth Trivia Dive</h2>
+            <h2 class="teacher-card-title">Geollion: The Deep Earth Trivia Dive</h2>
             <p class="teacher-card-desc">The rarer and more obscure your answer, the deeper you drill into the Earth! Students race against the clock to name the rarest rocks, minerals, landforms, and fossils to plunge towards the Core.</p>
             <ul class="teacher-card-features">
               <li>6 real Earth layers: Crust (0 km), Lithosphere, Transition Zone, Lower Mantle, Outer Core & Inner Core (6,371 km)</li>
@@ -4122,7 +4122,7 @@ function renderTeacherDashboard() {
         <article class="teacher-card">
           <div>
             <span class="teacher-card-badge">Classroom Gamification</span>
-            <h2 class="teacher-card-title">🎮 Fun Quiz Show Generator</h2>
+            <h2 class="teacher-card-title">Fun Quiz Show Generator</h2>
             <p class="teacher-card-desc">Run engaging, high-energy quizzes on your classroom projector or smartboard. Supports team competitions, rapid multiple-choice, timers, and audio effects.</p>
             <ul class="teacher-card-features">
               <li>Team 1 vs Team 2 scoreboard with live +1/-1 point adjustments</li>
@@ -4137,7 +4137,7 @@ function renderTeacherDashboard() {
         <article class="teacher-card">
           <div>
             <span class="teacher-card-badge">Assessment Creator</span>
-            <h2 class="teacher-card-title">📝 Question & Worksheet Generator</h2>
+            <h2 class="teacher-card-title">Question & Worksheet Generator</h2>
             <p class="teacher-card-desc">Assemble tailored, printable assessment papers and homework booklets from all 813 official WJEC past paper questions with diagrams and figures.</p>
             <ul class="teacher-card-features">
               <li>Target specific mark totals (10m, 20m, 30m, 50m) or custom topics</li>
@@ -4151,11 +4151,11 @@ function renderTeacherDashboard() {
       </div>
 
       <div>
-        <h2 class="teacher-section-title">⚡ Quick-Start Lesson Presets</h2>
+        <h2 class="teacher-section-title">Quick-Start Lesson Presets</h2>
         <div class="teacher-presets-grid">
           <div class="preset-card" onclick="switchTeacherTab('geollion'); launchGeollionDailyDive();">
             <div>
-              <h3 class="preset-title">📅 Today's Daily Dive (7 Prompts)</h3>
+              <h3 class="preset-title">Today's Daily Dive (7 Prompts)</h3>
               <p class="preset-sub">Global daily challenge seeded identically today. 25s per prompt — rare answers plunge 7,000m to the core!</p>
             </div>
             <span class="preset-action" style="color:#38bdf8">Play Daily Dive →</span>
@@ -4163,7 +4163,7 @@ function renderTeacherDashboard() {
 
           <div class="preset-card" onclick="switchTeacherTab('geollion'); launchGeollionTeamMode();">
             <div>
-              <h3 class="preset-title">⚔️ Team Core Race (Class Showdown)</h3>
+              <h3 class="preset-title">Team Core Race (Class Showdown)</h3>
               <p class="preset-sub">Team Lithosphere vs Team Asthenosphere competing for deepest cumulative Earth depth.</p>
             </div>
             <span class="preset-action" style="color:#ef4444">Start Showdown →</span>
@@ -5577,7 +5577,7 @@ const GEOLLION_TIERS = {
   crust: {
     name: 'Plankton (Common Crust)',
     tag: 'Plankton',
-    icon: '🪨',
+    icon: '',
     depth: 100,
     points: 10,
     color: '#94a3b8',
@@ -5590,7 +5590,7 @@ const GEOLLION_TIERS = {
   lithosphere: {
     name: 'Schooler (Lithosphere)',
     tag: 'Schooler',
-    icon: '🐟',
+    icon: '',
     depth: 300,
     points: 30,
     color: '#34d399',
@@ -5603,7 +5603,7 @@ const GEOLLION_TIERS = {
   transition: {
     name: 'Rare (Transition Zone)',
     tag: 'Rare',
-    icon: '💎',
+    icon: '',
     depth: 600,
     points: 60,
     color: '#38bdf8',
@@ -5616,7 +5616,7 @@ const GEOLLION_TIERS = {
   lower_mantle: {
     name: 'Deep Cut (Lower Mantle)',
     tag: 'Deep Cut',
-    icon: '⚡',
+    icon: '',
     depth: 850,
     points: 85,
     color: '#a78bfa',
@@ -5629,7 +5629,7 @@ const GEOLLION_TIERS = {
   outer_core: {
     name: 'Abyssal Core (Outer Core)',
     tag: 'Abyssal Core',
-    icon: '🌊',
+    icon: '',
     depth: 950,
     points: 95,
     color: '#fbbf24',
@@ -5642,7 +5642,7 @@ const GEOLLION_TIERS = {
   inner_core: {
     name: 'ONE IN A GEOLLION! (Inner Core)',
     tag: 'ONE IN A GEOLLION!',
-    icon: '🔥',
+    icon: '',
     depth: 1000,
     points: 100,
     color: '#f87171',
@@ -5655,7 +5655,7 @@ const GEOLLION_TIERS = {
   miss: {
     name: 'Refused / Timed Out',
     tag: 'Miss',
-    icon: '⬜',
+    icon: '',
     depth: 0,
     points: 0,
     color: '#64748b',
@@ -5796,16 +5796,16 @@ function renderGeollionSetup() {
   const html = `
     <div class="teacher-hub-wrap">
       <nav class="teacher-nav">
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">🎓 Overview & Presets</button>
-        <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('geollion')">🌋 Geollion: Deep Earth Trivia</button>
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('quiz')">🎮 Fun Quiz Generator</button>
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('worksheet')">📝 Question & Worksheet Generator</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">Overview & Presets</button>
+        <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('geollion')">Geollion: Deep Earth Trivia</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('quiz')">Fun Quiz Generator</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('worksheet')">Question & Worksheet Generator</button>
       </nav>
 
       <div class="geollion-cockpit">
         <div class="geollion-hud-header">
           <div class="geollion-hud-title">
-            <span>🌋 GEOLLION</span>
+            <span>GEOLLION</span>
             <span class="geollion-daily-pill">DAILY DIVE #${geollionState.dailyNumber}</span>
           </div>
           <div style="font-size:0.85rem;color:#94a3b8">
@@ -5823,17 +5823,17 @@ function renderGeollionSetup() {
 
           <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:12px">
             <button type="button" class="btn-geollion-submit" style="font-size:1.15rem;padding:16px 36px;background:linear-gradient(135deg,#dc2626 0%,#991b1b 100%)" onclick="launchGeollionDailyDive()">
-              📅 PLAY DAILY DIVE #${geollionState.dailyNumber} →
+              PLAY DAILY DIVE #${geollionState.dailyNumber} →
             </button>
             <button type="button" class="btn-geollion-submit" style="font-size:1.15rem;padding:16px 32px" onclick="launchGeollionUnlimited()">
-              ♾️ PLAY UNLIMITED (Random 7)
+              PLAY UNLIMITED (Random 7)
             </button>
           </div>
         </div>
 
         <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:16px">
           <div style="background:#0d1527;border:1px solid #1e293b;border-radius:var(--radius);padding:18px">
-            <div style="font-weight:800;font-size:1rem;color:#f8fafc;margin-bottom:6px">⚔️ Classroom Showdown Mode</div>
+            <div style="font-weight:800;font-size:1rem;color:#f8fafc;margin-bottom:6px">Classroom Showdown Mode</div>
             <p style="font-size:0.85rem;color:#94a3b8;line-height:1.45;margin-bottom:12px">
               Split the room into <b>Team Lithosphere</b> vs <b>Team Asthenosphere</b>. Alternating prompts head-to-head on the smartboard.
             </p>
@@ -5843,17 +5843,17 @@ function renderGeollionSetup() {
           </div>
 
           <div style="background:#0d1527;border:1px solid #1e293b;border-radius:var(--radius);padding:18px">
-            <div style="font-weight:800;font-size:1rem;color:#f8fafc;margin-bottom:6px">📝 Printable Handout Generator</div>
+            <div style="font-weight:800;font-size:1rem;color:#f8fafc;margin-bottom:6px">Printable Handout Generator</div>
             <p style="font-size:0.85rem;color:#94a3b8;line-height:1.45;margin-bottom:12px">
               Print a clean paper sheet for students to write answers offline, complete with the teacher's Depth Tier answer key on the back.
             </p>
             <button type="button" class="btn-geollion-giveup" style="color:#34d399;border-color:#059669" onclick="printGeollionHandout()">
-              Print Clean Drill Sheet 🖨️
+              Print Clean Drill Sheet
             </button>
           </div>
 
           <div style="background:#0d1527;border:1px solid #1e293b;border-radius:var(--radius);padding:18px">
-            <div style="font-weight:800;font-size:1rem;color:#f8fafc;margin-bottom:6px">🎚️ Sound & Tolerances</div>
+            <div style="font-weight:800;font-size:1rem;color:#f8fafc;margin-bottom:6px">Sound & Tolerances</div>
             <div style="display:flex;flex-direction:column;gap:8px;font-size:0.85rem;color:#cbd5e1;margin-top:8px">
               <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
                 <input type="checkbox" ${geollionState.soundEnabled ? 'checked' : ''} onchange="geollionState.soundEnabled = this.checked">
@@ -5873,32 +5873,32 @@ function renderGeollionSetup() {
           </div>
           <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(140px, 1fr));gap:10px;text-align:center">
             <div style="background:#1e293b;padding:10px;border-radius:6px;border-top:3px solid #94a3b8">
-              <div style="font-size:0.75rem;font-weight:800;color:#94a3b8">🪨 PLANKTON</div>
+              <div style="font-size:0.75rem;font-weight:800;color:#94a3b8">PLANKTON</div>
               <div style="font-size:1.1rem;font-weight:900;color:#f8fafc;margin:2px 0">+100m</div>
               <div style="font-size:0.7rem;color:#94a3b8">10 pts • Common</div>
             </div>
             <div style="background:rgba(5,150,105,0.15);padding:10px;border-radius:6px;border-top:3px solid #34d399">
-              <div style="font-size:0.75rem;font-weight:800;color:#34d399">🐟 SCHOOLER</div>
+              <div style="font-size:0.75rem;font-weight:800;color:#34d399">SCHOOLER</div>
               <div style="font-size:1.1rem;font-weight:900;color:#f8fafc;margin:2px 0">+300m</div>
               <div style="font-size:0.7rem;color:#34d399">30 pts • Lithosphere</div>
             </div>
             <div style="background:rgba(2,132,199,0.15);padding:10px;border-radius:6px;border-top:3px solid #38bdf8">
-              <div style="font-size:0.75rem;font-weight:800;color:#38bdf8">💎 RARE</div>
+              <div style="font-size:0.75rem;font-weight:800;color:#38bdf8">RARE</div>
               <div style="font-size:1.1rem;font-weight:900;color:#f8fafc;margin:2px 0">+600m</div>
               <div style="font-size:0.7rem;color:#38bdf8">60 pts • Transition</div>
             </div>
             <div style="background:rgba(124,58,237,0.15);padding:10px;border-radius:6px;border-top:3px solid #a78bfa">
-              <div style="font-size:0.75rem;font-weight:800;color:#a78bfa">⚡ DEEP CUT</div>
+              <div style="font-size:0.75rem;font-weight:800;color:#a78bfa">DEEP CUT</div>
               <div style="font-size:1.1rem;font-weight:900;color:#f8fafc;margin:2px 0">+850m</div>
               <div style="font-size:0.7rem;color:#a78bfa">85 pts • Lower Mantle</div>
             </div>
             <div style="background:rgba(217,119,6,0.15);padding:10px;border-radius:6px;border-top:3px solid #fbbf24">
-              <div style="font-size:0.75rem;font-weight:800;color:#fbbf24">🌊 OUTER CORE</div>
+              <div style="font-size:0.75rem;font-weight:800;color:#fbbf24">OUTER CORE</div>
               <div style="font-size:1.1rem;font-weight:900;color:#f8fafc;margin:2px 0">+950m</div>
               <div style="font-size:0.7rem;color:#fbbf24">95 pts • Geodynamo</div>
             </div>
             <div style="background:rgba(220,38,38,0.2);padding:10px;border-radius:6px;border-top:3px solid #ef4444">
-              <div style="font-size:0.75rem;font-weight:800;color:#f87171">🔥 ONE IN A GEOLLION</div>
+              <div style="font-size:0.75rem;font-weight:800;color:#f87171">ONE IN A GEOLLION</div>
               <div style="font-size:1.1rem;font-weight:900;color:#f87171;margin:2px 0">+1,000m</div>
               <div style="font-size:0.7rem;color:#fca5a5">100 pts • Inner Core</div>
             </div>
@@ -6025,13 +6025,13 @@ function renderGeollionLive() {
     <div class="teacher-hub-wrap">
       <nav class="teacher-nav">
         <button type="button" class="teacher-nav-btn" onclick="abandonGeollion()">← Exit Drill</button>
-        <button type="button" class="teacher-nav-btn active">🌋 ${esc(geollionState.modeTitle || 'Geollion')}</button>
+        <button type="button" class="teacher-nav-btn active">${esc(geollionState.modeTitle || 'Geollion')}</button>
       </nav>
 
       <div class="geollion-cockpit">
         <div class="geollion-hud-header">
           <div class="geollion-hud-title">
-            <span>🌋 GEOLLION</span>
+            <span>GEOLLION</span>
             <span class="geollion-daily-pill">${esc(geollionState.modeTitle || 'DIVE')}</span>
             ${activeTeamBanner}
           </div>
@@ -6137,7 +6137,7 @@ function submitGeollionAnswer(isGiveUp) {
 
     const toast = $('#geollion-refusal-toast');
     if (toast) {
-      toast.innerHTML = `⚠️ <b>REFUSED:</b> &ldquo;${esc(userText)}&rdquo; is not recognized as a valid answer. Keep digging! (${geollionState.timerRemaining}s left)`;
+      toast.innerHTML = `<b>REFUSED:</b> &ldquo;${esc(userText)}&rdquo; is not recognized as a valid answer. Keep digging! (${geollionState.timerRemaining}s left)`;
       toast.style.display = 'block';
     }
     return;
@@ -6216,7 +6216,6 @@ function renderGeollionReveal() {
     return `
       <div class="geollion-tier-row ${isThisTier ? 'tier-matched' : ''}">
         <div class="geollion-tier-name-col" style="color:${info.color}">
-          <span>${info.icon}</span>
           <span>${esc(info.tag)}</span>
           <span style="font-size:0.75rem;color:#94a3b8;font-weight:500">+${info.depth}m</span>
         </div>
@@ -6233,13 +6232,13 @@ function renderGeollionReveal() {
     <div class="teacher-hub-wrap">
       <nav class="teacher-nav">
         <button type="button" class="teacher-nav-btn" onclick="abandonGeollion()">← Exit Drill</button>
-        <button type="button" class="teacher-nav-btn active">🌋 ${esc(geollionState.modeTitle || 'Geollion')}</button>
+        <button type="button" class="teacher-nav-btn active">${esc(geollionState.modeTitle || 'Geollion')}</button>
       </nav>
 
       <div class="geollion-cockpit">
         <div class="geollion-hud-header">
           <div class="geollion-hud-title">
-            <span>🌋 GEOLLION</span>
+            <span>GEOLLION</span>
             <span class="geollion-daily-pill">${esc(geollionState.modeTitle || 'DIVE')}</span>
           </div>
           <div class="geollion-hud-stats">
@@ -6261,7 +6260,7 @@ function renderGeollionReveal() {
 
         <div class="geollion-reveal-card">
           <div class="geollion-reveal-tier-badge" style="background:${badgeBg};border:2px solid ${badgeBorder};color:${badgeColor}">
-            ${isHit ? r.tierInfo.icon : '⬜'} ${esc(tierName)}
+            ${esc(tierName)}
           </div>
 
           <div style="font-size:1.3rem;font-weight:800;color:#f8fafc">
@@ -6344,8 +6343,9 @@ function renderGeollionSummary() {
   const rankInfo = getGeollionRank(geollionState.currentDepth, maxDepth);
 
   const emojiRow = geollionState.history.map(r => r.tierInfo ? r.tierInfo.emoji : '⬜').join(' ');
+  const gridBoxesHtml = geollionState.history.map(r => `<span style="display:inline-block;width:18px;height:18px;border-radius:3px;margin:0 3px;vertical-align:middle;background:${r.tierInfo ? r.tierInfo.color : '#334155'};border:1px solid rgba(255,255,255,0.2)" title="${r.tierInfo ? esc(r.tierInfo.tag) : 'Miss'}"></span>`).join('');
 
-  const shareText = `🌋 GEOLLION #${geollionState.dailyNumber} (${geollionState.modeTitle || 'Dive'})\nDepth: ${geollionState.currentDepth.toLocaleString()} / ${maxDepth.toLocaleString()}m • Rank: ${rankInfo.rank} (${rankInfo.title})\n\n${emojiRow}\n\nCan you drill to the core?\nhttps://chanale-lab.github.io/senots/#view=teachers&tab=geollion`;
+  const shareText = `GEOLLION #${geollionState.dailyNumber} (${geollionState.modeTitle || 'Dive'})\nDepth: ${geollionState.currentDepth.toLocaleString()} / ${maxDepth.toLocaleString()}m • Rank: ${rankInfo.rank} (${rankInfo.title})\n\n${emojiRow}\n\nCan you drill to the core?\nhttps://chanale-lab.github.io/senots/#view=teachers&tab=geollion`;
 
   const reviewItemsHtml = geollionState.history.map((r, i) => `
     <div style="background:#070c18;border:1px solid #1e293b;border-radius:var(--radius);padding:12px 16px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
@@ -6355,7 +6355,7 @@ function renderGeollionSummary() {
       </div>
       <div style="text-align:right">
         <span style="display:inline-block;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:800;background:${r.tierInfo ? r.tierInfo.bg : '#1e293b'};color:${r.tierInfo ? r.tierInfo.color : '#94a3b8'};border:1px solid ${r.tierInfo ? r.tierInfo.border : '#475569'}">
-          ${r.tierInfo ? r.tierInfo.icon : '⬜'} ${r.tierInfo ? r.tierInfo.tag : 'Miss'} (+${r.depth}m)
+          ${r.tierInfo ? r.tierInfo.tag : 'Miss'} (+${r.depth}m)
         </span>
       </div>
     </div>
@@ -6365,7 +6365,7 @@ function renderGeollionSummary() {
     <div class="teacher-hub-wrap">
       <nav class="teacher-nav">
         <button type="button" class="teacher-nav-btn" onclick="abandonGeollion()">← Teacher's Hub</button>
-        <button type="button" class="teacher-nav-btn active">🌋 Expedition Debrief</button>
+        <button type="button" class="teacher-nav-btn active">Expedition Debrief</button>
       </nav>
 
       <div class="geollion-cockpit">
@@ -6389,18 +6389,18 @@ function renderGeollionSummary() {
 
           <!-- Official Krillion-style Share Card Preview -->
           <div class="geollion-share-preview">
-            <div style="color:#f87171;font-weight:800">🌋 GEOLLION #${geollionState.dailyNumber} (${geollionState.modeTitle})</div>
+            <div style="color:#f87171;font-weight:800">GEOLLION #${geollionState.dailyNumber} (${geollionState.modeTitle})</div>
             <div>Depth: <b>${geollionState.currentDepth.toLocaleString()}m</b> / ${maxDepth.toLocaleString()}m (Rank: ${rankInfo.rank})</div>
-            <div style="font-size:1.35rem;letter-spacing:0.15em;margin:8px 0">${emojiRow}</div>
+            <div style="margin:10px 0;display:flex;justify-content:center;align-items:center">${gridBoxesHtml}</div>
             <div style="color:#64748b;font-size:0.8rem">https://chanale-lab.github.io/senots/#view=teachers&tab=geollion</div>
           </div>
 
           <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center">
             <button type="button" class="btn-geollion-share" onclick="copyGeollionShareCard()">
-              📋 COPY RESULT GRID
+              COPY RESULT GRID
             </button>
             <button type="button" class="btn-geollion-submit" onclick="launchGeollionUnlimited()">
-              ♾️ PLAY UNLIMITED DIVE
+              PLAY UNLIMITED DIVE
             </button>
             <button type="button" class="btn-geollion-giveup" onclick="abandonGeollion()">
               Back to Setup
@@ -6426,8 +6426,9 @@ function copyGeollionShareCard() {
   const maxDepth = geollionState.promptCount * 1000;
   const rankInfo = getGeollionRank(geollionState.currentDepth, maxDepth);
   const emojiRow = geollionState.history.map(r => r.tierInfo ? r.tierInfo.emoji : '⬜').join(' ');
+  const gridBoxesHtml = geollionState.history.map(r => `<span style="display:inline-block;width:18px;height:18px;border-radius:3px;margin:0 3px;vertical-align:middle;background:${r.tierInfo ? r.tierInfo.color : '#334155'};border:1px solid rgba(255,255,255,0.2)" title="${r.tierInfo ? esc(r.tierInfo.tag) : 'Miss'}"></span>`).join('');
 
-  const text = `🌋 GEOLLION #${geollionState.dailyNumber} (${geollionState.modeTitle || 'Daily Dive'})\nDepth: ${geollionState.currentDepth.toLocaleString()} / ${maxDepth.toLocaleString()}m\nRank: ${rankInfo.rank} (${rankInfo.title})\n\n${emojiRow}\n\nCan you drill to the core?\nhttps://chanale-lab.github.io/senots/#view=teachers&tab=geollion`;
+  const text = `GEOLLION #${geollionState.dailyNumber} (${geollionState.modeTitle || 'Daily Dive'})\nDepth: ${geollionState.currentDepth.toLocaleString()} / ${maxDepth.toLocaleString()}m\nRank: ${rankInfo.rank} (${rankInfo.title})\n\n${emojiRow}\n\nCan you drill to the core?\nhttps://chanale-lab.github.io/senots/#view=teachers&tab=geollion`;
 
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(text).then(() => {
@@ -6473,19 +6474,19 @@ function printGeollionHandout() {
     <div style="margin-bottom:12pt;page-break-inside:avoid;border:1pt solid #eee;border-radius:4pt;padding:8pt 12pt">
       <div style="font-weight:700;font-size:10pt;margin-bottom:4pt">Dive ${i+1}: ${esc(p.prompt)}</div>
       <div style="font-size:8pt;line-height:1.4">
-        <b>🔥 One in a Geollion (+1,000m):</b> ${p.tiers.inner_core.join(', ')}<br>
-        <b>🌊 Outer Core (+950m):</b> ${p.tiers.outer_core.join(', ')}<br>
-        <b>⚡ Deep Cut (+850m):</b> ${p.tiers.lower_mantle.join(', ')}<br>
-        <b>💎 Rare (+600m):</b> ${p.tiers.transition.join(', ')}<br>
-        <b>🐟 Schooler (+300m):</b> ${p.tiers.lithosphere.join(', ')}<br>
-        <b>🪨 Plankton (+100m):</b> ${p.tiers.crust.join(', ')}
+        <b>One in a Geollion (+1,000m):</b> ${p.tiers.inner_core.join(', ')}<br>
+        <b>Outer Core (+950m):</b> ${p.tiers.outer_core.join(', ')}<br>
+        <b>Deep Cut (+850m):</b> ${p.tiers.lower_mantle.join(', ')}<br>
+        <b>Rare (+600m):</b> ${p.tiers.transition.join(', ')}<br>
+        <b>Schooler (+300m):</b> ${p.tiers.lithosphere.join(', ')}<br>
+        <b>Plankton (+100m):</b> ${p.tiers.crust.join(', ')}
       </div>
     </div>
   `).join('');
 
   printContainer.innerHTML = `
     <div style="padding:10pt;page-break-inside:avoid">
-      <h1 style="font-size:16pt;margin:0 0 4pt">🌋 GEOLLION: The Deep Earth Trivia Dive</h1>
+      <h1 style="font-size:16pt;margin:0 0 4pt">GEOLLION: The Deep Earth Trivia Dive</h1>
       <p style="font-size:9.5pt;color:#444;margin:0 0 10pt">Rules: Write the rarest, most obscure valid answer for each prompt. Common surface answers score +100m; legendary obscure answers drill +1,000m into the Inner Core!</p>
     </div>
 
@@ -6550,10 +6551,10 @@ function renderQuizSetup() {
   const html = `
     <div class="teacher-hub-wrap">
       <nav class="teacher-nav">
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">🎓 Overview & Presets</button>
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('geollion')">🌋 Geollion: Deep Earth Trivia</button>
-        <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('quiz')">🎮 Fun Quiz Generator</button>
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('worksheet')">📝 Question & Worksheet Generator</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">Overview & Presets</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('geollion')">Geollion: Deep Earth Trivia</button>
+        <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('quiz')">Fun Quiz Generator</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('worksheet')">Question & Worksheet Generator</button>
       </nav>
 
       <div class="quiz-panel">
@@ -6624,9 +6625,9 @@ function renderQuizSetup() {
         ` : ''}
 
         <div style="display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap">
-          <button type="button" class="btn-minimal" onclick="printQuizHandout()">📄 Export as Printable Multiple-Choice Quiz</button>
+          <button type="button" class="btn-minimal" onclick="printQuizHandout()">Export as Printable Multiple-Choice Quiz</button>
           <button type="button" class="btn-print-primary" onclick="startQuiz()" style="padding:10px 22px;font-size:0.92rem">
-            🚀 Start Multiple-Choice Quiz
+            Start Multiple-Choice Quiz
           </button>
         </div>
       </div>
@@ -6745,12 +6746,12 @@ function renderQuizLive() {
           <div style="display:flex;align-items:center;gap:12px">
             ${quizState.timerSeconds > 0 ? `
               <div class="quiz-timer-box ${quizState.timerRemaining<=5?'urgent':''}">
-                ⏱️ <span id="quiz-timer-num">${quizState.timerRemaining}</span>s
+                <span id="quiz-timer-num">${quizState.timerRemaining}</span>s
               </div>
             ` : ''}
 
             <button type="button" class="btn-minimal" onclick="quizState.soundEnabled=!quizState.soundEnabled;QuizAudio.enabled=quizState.soundEnabled;renderQuizLive();" title="Toggle sound">
-              ${quizState.soundEnabled ? '🔊 Sound On' : '🔇 Muted'}
+              ${quizState.soundEnabled ? 'Sound On' : 'Muted'}
             </button>
             <button type="button" class="btn-minimal" onclick="endQuiz()" title="End quiz now">Exit Quiz</button>
           </div>
@@ -6759,7 +6760,7 @@ function renderQuizLive() {
         ${quizState.mode === 'team' ? `
           <div class="quiz-scoreboard-grid">
             <div class="team-score-card">
-              <span class="team-name">🦕 ${esc(quizState.team1Name)}</span>
+              <span class="team-name">${esc(quizState.team1Name)}</span>
               <div class="team-score-controls">
                 <button type="button" class="btn-score-adjust" onclick="adjustTeamScore(1, -1)">-</button>
                 <span class="team-score-num">${quizState.team1Score}</span>
@@ -6768,7 +6769,7 @@ function renderQuizLive() {
             </div>
 
             <div class="team-score-card">
-              <span class="team-name">🐚 ${esc(quizState.team2Name)}</span>
+              <span class="team-name">${esc(quizState.team2Name)}</span>
               <div class="team-score-controls">
                 <button type="button" class="btn-score-adjust" onclick="adjustTeamScore(2, -1)">-</button>
                 <span class="team-score-num">${quizState.team2Score}</span>
@@ -6779,7 +6780,7 @@ function renderQuizLive() {
         ` : `
           <div style="display:flex;justify-content:space-between;align-items:center;font-size:0.85rem;color:var(--muted)">
             <span>Score: <b style="color:var(--ink)">${quizState.soloScore}</b> pts</span>
-            <span>Streak: <b style="color:#d97706">🔥 ${quizState.streak}</b> (Best: ${quizState.maxStreak})</span>
+            <span>Streak: <b style="color:#d97706">${quizState.streak}</b> (Best: ${quizState.maxStreak})</span>
           </div>
         `}
 
@@ -6832,7 +6833,7 @@ function renderQuizLive() {
             <button type="button" class="btn-minimal" ${quizState.currentIdx===0?'disabled':''} onclick="prevQuizQuestion()">← Previous</button>
             <span style="font-size:0.78rem;color:var(--muted)">Shortcuts: 1/A · 2/B · 3/C · 4/D · Space/Enter to advance</span>
             <button type="button" class="btn-minimal" style="font-weight:600;color:var(--ink)" onclick="nextQuizQuestion()">
-              ${isLast ? 'Finish Quiz 🏁' : 'Next Question →'}
+              ${isLast ? 'Finish Quiz' : 'Next Question →'}
             </button>
           </div>
         </div>
@@ -6909,19 +6910,19 @@ function renderQuizSummary() {
   let winnerHtml = '';
   if (quizState.mode === 'team') {
     if (quizState.team1Score > quizState.team2Score) {
-      winnerHtml = `🏆 <b>${esc(quizState.team1Name)}</b> Wins! (${quizState.team1Score} - ${quizState.team2Score})`;
+      winnerHtml = `<b>${esc(quizState.team1Name)}</b> Wins! (${quizState.team1Score} - ${quizState.team2Score})`;
     } else if (quizState.team2Score > quizState.team1Score) {
-      winnerHtml = `🏆 <b>${esc(quizState.team2Name)}</b> Wins! (${quizState.team2Score} - ${quizState.team1Score})`;
+      winnerHtml = `<b>${esc(quizState.team2Name)}</b> Wins! (${quizState.team2Score} - ${quizState.team1Score})`;
     } else {
-      winnerHtml = `🤝 It's a Geological Tie! (${quizState.team1Score} - ${quizState.team2Score})`;
+      winnerHtml = `It's a Geological Tie! (${quizState.team1Score} - ${quizState.team2Score})`;
     }
   } else {
     const maxScore = quizState.questions.length * 100;
     const pct = Math.round((quizState.soloScore / maxScore) * 100) || 0;
     let rank = 'Novice Stratigrapher';
-    if (pct >= 90) rank = '💎 Diamond Geologist';
-    else if (pct >= 70) rank = '🌋 Igneous Master';
-    else if (pct >= 50) rank = '⛏️ Field Specialist';
+    if (pct >= 90) rank = 'Diamond Geologist';
+    else if (pct >= 70) rank = 'Igneous Master';
+    else if (pct >= 50) rank = 'Field Specialist';
     winnerHtml = `Score: <b>${quizState.soloScore}</b> pts · ${rank} (${pct}%)`;
   }
 
@@ -6929,15 +6930,15 @@ function renderQuizSummary() {
     <div class="teacher-hub-wrap">
       <div class="quiz-panel">
         <div class="quiz-summary-box">
-          <div style="font-size:3rem">🎉</div>
+          <div style="font-size:1.3rem;font-weight:700;color:var(--ink);margin-bottom:8px">Quiz Completed</div>
           <div class="quiz-winner-badge">${winnerHtml}</div>
           <p class="quiz-result-score">Quiz completed! ${quizState.questions.length} multiple-choice questions reviewed.</p>
 
           <div style="display:flex;gap:12px;margin-top:10px;flex-wrap:wrap;justify-content:center">
-            <button type="button" class="btn-print-primary" onclick="startQuiz()">🔄 Play Again</button>
-            <button type="button" class="btn-minimal" onclick="printQuizHandout()">📄 Print Quiz & Answers</button>
-            <button type="button" class="btn-minimal" onclick="quizState.screen='setup';renderQuizSetup()">⚙️ Quiz Settings</button>
-            <button type="button" class="btn-minimal" onclick="switchTeacherTab('hub')">🎓 Teacher's Hub</button>
+            <button type="button" class="btn-print-primary" onclick="startQuiz()">Play Again</button>
+            <button type="button" class="btn-minimal" onclick="printQuizHandout()">Print Quiz & Answers</button>
+            <button type="button" class="btn-minimal" onclick="quizState.screen='setup';renderQuizSetup()">Quiz Settings</button>
+            <button type="button" class="btn-minimal" onclick="switchTeacherTab('hub')">Teacher's Hub</button>
           </div>
         </div>
 
@@ -7052,10 +7053,10 @@ function renderWorksheetGenerator() {
   const html = `
     <div class="teacher-hub-wrap">
       <nav class="teacher-nav">
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">🎓 Overview & Presets</button>
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('geollion')">🌋 Geollion: Deep Earth Trivia</button>
-        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('quiz')">🎮 Fun Quiz Generator</button>
-        <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('worksheet')">📝 Question & Worksheet Generator</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('hub')">Overview & Presets</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('geollion')">Geollion: Deep Earth Trivia</button>
+        <button type="button" class="teacher-nav-btn" onclick="switchTeacherTab('quiz')">Fun Quiz Generator</button>
+        <button type="button" class="teacher-nav-btn active" onclick="switchTeacherTab('worksheet')">Question & Worksheet Generator</button>
       </nav>
 
       <div class="ws-controls-card">
@@ -7124,13 +7125,13 @@ function renderWorksheetGenerator() {
           </div>
 
           <div class="ws-export-btns">
-            <button type="button" class="btn-minimal" onclick="generateWorksheet();renderWorksheetGenerator();">🎲 Reshuffle Questions</button>
-            <button type="button" class="btn-minimal" onclick="addWorksheetQuestion()">➕ Add Question</button>
+            <button type="button" class="btn-minimal" onclick="generateWorksheet();renderWorksheetGenerator();">Reshuffle Questions</button>
+            <button type="button" class="btn-minimal" onclick="addWorksheetQuestion()">Add Question</button>
             <button type="button" class="btn-print-primary" onclick="executePrintWorksheet({isTeacherKey:false})">
-              🖨️ Print Student Worksheet (PDF)
+              Print Student Worksheet (PDF)
             </button>
             <button type="button" class="btn-minimal" style="font-weight:600;color:#15803d;border-color:#16a34a" onclick="executePrintWorksheet({isTeacherKey:true})">
-              📋 Print Teacher Mark Scheme (PDF)
+              Print Teacher Mark Scheme (PDF)
             </button>
           </div>
         </div>
@@ -7169,7 +7170,7 @@ function renderWorksheetGenerator() {
                 <div class="ws-q-toolbar">
                   <span class="ws-q-number">Question ${idx + 1} &nbsp;<span class="q-mark" style="font-size:0.75rem">${q.marks} ${q.marks===1?'mark':'marks'}</span></span>
                   <div class="ws-q-actions">
-                    <button type="button" class="btn-q-action" onclick="swapWorksheetQuestion(${idx})" title="Swap for another question from this topic">🔄 Swap</button>
+                    <button type="button" class="btn-q-action" onclick="swapWorksheetQuestion(${idx})" title="Swap for another question from this topic">Swap</button>
                     <button type="button" class="btn-q-action" onclick="moveWorksheetQuestion(${idx}, -1)" ${idx===0?'disabled':''} title="Move up">⬆</button>
                     <button type="button" class="btn-q-action" onclick="moveWorksheetQuestion(${idx}, 1)" ${idx===wsState.questions.length-1?'disabled':''} title="Move down">⬇</button>
                     <button type="button" class="btn-q-action" style="color:#dc2626" onclick="removeWorksheetQuestion(${idx})" title="Remove question">✕</button>
@@ -7199,7 +7200,7 @@ function renderWorksheetGenerator() {
         </div>
 
         <div style="margin-top:24px;text-align:center">
-          <button type="button" class="btn-minimal" onclick="addWorksheetQuestion()">➕ Add Another Question from Bank</button>
+          <button type="button" class="btn-minimal" onclick="addWorksheetQuestion()">Add Another Question from Bank</button>
         </div>
       </div>
     </div>
