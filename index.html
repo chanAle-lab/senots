@@ -2768,10 +2768,10 @@ async function executePrintQuestions(questions, options = {}) {
 
     return `
       <article class="print-pack-q-item">
+        ${figHtml}
         <div class="print-pack-img-block">
           <img src="${esc(q.image)}" alt="Question ${esc(q.question)}">
         </div>
-        ${figHtml}
         ${msHtml}
       </article>
     `;
@@ -7360,10 +7360,10 @@ async function executePrintWorksheet(options = {}) {
 
       return `
         <article class="print-pack-q-item">
+          ${figHtml}
           <div class="print-pack-img-block">
             <img src="${esc(q.image)}" alt="Question ${esc(q.question)}">
           </div>
-          ${figHtml}
           ${answerArea}
           ${msBlock}
         </article>
