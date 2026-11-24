@@ -1039,6 +1039,74 @@ body {
   max-width: 100%;
   padding-top: 16px;
 }
+.flashcard-mode-group {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+}
+.flashcard-mode-btn {
+  background: transparent;
+  border: none;
+  border-right: 1px solid var(--border);
+  color: var(--ink-secondary);
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 5px 11px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.flashcard-mode-btn:last-child {
+  border-right: none;
+}
+.flashcard-mode-btn:hover {
+  background: var(--surface-hover);
+  color: var(--ink);
+}
+.flashcard-mode-btn.active {
+  background: var(--ink);
+  color: var(--surface);
+  font-weight: 600;
+}
+.hard-recall-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hard-recall-textarea {
+  width: 100%;
+  min-height: 82px;
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  resize: vertical;
+  box-sizing: border-box;
+}
+.hard-recall-textarea:focus {
+  outline: none;
+  border-color: var(--ink);
+}
+.hard-recall-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.hard-score-pill {
+  display: inline-block;
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
 
 /* ========================================================
    Lightbox Modal (Minimalist)
@@ -2304,7 +2372,7 @@ const colorOf = id => BASE[id] || BASE[String(id).split('.')[0]] || '#666';
 let D, T = {}, S = {}, CHEATS = null, FLASHCARDS = [];
 let sheetMastered = new Set(JSON.parse(localStorage.getItem('senots_sheet_mastered') || '[]'));
 let sheetStarred = new Set(JSON.parse(localStorage.getItem('senots_sheet_starred') || '[]'));
-let practiceState = { topic: '', status: '', idx: 0, revealed: false, cardsOpen: false };
+let practiceState = { topic: '', status: '', idx: 0, revealed: false, cardsOpen: false, mode: 'medium', easyCache: null, easySelected: null, hardInput: '', hardResult: null };
 let diagQuizState = { screen: 'intro', questions: [], idx: 0, selected: null, revealed: false, results: [] };
 let activeSheetTopic = '1.1';
 
@@ -3398,6 +3466,106 @@ function getPracticeCards() {
   });
 }
 
+function resetCardTurnState() {
+  practiceState.revealed = false;
+  practiceState.easyCache = null;
+  practiceState.easySelected = null;
+  practiceState.hardInput = '';
+  practiceState.hardResult = null;
+}
+
+function setFlashcardMode(mode) {
+  practiceState.mode = mode;
+  resetCardTurnState();
+  renderFlashcardPractice();
+}
+
+function stripHtmlTags(html) {
+  const tmp = document.createElement('div');
+  tmp.innerHTML = html || '';
+  return (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
+}
+
+function getEasyChoicesForCard(card) {
+  if (practiceState.easyCache && practiceState.easyCache.cardId === card.id) {
+    return practiceState.easyCache;
+  }
+  const all = FLASHCARDS || [];
+  const correctClean = stripHtmlTags(card.answer);
+  const sameTopic = all.filter(c => c.id !== card.id && c.topicId === card.topicId);
+  const otherTopics = all.filter(c => c.id !== card.id && c.topicId !== card.topicId);
+  shuffle(sameTopic);
+  shuffle(otherTopics);
+
+  const distractors = [];
+  const seen = new Set([correctClean.toLowerCase()]);
+  for (const c of [...sameTopic, ...otherTopics]) {
+    const clean = stripHtmlTags(c.answer);
+    if (clean && !seen.has(clean.toLowerCase())) {
+      seen.add(clean.toLowerCase());
+      distractors.push(clean);
+      if (distractors.length === 3) break;
+    }
+  }
+  while (distractors.length < 3) {
+    distractors.push('None of the above');
+  }
+
+  const choices = [correctClean, ...distractors];
+  shuffle(choices);
+  const cache = {
+    cardId: card.id,
+    choices,
+    correctIndex: choices.indexOf(correctClean)
+  };
+  practiceState.easyCache = cache;
+  return cache;
+}
+
+function selectEasyCardChoice(idx) {
+  if (practiceState.revealed) return;
+  practiceState.easySelected = idx;
+  practiceState.revealed = true;
+  renderFlashcardPractice();
+}
+
+function submitHardCardAnswer(skip) {
+  const cards = getPracticeCards();
+  const card = cards[practiceState.idx];
+  if (!card) return;
+
+  const ta = $('#hard-card-input');
+  const typed = skip ? '' : (ta ? ta.value.trim() : practiceState.hardInput.trim());
+  practiceState.hardInput = typed;
+
+  if (!skip && !typed) {
+    showToast('Type your answer first, or click Reveal Answer.');
+    if (ta) ta.focus();
+    return;
+  }
+
+  const stopWords = new Set(['with','that','from','this','into','more','than','have','been','they','when','where','which','their','there','about','under','other','these','those','only','some','such','very','also','both','each','high','most']);
+  const extractTerms = txt => {
+    const clean = stripHtmlTags(txt).toLowerCase().replace(/[^a-z0-9.+%\-°/\s]/g, ' ');
+    return [...new Set(clean.split(/\s+/).filter(w => (w.length >= 4 || /\d/.test(w)) && !stopWords.has(w)))];
+  };
+
+  const targetTerms = extractTerms(card.answer);
+  const typedLower = typed.toLowerCase();
+  const matched = targetTerms.filter(t => typedLower.includes(t));
+  const pct = targetTerms.length ? Math.round((matched.length / targetTerms.length) * 100) : 0;
+
+  practiceState.hardResult = {
+    skipped: !!skip,
+    typed,
+    matchedCount: matched.length,
+    totalTerms: targetTerms.length,
+    pct
+  };
+  practiceState.revealed = true;
+  renderFlashcardPractice();
+}
+
 function renderFlashcardPractice() {
   const cards = getPracticeCards();
   const totalInBank = FLASHCARDS ? FLASHCARDS.length : 307;
@@ -3406,26 +3574,41 @@ function renderFlashcardPractice() {
   let flashcardsBodyHtml = '';
   let card = null;
 
+  const modeDescriptions = {
+    easy: 'Easy: Multiple choice — pick the matching answer from 4 options.',
+    medium: 'Medium: Classic flashcard — recall mentally, then reveal to self-grade.',
+    hard: 'Hard: Active recall — type your answer from memory before checking.'
+  };
+
+  const modeSwitcherHtml = `
+    <div class="flashcard-mode-group" role="group" aria-label="Flashcard difficulty mode">
+      <button type="button" class="flashcard-mode-btn ${practiceState.mode==='easy'?'active':''}" onclick="setFlashcardMode('easy')">Easy</button>
+      <button type="button" class="flashcard-mode-btn ${practiceState.mode==='medium'?'active':''}" onclick="setFlashcardMode('medium')">Medium</button>
+      <button type="button" class="flashcard-mode-btn ${practiceState.mode==='hard'?'active':''}" onclick="setFlashcardMode('hard')">Hard</button>
+    </div>
+  `;
+
   if (!cards.length) {
     flashcardsBodyHtml = `
       <div class="flashcard-wrap">
         <div class="flashcard-toolbar">
           <div class="flashcard-filters">
-            <select class="select-minimal" onchange="practiceState.topic=this.value;practiceState.idx=0;practiceState.revealed=false;renderFlashcardPractice();">
+            <select class="select-minimal" onchange="practiceState.topic=this.value;practiceState.idx=0;resetCardTurnState();renderFlashcardPractice();">
               ${buildPracticeTopicOpts()}
             </select>
-            <select class="select-minimal" onchange="practiceState.status=this.value;practiceState.idx=0;practiceState.revealed=false;renderFlashcardPractice();">
+            <select class="select-minimal" onchange="practiceState.status=this.value;practiceState.idx=0;resetCardTurnState();renderFlashcardPractice();">
               <option value="" ${practiceState.status===''?'selected':''}>All Cards</option>
               <option value="unmastered" ${practiceState.status==='unmastered'?'selected':''}>Needs Work</option>
               <option value="starred" ${practiceState.status==='starred'?'selected':''}>Starred</option>
               <option value="mastered" ${practiceState.status==='mastered'?'selected':''}>Mastered</option>
             </select>
+            ${modeSwitcherHtml}
           </div>
           <div class="flashcard-stats">Mastered: <b>${totalMasteredCount}</b> / ${totalInBank} cards</div>
         </div>
         <div style="text-align:center;padding:48px 0;color:var(--muted)">
           <p>No cards match the selected filter.</p>
-          <button type="button" class="btn-minimal" onclick="practiceState.topic='';practiceState.status='';practiceState.idx=0;renderFlashcardPractice();">Reset Filter</button>
+          <button type="button" class="btn-minimal" onclick="practiceState.topic='';practiceState.status='';practiceState.idx=0;resetCardTurnState();renderFlashcardPractice();">Reset Filter</button>
         </div>
       </div>
     `;
@@ -3437,6 +3620,110 @@ function renderFlashcardPractice() {
     const isMastered = sheetMastered.has(card.id);
     const isStarred = sheetStarred.has(card.id);
     const cColor = colorOf(card.topicId);
+    const mode = practiceState.mode || 'medium';
+
+    let interactionHtml = '';
+
+    if (mode === 'easy') {
+      const easyData = getEasyChoicesForCard(card);
+      const letters = ['A', 'B', 'C', 'D'];
+      const isRight = practiceState.revealed && practiceState.easySelected === easyData.correctIndex;
+
+      interactionHtml = `
+        <div class="quiz-mc-grid" style="margin-bottom:14px">
+          ${easyData.choices.map((ch, i) => {
+            let cls = '';
+            if (practiceState.revealed) {
+              if (i === easyData.correctIndex) cls = 'correct';
+              else if (i === practiceState.easySelected) cls = 'wrong';
+            }
+            return `
+              <button type="button" class="quiz-mc-btn ${cls}" ${practiceState.revealed ? 'disabled' : ''} onclick="selectEasyCardChoice(${i})">
+                <span class="mc-letter">${letters[i]}</span>
+                <span style="font-size:0.86rem;line-height:1.4">${esc(ch)}</span>
+              </button>
+            `;
+          }).join('')}
+        </div>
+        ${practiceState.revealed ? `
+          <div class="flashcard-answer-box">
+            <div style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;color:${isRight ? '#15803d' : '#dc2626'};margin-bottom:6px">
+              ${isRight ? 'Correct Match' : 'Incorrect — Review Answer'}
+            </div>
+            <div class="flashcard-answer-text">${card.answer}</div>
+            <div class="flashcard-eval-bar">
+              <button type="button" class="btn-eval-review" id="eval-card-review">
+                Needs Review (1)
+              </button>
+              <button type="button" class="btn-eval-mastered" id="eval-card-mastered">
+                ${isMastered ? 'Mastered ✓' : 'Mark Mastered (2) ✓'}
+              </button>
+            </div>
+          </div>
+        ` : ''}
+      `;
+    } else if (mode === 'hard') {
+      if (!practiceState.revealed) {
+        interactionHtml = `
+          <div class="hard-recall-wrap">
+            <textarea id="hard-card-input" class="hard-recall-textarea" placeholder="Type your answer from memory (key terms, definitions, values)...">${esc(practiceState.hardInput || '')}</textarea>
+            <div class="hard-recall-actions">
+              <button type="button" class="btn-minimal" onclick="submitHardCardAnswer(true)">Reveal Answer</button>
+              <button type="button" class="btn-print-primary" onclick="submitHardCardAnswer(false)">Check Answer</button>
+            </div>
+          </div>
+        `;
+      } else {
+        const hr = practiceState.hardResult || { skipped: true, typed: '', pct: 0, matchedCount: 0, totalTerms: 0 };
+        let pillStyle = 'background:rgba(100,116,139,0.12);color:var(--muted);border:1px solid var(--border);';
+        let pillText = 'Answer Revealed';
+        if (!hr.skipped) {
+          if (hr.pct >= 65) {
+            pillStyle = 'background:rgba(22,163,74,0.12);color:#15803d;border:1px solid rgba(22,163,74,0.3);';
+            pillText = `Strong Recall · ${hr.pct}% key terms matched (${hr.matchedCount}/${hr.totalTerms})`;
+          } else if (hr.pct >= 35) {
+            pillStyle = 'background:rgba(217,119,6,0.12);color:#b45309;border:1px solid rgba(217,119,6,0.3);';
+            pillText = `Partial Recall · ${hr.pct}% key terms matched (${hr.matchedCount}/${hr.totalTerms})`;
+          } else {
+            pillStyle = 'background:rgba(220,38,38,0.12);color:#dc2626;border:1px solid rgba(220,38,38,0.3);';
+            pillText = `Needs Review · ${hr.pct}% key terms matched (${hr.matchedCount}/${hr.totalTerms})`;
+          }
+        }
+        interactionHtml = `
+          <div class="flashcard-answer-box">
+            <span class="hard-score-pill" style="${pillStyle}">${pillText}</span>
+            ${hr.typed ? `<div style="font-size:0.84rem;color:var(--muted);margin-bottom:10px;padding-bottom:8px;border-bottom:1px dashed var(--border)"><b>Your answer:</b> ${esc(hr.typed)}</div>` : ''}
+            <div class="flashcard-answer-text">${card.answer}</div>
+            <div class="flashcard-eval-bar">
+              <button type="button" class="btn-eval-review" id="eval-card-review">
+                Needs Review (1)
+              </button>
+              <button type="button" class="btn-eval-mastered" id="eval-card-mastered">
+                ${isMastered ? 'Mastered ✓' : 'Mark Mastered (2) ✓'}
+              </button>
+            </div>
+          </div>
+        `;
+      }
+    } else {
+      interactionHtml = !practiceState.revealed ? `
+        <button type="button" class="flashcard-reveal-btn" id="btn-reveal-card">
+          Reveal Answer (Press Space)
+        </button>
+      ` : `
+        <div class="flashcard-answer-box">
+          <div class="flashcard-answer-text">${card.answer}</div>
+          <div class="flashcard-eval-bar">
+            <button type="button" class="btn-eval-review" id="eval-card-review">
+              Needs Review (1)
+            </button>
+            <button type="button" class="btn-eval-mastered" id="eval-card-mastered">
+              ${isMastered ? 'Mastered ✓' : 'Mark Mastered (2) ✓'}
+            </button>
+          </div>
+        </div>
+      `;
+    }
 
     flashcardsBodyHtml = `
       <div class="flashcard-wrap">
@@ -3452,12 +3739,15 @@ function renderFlashcardPractice() {
               <option value="mastered" ${practiceState.status==='mastered'?'selected':''}>Mastered</option>
             </select>
             <button type="button" class="btn-minimal" id="btn-shuffle-cards" title="Shuffle deck">Shuffle</button>
+            ${modeSwitcherHtml}
           </div>
           <div class="flashcard-stats">
             <span>Card <b>${practiceState.idx + 1}</b> of ${cards.length}</span> · 
             <span>Mastered: <b>${totalMasteredCount}</b> / ${totalInBank}</span>
           </div>
         </div>
+
+        <div style="font-size:0.78rem;color:var(--muted);margin-bottom:10px">${modeDescriptions[mode]}</div>
 
         <div class="flashcard-box">
           <div>
@@ -3473,23 +3763,7 @@ function renderFlashcardPractice() {
 
             <h2 class="flashcard-question-text">${esc(card.question)}</h2>
 
-            ${!practiceState.revealed ? `
-              <button type="button" class="flashcard-reveal-btn" id="btn-reveal-card">
-                Reveal Answer (Press Space)
-              </button>
-            ` : `
-              <div class="flashcard-answer-box">
-                <div class="flashcard-answer-text">${card.answer}</div>
-                <div class="flashcard-eval-bar">
-                  <button type="button" class="btn-eval-review" id="eval-card-review">
-                    Needs Review (1)
-                  </button>
-                  <button type="button" class="btn-eval-mastered" id="eval-card-mastered">
-                    ${isMastered ? 'Mastered ✓' : 'Mark Mastered (2) ✓'}
-                  </button>
-                </div>
-              </div>
-            `}
+            ${interactionHtml}
           </div>
 
           <div>
@@ -3498,7 +3772,7 @@ function renderFlashcardPractice() {
               <a href="javascript:void(0)" class="btn-compare-link" onclick="openSheet('${card.topicId}')">View full ${card.topicId} cheatsheet</a>
               <button type="button" class="btn-minimal" id="card-next">Next →</button>
             </div>
-            <div class="flashcard-shortcuts-tip">Shortcuts: Space to reveal · 1 Needs Review · 2 Mastered · ← / → Navigate</div>
+            <div class="flashcard-shortcuts-tip">Shortcuts: ${mode === 'medium' ? 'Space to reveal · ' : ''}1 Needs Review · 2 Mastered · ← / → Navigate</div>
           </div>
         </div>
       </div>
@@ -3513,7 +3787,7 @@ function renderFlashcardPractice() {
         <button type="button" class="practice-dropdown-toggle" onclick="togglePracticeFlashcards()" aria-expanded="${practiceState.cardsOpen ? 'true' : 'false'}">
           <div>
             <div class="practice-dropdown-title">Cheatsheet Flashcards</div>
-            <div class="diag-subtitle" style="font-size:0.8rem">Self-test key definitions, processes, and comparisons by topic</div>
+            <div class="diag-subtitle" style="font-size:0.8rem">Self-test key definitions, processes, and comparisons by topic (Easy / Medium / Hard)</div>
           </div>
           <div class="practice-dropdown-meta">
             <span><b>${totalMasteredCount}</b> / ${totalInBank} mastered</span>
@@ -3530,26 +3804,28 @@ function renderFlashcardPractice() {
   $('#practice-topic-sel').onchange = e => {
     practiceState.topic = e.target.value;
     practiceState.idx = 0;
-    practiceState.revealed = false;
+    resetCardTurnState();
     renderFlashcardPractice();
   };
 
   $('#practice-status-sel').onchange = e => {
     practiceState.status = e.target.value;
     practiceState.idx = 0;
-    practiceState.revealed = false;
+    resetCardTurnState();
     renderFlashcardPractice();
   };
 
   $('#btn-shuffle-cards').onclick = () => {
     shuffle(FLASHCARDS);
     practiceState.idx = 0;
-    practiceState.revealed = false;
+    resetCardTurnState();
     renderFlashcardPractice();
     showToast('Deck shuffled');
   };
 
   $('#btn-star-card').onclick = () => {
+    const ta = $('#hard-card-input');
+    if (ta) practiceState.hardInput = ta.value;
     if (sheetStarred.has(card.id)) {
       sheetStarred.delete(card.id);
       showToast('Unstarred card');
@@ -3577,7 +3853,7 @@ function renderFlashcardPractice() {
         localStorage.setItem('senots_sheet_mastered', JSON.stringify([...sheetMastered]));
       }
       practiceState.idx++;
-      practiceState.revealed = false;
+      resetCardTurnState();
       renderFlashcardPractice();
     };
   }
@@ -3588,7 +3864,7 @@ function renderFlashcardPractice() {
       sheetMastered.add(card.id);
       localStorage.setItem('senots_sheet_mastered', JSON.stringify([...sheetMastered]));
       practiceState.idx++;
-      practiceState.revealed = false;
+      resetCardTurnState();
       renderFlashcardPractice();
       showToast('Card mastered! ✓');
     };
@@ -3596,13 +3872,13 @@ function renderFlashcardPractice() {
 
   $('#card-prev').onclick = () => {
     practiceState.idx--;
-    practiceState.revealed = false;
+    resetCardTurnState();
     renderFlashcardPractice();
   };
 
   $('#card-next').onclick = () => {
     practiceState.idx++;
-    practiceState.revealed = false;
+    resetCardTurnState();
     renderFlashcardPractice();
   };
 }
@@ -3627,22 +3903,25 @@ function shuffle(arr) {
 
 window.addEventListener('keydown', e => {
   if (state.view !== 'practice' || !practiceState.cardsOpen) return;
-  if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') return;
+  const tag = document.activeElement ? document.activeElement.tagName : '';
+  if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') return;
 
   if (e.key === 'ArrowLeft') {
     e.preventDefault();
     practiceState.idx--;
-    practiceState.revealed = false;
+    resetCardTurnState();
     renderFlashcardPractice();
   } else if (e.key === 'ArrowRight') {
     e.preventDefault();
     practiceState.idx++;
-    practiceState.revealed = false;
+    resetCardTurnState();
     renderFlashcardPractice();
   } else if (e.key === ' ' || e.code === 'Space') {
-    e.preventDefault();
-    practiceState.revealed = !practiceState.revealed;
-    renderFlashcardPractice();
+    if (practiceState.mode === 'medium') {
+      e.preventDefault();
+      practiceState.revealed = !practiceState.revealed;
+      renderFlashcardPractice();
+    }
   } else if (e.key === '1' && practiceState.revealed) {
     e.preventDefault();
     const btn = $('#eval-card-review');
