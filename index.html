@@ -893,6 +893,153 @@ body {
   margin-top: 6px;
 }
 
+/* Practice Page: Diagnostic Quiz & Flashcards Dropdown */
+.practice-page-wrap {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.diag-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.diag-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.diag-title {
+  margin: 0 0 4px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.diag-subtitle {
+  margin: 0;
+  font-size: 0.86rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.diag-start-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.diag-progress-bar {
+  width: 100%;
+  height: 5px;
+  background: var(--surface-hover);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.diag-progress-fill {
+  height: 100%;
+  background: var(--ink);
+  transition: width 0.25s ease;
+}
+.diag-question-text {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--ink);
+}
+.diag-results-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.diag-topic-row {
+  background: var(--surface-hover);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.diag-topic-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 200px;
+  flex: 1;
+}
+.diag-topic-actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.diag-strong-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.diag-strong-pill {
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 14px;
+  background: rgba(22, 163, 74, 0.1);
+  color: #15803d;
+  border: 1px solid rgba(22, 163, 74, 0.25);
+}
+.practice-dropdown {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.practice-dropdown-toggle {
+  width: 100%;
+  background: var(--surface);
+  border: none;
+  padding: 16px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+  transition: background 0.15s;
+}
+.practice-dropdown-toggle:hover {
+  background: var(--surface-hover);
+}
+.practice-dropdown-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.practice-dropdown-meta {
+  font-size: 0.82rem;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.practice-dropdown-body {
+  padding: 0 22px 22px;
+  border-top: 1px solid var(--border);
+}
+.practice-dropdown-body .flashcard-wrap {
+  max-width: 100%;
+  padding-top: 16px;
+}
+
 /* ========================================================
    Lightbox Modal (Minimalist)
    ======================================================== */
@@ -2157,7 +2304,8 @@ const colorOf = id => BASE[id] || BASE[String(id).split('.')[0]] || '#666';
 let D, T = {}, S = {}, CHEATS = null, FLASHCARDS = [];
 let sheetMastered = new Set(JSON.parse(localStorage.getItem('senots_sheet_mastered') || '[]'));
 let sheetStarred = new Set(JSON.parse(localStorage.getItem('senots_sheet_starred') || '[]'));
-let practiceState = { topic: '', status: '', idx: 0, revealed: false };
+let practiceState = { topic: '', status: '', idx: 0, revealed: false, cardsOpen: false };
+let diagQuizState = { screen: 'intro', questions: [], idx: 0, selected: null, revealed: false, results: [] };
 let activeSheetTopic = '1.1';
 
 let state = {
@@ -2974,14 +3122,267 @@ function buildFlashcards() {
   FLASHCARDS = cards;
 }
 
+function getTopicDisplayTitle(tid) {
+  if (CHEATS && CHEATS[tid] && CHEATS[tid].title) {
+    return CHEATS[tid].title.replace(/^Topic |^Theme /, '');
+  }
+  return T[tid] ? T[tid].name : tid;
+}
+
+function goToQuestionsTopic(tid) {
+  state.view = 'cards';
+  state.topic = tid;
+  state.paper = '';
+  state.component = '';
+  state.skill = '';
+  state.q = '';
+  syncViewButtons();
+  toHash();
+  render();
+}
+
 function startPracticeForTopic(tid) {
   state.view = 'practice';
   practiceState.topic = tid;
+  practiceState.cardsOpen = true;
   practiceState.idx = 0;
   practiceState.revealed = false;
   syncViewButtons();
   toHash();
   render();
+}
+
+function startDiagQuiz(count = 10) {
+  const bank = (QUIZ_BANK && QUIZ_BANK.length) ? QUIZ_BANK : [];
+  if (!bank.length) {
+    showToast('Quiz questions are still loading. Please try again in a moment.');
+    return;
+  }
+
+  const byTopic = {};
+  bank.forEach(item => {
+    const t = item.topic || '1.1';
+    if (!byTopic[t]) byTopic[t] = [];
+    byTopic[t].push(item);
+  });
+
+  const topicKeys = Object.keys(byTopic);
+  shuffle(topicKeys);
+  const chosenTopics = topicKeys.slice(0, Math.min(count, topicKeys.length));
+
+  const selected = chosenTopics.map(t => {
+    const pool = byTopic[t];
+    const item = pool[Math.floor(Math.random() * pool.length)];
+    const correctText = item.options[item.answer];
+    const shuffled = item.options.slice();
+    shuffle(shuffled);
+    return {
+      id: item.id,
+      topic: item.topic,
+      question: item.question,
+      explanation: item.explanation,
+      choices: shuffled,
+      correctIndex: shuffled.indexOf(correctText)
+    };
+  });
+
+  diagQuizState = {
+    screen: 'playing',
+    questions: selected,
+    idx: 0,
+    selected: null,
+    revealed: false,
+    results: []
+  };
+  renderFlashcardPractice();
+}
+
+function selectDiagChoice(choiceIdx) {
+  if (diagQuizState.revealed) return;
+  const q = diagQuizState.questions[diagQuizState.idx];
+  if (!q) return;
+
+  diagQuizState.selected = choiceIdx;
+  diagQuizState.revealed = true;
+  diagQuizState.results.push({
+    topic: q.topic,
+    question: q.question,
+    correct: choiceIdx === q.correctIndex,
+    chosenText: q.choices[choiceIdx],
+    correctText: q.choices[q.correctIndex]
+  });
+  renderFlashcardPractice();
+}
+
+function nextDiagQuestion() {
+  if (diagQuizState.idx >= diagQuizState.questions.length - 1) {
+    diagQuizState.screen = 'results';
+  } else {
+    diagQuizState.idx++;
+    diagQuizState.selected = null;
+    diagQuizState.revealed = false;
+  }
+  renderFlashcardPractice();
+}
+
+function resetDiagQuiz() {
+  diagQuizState = { screen: 'intro', questions: [], idx: 0, selected: null, revealed: false, results: [] };
+  renderFlashcardPractice();
+}
+
+function practiceRecommendedTopic(tid) {
+  practiceState.topic = tid;
+  practiceState.status = '';
+  practiceState.idx = 0;
+  practiceState.revealed = false;
+  practiceState.cardsOpen = true;
+  renderFlashcardPractice();
+  const dd = $('#practice-flashcards-dropdown');
+  if (dd) dd.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function togglePracticeFlashcards() {
+  practiceState.cardsOpen = !practiceState.cardsOpen;
+  renderFlashcardPractice();
+}
+
+function renderDiagQuizHtml() {
+  if (diagQuizState.screen === 'playing') {
+    const q = diagQuizState.questions[diagQuizState.idx];
+    const total = diagQuizState.questions.length;
+    const pct = Math.round(((diagQuizState.idx + (diagQuizState.revealed ? 1 : 0)) / total) * 100);
+    const tColor = colorOf(q.topic);
+    const tTitle = getTopicDisplayTitle(q.topic);
+    const letters = ['A', 'B', 'C', 'D'];
+    const isLast = diagQuizState.idx >= total - 1;
+
+    return `
+      <section class="diag-card" aria-label="Not sure what to revise quiz">
+        <div class="diag-header-row">
+          <div>
+            <div class="flashcard-topic-tag" style="margin-bottom:6px">
+              <span class="flashcard-indicator" style="--c:${tColor}"></span>
+              <span>Topic ${esc(q.topic)} · ${esc(tTitle)}</span>
+            </div>
+            <div style="font-size:0.8rem;color:var(--muted)">Question <b>${diagQuizState.idx + 1}</b> of ${total}</div>
+          </div>
+          <button type="button" class="btn-minimal" onclick="resetDiagQuiz()">Exit Quiz</button>
+        </div>
+
+        <div class="diag-progress-bar">
+          <div class="diag-progress-fill" style="width:${pct}%"></div>
+        </div>
+
+        <h2 class="diag-question-text">${esc(q.question)}</h2>
+
+        <div class="quiz-mc-grid">
+          ${q.choices.map((choice, i) => {
+            let cls = '';
+            if (diagQuizState.revealed) {
+              if (i === q.correctIndex) cls = 'correct';
+              else if (i === diagQuizState.selected) cls = 'wrong';
+            }
+            return `
+              <button type="button" class="quiz-mc-btn ${cls}" ${diagQuizState.revealed ? 'disabled' : ''} onclick="selectDiagChoice(${i})">
+                <span class="mc-letter">${letters[i]}</span>
+                <span>${esc(choice)}</span>
+              </button>
+            `;
+          }).join('')}
+        </div>
+
+        ${diagQuizState.revealed ? `
+          <div class="quiz-reveal-box">
+            <div class="quiz-reveal-title">${diagQuizState.selected === q.correctIndex ? 'Correct' : 'Needs Review'} — Specification Note</div>
+            <div class="quiz-reveal-text">${esc(q.explanation)}</div>
+            <div style="margin-top:12px;display:flex;justify-content:flex-end">
+              <button type="button" class="btn-print-primary" onclick="nextDiagQuestion()">
+                ${isLast ? 'See Revision Plan →' : 'Next Question →'}
+              </button>
+            </div>
+          </div>
+        ` : ''}
+      </section>
+    `;
+  }
+
+  if (diagQuizState.screen === 'results') {
+    const total = diagQuizState.results.length;
+    const correctList = diagQuizState.results.filter(r => r.correct);
+    const missedList = diagQuizState.results.filter(r => !r.correct);
+    const pct = total ? Math.round((correctList.length / total) * 100) : 0;
+
+    return `
+      <section class="diag-card" aria-label="Revision recommendations">
+        <div class="diag-header-row">
+          <div>
+            <h2 class="diag-title">Your Revision Plan · ${correctList.length} / ${total} (${pct}%)</h2>
+            <p class="diag-subtitle">
+              ${missedList.length
+                ? `Focus on the ${missedList.length} topic${missedList.length === 1 ? '' : 's'} you missed below using flashcards, cheatsheets, or past paper questions.`
+                : 'Great work — you answered every topic correctly. Pick any topic below or try a full 17-topic sweep.'}
+            </p>
+          </div>
+          <div class="diag-start-actions">
+            <button type="button" class="btn-print-primary" onclick="startDiagQuiz(${total})">Retake Quiz</button>
+            <button type="button" class="btn-minimal" onclick="resetDiagQuiz()">Done</button>
+          </div>
+        </div>
+
+        ${missedList.length ? `
+          <div>
+            <div style="font-size:0.78rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);margin-bottom:8px">
+              Topics to Revise
+            </div>
+            <div class="diag-results-grid">
+              ${missedList.map(r => `
+                <div class="diag-topic-row">
+                  <div class="diag-topic-info">
+                    <div class="flashcard-topic-tag">
+                      <span class="flashcard-indicator" style="--c:${colorOf(r.topic)}"></span>
+                      <span style="color:var(--ink);font-weight:600">Topic ${esc(r.topic)} · ${esc(getTopicDisplayTitle(r.topic))}</span>
+                    </div>
+                    <div style="font-size:0.8rem;color:var(--muted)">Missed: ${esc(r.question)}</div>
+                  </div>
+                  <div class="diag-topic-actions">
+                    <button type="button" class="btn-minimal" onclick="practiceRecommendedTopic('${esc(r.topic)}')">Flashcards</button>
+                    <button type="button" class="btn-minimal" onclick="openSheet('${esc(r.topic)}')">Cheatsheet</button>
+                    <button type="button" class="btn-minimal" onclick="goToQuestionsTopic('${esc(r.topic)}')">Past Questions</button>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        ` : ''}
+
+        ${correctList.length ? `
+          <div>
+            <div style="font-size:0.78rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);margin-bottom:8px">
+              Strong Topics
+            </div>
+            <div class="diag-strong-pills">
+              ${correctList.map(r => `<span class="diag-strong-pill">Topic ${esc(r.topic)} · ${esc(getTopicDisplayTitle(r.topic))}</span>`).join('')}
+            </div>
+          </div>
+        ` : ''}
+      </section>
+    `;
+  }
+
+  return `
+    <section class="diag-card" aria-label="Not sure what to revise quiz">
+      <div class="diag-header-row">
+        <div>
+          <h2 class="diag-title">Not sure what to revise?</h2>
+          <p class="diag-subtitle">Take a quick diagnostic quiz across the syllabus topics to spot gaps and get direct links to the flashcards, cheatsheets, and past questions you need.</p>
+        </div>
+      </div>
+      <div class="diag-start-actions">
+        <button type="button" class="btn-print-primary" onclick="startDiagQuiz(10)">Start Quick Topic Quiz (10 Questions)</button>
+        <button type="button" class="btn-minimal" onclick="startDiagQuiz(17)">Full Syllabus Check (All 17 Topics)</button>
+      </div>
+    </section>
+  `;
 }
 
 function getPracticeCards() {
@@ -3002,8 +3403,11 @@ function renderFlashcardPractice() {
   const totalInBank = FLASHCARDS ? FLASHCARDS.length : 307;
   const totalMasteredCount = sheetMastered.size;
 
+  let flashcardsBodyHtml = '';
+  let card = null;
+
   if (!cards.length) {
-    $('#app-view').innerHTML = `
+    flashcardsBodyHtml = `
       <div class="flashcard-wrap">
         <div class="flashcard-toolbar">
           <div class="flashcard-filters">
@@ -3025,82 +3429,103 @@ function renderFlashcardPractice() {
         </div>
       </div>
     `;
-    return;
-  }
+  } else {
+    if (practiceState.idx >= cards.length) practiceState.idx = 0;
+    if (practiceState.idx < 0) practiceState.idx = cards.length - 1;
 
-  if (practiceState.idx >= cards.length) practiceState.idx = 0;
-  if (practiceState.idx < 0) practiceState.idx = cards.length - 1;
+    card = cards[practiceState.idx];
+    const isMastered = sheetMastered.has(card.id);
+    const isStarred = sheetStarred.has(card.id);
+    const cColor = colorOf(card.topicId);
 
-  const card = cards[practiceState.idx];
-  const isMastered = sheetMastered.has(card.id);
-  const isStarred = sheetStarred.has(card.id);
-  const cColor = colorOf(card.topicId);
-
-  $('#app-view').innerHTML = `
-    <div class="flashcard-wrap">
-      <div class="flashcard-toolbar">
-        <div class="flashcard-filters">
-          <select class="select-minimal" id="practice-topic-sel">
-            ${buildPracticeTopicOpts()}
-          </select>
-          <select class="select-minimal" id="practice-status-sel">
-            <option value="" ${practiceState.status===''?'selected':''}>All Cards</option>
-            <option value="unmastered" ${practiceState.status==='unmastered'?'selected':''}>Needs Work</option>
-            <option value="starred" ${practiceState.status==='starred'?'selected':''}>Starred</option>
-            <option value="mastered" ${practiceState.status==='mastered'?'selected':''}>Mastered</option>
-          </select>
-          <button type="button" class="btn-minimal" id="btn-shuffle-cards" title="Shuffle deck">Shuffle</button>
+    flashcardsBodyHtml = `
+      <div class="flashcard-wrap">
+        <div class="flashcard-toolbar">
+          <div class="flashcard-filters">
+            <select class="select-minimal" id="practice-topic-sel">
+              ${buildPracticeTopicOpts()}
+            </select>
+            <select class="select-minimal" id="practice-status-sel">
+              <option value="" ${practiceState.status===''?'selected':''}>All Cards</option>
+              <option value="unmastered" ${practiceState.status==='unmastered'?'selected':''}>Needs Work</option>
+              <option value="starred" ${practiceState.status==='starred'?'selected':''}>Starred</option>
+              <option value="mastered" ${practiceState.status==='mastered'?'selected':''}>Mastered</option>
+            </select>
+            <button type="button" class="btn-minimal" id="btn-shuffle-cards" title="Shuffle deck">Shuffle</button>
+          </div>
+          <div class="flashcard-stats">
+            <span>Card <b>${practiceState.idx + 1}</b> of ${cards.length}</span> · 
+            <span>Mastered: <b>${totalMasteredCount}</b> / ${totalInBank}</span>
+          </div>
         </div>
-        <div class="flashcard-stats">
-          <span>Card <b>${practiceState.idx + 1}</b> of ${cards.length}</span> · 
-          <span>Mastered: <b>${totalMasteredCount}</b> / ${totalInBank}</span>
+
+        <div class="flashcard-box">
+          <div>
+            <div class="flashcard-top">
+              <div class="flashcard-topic-tag">
+                <span class="flashcard-indicator" style="--c:${cColor}"></span>
+                <span>Topic ${esc(card.topicId)} · ${esc(card.category)}</span>
+              </div>
+              <button type="button" class="btn-minimal ${isStarred ? 'active-star' : ''}" id="btn-star-card" style="${isStarred?'color:#d97706;border-color:#d97706':''}">
+                ${isStarred ? '★ Starred' : '☆ Star'}
+              </button>
+            </div>
+
+            <h2 class="flashcard-question-text">${esc(card.question)}</h2>
+
+            ${!practiceState.revealed ? `
+              <button type="button" class="flashcard-reveal-btn" id="btn-reveal-card">
+                Reveal Answer (Press Space)
+              </button>
+            ` : `
+              <div class="flashcard-answer-box">
+                <div class="flashcard-answer-text">${card.answer}</div>
+                <div class="flashcard-eval-bar">
+                  <button type="button" class="btn-eval-review" id="eval-card-review">
+                    Needs Review (1)
+                  </button>
+                  <button type="button" class="btn-eval-mastered" id="eval-card-mastered">
+                    ${isMastered ? 'Mastered ✓' : 'Mark Mastered (2) ✓'}
+                  </button>
+                </div>
+              </div>
+            `}
+          </div>
+
+          <div>
+            <div class="flashcard-footer-nav">
+              <button type="button" class="btn-minimal" id="card-prev">← Prev</button>
+              <a href="javascript:void(0)" class="btn-compare-link" onclick="openSheet('${card.topicId}')">View full ${card.topicId} cheatsheet</a>
+              <button type="button" class="btn-minimal" id="card-next">Next →</button>
+            </div>
+            <div class="flashcard-shortcuts-tip">Shortcuts: Space to reveal · 1 Needs Review · 2 Mastered · ← / → Navigate</div>
+          </div>
         </div>
       </div>
+    `;
+  }
 
-      <div class="flashcard-box">
-        <div>
-          <div class="flashcard-top">
-            <div class="flashcard-topic-tag">
-              <span class="flashcard-indicator" style="--c:${cColor}"></span>
-              <span>Topic ${esc(card.topicId)} · ${esc(card.category)}</span>
-            </div>
-            <button type="button" class="btn-minimal ${isStarred ? 'active-star' : ''}" id="btn-star-card" style="${isStarred?'color:#d97706;border-color:#d97706':''}">
-              ${isStarred ? '★ Starred' : '☆ Star'}
-            </button>
+  $('#app-view').innerHTML = `
+    <div class="practice-page-wrap">
+      ${renderDiagQuizHtml()}
+
+      <div class="practice-dropdown" id="practice-flashcards-dropdown">
+        <button type="button" class="practice-dropdown-toggle" onclick="togglePracticeFlashcards()" aria-expanded="${practiceState.cardsOpen ? 'true' : 'false'}">
+          <div>
+            <div class="practice-dropdown-title">Cheatsheet Flashcards</div>
+            <div class="diag-subtitle" style="font-size:0.8rem">Self-test key definitions, processes, and comparisons by topic</div>
           </div>
-
-          <h2 class="flashcard-question-text">${esc(card.question)}</h2>
-
-          ${!practiceState.revealed ? `
-            <button type="button" class="flashcard-reveal-btn" id="btn-reveal-card">
-              Reveal Answer (Press Space)
-            </button>
-          ` : `
-            <div class="flashcard-answer-box">
-              <div class="flashcard-answer-text">${card.answer}</div>
-              <div class="flashcard-eval-bar">
-                <button type="button" class="btn-eval-review" id="eval-card-review">
-                  Needs Review (1)
-                </button>
-                <button type="button" class="btn-eval-mastered" id="eval-card-mastered">
-                  ${isMastered ? 'Mastered ✓' : 'Mark Mastered (2) ✓'}
-                </button>
-              </div>
-            </div>
-          `}
-        </div>
-
-        <div>
-          <div class="flashcard-footer-nav">
-            <button type="button" class="btn-minimal" id="card-prev">← Prev</button>
-            <a href="javascript:void(0)" class="btn-compare-link" onclick="openSheet('${card.topicId}')">View full ${card.topicId} cheatsheet</a>
-            <button type="button" class="btn-minimal" id="card-next">Next →</button>
+          <div class="practice-dropdown-meta">
+            <span><b>${totalMasteredCount}</b> / ${totalInBank} mastered</span>
+            <span style="font-size:0.95rem">${practiceState.cardsOpen ? '▾' : '▸'}</span>
           </div>
-          <div class="flashcard-shortcuts-tip">Shortcuts: Space to reveal · 1 Needs Review · 2 Mastered · ← / → Navigate</div>
-        </div>
+        </button>
+        ${practiceState.cardsOpen ? `<div class="practice-dropdown-body">${flashcardsBodyHtml}</div>` : ''}
       </div>
     </div>
   `;
+
+  if (!practiceState.cardsOpen || !card) return;
 
   $('#practice-topic-sel').onchange = e => {
     practiceState.topic = e.target.value;
@@ -3201,7 +3626,7 @@ function shuffle(arr) {
 }
 
 window.addEventListener('keydown', e => {
-  if (state.view !== 'practice') return;
+  if (state.view !== 'practice' || !practiceState.cardsOpen) return;
   if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') return;
 
   if (e.key === 'ArrowLeft') {
