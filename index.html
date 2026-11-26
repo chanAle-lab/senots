@@ -3683,7 +3683,7 @@ function buildDeckTopicOpts(deckKey) {
     return html;
   }
   const tids = CHEATS ? Object.keys(CHEATS) : ['1.1','2.1','2.2','2.3','3.1','3.2','4.1','4.2'];
-  let html = `<option value="">All Topics (${bank.length || 307} cards)</option>`;
+  let html = `<option value="">All Topics (${bank.length || 286} cards)</option>`;
   tids.forEach(t => {
     const title = CHEATS && CHEATS[t] ? CHEATS[t].title.replace(/^Topic |^Theme /, '') : t;
     const isSel = st.topic === t ? 'selected' : '';
@@ -3912,7 +3912,7 @@ function renderFlashcardPractice() {
             <div class="diag-subtitle" style="font-size:0.8rem">Self-test key definitions, processes, and comparisons by topic (Easy / Medium / Hard)</div>
           </div>
           <div class="practice-dropdown-meta">
-            <span><b>${cheatsMastered}</b> / ${cheatsBank.length || 307} mastered</span>
+            <span><b>${cheatsMastered}</b> / ${cheatsBank.length || 286} mastered</span>
             <span style="font-size:0.95rem">${practiceState.cardsOpen ? '▾' : '▸'}</span>
           </div>
         </button>

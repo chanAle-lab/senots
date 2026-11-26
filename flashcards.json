@@ -80,19 +80,11 @@
     "answer": "Calcite scratches with copper/nail (H=3), effervesces with dilute cold HCl (CaCO3 + 2HCl -> CaCl2 + H2O + CO2), 3 directions of rhombohedral cleavage. Quartz scratches glass (H=7), no acid reaction, conchoidal fracture."
   },
   {
-    "id": "card-011",
-    "topicId": "1.1",
-    "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
-    "category": "Diagnostic Properties (Hand Specimen & Thin Section)",
-    "question": "State the key Thin section optical properties:",
-    "answer": ""
-  },
-  {
     "id": "card-012",
     "topicId": "1.1",
     "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
     "category": "Diagnostic Properties (Hand Specimen & Thin Section)",
-    "question": "Diagnostic Properties (Hand Specimen & Thin Section): key facts",
+    "question": "Which mineral optical properties are observed under plane polarised light (PPL) in thin section?",
     "answer": "• <i>Plane polarised light (PPL):</i> Relief (refractive index vs resin), Pleochroism (colour change on rotation e.g. Biotite brown-yellow, Hornblende green-brown), Cleavage traces."
   },
   {
@@ -100,7 +92,7 @@
     "topicId": "1.1",
     "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
     "category": "Diagnostic Properties (Hand Specimen & Thin Section)",
-    "question": "Diagnostic Properties (Hand Specimen & Thin Section): key facts",
+    "question": "Which mineral optical properties are observed under crossed polars (XPL) in thin section?",
     "answer": "• <i>Crossed polars (XPL):</i> Birefringence / Interference colours (order of colours on Michel-Lévy chart), Extinction angle (straight/parallel in quartz/orthoclase/biotite, inclined in augite/hornblende), Twinning (cross-hatched in microcline, albite polysynthetic stripes in plagioclase, Carlsbad simple twin in orthoclase)."
   },
   {
@@ -108,7 +100,7 @@
     "topicId": "1.1",
     "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
     "category": "Goldich Weathering Series & Stability",
-    "question": "Goldich Weathering Series & Stability: key facts",
+    "question": "What is the core principle of the Goldich Weathering Series?",
     "answer": "Minerals that crystallise at the highest temperatures and pressures (least like surface conditions) weather the fastest."
   },
   {
@@ -124,7 +116,7 @@
     "topicId": "1.1",
     "topicTitle": "Topic 1.1 · Elements, Minerals and Rocks",
     "category": "Goldich Weathering Series & Stability",
-    "question": "Goldich Weathering Series & Stability: key facts",
+    "question": "Why do quartz and clay minerals dominate mature sedimentary deposits?",
     "answer": "Quartz and clays dominate mature sedimentary deposits because quartz is mechanically hard and chemically inert."
   },
   {
@@ -136,19 +128,11 @@
     "answer": "Freeze-thaw (9% water expansion in joints), Exfoliation / onion-skin (insolation thermal expansion/contraction in arid climates), Salt crystallisation."
   },
   {
-    "id": "card-018",
-    "topicId": "2.1",
-    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
-    "category": "Weathering & Transport",
-    "question": "Explain the key features / significance of: Chemical weathering",
-    "answer": ""
-  },
-  {
     "id": "card-019",
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Weathering & Transport",
-    "question": "Weathering & Transport: key facts",
+    "question": "How does carbonation weather limestone?",
     "answer": "• <i>Carbonation:</i> Rainwater dissolves CO2 -> carbonic acid (H2CO3) dissolving limestone."
   },
   {
@@ -156,7 +140,7 @@
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Weathering & Transport",
-    "question": "Weathering & Transport: key facts",
+    "question": "What are the reactants and products of feldspar hydrolysis?",
     "answer": "• <i>Hydrolysis:</i> Acidified water attacks feldspar -> kaolinite (china clay) + silicic acid + soluble K+/Na+ ions."
   },
   {
@@ -164,7 +148,7 @@
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Weathering & Transport",
-    "question": "Weathering & Transport: key facts",
+    "question": "How does chemical oxidation affect iron-bearing minerals?",
     "answer": "• <i>Oxidation:</i> Iron minerals (e.g. olivine, augite, pyrite) react with oxygen -> hematite / limonite (rust red)."
   },
   {
@@ -180,7 +164,7 @@
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Weathering & Transport",
-    "question": "Weathering & Transport: key facts",
+    "question": "Why do clay and silt require a higher flow velocity to entrain than sand on the Hjulström curve?",
     "answer": "• Clay/silt requires higher velocity to entrain than sand due to electrostatic cohesion."
   },
   {
@@ -188,7 +172,7 @@
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Weathering & Transport",
-    "question": "Weathering & Transport: key facts",
+    "question": "Which sediment grain size entrains at the lowest flow velocity (~20 cm/s)?",
     "answer": "• Sand entrains at the lowest velocity (~20 cm/s)."
   },
   {
@@ -196,7 +180,7 @@
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Weathering & Transport",
-    "question": "Weathering & Transport: key facts",
+    "question": "When does sediment deposition occur relative to settling velocity?",
     "answer": "• Deposition occurs whenever velocity drops below settling velocity."
   },
   {
@@ -216,19 +200,11 @@
     "answer": "Increases with transport distance and time: Poorly sorted + angular + high matrix -> Well sorted + well rounded + low matrix (orthoquartzite)."
   },
   {
-    "id": "card-028",
-    "topicId": "2.1",
-    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
-    "category": "Textural Maturity & Clastic Classification",
-    "question": "Explain the key features / significance of: Clastic rock types",
-    "answer": ""
-  },
-  {
     "id": "card-029",
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Textural Maturity & Clastic Classification",
-    "question": "Textural Maturity & Clastic Classification: key facts",
+    "question": "What are the clast shape, grain size, and depositional environment of a breccia?",
     "answer": "• <i>Breccia:</i> Angular clasts (>2 mm), near-source deposit (scree / fault talus / wadi flash flood)."
   },
   {
@@ -236,7 +212,7 @@
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Textural Maturity & Clastic Classification",
-    "question": "Textural Maturity & Clastic Classification: key facts",
+    "question": "What are the clast shape, grain size, and depositional environment of a conglomerate?",
     "answer": "• <i>Conglomerate:</i> Rounded clasts (>2 mm), high-energy aqueous transport (beach / high-energy river channel)."
   },
   {
@@ -244,7 +220,7 @@
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Textural Maturity & Clastic Classification",
-    "question": "Textural Maturity & Clastic Classification: key facts",
+    "question": "What are the composition, texture, and depositional setting of an orthoquartzite?",
     "answer": "• <i>Orthoquartzite:</i> >95% quartz grains, well rounded, well sorted, silica cement; high-energy shallow marine / beach."
   },
   {
@@ -252,7 +228,7 @@
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Textural Maturity & Clastic Classification",
-    "question": "Textural Maturity & Clastic Classification: key facts",
+    "question": "What are the composition, texture, and depositional setting of an arkose?",
     "answer": "• <i>Arkose:</i> >25% feldspar, pink/red, moderate sorting/rounding; rapid deposition from granitic source in semi-arid alluvial fan."
   },
   {
@@ -260,7 +236,7 @@
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Textural Maturity & Clastic Classification",
-    "question": "Textural Maturity & Clastic Classification: key facts",
+    "question": "What are the composition, texture, and depositional setting of a greywacke?",
     "answer": "• <i>Greywacke:</i> Poorly sorted, angular grains in dark fine-grained muddy matrix (>15%); submarine turbidity current deposit."
   },
   {
@@ -336,19 +312,11 @@
     "answer": "Halite (NaCl), Gypsum (CaSO4·2H2O), Anhydrite. Sequential precipitation in restricted marine basins with high evaporation > precipitation."
   },
   {
-    "id": "card-043",
-    "topicId": "2.1",
-    "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
-    "category": "Carbonate & Chemical Sediments & Diagenesis",
-    "question": "Explain the key features / significance of: Diagenesis stages",
-    "answer": ""
-  },
-  {
     "id": "card-044",
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Carbonate & Chemical Sediments & Diagenesis",
-    "question": "Carbonate & Chemical Sediments & Diagenesis: key facts",
+    "question": "What happens during compaction in sediment diagenesis?",
     "answer": "1. Compaction: Expulsion of pore water, reduction of porosity."
   },
   {
@@ -356,7 +324,7 @@
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Carbonate & Chemical Sediments & Diagenesis",
-    "question": "Carbonate & Chemical Sediments & Diagenesis: key facts",
+    "question": "What happens during cementation in sediment diagenesis?",
     "answer": "2. Cementation: Precipitation of mineral matter (calcite, quartz, iron oxide) from pore fluids, binding grains."
   },
   {
@@ -364,7 +332,7 @@
     "topicId": "2.1",
     "topicTitle": "Topic 2.1 · Sedimentary Rocks & Surface Processes",
     "category": "Carbonate & Chemical Sediments & Diagenesis",
-    "question": "Carbonate & Chemical Sediments & Diagenesis: key facts",
+    "question": "What happens during recrystallisation / neomorphism in carbonate diagenesis?",
     "answer": "3. Recrystallisation / Neomorphism: Unstable aragonite converts to stable calcite."
   },
   {
@@ -460,23 +428,15 @@
     "topicId": "2.2",
     "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
     "category": "Contact (Thermal) Metamorphism",
-    "question": "Contact (Thermal) Metamorphism: key facts",
+    "question": "What pressure-temperature conditions and setting characterise contact (thermal) metamorphism?",
     "answer": "High temperature, low pressure, isotropic (uniform) confining stress. Occurs in <b>metamorphic aureole</b> surrounding igneous intrusions."
-  },
-  {
-    "id": "card-059",
-    "topicId": "2.2",
-    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
-    "category": "Contact (Thermal) Metamorphism",
-    "question": "Explain the key features / significance of: Aureole zones in pelitic (shale/mudstone) host rock",
-    "answer": ""
   },
   {
     "id": "card-060",
     "topicId": "2.2",
     "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
     "category": "Contact (Thermal) Metamorphism",
-    "question": "Contact (Thermal) Metamorphism: key facts",
+    "question": "Which rock forms in the outer (lowest-temperature) zone of a pelitic metamorphic aureole?",
     "answer": "• Outer zone (lowest temp): <i>Spotted slate / Spotted rock</i> (incipient growth of biotite/cordierite clusters)."
   },
   {
@@ -484,7 +444,7 @@
     "topicId": "2.2",
     "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
     "category": "Contact (Thermal) Metamorphism",
-    "question": "Contact (Thermal) Metamorphism: key facts",
+    "question": "Which rock and porphyroblast characterise the middle zone of a pelitic metamorphic aureole?",
     "answer": "• Middle zone: <i>Andalusite hornfels</i> (porphyroblasts of chiastolite with carbonaceous cross inclusions)."
   },
   {
@@ -492,7 +452,7 @@
     "topicId": "2.2",
     "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
     "category": "Contact (Thermal) Metamorphism",
-    "question": "Contact (Thermal) Metamorphism: key facts",
+    "question": "Which rock characterises the inner (highest-temperature) zone of a pelitic metamorphic aureole?",
     "answer": "• Inner zone (highest temp): <i>Sillimanite-cordierite hornfels</i> (dense, hard, granoblastic, non-foliated)."
   },
   {
@@ -500,7 +460,7 @@
     "topicId": "2.2",
     "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
     "category": "Contact (Thermal) Metamorphism",
-    "question": "Contact (Thermal) Metamorphism: key facts",
+    "question": "What non-foliated metamorphic rocks form from pure limestone and pure sandstone during contact metamorphism?",
     "answer": "Pure rocks: Limestone -> Marble (coarse granoblastic calcite); Sandstone -> Metaquartzite (interlocking quartz grains)."
   },
   {
@@ -508,23 +468,15 @@
     "topicId": "2.2",
     "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
     "category": "Regional Metamorphism & Foliation Sequence",
-    "question": "Regional Metamorphism & Foliation Sequence: key facts",
+    "question": "What stress, pressure, temperature, and tectonic setting characterise regional metamorphism?",
     "answer": "High directed stress + high confining pressure + elevated temperature. Convergent plate collisions / orogenesis."
-  },
-  {
-    "id": "card-065",
-    "topicId": "2.2",
-    "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
-    "category": "Regional Metamorphism & Foliation Sequence",
-    "question": "Explain the key features / significance of: Barrovian prograde metamorphic zones (pelite sequence)",
-    "answer": ""
   },
   {
     "id": "card-066",
     "topicId": "2.2",
     "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
     "category": "Regional Metamorphism & Foliation Sequence",
-    "question": "Regional Metamorphism & Foliation Sequence: key facts",
+    "question": "Describe the mineral alignment and foliation of slate (lowest-grade regional pelite).",
     "answer": "1. <b>Slate:</b> Microscopic platy minerals aligned perpendicular to maximum principal stress (\\(\\sigma_1\\)) -> <i>slaty cleavage</i>."
   },
   {
@@ -532,7 +484,7 @@
     "topicId": "2.2",
     "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
     "category": "Regional Metamorphism & Foliation Sequence",
-    "question": "Regional Metamorphism & Foliation Sequence: key facts",
+    "question": "Describe the texture and foliation of phyllite.",
     "answer": "2. <b>Phyllite:</b> Fine white mica/chlorite gives a silky lustrous sheen; wavy foliation."
   },
   {
@@ -540,7 +492,7 @@
     "topicId": "2.2",
     "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
     "category": "Regional Metamorphism & Foliation Sequence",
-    "question": "Regional Metamorphism & Foliation Sequence: key facts",
+    "question": "Describe the texture, foliation, and common porphyroblasts of schist.",
     "answer": "3. <b>Schist:</b> Medium-coarse visible platy minerals (muscovite/biotite) forming continuous foliation (<i>schistosity</i>); contains porphyroblasts (garnet, staurolite)."
   },
   {
@@ -548,7 +500,7 @@
     "topicId": "2.2",
     "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
     "category": "Regional Metamorphism & Foliation Sequence",
-    "question": "Regional Metamorphism & Foliation Sequence: key facts",
+    "question": "Describe the banding and mineral segregation of gneiss.",
     "answer": "4. <b>Gneiss:</b> High-grade segregation into alternating light quartzo-feldspathic bands and dark mafic (biotite/hornblende) bands (<i>gneissose banding</i>)."
   },
   {
@@ -556,7 +508,7 @@
     "topicId": "2.2",
     "topicTitle": "Topic 2.2 · Igneous & Metamorphic Rocks",
     "category": "Regional Metamorphism & Foliation Sequence",
-    "question": "Regional Metamorphism & Foliation Sequence: key facts",
+    "question": "How does migmatite form at the highest grade of regional metamorphism?",
     "answer": "5. <b>Migmatite:</b> Partial melting of felsic components (anatexis) forming mixed metamorphic-igneous rock."
   },
   {
@@ -700,23 +652,15 @@
     "topicId": "2.3",
     "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
     "category": "Unconformities & The Rule of V's",
-    "question": "Unconformities & The Rule of V's: key facts",
+    "question": "What field and map evidence indicates an unconformity?",
     "answer": "• Evidence: Truncation of beds below, dip discordance, basal conglomerate containing pebbles derived from underlying unit."
-  },
-  {
-    "id": "card-089",
-    "topicId": "2.3",
-    "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
-    "category": "Unconformities & The Rule of V's",
-    "question": "State the principle/formula for: Rule of V's (Map Outcrop Pattern across Valleys)",
-    "answer": ""
   },
   {
     "id": "card-090",
     "topicId": "2.3",
     "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
     "category": "Unconformities & The Rule of V's",
-    "question": "Unconformities & The Rule of V's: key facts",
+    "question": "How do horizontal beds appear on a geological map relative to contour lines?",
     "answer": "• Horizontal beds: Contour parallel; outcrop bands follow contours."
   },
   {
@@ -724,7 +668,7 @@
     "topicId": "2.3",
     "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
     "category": "Unconformities & The Rule of V's",
-    "question": "Unconformities & The Rule of V's: key facts",
+    "question": "How do vertical beds appear on a geological map across valleys and hills?",
     "answer": "• Vertical beds: Straight lines across topography regardless of valleys/hills."
   },
   {
@@ -732,7 +676,7 @@
     "topicId": "2.3",
     "topicTitle": "Topic 2.3 · Deformation, Folds, Faults & Maps",
     "category": "Unconformities & The Rule of V's",
-    "question": "Unconformities & The Rule of V's: key facts",
+    "question": "State the Rule of V's for dipping beds crossing a valley.",
     "answer": "• Dipping beds: V points in the direction of dip down a valley, UNLESS the bed dips downstream at a lower angle than the valley gradient."
   },
   {
@@ -752,19 +696,11 @@
     "answer": "Hard skeleton/shell (calcite, silica, apatite), rapid burial (prevents scavenging and mechanical destruction), low energy environment, anoxic bottom waters (inhibits bacterial decay)."
   },
   {
-    "id": "card-095",
-    "topicId": "3.1",
-    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
-    "category": "Fossil Preservation & Taphonomy",
-    "question": "Explain the key features / significance of: Preservation modes",
-    "answer": ""
-  },
-  {
     "id": "card-096",
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Fossil Preservation & Taphonomy",
-    "question": "Fossil Preservation & Taphonomy: key facts",
+    "question": "How does fossil preservation by replacement (petrifaction) work?",
     "answer": "• <i>Replacement / Petrifaction:</i> Original mineral replaced molecule by molecule (e.g. pyritisation, silicification)."
   },
   {
@@ -772,7 +708,7 @@
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Fossil Preservation & Taphonomy",
-    "question": "Fossil Preservation & Taphonomy: key facts",
+    "question": "How does recrystallisation alter original carbonate shell material during fossilisation?",
     "answer": "• <i>Recrystallisation:</i> Unstable aragonite converts to coarse calcite crystals."
   },
   {
@@ -780,7 +716,7 @@
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Fossil Preservation & Taphonomy",
-    "question": "Fossil Preservation & Taphonomy: key facts",
+    "question": "Distinguish between an external mould, an internal mould (steinkern), and a cast.",
     "answer": "• <i>Moulds & Casts:</i> Shell dissolves leaving external mould (impressing wall) and internal mould (steinkern); infilled with sediment/mineral = cast."
   },
   {
@@ -788,7 +724,7 @@
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Fossil Preservation & Taphonomy",
-    "question": "Fossil Preservation & Taphonomy: key facts",
+    "question": "How does carbonisation preserve fossils such as plants and graptolites?",
     "answer": "• <i>Carbonisation:</i> Volatiles expelled leaving thin black carbon film (plants, graptolites)."
   },
   {
@@ -796,23 +732,15 @@
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Fossil Preservation & Taphonomy",
-    "question": "Fossil Preservation & Taphonomy: key facts",
+    "question": "What are trace fossils (ichnofossils) and how are they classified?",
     "answer": "• <i>Trace fossils (ichnofossils):</i> Tracks, trails, burrows, coprolites, borings; classify behavior (feeding, dwelling, resting, locomotion)."
-  },
-  {
-    "id": "card-101",
-    "topicId": "3.1",
-    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
-    "category": "Life Assemblage vs Death Assemblage",
-    "question": "Explain the key features / significance of: Life Assemblage (In Situ / Biocoenosis)",
-    "answer": ""
   },
   {
     "id": "card-102",
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Life Assemblage vs Death Assemblage",
-    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "question": "How does preservation in living position indicate a life assemblage (biocoenosis)?",
     "answer": "• Organisms preserved in living position (e.g. upright corals, bivalves in burrows)."
   },
   {
@@ -820,7 +748,7 @@
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Life Assemblage vs Death Assemblage",
-    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "question": "What does articulation of multi-part skeletons (e.g. trilobites, bivalves) indicate about an assemblage?",
     "answer": "• Articulated multi-part skeletons (complete trilobites with free cheeks attached; bivalves with valves closed)."
   },
   {
@@ -828,7 +756,7 @@
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Life Assemblage vs Death Assemblage",
-    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "question": "What size distribution is expected in a life assemblage (biocoenosis)?",
     "answer": "• Wide size distribution / growth stages (juveniles and adults together)."
   },
   {
@@ -836,23 +764,15 @@
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Life Assemblage vs Death Assemblage",
-    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "question": "What does the preservation of delicate spines and frills indicate about transport?",
     "answer": "• Unbroken, unworn delicate spines/frills preserved."
-  },
-  {
-    "id": "card-106",
-    "topicId": "3.1",
-    "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
-    "category": "Life Assemblage vs Death Assemblage",
-    "question": "Explain the key features / significance of: Death Assemblage (Transported / Thanatocoenosis)",
-    "answer": ""
   },
   {
     "id": "card-107",
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Life Assemblage vs Death Assemblage",
-    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "question": "What does disarticulation of valves or skeletal segments indicate about an assemblage?",
     "answer": "• Disarticulated valves/segments (isolated bivalve valves, separated trilobite cranidia/pygidia)."
   },
   {
@@ -860,7 +780,7 @@
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Life Assemblage vs Death Assemblage",
-    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "question": "How does hydrodynamic sorting help identify a death assemblage (thanatocoenosis)?",
     "answer": "• Hydrodynamically sorted (all shells same size/weight)."
   },
   {
@@ -868,7 +788,7 @@
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Life Assemblage vs Death Assemblage",
-    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "question": "What do broken, abraded, and rounded shell fragments indicate in a fossil assemblage?",
     "answer": "• Broken, abraded, rounded shell fragments."
   },
   {
@@ -876,7 +796,7 @@
     "topicId": "3.1",
     "topicTitle": "Topic 3.1 · Present-Day Processes & Fossils",
     "category": "Life Assemblage vs Death Assemblage",
-    "question": "Life Assemblage vs Death Assemblage: key facts",
+    "question": "What does current alignment of elongate fossils (e.g. graptolites, belemnites) indicate?",
     "answer": "• Current alignment of elongate fossils (graptolites, belemnites, tentaculites)."
   },
   {
@@ -976,19 +896,11 @@
     "answer": "Plant roots branching downwards; corals growing upright."
   },
   {
-    "id": "card-123",
-    "topicId": "3.2",
-    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
-    "category": "Biostratigraphy & Ideal Zone Fossils",
-    "question": "Explain the key features / significance of: Characteristics of an ideal Index / Zone Fossil",
-    "answer": ""
-  },
-  {
     "id": "card-124",
     "topicId": "3.2",
     "topicTitle": "Topic 3.2 · Relative & Absolute Time",
     "category": "Biostratigraphy & Ideal Zone Fossils",
-    "question": "Biostratigraphy & Ideal Zone Fossils: key facts",
+    "question": "Why must an ideal index (zone) fossil have evolved rapidly?",
     "answer": "1. <b>Rapid evolution:</b> Short stratigraphic range (precise dating)."
   },
   {
@@ -996,7 +908,7 @@
     "topicId": "3.2",
     "topicTitle": "Topic 3.2 · Relative & Absolute Time",
     "category": "Biostratigraphy & Ideal Zone Fossils",
-    "question": "Biostratigraphy & Ideal Zone Fossils: key facts",
+    "question": "Why must an ideal index (zone) fossil be geographically widespread?",
     "answer": "2. <b>Geographically widespread:</b> Found across basins and continents."
   },
   {
@@ -1004,7 +916,7 @@
     "topicId": "3.2",
     "topicTitle": "Topic 3.2 · Relative & Absolute Time",
     "category": "Biostratigraphy & Ideal Zone Fossils",
-    "question": "Biostratigraphy & Ideal Zone Fossils: key facts",
+    "question": "Why must an ideal index (zone) fossil be abundant?",
     "answer": "3. <b>Abundant:</b> Easily found in rock exposures and drill cores."
   },
   {
@@ -1012,7 +924,7 @@
     "topicId": "3.2",
     "topicTitle": "Topic 3.2 · Relative & Absolute Time",
     "category": "Biostratigraphy & Ideal Zone Fossils",
-    "question": "Biostratigraphy & Ideal Zone Fossils: key facts",
+    "question": "Why must an ideal index (zone) fossil be easily identifiable?",
     "answer": "4. <b>Easily identifiable:</b> Distinct morphological features."
   },
   {
@@ -1020,7 +932,7 @@
     "topicId": "3.2",
     "topicTitle": "Topic 3.2 · Relative & Absolute Time",
     "category": "Biostratigraphy & Ideal Zone Fossils",
-    "question": "Biostratigraphy & Ideal Zone Fossils: key facts",
+    "question": "Why must an ideal index (zone) fossil be facies-independent?",
     "answer": "5. <b>Facies-independent:</b> Pelagic / planktonic (floated in water column, found in many sediment types)."
   },
   {
@@ -1052,7 +964,7 @@
     "topicId": "3.2",
     "topicTitle": "Topic 3.2 · Relative & Absolute Time",
     "category": "Radiometric Absolute Dating",
-    "question": "Radiometric Absolute Dating: key facts",
+    "question": "State the parent-to-daughter percentages after 0, 1, 2, and 3 half-lives.",
     "answer": "• Decay stages: 0 half-lives (100% P) -> 1 (50% P, 50% D) -> 2 (25% P, 75% D) -> 3 (12.5% P, 87.5% D)."
   },
   {
@@ -1064,19 +976,11 @@
     "answer": "The temperature below which isotopes can no longer diffuse out of the crystal lattice. If rock is reheated during metamorphism above closure temp, radiogenic daughter escapes and radiometric clock is <b>reset</b>."
   },
   {
-    "id": "card-134",
-    "topicId": "3.2",
-    "topicTitle": "Topic 3.2 · Relative & Absolute Time",
-    "category": "Radiometric Absolute Dating",
-    "question": "Explain the key features / significance of: Key isotope systems",
-    "answer": ""
-  },
-  {
     "id": "card-135",
     "topicId": "3.2",
     "topicTitle": "Topic 3.2 · Relative & Absolute Time",
     "category": "Radiometric Absolute Dating",
-    "question": "Radiometric Absolute Dating: key facts",
+    "question": "What is the half-life and mineral application of the K-Ar / Ar-Ar dating system?",
     "answer": "• <i>K-Ar / Ar-Ar:</i> K-40 decays to Ar-40 (t1/2 = 1.25 Ga). Dating igneous/metamorphic biotite, hornblende, sanidine."
   },
   {
@@ -1084,7 +988,7 @@
     "topicId": "3.2",
     "topicTitle": "Topic 3.2 · Relative & Absolute Time",
     "category": "Radiometric Absolute Dating",
-    "question": "Radiometric Absolute Dating: key facts",
+    "question": "Why is U-Pb dating in zircon ideal for determining primary igneous crystallisation ages?",
     "answer": "• <i>U-Pb:</i> U-238/U-235 in Zircon. Zircon has very high closure temp (>900°C), retains primary crystallisation age."
   },
   {
@@ -1092,7 +996,7 @@
     "topicId": "3.2",
     "topicTitle": "Topic 3.2 · Relative & Absolute Time",
     "category": "Radiometric Absolute Dating",
-    "question": "Radiometric Absolute Dating: key facts",
+    "question": "What is the half-life and maximum effective age range of Carbon-14 dating?",
     "answer": "• <i>Carbon-14:</i> t1/2 = 5,730 yrs. Only dates organic material up to ~50,000 years (Quaternary)."
   },
   {
@@ -1132,7 +1036,7 @@
     "topicId": "4.1",
     "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
     "category": "Earth's Internal Discontinuities & Layers",
-    "question": "Earth's Internal Discontinuities & Layers: key facts",
+    "question": "State the typical thickness, composition, and density of continental crust.",
     "answer": "• Continental crust: 30–70 km thick, granitic/felsic, density ~2.7 g/cm³."
   },
   {
@@ -1140,7 +1044,7 @@
     "topicId": "4.1",
     "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
     "category": "Earth's Internal Discontinuities & Layers",
-    "question": "Earth's Internal Discontinuities & Layers: key facts",
+    "question": "State the typical thickness, composition, and density of oceanic crust.",
     "answer": "• Oceanic crust: 5–10 km thick, basaltic/gabbroic, density ~3.0 g/cm³."
   },
   {
@@ -1152,19 +1056,11 @@
     "answer": "Depth 100–250 km. P and S velocities dip slightly due to 1–2% partial melting; ductile, allows tectonic plate movement."
   },
   {
-    "id": "card-145",
-    "topicId": "4.1",
-    "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
-    "category": "Earth's Internal Discontinuities & Layers",
-    "question": "Explain the key features / significance of: Gutenberg Discontinuity (Core-Mantle Boundary / CMB, 2900 km)",
-    "answer": ""
-  },
-  {
     "id": "card-146",
     "topicId": "4.1",
     "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
     "category": "Earth's Internal Discontinuities & Layers",
-    "question": "Earth's Internal Discontinuities & Layers: key facts",
+    "question": "How does P-wave velocity change at the Gutenberg Discontinuity (2900 km)?",
     "answer": "• P-wave velocity drops sharply from ~13.7 km/s to ~8.1 km/s."
   },
   {
@@ -1172,7 +1068,7 @@
     "topicId": "4.1",
     "topicTitle": "Topic 4.1 · Earth Structure & Seismology",
     "category": "Earth's Internal Discontinuities & Layers",
-    "question": "Earth's Internal Discontinuities & Layers: key facts",
+    "question": "What happens to S-waves at the Gutenberg Discontinuity (2900 km), and what does this prove?",
     "answer": "• <b>S-wave velocity drops to zero</b> -> proves the <b>outer core is liquid</b>."
   },
   {
@@ -1256,19 +1152,11 @@
     "answer": "Decompression melting of asthenospheric mantle -> basaltic volcanism, pillow lavas, sheeted dykes, normal fault grabens, shallow earthquakes (e.g. Mid-Atlantic Ridge, East African Rift)."
   },
   {
-    "id": "card-158",
-    "topicId": "4.2",
-    "topicTitle": "Topic 4.2 · Global Tectonics",
-    "category": "Plate Boundaries & Characteristic Features",
-    "question": "Explain the key features / significance of: Convergent (Destructive) - Ocean/Continent (Andean)",
-    "answer": ""
-  },
-  {
     "id": "card-159",
     "topicId": "4.2",
     "topicTitle": "Topic 4.2 · Global Tectonics",
     "category": "Plate Boundaries & Characteristic Features",
-    "question": "Plate Boundaries & Characteristic Features: key facts",
+    "question": "What are the ocean trench and Benioff zone features of an Andean (ocean-continent) convergent margin?",
     "answer": "• Subducting slab creates deep ocean trench and <b>Benioff zone</b> (earthquakes from shallow to deep down to 700 km)."
   },
   {
@@ -1276,7 +1164,7 @@
     "topicId": "4.2",
     "topicTitle": "Topic 4.2 · Global Tectonics",
     "category": "Plate Boundaries & Characteristic Features",
-    "question": "Plate Boundaries & Characteristic Features: key facts",
+    "question": "How does flux melting generate arc volcanism at an ocean-continent convergent margin?",
     "answer": "• Flux melting (water released by dehydration of slab lowers mantle solidus) produces intermediate andesitic/dacitic arc volcanism."
   },
   {
@@ -1284,7 +1172,7 @@
     "topicId": "4.2",
     "topicTitle": "Topic 4.2 · Global Tectonics",
     "category": "Plate Boundaries & Characteristic Features",
-    "question": "Plate Boundaries & Characteristic Features: key facts",
+    "question": "What is an accretionary wedge at a subduction zone?",
     "answer": "• Accretionary wedge of scraped-off sediments."
   },
   {
@@ -1332,7 +1220,7 @@
     "topicId": "4.2",
     "topicTitle": "Topic 4.2 · Global Tectonics",
     "category": "Hotspots & Mantle Plumes",
-    "question": "Hotspots & Mantle Plumes: key facts",
+    "question": "Where do mantle plumes (hotspots) originate?",
     "answer": "Stationary thermal upwellings originating from core-mantle boundary (D'' layer)."
   },
   {
@@ -1340,7 +1228,7 @@
     "topicId": "4.2",
     "topicTitle": "Topic 4.2 · Global Tectonics",
     "category": "Hotspots & Mantle Plumes",
-    "question": "Hotspots & Mantle Plumes: key facts",
+    "question": "How does a stationary mantle plume produce a linear volcanic chain like the Hawaiian-Emperor seamounts?",
     "answer": "As tectonic plate moves over the fixed hotspot, a <b>linear chain of volcanoes</b> forms with progressive age increase away from the active volcanic centre (e.g. Hawaiian-Emperor seamount chain)."
   },
   {
@@ -1348,7 +1236,7 @@
     "topicId": "4.2",
     "topicTitle": "Topic 4.2 · Global Tectonics",
     "category": "Hotspots & Mantle Plumes",
-    "question": "Hotspots & Mantle Plumes: key facts",
+    "question": "How do you determine plate motion direction and rate from a hotspot volcanic chain?",
     "answer": "Direction of plate motion is towards the oldest volcano; rate of plate motion = distance / age difference."
   },
   {
@@ -1408,19 +1296,11 @@
     "answer": "Magma splits into two unmixable liquids (e.g. sulfide-rich melt and silicate-rich melt)."
   },
   {
-    "id": "card-177",
-    "topicId": "G1.1",
-    "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
-    "category": "Phase Diagrams & The Lever Rule",
-    "question": "Explain the key features / significance of: Binary Eutectic System (e.g. Diopside-Anorthite)",
-    "answer": ""
-  },
-  {
     "id": "card-178",
     "topicId": "G1.1",
     "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
     "category": "Phase Diagrams & The Lever Rule",
-    "question": "Phase Diagrams & The Lever Rule: key facts",
+    "question": "Define the liquidus on a binary eutectic phase diagram.",
     "answer": "• <i>Liquidus:</i> Curve above which system is completely liquid."
   },
   {
@@ -1428,7 +1308,7 @@
     "topicId": "G1.1",
     "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
     "category": "Phase Diagrams & The Lever Rule",
-    "question": "Phase Diagrams & The Lever Rule: key facts",
+    "question": "Define the solidus on a binary eutectic phase diagram.",
     "answer": "• <i>Solidus:</i> Line below which system is completely solid."
   },
   {
@@ -1436,7 +1316,7 @@
     "topicId": "G1.1",
     "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
     "category": "Phase Diagrams & The Lever Rule",
-    "question": "Phase Diagrams & The Lever Rule: key facts",
+    "question": "Define the eutectic point on a binary phase diagram.",
     "answer": "• <i>Eutectic point:</i> Minimum melting temperature where liquid and both solid phases coexist at equilibrium. Final liquid always crystallises at eutectic composition."
   },
   {
@@ -1445,7 +1325,7 @@
     "topicTitle": "Topic G1.1 · Magma Generation & Evolution",
     "category": "Phase Diagrams & The Lever Rule",
     "question": "State the principle/formula for: Lever Rule calculation",
-    "answer": "Ratio of solid to liquid at any temperature: \\(\\% \text{Solid} = \frac{\text{Distance to Liquidus}}{\text{Total tie-line width}} \times 100\\)."
+    "answer": "Ratio of solid to liquid at any temperature: \\(\\% \\text{Solid} = \frac{\\text{Distance to Liquidus}}{\\text{Total tie-line width}} \\times 100\\)."
   },
   {
     "id": "card-182",
@@ -1520,19 +1400,11 @@
     "answer": "Intense ductile grain-size reduction in shear zones. Features: Ribbon quartz, dynamically recrystallised mortar texture."
   },
   {
-    "id": "card-191",
-    "topicId": "G1.2",
-    "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
-    "category": "Microtextures & Shear-Sense Indicators",
-    "question": "Explain the key features / significance of: Rotated Porphyroclasts",
-    "answer": ""
-  },
-  {
     "id": "card-192",
     "topicId": "G1.2",
     "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
     "category": "Microtextures & Shear-Sense Indicators",
-    "question": "Microtextures & Shear-Sense Indicators: key facts",
+    "question": "Describe sigma (σ) porphyroclasts and their use as shear-sense indicators.",
     "answer": "• <i>Sigma (\\(\\sigma\\)) clasts:</i> Tails / wings extend symmetrically into foliation; indicate shear sense."
   },
   {
@@ -1540,7 +1412,7 @@
     "topicId": "G1.2",
     "topicTitle": "Topic G1.2 · Metamorphic Rocks: Mineralogy & Texture",
     "category": "Microtextures & Shear-Sense Indicators",
-    "question": "Microtextures & Shear-Sense Indicators: key facts",
+    "question": "Describe delta (δ) porphyroclasts and how they differ from sigma clasts.",
     "answer": "• <i>Delta (\\(\\delta\\)) clasts:</i> Tails curved and wrapped around porphyroclast from significant rotation."
   },
   {
@@ -1548,7 +1420,7 @@
     "topicId": "G1.3",
     "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
     "category": "Bouma Sequence (Turbidite Deposition)",
-    "question": "Bouma Sequence (Turbidite Deposition): key facts",
+    "question": "What flow process and depositional environment form a Bouma sequence?",
     "answer": "Formed by decelerating subaqueous density flow in deep marine environment."
   },
   {
@@ -1604,7 +1476,7 @@
     "topicId": "G1.3",
     "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
     "category": "Paleocurrent Vector Mean & Distributions",
-    "question": "Paleocurrent Vector Mean & Distributions: key facts",
+    "question": "What depositional environment is indicated by a unimodal paleocurrent rose diagram?",
     "answer": "• Unimodal distribution (rose diagram with one strong direction): Fluvial / river channel or delta."
   },
   {
@@ -1612,7 +1484,7 @@
     "topicId": "G1.3",
     "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
     "category": "Paleocurrent Vector Mean & Distributions",
-    "question": "Paleocurrent Vector Mean & Distributions: key facts",
+    "question": "What depositional environment is indicated by a bimodal / bipolar paleocurrent rose diagram?",
     "answer": "• Bimodal / bipolar distribution (two opposite peaks 180° apart): Tidal marine shelf (flood and ebb tides)."
   },
   {
@@ -1620,7 +1492,7 @@
     "topicId": "G1.3",
     "topicTitle": "Topic G1.3 · Sedimentary Modelling & Facies",
     "category": "Paleocurrent Vector Mean & Distributions",
-    "question": "Paleocurrent Vector Mean & Distributions: key facts",
+    "question": "What depositional environments are indicated by a polymodal or random paleocurrent distribution?",
     "answer": "• Polymodal / random: Deep ocean pelagic or aeolian variable dune."
   },
   {
@@ -1652,7 +1524,7 @@
     "topicId": "G2",
     "topicTitle": "Topic G2 · Rock Deformation & Structures",
     "category": "Stress & Strain Ellipsoids",
-    "question": "Stress & Strain Ellipsoids: key facts",
+    "question": "What strain geometry does a Flinn parameter k > 1 represent?",
     "answer": "• \\(k > 1\\): Constrictional strain (prolate 'cigar' shape, e.g. pencil cleavage)."
   },
   {
@@ -1660,7 +1532,7 @@
     "topicId": "G2",
     "topicTitle": "Topic G2 · Rock Deformation & Structures",
     "category": "Stress & Strain Ellipsoids",
-    "question": "Stress & Strain Ellipsoids: key facts",
+    "question": "What strain geometry does a Flinn parameter k = 1 represent?",
     "answer": "• \\(k = 1\\): Plane strain (no volume change in Y)."
   },
   {
@@ -1668,7 +1540,7 @@
     "topicId": "G2",
     "topicTitle": "Topic G2 · Rock Deformation & Structures",
     "category": "Stress & Strain Ellipsoids",
-    "question": "Stress & Strain Ellipsoids: key facts",
+    "question": "What strain geometry does a Flinn parameter k < 1 represent?",
     "answer": "• \\(k < 1\\): Flattening strain (oblate 'pancake' shape, e.g. slaty cleavage)."
   },
   {
@@ -1748,7 +1620,7 @@
     "topicId": "G3.1",
     "topicTitle": "Topic G3.1 · Fossils & Diversity of Life",
     "category": "The Big Five Mass Extinctions",
-    "question": "The Big Five Mass Extinctions: key facts",
+    "question": "What were the main volcanic and environmental causes of the End-Permian mass extinction?",
     "answer": "• <i>Causes:</i> <b>Siberian Traps flood basalt volcanism</b> releasing massive CO2 and SO2 -> global warming, ocean acidification, widespread marine anoxia, ozone layer destruction."
   },
   {
@@ -1772,7 +1644,7 @@
     "topicId": "G3.1",
     "topicTitle": "Topic G3.1 · Fossils & Diversity of Life",
     "category": "The Big Five Mass Extinctions",
-    "question": "The Big Five Mass Extinctions: key facts",
+    "question": "What impact and volcanic evidence is linked to the End-Cretaceous (K-Pg) mass extinction?",
     "answer": "• <i>Causes:</i> <b>Chicxulub bolide impact</b> (Iridium anomaly in boundary clay, shocked quartz, tektites/microkrystites, tsunami deposits) combined with <b>Deccan Traps volcanism</b>."
   },
   {
@@ -1828,23 +1700,15 @@
     "topicId": "G3.3",
     "topicTitle": "Topic G3.3 · Evidence for Climate Change",
     "category": "Oxygen Isotopes (d18O) as Paleothermometers",
-    "question": "Oxygen Isotopes (d18O) as Paleothermometers: key facts",
+    "question": "Which oxygen isotope (16O or 18O) evaporates preferentially from ocean water?",
     "answer": "16O (light) evaporates preferentially over 18O (heavy)."
-  },
-  {
-    "id": "card-230",
-    "topicId": "G3.3",
-    "topicTitle": "Topic G3.3 · Evidence for Climate Change",
-    "category": "Oxygen Isotopes (d18O) as Paleothermometers",
-    "question": "Explain the key features / significance of: During Glacial / Icehouse Periods",
-    "answer": ""
   },
   {
     "id": "card-231",
     "topicId": "G3.3",
     "topicTitle": "Topic G3.3 · Evidence for Climate Change",
     "category": "Oxygen Isotopes (d18O) as Paleothermometers",
-    "question": "Oxygen Isotopes (d18O) as Paleothermometers: key facts",
+    "question": "During a glacial period, what happens to evaporated light 16O?",
     "answer": "• Light 16O evaporates, falls as snow, and is trapped in continental ice sheets."
   },
   {
@@ -1852,16 +1716,16 @@
     "topicId": "G3.3",
     "topicTitle": "Topic G3.3 · Evidence for Climate Change",
     "category": "Oxygen Isotopes (d18O) as Paleothermometers",
-    "question": "Oxygen Isotopes (d18O) as Paleothermometers: key facts",
-    "answer": "• <b>Ice cores have negative \\(\\delta^{18}\text{O}\\)</b> (depleted in 18O)."
+    "question": "What is the δ18O signature of glacial ice cores during icehouse periods, and why?",
+    "answer": "• <b>Ice cores have negative \\(\\delta^{18}\\text{O}\\)</b> (depleted in 18O)."
   },
   {
     "id": "card-233",
     "topicId": "G3.3",
     "topicTitle": "Topic G3.3 · Evidence for Climate Change",
     "category": "Oxygen Isotopes (d18O) as Paleothermometers",
-    "question": "Oxygen Isotopes (d18O) as Paleothermometers: key facts",
-    "answer": "• <b>Oceans become enriched in 18O -> marine foraminifera shells have positive \\(\\delta^{18}\text{O}\\)</b>."
+    "question": "What is the δ18O signature of marine foraminifera shells during glacial periods, and why?",
+    "answer": "• <b>Oceans become enriched in 18O -> marine foraminifera shells have positive \\(\\delta^{18}\\text{O}\\)</b>."
   },
   {
     "id": "card-234",
@@ -1869,7 +1733,7 @@
     "topicTitle": "Topic G3.3 · Evidence for Climate Change",
     "category": "Oxygen Isotopes (d18O) as Paleothermometers",
     "question": "Explain the key features / significance of: During Interglacial Periods",
-    "answer": "Melting ice returns 16O to oceans; marine carbonate \\(\\delta^{18}\text{O}\\) decreases."
+    "answer": "Melting ice returns 16O to oceans; marine carbonate \\(\\delta^{18}\\text{O}\\) decreases."
   },
   {
     "id": "card-235",
@@ -1924,7 +1788,7 @@
     "topicId": "G4.1",
     "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
     "category": "Magmatic & Hydrothermal Ore Deposits",
-    "question": "Magmatic & Hydrothermal Ore Deposits: key facts",
+    "question": "Describe the hydrothermal mineral zoning sequence outward from a granite intrusion.",
     "answer": "• Mineral zoning away from granite intrusion: Sn (cassiterite) & W (wolframite) closest (highest T) -> Cu (chalcopyrite) -> Zn (sphalerite) -> Pb (galena) -> Fe (pyrite) furthest."
   },
   {
@@ -1948,7 +1812,7 @@
     "topicId": "G4.1",
     "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
     "category": "Placer & Residual Deposits",
-    "question": "Placer & Residual Deposits: key facts",
+    "question": "What three physical/chemical properties must a mineral have to form a placer deposit?",
     "answer": "• Requires minerals that are: <b>Dense</b> (high relative density), <b>Chemically inert</b> (resistant to weathering), and <b>Mechanically hard</b> (resist abrasion)."
   },
   {
@@ -1956,7 +1820,7 @@
     "topicId": "G4.1",
     "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
     "category": "Placer & Residual Deposits",
-    "question": "Placer & Residual Deposits: key facts",
+    "question": "Give five common examples of placer ore minerals.",
     "answer": "• Examples: Native Gold (RD 19.3), Diamond (H 10), Cassiterite (SnO2, RD 7.0), Magnetite, Zircon."
   },
   {
@@ -1964,23 +1828,15 @@
     "topicId": "G4.1",
     "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
     "category": "Placer & Residual Deposits",
-    "question": "Placer & Residual Deposits: key facts",
+    "question": "Where in a river system are heavy placer minerals preferentially concentrated?",
     "answer": "• Concentrated at inside of meander bends, downstream of confluences, behind rock bars, and plunge pools."
-  },
-  {
-    "id": "card-247",
-    "topicId": "G4.1",
-    "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
-    "category": "Placer & Residual Deposits",
-    "question": "Explain the key features / significance of: Residual deposits (Bauxite & Kaolinite)",
-    "answer": ""
   },
   {
     "id": "card-248",
     "topicId": "G4.1",
     "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
     "category": "Placer & Residual Deposits",
-    "question": "Placer & Residual Deposits: key facts",
+    "question": "How does bauxite (aluminium ore) form as a residual deposit?",
     "answer": "• <i>Bauxite (Al ore):</i> Extreme tropical weathering leaches silica, leaving insoluble hydrous aluminium oxides (gibbsite)."
   },
   {
@@ -1988,7 +1844,7 @@
     "topicId": "G4.1",
     "topicTitle": "Topic G4.1 · Concentration of Natural Resources",
     "category": "Placer & Residual Deposits",
-    "question": "Placer & Residual Deposits: key facts",
+    "question": "How does kaolinite (china clay) form from granite?",
     "answer": "• <i>Kaolinite (China clay):</i> Hydrothermal or deep weathering breakdown of feldspar in granites."
   },
   {
@@ -1996,7 +1852,7 @@
     "topicId": "G4.2",
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "The Petroleum System (Five Essentials)",
-    "question": "The Petroleum System (Five Essentials): key facts",
+    "question": "What are the characteristics of a good petroleum source rock?",
     "answer": "1. <b>Source Rock:</b> Organic-rich (sapropelic) marine mudstone/shale with >1% Total Organic Carbon (TOC). Plankton buried in anoxic conditions."
   },
   {
@@ -2004,7 +1860,7 @@
     "topicId": "G4.2",
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "The Petroleum System (Five Essentials)",
-    "question": "The Petroleum System (Five Essentials): key facts",
+    "question": "What is petroleum maturation?",
     "answer": "2. <b>Maturation:</b> Thermal cooking under burial:"
   },
   {
@@ -2012,7 +1868,7 @@
     "topicId": "G4.2",
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "The Petroleum System (Five Essentials)",
-    "question": "The Petroleum System (Five Essentials): key facts",
+    "question": "State the temperature and burial depth range of the Oil Window.",
     "answer": "• <i>Oil Window:</i> 60°C to 120°C (burial depth 2–4 km)."
   },
   {
@@ -2020,7 +1876,7 @@
     "topicId": "G4.2",
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "The Petroleum System (Five Essentials)",
-    "question": "The Petroleum System (Five Essentials): key facts",
+    "question": "State the temperature and burial depth range of the Gas Window.",
     "answer": "• <i>Gas Window:</i> 120°C to 200°C (burial depth 4–6 km)."
   },
   {
@@ -2028,7 +1884,7 @@
     "topicId": "G4.2",
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "The Petroleum System (Five Essentials)",
-    "question": "The Petroleum System (Five Essentials): key facts",
+    "question": "What happens to hydrocarbons when buried above 200°C?",
     "answer": "• Above 200°C: Over-mature; hydrocarbons graphitised/destroyed."
   },
   {
@@ -2036,7 +1892,7 @@
     "topicId": "G4.2",
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "The Petroleum System (Five Essentials)",
-    "question": "The Petroleum System (Five Essentials): key facts",
+    "question": "What properties must a petroleum reservoir rock have, and give two examples?",
     "answer": "3. <b>Reservoir Rock:</b> Porous (stores fluids) and permeable (allows extraction). E.g. well-sorted sandstone, oolitic/reefal limestone."
   },
   {
@@ -2044,7 +1900,7 @@
     "topicId": "G4.2",
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "The Petroleum System (Five Essentials)",
-    "question": "The Petroleum System (Five Essentials): key facts",
+    "question": "What is a cap rock (seal) in a petroleum system, and give common rock examples?",
     "answer": "4. <b>Cap Rock (Seal):</b> Impermeable rock barrier preventing escape. E.g. thick shale, mudstone, or evaporites (halite/anhydrite)."
   },
   {
@@ -2052,7 +1908,7 @@
     "topicId": "G4.2",
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "The Petroleum System (Five Essentials)",
-    "question": "The Petroleum System (Five Essentials): key facts",
+    "question": "What is the role of a trap in a petroleum system?",
     "answer": "5. <b>Trap:</b> Geometric arrangement halting migration:"
   },
   {
@@ -2060,7 +1916,7 @@
     "topicId": "G4.2",
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "The Petroleum System (Five Essentials)",
-    "question": "The Petroleum System (Five Essentials): key facts",
+    "question": "Give three examples of structural hydrocarbon traps.",
     "answer": "• <i>Structural:</i> Anticlinal crest, fault trap (reservoir juxtaposed against impermeable shale), salt dome/diapir."
   },
   {
@@ -2068,7 +1924,7 @@
     "topicId": "G4.2",
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "The Petroleum System (Five Essentials)",
-    "question": "The Petroleum System (Five Essentials): key facts",
+    "question": "Give three examples of stratigraphic hydrocarbon traps.",
     "answer": "• <i>Stratigraphic:</i> Unconformity trap, sand pinch-out / lens, reef buildup."
   },
   {
@@ -2077,7 +1933,7 @@
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "Hydraulic Properties & Coal Series",
     "question": "Explain the key features / significance of: Porosity",
-    "answer": "Volume of pore space as percentage of total rock volume: \\(\\phi = \frac{V_{\text{void}}}{V_{\text{total}}} \times 100\\)."
+    "answer": "Volume of pore space as percentage of total rock volume: \\(\\phi = \frac{V_{\\text{void}}}{V_{\\text{total}}} \\times 100\\)."
   },
   {
     "id": "card-261",
@@ -2100,7 +1956,7 @@
     "topicId": "G4.2",
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "Hydraulic Properties & Coal Series",
-    "question": "Hydraulic Properties & Coal Series: key facts",
+    "question": "List the coal rank series from lowest to highest grade.",
     "answer": "• Peat -> Lignite (brown coal) -> Bituminous coal (lustrous, black) -> Anthracite (hard, shiny, non-smudge)."
   },
   {
@@ -2108,7 +1964,7 @@
     "topicId": "G4.2",
     "topicTitle": "Topic G4.2 · Oil, Gas & Coal Formation",
     "category": "Hydraulic Properties & Coal Series",
-    "question": "Hydraulic Properties & Coal Series: key facts",
+    "question": "How do carbon content, calorific value, moisture, and volatiles change with increasing coal rank?",
     "answer": "• Trend: Carbon content increases (up to 95%), calorific value increases, moisture and volatile content decrease."
   },
   {
@@ -2124,7 +1980,7 @@
     "topicId": "G4.3",
     "topicTitle": "Topic G4.3 · Prospecting Techniques",
     "category": "Geophysical Exploration Methods",
-    "question": "Geophysical Exploration Methods: key facts",
+    "question": "What subsurface features produce a positive gravity anomaly (gravity high)?",
     "answer": "• <i>Positive anomaly (gravity high):</i> Dense subsurface bodies (massive metallic sulfide ore bodies, mafic/ultramafic intrusions)."
   },
   {
@@ -2132,7 +1988,7 @@
     "topicId": "G4.3",
     "topicTitle": "Topic G4.3 · Prospecting Techniques",
     "category": "Geophysical Exploration Methods",
-    "question": "Geophysical Exploration Methods: key facts",
+    "question": "What subsurface features produce a negative gravity anomaly (gravity low)?",
     "answer": "• <i>Negative anomaly (gravity low):</i> Low-density bodies (salt domes, granite plutons, sedimentary basins, caverns)."
   },
   {
@@ -2149,7 +2005,7 @@
     "topicTitle": "Topic G4.3 · Prospecting Techniques",
     "category": "Geophysical Exploration Methods",
     "question": "Explain the key features / significance of: Seismic reflection",
-    "answer": "Generates acoustic waves; reflected at boundaries between rocks of differing <b>acoustic impedance (\\(Z = \rho \times v\\))</b>. Produces cross-sectional profiles of subsurface structures and traps."
+    "answer": "Generates acoustic waves; reflected at boundaries between rocks of differing <b>acoustic impedance (\\(Z = \rho \\times v\\))</b>. Produces cross-sectional profiles of subsurface structures and traps."
   },
   {
     "id": "card-270",
@@ -2164,23 +2020,15 @@
     "topicId": "G4.3",
     "topicTitle": "Topic G4.3 · Prospecting Techniques",
     "category": "Geochemical Prospecting & Borehole Logging",
-    "question": "Geochemical Prospecting & Borehole Logging: key facts",
+    "question": "How are geochemical stream-sediment contour maps used to locate an ore subcrop?",
     "answer": "• Contour maps plotted with isolines (e.g. 50 ppm, 100 ppm Cu); highest values pinpoint upstream or upslope ore subcrop."
-  },
-  {
-    "id": "card-272",
-    "topicId": "G4.3",
-    "topicTitle": "Topic G4.3 · Prospecting Techniques",
-    "category": "Geochemical Prospecting & Borehole Logging",
-    "question": "Explain the key features / significance of: Borehole geophysical logging",
-    "answer": ""
   },
   {
     "id": "card-273",
     "topicId": "G4.3",
     "topicTitle": "Topic G4.3 · Prospecting Techniques",
     "category": "Geochemical Prospecting & Borehole Logging",
-    "question": "Geochemical Prospecting & Borehole Logging: key facts",
+    "question": "What does a borehole gamma log measure, and how do shales compare with sandstones/limestones?",
     "answer": "• <i>Gamma log:</i> Measures natural radioactivity. High gamma = shale/clay (rich in K-40); Low gamma = sandstone, limestone, evaporites."
   },
   {
@@ -2188,7 +2036,7 @@
     "topicId": "G4.3",
     "topicTitle": "Topic G4.3 · Prospecting Techniques",
     "category": "Geochemical Prospecting & Borehole Logging",
-    "question": "Geochemical Prospecting & Borehole Logging: key facts",
+    "question": "What does a borehole resistivity log indicate about pore fluids (hydrocarbons vs. saline water)?",
     "answer": "• <i>Resistivity log:</i> High resistivity = hydrocarbons or fresh water; Low resistivity = saline formation water in pores."
   },
   {
@@ -2196,7 +2044,7 @@
     "topicId": "G4.3",
     "topicTitle": "Topic G4.3 · Prospecting Techniques",
     "category": "Geochemical Prospecting & Borehole Logging",
-    "question": "Geochemical Prospecting & Borehole Logging: key facts",
+    "question": "What does a borehole sonic log measure and calculate?",
     "answer": "• <i>Sonic log:</i> Measures seismic velocity to calculate porosity."
   },
   {
@@ -2208,19 +2056,11 @@
     "answer": "Ground shaking, liquefaction (water-saturated unconsolidated sand behaves as liquid), landslides, tsunamis."
   },
   {
-    "id": "card-277",
-    "topicId": "T1",
-    "topicTitle": "Theme T1 · Geohazards & Engineering",
-    "category": "Seismic Hazards & Volcanic Monitoring",
-    "question": "Explain the key features / significance of: Volcanic prediction precursors",
-    "answer": ""
-  },
-  {
     "id": "card-278",
     "topicId": "T1",
     "topicTitle": "Theme T1 · Geohazards & Engineering",
     "category": "Seismic Hazards & Volcanic Monitoring",
-    "question": "Seismic Hazards & Volcanic Monitoring: key facts",
+    "question": "How do harmonic tremor and earthquake swarms act as volcanic eruption precursors?",
     "answer": "• Harmonic volcanic tremor and shallow earthquake swarms (magma moving through conduits)."
   },
   {
@@ -2228,7 +2068,7 @@
     "topicId": "T1",
     "topicTitle": "Theme T1 · Geohazards & Engineering",
     "category": "Seismic Hazards & Volcanic Monitoring",
-    "question": "Seismic Hazards & Volcanic Monitoring: key facts",
+    "question": "Which instruments detect volcanic ground deformation (inflation/swelling) before an eruption?",
     "answer": "• Ground deformation: Tiltmeters, GPS, and satellite InSAR detect swelling / inflation of volcanic edifice."
   },
   {
@@ -2236,7 +2076,7 @@
     "topicId": "T1",
     "topicTitle": "Theme T1 · Geohazards & Engineering",
     "category": "Seismic Hazards & Volcanic Monitoring",
-    "question": "Seismic Hazards & Volcanic Monitoring: key facts",
+    "question": "How do volcanic gas emissions change as a precursor to an eruption?",
     "answer": "• Gas emissions: Increasing SO2 and CO2 emission rates and ratios."
   },
   {
@@ -2244,7 +2084,7 @@
     "topicId": "T1",
     "topicTitle": "Theme T1 · Geohazards & Engineering",
     "category": "Seismic Hazards & Volcanic Monitoring",
-    "question": "Seismic Hazards & Volcanic Monitoring: key facts",
+    "question": "How is thermal imaging (FLIR) used to monitor volcanic eruption precursors?",
     "answer": "• Thermal anomalies: FLIR infrared imaging detects rising magma."
   },
   {
@@ -2253,14 +2093,14 @@
     "topicTitle": "Theme T1 · Geohazards & Engineering",
     "category": "Slope Stability & Engineering Geology",
     "question": "Explain the key features / significance of: Factor of Safety (\\(F\\))",
-    "answer": "\\(F = \frac{\\sum \text{Resisting Forces}}{\\sum \text{Driving Forces}}\\). If \\(F > 1\\) slope is stable; \\(F < 1\\) failure occurs."
+    "answer": "\\(F = \frac{\\sum \\text{Resisting Forces}}{\\sum \\text{Driving Forces}}\\). If \\(F > 1\\) slope is stable; \\(F < 1\\) failure occurs."
   },
   {
     "id": "card-283",
     "topicId": "T1",
     "topicTitle": "Theme T1 · Geohazards & Engineering",
     "category": "Slope Stability & Engineering Geology",
-    "question": "Slope Stability & Engineering Geology: key facts",
+    "question": "What are the main driving forces acting on a potentially unstable slope?",
     "answer": "• Driving forces: Gravity component parallel to slope, slope surcharge (buildings)."
   },
   {
@@ -2268,7 +2108,7 @@
     "topicId": "T1",
     "topicTitle": "Theme T1 · Geohazards & Engineering",
     "category": "Slope Stability & Engineering Geology",
-    "question": "Slope Stability & Engineering Geology: key facts",
+    "question": "What are the main resisting forces preventing slope failure?",
     "answer": "• Resisting forces: Cohesion, friction across potential slip planes."
   },
   {
@@ -2276,7 +2116,7 @@
     "topicId": "T1",
     "topicTitle": "Theme T1 · Geohazards & Engineering",
     "category": "Slope Stability & Engineering Geology",
-    "question": "Slope Stability & Engineering Geology: key facts",
+    "question": "How does elevated pore water pressure trigger landslides?",
     "answer": "• <b>Pore water pressure:</b> Reduces effective normal stress across slip planes, triggering landslides."
   },
   {
@@ -2300,7 +2140,7 @@
     "topicId": "T2",
     "topicTitle": "Theme T2 · Geological Maps & Fieldwork",
     "category": "Three-Point Problems & Strike Lines",
-    "question": "Three-Point Problems & Strike Lines: key facts",
+    "question": "What does the orientation of a structure contour (strike line) represent?",
     "answer": "• The direction of a strike line is the <b>strike</b> of the bed."
   },
   {
@@ -2308,7 +2148,7 @@
     "topicId": "T2",
     "topicTitle": "Theme T2 · Geological Maps & Fieldwork",
     "category": "Three-Point Problems & Strike Lines",
-    "question": "Three-Point Problems & Strike Lines: key facts",
+    "question": "How does the spacing between structure contours (strike lines) relate to bed dip?",
     "answer": "• Spacing between strike lines indicates dip: closer lines = steeper dip; wider lines = gentler dip."
   },
   {
@@ -2317,7 +2157,7 @@
     "topicTitle": "Theme T2 · Geological Maps & Fieldwork",
     "category": "Three-Point Problems & Strike Lines",
     "question": "State the principle/formula for: Dip calculation from strike lines",
-    "answer": "\\(\tan(\text{Dip}) = \frac{\text{Contour Interval}}{\text{Horizontal Distance between strike lines}}\\)."
+    "answer": "\\(\\tan(\\text{Dip}) = \frac{\\text{Contour Interval}}{\\text{Horizontal Distance between strike lines}}\\)."
   },
   {
     "id": "card-291",
@@ -2360,19 +2200,11 @@
     "answer": "Closure of Rheic Ocean; collision of Armorica/Gondwana with Euramerica to assemble Pangaea. Intense folding in SW England (Cornubian batholith emplacement)."
   },
   {
-    "id": "card-296",
-    "topicId": "T4",
-    "topicTitle": "Theme T4 · Evolution of Britain",
-    "category": "Terranes & Orogenic Cycles of the British Isles",
-    "question": "Explain the key features / significance of: Northward Drift of Britain",
-    "answer": ""
-  },
-  {
     "id": "card-297",
     "topicId": "T4",
     "topicTitle": "Theme T4 · Evolution of Britain",
     "category": "Terranes & Orogenic Cycles of the British Isles",
-    "question": "Terranes & Orogenic Cycles of the British Isles: key facts",
+    "question": "What was the palaeolatitude and climate of Britain during the Cambrian?",
     "answer": "• Cambrian: ~60°S (cold seas)."
   },
   {
@@ -2380,7 +2212,7 @@
     "topicId": "T4",
     "topicTitle": "Theme T4 · Evolution of Britain",
     "category": "Terranes & Orogenic Cycles of the British Isles",
-    "question": "Terranes & Orogenic Cycles of the British Isles: key facts",
+    "question": "What was the palaeolatitude and environment of Britain during the Carboniferous?",
     "answer": "• Carboniferous: Equatorial ~0° (warm tropical coal-forming swamps)."
   },
   {
@@ -2388,7 +2220,7 @@
     "topicId": "T4",
     "topicTitle": "Theme T4 · Evolution of Britain",
     "category": "Terranes & Orogenic Cycles of the British Isles",
-    "question": "Terranes & Orogenic Cycles of the British Isles: key facts",
+    "question": "What was the palaeolatitude and climate of Britain during the Permian–Triassic?",
     "answer": "• Permian–Triassic: 10°–20°N (arid trade wind desert, New Red Sandstone)."
   },
   {
@@ -2396,7 +2228,7 @@
     "topicId": "T4",
     "topicTitle": "Theme T4 · Evolution of Britain",
     "category": "Terranes & Orogenic Cycles of the British Isles",
-    "question": "Terranes & Orogenic Cycles of the British Isles: key facts",
+    "question": "What is the present-day latitude and climate zone of Britain?",
     "answer": "• Present: ~54°N (temperate)."
   },
   {
@@ -2404,7 +2236,7 @@
     "topicId": "T5",
     "topicTitle": "Theme T5 · Geology of the Lithosphere",
     "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
-    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "question": "What is an ophiolite complex?",
     "answer": "Complete preserved section of oceanic crust and upper mantle obducted onto land."
   },
   {
@@ -2412,7 +2244,7 @@
     "topicId": "T5",
     "topicTitle": "Theme T5 · Geology of the Lithosphere",
     "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
-    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "question": "What rocks form Layer 1 (top) of an ophiolite sequence?",
     "answer": "1. <b>Pelagic sediment:</b> Deep-sea chert, black mudstone, siliceous ooze (top)."
   },
   {
@@ -2420,7 +2252,7 @@
     "topicId": "T5",
     "topicTitle": "Theme T5 · Geology of the Lithosphere",
     "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
-    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "question": "What rocks form Layer 2 (upper igneous) of an ophiolite sequence?",
     "answer": "2. <b>Pillow basalts:</b> Extrusive lavas quenched in seawater."
   },
   {
@@ -2428,7 +2260,7 @@
     "topicId": "T5",
     "topicTitle": "Theme T5 · Geology of the Lithosphere",
     "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
-    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "question": "What is the sheeted dyke complex in an ophiolite, and how does it form?",
     "answer": "3. <b>Sheeted dyke complex:</b> Sub-vertical feeder dykes formed in 100% extensional spreading zone."
   },
   {
@@ -2436,7 +2268,7 @@
     "topicId": "T5",
     "topicTitle": "Theme T5 · Geology of the Lithosphere",
     "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
-    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "question": "Describe the gabbro layer in an ophiolite sequence.",
     "answer": "4. <b>Gabbro:</b> Coarse-grained, isotropic at top, layered cumulate at base."
   },
   {
@@ -2444,7 +2276,7 @@
     "topicId": "T5",
     "topicTitle": "Theme T5 · Geology of the Lithosphere",
     "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
-    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "question": "Where does the petrographic Moho Discontinuity sit within an ophiolite sequence?",
     "answer": "5. <b>Moho Discontinuity:</b> Petrographic boundary between gabbro and peridotite."
   },
   {
@@ -2452,7 +2284,7 @@
     "topicId": "T5",
     "topicTitle": "Theme T5 · Geology of the Lithosphere",
     "category": "Ophiolite Complex (Oceanic Lithosphere Section)",
-    "question": "Ophiolite Complex (Oceanic Lithosphere Section): key facts",
+    "question": "What rocks form the basal ultramafic mantle layer of an ophiolite sequence?",
     "answer": "6. <b>Ultramafic mantle:</b> Harzburgite / lherzolite, often altered to serpentinite."
   }
 ]
