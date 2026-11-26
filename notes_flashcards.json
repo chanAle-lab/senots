@@ -1,0 +1,352 @@
+[
+  {
+    "id": "notes-001",
+    "topicId": "Minerals & Silicates",
+    "category": "Goldschmidt & Mineral Basics",
+    "question": "What are the four categories in the Goldschmidt Classification System?",
+    "answer": "<b>Lithophile</b> (rock-loving), <b>Siderophile</b> (iron-loving), <b>Chalcophile</b> (ore-loving), and <b>Atmophile</b> (gas-loving)."
+  },
+  {
+    "id": "notes-002",
+    "topicId": "Minerals & Silicates",
+    "category": "Goldschmidt & Mineral Basics",
+    "question": "Define a mineral.",
+    "answer": "A naturally occurring, inorganic substance with a specific chemical composition and ordered atomic structure. Minerals have no texture."
+  },
+  {
+    "id": "notes-003",
+    "topicId": "Minerals & Silicates",
+    "category": "Physical Properties",
+    "question": "List the physical properties used to identify minerals.",
+    "answer": "Colour, Lustre, Hardness, Transparency/Translucency, Streak, Fracture and Cleavage, Reaction to Acid, and Taste."
+  },
+  {
+    "id": "notes-004",
+    "topicId": "Minerals & Silicates",
+    "category": "Physical Properties",
+    "question": "What is lustre, and what terms are used to describe it?",
+    "answer": "The way a mineral reflects light (controlled by atomic structure). Terms: <b>Vitreous</b> (glassy), <b>Metallic</b> (may tarnish dull), <b>Pearly</b>, <b>Resinous</b>, <b>Adamantine</b> (gem-like), and <b>Dull/Earthy</b>."
+  },
+  {
+    "id": "notes-005",
+    "topicId": "Minerals & Silicates",
+    "category": "Physical Properties",
+    "question": "List Mohs' hardness scale from 1 to 10, plus everyday lab scratch proxies.",
+    "answer": "1 Talc, 2 Gypsum, 3 Calcite, 4 Fluorite, 5 Apatite, 6 Feldspar, 7 Quartz, 8 Topaz, 9 Corundum, 10 Diamond (non-linear scale).<br><b>Lab proxies:</b> Fingernail = 2.5, Copper coin = 3.5, Steel pin = 5.5."
+  },
+  {
+    "id": "notes-006",
+    "topicId": "Minerals & Silicates",
+    "category": "Physical Properties",
+    "question": "How is streak tested, and what happens if a mineral is harder than 6?",
+    "answer": "Tested using an unglazed porcelain streak plate (Mohs hardness <b>6</b>). Minerals harder than 6 will scratch the streak plate instead of leaving a powder streak."
+  },
+  {
+    "id": "notes-007",
+    "topicId": "Minerals & Silicates",
+    "category": "Physical Properties",
+    "question": "Distinguish between cleavage and fracture.",
+    "answer": "<b>Cleavage:</b> Predictable, angular breaks along planes of weakness in the atomic structure (basal, cubic, rhombohedral, octahedral).<br><b>Fracture:</b> Irregular breaks (e.g. conchoidal curved breaks like glass)."
+  },
+  {
+    "id": "notes-008",
+    "topicId": "Minerals & Silicates",
+    "category": "Mineral Groups",
+    "question": "Name examples of Oxide, Sulphide, Halide, Carbonate, and Sulphate minerals.",
+    "answer": "<b>Oxide:</b> Haematite, magnetite, cassiterite.<br><b>Sulphide:</b> Sphalerite, galena, iron pyrite, chalcopyrite.<br><b>Halide:</b> Fluorite, halite.<br><b>Carbonate:</b> Calcite, malachite.<br><b>Sulphate:</b> Barite, gypsum."
+  },
+  {
+    "id": "notes-009",
+    "topicId": "Minerals & Silicates",
+    "category": "Silicate Structure",
+    "question": "Describe the basic silicon-oxygen tetrahedron (SiO4).",
+    "answer": "Silicon forms 4+ cations and oxygen forms 2- anions. Each oxygen shares one electron with silicon, leaving one spare, forming a tetrahedron with basic formula <b>SiO4</b>."
+  },
+  {
+    "id": "notes-010",
+    "topicId": "Minerals & Silicates",
+    "category": "Silicate Structure",
+    "question": "Describe Nesosilicates (single tetrahedra): Si:O ratio, bonding, hardness, cleavage, and examples.",
+    "answer": "Si:O ratio <b>1:4</b>. Bonded to Mg2+ or Fe2+ with mostly covalent bonds -> hard (Mohs <b>6–7</b>), <b>no cleavage</b>, dark colour. Examples: <b>olivine, garnet</b>."
+  },
+  {
+    "id": "notes-011",
+    "topicId": "Minerals & Silicates",
+    "category": "Silicate Structure",
+    "question": "Describe Single-Chain Inosilicates (Pyroxenes): Si:O ratio, bonding, cleavage, hardness, and example.",
+    "answer": "Si:O ratio <b>1:3</b> (two bridging oxygens shared). Chains linked by ionic Mg2+/Fe2+ bonds -> Mohs <b>5–6</b>, <b>two perpendicular cleavages at 90°</b>. Example: <b>augite</b>."
+  },
+  {
+    "id": "notes-012",
+    "topicId": "Minerals & Silicates",
+    "category": "Silicate Structure",
+    "question": "Describe Double-Chain Inosilicates (Amphiboles): Si:O ratio, cleavage, hardness, and example.",
+    "answer": "Si:O ratio <b>4:11</b>. Spaces hold OH- ions (less dense), Mohs <b>5–6</b>, weaker ionic bonds between stacked double chains give <b>two cleavages at 60° and 120°</b>. Example: <b>hornblende</b>."
+  },
+  {
+    "id": "notes-013",
+    "topicId": "Minerals & Silicates",
+    "category": "Silicate Structure",
+    "question": "Describe Phyllosilicates (Sheet Silicates): Si:O ratio, bonding, hardness, cleavage, and examples.",
+    "answer": "Si:O ratio <b>2:5</b> (three oxygens shared). Sheets held by weak ionic K+–O bonds -> soft (Mohs <b>2–3</b>) and <b>1 perfect basal cleavage</b>. Examples: <b>micas, talc</b>."
+  },
+  {
+    "id": "notes-014",
+    "topicId": "Minerals & Silicates",
+    "category": "Silicate Structure",
+    "question": "Describe Tectosilicates (Framework Silicates): Si:O ratio, and compare quartz vs feldspar.",
+    "answer": "Si:O ratio <b>1:2</b> (all 4 oxygens shared). <b>Quartz</b> has purely covalent bonds -> Mohs 7, no cleavage. <b>Feldspar</b> has weaker K+/Ca2+/Al3+ bonds -> Mohs 6, <b>2 cleavages at 90°</b>."
+  },
+  {
+    "id": "notes-015",
+    "topicId": "Structural Geology & Faults",
+    "category": "Stress, Strain & Hooke's Law",
+    "question": "Define Stress, Strain, Elastic Deformation, Plastic/Ductile Deformation, and Fracture.",
+    "answer": "<b>Stress:</b> Force applied to rock.<br><b>Strain:</b> Rock's change in shape in response to stress.<br><b>Elastic:</b> Recoverable when stress removed.<br><b>Plastic/Ductile:</b> Permanent deformation beyond elastic limit (folds).<br><b>Fracture:</b> Rock breaks when stress exceeds strength (faults)."
+  },
+  {
+    "id": "notes-016",
+    "topicId": "Structural Geology & Faults",
+    "category": "Stress, Strain & Hooke's Law",
+    "question": "What four factors control whether rock deforms in a brittle or ductile (plastic) way?",
+    "answer": "1. <b>Temperature:</b> High temp (depth) encourages ductile.<br>2. <b>Confining stress:</b> High depth hinders fracture -> ductile; shallow -> brittle.<br>3. <b>Strain rate:</b> Slow steady -> ductile; sudden -> brittle.<br>4. <b>Composition:</b> Wet rocks / mica / calcite -> ductile; quartz / olivine / garnet -> brittle."
+  },
+  {
+    "id": "notes-017",
+    "topicId": "Structural Geology & Faults",
+    "category": "Competency",
+    "question": "Distinguish between competent and incompetent rocks during folding.",
+    "answer": "<b>Competent</b> (e.g. sandstone): More likely to fracture; retains original thickness in limbs and hinge, with tension cracks around the fold nose.<br><b>Incompetent</b> (e.g. shale): More ductile, flows and changes thickness."
+  },
+  {
+    "id": "notes-018",
+    "topicId": "Structural Geology & Faults",
+    "category": "Dip, Strike & Compass-Clinometer",
+    "question": "Define True Dip, Apparent Dip, Strike, True Thickness, and Apparent Thickness.",
+    "answer": "<b>Strike:</b> Horizontal line on a bedding plane measured as a bearing from North (90° to dip).<br><b>True Dip:</b> Maximum inclination from horizontal at 90° to strike (Apparent dip is always less).<br><b>True Thickness:</b> Measured at 90° to bedding plane."
+  },
+  {
+    "id": "notes-019",
+    "topicId": "Structural Geology & Faults",
+    "category": "Dip, Strike & Compass-Clinometer",
+    "question": "How do you measure strike and dip using a compass-clinometer?",
+    "answer": "1. Set clinometer to W–E and find the line where dip = <b>0°</b> (strike) and mark it.<br>2. Place compass along the strike line, align needle, and read bearing from North (confirm with left-hand rule).<br>3. Measure dip angle in degrees from horizontal at <b>90° to the strike line</b>."
+  },
+  {
+    "id": "notes-020",
+    "topicId": "Structural Geology & Faults",
+    "category": "Faults",
+    "question": "Define Hanging Wall, Footwall, and Throw on a vertical/dip-slip fault.",
+    "answer": "<b>Hanging wall:</b> Side above the fault plane.<br><b>Footwall:</b> Side below the fault plane.<br><b>Throw:</b> Amount of vertical displacement."
+  },
+  {
+    "id": "notes-021",
+    "topicId": "Structural Geology & Faults",
+    "category": "Faults",
+    "question": "Compare Normal, Reverse, and Thrust faults.",
+    "answer": "<b>Normal:</b> Tension; hanging wall moves down relative to footwall.<br><b>Reverse:</b> Compression; hanging wall moves up relative to footwall (vertical borehole can hit same bed twice).<br><b>Thrust:</b> Low-angle reverse fault dipping at <b>≤45°</b> (often with recumbent folds/nappes)."
+  },
+  {
+    "id": "notes-022",
+    "topicId": "Structural Geology & Faults",
+    "category": "Faults",
+    "question": "Define Step Faults, Graben, and Horst.",
+    "answer": "<b>Step faults:</b> Series of parallel faults with downthrow in the same direction.<br><b>Graben (rift valley):</b> Down-faulted central block between parallel faults.<br><b>Horst:</b> Up-faulted central block between parallel faults."
+  },
+  {
+    "id": "notes-023",
+    "topicId": "Structural Geology & Faults",
+    "category": "Faults",
+    "question": "How do dip-slip faults shift outcrop patterns of anticlines and synclines?",
+    "answer": "Youngest rock is always on the downthrow side.<br>On the <b>upthrow</b> side: a <b>syncline</b> outcrop moves <b>inwards</b> (narrower), whereas an <b>anticline</b> outcrop moves <b>outwards</b> (wider). (SWAN: Syncline Wider on downthrown, Anticline Narrower on downthrown)."
+  },
+  {
+    "id": "notes-024",
+    "topicId": "Structural Geology & Faults",
+    "category": "Faults",
+    "question": "Distinguish between Dextral and Sinistral strike-slip (tear/transform) faults.",
+    "answer": "Horizontal fault movement.<br><b>Dextral:</b> Standing on one side, the opposite side moved to the <b>right</b>.<br><b>Sinistral:</b> Standing on one side, the opposite side moved to the <b>left</b>."
+  },
+  {
+    "id": "notes-025",
+    "topicId": "Structural Geology & Faults",
+    "category": "Fault Features",
+    "question": "Describe Fault Breccia, Mylonite, Slickensides, and Drag Folds.",
+    "answer": "<b>Fault breccia:</b> Angular broken rock fragments cemented together.<br><b>Mylonite:</b> Ground-down very fine rock flour.<br><b>Slickensides:</b> Scratches on fault plane showing last movement direction.<br><b>Drag folds:</b> Small folds caused by friction bending beds along the fault."
+  },
+  {
+    "id": "notes-026",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "Mapwork Rules",
+    "question": "How do vertical, sinuous, and horizontal features appear on geological maps?",
+    "answer": "<b>Horizontal beds:</b> Parallel to contour lines.<br><b>Vertical beds / dykes / faults:</b> Cut straight across contours in a straight line (unaffected by vertical faults).<br><b>Sinuous outcrop:</b> Dipping (not vertical); reverse/thrust faults are often sinuous."
+  },
+  {
+    "id": "notes-027",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "Mapwork Rules",
+    "question": "How do plunging anticlines and synclines close on a geological map?",
+    "answer": "<b>Plunging anticline:</b> Closes in the <b>same</b> direction as the plunge.<br><b>Plunging syncline:</b> Closes in the <b>opposite</b> direction to the plunge."
+  },
+  {
+    "id": "notes-028",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "Cross-Section Rules",
+    "question": "State key rules for drawing geological cross-sections.",
+    "answer": "Draw structures in <b>reverse order</b> (youngest first). Pluton contacts and metamorphic aureoles dip at <b>75°</b> unless told otherwise. Extend boundaries as dashed lines above the surface. Use unit letters (not shading)."
+  },
+  {
+    "id": "notes-029",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "Cross-Section Rules",
+    "question": "How does the strike direction relative to a cross-section affect dip?",
+    "answer": "If strike is at <b>90°</b> to the section, you see the <b>true dip</b>. If strike is at an oblique angle, adjust for <b>apparent dip</b>. If strike is parallel (0°) to the section, beds appear <b>horizontal</b>."
+  },
+  {
+    "id": "notes-030",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "Way-Up Structures",
+    "question": "How do desiccation cracks, raindrop impressions, and scours indicate way-up?",
+    "answer": "<b>Desiccation cracks:</b> Downward-tapering wedges on top of underlying mudrock (raised relief on base of overlying sandstone).<br><b>Raindrop impressions:</b> Concave craters on top of bed.<br><b>Scours:</b> Convex-up / concave-downwards cut-and-fill erosional bases."
+  },
+  {
+    "id": "notes-031",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "Way-Up Structures",
+    "question": "How do flute casts, flame structures, and load casts indicate way-up and paleoflow?",
+    "answer": "<b>Flute casts:</b> Sole marks on base of sandstone; <b>blunt end upstream, tapers downstream</b>.<br><b>Flame structures:</b> Mud injected upwards into overlying sandstone.<br><b>Load casts:</b> Sandy lobes bulge downwards into underlying mudrock (ball-and-pillow)."
+  },
+  {
+    "id": "notes-032",
+    "topicId": "Igneous & Volcanism",
+    "category": "Classification",
+    "question": "Classify igneous rocks by crystal size (coarse, medium, fine, glassy) and formation depth.",
+    "answer": "<b>Coarse (>3mm):</b> Intrusive/plutonic, slow cooling (granite, diorite, gabbro, peridotite).<br><b>Medium (1–3mm):</b> Intrusive/hypabyssal (dolerite, micro-granite).<br><b>Fine (<1mm):</b> Extrusive, fast cooling (basalt, rhyolite, andesite).<br><b>Glassy:</b> Extremely rapid cooling (obsidian)."
+  },
+  {
+    "id": "notes-033",
+    "topicId": "Igneous & Volcanism",
+    "category": "Classification",
+    "question": "Classify igneous rocks by silica (SiO2) percentage.",
+    "answer": "<b>Silicic/Felsic:</b> >66% SiO2 (light, e.g. granite, rhyolite).<br><b>Intermediate:</b> 52–66% SiO2 (e.g. diorite, andesite).<br><b>Mafic/Basic:</b> 45–52% SiO2 (dark, e.g. gabbro, dolerite, basalt).<br><b>Ultramafic:</b> <45% SiO2 (e.g. peridotite)."
+  },
+  {
+    "id": "notes-034",
+    "topicId": "Igneous & Volcanism",
+    "category": "Crystal Form & Textures",
+    "question": "Distinguish between Euhedral, Subhedral, and Anhedral crystals.",
+    "answer": "<b>Euhedral:</b> Fully developed crystal faces (cooled early/slowly).<br><b>Subhedral:</b> Partly formed crystal faces.<br><b>Anhedral:</b> No crystal faces developed (late crystals filling remaining gaps)."
+  },
+  {
+    "id": "notes-035",
+    "topicId": "Igneous & Volcanism",
+    "category": "Crystal Form & Textures",
+    "question": "Define Equicrystalline, Porphyritic, Vesicular, Amygdaloidal, and Ophitic textures.",
+    "answer": "<b>Equicrystalline:</b> Uniform crystal size.<br><b>Porphyritic:</b> Large phenocrysts in fine groundmass (two-stage cooling).<br><b>Vesicular:</b> Gas bubble holes.<br><b>Amygdaloidal:</b> Vesicles infilled with secondary minerals (e.g. calcite).<br><b>Ophitic:</b> Plagioclase laths enclosed in larger pyroxene."
+  },
+  {
+    "id": "notes-036",
+    "topicId": "Igneous & Volcanism",
+    "category": "Igneous Intrusions",
+    "question": "Compare Dykes, Sills, Plutons, Batholiths, Laccoliths, and Lopoliths.",
+    "answer": "<b>Dyke:</b> Discordant vertical sheet.<br><b>Sill:</b> Concordant horizontal sheet (chilled & baked margins on both sides, columnar joints).<br><b>Pluton:</b> Deep discordant body (5–10km).<br><b>Batholith:</b> >100km combined plutons.<br><b>Laccolith:</b> Concordant, flat floor + arched roof.<br><b>Lopolith:</b> Concordant saucer in a structural basin."
+  },
+  {
+    "id": "notes-037",
+    "topicId": "Igneous & Volcanism",
+    "category": "Igneous Intrusions",
+    "question": "Explain Stoping, Assimilation, Xenoliths, Chilled Margins, and Baked Margins.",
+    "answer": "<b>Stoping:</b> Country rock blocks fall into rising magma.<br><b>Assimilation:</b> Melted blocks mix into magma.<br><b>Xenolith:</b> Unmelted country rock fragment.<br><b>Chilled margin:</b> Fine-grained edge of intrusion.<br><b>Baked margin:</b> Heated, hardened country rock next to intrusion (lava has chilled/baked margin on lower side only)."
+  },
+  {
+    "id": "notes-038",
+    "topicId": "Igneous & Volcanism",
+    "category": "Mafic Lava & Extrusive Features",
+    "question": "Describe Pillow Lavas, Columnar Jointing, Red Bole, Aa, and Pahoehoe.",
+    "answer": "<b>Pillow lava:</b> Underwater eruption; convex tops, concave bases (way-up).<br><b>Columnar jointing:</b> Polygonal contraction cracks in thick (>3m) flows/sills.<br><b>Red bole:</b> Oxidised iron-rich soil/flow top showing atmospheric exposure.<br><b>Aa:</b> Viscous, jagged clinker.<br><b>Pahoehoe:</b> Fluid, smooth/ropy."
+  },
+  {
+    "id": "notes-039",
+    "topicId": "Igneous & Volcanism",
+    "category": "Volcanoes & Eruptions",
+    "question": "Compare Shield Volcanoes vs Stratovolcanoes (and Effusive vs Explosive eruptions).",
+    "answer": "<b>Shield (Effusive):</b> Mafic, low SiO2, low viscosity, low gas -> gentle <10° slopes, non-violent (e.g. Mauna Loa).<br><b>Stratovolcano (Explosive):</b> Silicic/intermediate, high SiO2, high viscosity, high trapped gas -> steep-sided alternating ash/pyroclastics & lava."
+  },
+  {
+    "id": "notes-040",
+    "topicId": "Igneous & Volcanism",
+    "category": "Volcanic Hazards",
+    "question": "Define Pyroclastic Flow, Tephra sizes, and Lahar.",
+    "answer": "<b>Pyroclastic flow (nuée ardente):</b> Hot ash, rock, and gas (100–700°C, up to 300 km/h) from dome/column collapse.<br><b>Tephra:</b> Ash (<2mm), lapilli (2–64mm), bombs (>64mm).<br><b>Lahar:</b> Dense volcanic mudflow slurry (up to 50 km/h) following river channels."
+  },
+  {
+    "id": "notes-041",
+    "topicId": "Igneous & Volcanism",
+    "category": "Volcano Monitoring",
+    "question": "Distinguish between Short-Period, Long-Period earthquakes, and Harmonic Tremor.",
+    "answer": "<b>Short-period:</b> Magma fracturing brittle rock as it rises (earthquakes get shallower before eruption).<br><b>Long-period:</b> Increased gas pressure in conduits.<br><b>Harmonic tremor:</b> Sustained pulsing/movement of magma inside the feeder pipe."
+  },
+  {
+    "id": "notes-042",
+    "topicId": "Igneous & Volcanism",
+    "category": "Volcano Monitoring",
+    "question": "List methods used to monitor ground deformation and volcanic gases.",
+    "answer": "<b>Ground deformation:</b> Tiltmeters, EDM (infrared lasers), GPS, InSAR (satellite radar), strain meters.<br><b>Gas analysis:</b> Measuring SO2/CO2 surges using COSPEC, FLYSPEC, FTIR, GASPEC.<br>Also: gravity, hydrological, electrical/magnetic surveys, volcano-cams."
+  },
+  {
+    "id": "notes-043",
+    "topicId": "Metamorphic & Energy",
+    "category": "Metamorphic Conditions",
+    "question": "What are the temperature and depth limits of metamorphism, and what does 'isochemical' mean?",
+    "answer": "<b>Temp:</b> 200°C (below = diagenesis) to ~800°C (above = melting/igneous).<br><b>Depth:</b> ~2 km to 45–50 km.<br><b>Isochemical:</b> Solid-state recrystallization where bulk chemical composition stays the same (except loss of H2O)."
+  },
+  {
+    "id": "notes-044",
+    "topicId": "Metamorphic & Energy",
+    "category": "Types of Metamorphism",
+    "question": "Compare Contact (Thermal), Dynamic, and Regional Metamorphism.",
+    "answer": "<b>Contact:</b> Heat alone around intrusions -> non-foliated metamorphic aureole.<br><b>Dynamic:</b> Shear pressure along fault planes (localised).<br><b>Regional:</b> High P & T at destructive plate margins -> large-scale <b>foliated</b> rocks."
+  },
+  {
+    "id": "notes-045",
+    "topicId": "Metamorphic & Energy",
+    "category": "Contact Metamorphism",
+    "question": "What factors control the size of a metamorphic aureole?",
+    "answer": "Volume & temperature of intrusion, magma composition & volatile content (silicic has more volatiles), <b>dip of contact</b> (gentle = wide; steep = narrow; asymmetrical dips = asymmetrical aureole), and country rock permeability/water/thermal conductivity."
+  },
+  {
+    "id": "notes-046",
+    "topicId": "Metamorphic & Energy",
+    "category": "Contact Metamorphism",
+    "question": "Describe the contact metamorphic sequence of argillaceous rock (mudstone/shale) with increasing grade.",
+    "answer": "<b>Low (200–350°C):</b> Spotted rock (cordierite/iron oxide spots, sieve texture, relic bedding).<br><b>Medium (350–500°C):</b> Random chiastolite needles in mica groundmass.<br><b>High (500–650°C):</b> Hornfels (tough, splintery hornfelsic texture, andalusite porphyroblasts, no relic structures)."
+  },
+  {
+    "id": "notes-047",
+    "topicId": "Metamorphic & Energy",
+    "category": "Contact Metamorphism",
+    "question": "Describe what happens when Limestone and Sandstone undergo contact metamorphism.",
+    "answer": "<b>Limestone -> Marble</b>; <b>Quartz sandstone -> Metaquartzite</b>. Both are chemically simple so no new minerals form; crystals grow coarser (<1mm low, 1–2mm med, >2mm high) in a <b>granoblastic</b> non-foliated texture with <b>120° triple-point junctions</b>; fossils destroyed."
+  },
+  {
+    "id": "notes-048",
+    "topicId": "Metamorphic & Energy",
+    "category": "Regional Metamorphism",
+    "question": "Describe the regional metamorphic sequence of argillaceous rocks: Slate -> Schist -> Gneiss -> Migmatite.",
+    "answer": "<b>Slate (5–15km, <300°C):</b> Fine chlorite/biotite aligned -> slaty cleavage.<br><b>Schist (15–25km, 400–500°C):</b> 1–2mm visible mica (schistosity) + garnet porphyroblasts.<br><b>Gneiss (25–40km, 500–700°C):</b> >2mm quartz/feldspar/mica -> gneissose banding.<br><b>Migmatite (40–50km, >700°C):</b> Partial melting (mixed banded + granitic)."
+  },
+  {
+    "id": "notes-049",
+    "topicId": "Metamorphic & Energy",
+    "category": "Metamorphic Textures",
+    "question": "Define Foliation, Slaty Cleavage, Schistosity, Gneissose Banding, Granoblastic, and Porphyroblastic textures.",
+    "answer": "<b>Foliation:</b> Planar mineral alignment under directed stress.<br><b>Slaty cleavage:</b> Fine platy alignment.<br><b>Schistosity:</b> Visible aligned micas.<br><b>Gneissose banding:</b> Alternating light/dark mineral layers.<br><b>Granoblastic:</b> Equigranular interlocking non-foliated grains.<br><b>Porphyroblastic:</b> Large crystals (e.g. garnet) in finer matrix."
+  },
+  {
+    "id": "notes-050",
+    "topicId": "Metamorphic & Energy",
+    "category": "Rock Cycle Energy",
+    "question": "What are the External and Internal energy inputs driving the rock cycle?",
+    "answer": "<b>External:</b> Solar energy (uneven heating -> climate belts, weather, hydrologic cycle, weathering/erosion) + Gravity (rain, rivers, glaciers, tides, subduction).<br><b>Internal:</b> Radioactive decay in mantle (convection currents driving plate tectonics), core conduction, and mantle plumes."
+  }
+]
