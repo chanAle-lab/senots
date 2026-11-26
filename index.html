@@ -4631,17 +4631,15 @@ function renderQuizSetup() {
 
 function buildQuizTopicOptions() {
   const topicsList = [
-    ['', 'All Geological Topics (Comprehensive)'],
-    ['1.1', 'Topic 1.1 · Minerals, Silicates & Rock Forming Minerals'],
-    ['2.1', 'Topic 2.1 · Surface Processes, Weathering & Clastic Rocks'],
-    ['2.2', 'Topic 2.2 · Igneous Petrology, Magmas & Volcanism'],
-    ['2.3', 'Topic 2.3 · Sedimentary Environments, Limestones & Facies'],
-    ['3.1', 'Topic 3.1 · Structural Geology, Folds, Faults & Unconformities'],
-    ['3.2', "Topic 3.2 · Metamorphic Petrology & Barrow's Zones"],
-    ['4.1', 'Topic 4.1 · Fossils, Evolution & Biostratigraphy'],
-    ['4.2', 'Topic 4.2 · Geological Maps, Strike/Dip & Cross-Sections'],
-    ['T1', 'Theme T1-T5 · Plate Tectonics, Earthquakes & Seismology'],
-    ['G1', 'Theme G1-G4 · Economic Resources, Karst & Quaternary']
+    ['', 'All Revision Notes Topics (80 Questions)'],
+    ['1.1', 'F1 · Elements, Minerals & Silicate Structures'],
+    ['2.1', 'F2 · Sedimentary Processes, Weathering & Diagenesis'],
+    ['2.2', 'F2 · Igneous Rocks, Magmas & Volcanism'],
+    ['2.3', 'F2 · Sedimentary Depositional Environments & Facies'],
+    ['3.1', 'F2 · Geological Maps, Structures & Way-Up'],
+    ['3.2', 'F2 · Metamorphic Rocks, Aureoles & Geothermal Energy'],
+    ['4.1', 'F3 · Time, Stratigraphy, Fossils & Radiometric Dating'],
+    ['4.2', "F4 · Earth's Structure, Seismology & Plate Tectonics"]
   ];
   return topicsList.map(([v, l]) => `<option value="${v}" ${quizState.topic===v?'selected':''}>${esc(l)}</option>`).join('');
 }

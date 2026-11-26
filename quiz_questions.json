@@ -2,859 +2,1041 @@
   {
     "id": "1.1-01",
     "topic": "1.1",
-    "question": "What is the fundamental building block of all silicate minerals?",
+    "question": "Which two elements make up the vast majority (~74%) of Earth's crust by mass?",
     "options": [
-      "Silicon-oxygen tetrahedron [SiO4]4-",
-      "Carbonate ion [CO3]2-",
-      "Sulphate tetrahedron [SO4]2-",
-      "Iron-magnesium octahedron"
+      "Oxygen (~46.6%) and Silicon (~27.7%)",
+      "Iron (~35%) and Nickel (~30%)",
+      "Aluminium (~40%) and Calcium (~34%)",
+      "Sodium (~45%) and Potassium (~29%)"
     ],
     "answer": 0,
-    "explanation": "The fundamental building unit of all silicate minerals is the [SiO4]4- tetrahedron (1 central Si4+ coordinated with 4 O2- ions)."
+    "explanation": "According to the F1 notes, oxygen (~46.6%) and silicon (~27.7%) dominate the crust, forming silicate minerals."
   },
   {
     "id": "1.1-02",
     "topic": "1.1",
-    "question": "Which silicate mineral structure consists of independent, isolated tetrahedra bonded only by cations?",
+    "question": "Which silicate structure consists of isolated [SiO4]4- tetrahedra with no shared oxygens, giving conchoidal fracture and no cleavage?",
     "options": [
       "Olivine",
-      "Augite",
-      "Hornblende",
-      "Biotite"
+      "Augite (pyroxene)",
+      "Hornblende (amphibole)",
+      "Muscovite (mica)"
     ],
     "answer": 0,
-    "explanation": "Olivine consists of isolated [SiO4]4- tetrahedra bonded to Fe2+ and Mg2+ cations, accounting for its absence of cleavage and high density."
+    "explanation": "Olivine has isolated tetrahedra linked by Fe2+/Mg2+ cations, so it lacks planes of weakness and shows no cleavage."
   },
   {
     "id": "1.1-03",
     "topic": "1.1",
-    "question": "Which mineral exhibits two cleavage planes intersecting at approximately 90\u00b0 (87\u00b0/93\u00b0)?",
+    "question": "What are the characteristic cleavage angles of augite (single-chain) vs. hornblende (double-chain)?",
     "options": [
-      "Augite (Pyroxene)",
-      "Hornblende (Amphibole)",
-      "Biotite Mica",
-      "Quartz"
+      "Augite ~90° (87°/93°); Hornblende ~60°/120° (56°/124°)",
+      "Augite ~60°/120°; Hornblende ~90°",
+      "Both have 1 perfect basal cleavage at 180°",
+      "Neither has cleavage; both show conchoidal fracture"
     ],
     "answer": 0,
-    "explanation": "Augite is a single-chain inosilicate with two prismatic cleavages intersecting at nearly 90\u00b0 (87\u00b0 and 93\u00b0)."
+    "explanation": "Single-chain pyroxenes (augite) cleave at ~90°, whereas double-chain amphiboles (hornblende) cleave at ~60° and 120°."
   },
   {
     "id": "1.1-04",
     "topic": "1.1",
-    "question": "Which mineral exhibits two cleavage planes intersecting at approximately 60\u00b0 and 120\u00b0 (56\u00b0/124\u00b0)?",
+    "question": "Why do sheet silicates such as biotite and muscovite have one perfect basal cleavage?",
     "options": [
-      "Hornblende (Amphibole)",
-      "Augite (Pyroxene)",
-      "Olivine",
-      "Plagioclase"
+      "Strong covalent Si-O sheets are held together by weak interlayer bonds (K+/OH-)",
+      "They share all 4 oxygens in a 3D framework",
+      "They contain isolated tetrahedra bonded by Mg2+",
+      "They form fibrous double chains with 60°/120° planes"
     ],
     "answer": 0,
-    "explanation": "Hornblende is a double-chain inosilicate whose cleavage planes intersect at 56\u00b0 and 124\u00b0 (commonly cited as ~60\u00b0 and 120\u00b0)."
+    "explanation": "In sheet silicates (3 shared oxygens per tetrahedron), sheets are bonded weakly to one another, allowing easy splitting into thin elastic flakes."
   },
   {
     "id": "1.1-05",
     "topic": "1.1",
-    "question": "What type of cleavage is characteristic of sheet silicates like Biotite and Muscovite?",
+    "question": "On Mohs Hardness Scale, which common field test scratches calcite (H = 3) but NOT orthoclase feldspar (H = 6)?",
     "options": [
-      "One perfect basal cleavage",
-      "Two cleavages at 90\u00b0",
-      "Three rhombohedral cleavages",
-      "Conchoidal fracture only"
+      "A steel knife / penknife (~5.5)",
+      "A fingernail (~2.5)",
+      "Quartz (7)",
+      "Talc (1)"
     ],
     "answer": 0,
-    "explanation": "Sheet silicates (phyllosilicates) have weak van der Waals forces between sheets, giving one perfect basal cleavage plane."
+    "explanation": "A steel blade (~5.5) scratches calcite (3) and fluorite (4), but cannot scratch orthoclase (6) or quartz (7)."
   },
   {
     "id": "1.1-06",
     "topic": "1.1",
-    "question": "What is the hardness of Quartz on Mohs scale?",
+    "question": "Which diagnostic test best distinguishes calcite from quartz in hand specimen?",
     "options": [
-      "7",
-      "3",
-      "5",
-      "9"
+      "Calcite has H = 3, rhombic cleavage, and fizzes in cold dilute HCl; quartz has H = 7, conchoidal fracture, and does not fizz",
+      "Calcite has H = 7 and conchoidal fracture; quartz fizzes in dilute HCl",
+      "Calcite shows striated plagioclase twinning; quartz has basal cleavage",
+      "Calcite is metallic black; quartz always has a green streak"
     ],
     "answer": 0,
-    "explanation": "Quartz has a Mohs hardness of 7, easily scratching window glass (5.5) and steel knives."
+    "explanation": "Calcite is soft (scratched by copper/steel), shows 3 rhombic cleavage planes, and effervesces in cold dilute HCl releasing CO2."
   },
   {
     "id": "1.1-07",
     "topic": "1.1",
-    "question": "Which diagnostic field test immediately distinguishes Calcite from Quartz?",
+    "question": "Under crossed polars (XPL) in thin section, how is plagioclase feldspar distinguished from orthoclase feldspar?",
     "options": [
-      "Effervescence with cold dilute HCl",
-      "Streak on porcelain",
-      "Specific gravity in hand",
-      "Colour in sunlight"
+      "Plagioclase shows striped multiple (polysynthetic/albite) twinning; orthoclase shows simple (Carlsbad) twinning",
+      "Plagioclase is isotropic (always black); orthoclase has high 3rd-order birefringence",
+      "Plagioclase shows 1 perfect cleavage and bird's-eye maple extinction; orthoclase has none",
+      "Plagioclase shows cross-hatched tartan twinning; orthoclase has no twinning"
     ],
     "answer": 0,
-    "explanation": "Calcite (CaCO3) effervesces vigorously in cold 0.5M HCl releasing CO2. Quartz is completely non-reactive."
+    "explanation": "Plagioclase displays characteristic black-and-white striped polysynthetic (albite) twinning, whereas orthoclase shows a simple Carlsbad twin."
   },
   {
     "id": "1.1-08",
     "topic": "1.1",
-    "question": "According to the Goldich weathering series, which mineral is the MOST resistant to chemical weathering?",
+    "question": "In PPL thin section, which mineral is strongly pleochroic (pale brown to dark brown) with one cleavage and speckled 'bird's-eye maple' extinction in XPL?",
     "options": [
+      "Biotite mica",
       "Quartz",
       "Olivine",
-      "Augite",
-      "Ca-plagioclase"
+      "Calcite"
     ],
     "answer": 0,
-    "explanation": "Quartz crystallises at the lowest temperatures and has a fully polymerised framework of strong covalent Si-O bonds, making it most stable at surface conditions."
+    "explanation": "Biotite shows strong brown pleochroism in PPL, 1 perfect cleavage, parallel extinction, and mottled bird's-eye extinction in XPL."
   },
   {
     "id": "1.1-09",
     "topic": "1.1",
-    "question": "What optical feature appears under crossed polars (XPL) as repeated zebra-like parallel stripes in plagioclase?",
+    "question": "What are the three diagnostic properties of a mineral?",
     "options": [
-      "Polysynthetic (albite) twinning",
-      "Carlsbad simple twinning",
-      "Tartan cross-hatch twinning",
-      "Undulose extinction"
+      "Naturally occurring, inorganic crystalline solid with a definite chemical composition and ordered atomic structure",
+      "Any naturally occurring rock aggregate containing fossils",
+      "A synthetic glass with random atomic arrangement",
+      "Any liquid or gas trapped in sedimentary pore spaces"
     ],
     "answer": 0,
-    "explanation": "Polysynthetic (albite) twinning is diagnostic of plagioclase feldspar in thin section under XPL."
+    "explanation": "Minerals must be naturally occurring, inorganic, solid, crystalline (ordered atomic lattice), with a definite chemical composition."
   },
   {
     "id": "1.1-10",
     "topic": "1.1",
-    "question": "Which mineral has a hardness of 3 and displays three directions of cleavage forming a rhombohedron?",
-    "options": [
-      "Calcite",
-      "Halite",
-      "Fluorite",
-      "Gypsum"
-    ],
-    "answer": 0,
-    "explanation": "Calcite has a Mohs hardness of 3 and three perfect cleavage planes not at 90\u00b0 (rhombohedral cleavage)."
-  },
-  {
-    "id": "1.1-11",
-    "topic": "1.1",
-    "question": "What diagnostic streak colour is produced by the iron ore Hematite on an unglazed porcelain plate?",
-    "options": [
-      "Cherry red / reddish-brown",
-      "Lead grey",
-      "Yellow-brown",
-      "White"
-    ],
-    "answer": 0,
-    "explanation": "Hematite (Fe2O3) produces a characteristic cherry-red to reddish-brown streak, regardless of whether the specimen is specular silver or earthy red."
-  },
-  {
-    "id": "1.1-12",
-    "topic": "1.1",
-    "question": "Which mineral crystallises with 3 directions of cubic cleavage intersecting at exactly 90\u00b0?",
+    "question": "Which non-silicate mineral has cubic cleavage (3 planes at 90°), salty taste, and H = 2.5?",
     "options": [
       "Halite (NaCl)",
-      "Calcite",
-      "Augite",
-      "Quartz"
+      "Galena (PbS)",
+      "Fluorite (CaF2)",
+      "Gypsum (CaSO4·2H2O)"
     ],
     "answer": 0,
-    "explanation": "Halite crystallises in the isometric (cubic) system, yielding three directions of perfect cleavage intersecting at exactly 90\u00b0."
+    "explanation": "Halite (rock salt) has cubic cleavage (3 planes at 90°), vitreous lustre, H = 2.5, and a diagnostic salty taste."
   },
   {
     "id": "2.1-01",
     "topic": "2.1",
-    "question": "What percentage volume expansion occurs when liquid water freezes into ice inside rock joints?",
+    "question": "On the Hjulström curve, why does clay require a higher flow velocity to erode than medium sand?",
     "options": [
-      "9%",
-      "2%",
-      "18%",
-      "25%"
+      "Clay particles have electrostatic cohesive forces that bind them tightly together",
+      "Clay particles are denser than quartz sand grains",
+      "Clay particles always move by rolling bedload",
+      "Clay is chemically soluble in turbulent water"
     ],
     "answer": 0,
-    "explanation": "Water expands by approximately 9% upon freezing, exerting immense pressure (up to 200 MPa) on surrounding joint walls."
+    "explanation": "Although clay grains are tiny, electrostatic attraction between platy clay particles creates cohesion, raising the critical erosion velocity."
   },
   {
     "id": "2.1-02",
     "topic": "2.1",
-    "question": "What chemical weathering process transforms potassium feldspar into kaolinite clay?",
+    "question": "Approximately what flow velocity entrains fine-to-medium sand most easily on the Hjulström curve?",
     "options": [
-      "Hydrolysis",
-      "Carbonation",
-      "Oxidation",
-      "Solution"
+      "~20 cm/s",
+      "~200 cm/s",
+      "~0.1 cm/s",
+      "~500 cm/s"
     ],
     "answer": 0,
-    "explanation": "Hydrolysis involves H+ ions in acidic water reacting with K-feldspar to form residual kaolinite clay and soluble potassium and silica."
+    "explanation": "Sand is non-cohesive yet light, so it requires the lowest erosion velocity (~20 cm/s) on the Hjulström curve."
   },
   {
     "id": "2.1-03",
     "topic": "2.1",
-    "question": "According to the Hjulstr\u00f6m curve, which sediment size requires the LOWEST water velocity to be eroded?",
+    "question": "What happens to feldspar during chemical weathering by hydrolysis?",
     "options": [
-      "Medium sand (~0.2 to 0.5 mm)",
-      "Clay (<0.002 mm)",
-      "Coarse pebbles (>20 mm)",
-      "Silt (0.02 mm)"
+      "Acidified water converts feldspar into kaolinite (china clay), silicic acid, and dissolved K+/Na+ ions",
+      "Oxygen oxidises feldspar directly into hematite",
+      "Feldspar dissolves completely in pure water leaving no residue",
+      "Freeze-thaw shatters feldspar into angular quartz silt"
     ],
     "answer": 0,
-    "explanation": "Medium sand requires only ~20 cm/s flow velocity to entrain. Finer clays require higher velocities due to strong electrostatic cohesion."
+    "explanation": "Hydrolysis of feldspar by weakly acidic rainwater produces kaolinite clay plus soluble ions and silicic acid."
   },
   {
     "id": "2.1-04",
     "topic": "2.1",
-    "question": "Which clastic sedimentary rock is characterized by coarse (>2 mm), ANGULAR rock clasts?",
+    "question": "Why does flocculation occur when river-borne clay enters the sea?",
     "options": [
-      "Breccia",
-      "Conglomerate",
-      "Orthoquartzite",
-      "Arkose"
+      "Dissolved salts (ions) in seawater neutralise negative charges on clay particles so they clump and settle",
+      "Freshwater density is higher than seawater density",
+      "Wave action breaks clay into sand-sized quartz grains",
+      "Warm ocean currents dissolve clay minerals"
     ],
     "answer": 0,
-    "explanation": "Breccia consists of angular fragments >2 mm, indicating minimal abrasion and very short transport distance from the source."
+    "explanation": "Saline ions in seawater neutralise electrostatic repulsion between clay platelets, causing them to aggregate (flocculate) and sink."
   },
   {
     "id": "2.1-05",
     "topic": "2.1",
-    "question": "What does a high abundance (>25%) of fresh, angular feldspar grains in an Arkose indicate about the paleoclimate?",
+    "question": "Which sedimentary rock is poorly sorted with >15% dark muddy matrix and angular grains, deposited by submarine turbidity currents?",
     "options": [
-      "Arid or cold climate with minimal chemical weathering",
-      "Tropical humid climate with intense rainfall",
-      "Deep ocean abyssal plain",
-      "Warm shallow reef lagoon"
+      "Greywacke",
+      "Orthoquartzite",
+      "Arkose",
+      "Oolitic limestone"
     ],
     "answer": 0,
-    "explanation": "Feldspar decomposes rapidly under humid conditions; an arkose indicates an arid/glacial climate where chemical weathering was inhibited."
+    "explanation": "Greywackes are texturally and mineralogically immature, matrix-rich (>15% mud) sandstones deposited rapidly by turbidity currents."
   },
   {
     "id": "2.1-06",
     "topic": "2.1",
-    "question": "Which sedimentary structure provides indisputable evidence of subaerial exposure (drying out)?",
+    "question": "What does an arkose (>25% feldspar, pink/red, moderate sorting) indicate about its source and depositional history?",
     "options": [
-      "Desiccation cracks (mudcracks)",
-      "Graded bedding",
-      "Symmetrical wave ripples",
-      "Flute casts"
+      "Rapid erosion and short transport from a granitic source in a semi-arid/alluvial fan setting",
+      "Prolonged chemical weathering in a tropical swamp",
+      "Deep-sea pelagic settling far from land",
+      "High-energy wave reworking on a mature quartz beach"
     ],
     "answer": 0,
-    "explanation": "Desiccation cracks form exclusively when fine cohesive mud shrinks as water evaporates under direct exposure to the atmosphere."
+    "explanation": "Survival of abundant feldspar requires rapid mechanical erosion from granite and minimal chemical weathering during short transport."
   },
   {
     "id": "2.1-07",
     "topic": "2.1",
-    "question": "What weathering process dissolves limestone caves and karst features in humid regions?",
+    "question": "On a Zingg pebble shape diagram, what are the four clast shape classes?",
     "options": [
-      "Carbonation by acidic rainwater",
-      "Hydrolysis by ground salt",
-      "Thermal exfoliation",
-      "Frost shattering"
+      "Spherical (equant), Disc/oblate, Blade, and Rod/prolate",
+      "Angular, Sub-angular, Rounded, and Well-rounded",
+      "Gravel, Sand, Silt, and Clay",
+      "Very well sorted, Well sorted, Moderately sorted, and Poorly sorted"
     ],
     "answer": 0,
-    "explanation": "Rainwater absorbs atmospheric CO2 to form weak carbonic acid (H2CO3), which dissolves CaCO3 into soluble calcium bicarbonate Ca(HCO3)2."
+    "explanation": "The Zingg diagram plots axial ratios (b/a vs c/b) to classify clast form into equant (spherical), oblate (disc), bladed, and prolate (rod)."
+  },
+  {
+    "id": "2.1-08",
+    "topic": "2.1",
+    "question": "What is poikilitic (lustre-mottling) calcite cement in a sandstone?",
+    "options": [
+      "Large optically continuous calcite crystals enclosing multiple detrital quartz grains",
+      "Silica overgrowths forming euhedral crystal faces on quartz",
+      "Iron oxide coatings staining grains bright red",
+      "Compaction-induced pressure solution along stylolites"
+    ],
+    "answer": 0,
+    "explanation": "Poikilitic cement consists of large single calcite crystals enveloping many sand grains, creating shiny cleavage reflections."
+  },
+  {
+    "id": "2.1-09",
+    "topic": "2.1",
+    "question": "How do quartz overgrowths during diagenesis reduce porosity in a quartz sandstone?",
+    "options": [
+      "Dissolved silica precipitates in optical continuity onto detrital quartz grains, interlocking the pore spaces",
+      "Aragonite shells recrystallise into micrite mud",
+      "Clay minerals expand by absorbing freshwater",
+      "Bioturbation mixes mud into clean sand"
+    ],
+    "answer": 0,
+    "explanation": "Silica-rich pore fluids precipitate quartz overgrowths around existing grains (often marked by a dust rim), welding grains together."
+  },
+  {
+    "id": "2.1-10",
+    "topic": "2.1",
+    "question": "In the Goldich Weathering Series, why does olivine weather much faster at Earth's surface than quartz?",
+    "options": [
+      "Olivine crystallised at high temperature/pressure far from surface conditions, whereas quartz crystallised last and is chemically inert",
+      "Olivine has 3D framework covalent bonds that dissolve in rainwater",
+      "Quartz is softer than olivine on Mohs scale",
+      "Olivine forms only in evaporite basins"
+    ],
+    "answer": 0,
+    "explanation": "Minerals formed at the highest igneous temperatures (olivine, Ca-plagioclase) are least stable at surface P-T conditions and weather fastest."
   },
   {
     "id": "2.2-01",
     "topic": "2.2",
-    "question": "What cooling history is recorded by a PORPHYRITIC texture in igneous rocks?",
+    "question": "Which igneous texture has large phenocrysts set in a fine-grained groundmass, and what cooling history does it record?",
     "options": [
-      "Two-stage cooling: slow cooling at depth followed by rapid cooling upon ascent",
-      "Continuous slow cooling deep in the crust",
-      "Instantaneous quenching in sea water",
-      "Solid-state deformation during shearing"
+      "Porphyritic texture — two-stage cooling (slow at depth forming phenocrysts, then rapid near/at surface forming groundmass)",
+      "Pegmatitic texture — ultra-rapid quenching in seawater",
+      "Glassy texture — slow plutonic cooling over millions of years",
+      "Equigranular coarse texture — instantaneous eruption"
     ],
     "answer": 0,
-    "explanation": "Porphyritic texture results from two-stage cooling: large phenocrysts grow during early slow cooling, and the fine groundmass crystallises rapidly upon ascent."
+    "explanation": "Porphyritic textures record two cooling stages: slow subterranean crystallisation of phenocrysts followed by rapid ascent and cooling."
   },
   {
     "id": "2.2-02",
     "topic": "2.2",
-    "question": "What is the fine-grained extrusive (volcanic) equivalent of Granite?",
+    "question": "Compare the silica content, viscosity, temperature, and eruption style of basaltic vs. rhyolitic magma.",
     "options": [
-      "Rhyolite",
-      "Basalt",
-      "Andesite",
-      "Gabbro"
+      "Basaltic: low SiO2 (<52%), low viscosity, hot (~1100°C), effusive; Rhyolitic: high SiO2 (>66%), high viscosity, cooler (~750°C), explosive",
+      "Basaltic: high SiO2, high viscosity, explosive; Rhyolitic: low SiO2, low viscosity, effusive",
+      "Both have identical viscosity and erupt only as pillow lavas",
+      "Rhyolitic magma is hotter (~1200°C) and flows faster than basalt"
     ],
     "answer": 0,
-    "explanation": "Rhyolite is the volcanic equivalent of plutonic granite; both are felsic (>66% SiO2) with matching quartz and alkali feldspar compositions."
+    "explanation": "Higher SiO2 polymerises the melt, increasing viscosity and trapping volatiles, making rhyolitic eruptions far more explosive than basaltic ones."
   },
   {
     "id": "2.2-03",
     "topic": "2.2",
-    "question": "What is the primary mineral composition of a typical Basalt?",
+    "question": "How can you distinguish a buried lava flow from a concordant sill in the field?",
     "options": [
-      "Ca-rich plagioclase and augite (pyroxene)",
-      "Quartz and orthoclase feldspar",
-      "Hornblende and biotite mica",
-      "Pure olivine and serpentine"
+      "A sill bakes both overlying and underlying country rock (2 chilled margins) and may show xenoliths/apophyses; a lava flow bakes only the rock beneath and has a weathered/vesicular top",
+      "A lava flow always has coarse pegmatitic crystals; a sill is always glassy",
+      "A sill always contains marine fossils; a lava flow never does",
+      "A lava flow cuts vertically across bedding; a sill is always horizontal"
     ],
     "answer": 0,
-    "explanation": "Basalt is a mafic volcanic rock (45-52% SiO2) composed primarily of calcium-rich plagioclase feldspar and augite pyroxene."
+    "explanation": "Sills intrude between pre-existing beds so they bake both roof and floor, whereas lava flows erupt onto a surface and only bake the underlying rock."
   },
   {
     "id": "2.2-04",
     "topic": "2.2",
-    "question": "Which concordant tabular igneous intrusion forms parallel to surrounding sedimentary strata?",
+    "question": "What are the coarse-grained (plutonic) and fine-grained (volcanic) equivalents of intermediate (~52–66% SiO2) magma?",
     "options": [
-      "Sill",
-      "Dyke",
-      "Batholith",
-      "Volcanic neck"
+      "Diorite (coarse) and Andesite (fine)",
+      "Gabbro (coarse) and Basalt (fine)",
+      "Granite (coarse) and Rhyolite (fine)",
+      "Peridotite (coarse) and Komatiite (fine)"
     ],
     "answer": 0,
-    "explanation": "A sill is a concordant sheet intrusion that spreads parallel to the pre-existing bedding planes."
+    "explanation": "Intermediate magma crystallises as diorite at depth (coarse) and andesite at the surface (fine)."
   },
   {
     "id": "2.2-05",
     "topic": "2.2",
-    "question": "How can a geologist distinguish a subsurface sill from a surface lava flow in the field?",
+    "question": "How does a baked margin differ from a chilled margin at an igneous contact?",
     "options": [
-      "A sill produces baked and chilled margins on BOTH upper and lower contacts",
-      "A sill always has a vesicular frothy upper crust",
-      "A lava flow bakes the overlying sediment layer",
-      "A sill shows weathered fragments on its upper surface"
+      "Baked margin = country rock metamorphosed by heat; Chilled margin = igneous rock with finer crystals from rapid cooling against cold wall rock",
+      "Baked margin = igneous rock; Chilled margin = fossilised limestone",
+      "Both terms describe volcanic ash layers",
+      "Chilled margins occur only in the centre of thick batholiths"
     ],
     "answer": 0,
-    "explanation": "A sill intrudes into pre-existing rock, creating baked country rock and chilled margins on both top and bottom contacts. Lava flows only bake underneath."
+    "explanation": "The chilled margin is inside the igneous body (fine-grained from rapid cooling), while the baked margin is the thermally altered country rock outside."
   },
   {
     "id": "2.2-06",
     "topic": "2.2",
-    "question": "What volcanic structure is diagnostic of submarine basaltic eruptions on the sea floor?",
+    "question": "In Bowen's Reaction Series, what are the two branches of crystallisation?",
     "options": [
-      "Pillow lavas",
-      "Columnar jointing",
-      "Ignimbrite welded ash",
-      "Pahoehoe ropy surface"
+      "Discontinuous mafic branch (olivine → pyroxene → amphibole → biotite) and Continuous plagioclase branch (Ca-rich → Na-rich)",
+      "Carbonate branch and Evaporite branch",
+      "Basaltic branch and Metamorphic hornfels branch",
+      "Isotropic branch and Foliated branch"
     ],
     "answer": 0,
-    "explanation": "Pillow lavas form exclusively when basaltic magma erupts underwater, quenching an outer glassy skin while molten lava breaks out in bulbous lobes."
+    "explanation": "Bowen's series pairs a discontinuous ferromagnesian sequence with a continuous Ca-to-Na plagioclase solid-solution series, converging on K-feldspar, muscovite, and quartz."
   },
   {
     "id": "2.2-07",
     "topic": "2.2",
-    "question": "What term describes an unmelted fragment of surrounding country rock enclosed within an igneous intrusion?",
+    "question": "What is a discordant tabular igneous intrusion that cuts across bedding planes?",
     "options": [
-      "Xenolith",
-      "Phenocryst",
-      "Porphyroblast",
-      "Amygdale"
+      "Dyke",
+      "Sill",
+      "Laccolith",
+      "Lava flow"
     ],
     "answer": 0,
-    "explanation": "A xenolith is a piece of foreign pre-existing country rock incorporated into magma (by magmatic stoping) that failed to melt completely."
+    "explanation": "Dykes are discordant sheet intrusions that cut across host rock bedding/foliation, unlike concordant sills."
   },
   {
     "id": "2.2-08",
     "topic": "2.2",
-    "question": "Why is felsic (rhyolitic) magma far more viscous and explosive than mafic (basaltic) magma?",
+    "question": "How do columnar joints (e.g. Giant's Causeway) form in basaltic lava flows or sills?",
     "options": [
-      "Higher silica content forms extensive tetrahedral polymers that trap expanding gases",
-      "Lower silica content allows gases to escape smoothly",
-      "Higher temperature reduces internal friction",
-      "Presence of dissolved water prevents bubbling"
+      "Thermal contraction during slow, uniform cooling creates polygonal (often hexagonal) fractures perpendicular to the cooling surface",
+      "Tectonic thrusting shears the lava into vertical rods",
+      "Submarine pillow quenching breaks lava into spheres",
+      "Chemical weathering along bedding planes"
     ],
     "answer": 0,
-    "explanation": "High silica content (>66% SiO2) produces extensive cross-linked Si-O tetrahedral polymers in the melt, causing high viscosity and catastrophic explosive eruptions."
+    "explanation": "As lava cools and solidifies, it contracts; tensional stress generates polygonal joints perpendicular to the cooling surfaces."
+  },
+  {
+    "id": "2.2-09",
+    "topic": "2.2",
+    "question": "What is a pyroclastic flow (nuée ardente), and why is it the deadliest volcanic hazard?",
+    "options": [
+      "A ground-hugging, turbulent avalanche of superheated gas, ash, and pumice travelling at >100 km/h",
+      "A slow-moving basaltic pahoehoe lava lobe",
+      "A cold mudflow triggered by heavy rainfall weeks after an eruption",
+      "A gentle release of CO2 from a crater lake"
+    ],
+    "answer": 0,
+    "explanation": "Pyroclastic flows combine extreme temperatures (hundreds of °C) and hurricane speeds, leaving virtually no escape."
+  },
+  {
+    "id": "2.2-10",
+    "topic": "2.2",
+    "question": "How does decompression melting generate magma at mid-ocean ridges and mantle plumes?",
+    "options": [
+      "Hot mantle peridotite rises rapidly so confining pressure drops faster than temperature, crossing the solidus without adding heat",
+      "Seawater subducts and lowers the melting point of continental granite",
+      "Friction along transform faults melts oceanic crust",
+      "Radioactive decay in limestone melts the outer core"
+    ],
+    "answer": 0,
+    "explanation": "Upwelling mantle experiences falling pressure (decompression), lowering its melting temperature below the ambient rock temperature."
   },
   {
     "id": "2.3-01",
     "topic": "2.3",
-    "question": "Which sedimentary environment produces large-scale dune cross-bedding (up to 30\u00b0) and well-rounded frosted sand grains?",
+    "question": "How do braided river deposits differ from meandering river deposits in sedimentology?",
     "options": [
-      "Hot desert (aeolian sand sea)",
-      "Deep marine abyssal plain",
-      "Glacial till plain",
-      "Braided river channel"
+      "Braided: coarse gravel/sand, poorly sorted, multiple shifting channels, little mud; Meandering: fining-upward point-bar sand overlain by thick overbank floodplain mudstones",
+      "Braided: thick pelagic chalk and chert; Meandering: glacial tillite",
+      "Braided: only evaporites; Meandering: only breccias",
+      "Both have identical thick marine mudstone sequences"
     ],
     "answer": 0,
-    "explanation": "Large-scale cross-bedding, hematite red pigment, and well-rounded frosted grains (due to wind grain-to-grain impacts) are diagnostic of desert dunes."
+    "explanation": "Braided rivers carry high bedload with variable discharge (coarse bars, minimal fines), while meandering rivers migrate laterally to build fining-upward cycles."
   },
   {
     "id": "2.3-02",
     "topic": "2.3",
-    "question": "What sedimentary structure displays coarse sediment at the base grading upward into fine silt and clay within a single bed?",
+    "question": "In flow-regime bedform sequences with increasing current velocity, what is the correct order of bedforms?",
     "options": [
-      "Graded bedding",
-      "Cross-bedding",
-      "Asymmetrical current ripples",
-      "Parting lineation"
+      "Lower plane bed → Ripples → Dunes → Upper plane bed → Antidunes",
+      "Antidunes → Dunes → Ripples → Lower plane bed",
+      "Ripples → Upper plane bed → Dunes → Antidunes",
+      "Dunes → Ripples → Antidunes → Upper plane bed"
     ],
     "answer": 0,
-    "explanation": "Graded bedding forms from decelerating turbidity currents where the coarsest, densest particles settle first, followed by progressively finer mud."
+    "explanation": "As flow velocity and stream power increase, bedforms progress from lower plane bed, ripples, and dunes (lower flow regime) to upper plane bed and antidunes (upper flow regime)."
   },
   {
     "id": "2.3-03",
     "topic": "2.3",
-    "question": "What minerals precipitate in an evaporite sequence formed by evaporating marine water?",
+    "question": "What is the overall vertical grain-size trend in a prograding delta sequence (bottomset → foreset → topset)?",
     "options": [
-      "Calcite, Gypsum, and Halite",
-      "Quartz, Feldspar, and Mica",
-      "Kaolinite, Hematite, and Goethite",
-      "Augite, Olivine, and Pyrite"
+      "Coarsening-upward (from prodelta marine muds to delta-front sands to coarse fluvial delta-top beds/coal)",
+      "Fining-upward (from boulders to pelagic ooze)",
+      "Uniform clay throughout",
+      "Alternating evaporite and basalt layers"
     ],
     "answer": 0,
-    "explanation": "Evaporation of marine water precipitates calcium carbonate (calcite) first, followed by calcium sulphate (gypsum/anhydrite), and finally halite (NaCl)."
+    "explanation": "As a delta builds seaward (progrades), coarser shallow-water topset/foreset sediments migrate over finer deep-water bottomset muds."
   },
   {
     "id": "2.3-04",
     "topic": "2.3",
-    "question": "Which limestone variety consists of small spherical grains (<2 mm) with concentric carbonate laminae formed in shallow agitated waters?",
+    "question": "In the ideal Bouma sequence (Ta–Te) of a turbidite, what does division Ta represent?",
     "options": [
-      "Oolitic limestone",
-      "Micrite (lime mudstone)",
-      "Chalk",
-      "Fossiliferous biosparite"
+      "Massive or normally graded coarse sandstone deposited rapidly from suspension at the base",
+      "Hemipelagic deep-sea mudstone at the top",
+      "Asymmetric current ripples in fine sand",
+      "Dessication cracks in a desert playa"
     ],
     "answer": 0,
-    "explanation": "Oolitic limestone is made of ooids: rounded spherical grains formed by precipitation of concentric calcium carbonate around a nucleus in tropical shallow currents."
+    "explanation": "Bouma division Ta is the basal massive/graded sandstone laid down as the high-density turbidity current first decelerates."
   },
   {
     "id": "2.3-05",
     "topic": "2.3",
-    "question": "What type of ripple mark is formed by oscillating waves in shallow water and has symmetrical crests?",
+    "question": "How do flute casts on the base of a turbidite sandstone indicate both way-up and palaeocurrent direction?",
     "options": [
-      "Oscillation (wave) ripples",
-      "Current (asymmetrical) ripples",
-      "Megaripples (dunes)",
-      "Antidunes"
+      "They bulge downward into the underlying mud (way-up) with a steep, bulbous upstream end tapering downstream",
+      "They point upward into overlying beds and taper upstream",
+      "They are symmetrical mudcracks showing zero flow",
+      "They form only on the top surface of limestones"
     ],
     "answer": 0,
-    "explanation": "Wave ripples are symmetrical with sharp crests and rounded troughs formed by bidirectional back-and-forth orbital water motion."
+    "explanation": "Flute casts are sole marks (convex downward); the deeper, rounded nose points upstream against the current and flares downstream."
   },
   {
     "id": "2.3-06",
     "topic": "2.3",
-    "question": "What microscopic organisms compose the pure, white biogenic limestone known as Chalk?",
+    "question": "How do ooids form in an oolitic limestone?",
     "options": [
-      "Calcareous coccolith plates from planktonic algae",
-      "Siliceous radiolaria tests",
-      "Fragmented coral branches",
-      "Bivalve shell hash"
+      "Concentric CaCO3 layers precipitate around a nucleus (shell/quartz grain) rolled back and forth in warm, shallow, agitated tropical seawater",
+      "Deep-sea coccolithophore plates settle below the CCD",
+      "Evaporation of hypersaline desert lakes precipitates halite spheres",
+      "Glacial ice grinds limestone into rounded pebbles"
     ],
     "answer": 0,
-    "explanation": "Chalk is a micritic biogenic limestone composed almost entirely of sub-microscopic calcite plates (coccoliths) shed by planktonic coccolithophores."
+    "explanation": "Ooids grow in warm, shallow, carbonate-saturated water agitated by waves or tidal currents."
+  },
+  {
+    "id": "2.3-07",
+    "topic": "2.3",
+    "question": "What is chalk composed of, and in what environment was Cretaceous chalk deposited?",
+    "options": [
+      "Microscopic calcite plates (coccoliths) from planktonic algae, deposited in warm, clear, shelf seas with low clastic input",
+      "Coarse crinoid ossicles deposited in glacial outwash fans",
+      "Quartz sand grains cemented by silica in deserts",
+      "Evaporitic gypsum precipitated in sabkhas"
+    ],
+    "answer": 0,
+    "explanation": "Chalk is a pure, fine-grained bioclastic limestone made largely of coccolithophores deposited on submerged continental shelves."
+  },
+  {
+    "id": "2.3-08",
+    "topic": "2.3",
+    "question": "In an evaporite sequence precipitated from evaporating seawater, in what order do minerals precipitate?",
+    "options": [
+      "Calcite/dolomite (least soluble) → Gypsum/anhydrite → Halite → Bittern K/Mg salts (most soluble)",
+      "Halite → Gypsum → Calcite",
+      "Quartz → Feldspar → Olivine",
+      "Bittern salts → Halite → Gypsum → Calcite"
+    ],
+    "answer": 0,
+    "explanation": "Evaporites precipitate in reverse order of solubility: carbonates first (~50% evaporation), gypsum (~80%), halite (~90%), and K/Mg salts last."
+  },
+  {
+    "id": "2.3-09",
+    "topic": "2.3",
+    "question": "What features characterise an arid desert / aeolian sandstone (e.g. Permo-Triassic New Red Sandstone)?",
+    "options": [
+      "Large-scale dune cross-bedding, well-rounded frosted ('millet-seed') quartz grains, high sorting, and red hematite grain coatings",
+      "Poorly sorted greywacke with flute casts and graptolites",
+      "Thick coal seams and seat-earths with Stigmaria roots",
+      "Angular breccias with glacial striations"
+    ],
+    "answer": 0,
+    "explanation": "Wind transport abrades grains into well-rounded frosted spheres and builds metre-scale cross-bedded dunes under oxidising conditions."
+  },
+  {
+    "id": "2.3-10",
+    "topic": "2.3",
+    "question": "How do load casts and flame structures form at a sand-over-mud interface?",
+    "options": [
+      "Denser wet sand sinks unevenly into soft water-saturated mud (load casts), squeezing mud diapirs upward as flame structures",
+      "Wind erodes mud into symmetrical ripples",
+      "Roots penetrate downward through dry mud",
+      "Icebergs drop boulders onto lithified limestone"
+    ],
+    "answer": 0,
+    "explanation": "Load casts bulge downward and flame structures point upward toward the younger bed, making them reliable way-up indicators."
   },
   {
     "id": "3.1-01",
     "topic": "3.1",
-    "question": "What tectonic stress regime generates NORMAL faulting?",
+    "question": "On a geological map, what does it mean if a boundary between two rock units follows the topographic contour lines?",
     "options": [
-      "Tensional (extensional) stress",
-      "Compressional stress",
-      "Shear (strike-slip) stress",
-      "Lithostatic confining stress"
+      "The beds are horizontal (0° dip)",
+      "The beds are vertical (90° dip)",
+      "The beds are overturned",
+      "A strike-slip fault runs along the contour"
     ],
     "answer": 0,
-    "explanation": "Normal faults develop under tensional stress, allowing the hanging wall block to move down relative to the footwall."
+    "explanation": "Horizontal beds intersect topography at constant elevation, so their geological boundaries run parallel to contour lines."
   },
   {
     "id": "3.1-02",
     "topic": "3.1",
-    "question": "In a REVERSE fault or THRUST fault, how does the hanging wall move relative to the footwall?",
+    "question": "How do dip arrows on a geological map identify rock age and fold type (syncline vs. anticline)?",
     "options": [
-      "Upwards relative to the footwall",
-      "Downwards relative to the footwall",
-      "Horizontally with zero vertical displacement",
-      "Rotates about a vertical axis"
+      "Dip arrows point to the youngest rock; arrows pointing toward each other (><) show a syncline, while arrows pointing away (<>) show an anticline",
+      "Dip arrows point to the oldest rock; >< is an anticline and <> is a syncline",
+      "Dip arrows show only compass north",
+      "Dip arrows point upstream regardless of bed tilt"
     ],
     "answer": 0,
-    "explanation": "Compressional stress pushes the hanging wall upwards and over the footwall block along reverse and low-angle thrust faults."
+    "explanation": "In upright/normal strata, beds dip toward younger rocks; therefore >< marks a syncline (youngest in core) and <> marks an anticline (oldest in core)."
   },
   {
     "id": "3.1-03",
     "topic": "3.1",
-    "question": "What fold geometry has strata arching upwards and dipping away from the hinge, with the OLDEST rocks in the core?",
+    "question": "How can you tell from a geological map that a fold has an inclined (non-upright) axial plane?",
     "options": [
-      "Anticline",
-      "Syncline",
-      "Monocline",
-      "Structural basin"
+      "One limb dips more steeply than the other, and the axial plane trace lies closer to the steeper limb",
+      "Both limbs have identical dip angles and equal outcrop widths",
+      "The fold axis runs parallel to contour lines",
+      "The beds are completely horizontal"
     ],
     "answer": 0,
-    "explanation": "An anticline is an upward-arching fold whose limbs dip away from the hinge, exposing the oldest rocks in the central eroded core."
+    "explanation": "Asymmetric limb dips indicate an inclined axial plane; the steeper limb has a narrower outcrop width, placing the axial trace closer to it."
   },
   {
     "id": "3.1-04",
     "topic": "3.1",
-    "question": "What fold geometry is characterized by both limbs dipping in the same direction, with one limb inverted past vertical?",
+    "question": "What map clues indicate an unconformity?",
     "options": [
-      "Overturned fold",
-      "Symmetrical fold",
-      "Isoclinal fold",
-      "Chevron fold"
+      "Contrasting dips and strikes across the boundary, shallow/horizontal beds (5°–10°) above, and older fold axes stopping at the boundary",
+      "Symmetric repeating beds with dip arrows pointing away from the centre",
+      "A straight vertical fault cutting across all strata",
+      "Chilled and baked margins on both sides of a horizontal sheet"
     ],
     "answer": 0,
-    "explanation": "An overturned fold has an inclined axial plane such that both limbs dip in the same direction, with one limb rotated upside-down."
+    "explanation": "Angular unconformities truncate older folded/tilted structures beneath younger, often gently dipping or horizontal strata."
   },
   {
     "id": "3.1-05",
     "topic": "3.1",
-    "question": "What contact represents an ancient erosion surface separating tilted older strata from horizontal younger strata?",
+    "question": "How does a fault line's straightness or sinuosity on a map relate to the dip of the fault plane?",
     "options": [
-      "Angular unconformity",
-      "Disconformity",
-      "Conformable contact",
-      "Fault scarp"
+      "A straight fault line indicates a vertical or very steep fault plane; a sinuous line indicates a shallower-dipping fault plane",
+      "A straight fault line indicates a horizontal thrust; a sinuous line is vertical",
+      "Sinuosity depends only on strike-slip displacement",
+      "Faults always follow contour lines"
     ],
     "answer": 0,
-    "explanation": "An angular unconformity records deformation, uplift, erosion of older beds, followed by subsidence and deposition of horizontal younger beds."
+    "explanation": "Just like bedding, steep/vertical planes cut straight across topography, whereas gently dipping planes (e.g. thrusts) bend with valleys and hills."
   },
   {
     "id": "3.1-06",
     "topic": "3.1",
-    "question": "What term describes a down-dropped crustal valley bounded by conjugate normal faults under tension?",
+    "question": "For a dip-slip fault cutting across a fold, how does the outcrop pattern shift on the downthrow side?",
     "options": [
-      "Graben (rift valley)",
-      "Horst block",
-      "Nappe",
-      "Anticlinorium"
+      "Outwards (wider core) in a syncline, and inwards (narrower core) in an anticline",
+      "Inwards in a syncline, and outwards in an anticline",
+      "It shifts horizontally by the exact same distance on both limbs",
+      "The youngest rock is always eroded off the downthrow side"
     ],
     "answer": 0,
-    "explanation": "A graben is a central block lowered along boundary normal faults during crustal extension (e.g. East African Rift)."
+    "explanation": "Erosion of the downthrown block exposes higher structural levels: wider outcrop in a syncline, narrower outcrop in an anticline (with youngest rocks preserved on the downthrow side)."
   },
   {
     "id": "3.1-07",
     "topic": "3.1",
-    "question": "What linear friction scratches on a polished fault plane prove the direction of past slip movement?",
+    "question": "How do you prove on a map that a fault cutting folded rocks had dip-slip movement rather than pure strike-slip movement?",
     "options": [
-      "Slickensides",
-      "Stylolites",
-      "Joint fringe",
-      "Cleavage refraction"
+      "The folded beds cannot be matched back up by sliding one side horizontally along the fault",
+      "The fault line is perfectly straight across a valley",
+      "The fault runs parallel to the fold axis",
+      "There is a basal conglomerate along the fault trace"
     ],
     "answer": 0,
-    "explanation": "Slickensides are polished fault planes with linear striations produced by frictional grinding of mineral grains during displacement."
+    "explanation": "Pure strike-slip shifts outcrop patterns horizontally without changing limb widths; dip-slip alters outcrop widths across folds so limbs will not align horizontally."
+  },
+  {
+    "id": "3.1-08",
+    "topic": "3.1",
+    "question": "How do cross-lamination (ripples) and graded bedding indicate way-up?",
+    "options": [
+      "Cross-laminae are curved at the base and truncated at the top; graded bedding becomes finer upwards toward the younger top",
+      "Cross-laminae are truncated at the base and curved at the top; graded bedding coarsens upwards",
+      "Both always dip vertically regardless of folding",
+      "Both only occur in plutonic granites"
+    ],
+    "answer": 0,
+    "explanation": "Cross-bedding foresets curve asymptotically onto the base and are truncated by the overlying set at the top; normal grading fines upward."
+  },
+  {
+    "id": "3.1-09",
+    "topic": "3.1",
+    "question": "How do pillow lavas and desiccation cracks indicate way-up?",
+    "options": [
+      "Pillow lavas have convex rounded tops and downward-pointing keels; desiccation cracks narrow downwards (wider at the younger top)",
+      "Pillow lavas have flat bases and pointed upward tops; desiccation cracks widen downwards",
+      "Both form only in deep-sea abyssal plains",
+      "Desiccation cracks always point toward the oldest rock"
+    ],
+    "answer": 0,
+    "explanation": "Pillows mould downward into underlying pillows (convex tops up), while mudcracks taper downward and may be colonised by rootlet beds on top."
+  },
+  {
+    "id": "3.1-10",
+    "topic": "3.1",
+    "question": "What stress regime produces a normal fault vs. a reverse/thrust fault?",
+    "options": [
+      "Normal fault: tension (extension, hanging wall moves down); Reverse/thrust fault: compression (shortening, hanging wall moves up)",
+      "Normal fault: compression; Reverse fault: tension",
+      "Both form solely by horizontal shear",
+      "Normal faults occur only at subduction trenches"
+    ],
+    "answer": 0,
+    "explanation": "Crustal extension creates normal faults (hanging wall down), whereas crustal shortening/compression creates reverse and low-angle thrust faults (hanging wall up)."
   },
   {
     "id": "3.2-01",
     "topic": "3.2",
-    "question": "Which type of metamorphism is driven primarily by HIGH TEMPERATURE at low pressure adjacent to an igneous intrusion?",
+    "question": "What are the dominant controls and typical texture of contact (thermal) metamorphism?",
     "options": [
-      "Contact (thermal) metamorphism",
-      "Regional (dynamothermal) metamorphism",
-      "Dynamic cataclastic metamorphism",
-      "Hydrothermal seafloor metamorphism"
+      "High temperature, low pressure, uniform confining stress → non-foliated granoblastic/hornfelsic texture in a metamorphic aureole",
+      "High directed pressure, low temperature → slaty cleavage across whole mountain belts",
+      "Partial melting at >1000°C → vesicular basalt",
+      "Surface weathering → poorly sorted breccia"
     ],
     "answer": 0,
-    "explanation": "Contact metamorphism occurs in a thermal aureole surrounding an igneous pluton, driven by heat transfer with minimal directed stress."
+    "explanation": "Contact metamorphism is driven by heat from an igneous intrusion without strong directed stress, producing non-foliated hornfels, marble, or metaquartzite."
   },
   {
     "id": "3.2-02",
     "topic": "3.2",
-    "question": "What is the correct progressive sequence of pelitic regional metamorphic rocks from LOW to HIGH grade?",
+    "question": "What is the prograde sequence of zones moving inward toward an igneous intrusion in a pelitic (shale) metamorphic aureole?",
     "options": [
-      "Slate -> Phyllite -> Schist -> Gneiss",
-      "Gneiss -> Schist -> Phyllite -> Slate",
-      "Slate -> Gneiss -> Schist -> Hornfels",
-      "Hornfels -> Marble -> Quartzite -> Slate"
+      "Spotted rock/slate (outer) → Andalusite/chiastolite hornfels (middle) → Sillimanite-cordierite hornfels (inner)",
+      "Sillimanite hornfels (outer) → Spotted slate (inner)",
+      "Slate → Phyllite → Schist → Gneiss → Migmatite",
+      "Marble → Metaquartzite → Eclogite"
     ],
     "answer": 0,
-    "explanation": "With increasing temperature and pressure, shale/mudstone progressively recrystallises from Slate to Phyllite, Schist, and banded Gneiss."
+    "explanation": "Moving inward toward the intrusion (rising temperature), pelites progress from spotted rock to chiastolite/andalusite hornfels to dense sillimanite hornfels."
   },
   {
     "id": "3.2-03",
     "topic": "3.2",
-    "question": "What non-foliated metamorphic rock forms from the contact metamorphism of a pure quartz sandstone?",
+    "question": "What is the regional metamorphic foliation sequence for a pelitic rock with increasing temperature and directed pressure?",
     "options": [
-      "Metaquartzite",
-      "Marble",
-      "Hornfels",
-      "Schist"
+      "Slate → Phyllite → Schist → Gneiss → Migmatite",
+      "Hornfels → Marble → Metaquartzite",
+      "Shale → Sandstone → Conglomerate → Breccia",
+      "Gneiss → Schist → Phyllite → Slate"
     ],
     "answer": 0,
-    "explanation": "Pure quartz sandstone recrystallises under contact metamorphism to form granoblastic metaquartzite with interlocking quartz grains."
+    "explanation": "Prograde regional metamorphism coarsens mica alignment and segregation from slate and phyllite through schist and gneiss to partial melting (migmatite)."
   },
   {
     "id": "3.2-04",
     "topic": "3.2",
-    "question": "According to Barrow's metamorphic zones, which index mineral indicates the HIGHEST temperature metamorphic grade in pelites?",
+    "question": "In Barrovian regional metamorphism of pelites, what is the sequence of index minerals with increasing grade?",
     "options": [
-      "Sillimanite (>600\u00b0C)",
-      "Chlorite (~250\u00b0C)",
-      "Biotite (~400\u00b0C)",
-      "Garnet (~500\u00b0C)"
+      "Chlorite → Biotite → Garnet → Staurolite → Kyanite → Sillimanite",
+      "Sillimanite → Kyanite → Garnet → Chlorite",
+      "Olivine → Augite → Hornblende → Quartz",
+      "Calcite → Gypsum → Halite → Anhydrite"
     ],
     "answer": 0,
-    "explanation": "Sillimanite marks the highest temperature zone (>600\u00b0C) of regional metamorphism before partial melting (anatexis) begins."
+    "explanation": "Barrow's zones record increasing P-T conditions via index minerals: chlorite, biotite, garnet, staurolite, kyanite, and sillimanite."
   },
   {
     "id": "3.2-05",
     "topic": "3.2",
-    "question": "What fine-grained, tough, non-foliated rock forms by contact metamorphism of mudstone right at the intrusion contact?",
+    "question": "How is slaty cleavage oriented relative to the maximum principal stress (σ1) during regional metamorphism?",
     "options": [
-      "Hornfels",
-      "Slate",
-      "Mylonite",
-      "Gneiss"
+      "Perpendicular to σ1 (parallel to the axial planes of folds)",
+      "Parallel to σ1",
+      "Always horizontal regardless of stress",
+      "Randomly oriented with no preferred alignment"
     ],
     "answer": 0,
-    "explanation": "Hornfels is a hard, dense, sugary-textured rock formed by intense thermal recrystallisation of pelitic rocks in the inner contact aureole."
+    "explanation": "Platy clay/mica minerals recrystallise and rotate perpendicular to maximum compressive stress (σ1), creating slaty cleavage."
+  },
+  {
+    "id": "3.2-06",
+    "topic": "3.2",
+    "question": "What non-foliated metamorphic rocks form from pure limestone and pure quartz sandstone?",
+    "options": [
+      "Marble (from limestone) and Metaquartzite (from quartz sandstone)",
+      "Slate (from limestone) and Gneiss (from sandstone)",
+      "Hornfels (from limestone) and Schist (from sandstone)",
+      "Chalk (from limestone) and Arkose (from sandstone)"
+    ],
+    "answer": 0,
+    "explanation": "Pure monomineralic rocks lack platy minerals, so calcite recrystallises into interlocking granoblastic marble and quartz into metaquartzite."
+  },
+  {
+    "id": "3.2-07",
+    "topic": "3.2",
+    "question": "Which aluminium silicate polymorph (Al2SiO5) is characteristic of low-pressure, high-temperature contact aureoles?",
+    "options": [
+      "Andalusite (often as chiastolite)",
+      "Kyanite",
+      "Staurolite",
+      "Glaucophane"
+    ],
+    "answer": 0,
+    "explanation": "Andalusite is the low-P Al2SiO5 polymorph common in thermal aureoles, whereas kyanite is high-P and sillimanite is high-T."
+  },
+  {
+    "id": "3.2-08",
+    "topic": "3.2",
+    "question": "What factors control the width of a contact metamorphic aureole around a pluton?",
+    "options": [
+      "Size and temperature of the intrusion, volatile/water content, and thermal conductivity/reactivity of the country rock",
+      "Only the age of the fossils in the overlying unconformity",
+      "Wind speed at the surface during eruption",
+      "Only the latitude of the continent"
+    ],
+    "answer": 0,
+    "explanation": "Larger, hotter, volatile-rich intrusions (especially into reactive impure limestones or shales) produce wider metamorphic aureoles."
+  },
+  {
+    "id": "3.2-09",
+    "topic": "3.2",
+    "question": "What distinguishes a migmatite from a normal gneiss?",
+    "options": [
+      "Migmatite has undergone partial melting (anatexis) of felsic components, producing mixed metamorphic and igneous textures",
+      "Migmatite forms at low temperature near the surface",
+      "Migmatite contains well-preserved graptolites",
+      "Migmatite is composed purely of calcite"
+    ],
+    "answer": 0,
+    "explanation": "At the highest grade of regional metamorphism, the quartz-feldspar fraction begins to melt (anatexis), forming veins of granite within dark gneiss."
+  },
+  {
+    "id": "3.2-10",
+    "topic": "3.2",
+    "question": "How do Hot Dry Rock (HDR / Enhanced Geothermal) systems extract geothermal energy in regions like Cornwall?",
+    "options": [
+      "Cold water is pumped down an injection well into fractured radiogenic granite at depth, heated, and pumped up a production well",
+      "Natural geysers erupt directly into coal-fired turbines",
+      "Seawater is evaporated in coastal salt pans",
+      "Oil wells are burned underground to heat shale"
+    ],
+    "answer": 0,
+    "explanation": "High-heat-producing (radiogenic U/Th/K) granites like Cornubian batholiths heat water circulated through deep artificial/natural fractures."
   },
   {
     "id": "4.1-01",
     "topic": "4.1",
-    "question": "What combination of biological characteristics defines an ideal index (zone) fossil?",
+    "question": "What is the Principle of Uniformitarianism (James Hutton / Charles Lyell)?",
     "options": [
-      "Rapid evolution, short geological range, and widespread geographic distribution",
-      "Long geological lifespan and restricted to one small bay",
-      "Soft-bodied anatomy with no mineralised skeleton",
-      "Large adult size and very low reproduction rate"
+      "'The present is the key to the past' — the same physical and chemical processes operating today operated throughout geological time",
+      "All sedimentary rocks were deposited in a single global flood",
+      "Earth's crust has never moved since its formation",
+      "Fossils appear in random order with no evolutionary sequence"
     ],
     "answer": 0,
-    "explanation": "Good zone fossils evolved rapidly (narrow time duration), were geographically widespread, marine planktonic/pelagic, and easily preserved."
+    "explanation": "Uniformitarianism states that modern geological processes (erosion, deposition, volcanism) explain ancient rock records."
   },
   {
     "id": "4.1-02",
     "topic": "4.1",
-    "question": "Which fossil group underwent an evolutionary reduction in stipe (branch) count from ~64 down to 1 during the Ordovician-Silurian?",
+    "question": "What does William Smith's Principle of Faunal Succession state?",
     "options": [
-      "Graptolites",
-      "Trilobites",
-      "Ammonites",
-      "Brachiopods"
+      "Fossil assemblages succeed one another in a definite, recognisable chronological order, allowing strata to be correlated by their fossils",
+      "Older rocks always contain more complex organisms than younger rocks",
+      "Every rock layer contains only one single species",
+      "Fossils can only form in igneous rocks"
     ],
     "answer": 0,
-    "explanation": "Graptolites reduced their branch count from multi-stiped dendroids to 4, 2 (Didymograptus), and finally single-stiped monograptids in the Silurian."
+    "explanation": "Because evolution is irreversible, distinct fossil assemblages characterise specific intervals of geological time and enable biostratigraphic correlation."
   },
   {
     "id": "4.1-03",
     "topic": "4.1",
-    "question": "What progressive evolutionary trend is observed in ammonoid septal suture lines through geological time?",
+    "question": "In a marine transgression (sea-level rise), what vertical facies sequence is deposited at one location?",
     "options": [
-      "Simple goniatitic -> ceratitic -> complexly frilled ammonitic sutures",
-      "Ammonitic -> ceratitic -> goniatitic sutures",
-      "Straightening into orthoconic smooth cylinders",
-      "Loss of all internal shell chambers"
+      "Fining-upward: coastal/beach sand overlain by shallow marine mud/limestone (deep-water facies migrate landward)",
+      "Coarsening-upward: deep marine ooze overlain by desert dunes",
+      "Uniform glacial tillite from base to top",
+      "Evaporites overlain by fluvial conglomerates"
     ],
     "answer": 0,
-    "explanation": "Ammonoid septa became progressively more fluted and folded for structural shell strength, evolving from goniatitic to ceratitic and ammonitic."
+    "explanation": "During a transgression, deeper offshore facies shift landward over shallower coastal facies, producing a fining-upward sequence."
   },
   {
     "id": "4.1-04",
     "topic": "4.1",
-    "question": "Which marine arthropod group is divided into a cephalon, segmented thorax, and pygidium with three longitudinal lobes?",
+    "question": "Which five characteristics make an ideal index (zone) fossil?",
     "options": [
-      "Trilobites",
-      "Crinoids",
-      "Echinoids",
-      "Belemnites"
+      "Rapid evolution (short range), geographically widespread, abundant, easily identifiable, and facies-independent (pelagic/nektonic)",
+      "Slow evolution, restricted to one lagoon, rare, microscopic, and benthic",
+      "Soft-bodied, fragile, and found only in granites",
+      "Long geological range (>300 Ma) and restricted to desert dunes"
     ],
     "answer": 0,
-    "explanation": "Trilobites are extinct Palaeozoic marine arthropods with three body regions and an axial lobe flanked by two pleural lobes."
+    "explanation": "Ideal zone fossils (e.g. graptolites, ammonites) evolved rapidly, spread widely across oceans, and are abundant and easy to recognise."
   },
   {
     "id": "4.1-05",
     "topic": "4.1",
-    "question": "How does the bilateral plane of symmetry differ between a Brachiopod and a Bivalve mollusc?",
+    "question": "How do you distinguish a Life Assemblage (biocoenosis) from a Death Assemblage (thanatocoenosis)?",
     "options": [
-      "Brachiopods have symmetry DOWN the middle of each valve; bivalves have symmetry BETWEEN the two valves",
-      "Brachiopods have no symmetry; bivalves are radially symmetrical",
-      "Brachiopod valves are identical left and right; bivalve valves are unequal",
-      "Both groups share identical radial pentameral symmetry"
+      "Life: in-situ living position, articulated skeletons, juveniles + adults, intact spines; Death: disarticulated, broken/abraded, size-sorted, current-aligned",
+      "Life: all shells same size and broken; Death: articulated corals in growth position",
+      "Life assemblages occur only in conglomerates; Death assemblages only in chalk",
+      "There is no physical difference between the two"
     ],
     "answer": 0,
-    "explanation": "A brachiopod valve is bisected symmetrically down its middle (equilateral, inequivalve). A bivalve has symmetry across the hinge between matching valves."
+    "explanation": "Transport disarticulates, abrades, sorts, and aligns shells (death assemblage), whereas undisturbed in-situ burial preserves growth positions and mixed ages."
   },
   {
     "id": "4.1-06",
     "topic": "4.1",
-    "question": "What internal tube connects the chambers of a cephalopod phragmocone to regulate buoyancy with gas and liquid?",
+    "question": "Which ammonoid suture pattern is the most complex (Palaeozoic vs. Mesozoic)?",
     "options": [
-      "Siphuncle",
-      "Tabula",
-      "Columella",
-      "Pallial line"
+      "Ammonitic (frilled saddles and lobes, Jurassic–Cretaceous) > Ceratitic (smooth saddles, crenulated lobes, Triassic) > Goniatitic (simple angular zig-zags, Devonian–Permian)",
+      "Goniatitic > Ceratitic > Ammonitic",
+      "Ceratitic > Goniatitic > Ammonitic",
+      "All three have identical straight sutures"
     ],
     "answer": 0,
-    "explanation": "The siphuncle is the living vascular cord passing through septal necks that regulates fluid/gas osmotic balance in cephalopod shells."
+    "explanation": "Ammonoid sutures evolved from simple zig-zag goniatitic, to fluted-lobe ceratitic, to intricately frilled ammonitic sutures."
+  },
+  {
+    "id": "4.1-07",
+    "topic": "4.1",
+    "question": "What does a dinosaur trackway's stride length (SL) to footprint length (FL) ratio (SL / h) indicate about gait?",
+    "options": [
+      "SL/h < 2.0 indicates walking; 2.0–2.9 trotting; > 2.9 running (where hip height h ≈ 4 × FL)",
+      "SL/h > 2.9 indicates slow stationary grazing",
+      "It measures only the age of the dinosaur in millions of years",
+      "It determines whether the dinosaur was marine or flying"
+    ],
+    "answer": 0,
+    "explanation": "Using Alexander's formula (h ≈ 4 × FL), relative stride length (SL/h) distinguishes walking (<2.0), trotting (2.0–2.9), and running (>2.9)."
+  },
+  {
+    "id": "4.1-08",
+    "topic": "4.1",
+    "question": "What is the 'blocking (closure) temperature' (~300°C for K-Ar in biotite) in radiometric dating, and what happens if a rock is later heated above it?",
+    "options": [
+      "The temperature below which daughter isotopes cannot diffuse out; reheating above it resets the radiometric clock to the metamorphic event",
+      "The temperature at which parent isotopes become infinitely stable",
+      "The surface temperature at which Carbon-14 forms in the atmosphere",
+      "The melting point of pure quartz"
+    ],
+    "answer": 0,
+    "explanation": "Above the closure temperature, radiogenic Ar-40 escapes by diffusion, so K-Ar dates the cooling below ~300°C (metamorphism), whereas zircon U-Pb (>900°C) retains crystallisation age."
+  },
+  {
+    "id": "4.1-09",
+    "topic": "4.1",
+    "question": "Why are benthic bivalves generally poor zone fossils compared to planktonic graptolites or nektonic ammonites?",
+    "options": [
+      "Benthic bivalves are facies-dependent (tied to specific sea-floor substrate/depth) and evolve relatively slowly",
+      "Bivalves have no hard mineralised shells",
+      "Graptolites lived only in freshwater lakes",
+      "Bivalves went extinct in the Cambrian"
+    ],
+    "answer": 0,
+    "explanation": "Benthic organisms depend on bottom conditions (facies-controlled), making them better palaeoenvironmental indicators than global time markers."
+  },
+  {
+    "id": "4.1-10",
+    "topic": "4.1",
+    "question": "Which fossil preservation mode converts wood or chitinous graptolites into a thin black film by expelling volatiles?",
+    "options": [
+      "Carbonisation",
+      "Pyritisation",
+      "Silicification",
+      "Recrystallisation"
+    ],
+    "answer": 0,
+    "explanation": "Under burial pressure and heat, volatile O, H, and N escape, leaving a flattened carbon residue (carbonisation)."
   },
   {
     "id": "4.2-01",
     "topic": "4.2",
-    "question": "According to the 'Rule of V's', how does a horizontal bed outcrop when crossing a river valley on a topographic map?",
+    "question": "What distinguishes the lithosphere from the asthenosphere?",
     "options": [
-      "Parallel to contour lines (does not cross contour lines)",
-      "V-shapes pointing upstream independent of contours",
-      "Straight line ignoring topography",
-      "V-shapes pointing downstream"
+      "Lithosphere = rigid crust + uppermost mantle (tectonic plates); Asthenosphere = weak, ductile, partially molten upper mantle (~100–250 km) over which plates move",
+      "Lithosphere is liquid iron; Asthenosphere is granitic continental crust",
+      "Lithosphere is purely oceanic crust; Asthenosphere is the inner core",
+      "Asthenosphere is colder and more brittle than the lithosphere"
     ],
     "answer": 0,
-    "explanation": "Horizontal strata follow topographic contours precisely at a constant elevation, contouring parallel across river valleys."
+    "explanation": "Lithosphere vs. asthenosphere is a mechanical (rheological) division: rigid brittle plates resting on a ductile, convecting asthenosphere."
   },
   {
     "id": "4.2-02",
     "topic": "4.2",
-    "question": "What is the angular relationship between the horizontal strike line of a bed and the direction of TRUE dip?",
+    "question": "Why is Earth's mean density (~5.515 g/cm³) strong indirect evidence for a dense metallic core?",
     "options": [
-      "Always exactly 90\u00b0 (perpendicular)",
-      "45\u00b0",
-      "180\u00b0 (parallel)",
-      "Depends on the dip angle"
+      "Surface crustal rocks are only ~2.7–3.0 g/cm³ and mantle peridotite is ~3.3 g/cm³, requiring a very dense Fe-Ni core (~10–13 g/cm³) to reach 5.515 g/cm³",
+      "Seawater has a density of 5.5 g/cm³",
+      "Granite has a density of 12 g/cm³",
+      "Basalt floats on the outer core"
     ],
     "answer": 0,
-    "explanation": "True dip direction is always measured at exactly 90\u00b0 (right angle) to the strike in the direction of steepest downward slope."
+    "explanation": "Because crust and upper mantle densities are much lower than 5.515 g/cm³, Earth's interior must contain a high-density iron-nickel core."
   },
   {
     "id": "4.2-03",
     "topic": "4.2",
-    "question": "What structural feature is indicated by concentric circular outcrops where the YOUNGEST beds are in the center?",
+    "question": "How do P-waves and S-waves differ in particle motion, speed, and ability to travel through liquids?",
     "options": [
-      "Structural basin (syncline)",
-      "Structural dome (anticline)",
-      "Horst block",
-      "Inverted graben"
+      "P-waves: compressional (longitudinal), fastest, travel through solids & liquids; S-waves: transverse (shear), slower, travel through solids only",
+      "P-waves: transverse, solids only; S-waves: longitudinal, solids & liquids",
+      "Both travel at the same speed through the liquid outer core",
+      "S-waves are surface waves that arrive before P-waves"
     ],
     "answer": 0,
-    "explanation": "In a structural basin, beds dip inwards toward the center, protecting and preserving the youngest stratigraphic layers in the middle."
+    "explanation": "Fluids have zero shear strength, so S-waves cannot propagate through the liquid outer core, whereas compressional P-waves can."
   },
   {
     "id": "4.2-04",
     "topic": "4.2",
-    "question": "If a cross-section has a horizontal scale of 1:10,000 and a vertical scale of 1:2,000, what is the vertical exaggeration (VE)?",
+    "question": "Why do seismic body waves follow curved, concave-upward paths through the mantle?",
     "options": [
-      "5x",
-      "2x",
-      "0.2x",
-      "10x"
+      "Increasing pressure and rock rigidity with depth increase seismic velocity, continuously refracting waves back toward the surface",
+      "Earth's gravity bends waves downward into the core",
+      "The mantle is completely liquid",
+      "Magnetic fields deflect P-waves"
     ],
     "answer": 0,
-    "explanation": "Vertical Exaggeration = Horizontal Scale denominator / Vertical Scale denominator = 10,000 / 2,000 = 5x."
+    "explanation": "By Snell's Law, gradually increasing velocity with depth causes continuous refraction away from the normal, curving rays upward."
   },
   {
-    "id": "T-01",
-    "topic": "T1",
-    "question": "What marine geophysical evidence conclusively proved seafloor spreading at mid-ocean ridges (Vine & Matthews, 1963)?",
+    "id": "4.2-05",
+    "topic": "4.2",
+    "question": "What do the S-wave shadow zone (>105°) and P-wave shadow zone (105°–140°) prove about Earth's interior?",
     "options": [
-      "Symmetrical magnetic zebra stripes of normal and reversed polarity",
-      "Uniformly thick ocean floor sediment",
-      "Continental granite cores drilled under the oceanic abyss",
-      "Absence of volcanic activity on ridge axes"
+      "The S-wave shadow (>105°) proves the outer core is liquid; the P-wave shadow (105°–140°) is caused by strong downward refraction at the Core-Mantle Boundary",
+      "The Moho lies at 2900 km depth",
+      "Earth is completely solid to its centre",
+      "The mantle is made of liquid basalt"
     ],
     "answer": 0,
-    "explanation": "Geomagnetic polarity reversals are recorded symmetrically on both sides of mid-ocean ridges as new basaltic oceanic crust solidifies."
+    "explanation": "S-waves are blocked by the liquid outer core beyond ~105°, while P-waves slow sharply from ~13.7 to ~8.1 km/s at 2900 km (Gutenberg discontinuity), refracting inward and leaving a 105°–140° shadow."
   },
   {
-    "id": "T-02",
-    "topic": "T2",
-    "question": "What is the primary driving mechanism providing the greatest net force on tectonic plates?",
+    "id": "4.2-06",
+    "topic": "4.2",
+    "question": "What is the Mohorovičić (Moho) Discontinuity, and why is it deeper beneath continents than oceans?",
     "options": [
-      "Slab pull (gravitational sinking of cold, dense oceanic lithosphere)",
-      "Ridge push only",
-      "Tidal friction dragging continents",
-      "Centrifugal spinning of the Earth"
+      "The seismic boundary between crust and denser mantle peridotite (~30–70 km under continents, ~5–10 km under oceans)",
+      "The boundary between liquid outer core and solid inner core at 5150 km",
+      "The base of the asthenosphere at 660 km",
+      "The boundary between sediment and basalt at 1 km depth"
     ],
     "answer": 0,
-    "explanation": "Slab pull, caused by cold, dense eclogitised oceanic lithosphere sinking into the asthenosphere at subduction zones, dominates plate motion."
+    "explanation": "At the Moho, P-wave velocity jumps from ~6.5–7.0 km/s (crust) to ~8.1 km/s (ultramafic mantle); continental crust is much thicker than oceanic crust."
   },
   {
-    "id": "T-03",
-    "topic": "T3",
-    "question": "What planar zone of dipping earthquake foci traces a subducting oceanic slab down to ~670 km depth?",
+    "id": "4.2-07",
+    "topic": "4.2",
+    "question": "Which driving mechanism is considered the strongest force pulling tectonic plates today?",
     "options": [
-      "Wadati-Benioff zone",
-      "Mohorovi\u010di\u0107 discontinuity",
-      "Gutenberg discontinuity",
-      "Lehmann boundary"
+      "Slab pull — cold, dense subducting oceanic lithosphere sinking into the mantle at trenches, pulling the trailing plate",
+      "Tidal friction from the Moon alone",
+      "Centrifugal force from Earth's rotation",
+      "Wind stress on ocean surfaces"
     ],
     "answer": 0,
-    "explanation": "The Wadati-Benioff zone is a dipping planar zone of earthquake foci marking frictional and brittle rupture within a descending cold slab."
+    "explanation": "Alongside ridge push and mantle convection, slab pull from dense descending oceanic lithosphere is the dominant plate-driving force."
   },
   {
-    "id": "T-04",
-    "topic": "T4",
-    "question": "Why does an S-wave shadow zone occur at angular distances greater than 104\u00b0 from an earthquake epicentre?",
+    "id": "4.2-08",
+    "topic": "4.2",
+    "question": "What is the Curie point (~585°C for magnetite), and how does it allow rocks to record palaeomagnetism?",
     "options": [
-      "S-waves cannot propagate through the liquid iron outer core",
-      "S-waves bounce off the crust-mantle boundary",
-      "S-waves convert completely into surface Love waves",
-      "S-waves speed up and exit through the atmosphere"
+      "The temperature below which cooling magnetic minerals (e.g. magnetite in basalt) lock in the direction and inclination of Earth's magnetic field",
+      "The temperature at which quartz turns into calcite",
+      "The melting point of the inner core",
+      "The temperature at which oceanic crust subducts"
     ],
     "answer": 0,
-    "explanation": "Shear (S) waves require shear rigidity to propagate and cannot travel through the molten iron-nickel outer core, producing a shadow zone from 104\u00b0 to 180\u00b0."
+    "explanation": "As lava cools past the Curie point (~585°C), magnetic domains align with the ambient geomagnetic field and freeze permanently (thermoremanent magnetisation)."
   },
   {
-    "id": "T-05",
-    "topic": "T5",
-    "question": "What seismic discontinuity marks the compositional boundary between the crust and the ultramafic mantle?",
+    "id": "4.2-09",
+    "topic": "4.2",
+    "question": "What palaeomagnetic inclination (dip of magnetic vector) is recorded in rocks formed at the Equator (0°) vs. the Poles (90°)?",
     "options": [
-      "Mohorovi\u010di\u0107 discontinuity (Moho)",
-      "Gutenberg discontinuity",
-      "Lehmann discontinuity",
-      "Conrad discontinuity"
+      "0° (horizontal) at the Equator; 90° (vertical) at the Poles",
+      "90° (vertical) at the Equator; 0° (horizontal) at the Poles",
+      "45° everywhere on Earth",
+      "Magnetic inclination is independent of latitude"
     ],
     "answer": 0,
-    "explanation": "The Moho marks the abrupt jump in P-wave velocity from ~6-7 km/s in the crust to ~8 km/s in peridotite mantle."
+    "explanation": "Magnetic field lines are horizontal (I = 0°) at the magnetic equator and vertical (I = ±90°) at the poles, allowing determination of palaeolatitude."
   },
   {
-    "id": "T-06",
-    "topic": "T1",
-    "question": "What type of plate boundary is the San Andreas Fault in California?",
+    "id": "4.2-10",
+    "topic": "4.2",
+    "question": "How do symmetrical magnetic anomaly stripes parallel to mid-ocean ridges prove seafloor spreading?",
     "options": [
-      "Conservative (transform) plate boundary",
-      "Destructive subduction zone",
-      "Constructive divergent boundary",
-      "Continental collision zone"
+      "New oceanic basalt extruded at the ridge records normal and reversed geomagnetic polarity reversals as plates spread symmetrically away from the ridge axis",
+      "Continental glaciers scrape symmetrical magnetic grooves into granite",
+      "Subduction zones create identical stripes on abyssal plains",
+      "Ocean water magnetises limestone evenly across all oceans"
     ],
     "answer": 0,
-    "explanation": "The San Andreas Fault is a dextral strike-slip transform boundary where the Pacific and North American plates slide past each other horizontally."
-  },
-  {
-    "id": "G-01",
-    "topic": "G1",
-    "question": "What geological structure is the most common hydrocarbon trap in sedimentary basins?",
-    "options": [
-      "Anticlinal fold with an impermeable shale caprock",
-      "Synclinal trough",
-      "Open vertical master joint",
-      "Granite batholith core"
-    ],
-    "answer": 0,
-    "explanation": "Low-density buoyant petroleum and gas migrate up through permeable reservoir rock and pool in the crest of an anticline under an impermeable seal."
-  },
-  {
-    "id": "G-02",
-    "topic": "G2",
-    "question": "What mineral is the primary commercial ore of aluminium, formed by extreme tropical leaching of silicate rocks?",
-    "options": [
-      "Bauxite",
-      "Hematite",
-      "Chalcopyrite",
-      "Galena"
-    ],
-    "answer": 0,
-    "explanation": "Bauxite (hydrated aluminium oxide) forms as a residual soil in warm, humid tropical climates where intense leaching strips silica and soluble cations."
-  },
-  {
-    "id": "G-03",
-    "topic": "G3",
-    "question": "What physical hydrogeological property measures the capacity of a rock to TRANSMIT fluid through interconnected pore spaces?",
-    "options": [
-      "Permeability",
-      "Porosity",
-      "Bulk density",
-      "Compressibility"
-    ],
-    "answer": 0,
-    "explanation": "Porosity measures the percentage of void space; permeability measures the interconnectedness of pore throats and the ease of fluid flow."
-  },
-  {
-    "id": "G-04",
-    "topic": "G4",
-    "question": "Why does native gold concentrate in river gravel bars and plunge pools as alluvial placer deposits?",
-    "options": [
-      "Extremely high specific gravity (~19.3) and chemical inertness",
-      "High solubility in river water",
-      "Low density that allows it to float to gravel banks",
-      "Magnetic attraction to basalt boulders"
-    ],
-    "answer": 0,
-    "explanation": "Gold is dense (~19.3 g/cm3), malleable, and chemically unreactive, allowing water currents to winnow away lighter quartz and concentrate gold in gravels."
-  },
-  {
-    "id": "G-05",
-    "topic": "G1",
-    "question": "What ratio of oxygen isotopes (18O / 16O) in benthic foraminifera shells indicates a glacial period with extensive ice sheets?",
-    "options": [
-      "Higher 18O / 16O ratio (enriched in heavy 18O)",
-      "Lower 18O / 16O ratio (depleted in 18O)",
-      "Zero 18O remaining in seawater",
-      "Equal 18O and 16O isotopes"
-    ],
-    "answer": 0,
-    "explanation": "Light 16O evaporates preferentially and is locked up in polar ice sheets, leaving ocean water and foraminiferal calcite enriched in heavy 18O."
+    "explanation": "Vine & Matthews showed that symmetrical normal/reversed magnetic stripes flanking mid-ocean ridges record continuous crustal creation and geomagnetic reversals."
   }
 ]
