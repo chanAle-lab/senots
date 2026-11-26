@@ -621,5 +621,82 @@
     "category": "Palaeomagnetism",
     "question": "Explain Remanent Magnetism, Curie Point, Magnetic Inclination, and Seafloor Anomalies.",
     "answer": "<b>Remanent magnetism:</b> Fe-rich minerals (e.g. magnetite) align with Earth's field and lock in when cooling below the <b>Curie point (~585°C)</b>.<br><b>Inclination:</b> Compass dip angle (<b>90° at poles, 0° at equator</b>) reveals palaeolatitude.<br>Symmetrical magnetic reversal stripes on ocean floors prove <b>seafloor spreading</b>."
+  },
+  {
+    "id": "notes-090",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "F2 – Maps & Structures",
+    "question": "How does graded bedding act as a way-up structure?",
+    "answer": "In normal (right-way-up) graded bedding, particles become finer upwards—coarse grains sit at the base of the bed and grade smoothly up into fine grains at the top (so the fining direction points to the younger top)."
+  },
+  {
+    "id": "notes-091",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "F2 – Maps & Structures",
+    "question": "How do ripples / cross-lamination indicate way-up?",
+    "answer": "Cross-laminae (foresets) are curved/asymptotic at the base of the set and truncated sharply at the top by the overlying bed or ripple layer; the truncation surface is the younger top."
+  },
+  {
+    "id": "notes-092",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "F2 – Maps & Structures",
+    "question": "How does pillow lava act as a way-up structure?",
+    "answer": "Lava pillows have smooth, convex-upward rounded tops and pointed downward keels/cusps moulded into the spaces between underlying pillows; the rounded convex surfaces face the younger top."
+  },
+  {
+    "id": "notes-093",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "F2 – Maps & Structures",
+    "question": "What do desiccation cracks show about way-up, and what happens if the surface is left exposed for longer?",
+    "answer": "Desiccation cracks narrow downwards into V-shapes (wider at the younger top, often filled by overlying sediment). If the exposed surface is left long enough, it may be colonised by vegetation, with roots preserved as rootlet beds."
+  },
+  {
+    "id": "notes-094",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "F2 – Maps & Structures",
+    "question": "What do dip arrows tell you about rock age and fold type on a geological map?",
+    "answer": "Dip arrows always point towards the youngest rock (which also helps identify the downthrow side of a fault). On either side of a fold axis, dip arrows pointing towards each other (><) indicate a syncline, while dip arrows pointing away from each other (<>) indicate an anticline."
+  },
+  {
+    "id": "notes-095",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "F2 – Maps & Structures",
+    "question": "How do you recognise a fold and locate its fold axis from outcrop patterns on a map?",
+    "answer": "A repeating symmetrical pattern of rock units across a map indicates a fold. The central bed in the symmetrical sequence marks the position of the fold axis (axial plane trace)."
+  },
+  {
+    "id": "notes-096",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "F2 – Maps & Structures",
+    "question": "How can you tell from a map if a fold's axial plane is inclined rather than upright?",
+    "answer": "If one limb dips more steeply than the other, the axial plane is inclined (not upright), and the axial plane trace on the map will lie closer to the steeper limb."
+  },
+  {
+    "id": "notes-097",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "F2 – Maps & Structures",
+    "question": "How do you identify an unconformity on a geological map?",
+    "answer": "Look for very different dips and strikes across a boundary, rocks above the unconformity that are often horizontal or shallowly dipping (5°–10°), and older fold axes (or faults) stopping abruptly at the unconformity surface."
+  },
+  {
+    "id": "notes-098",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "F2 – Maps & Structures",
+    "question": "How do plutons/batholiths differ from sills, dykes, and lava flows on a geological map?",
+    "answer": "A pluton or batholith appears as a large, irregular shape (tending to have steep sides), whereas sills, dykes, and lava flows appear as linear igneous bodies."
+  },
+  {
+    "id": "notes-099",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "F2 – Maps & Structures",
+    "question": "How do you identify the downthrow side of a fault and prove dip-slip movement on a map?",
+    "answer": "The youngest rock is always preserved on the downthrow side of the fault. Dip-slip movement is proved when folded beds on either side of the fault cannot be matched back up by sliding them horizontally."
+  },
+  {
+    "id": "notes-100",
+    "topicId": "Mapwork & Way-Up Structures",
+    "category": "F2 – Maps & Structures",
+    "question": "How does a dip-slip fault shift the outcrop pattern of a syncline vs. an anticline?",
+    "answer": "On the downthrow side of a dip-slip fault, the outcrop pattern moves outwards in a syncline (wider core) and moves inwards in an anticline (narrower core)."
   }
 ]
