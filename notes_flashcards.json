@@ -348,5 +348,278 @@
     "category": "Rock Cycle Energy",
     "question": "What are the External and Internal energy inputs driving the rock cycle?",
     "answer": "<b>External:</b> Solar energy (uneven heating -> climate belts, weather, hydrologic cycle, weathering/erosion) + Gravity (rain, rivers, glaciers, tides, subduction).<br><b>Internal:</b> Radioactive decay in mantle (convection currents driving plate tectonics), core conduction, and mantle plumes."
+  },
+  {
+    "id": "notes-051",
+    "topicId": "Sedimentary Environments",
+    "category": "Hjulström Curve & Transport",
+    "question": "What does the Hjulström Curve show, and why do consolidated muds require higher erosion velocity than sand?",
+    "answer": "It shows the current velocities needed to erode (entrain), transport, and deposit different grain sizes.<br>Cohesive <b>silts and clays</b> bond tightly together when consolidated, requiring higher erosion velocity than loose sand. Once eroded, sediment stays transported at lower velocities than needed for erosion."
+  },
+  {
+    "id": "notes-052",
+    "topicId": "Sedimentary Environments",
+    "category": "Weathering",
+    "question": "Compare Freeze-Thaw, Exfoliation, and Granular Disintegration.",
+    "answer": "<b>Freeze-thaw:</b> Water freezes and expands (~9%) in cracks/joints, widening them (scree slopes).<br><b>Exfoliation (onion-skin):</b> Diurnal heating/cooling expands and contracts outer rock layers, causing concentric fractures.<br><b>Granular disintegration:</b> Different minerals in coarse igneous rock expand at different rates, breaking grain boundaries."
+  },
+  {
+    "id": "notes-053",
+    "topicId": "Sedimentary Environments",
+    "category": "Weathering",
+    "question": "Define Hydrolysis, Carbonation, Oxidation, and Chelation.",
+    "answer": "<b>Hydrolysis:</b> Silicates (e.g. orthoclase feldspar) react with H+/water to form clay minerals (kaolinite) + ions.<br><b>Carbonation:</b> Weak carbonic acid (rainwater pH 6, soil pH 5.5) dissolves carbonates (calcite).<br><b>Oxidation:</b> Fe2+ minerals incorporate oxygen -> rusty brown ochre.<br><b>Chelation:</b> Organic acids in soil remove metal ions (Fe, Al)."
+  },
+  {
+    "id": "notes-054",
+    "topicId": "Sedimentary Environments",
+    "category": "Transport & Sorting",
+    "question": "Distinguish between Traction, Saltation, Suspension, Solution, and Flocculation.",
+    "answer": "<b>Traction:</b> Large bedload grains roll/slide in constant contact with bed.<br><b>Saltation:</b> Grains bounce/jump along the bed.<br><b>Suspension:</b> Fine silt/clay held aloft by turbulence.<br><b>Solution:</b> Dissolved ions.<br><b>Flocculation:</b> Clay particles clump together when freshwater meets saltwater and settle faster."
+  },
+  {
+    "id": "notes-055",
+    "topicId": "Sedimentary Environments",
+    "category": "Grain Analysis & Classification",
+    "question": "How are Sorting Coefficient and Skewness interpreted in sediments?",
+    "answer": "<b>Sorting Coefficient:</b> (Φ84 − Φ16) / 2 (lower = better sorted; <0.35 very well sorted, >4 extremely poor; steeper cumulative frequency curve = better sorted).<br><b>Skewness:</b> Fine/positive skew vs coarse/negative skew; symmetrical when mean = median."
+  },
+  {
+    "id": "notes-056",
+    "topicId": "Sedimentary Environments",
+    "category": "Grain Analysis & Classification",
+    "question": "What does the Zingg Diagram classify, and what rock types form each shape?",
+    "answer": "Classifies pebble shapes using axis ratios (b/a vs c/b):<br><b>Sphere-like:</b> Igneous rocks/minerals with no cleavage.<br><b>Disk-like:</b> Flaky minerals with 1 cleavage (micas).<br><b>Blade/Rod-like:</b> Rocks with defined layering or preferred orientation."
+  },
+  {
+    "id": "notes-057",
+    "topicId": "Sedimentary Environments",
+    "category": "Diagenesis",
+    "question": "List the main processes of Diagenesis (lithification).",
+    "answer": "<b>Compaction</b> (squeezes out water, reduces porosity/permeability; clays compact far more than quartz), <b>Pressure solution</b> (dissolution at grain contacts, stylolites in limestone, quartz overgrowths), <b>Cementation</b> (quartz, calcite, haematite, limonite), <b>Recrystallisation</b> (aragonite -> calcite), <b>Replacement</b> (dolomitisation, silicification), and <b>Authigenic</b> mineral growth (e.g. glauconite)."
+  },
+  {
+    "id": "notes-058",
+    "topicId": "Sedimentary Environments",
+    "category": "Diagenesis",
+    "question": "Distinguish between Allogenic, Authigenic, Poikilitic calcite, and Quartz overgrowths.",
+    "answer": "<b>Allogenic:</b> Framework grains/matrix formed elsewhere and transported.<br><b>Authigenic:</b> Cement/minerals grown in situ.<br><b>Poikilitic calcite:</b> Large calcite cement crystals enclosing smaller 'floating' clastic grains (post-compaction growth).<br><b>Quartz overgrowths:</b> Silica cement growing in crystallographic continuity around rounded quartz grains."
+  },
+  {
+    "id": "notes-059",
+    "topicId": "Sedimentary Environments",
+    "category": "Scree & Alluvial Fans",
+    "question": "Describe the conditions, sediment types, and geometry of Scree and Alluvial Fan deposits.",
+    "answer": "<b>Initiation:</b> Steep slopes + abundant sediment supply.<br><b>Sediment:</b> Angular breccias, poorly sorted, immature, high porosity/permeability; wedge-shaped in cross-section, fan-shaped in plan (coalescing into <b>bajadas</b>). Rarely preserved except as basal conglomerates on unconformities."
+  },
+  {
+    "id": "notes-060",
+    "topicId": "Sedimentary Environments",
+    "category": "Fluvial Environments",
+    "question": "Compare Braided Streams vs Meandering Rivers.",
+    "answer": "<b>Braided:</b> Steep slopes, flashy floods, overloaded with coarse sand/gravel -> splitting channels, poorly sorted, immature, high porosity/permeability, plane/cross-bedding.<br><b>Meandering:</b> Flat plains, consistent flow, helical flow (erodes outer cut bank, deposits inner point bar) -> fining-upward sequence, mature well-sorted sands/silts/muds, ox-bow lakes, levees, crevasse splays, placer gold in lag."
+  },
+  {
+    "id": "notes-061",
+    "topicId": "Sedimentary Environments",
+    "category": "Flow Regimes & Bedforms",
+    "question": "List the sequence of bedforms in medium sand as flow velocity increases.",
+    "answer": "<b>Lower flow regime:</b> Current ripples (<1cm high, <10cm wavelength; cross-lamination; straight -> sinuous -> linguoid) -> Subaqueous dunes (>10cm; cross-bedding / trough cross-bedding).<br><b>Upper flow regime</b> (all surface grains moving): Planar/flat bedding -> <b>Antidunes</b> (standing waves; rarely preserved as flow wanes)."
+  },
+  {
+    "id": "notes-062",
+    "topicId": "Sedimentary Environments",
+    "category": "Deltas & Estuaries",
+    "question": "Describe the three bed sets of a Delta and the vertical sequence produced as a delta progrades.",
+    "answer": "<b>Topset:</b> Coarse gravel/sand, cross-bedded channels, rootlets/coal.<br><b>Foreset (delta slope):</b> Medium sand/silt, slumping, cross-bedding.<br><b>Bottomset (pro-delta):</b> Finest laminated/bioturbated muds.<br>Progradation produces a <b>coarsening-upward</b> sequence. Types: arcuate, cuspate, bird's-foot."
+  },
+  {
+    "id": "notes-063",
+    "topicId": "Sedimentary Environments",
+    "category": "Turbidites & Sole Marks",
+    "question": "Describe the Bouma Sequence (divisions A–E) of a turbidite deposit.",
+    "answer": "<b>A:</b> Massive, graded sand/granules (scoured base, rapid deposition).<br><b>B:</b> Plane parallel laminae (upper flow regime).<br><b>C:</b> Ripples / wavy / convolute laminae (lower flow regime).<br><b>D:</b> Upper parallel laminae.<br><b>E:</b> Pelagic mud/shale settling from suspension."
+  },
+  {
+    "id": "notes-064",
+    "topicId": "Sedimentary Environments",
+    "category": "Turbidites & Sole Marks",
+    "question": "Explain how Flute Casts, Groove Casts, Load Casts, and Flame Structures form and show way-up.",
+    "answer": "Found as casts on the <b>base</b> of sandstone/greywacke beds:<br><b>Flute casts:</b> Turbulent scour infills; <b>blunt/deep end upstream, tapers downstream</b>.<br><b>Groove/bounce casts:</b> Dragged/bounced debris.<br><b>Load casts & Flame structures:</b> Dense sand sinks into waterlogged mud (convolute bedding), squeezing mud flames upwards."
+  },
+  {
+    "id": "notes-065",
+    "topicId": "Sedimentary Environments",
+    "category": "Marine & Limestones",
+    "question": "Compare Carboniferous Limestone, Oolitic Limestone, and Cretaceous Chalk.",
+    "answer": "<b>Carboniferous Limestone:</b> Grey, bioclastic (crinoids, corals) in micrite (mud) or sparite (crystalline calcite) cement.<br><b>Oolitic Limestone:</b> Spherical CaCO3 ooids formed in warm, shallow, agitated lagoons (oomicrite / oosparite).<br><b>Chalk:</b> Pure, white, very fine powdery coccolith plates formed in deeper water."
+  },
+  {
+    "id": "notes-066",
+    "topicId": "Sedimentary Environments",
+    "category": "Marine & Limestones",
+    "question": "How do symmetrical wave ripples and black shales indicate depositional environment?",
+    "answer": "<b>Symmetrical ripples:</b> Bidirectional wave action in shallow marine/beach zones; pointed tops and rounded troughs give <b>way-up</b>.<br><b>Black shale:</b> Fine clays settled in quiet deep marine basins; black colour from unoxidised carbon indicates <b>anoxic</b> conditions."
+  },
+  {
+    "id": "notes-067",
+    "topicId": "Sedimentary Environments",
+    "category": "Deserts & Evaporites",
+    "question": "Describe the three desert surface types, aeolian sandstone features, and dreikanter.",
+    "answer": "<b>Types:</b> Erg (sandy), Reg (stony), Hammada (bare rock).<br><b>Aeolian sandstone:</b> Well-rounded ('millet-seed'), well-sorted, frosted quartz grains, red haematite staining, large-scale cross-bedding (barchan horns point downwind).<br><b>Dreikanter (ventifacts):</b> Three-faced wind-abraded pebbles on Reg."
+  },
+  {
+    "id": "notes-068",
+    "topicId": "Sedimentary Environments",
+    "category": "Deserts & Evaporites",
+    "question": "Describe Playa Lakes, the Evaporite precipitation order, and Halite Pseudomorphs.",
+    "answer": "<b>Playa lake:</b> Ephemeral desert lake in a wadi/basin.<br><b>Evaporite order</b> (least soluble first -> most soluble last): <b>Calcite -> Gypsum -> Halite</b>.<br><b>Halite pseudomorphs:</b> Salt crystals dissolve in fresh water influx, leaving cubic moulds infilled by sediment."
+  },
+  {
+    "id": "notes-069",
+    "topicId": "Time & Fossils",
+    "category": "Stratigraphic Principles",
+    "question": "State Uniformitarianism, the Age of the Earth, and William Smith's Law of Faunal Succession.",
+    "answer": "<b>Uniformitarianism (Hutton):</b> 'The present is the key to the past' (Earth ~<b>4.55–4.56 billion years</b> old).<br><b>Faunal Succession (William Smith):</b> Fossil species appear, exist, and go extinct in a predictable vertical order worldwide, allowing correlation and relative dating."
+  },
+  {
+    "id": "notes-070",
+    "topicId": "Time & Fossils",
+    "category": "Stratigraphic Principles",
+    "question": "State the Laws of Superposition, Original Horizontality, Lateral Continuity, and what an Unconformity represents.",
+    "answer": "<b>Superposition:</b> Oldest beds at base, youngest at top (if undeformed).<br><b>Original Horizontality:</b> Sediments are deposited horizontally; tilting/folding came later.<br><b>Lateral Continuity:</b> Beds extend laterally in all directions.<br><b>Unconformity:</b> A hiatus/gap representing erosion, non-deposition, and missing time."
+  },
+  {
+    "id": "notes-071",
+    "topicId": "Time & Fossils",
+    "category": "Facies & Transgression",
+    "question": "Distinguish between Lithofacies and Biofacies, and explain Marine Transgression.",
+    "answer": "<b>Lithofacies:</b> Based on physical/chemical rock traits (grain size, mineralogy, structures).<br><b>Biofacies:</b> Based on fossil fauna/flora.<br><b>Transgression (sea-level rise):</b> Shoreline and facies belts migrate landward, creating a <b>deepening-upward</b> vertical sequence and <b>diachronous</b> rock units (cutting across time)."
+  },
+  {
+    "id": "notes-072",
+    "topicId": "Time & Fossils",
+    "category": "Fossilisation",
+    "question": "What conditions favour fossil preservation, and what causes bias in the fossil record?",
+    "answer": "<b>Conditions:</b> Rapid burial, anaerobic (low-oxygen) conditions, low-energy quiet water, fine-grained sediment.<br><b>Record bias:</b> Strongly favours marine organisms with hard parts (shells/bones) buried rapidly in low-energy basins; soft-bodied organisms are rare (except in <b>Lagerstätten</b> like Burgess Shale, amber, permafrost)."
+  },
+  {
+    "id": "notes-073",
+    "topicId": "Time & Fossils",
+    "category": "Fossilisation",
+    "question": "Compare Calcification, Carbonisation, Silicification, and Pyritisation.",
+    "answer": "<b>Calcification:</b> Unstable aragonite recrystallises to stable calcite.<br><b>Carbonisation:</b> Compression drives off volatiles leaving a dark carbon film (plants, graptolites).<br><b>Silicification:</b> Silica-rich groundwater replaces material molecule-by-molecule with quartz/chalcedony (fine wood detail).<br><b>Pyritisation:</b> FeS2 replacement in anaerobic muds/swamps."
+  },
+  {
+    "id": "notes-074",
+    "topicId": "Time & Fossils",
+    "category": "Fossilisation",
+    "question": "Distinguish between External Moulds, Internal Moulds, and Casts.",
+    "answer": "<b>External mould:</b> Hollow impression of outer shell left after shell dissolves.<br><b>Internal mould:</b> Sediment infills the inside cavity and remains after shell dissolves (preserves muscle scars, pallial line).<br><b>Cast:</b> Later sediment/minerals filling a mould."
+  },
+  {
+    "id": "notes-075",
+    "topicId": "Time & Fossils",
+    "category": "Fossil Assemblages & Zone Fossils",
+    "question": "Compare Life Assemblages vs Death Assemblages, and list the ideal traits of a Zone Fossil.",
+    "answer": "<b>Life assemblage:</b> In situ, little damage, wide age range (juveniles + adults), high diversity, no current alignment.<br><b>Death assemblage:</b> Transported, fragmented/sorted, current-aligned, lacking juveniles.<br><b>Zone fossil traits:</b> Rapid evolution, widespread (cosmopolitan), facies-independent, abundant, easily preserved & identified."
+  },
+  {
+    "id": "notes-076",
+    "topicId": "Time & Fossils",
+    "category": "Bivalves",
+    "question": "Explain how Bivalve shell features (ligament, adductor muscles, pallial sinus, byssus) relate to mode of life.",
+    "answer": "Two valves (originally aragonite) opened by a <b>ligament</b> and closed by <b>adductor muscles</b>.<br><b>Deep burrowing:</b> Deep <b>pallial sinus</b> (for long retracting siphons), shell gape, elongated smooth shell.<br><b>Attached:</b> Byssus threads (mussels) or cemented (oysters).<br><b>Free-swimming:</b> Clapping valves (scallops)."
+  },
+  {
+    "id": "notes-077",
+    "topicId": "Time & Fossils",
+    "category": "Trilobites, Corals & Graptolites",
+    "question": "State the geological range and key ecological/preservation features of Trilobites, Corals, and Graptolites.",
+    "answer": "<b>Trilobites:</b> Lower Cambrian–end Permian; moulted exoskeleton (<b>ecdysis</b>), trace fossils (<b>Cruziana</b>).<br><b>Corals:</b> Warm (22–29°C), clear, shallow (<25m), oxygenated tropical seas; expel algae when too warm (<b>bleaching</b>).<br><b>Graptolites:</b> Late Cambrian–Early Devonian; pelagic stipes/thecae (pendent -> reclined -> scandent) preserved in anoxic <b>black shales</b>."
+  },
+  {
+    "id": "notes-078",
+    "topicId": "Time & Fossils",
+    "category": "Cephalopods & Ammonoids",
+    "question": "Compare Goniatitic, Ceratitic, and Ammonitic suture lines and their geological ranges.",
+    "answer": "Saddles point forward (aperture), lobes point backward; complex crenulated sutures strengthen the shell for deeper water:<br><b>Goniatitic:</b> Smooth lobes & saddles (Upper Devonian–Permian; Carboniferous zone fossil).<br><b>Ceratitic:</b> Smooth saddles, frilled lobes (Permian–Triassic; Triassic zone fossil).<br><b>Ammonitic:</b> Complex frilled lobes & saddles (Jurassic–Cretaceous; >60 Jurassic zones)."
+  },
+  {
+    "id": "notes-079",
+    "topicId": "Time & Fossils",
+    "category": "Trace Fossils & Footprints",
+    "question": "How are dinosaur Hip Height, Relative Stride Length (RSL), and Gait calculated from footprints?",
+    "answer": "<b>Hip height</b> ≈ 4 × footprint length; <b>Body length</b> ≈ 10 × footprint length (need ≥3 prints).<br><b>RSL = stride length / hip height:</b><br>RSL < 2 = <b>Walk</b>; 2–2.9 = <b>Trot</b>; > 2.9 = <b>Gallop</b>.<br>Dimensionless speed = (RSL − 1) / 1.1."
+  },
+  {
+    "id": "notes-080",
+    "topicId": "Time & Fossils",
+    "category": "Radiometric Dating",
+    "question": "Explain Half-life, Blocking Temperature (~300°C), and why radiometric dates are minimum ages.",
+    "answer": "<b>Half-life:</b> Time for half of unstable parent atoms to decay to stable daughter atoms (optimal dating: 1–3 half-lives; max 8–10).<br><b>Blocking temp (~300°C):</b> Temperature where crystal lattice becomes rigid enough to trap daughter gases (e.g. Ar). Ages are <b>minimum ages</b> because daughter atoms may escape before cooling to 300°C or during metamorphism."
+  },
+  {
+    "id": "notes-081",
+    "topicId": "Time & Fossils",
+    "category": "Radiometric Dating",
+    "question": "Compare K–Ar dating vs Sm–Nd (147Sm–143Nd) isochron dating, and define Mass Extinction.",
+    "answer": "<b>K–Ar:</b> Common K, but daughter Ar gas can leak if heated (false younger age).<br><b>Sm–Nd (t½ = 1.06×10^11 yrs):</b> Resistant to alteration/metamorphism, dates terrestrial & meteorite samples (steeper isochron = older rock).<br><b>Mass extinction:</b> Rapid loss of 30–95% of species across diverse environments (e.g. volcanism, asteroid impact)."
+  },
+  {
+    "id": "notes-082",
+    "topicId": "Earth Structure & Tectonics",
+    "category": "Earth Structure & Evidence",
+    "question": "Distinguish between Crust, Mantle, Core, Lithosphere, and Asthenosphere.",
+    "answer": "<b>Lithosphere:</b> Rigid crust + uppermost solid mantle (moves as plates).<br><b>Asthenosphere:</b> Partially molten, viscous upper mantle (~1300°C isotherm, low-velocity zone) acting as lubricant.<br><b>Outer core (2900–5155 km):</b> Liquid iron-nickel (generates magnetic field).<br><b>Inner core (5155–6371 km):</b> Solid iron-nickel."
+  },
+  {
+    "id": "notes-083",
+    "topicId": "Earth Structure & Tectonics",
+    "category": "Earth Structure & Evidence",
+    "question": "List the direct and indirect evidence for Earth's internal composition and structure.",
+    "answer": "<b>Meteorites:</b> Stony chondrites/achondrites (mantle/crust) & iron meteorites (core).<br><b>Direct:</b> Kimberlite mantle xenoliths, <b>Ophiolites</b> (obducted ocean crust + peridotite mantle), boreholes (max ~12.26 km).<br><b>Indirect:</b> Seismic waves (max EQ depth ~700 km), Earth mean density (<b>5.515 g/cm³</b> vs crust 2.7–2.9), gravity, geomagnetism."
+  },
+  {
+    "id": "notes-084",
+    "topicId": "Earth Structure & Tectonics",
+    "category": "Seismic Waves",
+    "question": "Compare P-waves, S-waves, L-waves, and R-waves, and explain why seismic paths curve upward.",
+    "answer": "<b>P-waves:</b> Longitudinal, fastest, pass through solids & liquids.<br><b>S-waves:</b> Transverse, slower, solids only (stopped by liquid outer core).<br><b>L/R-waves:</b> Destructive surface waves.<br>Paths curve upward because waves refract away from the normal as velocity increases with depth (rigidity increases faster than density)."
+  },
+  {
+    "id": "notes-085",
+    "topicId": "Earth Structure & Tectonics",
+    "category": "Seismic Waves",
+    "question": "Explain the Moho discontinuity and the P-wave and S-wave shadow zones.",
+    "answer": "<b>Moho (crust–mantle boundary):</b> P-waves speed up from ~6 to ~8 km/s due to denser, more rigid peridotite.<br><b>P-wave shadow zone (105°–140°):</b> P-waves slow and refract at the liquid outer core boundary.<br><b>S-wave shadow zone (>105°):</b> No direct S-waves because liquids have zero rigidity."
+  },
+  {
+    "id": "notes-086",
+    "topicId": "Earth Structure & Tectonics",
+    "category": "Continental Drift & Plates",
+    "question": "What evidence supports Continental Drift, and which plates are purely oceanic?",
+    "answer": "<b>Evidence:</b> 1000m isobath jigsaw fit, matching cratons/mountain belts, shared fossils (Mesosaurus, Glossopteris), and southern hemisphere glacial deposits.<br><b>Purely oceanic plates:</b> Pacific, Nazca, Juan de Fuca, Scotia (major plates: N/S American, Eurasian, African, Pacific, Australian, Antarctic)."
+  },
+  {
+    "id": "notes-087",
+    "topicId": "Earth Structure & Tectonics",
+    "category": "Driving Mechanisms",
+    "question": "Compare Mantle/Asthenosphere Convection, Ridge Push, and Slab Pull.",
+    "answer": "<b>Convection:</b> Thermal plumes drag passive plates (asthenosphere cells 150–200 km allow hotspots & migrating ridges).<br><b>Ridge Push:</b> Gravity pulls newly solidified crust down and away from elevated MORs (3–4 km high).<br><b>Slab Pull (dominant):</b> Old, cold, dense subducting slab sinks and pulls the trailing plate (fastest plates have longest subducting slabs)."
+  },
+  {
+    "id": "notes-088",
+    "topicId": "Earth Structure & Tectonics",
+    "category": "Plate Boundaries",
+    "question": "Compare Divergent, Convergent (O-O, O-C, C-C), Conservative, and Hotspot settings.",
+    "answer": "<b>Divergent (MOR):</b> Shallow EQs, effusive basalt, high heat flow, decompression melting of peridotite, transform faults at 90°.<br><b>O–O / O–C Convergent:</b> Trench, Benioff zone (shallow–deep EQs), explosive intermediate/silicic volcanoes, island arc / fold mountains.<br><b>C–C Convergent:</b> Fold mountains (Alps/Himalayas), shallow–int EQs, no volcanoes.<br><b>Conservative:</b> Shallow EQs, no melting/volcanoes."
+  },
+  {
+    "id": "notes-089",
+    "topicId": "Earth Structure & Tectonics",
+    "category": "Palaeomagnetism",
+    "question": "Explain Remanent Magnetism, Curie Point, Magnetic Inclination, and Seafloor Anomalies.",
+    "answer": "<b>Remanent magnetism:</b> Fe-rich minerals (e.g. magnetite) align with Earth's field and lock in when cooling below the <b>Curie point (~585°C)</b>.<br><b>Inclination:</b> Compass dip angle (<b>90° at poles, 0° at equator</b>) reveals palaeolatitude.<br>Symmetrical magnetic reversal stripes on ocean floors prove <b>seafloor spreading</b>."
   }
 ]
